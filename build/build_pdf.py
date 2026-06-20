@@ -53,15 +53,27 @@ def normalize_md(text):
         out.append(l)
     return "\n".join(out)
 
+def fix_emoji(t):
+    # ⚠️ (+ espace) -> rien, pour ne pas casser le gras **⚠️ Pièges.**
+    t = re.sub(r'⚠️?\s*', '', t)
+    # 🔺 -> triangle DejaVu-safe ; 📖 💬 🔤 -> retirés (les titres restent clairs)
+    for k, v in {'\U0001F53A': '▲ ', '\U0001F4D6': '', '\U0001F4AC': '',
+                 '\U0001F524': '', '️': ''}.items():
+        t = t.replace(k, v)
+    # nettoie les espaces surnuméraires laissés dans les titres
+    t = re.sub(r'^(#{1,6})[ \t]+', r'\1 ', t, flags=re.M)
+    return t
+
 def main():
     inp, outp = sys.argv[1], sys.argv[2]
     text = open(inp, encoding="utf-8").read()
+    text = fix_emoji(text)
     text = normalize_md(text)
 
     md = markdown.Markdown(extensions=['tables', 'attr_list', 'toc', 'sane_lists', 'fenced_code', 'md_in_html'],
-                           extension_configs={'toc': {'toc_depth': '1-3'}})
+                           extension_configs={'toc': {'toc_depth': '1-2'}})
     body = md.convert(text)
-    toc = build_toc(md.toc_tokens, max_level=3)
+    toc = build_toc(md.toc_tokens, max_level=2)
 
     doc = f"""<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
 <link rel="stylesheet" href="file://{CSS}"></head>

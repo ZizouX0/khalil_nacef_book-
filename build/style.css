@@ -56,7 +56,9 @@ h4 { font-size: 11pt; color: #7a0016; margin: .9em 0 .3em; page-break-after: avo
 h2, h3, h4 { page-break-inside: avoid; }
 
 /* ---------- Tableaux ---------- */
-table { border-collapse: collapse; width: 100%; margin: .5em 0 1em; font-size: 9.2pt; page-break-inside: avoid; }
+table { border-collapse: collapse; width: 100%; margin: .5em 0 1em; font-size: 9.2pt; }
+tr { page-break-inside: avoid; }            /* ne pas couper une ligne */
+thead { display: table-header-group; }      /* répéter l'en-tête sur chaque page */
 th, td { border: 1px solid #cfcfd4; padding: 4px 7px; text-align: left; vertical-align: top; }
 thead th { background: #b00020; color: #fff; font-weight: bold; border-color:#8a0010; }
 tbody tr:nth-child(even) { background: #f7f1f2; }

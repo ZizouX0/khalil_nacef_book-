@@ -1153,3 +1153,540 @@
 - Die **Wohnung** ist **120** **qm** **groß** und **sehr** **zentral**. — *L'appartement fait 120 m² et est très central.*
 - Ich **finde** **die** **Küche** **zu** **klein**, aber sie ist **gemütlich**. — *Je trouve la cuisine trop petite, mais elle est chaleureuse.*
 - **Unser** **Umzug** ist **ein** Chaos! Bernd **packt** **seine** DVDs. — *Notre déménagement est un bazar ! Bernd emballe ses DVD.*
+
+
+## Thème : Termine {#niveau=A1 #einheit=5 #pages=90-105 #sujet=rendez-vous-heure}
+
+### 🔤 Grammaire
+
+#### G · Les verbes à particule séparable {#cat=verbes-particularites}
+
+**Règle.** Beaucoup de verbes allemands sont formés d'un **préfixe (particule) + verbe** : *aufstehen* (se lever), *anrufen* (appeler), *anfangen* (commencer), *ausgehen* (sortir). Dans une phrase conjuguée, la **particule se détache et part à la FIN de la phrase** ; le verbe se conjugue normalement en position 2. À l'infinitif (avec un modal) ou dans le dictionnaire, le verbe reste entier.
+
+**Exemples.**
+- Wann **stehst** du **auf**? — *Quand te lèves-tu ?* (aufstehen)
+- Ich **rufe** dich morgen **an**. — *Je t'appelle demain.* (anrufen)
+- Der Film **fängt** um 20 Uhr **an**. — *Le film commence à 20 h.* (anfangen)
+- Wir **gehen** am Freitag **aus**. — *Nous sortons vendredi.* (ausgehen)
+- Ich **kaufe** am Nachmittag **ein**. — *Je fais les courses l'après-midi.* (einkaufen)
+
+**Tableau.**
+
+| Infinitif | Particule | ich-Form (séparée) | Traduction |
+|---|---|---|---|
+| auf\|stehen | auf | ich stehe … auf | se lever |
+| an\|rufen | an | ich rufe … an | appeler (au tél.) |
+| an\|fangen | an | es fängt … an (irrég. : fängt) | commencer |
+| aus\|gehen | aus | ich gehe … aus | sortir (le soir) |
+| ein\|kaufen | ein | ich kaufe … ein | faire les courses |
+| mit\|kommen | mit | ich komme … mit | venir avec |
+| an\|sehen | an | ich sehe … an (irrég. : sieht) | regarder |
+
+**⚠️ Pièges.** La particule part **tout à la fin**, même très loin du verbe : *Ich **rufe** dich heute Abend um acht Uhr **an**.* Avec un verbe modal, le verbe séparable reste entier à la fin : *Ich **möchte** heute **ausgehen**.* Ne pas oublier la particule (sens souvent porté par elle : *stehen* = être debout / *aufstehen* = se lever).
+
+#### G · La négation avec nicht {#cat=syntaxe}
+
+**Règle.** **nicht** nie un verbe, un adjectif, un adverbe ou toute la phrase (alors que **kein** nie un nom). Sa **place** dépend de ce qu'on nie : pour nier toute la phrase, **nicht** se met **à la fin** ; mais il se place **devant** l'élément précis qu'il nie (adjectif, complément de lieu, particule séparable).
+
+**Exemples.**
+- Am Sonntag kann ich **nicht**. — *Dimanche, je ne peux pas.* (nie toute la phrase → fin)
+- Ich gehe am Sonntag **nicht** aus. — *Dimanche, je ne sors pas.* (devant la particule)
+- Nein, ich komme **nicht** mit. — *Non, je ne viens pas.* (devant la particule)
+- Das geht **nicht**. — *Ça ne marche pas.*
+- Die Wohnung ist **nicht** teuer. — *L'appartement n'est pas cher.* (devant l'adjectif)
+
+**Tableau.**
+
+| Ce qu'on nie | Place de nicht | Exemple |
+|---|---|---|
+| toute la phrase (verbe) | à la fin | Ich arbeite heute **nicht**. |
+| un verbe séparable | devant la particule | Ich gehe **nicht** aus. |
+| un adjectif (attribut) | devant l'adjectif | Das ist **nicht** gut. |
+| un complément de lieu | devant le complément | Ich wohne **nicht** in Berlin. |
+| un nom (avec article ind./sans) | → utiliser **kein** | Ich habe **kein** Auto. |
+
+**⚠️ Pièges.** Règle d'or : **kein** pour les noms, **nicht** pour le reste. *Ich habe **keine** Zeit* (pas de temps, nom) mais *Ich komme **nicht*** (négation du verbe). Pour la phrase complète niée, *nicht* va à la toute fin : *Ich kenne ihn **nicht***.
+
+#### G · Les prépositions temporelles (am / um / von … bis) {#cat=prepositions}
+
+**Règle.** Pour situer dans le temps, trois prépositions clés. **am** + jour ou moment de la journée (*am Montag*, *am Morgen*). **um** + heure précise (*um acht Uhr*). **von … bis …** pour une durée (*von neun bis fünf*). On ajoute **zwischen … und …** (entre … et …). Attention : *in der Nacht* (la nuit) est l'exception qui prend *in*.
+
+**Exemples.**
+- **Am** Montag habe ich einen Termin. — *Lundi, j'ai un rendez-vous.*
+- Der Film fängt **um** 20 Uhr an. — *Le film commence à 20 h.*
+- Ich arbeite **von** neun **bis** fünf. — *Je travaille de neuf à cinq heures.*
+- **Am** Morgen frühstücke ich. — *Le matin, je prends le petit-déjeuner.*
+- Ich mache **zwischen** zwölf **und** eins Pause. — *Je fais une pause entre midi et une heure.*
+
+**Tableau.**
+
+| Préposition | S'emploie avec | Exemple | Traduction |
+|---|---|---|---|
+| am | jour de la semaine | am Dienstag | mardi |
+| am | moment de la journée | am Abend | le soir |
+| um | heure précise | um halb drei | à deux heures et demie |
+| von … bis | début → fin | von 8 bis 16 Uhr | de 8 h à 16 h |
+| zwischen … und | intervalle | zwischen 12 und 13 Uhr | entre 12 h et 13 h |
+| in (exception) | la nuit | in der Nacht | la nuit |
+
+**⚠️ Pièges.** Ne pas employer *in* pour les jours (*« in Montag »* est faux → **am Montag**). **am** = an + dem (datif) ; il s'emploie aussi pour les dates (*am ersten Mai*). Seule la nuit fait exception : **in der Nacht** (et non *am Nacht*).
+
+#### G · L'heure : formelle et informelle {#cat=divers}
+
+**Règle.** L'allemand a **deux façons** de dire l'heure. La forme **formelle** (gares, rendez-vous officiels) utilise les 24 h : *14 Uhr 30*, *20 Uhr 15*. La forme **informelle** utilise 12 h avec *halb, Viertel, vor, nach*. Subtilité majeure : **halb** indique la demi-heure **AVANT** l'heure pleine — *halb drei* = « la moitié vers trois » = **2 h 30** (et non 3 h 30 !).
+
+**Exemples.**
+- Wie spät ist es? — Es ist **halb** drei. — *Quelle heure est-il ? — Il est deux heures et demie (2 h 30).*
+- Es ist **Viertel nach** acht. — *Il est huit heures et quart (8 h 15).*
+- Es ist **Viertel vor** drei. — *Il est trois heures moins le quart (2 h 45).*
+- Es ist **fünf nach** zehn. — *Il est dix heures cinq (10 h 05).*
+- Der Zug fährt um **zwanzig** Uhr **fünfzehn**. — *Le train part à 20 h 15.* (formel)
+
+**Tableau.**
+
+| Heure (chiffres) | Forme formelle | Forme informelle |
+|---|---|---|
+| 7:00 | sieben Uhr | sieben |
+| 12:30 | zwölf Uhr dreißig | halb eins |
+| 13:45 | dreizehn Uhr fünfundvierzig | Viertel vor zwei |
+| 14:30 | vierzehn Uhr dreißig | halb drei |
+| 20:15 | zwanzig Uhr fünfzehn | Viertel nach acht |
+| 21:55 | einundzwanzig Uhr fünfundfünfzig | fünf vor zehn |
+| 22:10 | zweiundzwanzig Uhr zehn | zehn nach zehn |
+
+**⚠️ Pièges.** Le piège majeur pour un francophone : **halb** « recule ». *halb vier* = **3 h 30**, *halb sieben* = **6 h 30**. Penser « moitié EN ROUTE VERS l'heure suivante ». Pour demander : *Wie spät ist es?* ou *Wie viel Uhr ist es?* (les deux corrects).
+
+#### G · Le Präteritum de haben (rappel ciblé) {#cat=conjugaison}
+
+**Règle.** Pour dire qu'on n'avait pas le temps, qu'il y a eu une panne, etc., on emploie le prétérit **hatte** (j'avais), forme du passé de *haben* déjà rencontrée. On l'utilise très fréquemment dans les excuses de retard : *Ich hatte eine Panne* (j'ai eu une panne), *Ich hatte keine Zeit* (je n'avais pas le temps).
+
+**Exemples.**
+- Ich **hatte** keine Zeit. — *Je n'avais pas le temps.*
+- Du **hattest** viel Zeit. — *Tu avais beaucoup de temps.*
+- Es **hatte** eine Panne. — *Ça (la voiture) a eu une panne.*
+- Wir **hatten** ein Problem. — *Nous avions un problème.*
+- **Hattet** ihr eine tolle Party? — *Avez-vous eu une super fête ?*
+
+**Tableau.**
+
+| Personne | haben → Präteritum | Exemple |
+|---|---|---|
+| ich | hatte | ich hatte Glück |
+| du | hattest | du hattest Zeit |
+| er/es/sie | hatte | sie hatte ein Auto |
+| wir | hatten | wir hatten ein Problem |
+| ihr | hattet | ihr hattet keine Probleme |
+| sie/Sie | hatten | sie hatten kein Glück |
+
+**⚠️ Pièges.** Comme pour *war*, les formes **ich hatte** et **er/sie hatte** sont identiques. Double **-t-** à toutes les personnes (*hatte*, et non *hate*). À l'oral courant, le prétérit *hatte* est préféré au passé composé *habe … gehabt*.
+
+### 📖 Vocabulaire
+
+#### Verbes
+
+| Verbe (infinitif) | Régime / particularités | Traduction |
+|---|---|---|
+| ab\|sagen | + A (séparable) | annuler, décommander |
+| an\|fangen | fängt an (séparable, irrég.) | commencer |
+| an\|rufen | + A (séparable) | appeler (au téléphone) |
+| auf\|stehen | (séparable) | se lever |
+| aus\|gehen | (séparable) | sortir (le soir) |
+| ein\|kaufen | (séparable) | faire les courses |
+| frühstücken | (intransitif) | prendre le petit-déjeuner |
+| gehen | (intransitif) | aller |
+| joggen | (intransitif) | faire du jogging |
+| mit\|kommen | (séparable) | venir avec |
+| telefonieren | mit + D | téléphoner |
+| sich treffen | trifft sich (réfléchi, irrég.) | se rencontrer, se retrouver |
+| sich verabreden | (réfléchi) | prendre rendez-vous, convenir d'un RDV |
+| sich verspäten | (réfléchi) | être en retard |
+| warten | auf + A | attendre |
+
+#### Noms
+
+| Nom (avec article) | Pluriel | Traduction |
+|---|---|---|
+| das Abendessen | -∅ | le dîner |
+| der Abend | -e | le soir |
+| der Arzt | ¨-e | le médecin |
+| der Termin | -e | le rendez-vous |
+| das Frühstück | -e | le petit-déjeuner |
+| der Geburtstag | -e | l'anniversaire |
+| das Jahr | -e | l'année |
+| das Kino | -s | le cinéma |
+| der Mittag | -e | le midi |
+| das Mittagessen | -∅ | le déjeuner |
+| die Mittagspause | -n | la pause déjeuner |
+| der Monat | -e | le mois |
+| der Morgen | -∅ | le matin |
+| die Nacht | ¨-e | la nuit |
+| der Nachmittag | -e | l'après-midi |
+| die Oper | -n | l'opéra |
+| die Panne | -n | la panne |
+| die Stunde | -n | l'heure (durée) |
+| der Tag | -e | le jour |
+| der Tagesablauf | ¨-e | le déroulement de la journée |
+| die Uhr | -en | l'heure ; la montre, l'horloge |
+| die Uhrzeit | -en | l'heure (qu'il est) |
+| der Urlaub | -e | les vacances (congé) |
+| die Verabredung | -en | le rendez-vous (amical) |
+| die Verspätung | -en | le retard |
+| der Vormittag | -e | la matinée |
+| die Woche | -n | la semaine |
+| der Wochentag | -e | le jour de la semaine |
+| die Zeit | -en | le temps |
+
+#### Adjectifs & adverbes
+
+| Mot | Comparatif/superlatif si irrég. | Traduction |
+|---|---|---|
+| früh | früher, am frühesten | tôt |
+| spät | später, am spätesten | tard |
+| gesund | gesünder, am gesündesten | en bonne santé, sain |
+| pünktlich | — | ponctuel, à l'heure |
+| unpünktlich | — | en retard, pas ponctuel |
+| morgen | — | demain |
+| gestern | — | hier |
+| heute | — | aujourd'hui |
+| oft | — | souvent |
+| dann | — | puis, ensuite |
+| jeden Tag | — | chaque jour |
+| morgens | — | le matin (habituellement) |
+
+#### Autres (prépositions, conjonctions, mots-outils, expressions)
+
+| Mot / Expression | Catégorie | Traduction |
+|---|---|---|
+| am | préposition (an+dem, + D) | le (jour/moment) |
+| um | préposition (+ A pour l'heure) | à (heure) |
+| von … bis … | préposition | de … à … |
+| zwischen … und … | préposition (+ D) | entre … et … |
+| Wie spät ist es? | expression | Quelle heure est-il ? |
+| Tut mir leid. | expression | Je suis désolé. |
+| Gute Fahrt! | expression | Bon voyage ! (en voiture) |
+| Das geht (nicht). | expression | Ça marche (ne marche pas). |
+| Das passt gut. | expression | Ça convient bien. |
+| Auf Wiederhören! | expression | Au revoir ! (au téléphone) |
+| Ich hätte gern einen Termin. | expression | J'aimerais (prendre) un rendez-vous. |
+| halb | adverbe (heure) | et demie |
+| Viertel | nom/adverbe (heure) | quart |
+| vor / nach | préposition (heure) | moins / passé(es) |
+
+**Jours de la semaine (die Wochentage) :**
+
+| Allemand | Abrév. | Traduction |
+|---|---|---|
+| (der) Montag | Mo | lundi |
+| (der) Dienstag | Di | mardi |
+| (der) Mittwoch | Mi | mercredi |
+| (der) Donnerstag | Do | jeudi |
+| (der) Freitag | Fr | vendredi |
+| (der) Samstag | Sa | samedi |
+| (der) Sonntag | So | dimanche |
+
+### 💬 Mise en contexte
+
+**Dialogue 1 — Prendre rendez-vous chez le médecin**
+
+> **Praxis :** Praxis Dr. Kittelbach, **guten Morgen**.
+> **Frau Albertini :** Guten Morgen, Albertini. **Ich hätte gern einen Termin**.
+> **Praxis :** Waren Sie schon einmal hier?
+> **Frau Albertini :** Nein.
+> **Praxis :** Hm, Moment … nächste Woche **am** **Montag** **um** halb zehn?
+> **Frau Albertini :** Nein, da kann ich leider **nicht**, da arbeite ich. **Geht** es auch **um** 15 **Uhr**?
+> **Praxis :** Ja, das **geht** auch. Also, **am** **Montagnachmittag** **um** drei. **Auf Wiederhören**!
+> **Frau Albertini :** **Auf Wiederhören**!
+
+*Traduction :*
+> **Cabinet :** Cabinet du Dr Kittelbach, bonjour.
+> **Mme Albertini :** Bonjour, Albertini. J'aimerais prendre un rendez-vous.
+> **Cabinet :** Êtes-vous déjà venue ici ?
+> **Mme Albertini :** Non.
+> **Cabinet :** Hm, un instant… la semaine prochaine lundi à neuf heures et demie ?
+> **Mme Albertini :** Non, là je ne peux malheureusement pas, je travaille. Est-ce que ça marche aussi à 15 h ?
+> **Cabinet :** Oui, ça marche aussi. Donc, lundi après-midi à trois heures. Au revoir !
+> **Mme Albertini :** Au revoir !
+
+**Dialogue 2 — S'organiser une sortie**
+
+> **Anja :** Hallo, Hannah! **Gehen** wir zusammen ins **Kino**?
+> **Hannah :** Ja gern, wann denn?
+> **Anja :** **Morgen** **Abend**? Der Film **fängt** **um** 20 **Uhr** **an**.
+> **Hannah :** Nein, **morgen** kann ich **nicht**. Und **am** **Freitag**?
+> **Anja :** **Freitag** ist gut. Um wie viel **Uhr** **treffen** wir uns?
+> **Hannah :** **Um** sieben?
+> **Anja :** O.k., **tschüss**, bis **dann**!
+
+*Traduction :*
+> **Anja :** Salut, Hannah ! On va au cinéma ensemble ?
+> **Hannah :** Oui volontiers, quand donc ?
+> **Anja :** Demain soir ? Le film commence à 20 h.
+> **Hannah :** Non, demain je ne peux pas. Et vendredi ?
+> **Anja :** Vendredi c'est bien. À quelle heure se retrouve-t-on ?
+> **Hannah :** À sept heures ?
+> **Anja :** D'accord, salut, à plus !
+
+**Phrases d'exemple** (réemploi ciblé du vocabulaire) :
+- Ich **stehe** **um** halb sieben **auf** und **frühstücke** **um** sieben **Uhr**. — *Je me lève à six heures et demie et je prends le petit-déjeuner à sept heures.*
+- **Am** **Sonntag** **arbeite** ich **nicht**. — *Le dimanche, je ne travaille pas.*
+- Tut mir leid, der Zug **hatte** **Verspätung**. — *Désolé, le train avait du retard.*
+- Ich **rufe** dich **am** **Dienstag** **an**. — *Je t'appelle mardi.*
+- Wann **gehst** du **ins** **Bett**? — **Zwischen** elf **und** zwölf. — *Quand vas-tu te coucher ? — Entre onze heures et minuit.*
+- Es ist **Viertel** **vor** drei, ich habe **einen** **Termin** **um** drei. — *Il est trois heures moins le quart, j'ai un rendez-vous à trois heures.*
+- Wir **treffen** uns **am** **Samstagabend** und **gehen** **in die** **Oper**. — *On se retrouve samedi soir et on va à l'opéra.*
+
+
+## Thème : Orientierung {#niveau=A1 #einheit=6 #pages=106-121 #sujet=orientation-ville}
+
+### 🔤 Grammaire
+
+#### G · Le datif {#cat=cas}
+
+**Règle.** Le datif est le 3e cas qu'on rencontre. En A1, il sert surtout après certaines **prépositions** (mit, bei, zu, von, in/an/auf… pour situer) et indique le complément d'attribution. Au datif, **tous les genres changent** : der → **dem**, das → **dem**, die → **der**, et au pluriel die → **den** (+ **-n** au nom si possible). L'article indéfini : ein → **einem** (m/n), eine → **einer** (f).
+
+**Exemples.**
+- Ich fahre **mit dem** Zug. — *Je voyage en train.* (der Zug → dem)
+- Sie arbeitet **bei der** Deutschen Bank. — *Elle travaille à la Deutsche Bank.* (die Bank → der)
+- Das Büro ist **in der** vierten Etage. — *Le bureau est au quatrième étage.* (die Etage → der)
+- Das Bild hängt **an der** Wand. — *Le tableau est accroché au mur.* (die Wand → der)
+- Der Schlüssel liegt **unter der** Zeitung. — *La clé est sous le journal.* (die Zeitung → der)
+
+**Tableau.**
+
+| | Masculin | Neutre | Féminin | Pluriel |
+|---|---|---|---|---|
+| **Nominatif** déf. | der Tisch | das Regal | die Wand | die Fenster |
+| **Datif** déf. | dem Tisch | dem Regal | der Wand | den Fenstern |
+| **Datif** indéf. | einem Tisch | einem Regal | einer Wand | — Fenstern |
+| **Contractions** | im / am / beim / zum / vom | im / am | in der / an der / zur | in den / an den |
+
+**⚠️ Pièges.** Au datif **pluriel**, on ajoute un **-n** au nom (sauf s'il finit déjà par -n ou -s) : die Fenster → **den Fenstern**, die Kinder → **den Kindern**. Contractions obligatoires à mémoriser : **im** (in dem), **am** (an dem), **beim** (bei dem), **zum** (zu dem), **zur** (zu der), **vom** (von dem). Le datif féminin **der** se confond visuellement avec le nominatif masculin **der** : c'est le contexte (préposition) qui tranche.
+
+#### G · Les prépositions de lieu + datif (Wo …?) {#cat=prepositions}
+
+**Règle.** Pour dire **OÙ** quelque chose se trouve (position statique, question *Wo?*), l'allemand emploie ces prépositions suivies du **datif** : *in* (dans), *an* (à, contre), *auf* (sur), *über* (au-dessus), *unter* (sous), *vor* (devant), *hinter* (derrière), *neben* (à côté), *zwischen* (entre). Avec les verbes de position *liegen, stehen, hängen, sein*. Ce sont les « Wechselpräpositionen » : ici, en situation statique, elles régissent le datif.
+
+**Exemples.**
+- Das Buch ist **auf dem** Tisch. — *Le livre est sur la table.*
+- Die Pflanze steht **neben dem** Schrank. — *La plante est à côté de l'armoire.*
+- Das Bild hängt **über dem** Tisch. — *Le tableau est accroché au-dessus de la table.*
+- Der Papierkorb steht **unter dem** Schreibtisch. — *La corbeille est sous le bureau.*
+- Das Bild hängt **zwischen den** Fenstern. — *Le tableau est entre les fenêtres.*
+
+**Tableau.**
+
+| Préposition | Sens | Datif (Wo?) | Exemple |
+|---|---|---|---|
+| in | dans / à | in dem (im) | im Regal |
+| an | à, contre | an dem (am) / an der | an der Wand |
+| auf | sur | auf dem / auf der | auf dem Tisch |
+| über | au-dessus de | über dem / über der | über dem Schrank |
+| unter | sous | unter dem / unter der | unter der Zeitung |
+| vor | devant | vor dem / vor der | vor der Tür |
+| hinter | derrière | hinter dem / hinter der | hinter dem Schrank |
+| neben | à côté de | neben dem / neben der | neben der Tastatur |
+| zwischen | entre | zwischen den (pl.) | zwischen den Fenstern |
+
+**⚠️ Pièges.** En A1 on ne voit que l'emploi **statique** (Wo? → datif). Plus tard (A2), ces mêmes prépositions prendront l'accusatif avec un mouvement (Wohin?). Bien associer le verbe : *liegen* (être couché/posé à plat), *stehen* (être debout), *hängen* (être suspendu). Contraction : *an dem* → **am**, *in dem* → **im**.
+
+#### G · Les transports avec « mit + datif » et « zu » {#cat=prepositions}
+
+**Règle.** Pour exprimer le **moyen de transport**, on emploie **mit** + datif : *mit dem Bus*, *mit der Straßenbahn*, *mit dem Fahrrad*. Pour la **destination** (au travail, au cours), on emploie **zu** + datif, qui se contracte en **zum** (zu dem) / **zur** (zu der). L'exception « à pied » se dit **zu Fuß** (sans article).
+
+**Exemples.**
+- Ich fahre **mit dem** Zug **zur** Arbeit. — *Je vais au travail en train.*
+- Sie kommt **mit der** Straßenbahn **zum** Sprachkurs. — *Elle vient au cours de langue en tram.*
+- Wir fahren **mit dem** Fahrrad. — *Nous y allons à vélo.*
+- Ich gehe **zu Fuß**. — *J'y vais à pied.*
+- Er fährt **mit dem** Auto **zum** Büro. — *Il va au bureau en voiture.*
+
+**Tableau.**
+
+| Moyen de transport | Construction | Destination | Construction |
+|---|---|---|---|
+| der Bus | mit dem Bus | die Arbeit | zur Arbeit |
+| der Zug | mit dem Zug | der Deutschkurs | zum Deutschkurs |
+| das Auto | mit dem Auto | das Büro | zum Büro |
+| die Straßenbahn | mit der Straßenbahn | die Schule | zur Schule |
+| das Fahrrad | mit dem Fahrrad | der Sport | zum Sport |
+| die U-Bahn | mit der U-Bahn | (à pied) | zu Fuß |
+
+**⚠️ Pièges.** **mit** régit toujours le datif (*mit dem*, *mit der*). Ne pas confondre **zum** (zu dem, masc./neutre) et **zur** (zu der, fém.). « À pied » est irrégulier : **zu Fuß** (sans article, sans -e). On dit *nach Hause* (rentrer à la maison, mouvement) mais *zu Hause* (être à la maison).
+
+#### G · Les nombres ordinaux (Ordnungszahlen) {#cat=divers}
+
+**Règle.** Les ordinaux (premier, deuxième…) servent aux dates et aux étages. Formation : de 1 à 19, on ajoute **-te** au nombre (*der vier**te***) ; à partir de 20, on ajoute **-ste** (*der zwanzig**ste***). Trois irréguliers à retenir : **erste** (1er), **dritte** (3e), **siebte** (7e). Pour une date, on emploie le datif : *am ersten Mai* (= **-ten**).
+
+**Exemples.**
+- Das Büro ist **in der vierten** Etage. — *Le bureau est au quatrième étage.*
+- Heute ist **der erste** Mai. — *Aujourd'hui, c'est le premier mai.*
+- Ich habe **am zweiten** Fünften Geburtstag. — *Mon anniversaire est le deux mai (le 2 du 5e mois).*
+- Sie wohnt im **dritten** Stock. — *Elle habite au troisième étage.*
+- Heute ist **der vierundzwanzigste** Zwölfte. — *Aujourd'hui, c'est le 24 décembre (le 24 du 12e mois).*
+
+**Tableau.**
+
+| Chiffre | Ordinal (nominatif, der …) | Datif (am …-ten/-sten) |
+|---|---|---|
+| 1. | der erste | am ersten |
+| 2. | der zweite | am zweiten |
+| 3. | der dritte | am dritten |
+| 4. | der vierte | am vierten |
+| 5. | der fünfte | am fünften |
+| 6. | der sechste | am sechsten |
+| 7. | der siebte | am siebten |
+| 8. | der achte | am achten |
+| 10. | der zehnte | am zehnten |
+| 20. | der zwanzigste | am zwanzigsten |
+| 21. | der einundzwanzigste | am einundzwanzigsten |
+
+**⚠️ Pièges.** Les trois exceptions : **erste**, **dritte**, **siebte** (pas *einte*, *dreite*, *siebente*). À l'écrit, l'ordinal en chiffres se note avec un point : *4.* = *der vierte*. Pour les dates on dit la forme datif en **-ten** : *am 24.12.* = *am vierundzwanzigsten Zwölften*.
+
+### 📖 Vocabulaire
+
+#### Verbes
+
+| Verbe (infinitif) | Régime / particularités | Traduction |
+|---|---|---|
+| ab\|holen | + A (séparable) | aller chercher, récupérer |
+| besuchen | + A | visiter ; rendre visite à |
+| existieren | (intransitif) | exister |
+| fahren | fährt, ist gefahren (irrég.) | aller (en véhicule), conduire |
+| finden | findet | trouver |
+| hängen | (intransitif) | être suspendu, pendre |
+| liegen | (intransitif) | être posé, situé, couché |
+| produzieren | + A | produire, fabriquer |
+| statt\|finden | findet statt (séparable) | avoir lieu |
+| stehen | (intransitif) | être debout, se trouver |
+| zeigen | + A | montrer |
+
+#### Noms
+
+| Nom (avec article) | Pluriel | Traduction |
+|---|---|---|
+| der Arbeitsplatz | ¨-e | le poste / lieu de travail |
+| der Ausgang | ¨-e | la sortie |
+| der Bahnhof | ¨-e | la gare |
+| die Bibliothek | -en | la bibliothèque |
+| das Bild | -er | l'image, le tableau |
+| das Büro | -s | le bureau (lieu) |
+| der Drucker | -∅ | l'imprimante |
+| das Erdgeschoss | -e | le rez-de-chaussée |
+| die Etage | -n | l'étage |
+| das Fahrrad | ¨-er | le vélo |
+| die Garderobe | -n | le vestiaire |
+| der Gruppenraum | ¨-e | la salle de groupe |
+| der Hauptbahnhof | ¨-e | la gare centrale |
+| das Hotel | -s | l'hôtel |
+| die Information | -en | l'information ; l'accueil |
+| die Kaffeetasse | -n | la tasse à café |
+| der Lesesaal | (-säle) | la salle de lecture |
+| die Maus | ¨-e | la souris |
+| der Monitor | -e | l'écran |
+| das Motorrad | ¨-er | la moto |
+| der Notizblock | ¨-e | le bloc-notes |
+| der Ordner | -∅ | le classeur |
+| der Papierkorb | ¨-e | la corbeille à papier |
+| die Pflanze | -n | la plante |
+| das Sekretariat | -e | le secrétariat |
+| die Straßenbahn | -en | le tramway |
+| der Stadtplan | ¨-e | le plan de la ville |
+| die Tastatur | -en | le clavier |
+| der Terminkalender | -∅ | l'agenda |
+| die U-Bahn | -en | le métro |
+| die Verwaltung | -en | l'administration |
+| das Verkehrsmittel | -∅ | le moyen de transport |
+| die Viertelstunde | -n | le quart d'heure |
+| die Wand | ¨-e | le mur |
+| die Zeitung | -en | le journal |
+| der Zug | ¨-e | le train |
+
+#### Adjectifs & adverbes
+
+| Mot | Comparatif/superlatif si irrég. | Traduction |
+|---|---|---|
+| attraktiv | — | attractif, attrayant |
+| berühmt | — | célèbre |
+| modern | — | moderne |
+| international | — | international |
+| oben | — | en haut |
+| unten | — | en bas |
+| links | — | à gauche |
+| rechts | — | à droite |
+| jeden Tag | — | tous les jours |
+
+#### Autres (prépositions, conjonctions, mots-outils, expressions)
+
+| Mot / Expression | Catégorie | Traduction |
+|---|---|---|
+| an | préposition (+ D ici) | à, contre |
+| auf | préposition (+ D ici) | sur |
+| über | préposition (+ D ici) | au-dessus de |
+| unter | préposition (+ D ici) | sous |
+| vor | préposition (+ D ici) | devant |
+| hinter | préposition (+ D ici) | derrière |
+| neben | préposition (+ D ici) | à côté de |
+| zwischen | préposition (+ D ici) | entre |
+| mit | préposition (+ D) | avec ; en (transport) |
+| zu | préposition (+ D) | à, vers (chez) |
+| bei | préposition (+ D) | chez, à, près de |
+| zu Fuß | expression | à pied |
+| In welcher Etage …? | expression | À quel étage … ? |
+| Wo finde ich …? | expression | Où puis-je trouver … ? |
+| Entschuldigung, wo ist …? | expression | Excusez-moi, où est … ? |
+
+### 💬 Mise en contexte
+
+**Dialogue 1 — S'orienter dans la bibliothèque**
+
+> **Besucher :** **Guten Morgen**, **wo finde ich** Frau Salewski?
+> **Mitarbeiter :** Moment, das **Büro** von Frau Salewski ist **in der vierten** **Etage**, Zimmer 405.
+> **Besucher :** **Entschuldigung, wo ist** der **Lesesaal**?
+> **Mitarbeiter :** **In der zweiten** **Etage**, **links** und **rechts**.
+> **Besucher :** Und **wo** sind hier die **Toiletten**?
+> **Mitarbeiter :** **Im** **Erdgeschoss** und **in der** **zweiten** **Etage**.
+> **Besucher :** Gibt es auch eine Cafebar?
+> **Mitarbeiter :** Ja, **unten** **im** **Erdgeschoss**. Da kann man **Kaffee** trinken.
+
+*Traduction :*
+> **Visiteur :** Bonjour, où puis-je trouver Madame Salewski ?
+> **Employé :** Un instant, le bureau de Mme Salewski est au quatrième étage, salle 405.
+> **Visiteur :** Excusez-moi, où est la salle de lecture ?
+> **Employé :** Au deuxième étage, à gauche et à droite.
+> **Visiteur :** Et où sont les toilettes ici ?
+> **Employé :** Au rez-de-chaussée et au deuxième étage.
+> **Visiteur :** Y a-t-il aussi une cafétéria ?
+> **Employé :** Oui, en bas au rez-de-chaussée. On peut y boire un café.
+
+**Dialogue 2 — Comment vas-tu au travail ?**
+
+> **Birgit :** **Wo** wohnst du und **wo** arbeitest du?
+> **Marco :** Ich wohne **in** Markkleeberg und arbeite **bei der** Deutschen Bank.
+> **Birgit :** Und **wie** kommst du **zur** **Arbeit**?
+> **Marco :** Ich fahre jeden Tag 20 Minuten **mit der** **Straßenbahn**. Und du?
+> **Birgit :** Ich fahre eine halbe Stunde **mit dem** **Zug** **zum** **Hauptbahnhof**.
+> **Marco :** Und Lina?
+> **Birgit :** Sie fährt eine **Viertelstunde** **mit dem** **Fahrrad**. Ihr Büro ist **in der** vierten **Etage**.
+
+*Traduction :*
+> **Birgit :** Où habites-tu et où travailles-tu ?
+> **Marco :** J'habite à Markkleeberg et je travaille à la Deutsche Bank.
+> **Birgit :** Et comment vas-tu au travail ?
+> **Marco :** Je voyage chaque jour 20 minutes en tramway. Et toi ?
+> **Birgit :** Je voyage une demi-heure en train jusqu'à la gare centrale.
+> **Marco :** Et Lina ?
+> **Birgit :** Elle roule un quart d'heure à vélo. Son bureau est au quatrième étage.
+
+**Phrases d'exemple** (réemploi ciblé du vocabulaire) :
+- Das **Bild** hängt **an der** **Wand**, **zwischen den** **Fenstern**. — *Le tableau est accroché au mur, entre les fenêtres.*
+- Der **Drucker** steht **neben dem** **Monitor** **auf dem** Schreibtisch. — *L'imprimante est à côté de l'écran sur le bureau.*
+- Ich fahre **mit der** **U-Bahn** **zum** Sport und gehe dann **zu Fuß** nach Hause. — *Je vais au sport en métro puis je rentre à pied.*
+- **In welcher** **Etage** ist die **Verwaltung**? — **In der** vierten. — *À quel étage est l'administration ? — Au quatrième.*
+- Die **Kaffeetasse** steht **vor den** **Wörterbüchern**. — *La tasse à café est devant les dictionnaires.*
+- Heute ist **der** **vierundzwanzigste** Zwölfte, ich habe **am** **ersten** Januar **Geburtstag**. — *Aujourd'hui c'est le 24 décembre, mon anniversaire est le 1er janvier.*
+- Porsche und BMW **produzieren** **in** Leipzig Autos. — *Porsche et BMW produisent des voitures à Leipzig.*
+- Der **Schlüssel** liegt **unter der** **Zeitung**. — *La clé est sous le journal.*
+
+
+<!-- FIN — agent=a1p1 ; thèmes traités=7 ; mots de vocabulaire ≈ 360 -->
+<!-- INCERTAIN: aucun mot illisible bloquant. Quelques noms OCR corrigés au vu du contexte/des images : "Käche/Kähe"→Küche (p.74), "Meterrad"→Motorrad (p.114), "Bibilioteca/Universitätsbibliochek"→Bibliothek (p.108), "Terminwereinbarung"→Terminvereinbarung (p.93). Listes de vocabulaire et tableaux de grammaire vérifiés visuellement sur p.111. -->

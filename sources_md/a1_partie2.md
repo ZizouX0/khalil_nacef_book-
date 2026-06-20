@@ -41,7 +41,7 @@
 
 **Tableau.** (accusatif — déterminants devant un nom)
 
-| | Masculin (der Brief) | Neutre (das Büro) | Féminin (die Arbeit) | Pluriel (die Computer) |
+| Déterminant | Masculin (der Brief) | Neutre (das Büro) | Féminin (die Arbeit) | Pluriel (die Computer) |
 |---|---|---|---|---|
 | défini | den Brief | das Büro | die Arbeit | die Computer |
 | indéfini | einen Brief | ein Büro | eine Arbeit | — (Computer) |
@@ -585,16 +585,27 @@
 - Es **ist** nicht viel **passiert**. — *Il ne s'est pas passé grand-chose.*
 - Wo **warst** du? — Ich **bin** auf Sylt **gewesen**. — *Où étais-tu ? — J'ai été à Sylt.*
 
-**Tableau.** (auxiliaire sein + verbes courants en sein)
+**Tableau.** (auxiliaire sein conjugué)
 
-| Personne | sein (auxiliaire) | | Infinitif | Participe II | Traduction |
-|---|---|---|---|---|---|
-| ich | bin | | gehen | gegangen | aller (à pied) |
-| du | bist | | laufen | gelaufen | courir |
-| er/sie/es | ist | | bleiben | geblieben | rester |
-| wir | sind | | passieren | passiert | se passer |
-| ihr | seid | | sein | gewesen | être |
-| sie/Sie | sind | | weiter\|fahren | weitergefahren | continuer la route |
+| Personne | sein (auxiliaire au présent) |
+|---|---|
+| ich | bin |
+| du | bist |
+| er/sie/es | ist |
+| wir | sind |
+| ihr | seid |
+| sie/Sie | sind |
+
+**Tableau.** (verbes courants conjugués avec sein)
+
+| Infinitif | Participe II | Traduction |
+|---|---|---|
+| gehen | gegangen | aller (à pied) |
+| laufen | gelaufen | courir |
+| bleiben | geblieben | rester |
+| passieren | passiert | se passer |
+| sein | gewesen | être |
+| weiter\|fahren | weitergefahren | continuer la route |
 
 **⚠️ Pièges.** Erreur fréquente : utiliser *haben* avec un verbe de mouvement. On dit *Ich **bin** gefahren* (et non *« ich habe gefahren »*). Mémorise la liste de base : **sein, bleiben, passieren + tous les verbes de déplacement**. Note que *passieren* (= arriver, se produire) prend *sein*, mais a une forme régulière : *passiert* (sans ge-, car en -ieren).
 
@@ -1284,3 +1295,276 @@
 - In meinem **Wohnzimmer** habe ich **einen braunen Schrank** und **ein graues Sofa**. — *Dans mon salon, j'ai une armoire marron et un canapé gris.*
 - Im **Sommer ist es heiß**, im **Winter schneit es** oft. — *En été il fait chaud, en hiver il neige souvent.*
 - **Diese Schuhe** finde ich zu hoch, aber **dieses Kleid** ist **schick**. — *Ces chaussures, je les trouve trop hautes, mais cette robe est chic.*
+
+---
+
+## Thème : Körper und Gesundheit {#niveau=A1 #einheit=12 #pages=218-233 #sujet=corps-sante}
+
+### 🔤 Grammaire
+
+#### G · L'impératif (du, ihr, Sie) {#cat=conjugaison}
+
+**Règle.** L'impératif sert à donner un **ordre, un conseil ou une consigne** (chez le médecin : prenez ce médicament, reposez-vous…). Il existe trois formes : (1) **Sie** (vouvoiement) = verbe + *Sie*, verbe en tête : *Nehmen Sie…!* ; (2) **du** = 2e personne du singulier **sans le -st et sans le pronom** : *du nimmst → Nimm!* ; (3) **ihr** = 2e personne du pluriel **sans le pronom** : *ihr geht → Geht!*. Le verbe est **toujours en première position**.
+
+**Exemples.**
+- **Nehmen Sie** die Tabletten dreimal am Tag! — *Prenez les comprimés trois fois par jour !*
+- **Geh** doch mal früh schlafen! — *Va donc te coucher tôt !*
+- **Trinkt** viel Tee und **ruht** euch aus! — *Buvez beaucoup de thé et reposez-vous !*
+- **Bleiben Sie** im Bett! — *Restez au lit !*
+- **Sei** bitte ruhig! — *Sois calme, s'il te plaît !*
+
+**Tableau.** (formation de l'impératif, exemple gehen / nehmen)
+
+| Personne | gehen | nehmen | Construction |
+|---|---|---|---|
+| du | Geh! | Nimm! | 2e pers. sg. moins -st (et le pronom) |
+| ihr | Geht! | Nehmt! | 2e pers. pl. sans le pronom |
+| Sie | Gehen Sie! | Nehmen Sie! | infinitif + Sie |
+
+**⚠️ Pièges.** À la forme *du*, on enlève **-st** : du gehst → **Geh!** Les verbes à changement de voyelle e→i/ie **gardent** ce changement à l'impératif *du* : du nimmst → **Nimm!**, du isst → **Iss!** Mais le changement a→ä **disparaît** à l'impératif : du fährst → **Fahr!** (et non *« Fähr »*). Cas particulier : *sein* → **Sei!** (du), **Seid!** (ihr), **Seien Sie!**.
+
+#### G · Le verbe de modalité dürfen (avoir le droit) {#cat=modaux}
+
+**Règle.** *dürfen* exprime la **permission** (avoir le droit) ou, à la forme négative, l'**interdiction** (ne pas avoir le droit, ne pas devoir). Très utilisé pour les recommandations médicales et les interdictions. Comme les autres modaux : position 2, infinitif en fin, et 1re = 3e personne du singulier (**ich darf, er darf**, sans terminaison ; voyelle ü → a au singulier).
+
+**Exemples.**
+- Sie **dürfen** natürlich nicht **rauchen**. — *Vous ne devez bien sûr pas fumer.*
+- Maria **darf** keine Milch **trinken**. — *Maria n'a pas le droit de boire du lait.*
+- Saskia und ihr Bruder **dürfen** bis 24 Uhr auf die Party **gehen**. — *Saskia et son frère ont le droit d'aller à la fête jusqu'à minuit.*
+- Hier **darf** man nicht ins Wasser **springen**. — *Ici, on n'a pas le droit de sauter dans l'eau.*
+- Tobias **darf** keinen Sport **machen**. — *Tobias n'a pas le droit de faire de sport.*
+
+**Tableau.**
+
+| Personne | dürfen (avoir le droit) |
+|---|---|
+| ich | darf |
+| du | darfst |
+| er/sie/es | darf |
+| wir | dürfen |
+| ihr | dürft |
+| sie/Sie | dürfen |
+
+**⚠️ Pièges.** *dürfen nicht* = interdiction (« ne pas avoir le droit »), à distinguer de *müssen nicht* = absence d'obligation (« ne pas être obligé »). Exemple : *Du darfst nicht rauchen* (interdit) ≠ *Du musst nicht rauchen* (pas obligé). Ne dis jamais *« ich darfe »* : c'est **ich darf**.
+
+#### G · Le verbe sollen (devoir / conseil) {#cat=modaux}
+
+**Règle.** *sollen* exprime une **obligation venant d'autrui, un conseil ou une recommandation** (on me dit de…, je devrais…). Chez le médecin, il sert à transmettre une consigne. Construction modale habituelle : position 2 + infinitif final ; 1re = 3e personne du singulier (**ich soll, er soll**). Particularité : *sollen* ne change PAS de voyelle au singulier.
+
+**Exemples.**
+- Man **soll** viel **trinken**, wenn man krank ist. — *On doit beaucoup boire quand on est malade.*
+- Ich finde, man **sollte** zu Hause im Bett **bleiben**. — *Je trouve qu'on devrait rester chez soi au lit.* (forme de conseil)
+- Du **sollst** mehr Obst **essen**. — *Tu devrais manger plus de fruits.*
+- Was **soll** ich **machen**? — *Que dois-je faire ?*
+- Wir **sollen** weniger Schokolade **essen**. — *Nous devrions manger moins de chocolat.*
+
+**Tableau.**
+
+| Personne | sollen (devoir / conseil) |
+|---|---|
+| ich | soll |
+| du | sollst |
+| er/sie/es | soll |
+| wir | sollen |
+| ihr | sollt |
+| sie/Sie | sollen |
+
+**⚠️ Pièges.** *sollen* (consigne donnée par qqn d'autre, conseil) ≠ *müssen* (nécessité, contrainte forte). La forme *sollte* (« devrait ») exprime un conseil plus doux et poli, fréquente pour donner des recommandations. *sollen* est le seul modal sans changement de voyelle au singulier.
+
+#### G · Les pronoms personnels à l'accusatif {#cat=groupe-nominal}
+
+**Règle.** À l'accusatif (COD), les pronoms personnels changent de forme. Ils remplacent un nom déjà connu et répondent à la question *wen?/was?* (qui ? quoi ?). Seules certaines formes diffèrent du nominatif : ich → **mich**, du → **dich**, er → **ihn**, wir → **uns**, ihr → **euch**.
+
+**Exemples.**
+- Mein Herz klopft – kannst du **mich** hören? — *Mon cœur bat – peux-tu m'entendre ?*
+- Ich liebe **dich**! — *Je t'aime !*
+- Da ist mein Nachbar. Hast du **ihn** schon gesehen? — *Voilà mon voisin. L'as-tu déjà vu ?*
+- Wir haben **uns** beim Sport kennengelernt. — *Nous nous sommes rencontrés au sport.*
+- Ich habe **euch** im Café gesehen. — *Je vous ai vus au café.*
+
+**Tableau.**
+
+| Nominatif | Accusatif | Traduction |
+|---|---|---|
+| ich | mich | me / moi |
+| du | dich | te / toi |
+| er | ihn | le / lui |
+| sie | sie | la / elle |
+| es | es | le (neutre) |
+| wir | uns | nous |
+| ihr | euch | vous (tutoiement pluriel) |
+| sie | sie | les / eux |
+| Sie | Sie | vous (vouvoiement) |
+
+**⚠️ Pièges.** Le piège classique : **er → ihn** au masculin accusatif (*Ich kenne ihn*, et non *« ich kenne er »*). Les formes *sie*, *es*, *Sie* sont identiques au nominatif et à l'accusatif. *uns* et *euch* servent aussi de pronoms réfléchis (*Wir kennen uns* = nous nous connaissons).
+
+### 📖 Vocabulaire
+
+#### Verbes
+
+| Verbe (infinitif) | Régime / particularités | Traduction |
+|---|---|---|
+| sich aus\|ruhen | réfléchi, séparable | se reposer |
+| ein\|reiben | + A, séparable | enduire (de pommade) |
+| sich erholen | réfléchi | se reposer, récupérer |
+| sich fühlen | réfléchi (ich fühle mich) | se sentir |
+| heben | + A; den Arm | lever |
+| husten | — | tousser |
+| joggen | ist/hat gejoggt | faire du jogging |
+| sich melden | bei + D, réfléchi | se signaler, s'inscrire |
+| nehmen | nimmt, hat genommen (irrég.) | prendre |
+| rauchen | + A | fumer |
+| retten | + A | sauver, secourir |
+| schwimmen | ist geschwommen (irrég.) | nager |
+| spazieren gehen | ist spazieren gegangen | se promener |
+| strecken | + A; die Finger | étirer, tendre |
+| trainieren | + A | entraîner, s'entraîner |
+| sich versichern | réfléchi | s'assurer |
+| verschreiben | + D + A | prescrire |
+| weh\|tun | + D (tut weh) | faire mal |
+
+#### Noms
+
+| Nom (avec article) | Pluriel | Traduction |
+|---|---|---|
+| die Angina | — | l'angine |
+| die Apotheke | -n | la pharmacie |
+| der Arm | -e | le bras |
+| das Auge | -n | l'œil |
+| der Bauch | ¨-e | le ventre |
+| das Bein | -e | la jambe |
+| die Bewegung | -en | le mouvement |
+| die Erkältung | -en | le rhume, le refroidissement |
+| das Fieber | — | la fièvre |
+| der Finger | - | le doigt |
+| der Fuß | ¨-e (Füße) | le pied |
+| die Gesundheit | — | la santé |
+| die Grippe | -n | la grippe |
+| das Haar | -e | le cheveu |
+| der Hals | ¨-e | le cou, la gorge |
+| die Halsentzündung | -en | l'angine (inflammation de la gorge) |
+| die Halsschmerzen (Pl.) | — | le mal de gorge |
+| die Hand | ¨-e (Hände) | la main |
+| das Herz | -en | le cœur |
+| der Husten | — | la toux |
+| der Hustensaft | ¨-e | le sirop contre la toux |
+| das Immunsystem | -e | le système immunitaire |
+| das Knie | - | le genou |
+| der Kopf | ¨-e | la tête |
+| die Kopfschmerzen (Pl.) | — | le mal de tête |
+| der Körper | - | le corps |
+| der Körperteil | -e | la partie du corps |
+| die Krankheit | -en | la maladie |
+| die Krankenversicherung | -en | l'assurance maladie |
+| die Lunge | -n | le poumon |
+| die Magenschmerzen (Pl.) | — | les maux d'estomac |
+| das Medikament | -e | le médicament |
+| der Mund | ¨-er | la bouche |
+| der Muskel | -n | le muscle |
+| die Nase | -n | le nez |
+| das Ohr | -en | l'oreille |
+| die Ohrenschmerzen (Pl.) | — | le mal d'oreille |
+| das Rezept | -e | l'ordonnance ; la recette |
+| der Rücken | - | le dos |
+| der Schmerz | -en | la douleur |
+| die Schulter | -n | l'épaule |
+| der Schnupfen | - | le rhume |
+| die Sportart | -en | la discipline sportive |
+| die Tablette | -n | le comprimé |
+| das Training | -s | l'entraînement |
+| die Übung | -en | l'exercice |
+| die Versichertenkarte | -n | la carte d'assuré |
+| das Wartezimmer | - | la salle d'attente |
+| die Zigarette | -n | la cigarette |
+| der Zahnarzt | ¨-e | le dentiste |
+| die Zahnschmerzen (Pl.) | — | le mal de dents |
+
+#### Adjectifs & adverbes
+
+| Mot | Comparatif/superlatif si irrég. | Traduction |
+|---|---|---|
+| erkältet | — | enrhumé |
+| furchtbar | — | affreux |
+| gefährlich | — | dangereux |
+| gesund | — | en bonne santé |
+| glücklich | — | heureux |
+| krank | — | malade |
+| langsam | — | lent, lentement |
+| regelmäßig | — | régulièrement |
+| spannend | — | passionnant |
+| stark | — | fort |
+| täglich | — | quotidien(nement) |
+| weh | — | douloureux (tut weh) |
+
+#### Autres (prépositions, conjonctions, mots-outils, expressions)
+
+| Mot / Expression | Catégorie | Traduction |
+|---|---|---|
+| dreimal | adverbe | trois fois |
+| gegen | préposition (+ A) | contre |
+| Was fehlt Ihnen? | expression | Qu'est-ce qui ne va pas ? |
+| Wo tut es weh? | expression | Où avez-vous mal ? |
+| Ich fühle mich nicht gut. | expression | Je ne me sens pas bien. |
+| Mir geht es nicht gut. | expression | Je ne vais pas bien. |
+| Gute Besserung! | expression | Bon rétablissement ! |
+| Ich habe Kopfschmerzen. | expression | J'ai mal à la tête. |
+| Lass mich in Ruhe! | expression | Laisse-moi tranquille ! |
+| Ich hab' dich lieb! | expression | Je t'aime bien ! |
+
+### 💬 Mise en contexte
+
+**Dialogue 1 — Chez le médecin**
+
+> **Ärztin :** Guten Tag, Herr Aigner. Was **fehlt** Ihnen denn?
+> **Patient :** Ich habe seit drei Tagen **Fieber**, mein **Hals tut weh** und ich habe **Kopfschmerzen**.
+> **Ärztin :** Sagen Sie mal „Aaaah"! **Husten** Sie mal! Sie haben eine **Angina**.
+> **Patient :** Wie bitte?
+> **Ärztin :** Eine schwere **Halsentzündung**. Sie sind stark **erkältet**. Ich **verschreibe** Ihnen **Tabletten** und **Hustensaft**.
+> **Patient :** Wie oft **soll** ich die **Medikamente nehmen**?
+> **Ärztin :** **Nehmen Sie** sie am Morgen, Mittag und Abend. Sie **müssen** viel **trinken** und Sie **dürfen** nicht **rauchen**!
+> **Patient :** Gut, mache ich. Danke, Frau Doktor.
+> **Ärztin :** **Gute Besserung!**
+
+*Traduction :*
+> **Médecin :** Bonjour, M. Aigner. Qu'est-ce qui ne va pas ?
+> **Patient :** J'ai de la fièvre depuis trois jours, j'ai mal à la gorge et mal à la tête.
+> **Médecin :** Dites « Aaaah » ! Toussez ! Vous avez une angine.
+> **Patient :** Pardon ?
+> **Médecin :** Une forte inflammation de la gorge. Vous êtes très enrhumé. Je vous prescris des comprimés et du sirop.
+> **Patient :** Combien de fois dois-je prendre les médicaments ?
+> **Médecin :** Prenez-les matin, midi et soir. Vous devez beaucoup boire et vous ne devez pas fumer !
+> **Patient :** Bien, je le ferai. Merci, docteur.
+> **Médecin :** Bon rétablissement !
+
+**Dialogue 2 — Conseils entre amis**
+
+> **Lena :** Ich bin immer **müde** und habe oft **Kopfschmerzen**.
+> **Max :** Oh je. **Geh** doch mal früh **schlafen**!
+> **Lena :** Das mache ich. Aber ich **fühle mich** nicht **gesund**.
+> **Max :** **Treib** mehr **Sport**! **Geh** regelmäßig **joggen** oder **schwimmen**.
+> **Lena :** Und was soll ich essen?
+> **Max :** **Iss** viel **Obst** und **Gemüse** und **trink** viel Wasser! Aber du **darfst** nicht so viel **Schokolade** essen.
+> **Lena :** Okay, ich probiere es. Danke für die Tipps!
+> **Max :** Gern! **Gute Besserung!**
+
+*Traduction :*
+> **Lena :** Je suis toujours fatiguée et j'ai souvent mal à la tête.
+> **Max :** Oh là là. Va donc te coucher tôt !
+> **Lena :** Je le fais. Mais je ne me sens pas en bonne santé.
+> **Max :** Fais plus de sport ! Va régulièrement courir ou nager.
+> **Lena :** Et qu'est-ce que je dois manger ?
+> **Max :** Mange beaucoup de fruits et de légumes et bois beaucoup d'eau ! Mais tu ne dois pas manger autant de chocolat.
+> **Lena :** D'accord, j'essaie. Merci pour les conseils !
+> **Max :** Avec plaisir ! Bon rétablissement !
+
+**Phrases d'exemple** (réemploi ciblé du vocabulaire) :
+- **Laufen trainiert** den ganzen **Körper**: **Beine**, **Füße**, **Herz** und **Lunge**. — *La course entraîne tout le corps : jambes, pieds, cœur et poumons.*
+- Beim Arzt **muss** man die **Versichertenkarte** zeigen. — *Chez le médecin, il faut montrer la carte d'assuré.*
+- Tobias hat Fußball gespielt, jetzt **tut** sein **Knie weh**. — *Tobias a joué au foot, maintenant son genou lui fait mal.*
+- **Nehmen Sie** die **Tabletten dreimal täglich** vor dem Essen! — *Prenez les comprimés trois fois par jour avant le repas !*
+- Sie **dürfen** keinen **Alkohol trinken** und **müssen** sich **ausruhen**. — *Vous ne devez pas boire d'alcool et vous devez vous reposer.*
+- Da ist mein neuer Nachbar. Hast du **ihn** schon gesehen? — Ja, ich kenne **ihn**. — *Voilà mon nouveau voisin. L'as-tu déjà vu ? — Oui, je le connais.*
+- Für **Magenschmerzen** hilft heißer Kamillentee – **trink** ihn mit Honig! — *Contre les maux d'estomac, une tisane de camomille chaude aide – bois-la avec du miel !*
+- Ich **liebe dich**, aber wir kennen **uns** noch nicht gut. — *Je t'aime, mais nous ne nous connaissons pas encore bien.*
+
+<!-- FIN — agent=a1p2 ; thèmes traités=6 ; mots de vocabulaire ≈ 430 -->

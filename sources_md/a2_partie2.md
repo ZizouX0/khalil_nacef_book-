@@ -92,7 +92,7 @@
 | an\|rufen | + A ; ruft an, hat angerufen | appeler (au téléphone) |
 | auf\|kleben | + A (séparable) | coller (un pansement) |
 | auf\|passen | passt auf (séparable) | faire attention |
-| sich beschriften → beschriften | + A | étiqueter, annoter |
+| beschriften | + A | étiqueter, annoter |
 | besichtigen | + A | visiter (un logement) |
 | besorgen | + A | se procurer |
 | sich brechen | bricht, hat gebrochen ; + D + A | se casser (un membre) |
@@ -102,7 +102,7 @@
 | grillen | — | faire un barbecue |
 | halten | hält, hat gehalten | tenir ; garder (des animaux) |
 | kühlen | + A | refroidir |
-| sich (D) etw. holen → holen | + A | aller chercher |
+| holen | + A | aller chercher |
 | kleben | + A | coller |
 | mieten | + A | louer (en tant que locataire) |
 | sich schneiden | schneidet, hat geschnitten ; + D | se couper |
@@ -1356,3 +1356,312 @@
 
 ---
 
+## Thème : Ideen und Erfindungen {#niveau=A2 #einheit=12 #pages=214-229 #sujet=idees-inventions}
+
+### 🔤 Grammaire
+
+#### G · Le passif au présent (werden + participe II) {#cat=temps-passe}
+
+**Règle.** Le **passif (Passiv)** met en avant l'**action** plutôt que celui qui la fait. On le forme avec l'auxiliaire **werden** (conjugué) **+ le participe II** (placé à la fin). Le complément d'objet de la phrase active (accusatif) devient le **sujet** (nominatif) de la phrase passive. Très utilisé pour décrire des procédés de fabrication.
+
+**Exemples.**
+- *(actif)* Die Mitarbeiter **verpacken** die Schokolade. → *(passif)* Die Schokolade **wird verpackt**. — *Les employés emballent le chocolat. → Le chocolat est emballé.*
+- Die Maschine **rührt** die Schokolade. → Die Schokolade **wird gerührt**. — *La machine remue le chocolat. → Le chocolat est remué.*
+- Heute **werden** 80 Millionen Gummibärchen **produziert**. — *Aujourd'hui, 80 millions d'oursons en gomme sont produits.*
+- Haribo-Produkte **werden** in mehr als 100 Länder **transportiert**. — *Les produits Haribo sont transportés dans plus de 100 pays.*
+- Die Sachertorte **wird** in reiner Handarbeit **hergestellt**. — *La Sachertorte est fabriquée entièrement à la main.*
+
+**Tableau.**
+
+| Personne | werden (présent) | Exemple passif |
+|---|---|---|
+| ich | werde | Ich **werde gefragt**. |
+| du | wirst | Du **wirst informiert**. |
+| er/sie/es | wird | Die Torte **wird gebacken**. |
+| wir | werden | Wir **werden gehört**. |
+| ihr | werdet | Ihr **werdet verpackt** (rare). |
+| sie/Sie | werden | Die Bärchen **werden produziert**. |
+
+**⚠️ Pièges.** L'auxiliaire du passif est **werden**, jamais *sein* ni *haben*. — Le participe II reste **à la fin** : *Die Schokolade **wird** verpack**t**.* — Pour indiquer l'agent (rare en A2), on utilise *von + datif* : *Das Gummibärchen wurde **von** Hans Riegel erfunden.*
+
+#### G · Le passif au prétérit (wurde + participe II) {#cat=temps-passe}
+
+**Règle.** Pour exprimer un procédé passé, on met l'auxiliaire **werden au prétérit → wurde** (+ participe II). C'est le temps utilisé pour raconter comment quelque chose **a été fait/inventé/produit** autrefois.
+
+**Exemples.**
+- Die Sachertorte **wurde** 1832 **erfunden**. — *La Sachertorte fut inventée en 1832.*
+- 1922 **wurde** das erste Gummibärchen „geboren". — *En 1922, le premier ourson en gomme « naquit ».*
+- Der Kakao **wurde** durch die Spanier nach Europa **importiert**. — *Le cacao fut importé en Europe par les Espagnols.*
+- Bis vor 10 Jahren **wurden** die Torten mit der Hand **geschnitten**. — *Jusqu'à il y a 10 ans, les gâteaux étaient coupés à la main.*
+- Das Lied **wurde** in viele Sprachen **übersetzt**. — *La chanson fut traduite en de nombreuses langues.*
+
+**Tableau.**
+
+| Personne | werden (prétérit) | Exemple passif passé |
+|---|---|---|
+| ich | wurde | Ich **wurde gefragt**. |
+| du | wurdest | Du **wurdest angerufen**. |
+| er/sie/es | wurde | Die Torte **wurde verkauft**. |
+| wir | wurden | Wir **wurden informiert**. |
+| ihr | wurdet | Ihr **wurdet gehört**. |
+| sie/Sie | wurden | Die Produkte **wurden produziert**. |
+
+**⚠️ Pièges.** *wurde* (passif passé) ≠ *würde* (conditionnel, avec Umlaut). — Le participe II ne change pas entre présent et prétérit passif ; seul l'auxiliaire change (*wird → wurde*). — Au pluriel : *wurden* (*Die Torten wurden geschnitten*).
+
+#### G · La subordonnée de but : um … zu + infinitif {#cat=syntaxe}
+
+**Règle.** Pour exprimer le **but** (« pour, afin de »), on emploie **um … zu + infinitif**. *um* se place en tête de la subordonnée, *zu* juste **devant l'infinitif**, qui se place **à la fin**. On utilise cette construction quand le sujet de la principale et celui du but sont **identiques** (même personne).
+
+**Exemples.**
+- Erfindungen sind nötig, **um** Probleme **zu lösen**. — *Les inventions sont nécessaires pour résoudre des problèmes.*
+- Man braucht einen Kühlschrank, **um** Lebensmittel **zu kühlen**. — *On a besoin d'un réfrigérateur pour réfrigérer les aliments.*
+- Ich brauche kein Auto, **um** mobil **zu sein**. — *Je n'ai pas besoin de voiture pour être mobile.*
+- Man braucht Zahnpasta, **um** sich die Zähne **zu putzen**. — *On a besoin de dentifrice pour se brosser les dents.*
+- Henry Ford baute das Fließband, **um** billige Autos **zu produzieren**. — *Henry Ford construisit la chaîne de montage pour produire des voitures bon marché.*
+
+**Tableau.**
+
+| Élément | Position | Exemple |
+|---|---|---|
+| um | début de la subordonnée | …, **um** … |
+| zu | juste avant l'infinitif | … **zu** lösen |
+| infinitif | à la fin | … zu **lösen** |
+| Verbe à particule séparable | zu **entre** la particule et le verbe | um Patente an**zu**melden |
+
+**⚠️ Pièges.** Avec un verbe séparable, *zu* se glisse **entre** la particule et le verbe : *um Patente an**zu**melden* (anmelden). — Pas de virgule oubliée : la subordonnée *um … zu* est toujours séparée par une virgule. — N'emploie *um … zu* que si le **sujet est le même** ; sinon, utilise *damit* (voir ci-dessous).
+
+#### G · La subordonnée de but : damit {#cat=syntaxe}
+
+**Règle.** **damit** (« pour que, afin que ») exprime aussi le **but**, mais introduit une **vraie subordonnée avec son propre sujet** et un **verbe conjugué à la fin**. On l'emploie obligatoirement quand le sujet du but est **différent** de celui de la principale. *damit* et *um … zu* ont le même sens, mais *um … zu* n'a **pas** de sujet propre (infinitif), *damit* en a un.
+
+**Exemples.**
+- Erfindungen sind nötig, **damit** die Menschen Probleme lösen **können**. — *Les inventions sont nécessaires pour que les hommes puissent résoudre les problèmes.*
+- Ich suche einen Job, **damit** ich meine Wohnung bezahlen **kann**. — *Je cherche un emploi pour pouvoir payer mon appartement.*
+- Frau Meyer ruft im Patentamt an, **damit** sie schnell einen Termin **bekommt**. — *Mme Meyer appelle l'office des brevets afin d'obtenir vite un rendez-vous.*
+- Der Sohn fährt das Auto, **damit** seine Mutter auf das Paket aufpassen **kann**. — *Le fils conduit la voiture pour que sa mère puisse surveiller le colis.*
+- In großen Küchen ist alles organisiert, **damit** es schnell **geht**. — *Dans les grandes cuisines tout est organisé pour que ça aille vite.*
+
+**Tableau.**
+
+| Critère | um … zu + infinitif | damit |
+|---|---|---|
+| Sujet | identique à la principale | différent (sujet propre) |
+| Verbe | infinitif (à la fin) | conjugué (à la fin) |
+| Exemple | Ich lerne, **um** zu **bestehen**. | Ich erkläre es, **damit** du es **verstehst**. |
+| Sens | même but | même but |
+
+**⚠️ Pièges.** Si les deux sujets sont **différents**, *um … zu* est impossible → emploie **damit**. — Après *damit*, le verbe conjugué va **à la fin** : *…, damit ich es **verstehe**.* — Ne confonds pas *damit* (conjonction de but) et *damit* (adverbe « avec cela »).
+
+#### G · La nominalisation : du verbe au nom {#cat=divers}
+
+> 🔺 **Extension A2** — réutilise la nominalisation (-ung, infinitif substantivé) vue en Einheit 9, ici dans le champ des inventions/production.
+
+**Règle.** On forme des noms à partir de verbes, surtout avec le suffixe **-ung** (féminin, *die*) qui désigne souvent un **processus** ou un **résultat**. Dans le domaine technique/de la production, ces noms sont très fréquents.
+
+**Exemples.**
+- erfinden → **die Erfindung** (l'invention) ; produzieren → **die Produktion** (la production). — *(inventer → l'invention ; produire → la production).*
+- herstellen → **die Herstellung** (la fabrication) ; entwickeln → **die Entwicklung** (le développement). — *(fabriquer → la fabrication ; développer → le développement).*
+- kühlen → **die Kühlung** ; prüfen → **die Prüfung** (l'examen, le contrôle). — *(refroidir → la réfrigération ; contrôler → le contrôle).*
+- speichern → **das Speichern** (le stockage) ; veröffentlichen → **die Veröffentlichung**. — *(stocker → le stockage ; publier → la publication).*
+- Lindts Erfindung wird **zur Herstellung** von Schokolade verwendet. — *L'invention de Lindt est utilisée pour la fabrication du chocolat.*
+
+**Tableau.**
+
+| Verbe | Nom (-ung, féminin) | Traduction |
+|---|---|---|
+| erfinden | die Erfindung | l'invention |
+| herstellen | die Herstellung | la fabrication |
+| entwickeln | die Entwicklung | le développement |
+| prüfen | die Prüfung | le contrôle, l'examen |
+| kühlen | die Kühlung | la réfrigération |
+| produzieren | die Produktion (sans -ung) | la production |
+
+**⚠️ Pièges.** Tous les noms en **-ung** sont **féminins** : *die* Erfindung, *die* Herstellung. — Certains noms ne prennent pas -ung mais une autre forme latine (*produzieren → die Produktion*, *transportieren → der Transport*). — Pour trouver le verbe, retire le suffixe : *die Prüf-ung → prüfen*.
+
+### 📖 Vocabulaire
+
+#### Verbes
+| Verbe (infinitif) | Régime / particularités | Traduction |
+|---|---|---|
+| an\|melden | + A (séparable) | déposer (un brevet), inscrire |
+| backen | bäckt/backt, hat gebacken | cuire (au four) |
+| bestehen (aus) | besteht, hat bestanden ; aus + D | être composé de |
+| benutzen | + A | utiliser |
+| entwickeln | + A | développer, mettre au point |
+| erfinden | erfindet, hat erfunden ; + A | inventer |
+| sich erholen | von + D | se reposer, récupérer |
+| erlauben | + D + A | autoriser, permettre |
+| füllen | + A ; mit + D | remplir, garnir |
+| formen | + A | façonner, mettre en forme |
+| herstellen | + A (séparable) | fabriquer, produire |
+| hinzu\|geben | gibt hinzu, hat hinzugegeben ; + A | ajouter |
+| importieren | + A | importer |
+| kühlen | + A | refroidir |
+| lösen | + A | résoudre |
+| mischen | + A | mélanger |
+| produzieren | + A | produire |
+| prüfen | + A | contrôler, examiner |
+| rühren | + A | remuer, mélanger |
+| speichern | + A | enregistrer, stocker |
+| stammen (aus) | aus + D | provenir de |
+| transportieren | + A | transporter |
+| übersetzen | + A ; in + A | traduire |
+| verbessern | + A | améliorer |
+| verbieten | verbietet, hat verboten ; + D + A | interdire |
+| verpacken | + A | emballer |
+| verwenden | + A ; zu + D | utiliser, employer |
+| veröffentlichen | + A | publier |
+
+#### Noms
+| Nom (avec article) | Pluriel | Traduction |
+|---|---|---|
+| das Aspirin | — | l'aspirine |
+| der Bildschirm | -e | l'écran |
+| der Buchdruck | — | l'imprimerie |
+| das Dessert | -s | le dessert |
+| der Dieselmotor | -en | le moteur diesel |
+| die Entwicklung | -en | le développement |
+| der Erfinder | - | l'inventeur |
+| die Erfinderin | -nen | l'inventrice |
+| die Erfindung | -en | l'invention |
+| das Fernsehen | — | la télévision |
+| der Fernseher | - | le téléviseur |
+| das Fließband | ¨-er | la chaîne de montage |
+| die Füllung | -en | la garniture, la farce |
+| die Geschwindigkeit | -en | la vitesse |
+| das Getränk | -e | la boisson |
+| das Glas | ¨-er | le verre (matière) |
+| die Handarbeit | -en | le travail manuel, l'artisanat |
+| die Herstellung | — | la fabrication |
+| die Hitze | — | la chaleur |
+| die Innovation | -en | l'innovation |
+| das Jahrhundert | -e | le siècle |
+| die Kakaobohne | -n | la fève de cacao |
+| der Kaffeefilter | - | le filtre à café |
+| der Klettverschluss | ¨-e | la fermeture velcro |
+| die Kochschokolade | -n | le chocolat de cuisine |
+| der Konditor | -en | le pâtissier |
+| die Kühlmaschine | -n | la machine frigorifique |
+| der Kühlschrank | ¨-e | le réfrigérateur |
+| die Kuvertüre | -n | le chocolat de couverture |
+| das Mehl | — | la farine |
+| die Mengenangabe | -n | l'indication de quantité |
+| das Motorrad | ¨-er | la moto |
+| die Nähmaschine | -n | la machine à coudre |
+| das Patent | -e | le brevet |
+| das Patentamt | ¨-er | l'office des brevets |
+| die Produktion | -en | la production |
+| die Produktionsmethode | -n | la méthode de production |
+| der Produktionsstandort | -e | le site de production |
+| der Prozess | -e | le processus |
+| das Rezept | -e | la recette |
+| die Rosine | -n | le raisin sec |
+| der Scheibenwischer | - | l'essuie-glace |
+| die Schiffsschraube | -n | l'hélice (de bateau) |
+| die Schokolade | -n | le chocolat |
+| die Serienproduktion | -en | la production en série |
+| die Spezialität | -en | la spécialité |
+| die Straßenbahn | -en | le tramway |
+| das Streichholz | ¨-er | l'allumette |
+| der Teebeutel | - | le sachet de thé |
+| die Tradition | -en | la tradition |
+| die Werbung | -en | la publicité |
+| die Zahnpasta | -pasten | le dentifrice |
+| die Zutat | -en | l'ingrédient |
+| der Zucker | — | le sucre |
+
+#### Adjectifs & adverbes
+| Mot | Comparatif/superlatif si irrég. | Traduction |
+|---|---|---|
+| analog | — | analogique |
+| attraktiv | — | attrayant |
+| bitter | — | amer |
+| danach | — | ensuite |
+| digital | — | numérique |
+| echt | — | authentique, véritable |
+| erfahren | — | expérimenté |
+| feuerfest | — | résistant au feu |
+| flach | — | plat, mince |
+| haltbar | — | qui se conserve |
+| hart | härter, am härtesten | dur |
+| köstlich | — | délicieux |
+| kreativ | — | créatif |
+| nötig | — | nécessaire |
+| populär | — | populaire |
+| praktisch | — | pratique |
+| saftig | — | moelleux, juteux |
+| transparent | — | transparent |
+| weich | — | mou, doux |
+| zum Schluss | — | pour finir, à la fin |
+
+#### Autres (prépositions, conjonctions, mots-outils, expressions)
+| Mot / Expression | Catégorie | Traduction |
+|---|---|---|
+| damit | conjonction (but) | pour que, afin que |
+| um … zu | conjonction (but) | pour, afin de |
+| wozu? | mot interrogatif | pour quoi (dans quel but) ? |
+| zuerst | adverbe | d'abord |
+| dann | adverbe | ensuite, puis |
+| danach | adverbe | après cela |
+| in Handarbeit | expression | à la main, artisanalement |
+| in Serie produzieren | expression | produire en série |
+| pro Kopf | expression | par habitant |
+| ein Problem lösen | expression | résoudre un problème |
+
+### 💬 Mise en contexte
+
+**Dialogue 1 — Erfindungen**
+
+> **Jürgen :** Was sind für dich die zwei wichtigsten **Erfindungen**?
+> **Sonja :** Der **Kühlschrank** und das Internet. **Wozu** brauchst du einen Kühlschrank?
+> **Jürgen :** **Um** Lebensmittel zu **kühlen**, natürlich! Carl von Linde hat die **Kühlmaschine erfunden**.
+> **Sonja :** Stimmt. Und das MP3-Format **wurde** in Erlangen **entwickelt**, aber zuerst in Japan **produziert**.
+> **Jürgen :** Interessant! Deutschland ist das Land mit den meisten **Erfindungen** in Europa.
+> **Sonja :** Und pro Kopf ist die Schweiz die größte „Erfindernation". Dort werden viele **Patente angemeldet**.
+> **Jürgen :** **Wozu** braucht man eigentlich ein **Patentamt**?
+> **Sonja :** **Damit** der **Erfinder** seine Idee schützen kann.
+
+*Traduction :*
+> **Jürgen :** Quelles sont pour toi les deux inventions les plus importantes ?
+> **Sonja :** Le réfrigérateur et Internet. À quoi te sert un réfrigérateur ?
+> **Jürgen :** À refroidir les aliments, bien sûr ! Carl von Linde a inventé la machine frigorifique.
+> **Sonja :** C'est vrai. Et le format MP3 a été développé à Erlangen, mais d'abord produit au Japon.
+> **Jürgen :** Intéressant ! L'Allemagne est le pays qui compte le plus d'inventions en Europe.
+> **Sonja :** Et par habitant, la Suisse est la plus grande « nation d'inventeurs ». Là-bas, beaucoup de brevets sont déposés.
+> **Jürgen :** À quoi sert au fond un office des brevets ?
+> **Sonja :** Pour que l'inventeur puisse protéger son idée.
+
+**Dialogue 2 — Wie wird Schokolade gemacht?**
+
+> **Tim :** Seit wann gibt es **Schokolade** zum Essen?
+> **Lara :** Die erste **wurde** 1849 in England **produziert**, aber sie war **hart** und **bitter**.
+> **Tim :** Und wie **wird** sie heute **hergestellt**?
+> **Lara :** Zuerst **wird** die Masse stundenlang **gerührt**, dabei **wird** sie warm und **weich gemacht**.
+> **Tim :** Und **danach**?
+> **Lara :** **Dann wird** die **Schokolade geformt** und **verpackt**. **Zum Schluss** kommt sie in den Laden.
+> **Tim :** Man braucht also viel Zeit, **um** gute Schokolade **herzustellen**.
+> **Lara :** Ja, aber Lindt hat die **Produktionsmethode verbessert** — heute geht es schneller.
+
+*Traduction :*
+> **Tim :** Depuis quand y a-t-il du chocolat à manger ?
+> **Lara :** Le premier fut produit en 1849 en Angleterre, mais il était dur et amer.
+> **Tim :** Et comment est-il fabriqué aujourd'hui ?
+> **Lara :** D'abord la masse est remuée pendant des heures, ce qui la rend chaude et molle.
+> **Tim :** Et après ?
+> **Lara :** Ensuite le chocolat est façonné et emballé. Pour finir, il arrive en magasin.
+> **Tim :** Il faut donc beaucoup de temps pour fabriquer du bon chocolat.
+> **Lara :** Oui, mais Lindt a amélioré la méthode de production — aujourd'hui ça va plus vite.
+
+**Phrases d'exemple** (réemploi ciblé du vocabulaire) :
+- Das **Aspirin wurde** im 19. **Jahrhundert erfunden** und hilft gegen Kopfschmerzen. — *L'aspirine a été inventée au 19e siècle et soulage les maux de tête.*
+- Man braucht ein **Patentamt**, **um Patente anzumelden**. — *On a besoin d'un office des brevets pour déposer des brevets.*
+- Die Sachertorte **wird** in reiner **Handarbeit** von **Konditoren hergestellt**. — *La Sachertorte est fabriquée entièrement à la main par des pâtissiers.*
+- Erfindungen sind **nötig**, **damit** man **Probleme lösen** kann. — *Les inventions sont nécessaires pour que l'on puisse résoudre les problèmes.*
+- Der **Kakao wurde** durch die Spanier nach Europa **importiert** und lange als Medizin **verkauft**. — *Le cacao fut importé en Europe par les Espagnols et longtemps vendu comme médicament.*
+- Mit der MP3-Technik ist das **Speichern** von Musik auf einem kleinen Chip möglich. — *Grâce à la technique MP3, le stockage de musique sur une petite puce est possible.*
+- Gummibärchen **werden** von **vielen** Kindern geliebt und in mehr als 100 Länder **transportiert**. — *Les oursons en gomme sont aimés par beaucoup d'enfants et transportés dans plus de 100 pays.*
+
+---
+
+<!-- FIN — agent=a2p2 ; thèmes traités=6 ; mots de vocabulaire ≈ 470 -->
+<!-- INCERTAIN: aucun mot illisible signalé ; le texte source (couche OCR) comportait du bruit (ligatures, sauts de ligne) corrigé grâce à la connaissance de l'allemand. Quelques dates d'invention dans l'OCR de l'Einheit 12 étaient visiblement corrompues (ex. "Aspirin 1991", "Dieselmotor 1990", "Schiffsschraube 1921") ; le vocabulaire et la grammaire ne dépendent pas de ces chiffres, donc non repris dans les tableaux. -->
