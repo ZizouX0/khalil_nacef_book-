@@ -1,0 +1,98 @@
+/* ===== Manuel de révision Allemand A1–A2 — feuille de style PDF (WeasyPrint) ===== */
+
+/* ---------- Pages ---------- */
+@page {
+  size: A4;
+  margin: 20mm 17mm 20mm 17mm;
+  @bottom-left   { content: "Allemand A1–A2 · Révision"; font-family: 'DejaVu Sans'; font-size: 8pt; color: #9a9a9a; }
+  @bottom-center { content: "Khalil Nacef"; font-family: 'DejaVu Sans'; font-size: 8.5pt; color: #777; font-weight: bold; letter-spacing: .3px; }
+  @bottom-right  { content: counter(page) " / " counter(pages); font-family: 'DejaVu Sans'; font-size: 8pt; color: #9a9a9a; }
+}
+/* Pas de pied de page sur la couverture */
+@page :first { margin: 0; @bottom-left { content: none } @bottom-center { content: none } @bottom-right { content: none } }
+
+/* Page de partie : grand bandeau */
+@page part { @bottom-center { content: "Khalil Nacef"; font-size: 8.5pt; color:#777; font-weight:bold } }
+
+/* ---------- Base ---------- */
+html { font-family: 'DejaVu Sans', sans-serif; font-size: 10pt; line-height: 1.42; color: #1d1d1f; }
+body { margin: 0; }
+p { margin: 0 0 .5em 0; }
+strong { color: #111; }
+em { color: #333; }
+
+/* ---------- Couverture ---------- */
+.cover {
+  page: cover;
+  height: 297mm; width: 100%;
+  display: flex; flex-direction: column; justify-content: center; align-items: center;
+  text-align: center;
+  background: linear-gradient(150deg, #8a0010 0%, #c1121f 55%, #e63946 100%);
+  color: #fff;
+}
+.cover .kicker { font-size: 13pt; letter-spacing: 4px; text-transform: uppercase; opacity:.9; margin-bottom: 10mm; }
+.cover h1 { font-size: 40pt; line-height:1.1; margin: 0 18mm; color:#fff; border:none; }
+.cover .sub { font-size: 15pt; margin-top: 8mm; opacity: .95; font-weight: 300; }
+.cover .rule { width: 60mm; height: 3px; background: rgba(255,255,255,.85); margin: 12mm 0; }
+.cover .meta { position: absolute; bottom: 24mm; left: 0; right: 0; text-align: center; font-size: 12pt; }
+.cover .meta .author { font-size: 17pt; font-weight: bold; letter-spacing:.5px; }
+.cover .badge { margin-top: 4mm; font-size: 10pt; opacity:.85 }
+
+/* ---------- Titres ---------- */
+h1 { /* Parties */
+  page-break-before: always;
+  font-size: 26pt; color: #fff; background: #b00020;
+  margin: -20mm -17mm 8mm -17mm; padding: 26mm 17mm 10mm 17mm;
+  border-bottom: 6px solid #7a0016;
+}
+h1.no-break { page-break-before: avoid; }
+h2 { /* Thèmes / grandes sections */
+  font-size: 17pt; color: #b00020; margin: 1.4em 0 .5em;
+  padding-bottom: 3px; border-bottom: 2px solid #e8b8be;
+  page-break-after: avoid;
+}
+h3 { font-size: 13pt; color: #1d1d1f; margin: 1.1em 0 .4em; page-break-after: avoid; }
+h4 { font-size: 11pt; color: #7a0016; margin: .9em 0 .3em; page-break-after: avoid; }
+h2, h3, h4 { page-break-inside: avoid; }
+
+/* ---------- Tableaux ---------- */
+table { border-collapse: collapse; width: 100%; margin: .5em 0 1em; font-size: 9.2pt; page-break-inside: avoid; }
+th, td { border: 1px solid #cfcfd4; padding: 4px 7px; text-align: left; vertical-align: top; }
+thead th { background: #b00020; color: #fff; font-weight: bold; border-color:#8a0010; }
+tbody tr:nth-child(even) { background: #f7f1f2; }
+caption { caption-side: top; font-weight: bold; text-align: left; margin-bottom: 3px; color:#7a0016; }
+
+/* ---------- Blocs spéciaux ---------- */
+blockquote {
+  margin: .5em 0; padding: .5em .9em; background: #f4f6fb;
+  border-left: 4px solid #3b6fb0; border-radius: 3px; font-size: 9.6pt;
+}
+/* Encart Extension A2 */
+blockquote:has(strong) { }
+.a2box, blockquote p:first-child:where(:has(*)) {}
+
+/* Règle de grammaire : exemples */
+ul, ol { margin: .3em 0 .7em 1.1em; padding: 0; }
+li { margin: .12em 0; }
+
+hr { border: none; border-top: 1px solid #ddd; margin: 1.2em 0; }
+
+/* Mise en évidence des emoji-titres déjà dans le markdown (🔤 📖 💬) gérée par le contenu */
+
+/* ---------- Sommaire ---------- */
+.toc-title { page-break-before: always; font-size: 22pt; color:#b00020; margin: 0 0 .6em; }
+ul.toc { list-style: none; margin: 0; padding: 0; font-size: 10.5pt; }
+ul.toc li { margin: .18em 0; }
+ul.toc li.lvl1 { font-weight: bold; margin-top: .7em; color:#b00020; font-size: 11.5pt; }
+ul.toc li.lvl2 { margin-left: 6mm; }
+ul.toc li.lvl3 { margin-left: 12mm; font-size: 9.6pt; color:#444; }
+ul.toc a { text-decoration: none; color: inherit; }
+ul.toc li.lvl1 a::after,
+ul.toc li.lvl2 a::after,
+ul.toc li.lvl3 a::after {
+  content: "  " leader('.') " " target-counter(attr(href), page);
+  color: #888; font-weight: normal;
+}
+
+/* Anti-veuves */
+h2 + table, h3 + table, h4 + table { page-break-before: avoid; }

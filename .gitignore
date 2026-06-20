@@ -1,0 +1,5 @@
+# Sources volumineuses (manuels) — ne pas committer
+*.zip
+src_pdf/
+build/tmp/
+__pycache__/
