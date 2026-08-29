@@ -269,6 +269,24 @@ def build():
     parts.append(h(1,"Appendix — Grammar Reference"))
     parts.append(md(ref))
 
+    # -------- global recap glossaries (all verbs / all adjectives) --------
+    allv={}; alladj={}
+    for t in themes:
+        vt=voc_tables(t['voc'])
+        for r in vt.get('verbos',[])[1:]:
+            if len(r)>=3 and r[0].strip() and r[0] not in allv: allv[r[0]]=(r[1],r[2])
+        for r in vt.get('adjetivos',[])[1:]:
+            if len(r)>=3 and r[0].strip() and r[0] not in alladj: alladj[r[0]]=(r[1],r[2])
+    vkey=lambda x: re.sub(r'[^a-záéíóúñü]','',x[0].lower())
+    parts.append(h(1,"Verb & Adjective Glossary (A1+A2)"))
+    parts.append(f'<p class="lead">Every verb and adjective in the book, gathered in one place for fast look-up — {len(allv)} verbs and {len(alladj)} adjectives &amp; adverbs.</p>')
+    parts.append('<h2>All verbs</h2>')
+    parts.append(plain_table([["Verb (infinitive)","Notes (irregularity / regime)","English"]]+
+                             [[k,v[0],v[1]] for k,v in sorted(allv.items(), key=vkey)]))
+    parts.append('<h2>All adjectives &amp; adverbs</h2>')
+    parts.append(plain_table([["Word","Notes","English"]]+
+                             [[k,v[0],v[1]] for k,v in sorted(alladj.items(), key=vkey)]))
+
     # -------- alphabetical index --------
     words={}
     for t in themes:
