@@ -3,3 +3,5 @@
 src_pdf/
 build/tmp/
 __pycache__/
+spanish/build/_book.html
+spanish/build/__pycache__/

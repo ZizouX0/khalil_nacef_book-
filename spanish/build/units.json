@@ -1,0 +1,226 @@
+{
+ "A1": [
+  {
+   "unidad": 0,
+   "name": "En el aula",
+   "printed": [
+    10,
+    13
+   ],
+   "sujeto": "aula",
+   "foto": "spanish language classroom students",
+   "scope": "hello & goodbye, classroom language, numbers 1-10, the alphabet"
+  },
+  {
+   "unidad": 1,
+   "name": "Nosotros y nosotras",
+   "printed": [
+    14,
+    27
+   ],
+   "sujeto": "presentarse",
+   "foto": "people introducing themselves group",
+   "scope": "ser / tener / llamarse, personal pronouns; numbers, nationalities, professions, workplaces"
+  },
+  {
+   "unidad": 2,
+   "name": "Quiero aprender español",
+   "printed": [
+    28,
+    41
+   ],
+   "sujeto": "aprender-idiomas",
+   "foto": "learning spanish study books",
+   "scope": "gender, definite/indefinite articles, presente de indicativo (regular -ar/-er/-ir), por/para/porque; languages, class & leisure activities"
+  },
+  {
+   "unidad": 3,
+   "name": "¿Dónde está Santiago?",
+   "printed": [
+    42,
+    55
+   ],
+   "sujeto": "geografia-clima",
+   "foto": "world map latin america",
+   "scope": "uses of hay, the verb estar, the superlative, quantifiers muy/mucho, interrogatives qué/cuál/cuántos/dónde/cómo; climate & weather, geography, countries, cardinal points, seasons"
+  },
+  {
+   "unidad": 4,
+   "name": "¿Cuál prefieres?",
+   "printed": [
+    56,
+    69
+   ],
+   "sujeto": "compras-ropa",
+   "foto": "clothes shop clothing rack",
+   "scope": "demonstratives este/esta/estos/estas/esto, cuál/cuáles, tener que + infinitive, verbs ir & preferir; numbers over 100, colours, clothes & accessories, everyday objects, llevar"
+  },
+  {
+   "unidad": 5,
+   "name": "Tus amigos son mis amigos",
+   "printed": [
+    70,
+    83
+   ],
+   "sujeto": "familia-caracter",
+   "foto": "friends family together",
+   "scope": "the verb gustar, quantifiers muy/bastante/un poco, possessives, también/tampoco, diacritical accents; family, personality adjectives, music"
+  },
+  {
+   "unidad": 6,
+   "name": "Día a día",
+   "printed": [
+    84,
+    97
+   ],
+   "sujeto": "rutina-hora",
+   "foto": "daily routine morning coffee clock",
+   "scope": "presente de indicativo (irregular verbs), pronominal/reflexive verbs, frequency, sequence primero/después/luego; days of the week, times of day, daily activities"
+  },
+  {
+   "unidad": 7,
+   "name": "¡A comer!",
+   "printed": [
+    98,
+    111
+   ],
+   "sujeto": "comida",
+   "foto": "spanish food tapas plates",
+   "scope": "verbs poner & traer, direct object pronouns lo/la/los/las, uses of de & con; food, ways of cooking, utensils, typical dishes"
+  },
+  {
+   "unidad": 8,
+   "name": "El barrio ideal",
+   "printed": [
+    112,
+    125
+   ],
+   "sujeto": "ciudad-barrio",
+   "foto": "spanish city street neighbourhood",
+   "scope": "quantifiers algún/ningún/mucho, prepositions & adverbs of place (a, en, al lado de, cerca, lejos); services & places in a city, adjectives"
+  },
+  {
+   "unidad": 9,
+   "name": "¿Sabes conducir?",
+   "printed": [
+    126,
+    139
+   ],
+   "sujeto": "trabajo-habilidades",
+   "foto": "job interview office work",
+   "scope": "the pretérito perfecto, saber + infinitive, poder + infinitive; professions, personality adjectives, skills & abilities"
+  }
+ ],
+ "A2": [
+  {
+   "unidad": 1,
+   "name": "El español y tú",
+   "printed": [
+    10,
+    21
+   ],
+   "sujeto": "aprender-idiomas",
+   "foto": "people learning language class",
+   "scope": "the presents (regular & irregular), reflexive verbs, costar & sentirse, para/porque, desde / desde hace / hace… que; feelings, activities for learning languages, professions, the alphabet"
+  },
+  {
+   "unidad": 2,
+   "name": "Una vida de película",
+   "printed": [
+    22,
+    33
+   ],
+   "sujeto": "biografia-cine",
+   "foto": "old cinema film reel",
+   "scope": "form & uses of the pretérito indefinido, empezar a + infinitive, ir/irse, past temporal markers, prepositions desde/durante/hasta; cinema, biographies"
+  },
+  {
+   "unidad": 3,
+   "name": "Hogar, dulce hogar",
+   "printed": [
+    34,
+    45
+   ],
+   "sujeto": "casa-vivienda",
+   "foto": "living room home interior furniture",
+   "scope": "comparatives, prepositions of place (sin, con, debajo, encima, detrás, delante), possessive pronouns (el mío/la mía…), uses of ser & estar, verbs gustar/encantar/preferir; types of housing, parts of a home, shapes/styles/materials"
+  },
+  {
+   "unidad": 4,
+   "name": "¿Cómo va todo?",
+   "printed": [
+    46,
+    57
+   ],
+   "sujeto": "cortesia-situaciones",
+   "foto": "people greeting meeting handshake",
+   "scope": "the gerundio (regular & irregular), estar + gerundio, the condicional; greetings & farewells, courtesy verbs (poder, importar, ayudar, poner), dar/dejar/prestar"
+  },
+  {
+   "unidad": 5,
+   "name": "Guía del ocio",
+   "printed": [
+    58,
+    69
+   ],
+   "sujeto": "ocio-viajes",
+   "foto": "weekend city guide leisure",
+   "scope": "the pretérito perfecto, ya / todavía no, ir a + infinitive, querer/pensar + infinitive; leisure activities & places, travel"
+  },
+  {
+   "unidad": 6,
+   "name": "No como carne",
+   "printed": [
+    70,
+    81
+   ],
+   "sujeto": "comida-recetas",
+   "foto": "vegetables cooking healthy food",
+   "scope": "direct object pronouns, impersonal forms with se, some uses of ser & estar, y/pero/además; food, recipes, weights & measures"
+  },
+  {
+   "unidad": 7,
+   "name": "Nos gustó mucho",
+   "printed": [
+    82,
+    93
+   ],
+   "sujeto": "experiencias-lugares",
+   "foto": "tourists sightseeing city",
+   "scope": "uses of pretérito perfecto vs indefinido, me/te/le/nos/os/les gustaría + infinitive, exclamative sentences; parecer, caer bien/mal, pasárselo bien/mal, places of interest & cultural offerings"
+  },
+  {
+   "unidad": 8,
+   "name": "Estamos muy bien",
+   "printed": [
+    94,
+    105
+   ],
+   "sujeto": "cuerpo-salud",
+   "foto": "doctor patient health",
+   "scope": "uses of ser & estar, the verb doler, form & uses of the affirmative imperative; parts of the body, moods, illnesses & symptoms"
+  },
+  {
+   "unidad": 9,
+   "name": "Antes y ahora",
+   "printed": [
+    106,
+    117
+   ],
+   "sujeto": "pasado-historia",
+   "foto": "old sepia photograph history",
+   "scope": "the pretérito imperfecto, ya no / todavía, past & present temporal markers; travel, historical periods, stages of life"
+  },
+  {
+   "unidad": 10,
+   "name": "Momentos especiales",
+   "printed": [
+    118,
+    129
+   ],
+   "sujeto": "anecdotas-emociones",
+   "foto": "celebration fireworks special",
+   "scope": "irregular forms of the pretérito indefinido, contrast pretérito indefinido vs imperfecto, past of estar + gerundio, temporal markers for narrating; historical events, emotions"
+  }
+ ]
+}
