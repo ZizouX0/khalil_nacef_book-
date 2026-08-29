@@ -6,7 +6,7 @@
 Complete beginners who want to **learn**, not just revise. If you can read this sentence, you can start Lesson 1.
 
 ## How the book is organised
-**1. Start Here** (this page) and **Sounds & Spelling** — read these two first.
+**1. Start Here** (this page) and **Pronunciation & Accents** — read these two first.
 
 **2. The 20 Lessons** — the heart of the book, in learning order (A1 first, then A2). Work through them **one at a time, in order**. Every lesson has the same four parts:
 
@@ -36,6 +36,8 @@ Complete beginners who want to **learn**, not just revise. If you can read this 
 5. Check the **Answer Key** at the back — mark what you got wrong.
 6. Re-read the parts you missed.
 7. Move to the next lesson only when you feel comfortable. **Little and often beats cramming.**
+
+**A suggested pace:** about **2 lessons a week** (20–30 minutes a day) makes this a ~10-week course. After units A1-5, A1-9, A2-5 and A2-10 you'll find a **Repaso** (review) to check your progress.
 
 ## Your very first words (learn these now!)
 | Español | English |

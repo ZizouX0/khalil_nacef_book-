@@ -29,9 +29,9 @@ They never change and never blur (unlike English).
 | **qu** | "k" (u is silent) | qué, aquí |
 
 ## 3. Where's the stress? (3 simple rules)
-1. Word ends in a **vowel, -n or -s** → stress the **second-to-last** syllable: *ca-**sa**, ha-**bla**-n, jo-**ven**-es.*
+1. Word ends in a **vowel, -n or -s** → stress the **second-to-last** syllable: *ca-**sa**, ha-**bla**-n, na-**ran**-ja.*
 2. Word ends in **any other consonant** → stress the **last** syllable: *ha-**blar**, ciu-**dad**, es-pa-**ñol**.*
-3. **Any exception to rules 1–2 carries a written accent (tilde ´):** *ca-**fé**, **ár**-bol, in-glés, ca-**ción***.
+3. **Any exception to rules 1–2 carries a written accent (tilde ´):** *ca-**fé**, **ár**-bol, in-glés, can-**ción***.
 
 ## 4. The written accent (tilde ´)
 - Shows the stressed syllable when it breaks the rules above.

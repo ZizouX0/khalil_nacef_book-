@@ -196,6 +196,16 @@ def parse_exercises(path):
         out[(nivel,str(int(uni)))]=(practica.strip(), answers.strip())
     return out
 
+def parse_repaso(path):
+    if not os.path.exists(path): return {}
+    text=open(path,encoding="utf-8").read(); out={}
+    for m in re.finditer(r'^##\s+Repaso\b.*?\{#after=([A-Za-z0-9-]+)\}\s*$(.*?)(?=^##\s+Repaso|\Z)', text, re.S|re.M):
+        key=m.group(1).strip(); body=m.group(2)
+        am=re.search(r'\*\*Answers\.?\*\*', body)
+        content, answers = (body[:am.start()], body[am.end():]) if am else (body, "")
+        out[key]=(content.strip(), answers.strip())
+    return out
+
 def bonus_section(title_key):
     bonus=open(f"{BUILD}/bonus_es.md",encoding="utf-8").read()
     for chunk in re.split(r'(?=^# )', bonus, flags=re.M):
@@ -217,6 +227,7 @@ def build():
     exdict={}
     for f in ["ex_a1p1.md","ex_a1p2.md","ex_a2p1.md","ex_a2p2.md"]:
         exdict.update(parse_exercises(f"{SRC}/{f}"))
+    repaso=parse_repaso(f"{SRC}/repaso_es.md")
     parts=[]; answer_key=[]
 
     # -------- front matter: Welcome + Pronunciation --------
@@ -225,6 +236,12 @@ def build():
     parts.append(h(1, wt.group(1))); parts.append(md(welcome[wt.end():]))
     pt,pbody=bonus_section("Pronunciation")
     if pt: parts.append(h(1,pt)); parts.append(md(pbody))
+    cog=open(f"{BUILD}/cognates_es.md",encoding="utf-8").read()
+    for chunk in re.split(r'(?=^# )', cog, flags=re.M):
+        chunk=chunk.strip()
+        if not chunk: continue
+        cm=re.match(r'^#\s+(.+)', chunk)
+        parts.append(h(1,cm.group(1))); parts.append(md(chunk[cm.end():]))
 
     # -------- the lessons --------
     parts.append(h(1,"The Lessons · Las lecciones"))
@@ -275,6 +292,13 @@ def build():
             parts.append('<p class="ansref"><small>→ Check your answers in the <b>Answer Key</b> at the back of the book.</small></p>')
             if ex[1]:
                 answer_key.append((f"Unidad {uno} — {t['name']} ({nivel})", ex[1]))
+        rk=f"{nivel}-{int(uno)}"
+        if rk in repaso:
+            rc,ra=repaso[rk]
+            rid=slug(f"repaso-{rk}"); TOC.append((2,rid,f"Repaso — after {nivel} unit {uno}"))
+            parts.append(f'<div class="repaso" id="{rid}"><h2 style="page-break-before:always">Repaso · Review after {nivel} Unit {uno}</h2>')
+            parts.append(md(rc)); parts.append('</div>')
+            if ra: answer_key.append((f"Repaso — after {nivel} unit {uno}", ra))
 
     # ================= REFERENCE =================
     parts.append(h(1,"Reference"))

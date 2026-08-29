@@ -113,3 +113,9 @@ ul,ol{margin:.25em 0 .6em 1.1em; padding:0} li{margin:.12em 0}
 hr{border:none; border-top:1px solid #e7ded0; margin:1em 0}
 small{color:#777}
 .lead{font-size:10.5pt; color:#444; margin-bottom:.6em}
+
+/* review checkpoints */
+.repaso{border-top:3px solid #1b998b; margin-top:6px}
+.repaso h2{color:#1b998b; border-bottom:2px solid #a8ddd5}
+.repaso ul{margin:.3em 0 .6em 1.1em}
+.repaso h3{color:#177e72}

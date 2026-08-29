@@ -1,19 +1,5 @@
 [
  {
-  "file": "a1_u03.jpg",
-  "title": "Patagonia - Land of the BIG FOOT",
-  "creator": "arthur.strathearn",
-  "license": "pdm",
-  "source": "https://www.flickr.com/photos/142603527@N02/50713864491"
- },
- {
-  "file": "a1_u04.jpg",
-  "title": "Project 365 #73: 140313 Off The Rack",
-  "creator": "comedy_nose",
-  "license": "pdm",
-  "source": "https://www.flickr.com/photos/23408922@N07/8558691314"
- },
- {
   "file": "a2_u02.jpg",
   "title": "Vintage projector reel",
   "creator": null,
@@ -21,39 +7,11 @@
   "source": "https://www.rawpixel.com/image/3297074/free-photo-image-cinema-movie-projector"
  },
  {
-  "file": "a2_u04.jpg",
-  "title": "20121219-OSEC-LSC-0025",
-  "creator": "USDAgov",
-  "license": "pdm",
-  "source": "https://www.flickr.com/photos/41284017@N08/8288307012"
- },
- {
-  "file": "a1_u01.jpg",
-  "title": "People in a café in Paris, France, in autumn 1982 (JOKASAG4A-17).tif",
-  "creator": "Sari Gustafsson",
-  "license": "CC BY 4.0",
-  "source": "https://commons.wikimedia.org/wiki/File:People_in_a_caf%C3%A9_in_Paris,_France,_in_autumn_1982_(JOKASAG4A-17).tif"
- },
- {
-  "file": "a1_u05.jpg",
-  "title": "Anthonie Palamedesz. - Group portrait of an unknown family in an interior.jpg",
-  "creator": "Attributed to Anthonie Palamedesz. / Formerly attributed to Pieter Codde",
-  "license": "Public domain",
-  "source": "https://commons.wikimedia.org/wiki/File:Anthonie_Palamedesz._-_Group_portrait_of_an_unknown_family_in_an_interior.jpg"
- },
- {
   "file": "a1_u06.jpg",
   "title": "Enjoying a croissant and coffee while sitting at a table in a cafe.jpg",
   "creator": "Shixart1985",
   "license": "CC BY 2.0",
   "source": "https://commons.wikimedia.org/wiki/File:Enjoying_a_croissant_and_coffee_while_sitting_at_a_table_in_a_cafe.jpg"
- },
- {
-  "file": "a1_u07.jpg",
-  "title": "2018-03-07 Inside Gran Via Tapas Bar, Albufeira (1).JPG",
-  "creator": "Kolforn (Kolforn)\nI'd appreciate if you could mail me (Kolforn@gmail.com) if you",
-  "license": "CC BY-SA 4.0",
-  "source": "https://commons.wikimedia.org/wiki/File:2018-03-07_Inside_Gran_Via_Tapas_Bar,_Albufeira_(1).JPG"
  },
  {
   "file": "a1_u08.jpg",
@@ -84,13 +42,6 @@
   "source": "https://commons.wikimedia.org/wiki/File:Barcelona_and_the_Sagrada_Famillia_(33187347438).jpg"
  },
  {
-  "file": "a2_u08.jpg",
-  "title": "CP25 Leukemia Patient Consultation (9123626).jpg",
-  "creator": "U.S. Navy photo by Petty Officer 2nd Class Jonas Womack",
-  "license": "Public domain",
-  "source": "https://commons.wikimedia.org/wiki/File:CP25_Leukemia_Patient_Consultation_(9123626).jpg"
- },
- {
   "file": "a2_u10.jpg",
   "title": "Fireworks on New Year's Eve in a small Swabian village (1), brightened.jpg",
   "creator": "Andreas Weith",
@@ -119,13 +70,6 @@
   "source": "https://commons.wikimedia.org/wiki/File:Desk_with_notebook_pens_and_glasses.jpg"
  },
  {
-  "file": "a2_u01.jpg",
-  "title": "Students studying in the Library (Abbot Academy) - DPLA - b56028e08c414a94ca7511fbf8cac90a.jpg",
-  "creator": "Abbot Academy",
-  "license": "CC BY-SA 4.0",
-  "source": "https://commons.wikimedia.org/wiki/File:Students_studying_in_the_Library_(Abbot_Academy)_-_DPLA_-_b56028e08c414a94ca7511fbf8cac90a.jpg"
- },
- {
   "file": "a2_u03.jpg",
   "title": "Modern living room with stylish furniture and a view of the outdoors in a cozy apartment setting.jpg",
   "creator": "Shixart1985",
@@ -133,17 +77,59 @@
   "source": "https://commons.wikimedia.org/wiki/File:Modern_living_room_with_stylish_furniture_and_a_view_of_the_outdoors_in_a_cozy_apartment_setting.jpg"
  },
  {
-  "file": "a2_u05.jpg",
-  "title": "Panorama of Bryce Canyon - Flickr - Sergiy Galyonkin.jpg",
-  "creator": "Sergiy Galyonkin from Raleigh, USA",
-  "license": "CC BY-SA 2.0",
-  "source": "https://commons.wikimedia.org/wiki/File:Panorama_of_Bryce_Canyon_-_Flickr_-_Sergiy_Galyonkin.jpg"
- },
- {
   "file": "a2_u09.jpg",
   "title": "Tammisaari Christmas Street 1950 (Numeroimaton; JOKAVN4A1A50-2).tif",
   "creator": "Bror Brandt",
   "license": "CC BY 4.0",
   "source": "https://commons.wikimedia.org/wiki/File:Tammisaari_Christmas_Street_1950_(Numeroimaton;_JOKAVN4A1A50-2).tif"
+ },
+ {
+  "file": "a1_u01.jpg",
+  "title": "TricyleGigglePolandAvenueNOLA.JPG",
+  "creator": "Infrogmation of New Orleans",
+  "license": "CC BY 3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:TricyleGigglePolandAvenueNOLA.JPG"
+ },
+ {
+  "file": "a1_u05.jpg",
+  "title": "Lady and Child asleep in a punter under the willows (1887) - John Singer Sargent (1886 - 1925) (30462902862).jpg",
+  "creator": "Pedro Ribeiro Simões from Lisboa, Portugal",
+  "license": "CC BY 2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Lady_and_Child_asleep_in_a_punter_under_the_willows_(1887)_-_John_Singer_Sargent_(1886_-_1925)_(30462902862).jpg"
+ },
+ {
+  "file": "a1_u07.jpg",
+  "title": "Concurso Internacional de Paellas 2016 07.jpg",
+  "creator": "Dorieo",
+  "license": "CC BY-SA 3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Concurso_Internacional_de_Paellas_2016_07.jpg"
+ },
+ {
+  "file": "a2_u01.jpg",
+  "title": "Deichman Bjørvika, Oslo - 53131654106.jpg",
+  "creator": "charlotte henard",
+  "license": "CC BY-SA 2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Deichman_Bj%C3%B8rvika,_Oslo_-_53131654106.jpg"
+ },
+ {
+  "file": "a2_u04.jpg",
+  "title": "Rev Sangster - Greeting and gathering - Funeral for our future - Melbourne - IMG 3549 (45213824485).jpg",
+  "creator": "John Englart from Fawkner, Australia",
+  "license": "CC BY-SA 2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Rev_Sangster_-_Greeting_and_gathering_-_Funeral_for_our_future_-_Melbourne_-_IMG_3549_(45213824485).jpg"
+ },
+ {
+  "file": "a1_u03.jpg",
+  "title": "Blue hour in Santiago de Chile.jpg",
+  "creator": "Marco Nürnberger",
+  "license": "CC BY 2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Blue_hour_in_Santiago_de_Chile.jpg"
+ },
+ {
+  "file": "a1_u04.jpg",
+  "title": "DFC 1040 A nighttime street scene with a brightly lit motorbike cart displaying hanging clothes while people stand nearby under colorful neon lights.jpg",
+  "creator": "PattayaPatrol",
+  "license": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:DFC_1040_A_nighttime_street_scene_with_a_brightly_lit_motorbike_cart_displaying_hanging_clothes_while_people_stand_nearby_under_colorful_neon_lights.jpg"
  }
 ]

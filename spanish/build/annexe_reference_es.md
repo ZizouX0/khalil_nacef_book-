@@ -149,6 +149,18 @@ Built "back-to-front": the thing liked is the subject; the person is an **indire
 
 ## E · The past tenses
 
+### E.0 Which past tense? — a quick decision map
+Spanish has three main past tenses. Choose by **what kind of past** you mean:
+
+| Tense | Use it for | Typical markers | Example |
+|---|---|---|---|
+| **Pretérito perfecto** (he hablado) | past linked to *now*; life experience | hoy, esta semana, ya, todavía no, alguna vez | *Hoy **he trabajado** mucho.* |
+| **Pretérito indefinido** (hablé) | finished, completed events | ayer, el año pasado, en 2019, hace dos días | *Ayer **comí** paella.* |
+| **Pretérito imperfecto** (hablaba) | description, habits, "the background" | antes, siempre, todos los días, de niño | *De niño **jugaba** en la calle.* |
+
+**In a story**, the **imperfecto** paints the scene (weather, time, feelings, what was going on) and the **indefinido** moves the action forward: ***Era** de noche y **llovía** cuando de repente **sonó** el teléfono.*
+
+
 ### E.1 Pretérito perfecto (have + done — recent past / experience)
 **haber (present)** + **participio**:
 | he · has · ha · hemos · habéis · han | + hablado / comido / vivido |
@@ -259,3 +271,5 @@ Markers: *ayer, el año pasado, en 2019, hace dos días.*
 - **100+:** cien / ciento (101 = ciento uno), doscientos, quinientos, mil, un millón.
 - **Time:** *¿Qué hora es? — **Es la** una. **Son las** dos y media. Son las tres menos cuarto.* (*de la mañana / tarde / noche*).
 - **Days:** lunes, martes, miércoles, jueves, viernes, sábado, domingo. **Date:** *el 5 de mayo de 2024.*
+- **Months:** enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre (all lower-case in Spanish).
+- **Ordinals 1st–10th:** primero, segundo, tercero, cuarto, quinto, sexto, séptimo, octavo, noveno, décimo (*primero/tercero* shorten to *primer/tercer* before a masculine noun: *el primer día*).
