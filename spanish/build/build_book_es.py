@@ -21,8 +21,9 @@ def _normalize(t):
         if is_tb and prev.strip() and not prev.lstrip().startswith("|"): out.append("")
         out.append(l)
     return "\n".join(out)
+_EMOJI=re.compile('[\U0001F000-\U0001FAFF\U00002600-\U000027BF️]')
 def md(t):
-    _md.reset(); return _md.convert(_normalize(t.strip()))
+    _md.reset(); return _md.convert(_normalize(_EMOJI.sub('',t).strip()))
 def slug(s):
     s=re.sub(r'<[^>]+>','',s); s=re.sub(r'[^a-zA-Z0-9]+','-',s.lower()).strip('-'); return s or 'x'
 
@@ -181,57 +182,59 @@ def render_ctx(ctx):
 def md_inline(t):
     h=md(t); h=re.sub(r'^<p>|</p>$','',h.strip()); return h
 
-# ---------------- assemble ----------------
+# ---------------- exercises parsing ----------------
+def parse_exercises(path):
+    """{(nivel,unidad): (practica_md, answers_md)}"""
+    if not os.path.exists(path): return {}
+    text=open(path,encoding="utf-8").read(); out={}
+    for m in re.finditer(r'^##\s+Unidad\s+(\d+)\b.*?\{(.+?)\}\s*$(.*?)(?=^##\s+Unidad|\Z)', text, re.S|re.M):
+        meta=parse_meta(m.group(2)); nivel=meta.get('nivel','A1'); uni=meta.get('unidad', m.group(1))
+        body=m.group(3)
+        am=re.search(r'\*\*Answers\.?\*\*', body)
+        practica, answers = (body[:am.start()], body[am.end():]) if am else (body, "")
+        practica=re.sub(r'^###\s*Práctica\s*$','',practica,flags=re.M)
+        out[(nivel,str(int(uni)))]=(practica.strip(), answers.strip())
+    return out
+
+def bonus_section(title_key):
+    bonus=open(f"{BUILD}/bonus_es.md",encoding="utf-8").read()
+    for chunk in re.split(r'(?=^# )', bonus, flags=re.M):
+        chunk=chunk.strip()
+        if not chunk: continue
+        mm=re.match(r'^#\s+(.+)', chunk)
+        if title_key.lower() in mm.group(1).lower():
+            return mm.group(1), chunk[mm.end():]
+    return None,None
+
+# ---------------- assemble (learn-from-zero course) ----------------
 def build():
     themes=[]
     for f in FILES: themes+=parse_file(f"{SRC}/{f}")
     umeta=json.load(open("/tmp/es/units.json",encoding="utf-8"))
-    # index of foto by (nivel,unidad)
     foto={}
     for lv in ("A1","A2"):
         for u in umeta[lv]: foto[(lv,str(u['unidad']))]=u
-    parts=[]
+    exdict={}
+    for f in ["ex_a1p1.md","ex_a1p2.md","ex_a2p1.md","ex_a2p2.md"]:
+        exdict.update(parse_exercises(f"{SRC}/{f}"))
+    parts=[]; answer_key=[]
 
-    # -------- PART 1 : grammar by topic --------
-    CATORD=['genero-articulos','pronombres','ser-estar-hay','presente','perifrasis','pasado',
-            'imperativo-condicional-gerundio','gustar-similares','comparativos-cuantificadores',
-            'preposiciones','interrogativos-conectores','numeros-tiempo','divers']
-    CATTL={'genero-articulos':'1 · Gender, articles & nouns','pronombres':'2 · Pronouns',
-      'ser-estar-hay':'3 · Ser, estar & hay','presente':'4 · The present tense',
-      'perifrasis':'5 · Verb + infinitive (periphrases)','pasado':'6 · The past tenses',
-      'imperativo-condicional-gerundio':'7 · Imperative, conditional & gerund','gustar-similares':'8 · Gustar-type verbs',
-      'comparativos-cuantificadores':'9 · Comparatives & quantifiers','preposiciones':'10 · Prepositions',
-      'interrogativos-conectores':'11 · Questions & connectors','numeros-tiempo':'12 · Numbers, time & dates','divers':'13 · Other points'}
-    gindex={}
-    for t in themes:
-        for p in parse_grammar(t['gram']):
-            key=re.sub(r'[^a-z ]','',p['name'].lower()).strip()
-            if key not in gindex or p['score']>gindex[key]['score']: gindex[key]=p
-    bycat={}
-    for p in gindex.values(): bycat.setdefault(p['cat'] if p['cat'] in CATTL else 'divers',[]).append(p)
-    parts.append(h(1,"Part 1 — Grammar","nobreak" if False else ""))
-    parts.append('<p class="lead">All the A1–A2 grammar, grouped by topic. Each point: a plain-English rule, Spanish examples with translations, a complete table, and the key pitfall (¡Ojo!).</p>')
-    for cat in CATORD:
-        ps=bycat.get(cat)
-        if not ps: continue
-        ps.sort(key=lambda x:(0 if not x['a2'] else 1, -x['score']))
-        parts.append(h(2,CATTL[cat]))
-        for p in ps:
-            badge=' <span style="font-size:8pt;background:#e9f6ee;color:#2e9e5b;border:1px solid #b6e0c4;border-radius:8px;padding:1px 6px">A2</span>' if p['a2'] else ''
-            parts.append(f'<h3 id="{slug(p["name"])}">{html.escape(p["name"])}{badge}</h3>')
-            parts.append(md(p['main']))
-            if p['ojo']:
-                parts.append('<div class="box ojo"><span class="h">¡Ojo!</span>'+md_inline(p['ojo'])+'</div>')
+    # -------- front matter: Welcome + Pronunciation --------
+    welcome=open(f"{BUILD}/welcome_es.md",encoding="utf-8").read()
+    wt=re.match(r'^#\s+(.+)', welcome);
+    parts.append(h(1, wt.group(1))); parts.append(md(welcome[wt.end():]))
+    pt,pbody=bonus_section("Pronunciation")
+    if pt: parts.append(h(1,pt)); parts.append(md(pbody))
 
-    # -------- PART 2 : vocab by theme --------
-    parts.append(h(1,"Part 2 — Vocabulary by theme"))
-    parts.append('<p class="lead">Each unit\'s vocabulary — grouped by type, colour-coded by gender (<span class="gen m">el</span> masculine / <span class="gen f">la</span> feminine) — then brought to life with real photos, diagrams and mini-dialogues.</p>')
+    # -------- the lessons --------
+    parts.append(h(1,"The Lessons · Las lecciones"))
+    parts.append('<p class="lead">Twenty units in learning order — A1 first, then A2. Work through them one at a time. Each has <b>Vocabulary → Grammar → Conversations → Practice</b>. Answers to every exercise are in the <b>Answer Key</b> at the back.</p>')
     for t in themes:
         mta=t['meta']; nivel=mta.get('nivel','A1'); uno=mta.get('unidad','0'); suj=mta.get('sujeto','')
         u=foto.get((nivel,uno),{})
         fpath=f"{PHOTOS}/{nivel.lower()}_u{int(uno):02d}.jpg"
-        tid=slug(f"{t['name']}-{nivel}-{uno}"); TOC.append((2,tid,f"{t['name']} ({nivel})"))
-        sub=html.escape(u.get('scope',''))
+        tid=slug(f"lesson-{t['name']}-{nivel}-{uno}"); TOC.append((2,tid,f"{t['name']} ({nivel})"))
+        sub="You will learn: "+html.escape(u.get('scope',''))
         if os.path.exists(fpath):
             op=(f'<div class="opener photo" id="{tid}" style="background-image:url(\'file://{fpath}\')"><div class="veil"></div>'
                 f'<div class="cap"><span class="badge">UNIDAD {uno} · {nivel}</span>'
@@ -242,32 +245,49 @@ def build():
                 f'<div class="utitle" style="font-size:24pt;font-weight:bold;color:#fff;margin-top:4px">{html.escape(t["name"])}</div>'
                 f'<div class="usub">{sub}</div></div></div>')
         parts.append(op)
+        # 1) Vocabulary
+        parts.append('<h3>Vocabulary</h3>')
         parts.append(diagram(suj))
         vt=voc_tables(t['voc'])
         for key in ('verbos','sustantivos','adjetivos','otras'):
             if key in vt:
-                parts.append(f'<h3>{VOC_TITLE[key]}</h3>')
+                parts.append(f'<h4>{VOC_TITLE[key]}</h4>')
                 parts.append(gender_table(vt[key]) if key=='sustantivos' else plain_table(vt[key]))
-        parts.append(render_ctx(parse_ctx(t['ctx'])))
+        # 2) Grammar (this unit's own points, taught)
+        gp=parse_grammar(t['gram'])
+        if gp:
+            parts.append('<h3>Grammar</h3>')
+            for p in gp:
+                parts.append(f'<h4>{html.escape(p["name"])}</h4>')
+                parts.append(md(p['main']))
+                if p['ojo']:
+                    parts.append('<div class="box ojo"><span class="h">¡Ojo!</span>'+md_inline(p['ojo'])+'</div>')
+        # 3) Conversations
+        ctx=parse_ctx(t['ctx'])
+        if ctx['dialogues'] or ctx['examples'] or ctx['truco']:
+            parts.append('<h3>Conversations</h3>')
+            parts.append(render_ctx(ctx))
+        # 4) Practice
+        ex=exdict.get((nivel,str(int(uno))))
+        if ex and ex[0]:
+            parts.append('<h3>Practice</h3>')
+            parts.append('<div class="practice">'+md(ex[0])+'</div>')
+            parts.append('<p class="ansref"><small>→ Check your answers in the <b>Answer Key</b> at the back of the book.</small></p>')
+            if ex[1]:
+                answer_key.append((f"Unidad {uno} — {t['name']} ({nivel})", ex[1]))
 
-    # -------- extras from md files --------
-    def section_from_md(path, splitH1=True):
-        raw=open(path,encoding="utf-8").read()
-        return raw
-    # Pronunciation + Expresiones (bonus file has two H1)
-    bonus=open(f"{BUILD}/bonus_es.md",encoding="utf-8").read()
-    for chunk in re.split(r'(?=^# )', bonus, flags=re.M):
-        chunk=chunk.strip()
-        if not chunk: continue
-        m=re.match(r'^#\s+(.+)', chunk)
-        title=m.group(1); rest=chunk[m.end():]
-        parts.append(h(1,title))
-        parts.append(md(rest))
-    # Appendix reference
+    # ================= REFERENCE =================
+    parts.append(h(1,"Reference"))
+    parts.append('<p class="lead">Use this section to look things up any time: full grammar tables, a glossary of every verb and adjective, useful phrases, an index, and the answer key.</p>')
+    # Grammar reference
     ref=open(f"{BUILD}/annexe_reference_es.md",encoding="utf-8").read()
     ref=re.sub(r'^#\s+Appendix.*$','',ref,count=1,flags=re.M)
-    parts.append(h(1,"Appendix — Grammar Reference"))
+    parts.append(h(1,"Grammar Reference"))
     parts.append(md(ref))
+
+    # Useful Expressions (from bonus)
+    et,ebody=bonus_section("Useful Expressions")
+    if et: parts.append(h(1,et)); parts.append(md(ebody))
 
     # -------- global recap glossaries (all verbs / all adjectives) --------
     allv={}; alladj={}
@@ -309,6 +329,15 @@ def build():
     ih.append('</div>')
     parts.append("".join(ih))
 
+    # -------- answer key --------
+    parts.append(h(1,"Answer Key · Soluciones"))
+    parts.append('<p class="lead">Answers to every Practice exercise, unit by unit. Check your work here and review anything you missed.</p>')
+    parts.append('<div class="answerkey">')
+    for title,ans in answer_key:
+        parts.append(f'<h3>{html.escape(title)}</h3>')
+        parts.append(md(ans))
+    parts.append('</div>')
+
     # -------- photo credits --------
     cred=[]
     cf=f"{PHOTOS}/credits.json"
@@ -333,20 +362,20 @@ def build():
     covstyle=(f"background-image:linear-gradient(rgba(150,25,20,.35),rgba(120,20,15,.82)),url('file://{cov}')"
               if os.path.exists(cov) else "")
     cover=(f'<div class="cover" style="{covstyle}">'
-           f'<div class="kick">Español · Nivel A1 &amp; A2</div>'
-           f'<h1>Spanish A1–A2<br>Complete Revision Manual</h1>'
+           f'<div class="kick">Learn Spanish from zero · A1 → A2</div>'
+           f'<h1>Spanish for Beginners<br>A Complete Course</h1>'
            f'<div class="rule"></div>'
-           f'<div class="sub">Grammar, vocabulary in context &amp; real photos<br>based on <em>Aula Internacional 1 &amp; 2</em></div>'
+           f'<div class="sub">Lessons, real photos &amp; exercises — no prior Spanish needed<br>based on <em>Aula Internacional 1 &amp; 2</em></div>'
            f'<div class="meta"><div class="author">Aziz Dardouri</div>'
-           f'<div class="badge">Revision edition · {datetime.date.today().strftime("%d/%m/%Y")}</div></div></div>')
+           f'<div class="badge">Beginner\'s course · {datetime.date.today().strftime("%d/%m/%Y")}</div></div></div>')
 
     doc=(f'<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">'
          f'<link rel="stylesheet" href="file://{BUILD}/style_es.css"></head><body>'
          f'{cover}{"".join(toc)}{"".join(parts)}</body></html>')
     open(f"{BUILD}/_book.html","w",encoding="utf-8").write(doc)
-    out=sys.argv[1] if len(sys.argv)>1 else f"{ROOT}/Espanol_A1-A2_Revision_Completa.pdf"
+    out=sys.argv[1] if len(sys.argv)>1 else f"{ROOT}/Espanol_A1-A2_Curso_Completo.pdf"
     HTML(string=doc, base_url=BUILD).write_pdf(out)
-    print(f"PDF -> {out} ({os.path.getsize(out)//1024} KB) | themes={len(themes)} grammar={len(gindex)} indexwords={len(words)}")
+    print(f"PDF -> {out} ({os.path.getsize(out)//1024} KB) | lessons={len(themes)} units_with_exercises={len(answer_key)} indexwords={len(words)}")
 
 if __name__=="__main__":
     build()

@@ -99,6 +99,17 @@ ul,ol{margin:.25em 0 .6em 1.1em; padding:0} li{margin:.12em 0}
 .credits{font-size:7.6pt; color:#777; column-count:2; column-gap:10mm}
 .credits div{break-inside:avoid; margin:.15em 0}
 
+/* practice exercises */
+.practice{background:#f2f7f3; border:1px solid #cfe0d4; border-radius:12px; padding:8px 14px 10px; margin:8px 0}
+.practice p{margin:.35em 0}
+.practice ol,.practice ul{margin:.3em 0 .5em 1.2em}
+.practice strong{color:#1f7a4d}
+.ansref{color:#2e9e5b; margin:3px 0 12px}
+/* answer key */
+.answerkey{font-size:9pt; color:#444}
+.answerkey h3{font-size:11.5pt; color:#c0392b; margin:.7em 0 .15em; border-top:1px solid #eee; padding-top:.3em}
+.answerkey p{margin:.12em 0}
+
 hr{border:none; border-top:1px solid #e7ded0; margin:1em 0}
 small{color:#777}
 .lead{font-size:10.5pt; color:#444; margin-bottom:.6em}
