@@ -48,7 +48,7 @@
 **E · Translate into Spanish (10 points — 2 points each).** Write the whole sentence. Each one has **two clauses**. See the marking note in the key before you score this section.
 28. I've never tried gazpacho, although my friends say it tastes delicious.
 29. Yesterday I bought a kilo of tomatoes because I'm going to make a salad.
-30. When you fry the potatoes, you have to use very hot oil.
+30. When I was in Spain I learned that people have dinner very late.
 31. I'm allergic to nuts, so yesterday I didn't try the cake.
 32. I've already bought the rice, so we only have to buy the fish.
 
@@ -104,11 +104,12 @@
 25) Aunque parece difícil, en esta receta primero se **pelan** las patatas y luego se fríen.
 26) No he puesto cebolla en la tortilla porque mi hermano no **la** quiere.
 27) Compro siempre los frutos secos a peso **porque** son más baratos que en paquete. °
+
 **Marking note for E (Q28–Q32).** Give **2 points** for a sentence that is fully correct. Give **1 point** if the meaning is clear and both clauses are there, but there is one slip (a wrong accent, a wrong ending, a missing article). Give **0** if the connector or the tense is wrong, or if one clause is missing. Latin American variants are correct: *ustedes* for *vosotros*, and the indefinido where Spain uses the perfecto in Q32 (*ya compré*).
 
 28) Nunca he probado el gazpacho, aunque mis amigos dicen que está buenísimo. / …aunque mis amigos dicen que está riquísimo.
 29) Ayer compré un kilo de tomates porque voy a hacer una ensalada. / …porque voy a preparar una ensalada.
-30) Cuando se fríen las patatas, hay que usar aceite muy caliente. / Cuando fríes las patatas, hay que usar aceite muy caliente.
+30) Cuando estuve en España, aprendí que se cena muy tarde. / Cuando estuve en España, aprendí que la gente cena muy tarde.
 31) Soy alérgico a los frutos secos, así que ayer no probé la tarta. / Soy alérgica a los frutos secos, así que ayer no comí la tarta.
 32) Ya he comprado el arroz, así que solo tenemos que comprar el pescado. / Ya compré el arroz, así que solo hay que comprar el pescado.
 33) b) Recetas veganas.
@@ -254,6 +255,7 @@
 25) A nosotros nos **gustaría** hacer una excursión a la selva porque nos encanta la naturaleza.
 26) Cuando llegamos a la bahía, todos dijimos: ¡qué **paisaje** tan bonito!
 27) — No me gustan los viajes organizados. — **A mí tampoco**, aunque a veces son más cómodos. °
+
 **Marking note for E (Q28–Q32).** Give **2 points** for a sentence that is fully correct. Give **1 point** if the meaning is clear and both clauses are there, but there is one slip (a wrong accent, a wrong ending, a missing article). Give **0** if the connector is wrong, if the past tense is wrong (perfecto where the indefinido is needed, or the other way round), or if one clause is missing. Latin American variants are correct: *ustedes* for *vosotros*, and the indefinido where Spain uses the perfecto in Q29 (*nunca estuve*).
 
 28) Me lo pasé fenomenal en Costa Rica, así que me gustaría volver el año que viene. / …así que me gustaría volver el próximo año.
@@ -352,7 +354,7 @@
 28. My head hurt all day yesterday, so I went to the doctor.
 29. This week I've been to the gym three times, although my back still hurts.
 30. Drink a lot of water and rest, because yesterday you had a fever. *(tú)*
-31. This morning I woke up with a cough, so I've taken a medicine.
+31. This morning I woke up with a cough, so I've taken some medicine.
 32. I couldn't come to class because I had to go to the doctor.
 
 **F · Read and answer (5 points).** Read the text once, then answer. You may read it again. Answer questions 4 and 5 in Spanish — a few words is enough.
@@ -411,6 +413,7 @@
 25) Señora, **póngase** crema protectora en la piel antes de salir, que hace mucho sol.
 26) Esta semana **he ido** dos veces al fisioterapeuta porque me duele mucho la espalda. °
 27) Mi hermana se siente **ansiosa** cuando va al médico, aunque no tiene nada grave. °
+
 **Marking note for E (Q28–Q32).** Give **2 points** for a sentence that is fully correct. Give **1 point** if the meaning is clear and both clauses are there, but there is one slip (a wrong accent, a wrong ending, a missing article). Give **0** if the connector is wrong, if *doler* does not agree with the body part, or if one clause is missing. Latin American variants are correct: *ustedes* for *vosotros*, and the indefinido where Spain uses the perfecto in Q29 and Q31 (*fui tres veces*, *me desperté*).
 
 28) Ayer me dolió la cabeza todo el día, así que fui al médico.
@@ -498,7 +501,7 @@
 **D · One mistake (5 points).** Each sentence contains **exactly one** mistake — a wrong *choice*, not a spelling slip. Rewrite the whole sentence correctly.
 23. Cuando era pequeño, mi familia vivió en un pueblo de montaña muy tranquilo.
 24. En aquella época la gente no viaja en avión porque era carísimo.
-25. Mi abuelo todavía conduce, aunque dejó el coche hace dos años por la vista.
+25. Mi abuelo todavía conduce, porque dejó el coche hace dos años por la vista.
 26. Hoy en día los niños jugaban en la calle menos que antes, porque tienen móviles.
 27. Ibiza está una isla muy turística, aunque en los años sesenta era muy tranquila.
 
@@ -558,9 +561,10 @@
 22) a) más °
 23) Cuando era pequeño, mi familia **vivía** en un pueblo de montaña muy tranquilo.
 24) En aquella época la gente no **viajaba** en avión porque era carísimo.
-25) Mi abuelo **ya no** conduce, aunque dejó el coche hace dos años por la vista.
+25) Mi abuelo **ya no** conduce, porque dejó el coche hace dos años por la vista.
 26) Hoy en día los niños **juegan** en la calle menos que antes, porque tienen móviles.
 27) Ibiza **es** una isla muy turística, aunque en los años sesenta era muy tranquila. °
+
 **Marking note for E (Q28–Q32).** Give **2 points** for a sentence that is fully correct. Give **1 point** if the meaning is clear and both clauses are there, but there is one slip (a missing accent on the imperfecto, a wrong ending, a missing article). Give **0** if the connector is wrong, if the tense is wrong (a single completed event instead of a habit, or the other way round), or if one clause is missing. Latin American variants are correct: *ustedes* for *vosotros*, and *celular* for *móvil* in Q30.
 
 28) Cuando era niño, jugaba en la calle porque no había coches. / Cuando era pequeño, jugaba en la calle porque no había coches.
@@ -597,7 +601,8 @@ Cuando era niña, la vida era más lenta. Vivíamos en un piso pequeño y no ten
 | Q7, Q8, Q9, Q11, Q17, Q19, Q23, Q24 | Unit 9 → Gramática → "Pretérito imperfecto" | Práctica Exercise 1 |
 | Q10, Q14, Q20, Q25 | Unit 9 → Gramática → "ya no / todavía" | Práctica Exercise 3 |
 | Q13, Q26 | Unit 9 → Gramática → "Time markers for past and present" | Práctica Exercise 4 |
-| Q12, Q15, Q18 ° | A2 Unit 2 → Gramática → "Pretérito indefinido" | A2 Unit 2, Práctica Exercise 1 |
+| Q12, Q15 ° | A2 Unit 2 → Gramática → "Pretérito indefinido" | A2 Unit 2, Práctica Exercise 1 |
+| Q18 | A2 Unit 2 → Gramática → "Pretérito indefinido" | A2 Unit 2, Práctica Exercise 1 |
 | Q16 ° | A2 Unit 1 → Gramática → "desde / desde hace / hace… que" | A2 Unit 1, Práctica Exercise 3 |
 | Q21 ° | A2 Unit 5 → Gramática → "Pretérito perfecto" | A2 Unit 5, Práctica Exercise 1 |
 | Q22 ° | A2 Unit 3 → Gramática → "Comparatives and superlatives" | A2 Unit 3, Práctica Exercise 2 |
@@ -637,13 +642,13 @@ Cuando era niña, la vida era más lenta. Vivíamos en un piso pequeño y no ten
  a) hacía b) hizo c) hace
 18. Cuando llegué a casa, mi hermana ___ en el sofá.
  a) durmió b) dormía c) duerme
-19. El camarero ___ la cuenta y todos pagamos.
+19. Mi hermana ___ un café y yo pedí un té.
  a) pidió b) pedió c) pidieron
 20. Ayer ___ hablando con Paco toda la tarde. *(yo)*
  a) estaba b) estuve c) estoy
 21. Nunca ___ una historia tan extraña. *(yo)*
  a) oí b) he oído c) oía
-22. Le pregunté al camarero: — ¿Me ___ la cuenta, por favor?
+22. Le pregunté al camarero: — ¿Me ___ la cuenta, por favor? *(usted)*
  a) trae b) traes c) traigo
 
 **D · One mistake (5 points).** Each sentence contains **exactly one** mistake — a wrong *choice*, not a spelling slip. Rewrite the whole sentence correctly.
@@ -695,7 +700,7 @@ Cuando era niña, la vida era más lenta. Vivíamos en un piso pequeño y no ten
 6) enamorarse (de) °
 7) estuve
 8) pidió
-9) Estaba
+9) Estaba / Iba
 10) empezó
 11) así
 12) pude
@@ -714,6 +719,7 @@ Cuando era niña, la vida era más lenta. Vivíamos en un piso pequeño y no ten
 25) Cuando lo vi, el hombre **llevaba** una camisa verde y tenía un libro.
 26) Resulta que se me rompió el vestido en la fiesta y no **me di cuenta**.
 27) Aquella noche no **podía** abrir la puerta porque no encontraba las llaves. °
+
 **Marking note for E (Q28–Q32).** Give **2 points** for a sentence that is fully correct. Give **1 point** if the meaning is clear and both clauses are there, but there is one slip (a wrong accent, a wrong ending, a missing article). Give **0** if the connector is wrong, if the background/event choice is wrong (imperfecto where the indefinido is needed, or the other way round), or if one clause is missing. Latin American variants are correct: *ustedes* for *vosotros*, and the indefinido where Spain uses the perfecto in Q32 (*nunca pasé tanto miedo*).
 
 28) Estaba paseando por el parque cuando vi a un hombre muy raro. / Paseaba por el parque cuando vi a un hombre muy raro.
