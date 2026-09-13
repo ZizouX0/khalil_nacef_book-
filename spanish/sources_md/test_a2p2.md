@@ -2,9 +2,9 @@
 
 ## Test — Unidad 6: No como carne {#nivel=A2 #unidad=6}
 
-**Before you start.** Do this test at least one day after you finished the unit, in one sitting, with the book closed and no dictionary. Allow 30 minutes. Write your answers on paper. Mark yourself with the key at the end — only after you have answered everything. **Accents count from A2 on:** a missing or wrong accent loses the point in sections A–D. Total: 50 points.
+**Before you start.** Do this test at least one day after you finished the unit, in one sitting, with the book closed and no dictionary. Allow 30 minutes. Write your answers on paper. Mark yourself with the key at the end — only after you have answered everything. **Accents count:** a missing or wrong accent loses the point in sections A–D. Total: 50 points.
 
-**A · Vocabulary (6 points).** Write the Spanish. These are **expressions**, not single words — write the whole chunk as a Spanish speaker says it, with its preposition or article.
+**A · Vocabulary (6 points).** Write the Spanish **expression**, not a single word. Where the expression contains a noun, the article counts.
 1. one must / you have to (+ infinitive)
 2. a quarter of a kilo
 3. from time to time
@@ -104,19 +104,18 @@
 25) Aunque parece difícil, en esta receta primero se **pelan** las patatas y luego se fríen.
 26) No he puesto cebolla en la tortilla porque mi hermano no **la** quiere.
 27) Compro siempre los frutos secos a peso **porque** son más baratos que en paquete. °
+**Marking note for E (Q28–Q32).** Give **2 points** for a sentence that is fully correct. Give **1 point** if the meaning is clear and both clauses are there, but there is one slip (a wrong accent, a wrong ending, a missing article). Give **0** if the connector or the tense is wrong, or if one clause is missing. Latin American variants are correct: *ustedes* for *vosotros*, and the indefinido where Spain uses the perfecto in Q32 (*ya compré*).
+
 28) Nunca he probado el gazpacho, aunque mis amigos dicen que está buenísimo. / …aunque mis amigos dicen que está riquísimo.
 29) Ayer compré un kilo de tomates porque voy a hacer una ensalada. / …porque voy a preparar una ensalada.
 30) Cuando se fríen las patatas, hay que usar aceite muy caliente. / Cuando fríes las patatas, hay que usar aceite muy caliente.
 31) Soy alérgico a los frutos secos, así que ayer no probé la tarta. / Soy alérgica a los frutos secos, así que ayer no comí la tarta.
 32) Ya he comprado el arroz, así que solo tenemos que comprar el pescado. / Ya compré el arroz, así que solo hay que comprar el pescado.
-33) b
-34) b
-35) c
+33) b) Recetas veganas.
+34) b) Cuarenta euros al mes, con los alimentos incluidos.
+35) c) Nada especial.
 36) Comen juntos lo que han cocinado. / Comen lo que han preparado en clase.
 37) Hay que decirlo antes de la primera clase. / Decirlo antes de empezar el curso.
-38) Score this task with the eight checks below.
-
-*Marking note for E (Q28–Q32).* Give **2 points** for a sentence that is fully correct. Give **1 point** if the meaning is clear and both clauses are there, but there is one slip (a wrong accent, a wrong ending, a missing article). Give **0** if the connector or the tense is wrong, or if one clause is missing. Latin American variants are correct: *ustedes* for *vosotros*, and the indefinido where Spain uses the perfecto in Q32 (*ya compré*).
 
 **Model.**
 ¡Hola, Marta! El sábado te preparo una tortilla de patatas. Es muy sencilla: se pelan las patatas, se cortan en trozos pequeños y se fríen en aceite. Después se baten los huevos y se mezcla todo. La tortilla la hago siempre yo, porque me sale bien. Hay que usar medio kilo de patatas para cuatro personas. Yo no como carne, así que de segundo hago una ensalada. Está buenísima y, además, es muy sana. ¡Hasta el sábado! Un abrazo.
@@ -134,28 +133,28 @@
 **Routing.**
 | Missed | Re-read | Then redo |
 |---|---|---|
-| Q1–Q3 | Unit 6 → Vocabulario → Otras palabras (preposiciones, conectores, expresiones) | Unit 6, Práctica Exercise 4 |
-| Q4 | Unit 6 → Vocabulario → Adjetivos y adverbios | Unit 6, Práctica Exercise 4 |
-| Q5, Q6 ° | A1 Unit 7 → Vocabulario → Otras palabras (preposiciones, conectores, expresiones) | A1 Unit 7, Práctica Exercise 5 |
+| Q1–Q3 | Unit 6 → Vocabulario → Otras palabras | Práctica Exercise 4 |
+| Q4 | Unit 6 → Vocabulario → Adjetivos y adverbios | Práctica Exercise 4 |
+| Q5, Q6 ° | A1 Unit 7 → Vocabulario → Otras palabras | A1 Unit 7, Práctica Exercise 5 |
 | Q7, Q17, Q24 ° | A2 Unit 5 → Gramática → "Pretérito perfecto" | A2 Unit 5, Práctica Exercise 1 |
 | Q10, Q18 ° | A2 Unit 2 → Gramática → "Pretérito indefinido" | A2 Unit 2, Práctica Exercise 1 |
-| Q8, Q12, Q19, Q26 | Unit 6 → Gramática → "Direct object pronouns (lo/la/los/las)" | Unit 6, Práctica Exercise 1 |
-| Q9, Q11, Q20, Q25 | Unit 6 → Gramática → "Impersonal se (se + 3rd person)" | Unit 6, Práctica Exercise 2 |
-| Q13, Q21, Q23 | Unit 6 → Gramática → "Ser vs Estar" | Unit 6, Práctica Exercise 3 |
-| Q14, Q22 | Unit 6 → Gramática → "Connectors (y, pero, además)" | Unit 6, Práctica Exercise 5 |
+| Q8, Q12, Q19, Q26 | Unit 6 → Gramática → "Direct object pronouns (lo/la/los/las)" | Práctica Exercise 1 |
+| Q9, Q11, Q20, Q25 | Unit 6 → Gramática → "Impersonal se (se + 3rd person)" | Práctica Exercise 2 |
+| Q13, Q21, Q23 | Unit 6 → Gramática → "Ser vs Estar" | Práctica Exercise 3 |
+| Q14, Q22 | Unit 6 → Gramática → "Connectors (y, pero, además)" | Práctica Exercise 5 |
 | Q15 ° | A1 Unit 6 → Gramática → "Reflexive (pronominal) verbs" | A1 Unit 6, Práctica Exercise 2 |
 | Q16 ° | A1 Unit 5 → Gramática → "The verb gustar" | A1 Unit 5, Práctica Exercise 1 |
 | Q27 ° | A1 Unit 2 → Gramática → "Por, para and porque" | A1 Unit 2, Práctica Exercise 4 |
-| Q28, Q31, Q32 | Unit 6 → En contexto (diálogo) + Unit 6 → Gramática → "Ser vs Estar" | Unit 6, Práctica Exercise 3 |
-| Q29, Q30 | Unit 6 → En contexto (diálogo) + Unit 6 → Gramática → "Impersonal se (se + 3rd person)" | Unit 6, Práctica Exercise 2 |
-| Q33–Q37 | Unit 6 → En contexto (More examples) + Vocabulario → Sustantivos | Unit 6, Práctica Exercise 4 |
-| Q38 | Unit 6 → En contexto (diálogo) + **Truco.** | Unit 6, Práctica Exercise 5 |
+| Q28, Q31, Q32 | Unit 6 → En contexto (diálogo) + Unit 6 → Gramática → "Ser vs Estar" | Práctica Exercise 3 |
+| Q29, Q30 | Unit 6 → En contexto (diálogo) + Unit 6 → Gramática → "Impersonal se (se + 3rd person)" | Práctica Exercise 2 |
+| Q33–Q37 | Unit 6 → En contexto (More examples) + Vocabulario → Sustantivos | Práctica Exercise 4 |
+| Q38 | Unit 6 → En contexto (diálogo) + **Truco.** | Práctica Exercise 5 |
 
 ## Test — Unidad 7: Nos gustó mucho {#nivel=A2 #unidad=7}
 
-**Before you start.** Do this test at least one day after you finished the unit, in one sitting, with the book closed and no dictionary. Allow 30 minutes. Write your answers on paper. Mark yourself with the key at the end — only after you have answered everything. **Accents count from A2 on:** a missing or wrong accent loses the point in sections A–D. Total: 50 points.
+**Before you start.** Do this test at least one day after you finished the unit, in one sitting, with the book closed and no dictionary. Allow 30 minutes. Write your answers on paper. Mark yourself with the key at the end — only after you have answered everything. **Accents count:** a missing or wrong accent loses the point in sections A–D. Total: 50 points.
 
-**A · Vocabulary (6 points).** Write the Spanish. These are **expressions**, not single words — write the whole chunk as a Spanish speaker says it, with its preposition or article.
+**A · Vocabulary (6 points).** Write the Spanish **expression**, not a single word. Where the expression contains a noun, the article counts.
 1. ever / at some point (in a question)
 2. not yet
 3. to have a good time
@@ -255,19 +254,18 @@
 25) A nosotros nos **gustaría** hacer una excursión a la selva porque nos encanta la naturaleza.
 26) Cuando llegamos a la bahía, todos dijimos: ¡qué **paisaje** tan bonito!
 27) — No me gustan los viajes organizados. — **A mí tampoco**, aunque a veces son más cómodos. °
+**Marking note for E (Q28–Q32).** Give **2 points** for a sentence that is fully correct. Give **1 point** if the meaning is clear and both clauses are there, but there is one slip (a wrong accent, a wrong ending, a missing article). Give **0** if the connector is wrong, if the past tense is wrong (perfecto where the indefinido is needed, or the other way round), or if one clause is missing. Latin American variants are correct: *ustedes* for *vosotros*, and the indefinido where Spain uses the perfecto in Q29 (*nunca estuve*).
+
 28) Me lo pasé fenomenal en Costa Rica, así que me gustaría volver el año que viene. / …así que me gustaría volver el próximo año.
 29) Nunca he estado en el País Vasco, aunque mis padres fueron el verano pasado. / No he estado nunca en el País Vasco, aunque…
 30) Cuando conocí a los padres de Marta, me cayeron muy bien. / …me cayeron genial.
 31) No me gustó la exposición porque me pareció un poco aburrida.
 32) Mis padres se fueron a vivir a Costa Rica cuando terminé la carrera. °
-33) b
-34) a
-35) b
+33) b) En la costa del Pacífico.
+34) a) Un poco caro.
+35) b) En primavera.
 36) (Vieron) ballenas. / Ballenas, desde un barco pequeño.
 37) (Les recomendaron) una excursión. / Una excursión preciosa.
-38) Score this task with the eight checks below.
-
-*Marking note for E (Q28–Q32).* Give **2 points** for a sentence that is fully correct. Give **1 point** if the meaning is clear and both clauses are there, but there is one slip (a wrong accent, a wrong ending, a missing article). Give **0** if the connector is wrong, if the past tense is wrong (perfecto where the indefinido is needed, or the other way round), or if one clause is missing. Latin American variants are correct: *ustedes* for *vosotros*, and the indefinido where Spain uses the perfecto in Q29 (*nunca estuve*).
 
 **Model.**
 ¡Hola, Sara! Por fin te escribo. El mes pasado estuve dos semanas en Costa Rica con mi hermano. Fuimos a la costa del Pacífico y vimos ballenas desde un barco. ¡Qué animales tan impresionantes! La comida me pareció buenísima y la gente nos cayó muy bien, así que nos lo pasamos fenomenal. Nunca he visto una selva tan verde. El año que viene me gustaría volver y hacer una excursión en kayak. ¿Y tú? ¡Un beso!
@@ -285,31 +283,31 @@
 **Routing.**
 | Missed | Re-read | Then redo |
 |---|---|---|
-| Q1–Q4 | Unit 7 → Vocabulario → Otras palabras (preposiciones, conectores, expresiones) | Unit 7, Práctica Exercise 4 |
-| Q5 ° | A1 Unit 9 → Vocabulario → Otras palabras (preposiciones, conectores, expresiones) | A1 Unit 9, Práctica Exercise 1 |
-| Q6 ° | A1 Unit 8 → Vocabulario → Otras palabras (preposiciones, conectores, expresiones) | A1 Unit 8, Práctica Exercise 5 |
-| Q7, Q23 | Unit 7 → Gramática → "Pretérito indefinido" | Unit 7, Práctica Exercise 2 |
-| Q8, Q9, Q18 | Unit 7 → Gramática → "Pretérito perfecto" | Unit 7, Práctica Exercise 1 |
-| Q10, Q19, Q25 | Unit 7 → Gramática → "me/te/le… gustaría + infinitive" | Unit 7, Práctica Exercise 3 |
-| Q11, Q26 | Unit 7 → Gramática → "Exclamative sentences (¡Qué…!)" | Unit 7, Práctica Exercise 4 |
-| Q12, Q13, Q14, Q20, Q24 | Unit 7 → Gramática → "Verbs like gustar: parecer, caer bien/mal, pasárselo bien/mal" | Unit 7, Práctica Exercise 4 |
+| Q1–Q4 | Unit 7 → Vocabulario → Otras palabras | Práctica Exercise 4 |
+| Q5 ° | A1 Unit 9 → Vocabulario → Otras palabras | A1 Unit 9, Práctica Exercise 1 |
+| Q6 ° | A1 Unit 8 → Vocabulario → Otras palabras | A1 Unit 8, Práctica Exercise 5 |
+| Q7, Q23 | Unit 7 → Gramática → "Pretérito indefinido" | Práctica Exercise 2 |
+| Q8, Q9, Q18 | Unit 7 → Gramática → "Pretérito perfecto" | Práctica Exercise 1 |
+| Q10, Q19, Q25 | Unit 7 → Gramática → "me/te/le… gustaría + infinitive" | Práctica Exercise 3 |
+| Q11, Q26 | Unit 7 → Gramática → "Exclamative sentences (¡Qué…!)" | Práctica Exercise 4 |
+| Q12, Q13, Q14, Q20, Q24 | Unit 7 → Gramática → "Verbs like gustar: parecer, caer bien/mal, pasárselo bien/mal" | Práctica Exercise 4 |
 | Q15 ° | A2 Unit 5 → Gramática → "ya / todavía no" | A2 Unit 5, Práctica Exercise 3 |
 | Q16 ° | A2 Unit 1 → Gramática → "Para vs porque" | A2 Unit 1, Práctica Exercise 2 |
 | Q17 ° | A2 Unit 2 → Gramática → "Prepositions desde / durante / hasta" | A2 Unit 2, Práctica Exercise 3 |
 | Q21 ° | A1 Unit 5 → Gramática → "Quantifiers muy / bastante / un poco" | A1 Unit 5, Práctica Exercise 3 |
 | Q22 ° | A2 Unit 3 → Gramática → "Comparatives and superlatives" | A2 Unit 3, Práctica Exercise 2 |
 | Q27 ° | A1 Unit 5 → Gramática → "Reacting to likes: a mí también / a mí tampoco" | A1 Unit 5, Práctica Exercise 4 |
-| Q28, Q30, Q31 | Unit 7 → En contexto (diálogo) + Unit 7 → Gramática → "Verbs like gustar: parecer, caer bien/mal, pasárselo bien/mal" | Unit 7, Práctica Exercise 5 |
-| Q29 | Unit 7 → En contexto (diálogo) + Unit 7 → Gramática → "Pretérito perfecto" | Unit 7, Práctica Exercise 1 |
+| Q28, Q30, Q31 | Unit 7 → En contexto (diálogo) + Unit 7 → Gramática → "Verbs like gustar: parecer, caer bien/mal, pasárselo bien/mal" | Práctica Exercise 5 |
+| Q29 | Unit 7 → En contexto (diálogo) + Unit 7 → Gramática → "Pretérito perfecto" | Práctica Exercise 1 |
 | Q32 ° | A2 Unit 2 → Gramática → "Ir / irse" | A2 Unit 2, Práctica Exercise 4 |
-| Q33–Q37 | Unit 7 → En contexto (More examples) + Vocabulario → Sustantivos | Unit 7, Práctica Exercise 4 |
-| Q38 | Unit 7 → En contexto (diálogo) + **Truco.** | Unit 7, Práctica Exercise 5 |
+| Q33–Q37 | Unit 7 → En contexto (More examples) + Vocabulario → Sustantivos | Práctica Exercise 4 |
+| Q38 | Unit 7 → En contexto (diálogo) + **Truco.** | Práctica Exercise 5 |
 
 ## Test — Unidad 8: Estamos muy bien {#nivel=A2 #unidad=8}
 
-**Before you start.** Do this test at least one day after you finished the unit, in one sitting, with the book closed and no dictionary. Allow 30 minutes. Write your answers on paper. Mark yourself with the key at the end — only after you have answered everything. **Accents count from A2 on:** a missing or wrong accent loses the point in sections A–D. Total: 50 points.
+**Before you start.** Do this test at least one day after you finished the unit, in one sitting, with the book closed and no dictionary. Allow 30 minutes. Write your answers on paper. Mark yourself with the key at the end — only after you have answered everything. **Accents count:** a missing or wrong accent loses the point in sections A–D. Total: 50 points.
 
-**A · Vocabulary (6 points).** Write the Spanish. These are **expressions**, not single words — write the whole chunk as a Spanish speaker says it, with its preposition or article.
+**A · Vocabulary (6 points).** Write the Spanish **expression**, not a single word. Where the expression contains a noun, the article counts.
 1. to have a … ache (a headache, a stomach ache)
 2. to have a fever
 3. to be in a bad mood
@@ -413,19 +411,18 @@
 25) Señora, **póngase** crema protectora en la piel antes de salir, que hace mucho sol.
 26) Esta semana **he ido** dos veces al fisioterapeuta porque me duele mucho la espalda. °
 27) Mi hermana se siente **ansiosa** cuando va al médico, aunque no tiene nada grave. °
+**Marking note for E (Q28–Q32).** Give **2 points** for a sentence that is fully correct. Give **1 point** if the meaning is clear and both clauses are there, but there is one slip (a wrong accent, a wrong ending, a missing article). Give **0** if the connector is wrong, if *doler* does not agree with the body part, or if one clause is missing. Latin American variants are correct: *ustedes* for *vosotros*, and the indefinido where Spain uses the perfecto in Q29 and Q31 (*fui tres veces*, *me desperté*).
+
 28) Ayer me dolió la cabeza todo el día, así que fui al médico.
 29) Esta semana he ido tres veces al gimnasio, aunque todavía me duele la espalda.
 30) Bebe mucha agua y descansa, porque ayer tuviste fiebre.
 31) Esta mañana me he despertado con tos, así que he tomado una medicina. / …así que he tomado un medicamento.
 32) No pude venir a clase porque tuve que ir al médico. / No pude ir a clase porque tuve que ir al médico. °
-33) b
-34) b
-35) b
+33) b) Cada cuarenta minutos.
+34) b) De lado y con las rodillas dobladas.
+35) b) Si el dolor dura más de una semana.
 36) (Recomienda) nadar, porque va muy bien para los músculos.
 37) (La espalda) también lo nota. / Que también lo nota.
-38) Score this task with the eight checks below.
-
-*Marking note for E (Q28–Q32).* Give **2 points** for a sentence that is fully correct. Give **1 point** if the meaning is clear and both clauses are there, but there is one slip (a wrong accent, a wrong ending, a missing article). Give **0** if the connector is wrong, if *doler* does not agree with the body part, or if one clause is missing. Latin American variants are correct: *ustedes* for *vosotros*, and the indefinido where Spain uses the perfecto in Q29 and Q31 (*fui tres veces*, *me desperté*).
 
 **Model.**
 ¡Hola, Ana! ¿Cómo te encuentras? Me ha dicho Marta que estás resfriada y que tienes fiebre. A mí también me duele la garganta esta semana y me duelen mucho los oídos, así que te entiendo. El año pasado yo tuve la misma gripe y estuve mala tres días. Bebe agua caliente con miel y descansa dos días. Haz poco deporte y ponte una bufanda si sales. Si no estás mejor el viernes, ve al médico. ¡Que te mejores! Un beso.
@@ -443,28 +440,28 @@
 **Routing.**
 | Missed | Re-read | Then redo |
 |---|---|---|
-| Q1–Q4 | Unit 8 → Vocabulario → Otras palabras (preposiciones, conectores, expresiones) | Unit 8, Práctica Exercise 5 |
-| Q5, Q6 ° | A1 Unit 6 → Vocabulario → Otras palabras (preposiciones, conectores, expresiones) | A1 Unit 6, Práctica Exercise 4 |
-| Q7, Q12, Q13, Q18, Q24 | Unit 8 → Gramática → "The verb doler" | Unit 8, Práctica Exercise 1 |
-| Q8, Q17, Q23 | Unit 8 → Gramática → "Ser vs Estar" | Unit 8, Práctica Exercise 5 |
-| Q9, Q14, Q20, Q21 | Unit 8 → Gramática → "The affirmative imperative" | Unit 8, Práctica Exercise 2 |
-| Q11, Q19, Q25 | Unit 8 → Gramática → "The affirmative imperative" (usted forms) | Unit 8, Práctica Exercise 3 |
+| Q1–Q4 | Unit 8 → Vocabulario → Otras palabras | Práctica Exercise 5 |
+| Q5, Q6 ° | A1 Unit 6 → Vocabulario → Otras palabras | A1 Unit 6, Práctica Exercise 4 |
+| Q7, Q12, Q13, Q18, Q24 | Unit 8 → Gramática → "The verb doler" | Práctica Exercise 1 |
+| Q8, Q17, Q23 | Unit 8 → Gramática → "Ser vs Estar" | Práctica Exercise 5 |
+| Q9, Q14, Q20, Q21 | Unit 8 → Gramática → "The affirmative imperative" | Práctica Exercise 2 |
+| Q11, Q19, Q25 | Unit 8 → Gramática → "The affirmative imperative" (usted forms) | Práctica Exercise 3 |
 | Q10, Q26 ° | A2 Unit 5 → Gramática → "Pretérito perfecto" | A2 Unit 5, Práctica Exercise 1 |
 | Q15 ° | A1 Unit 9 → Gramática → "poder + infinitive" | A1 Unit 9, Práctica Exercise 3 |
 | Q16 ° | A1 Unit 2 → Gramática → "Por, para and porque" | A1 Unit 2, Práctica Exercise 4 |
 | Q22 ° | A2 Unit 4 → Gramática → "The conditional" | A2 Unit 4, Práctica Exercise 3 |
 | Q27 ° | A2 Unit 1 → Gramática → "The verbs costar and sentirse" | A2 Unit 1, Práctica Exercise 1 |
-| Q28, Q29 | Unit 8 → En contexto (diálogo) + Unit 8 → Gramática → "The verb doler" | Unit 8, Práctica Exercise 1 |
-| Q30, Q31 | Unit 8 → En contexto (diálogo) + Unit 8 → Gramática → "The affirmative imperative" | Unit 8, Práctica Exercise 2 |
+| Q28, Q29 | Unit 8 → En contexto (diálogo) + Unit 8 → Gramática → "The verb doler" | Práctica Exercise 1 |
+| Q30, Q31 | Unit 8 → En contexto (diálogo) + Unit 8 → Gramática → "The affirmative imperative" | Práctica Exercise 2 |
 | Q32 ° | A1 Unit 4 → Gramática → "Tener que + infinitive" | A1 Unit 4, Práctica Exercise 4 |
-| Q33–Q37 | Unit 8 → En contexto (More examples) + Vocabulario → Sustantivos | Unit 8, Práctica Exercise 4 |
-| Q38 | Unit 8 → En contexto (diálogo) + **Truco.** | Unit 8, Práctica Exercise 5 |
+| Q33–Q37 | Unit 8 → En contexto (More examples) + Vocabulario → Sustantivos | Práctica Exercise 4 |
+| Q38 | Unit 8 → En contexto (diálogo) + **Truco.** | Práctica Exercise 5 |
 
 ## Test — Unidad 9: Antes y ahora {#nivel=A2 #unidad=9}
 
-**Before you start.** Do this test at least one day after you finished the unit, in one sitting, with the book closed and no dictionary. Allow 30 minutes. Write your answers on paper. Mark yourself with the key at the end — only after you have answered everything. **Accents count from A2 on:** a missing or wrong accent loses the point in sections A–D, and the imperfecto is full of them. Total: 50 points.
+**Before you start.** Do this test at least one day after you finished the unit, in one sitting, with the book closed and no dictionary. Allow 30 minutes. Write your answers on paper. Mark yourself with the key at the end — only after you have answered everything. **Accents count:** a missing or wrong accent loses the point in sections A–D, and the imperfecto is full of them. Total: 50 points.
 
-**A · Vocabulary (6 points).** Write the Spanish. These are **expressions**, not single words — write the whole chunk as a Spanish speaker says it, with its preposition or article.
+**A · Vocabulary (6 points).** Write the Spanish **expression**, not a single word. Where the expression contains a noun, the article counts.
 1. not any more
 2. nowadays
 3. in those days
@@ -564,19 +561,18 @@
 25) Mi abuelo **ya no** conduce, aunque dejó el coche hace dos años por la vista.
 26) Hoy en día los niños **juegan** en la calle menos que antes, porque tienen móviles.
 27) Ibiza **es** una isla muy turística, aunque en los años sesenta era muy tranquila. °
+**Marking note for E (Q28–Q32).** Give **2 points** for a sentence that is fully correct. Give **1 point** if the meaning is clear and both clauses are there, but there is one slip (a missing accent on the imperfecto, a wrong ending, a missing article). Give **0** if the connector is wrong, if the tense is wrong (a single completed event instead of a habit, or the other way round), or if one clause is missing. Latin American variants are correct: *ustedes* for *vosotros*, and *celular* for *móvil* in Q30.
+
 28) Cuando era niño, jugaba en la calle porque no había coches. / Cuando era pequeño, jugaba en la calle porque no había coches.
 29) Todos los veranos íbamos al pueblo, aunque el viaje era muy largo.
 30) Hoy en día todo el mundo tiene móvil, aunque en aquellos tiempos no existían. / …aunque en aquella época no existían.
 31) En aquella época no teníamos televisión, así que escuchábamos la radio.
 32) En mi barrio no había ningún cine, así que íbamos al del centro. / …así que íbamos al cine del centro. °
-33) a
-34) b
-35) c
+33) a) Menos de mil.
+34) b) Un vecino cogió un avión por primera vez.
+35) c) El mercado de los jueves.
 36) Porque los niños van a la ciudad (en autobús).
 37) (Todavía) cultiva tomates en su jardín.
-38) Score this task with the eight checks below.
-
-*Marking note for E (Q28–Q32).* Give **2 points** for a sentence that is fully correct. Give **1 point** if the meaning is clear and both clauses are there, but there is one slip (a missing accent on the imperfecto, a wrong ending, a missing article). Give **0** if the connector is wrong, if the tense is wrong (a single completed event instead of a habit, or the other way round), or if one clause is missing. Latin American variants are correct: *ustedes* for *vosotros*, and *celular* for *móvil* in Q30.
 
 **Model.**
 Cuando era niña, la vida era más lenta. Vivíamos en un piso pequeño y no teníamos ordenador. Todos los veranos íbamos al pueblo de mis abuelos y jugábamos en la calle hasta la noche. En aquella época los niños salíamos solos; hoy en día casi nadie lo hace. Yo ya no veo la televisión, pero todavía leo el periódico en papel. Creo que ahora vivimos mejor, aunque antes teníamos más tiempo. ¿Y vosotros, qué pensáis?
@@ -594,29 +590,29 @@ Cuando era niña, la vida era más lenta. Vivíamos en un piso pequeño y no ten
 **Routing.**
 | Missed | Re-read | Then redo |
 |---|---|---|
-| Q1–Q3 | Unit 9 → Vocabulario → Otras palabras (preposiciones, conectores, expresiones) | Unit 9, Práctica Exercise 4 |
-| Q4 | Unit 9 → Vocabulario → Otras palabras (preposiciones, conectores, expresiones) | Unit 9, Práctica Exercise 4 |
-| Q5 ° | A2 Unit 2 → Vocabulario → Otras palabras (preposiciones, conectores, expresiones) | A2 Unit 2, Práctica Exercise 5 |
-| Q6 ° | A2 Unit 1 → Vocabulario → Otras palabras (preposiciones, conectores, expresiones) | A2 Unit 1, Práctica Exercise 4 |
-| Q7, Q8, Q9, Q11, Q17, Q19, Q23, Q24 | Unit 9 → Gramática → "Pretérito imperfecto" | Unit 9, Práctica Exercise 1 |
-| Q10, Q14, Q20, Q25 | Unit 9 → Gramática → "ya no / todavía" | Unit 9, Práctica Exercise 3 |
-| Q13, Q26 | Unit 9 → Gramática → "Time markers for past and present" | Unit 9, Práctica Exercise 4 |
+| Q1–Q3 | Unit 9 → Vocabulario → Otras palabras | Práctica Exercise 4 |
+| Q4 | Unit 9 → Vocabulario → Otras palabras | Práctica Exercise 4 |
+| Q5 ° | A2 Unit 2 → Vocabulario → Otras palabras | A2 Unit 2, Práctica Exercise 5 |
+| Q6 ° | A2 Unit 1 → Vocabulario → Otras palabras | A2 Unit 1, Práctica Exercise 4 |
+| Q7, Q8, Q9, Q11, Q17, Q19, Q23, Q24 | Unit 9 → Gramática → "Pretérito imperfecto" | Práctica Exercise 1 |
+| Q10, Q14, Q20, Q25 | Unit 9 → Gramática → "ya no / todavía" | Práctica Exercise 3 |
+| Q13, Q26 | Unit 9 → Gramática → "Time markers for past and present" | Práctica Exercise 4 |
 | Q12, Q15, Q18 ° | A2 Unit 2 → Gramática → "Pretérito indefinido" | A2 Unit 2, Práctica Exercise 1 |
 | Q16 ° | A2 Unit 1 → Gramática → "desde / desde hace / hace… que" | A2 Unit 1, Práctica Exercise 3 |
 | Q21 ° | A2 Unit 5 → Gramática → "Pretérito perfecto" | A2 Unit 5, Práctica Exercise 1 |
 | Q22 ° | A2 Unit 3 → Gramática → "Comparatives and superlatives" | A2 Unit 3, Práctica Exercise 2 |
 | Q27 ° | A1 Unit 3 → Gramática → "Ser vs Estar" | A1 Unit 3, Práctica Exercise 1 |
-| Q28, Q29, Q31 | Unit 9 → En contexto (diálogo) + Unit 9 → Gramática → "Pretérito imperfecto" | Unit 9, Práctica Exercise 2 |
-| Q30 | Unit 9 → En contexto (More examples) + Unit 9 → Gramática → "Time markers for past and present" | Unit 9, Práctica Exercise 4 |
+| Q28, Q29, Q31 | Unit 9 → En contexto (diálogo) + Unit 9 → Gramática → "Pretérito imperfecto" | Práctica Exercise 2 |
+| Q30 | Unit 9 → En contexto (More examples) + Unit 9 → Gramática → "Time markers for past and present" | Práctica Exercise 4 |
 | Q32 ° | A1 Unit 8 → Gramática → "algún / ningún / alguno / ninguno" | A1 Unit 8, Práctica Exercise 2 |
-| Q33–Q37 | Unit 9 → En contexto (diálogo and More examples) + Vocabulario → Sustantivos | Unit 9, Práctica Exercise 4 |
-| Q38 | Unit 9 → En contexto (diálogo) + **Truco.** | Unit 9, Práctica Exercise 5 |
+| Q33–Q37 | Unit 9 → En contexto (diálogo and More examples) + Vocabulario → Sustantivos | Práctica Exercise 4 |
+| Q38 | Unit 9 → En contexto (diálogo) + **Truco.** | Práctica Exercise 5 |
 
 ## Test — Unidad 10: Momentos especiales {#nivel=A2 #unidad=10}
 
-**Before you start.** This is the last test in the book, and it can ask you anything you have studied — from A1 Unit 0 to here. Do it at least one day after you finished the unit, in one sitting, with the book closed and no dictionary. Allow 30 minutes. Write your answers on paper. Mark yourself with the key at the end — only after you have answered everything. **Accents count from A2 on:** a missing or wrong accent loses the point in sections A–D. Total: 50 points.
+**Before you start.** This is the last test in the book, and it can ask you anything you have studied — from A1 Unit 0 to here. Do it at least one day after you finished the unit, in one sitting, with the book closed and no dictionary. Allow 30 minutes. Write your answers on paper. Mark yourself with the key at the end — only after you have answered everything. **Accents count:** a missing or wrong accent loses the point in sections A–D. Total: 50 points.
 
-**A · Vocabulary (6 points).** Write the Spanish. These are **expressions**, not single words — write the whole chunk as a Spanish speaker says it, with its preposition or article.
+**A · Vocabulary (6 points).** Write the Spanish **expression**, not a single word. Where the expression contains a noun, the article counts.
 1. it turns out that
 2. suddenly
 3. to be scared (literally, "to go through fear")
@@ -718,19 +714,18 @@ Cuando era niña, la vida era más lenta. Vivíamos en un piso pequeño y no ten
 25) Cuando lo vi, el hombre **llevaba** una camisa verde y tenía un libro.
 26) Resulta que se me rompió el vestido en la fiesta y no **me di cuenta**.
 27) Aquella noche no **podía** abrir la puerta porque no encontraba las llaves. °
+**Marking note for E (Q28–Q32).** Give **2 points** for a sentence that is fully correct. Give **1 point** if the meaning is clear and both clauses are there, but there is one slip (a wrong accent, a wrong ending, a missing article). Give **0** if the connector is wrong, if the background/event choice is wrong (imperfecto where the indefinido is needed, or the other way round), or if one clause is missing. Latin American variants are correct: *ustedes* for *vosotros*, and the indefinido where Spain uses the perfecto in Q32 (*nunca pasé tanto miedo*).
+
 28) Estaba paseando por el parque cuando vi a un hombre muy raro. / Paseaba por el parque cuando vi a un hombre muy raro.
 29) Estaba muy oscuro, así que no reconocí a mi vecino. / Era de noche y estaba muy oscuro, así que no reconocí a mi vecino.
 30) Estábamos bailando cuando, de repente, se fue la luz. / …cuando de repente se apagaron las luces.
 31) No pude venir porque hubo un problema en el aeropuerto. / No pude ir porque hubo un problema en el aeropuerto.
 32) Nunca he pasado tanto miedo, aunque al final solo era mi vecino. / Nunca he tenido tanto miedo, aunque al final era solo mi vecino. °
-33) b
-34) a
-35) b
+33) b) Porque llegaba tarde y tenía prisa.
+34) a) Que la novia no era su prima.
+35) b) Justo al final de la ceremonia.
 36) El señor de al lado. / Un señor que estaba a su lado.
 37) Todavía se ríen de ella. / Se ríen de ella en las comidas familiares.
-38) Score this task with the eight checks below.
-
-*Marking note for E (Q28–Q32).* Give **2 points** for a sentence that is fully correct. Give **1 point** if the meaning is clear and both clauses are there, but there is one slip (a wrong accent, a wrong ending, a missing article). Give **0** if the connector is wrong, if the background/event choice is wrong (imperfecto where the indefinido is needed, or the other way round), or if one clause is missing. Latin American variants are correct: *ustedes* for *vosotros*, and the indefinido where Spain uses the perfecto in Q32 (*nunca pasé tanto miedo*).
 
 **Model.**
 ¿Sabéis qué me pasó el año pasado? Era de noche y estaba lloviendo mucho. Volvía a casa del trabajo y no llevaba paraguas, así que fui corriendo. De repente, oí un ruido detrás de mí y me asusté muchísimo. Empecé a correr más rápido y no miré atrás. Cuando llegué al portal, vi que era mi vecino, que también corría por la lluvia. Resulta que él se asustó más que yo. Todavía nos reímos cuando lo contamos.
@@ -748,23 +743,23 @@ Cuando era niña, la vida era más lenta. Vivíamos en un piso pequeño y no ten
 **Routing.**
 | Missed | Re-read | Then redo |
 |---|---|---|
-| Q1–Q3 | Unit 10 → Vocabulario → Otras palabras (preposiciones, conectores, expresiones) | Unit 10, Práctica Exercise 5 |
-| Q4 ° | A2 Unit 1 → Vocabulario → Otras palabras (preposiciones, conectores, expresiones) | A2 Unit 1, Práctica Exercise 4 |
+| Q1–Q3 | Unit 10 → Vocabulario → Otras palabras | Práctica Exercise 5 |
+| Q4 ° | A2 Unit 1 → Vocabulario → Otras palabras | A2 Unit 1, Práctica Exercise 4 |
 | Q5 ° | A2 Unit 7 → Vocabulario → Verbos | A2 Unit 7, Práctica Exercise 4 |
 | Q6 ° | A2 Unit 2 → Vocabulario → Verbos | A2 Unit 2, Práctica Exercise 4 |
-| Q7, Q8, Q12, Q19 | Unit 10 → Gramática → "Irregular pretérito indefinido" | Unit 10, Práctica Exercise 1 |
-| Q11, Q17, Q18, Q23, Q24, Q25, Q26 | Unit 10 → Gramática → "Indefinido vs imperfecto" | Unit 10, Práctica Exercise 2 |
-| Q9, Q13, Q20 | Unit 10 → Gramática → "The gerundio and estar + gerundio" | Unit 10, Práctica Exercise 3 |
-| Q10, Q14 | Unit 10 → Gramática → "Narrative time markers" | Unit 10, Práctica Exercise 4 |
+| Q7, Q8, Q12, Q19 | Unit 10 → Gramática → "Irregular pretérito indefinido" | Práctica Exercise 1 |
+| Q11, Q17, Q18, Q23, Q24, Q25, Q26 | Unit 10 → Gramática → "Indefinido vs imperfecto" | Práctica Exercise 2 |
+| Q9, Q13, Q20 | Unit 10 → Gramática → "The gerundio and estar + gerundio" | Práctica Exercise 3 |
+| Q10, Q14 | Unit 10 → Gramática → "Narrative time markers" | Práctica Exercise 4 |
 | Q15 ° | A2 Unit 2 → Gramática → "Pretérito indefinido" | A2 Unit 2, Práctica Exercise 1 |
 | Q16 ° | A1 Unit 7 → Gramática → "Direct object pronouns (lo/la/los/las)" | A1 Unit 7, Práctica Exercise 2 |
 | Q21 ° | A2 Unit 5 → Gramática → "Pretérito perfecto" | A2 Unit 5, Práctica Exercise 1 |
 | Q22 ° | A1 Unit 7 → Gramática → "Present tense: poner and traer" | A1 Unit 7, Práctica Exercise 1 |
 | Q27 ° | A1 Unit 9 → Gramática → "poder + infinitive" | A1 Unit 9, Práctica Exercise 3 |
-| Q28, Q30 | Unit 10 → En contexto (diálogo) + Unit 10 → Gramática → "The gerundio and estar + gerundio" | Unit 10, Práctica Exercise 3 |
-| Q29, Q31 | Unit 10 → En contexto (More examples) + Unit 10 → Gramática → "Indefinido vs imperfecto" | Unit 10, Práctica Exercise 2 |
+| Q28, Q30 | Unit 10 → En contexto (diálogo) + Unit 10 → Gramática → "The gerundio and estar + gerundio" | Práctica Exercise 3 |
+| Q29, Q31 | Unit 10 → En contexto (More examples) + Unit 10 → Gramática → "Indefinido vs imperfecto" | Práctica Exercise 2 |
 | Q32 ° | A2 Unit 5 → Gramática → "Pretérito perfecto" | A2 Unit 5, Práctica Exercise 1 |
-| Q33–Q37 | Unit 10 → En contexto (diálogo) + Vocabulario → Sustantivos | Unit 10, Práctica Exercise 5 |
-| Q38 | Unit 10 → En contexto (diálogo) + **Truco.** | Unit 10, Práctica Exercise 4 |
+| Q33–Q37 | Unit 10 → En contexto (diálogo) + Vocabulario → Sustantivos | Práctica Exercise 5 |
+| Q38 | Unit 10 → En contexto (diálogo) + **Truco.** | Práctica Exercise 4 |
 
 <!-- END agent=test_a2p2 ; units=5 ; tests=5 ; items=38 ; points=50 -->
