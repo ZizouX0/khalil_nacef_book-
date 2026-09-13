@@ -440,7 +440,20 @@ def build():
         if ts and ts['paper']:
             tsid=slug(f"test-{nivel}-{uno}"); TOC.append((2,tsid,f"Test — {nivel} Unit {uno}"))
             parts.append(f'<h2 id="{tsid}" class="testhead">Test · Unidad {uno} — {html.escape(t["name"])} <span class="lv">{nivel}</span></h2>')
-            parts.append('<div class="test">'+md_ol(ts['paper']))
+            # The final writing task is numbered but has no printed content
+            # ("30." / "38. *(Your text.)*"). Lift it out of the list and give
+            # the learner real ruled space — the commonest complaint about
+            # self-study workbooks is having nowhere to write the answer.
+            paper=ts['paper']; wq=None
+            mw=None
+            for mm in re.finditer(r'(?m)^(\d+)\.[ \t]*(?:\*\([^)]*\)\*)?[ \t]*$', paper): mw=mm
+            if mw:
+                wq=mw.group(1); paper=paper[:mw.start()]+paper[mw.end():]
+            parts.append('<div class="test">'+md_ol(paper))
+            if wq:
+                n=12 if nivel=='A2' else 8
+                parts.append(f'<div class="writebox"><span class="wq">{wq}.</span>'
+                             +'<div class="wline"></div>'*n+'</div>')
             if ts['points']: parts.append('<p class="pointmap">'+md_inline(ts['points'])+'</p>')
             parts.append('<p class="ansref"><small>Mark yourself from the <b>Test Answer Key</b> at the back — '
                          'only after you have answered everything.</small></p></div>')

@@ -269,6 +269,11 @@ blockquote{background:var(--c-tip-tint); border:1px solid var(--c-tip-rule); bor
   border-radius:0 8px 8px 0; padding:7px 12px; margin:9px 0; font-size:9.5pt; page-break-inside:avoid}
 blockquote p{margin:.15em 0}
 
+/* ruled space for the end-of-test writing task */
+.writebox{margin:6px 0 2px; page-break-inside:avoid}
+.writebox .wq{display:block; font-weight:bold; color:var(--c-test); font-size:9.6pt; margin-bottom:2mm}
+.writebox .wline{border-bottom:1px solid #B5ABA1; height:7mm}
+
 /* a fill-in gap — written ___ in the source, printed as a rule you can write on */
 .blank{display:inline-block; border-bottom:1px solid #8A8A8A; min-width:8mm; height:.95em;
   vertical-align:-.18em; margin:0 2px}
