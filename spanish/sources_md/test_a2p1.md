@@ -12,7 +12,7 @@
 5. three times a week
 6. I have to practise
 
-**B · Fill the gap (10 points).** Write **one word** in each gap. Where there is a word in brackets, use that word in the correct form. **Four of these gaps have no word in brackets — you must decide which word is missing.** The person is shown when it is not obvious.
+**B · Fill the gap (10 points).** Write **one word** in each gap — two words where the form itself needs a pronoun or an auxiliary (*me llamo*, *he comido*). Where there is a word in brackets, use that word in the correct form. **Four of these gaps have no word in brackets — you must decide which word is missing.** The person is shown when it is not obvious.
 7. ¿Cuánto tiempo ___ que estudias español?
 8. Yo ___ (levantarse) a las seis para repasar antes de clase.
 9. Nunca ___ (escribir) una carta en español. *(yo)*
@@ -31,7 +31,7 @@
     a) para   b) porque   c) por qué
 19. A Lucía le ___ mucho los verbos reflexivos.
     a) cuesta   b) cuestan   c) cuestas
-20. ¿Vosotros ___ salir a la pizarra sin problema?
+20. ¿Vosotros ___ repetir la frase, por favor?
     a) podéis   b) podemos   c) pueden
 21. ¿___ alguna vez en México?
     a) Has estado   b) Has sido   c) Estás
@@ -58,7 +58,7 @@
 >
 > ¡Hola a todos! Me llamo Nadia, soy francesa y vivo en Granada desde hace ocho meses. Estudio español en esta escuela, en el grupo de la profesora Elena. Hablo francés e inglés, pero ahora quiero practicar más español porque quiero trabajar aquí.
 >
-> Lo que más me cuesta es la pronunciación. Me siento insegura cuando hablo con nativos y casi nunca salgo a la pizarra, porque me da mucha vergüenza. La gramática, sin embargo, me gusta mucho: memorizo las reglas y hago todos los ejercicios.
+> Lo que más me cuesta es la pronunciación. Me siento insegura cuando hablo con nativos y casi nunca participo en clase, porque soy bastante tímida. La gramática, sin embargo, me gusta mucho: memorizo las reglas y hago todos los ejercicios.
 >
 > Busco un intercambio: una hora en francés y una hora en español, dos veces a la semana, por la tarde. Nunca he hecho un intercambio, pero tengo muchas ganas de empezar.
 >
@@ -71,7 +71,7 @@
 35. ¿Por qué quiere practicar más español?
     a) Porque quiere trabajar en Granada.   b) Porque tiene un examen.   c) Porque su profesora es española.
 36. ¿Cuántas veces a la semana quiere hacer el intercambio?
-37. ¿Por qué casi nunca sale a la pizarra?
+37. ¿Por qué casi nunca participa en clase?
 
 **G · Write (8 points).** Write **70–90 words** in Spanish. You are writing your first message to a language-exchange partner you have never met. Say who you are and how long you have been studying Spanish, why you study it, what you find hardest and how you feel in class, and suggest a day to practise together. When you have finished, read your text against the eight checks in the key and give yourself **1 point for each check you can honestly tick**.
 38. *(Your text.)*
@@ -81,7 +81,7 @@
 **Answers.**
 1) me da vergüenza
 2) me cuesta la gramática
-3) mi lengua materna / la lengua materna
+3) mi lengua materna
 4) salir a la pizarra
 5) tres veces a la semana °
 6) tengo que practicar °
@@ -118,10 +118,10 @@
 34) b) La pronunciación.
 35) a) Porque quiere trabajar en Granada.
 36) Dos veces a la semana. / Dos veces.
-37) Porque le da (mucha) vergüenza. / Porque se siente insegura y le da vergüenza.
+37) Porque es (bastante) tímida. / Porque se siente insegura y es tímida.
 
 **Model.**
-¡Hola, Marta! Me llamo Tom y soy australiano. Estudio español desde hace un año porque mi novia es de Bogotá y quiero hablar con su familia. Además, trabajo en una empresa española desde enero. Lo que más me cuesta es la pronunciación: me siento ridículo cuando digo la erre y me da vergüenza hablar en clase. Por eso practico todos los días con canciones y memorizo diez palabras nuevas. ¿Practicamos juntos los martes por la tarde? Un saludo, Tom.
+¡Hola, Marta! Me llamo Tom y soy australiano. Estudio español desde hace un año porque mi novia es de Bogotá y quiero aprenderlo bien para hablar con su familia. Además, trabajo en una empresa española desde enero. Lo que más me cuesta es la pronunciación: me siento ridículo cuando digo la erre y me da vergüenza hablar en clase. Por eso practico todos los días con canciones y memorizo diez palabras nuevas. ¿Practicamos juntos los martes por la tarde? Un saludo, Tom.
 
 **Checks.**
 - I said **how long** I have been studying, using *desde hace* or *hace… que* + the present tense.
@@ -171,10 +171,10 @@
 5. to know how to play the violin
 6. to be thirty years old
 
-**B · Fill the gap (10 points).** Write **one word** in each gap. Where there is a word in brackets, use that word in the correct form. **Four of these gaps have no word in brackets — you must decide which word is missing.** The person is shown when it is not obvious.
-7. Amenábar ___ (nacer) en Santiago de Chile en 1972.
+**B · Fill the gap (10 points).** Write **one word** in each gap — two words where the form itself needs a pronoun or an auxiliary (*me llamo*, *he comido*). Where there is a word in brackets, use that word in the correct form. **Four of these gaps have no word in brackets — you must decide which word is missing.** The person is shown when it is not obvious.
+7. La actriz ___ (nacer) en Montevideo y creció en Buenos Aires.
 8. Esta semana ___ (ver) dos películas argentinas. *(yo)*
-9. Trabajó como periodista ___ dos años.
+9. Trabajó como periodista ___ dos años, de 1996 a 1998.
 10. Sus padres ___ (irse) a vivir a España en 1975.
 11. Empezó ___ trabajar como actriz a los quince años.
 12. ¿A qué hora ___ (volver) del cine anoche? *(vosotros)*
@@ -278,7 +278,7 @@
 37) Con un sonido. / Siempre con un sonido, no con una imagen.
 
 **Model.**
-Mi abuela Teresa nació en un pueblo de Galicia en 1940. A los dieciséis años se fue a Buenos Aires con su hermana, porque no encontró trabajo en su pueblo. Trabajó en una fábrica de ropa durante ocho años y allí conoció a mi abuelo. Se casaron en 1966 y al año siguiente nació mi madre. En 1978 volvieron a España y abrieron una pequeña tienda. Mi abuela murió en 2015, pero todavía guardamos sus cartas.
+Mi abuela Teresa nació en un pueblo de Galicia en 1940. A los dieciséis años se fue a Buenos Aires con su hermana, porque no encontró trabajo en su pueblo. Empezó a trabajar en una fábrica de ropa y estuvo allí durante ocho años. Allí conoció a mi abuelo. Se casaron en 1966 y al año siguiente nació mi madre. En 1978 volvieron a España y abrieron una pequeña tienda. Mi abuela murió en 2015, pero todavía guardamos sus cartas.
 
 **Checks.**
 - I used the **pretérito indefinido** for every finished event, and my *yo/él* forms carry the right accent (*nació*, *trabajó*, *estudié*).
@@ -331,14 +331,14 @@ Mi abuela Teresa nació en un pueblo de Galicia en 1940. A los dieciséis años 
 5. far from the centre
 6. too much traffic
 
-**B · Fill the gap (10 points).** Write **one word** in each gap. Where there is a word in brackets, use that word in the correct form. **Four of these gaps have no word in brackets — you must decide which word is missing.** The person is shown when it is not obvious.
+**B · Fill the gap (10 points).** Write **one word** in each gap — two words where the form itself needs a pronoun or an auxiliary (*me llamo*, *he comido*). Where there is a word in brackets, use that word in the correct form. **Four of these gaps have no word in brackets — you must decide which word is missing.** The person is shown when it is not obvious.
 7. Mi piso es más pequeño ___ el tuyo, pero es más luminoso.
 8. Entre la ventana y el sofá ___ (estar) las dos lámparas nuevas.
 9. El mes pasado ___ (mudarse) a un ático con terraza. *(nosotros)*
 10. Esta semana ___ (ver) tres pisos y ninguno me ha gustado. *(yo)*
 11. Tu casa es bonita, pero la ___ es más grande. *(mine)*
 12. A nosotros nos ___ (encantar) los muebles de madera.
-13. El salón ___ (estar) muy desordenado porque ayer vinieron mis primos.
+13. La cocina ___ (estar) muy desordenada porque ayer vinieron mis primos.
 14. Aquí no hay ___ luz como en mi antiguo piso.
 15. En mi barrio no hay ___ (ninguno) parque grande.
 16. ¿La alfombra? ___ compré en un mercado de Marruecos.
@@ -440,7 +440,7 @@ Mi abuela Teresa nació en un pueblo de Galicia en 1940. A los dieciséis años 
 37) Una estantería. / Una estantería en el dormitorio grande.
 
 **Model.**
-¡Hola, Lucía! Por fin me he mudado. Mi piso nuevo está en el barrio de Gracia, encima de una tienda. Tiene dos habitaciones, un salón con balcón y una cocina pequeña de madera clara. Es más luminoso que el antiguo, aunque no tiene tanto espacio como el tuyo. Lo que más me gusta es la terraza: da a una plaza tranquila y he puesto allí dos sillones. ¿Vienes a verlo el sábado? ¡Hasta pronto! Elena.
+¡Hola, Lucía! Por fin me he mudado. Mi piso nuevo está en el barrio de Gracia, encima de una tienda. Tiene dos habitaciones, un salón con balcón y una cocina pequeña de madera clara. Es más luminoso que el antiguo, aunque no tiene tanto espacio como el tuyo. Lo que más me gusta es la terraza: da a una plaza tranquila y he puesto dos sillones al lado de la puerta del salón. ¿Vienes a verlo el sábado? ¡Hasta pronto! Elena.
 
 **Checks.**
 - I used **estar** for where the place is and **ser** for what it is like, and I did not mix them up.
@@ -478,7 +478,7 @@ Mi abuela Teresa nació en un pueblo de Galicia en 1940. A los dieciséis años 
 | Q25 | Unit 3 → Gramática → "Comparatives and superlatives" | Práctica Exercise 2 |
 | Q26 | Unit 3 → Gramática → "Gustar / encantar / preferir" | Práctica Exercise 1 |
 | Q27 ° | A2 Unit 2 → Gramática → "Past time markers" | A2 Unit 2, Práctica Exercise 5 |
-| Q28, Q30, Q31 | Unit 3 → En contexto (dialogue + More examples) **and** "Comparatives and superlatives" | Práctica Exercise 5 |
+| Q28, Q30, Q31 | Unit 3 → En contexto (dialogue + More examples) **and** A2 Unit 2 → Gramática → "Pretérito indefinido" | A2 Unit 2, Práctica Exercise 2 |
 | Q29 | Unit 3 → Gramática → "Gustar / encantar / preferir" | Práctica Exercise 1 |
 | Q32 ° | A1 Unit 9 → Gramática → "The past participle (regular & irregular)" | A1 Unit 9, Práctica Exercise 2 |
 | Q33–Q37 | Unit 3 → Vocabulario → Sustantivos **and** En contexto | Práctica Exercise 5 |
@@ -496,11 +496,11 @@ Mi abuela Teresa nació en un pueblo de Galicia en 1940. A los dieciséis años 
 5. once a week
 6. Do you know how to drive?
 
-**B · Fill the gap (10 points).** Write **one word** in each gap. Where there is a word in brackets, use that word in the correct form. **Four of these gaps have no word in brackets — you must decide which word is missing.** The person is shown when it is not obvious.
+**B · Fill the gap (10 points).** Write **one word** in each gap — two words where the form itself needs a pronoun or an auxiliary (*me llamo*, *he comido*). Where there is a word in brackets, use that word in the correct form. **Four of these gaps have no word in brackets — you must decide which word is missing.** The person is shown when it is not obvious.
 7. Ahora no puedo hablar: ___ (estar) saliendo de casa. *(yo)*
 8. ¿___ (poder) decirme dónde está la plaza? *(usted — very polite)*
 9. Mi madre está ___ (hacer) la comida en la cocina.
-10. Perdona, ¿me ___ la sal?
+10. Perdona, ¿me ___ el pan? No llego desde aquí.
 11. La semana pasada ___ (ir) a casa de unos vecinos. *(nosotros)*
 12. No puedo ir a la cena. ___ que tengo que estudiar.
 13. Los niños están ___ (dormir) todavía.
@@ -515,7 +515,7 @@ Mi abuela Teresa nació en un pueblo de Galicia en 1940. A los dieciséis años 
     a) Es   b) Estaría   c) Sería
 19. ___ en la puerta desde hace diez minutos.
     a) Están despidiendo   b) Están despidiéndose   c) Están se despidiendo
-20. ¿Me ___ cinco euros? Mañana te los devuelvo.
+20. ¿Me ___ la bicicleta este fin de semana? El lunes te la devuelvo.
     a) das   b) dejas   c) pones
 21. Nunca ___ en un hotel tan caro.
     a) he estado   b) estuve   c) estoy
@@ -544,7 +544,7 @@ Mi abuela Teresa nació en un pueblo de Galicia en 1940. A los dieciséis años 
 >
 > Estamos haciendo obras en el ascensor, así que esta semana no funciona. Lo sentimos mucho. Los técnicos están trabajando de nueve a dos, y por la tarde el portal queda libre.
 >
-> Si necesitáis ayuda con las bolsas de la compra o con el carrito del bebé, podéis llamar a Manolo, el portero: está en el bajo derecha hasta las tres.
+> Si necesitáis ayuda con las bolsas de la compra o con el carrito del bebé, podéis llamar a Manolo, el portero: vive en el bajo derecha y está en casa hasta las tres.
 >
 > ¿Os importaría no dejar bicicletas en la escalera estos días? Es que los técnicos necesitan pasar con las herramientas.
 >
@@ -580,7 +580,7 @@ Mi abuela Teresa nació en un pueblo de Galicia en 1940. A los dieciséis años 
 12) Es
 13) durmiendo
 14) he saludado °
-15) gustaría
+15) gustaría / encantaría
 16) Lo °
 17) a) voy
 18) c) Sería
@@ -596,7 +596,7 @@ Mi abuela Teresa nació en un pueblo de Galicia en 1940. A los dieciséis años 
 
 **Marking note for E (Q28–Q32).** 2 points = both clauses are there, the connector is right and the sentence is correct. 1 point = the sentence is understandable and the connector is right, but there is **one** slip (one wrong accent, one wrong ending, one wrong gender). 0 points = the tense or the connector is wrong, or a clause is missing.
 
-28) No pude ir a la fiesta porque tuve que trabajar hasta las diez. / No pude ir a la fiesta porque tuve que trabajar hasta las diez de la noche.
+28) No pude ir a la fiesta porque tuve que trabajar hasta las diez. / No pude venir a la fiesta porque tuve que trabajar hasta las diez. / No pude ir a la fiesta porque tuve que trabajar hasta las diez de la noche.
 29) Cuando vi a mi vecina en la plaza, le pedí un favor.
 30) Aunque está trabajando mucho estos días, ha venido a mi fiesta.
 31) Ayer le dejé el coche a mi vecino, así que hoy voy al trabajo en autobús. / Ayer le presté el coche a mi vecino, así que hoy voy al trabajo en autobús.
@@ -608,7 +608,7 @@ Mi abuela Teresa nació en un pueblo de Galicia en 1940. A los dieciséis años 
 37) Porque los técnicos necesitan pasar con las herramientas. / Porque hay obras y los técnicos tienen que pasar.
 
 **Model.**
-¡Hola, Nuria! ¿Cómo va todo? Perdona por escribirte tan tarde: estoy trabajando muchísimo estos días y llego a casa a las diez. Oye, ¿te importaría hacerme dos favores? El sábado llegan mis padres y no tengo coche. ¿Podrías llevarme al centro en coche por la mañana? Y otra cosa: ¿me dejas tu maleta grande? Te la devuelvo el lunes sin falta. Es que la mía está rota. Muchas gracias por todo. ¡Un abrazo y recuerdos a Pablo!
+¡Hola, Nuria! ¿Cómo va todo? Perdona, pero el viernes no puedo ir a tu cena: es que estoy trabajando muchísimo estos días y llego a casa a las diez. Oye, ¿te importaría hacerme dos favores? El sábado llegan mis padres y no tengo coche. ¿Podrías llevarme al centro en coche por la mañana? Y otra cosa: ¿me dejas tu maleta grande? Te la devuelvo el lunes sin falta. Es que la mía está rota. Muchas gracias por todo. ¡Un abrazo y recuerdos a Pablo!
 
 **Checks.**
 - I greeted my neighbour with a real unit formula (*¿Cómo va todo? / ¿Qué tal? / ¿Cómo estás?*).
@@ -659,7 +659,7 @@ Mi abuela Teresa nació en un pueblo de Galicia en 1940. A los dieciséis años 
 5. in July it's very hot
 6. Is there a museum near here?
 
-**B · Fill the gap (10 points).** Write **one word** in each gap. Where there is a word in brackets, use that word in the correct form. **Four of these gaps have no word in brackets — you must decide which word is missing.** The person is shown when it is not obvious.
+**B · Fill the gap (10 points).** Write **one word** in each gap — two words where the form itself needs a pronoun or an auxiliary (*me llamo*, *he comido*). Where there is a word in brackets, use that word in the correct form. **Four of these gaps have no word in brackets — you must decide which word is missing.** The person is shown when it is not obvious.
 7. Este año ___ (viajar) a Portugal dos veces. *(nosotros)*
 8. El verano pasado ___ (hacer) una excursión a los Pirineos. *(yo)*
 9. ¿___ has reservado las entradas para el concierto?
@@ -676,9 +676,9 @@ Mi abuela Teresa nació en un pueblo de Galicia en 1940. A los dieciséis años 
     a) he ido   b) fui   c) voy
 18. ¿___ has comido? — No, todavía no.
     a) Ya   b) Todavía   c) Nunca
-19. El año que viene ___ estudiar en Argentina.
+19. El año que viene yo ___ estudiar en Argentina.
     a) voy a   b) voy   c) vamos a
-20. Este verano ___ hacer un curso de fotografía en Menorca.
+20. Este verano yo ___ hacer un viaje por Andalucía.
     a) pienso   b) pienso en   c) piensas
 21. Mi hermana ___ tocar la guitarra, aunque hoy no puede: no tiene tiempo.
     a) sabe   b) puede   c) conoce
@@ -770,7 +770,7 @@ Mi abuela Teresa nació en un pueblo de Galicia en 1940. A los dieciséis años 
 37) Las entradas del concierto. / Las entradas para el concierto.
 
 **Model.**
-¡Hola, Dani! ¡Qué ganas de verte! Esta semana ya he organizado casi todo. He reservado una mesa en un bar de tapas del centro para el viernes y he comprado dos entradas para el concierto del sábado. Todavía no he mirado los horarios del museo, pero pienso hacerlo mañana. El domingo, si hace buen tiempo, vamos a hacer una excursión a la montaña. ¿Qué quieres hacer tú? Escríbeme pronto. ¡Hasta el viernes!
+¡Hola, Dani! ¡Qué ganas de verte! Esta semana ya he organizado casi todo. He reservado una mesa en un bar de tapas del centro para el viernes y he comprado dos entradas para el concierto del sábado. Todavía no he visto los horarios del museo, pero pienso hacerlo mañana. El domingo, si hace buen tiempo, vamos a hacer una excursión a la montaña. ¿Qué quieres hacer tú? Escríbeme pronto. ¡Hasta el viernes!
 
 **Checks.**
 - I used the **pretérito perfecto** (haber + participle) at least twice for what I have organised, and I never separated *he/has/ha* from the participle.
