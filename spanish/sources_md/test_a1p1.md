@@ -16,11 +16,11 @@ yourself with the key at the end — only after you have answered everything. To
 
 **B · Fill the gap (8 points).** Write **one word** in each gap. Where there is a word in brackets, use that word in the correct form. The person is shown when it is not obvious.
 7. — Buenos días, Ben. ¿Qué ___? — Muy bien, gracias.
-8. — ¿Qué significa "despacio"? — No ___ (entender). ¿Puedes repetir, por favor? *(yo)*
+8. — ¿Qué significa "despacio"? — No ___ (entender). ¿Puedes repetir, por favor? *(I)*
 9. Hay ___ (7) estudiantes en la clase.
 10. En la mesa hay ___ tableta y un bolígrafo.
 11. ¿Puedes hablar más ___, por favor? No entiendo.
-12. — ¿Cómo te ___ (llamarse)? — Me llamo Ana. *(tú)*
+12. — ¿Cómo te ___ (llamarse)? — Me llamo Ana.
 13. ¡Buenas ___! *(you arrive at a 9 p.m. class)*
 14. "Javier" se escribe con ___. *(the name of the letter "j")*
 
@@ -29,10 +29,10 @@ yourself with the key at the end — only after you have answered everything. To
  a) ¿Qué significa "window"?
  b) ¿Cómo se escribe "window"?
  c) ¿Cómo se dice "window" en español?
-16. ¿Cómo se pronuncia la "h" de "hola"?
- a) como la jota
+16. La hache de "hola" ___.
+ a) se pronuncia
  b) no se pronuncia
- c) como la ge
+ c) se escribe
 17. En el aula hay ___ proyector y una pizarra.
  a) un
  b) uno
@@ -182,7 +182,7 @@ yourself with the key at the end — only after you have answered everything. To
 
 **E · Translate into Spanish (10 points — 2 points each).** Write the whole sentence. See the marking note in the key before you score this section.
 25. Good morning. What is your name? *(formal — you are the receptionist)*
-26. Her name is Laura and she works in a hotel.
+26. Her name is Laura and she is a designer.
 27. How old are you? — I am thirty-two.
 28. They are teachers and they are twenty years old.
 29. I am Spanish, from Seville. And you? Where are you from?
@@ -218,7 +218,7 @@ yourself with the key at the end — only after you have answered everything. To
 23) La profesora se **llama** Marta.
 24) ¿Cómo se **escribe** tu apellido? °
 25) Buenos días. ¿Cómo se llama? / ¿Cómo se llama usted?
-26) Se llama Laura y trabaja en un hotel.
+26) Se llama Laura y es diseñadora.
 27) ¿Cuántos años tienes? / ¿Cuántos años tiene (usted)? — Tengo treinta y dos años. / Tengo treinta y dos.
 28) Son profesores y tienen veinte años. / Ellos son profesores y tienen veinte años. / Son profesoras y tienen veinte años.
 29) Soy español, de Sevilla. ¿Y tú? ¿De dónde eres? / Soy española, de Sevilla. ¿Y tú, de dónde eres?
@@ -572,7 +572,7 @@ yourself with the key at the end — only after you have answered everything. To
 25. How much does this coat cost? — Three hundred and fifty euros.
 26. Which one do you prefer, the blue one or the striped one?
 27. I have to buy a swimsuit, a towel and sunscreen.
-28. This afternoon I am going shopping at the shopping centre.
+28. This weekend I am going shopping at the shopping centre.
 29. These sunglasses are cheaper, but I prefer the black ones.
 
 **F · Write (6 points).** Write **40–50 words** in Spanish. You are in a clothes shop before a weekend at the beach. Say what you have to buy, ask the price of two different items, and say which one you prefer and why. When you have finished, read your text against the six checks in the key and give yourself **1 point for each check you can honestly tick**.
@@ -608,7 +608,7 @@ yourself with the key at the end — only after you have answered everything. To
 25) ¿Cuánto cuesta este abrigo? — Trescientos cincuenta euros.
 26) ¿Cuál prefieres, la azul o la de rayas? / ¿Cuál prefiere usted, la azul o la de rayas?
 27) Tengo que comprar un bañador, una toalla y crema solar.
-28) Voy de compras al centro comercial esta tarde. / Esta tarde voy de compras al centro comercial.
+28) Este fin de semana voy de compras al centro comercial. / Voy de compras al centro comercial este fin de semana.
 29) Estas gafas de sol son más baratas, pero prefiero las negras.
 
 **Marking note for E (Q25–Q29).** 2 points = the whole sentence is there and the structure being tested is correct. 1 point = the meaning is clear but there is one slip (one wrong ending, one missing article or pronoun, one wrong word). 0 points = the sentence is missing, unclear, or the tested structure is not attempted. At A1 a missing or wrong written accent does **not** cost a point. Any variant separated by ` / ` is fully correct.
