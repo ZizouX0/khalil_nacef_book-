@@ -37,17 +37,22 @@ of every verb and adjective, an alphabetical index, the **Answer Key**, and the 
 Each part of a unit has its own colour, on the section bar and down the edge of the page. You do not need to
 memorise this — after two units your eye will find the grammar without reading a word.
 
-| Colour | Part of the unit |
-|---|---|
-| **Teal** | Vocabulary — words, tables, gender |
-| **Blue** | Grammar — rules and conjugations |
-| **Amber** | Conversations — dialogue and culture |
-| **Green** | Practice — exercises you do |
-| **Purple** | Test — the scored end-of-unit check |
-| **Dark teal** | Repaso — the review checkpoints after units A1-5, A1-9, A2-5 and A2-10 |
+| Colour | Icon | Part of the unit |
+|---|---|---|
+| **Blue** | ▤ | **Vocabulary** — words, tables, gender |
+| **Ochre** | ⊞ | **Grammar** — rules, examples and conjugation tables |
+| **Green** | ❝ | **Conversations** — the dialogue and the culture box |
+| **Graphite** | ✎ | **Practice** — the exercises you do |
+| **Crimson** | — | **Test** — the scored end-of-unit check |
+| **All four at once** | ⟳ | **Repaso** — the review checkpoints after A1-5, A1-9, A2-5 and A2-10 |
 
-Every colour also carries a **written label**, so the book still works perfectly in black and white and for
-readers who don't distinguish those hues.
+The colour appears on the section bar, on the rule running down the edge of the page, and on the heading
+row of every table in that section — so a table tells you which part of the unit you are in even if you
+have flipped straight to it.
+
+**Colour is never the only signal.** Every section also carries an icon and a written label, and the Test
+is the only part with a full-width coloured band. So the book works exactly as well photocopied in black
+and white, and for the roughly one man in twelve who doesn't distinguish red from green.
 
 ## The boxes
 

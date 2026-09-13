@@ -27,7 +27,31 @@ def md(t):
     h=_md.convert(_normalize(_EMOJI.sub('',t).strip()))
     # python-markdown has no strikethrough extension loaded; support ~~x~~ ourselves
     h=re.sub(r'~~(.+?)~~', r'<del>\1</del>', h)
+    # WeasyPrint ignores <ol start="N">, which would silently renumber every
+    # test back to 1 in each section and break all 20 routing tables.
+    h=re.sub(r'<ol start="(\d+)"',
+             lambda m: f'<ol style="counter-reset:list-item {int(m.group(1))-1}"', h)
     return h
+def md_ol(t):
+    """Render markdown but KEEP the author's ordered-list start numbers.
+    python-markdown restarts every <ol> at 1, which would renumber the tests
+    (Q1-Q30 continuous across sections) and silently break every routing table."""
+    starts=[]; prev=False
+    for line in _normalize(_EMOJI.sub('',t)).split("\n"):
+        m=re.match(r'^\s*(\d+)[.)]\s+', line)
+        if m:
+            if not prev: starts.append(int(m.group(1)))
+            prev=True
+        elif line.strip():
+            prev=False
+    h=md(t); it=iter(starts)
+    def rep(_m):
+        try: s=next(it)
+        except StopIteration: return '<ol>'
+        # WeasyPrint ignores the HTML start attribute; the list-item counter works.
+        return '<ol>' if s==1 else f'<ol style="counter-reset:list-item {s-1}">'
+    return re.sub(r'<ol>', rep, h)
+
 def slug(s):
     s=re.sub(r'<[^>]+>','',s); s=re.sub(r'[^a-zA-Z0-9]+','-',s.lower()).strip('-'); return s or 'x'
 
@@ -353,7 +377,7 @@ def build():
             parts.append('<div class="cando"><span class="h">By the end of this unit you can</span>'+md(body)+'</div>')
 
         # 1) Vocabulary
-        parts.append('<h3 class="sec sec-voc"><span class="tag">Vocabulary</span></h3>')
+        parts.append('<div class="scope voc"><h3 class="sec sec-voc"><span class="tag">Vocabulary</span></h3>')
         parts.append(diagram(suj))
         vt=voc_tables(t['voc'])
         for k in ('verbos','sustantivos','adjetivos','otras'):
@@ -363,39 +387,43 @@ def build():
         if key in variantes:
             _,body=variantes[key]
             parts.append('<div class="box var"><span class="h">En España / En América</span>'+md(body)+'</div>')
+        parts.append('</div>')
 
         # 2) Grammar
         gp=parse_grammar(t['gram'])
         if gp:
-            parts.append('<h3 class="sec sec-gram"><span class="tag">Grammar</span></h3>')
+            parts.append('<div class="scope gram"><h3 class="sec sec-gram"><span class="tag">Grammar</span></h3>')
             for p in gp:
                 gid=hid(f"g-{nivel}-{uno}-{p['name']}")
                 TOC.append((3,gid,p['name']))
                 parts.append(render_grammar_point(p,gid))
+            parts.append('</div>')
 
         # 3) Conversations
         ctx=parse_ctx(t['ctx'])
-        if ctx['dialogues'] or ctx['examples'] or ctx['truco']:
-            parts.append('<h3 class="sec sec-conv"><span class="tag">Conversations</span></h3>')
+        if ctx['dialogues'] or ctx['examples'] or ctx['truco'] or key in cultura:
+            parts.append('<div class="scope conv"><h3 class="sec sec-conv"><span class="tag">Conversations</span></h3>')
             parts.append(render_ctx(ctx))
-        if key in cultura:
-            ct,body=cultura[key]
-            parts.append('<div class="box cult"><span class="h">Cultura — '+html.escape(ct)+'</span>'+md(body)+'</div>')
+            if key in cultura:
+                ct,body=cultura[key]
+                parts.append('<div class="box cult"><span class="h">Cultura — '+html.escape(ct)+'</span>'+md(body)+'</div>')
+            parts.append('</div>')
 
         # 4) Practice
         ex=exdict.get((nivel,str(int(uno))))
         if ex and ex[0]:
-            parts.append('<h3 class="sec sec-prac"><span class="tag">Practice</span></h3>')
+            parts.append('<div class="scope prac"><h3 class="sec sec-prac"><span class="tag">Practice</span></h3>')
             if key in relampago:
                 _,body=relampago[key]
                 am=re.search(r'\*\*Answers\.?\*\*', body)
                 items, rans = (body[:am.start()], body[am.end():]) if am else (body, "")
                 parts.append('<div class="relampago"><span class="h">Repaso relámpago · 2 minutes · don\'t look back</span>'
-                             +md(items)
+                             +md_ol(items)
                              +(f'<div class="upside">{md_inline(rans.strip())}</div>' if rans.strip() else '')
                              +'</div>')
-            parts.append('<div class="practice">'+md(ex[0])+'</div>')
+            parts.append('<div class="practice">'+md_ol(ex[0])+'</div>')
             parts.append('<p class="ansref"><small>Check your answers in the <b>Answer Key</b> at the back of the book.</small></p>')
+            parts.append('</div>')
             if ex[1]:
                 answer_key.append((f"Unidad {uno} — {t['name']} ({nivel})", ex[1]))
 
@@ -404,7 +432,7 @@ def build():
         if ts and ts['paper']:
             tsid=slug(f"test-{nivel}-{uno}"); TOC.append((2,tsid,f"Test — {nivel} Unit {uno}"))
             parts.append(f'<h2 id="{tsid}" class="testhead">Test · Unidad {uno} — {html.escape(t["name"])} <span class="lv">{nivel}</span></h2>')
-            parts.append('<div class="test">'+md(ts['paper']))
+            parts.append('<div class="test">'+md_ol(ts['paper']))
             if ts['points']: parts.append('<p class="pointmap">'+md_inline(ts['points'])+'</p>')
             parts.append('<p class="ansref"><small>Mark yourself from the <b>Test Answer Key</b> at the back — '
                          'only after you have answered everything.</small></p></div>')
@@ -415,7 +443,7 @@ def build():
             rc,ra=repaso[key]
             rid=slug(f"repaso-{key}"); TOC.append((2,rid,f"Repaso — after {nivel} unit {uno}"))
             parts.append(f'<div class="repaso" id="{rid}"><h2 class="repasohead">Repaso · Review after {nivel} Unit {uno}</h2>')
-            parts.append(md(rc)); parts.append('</div>')
+            parts.append(md_ol(rc)); parts.append('</div>')
             if ra: answer_key.append((f"Repaso — after {nivel} unit {uno}", ra))
 
     # ================= REFERENCE =================
@@ -466,19 +494,18 @@ def build():
                     w=re.sub(r'\s*/\s*(el|la|los|las)\s+',' / ',w,flags=re.I)
                 w=re.sub(r'\s*\(.+?\)','',w).strip()
                 if w and w[0].isalpha():
-                    words.setdefault(f"{w.lower()}|{nivel}{uno}", (w, f"{nivel[-1]}·{uno}"))
+                    e=words.setdefault(w.lower(), [w, []])
+                    loc=f"{nivel[-1]}·{uno}"
+                    if loc not in e[1]: e[1].append(loc)
     parts.append(h(1,"Alphabetical Index"))
     parts.append('<p class="lead">Every headword, with the level·unit where it appears.</p>')
     letters={}
-    for kw,(w,loc) in words.items():
-        letters.setdefault(kw[0].upper(),[]).append((w,loc))
+    for kw,(w,locs) in words.items():
+        letters.setdefault(kw[0].upper(),[]).append((w,", ".join(locs)))
     ih=['<div class="indexgrid">']
     for L in sorted(letters):
         ih.append(f'<div class="idx-letter">{L}</div>')
-        seen=set()
         for w,loc in sorted(letters[L], key=lambda x:x[0].lower()):
-            if (w,loc) in seen: continue
-            seen.add((w,loc))
             ih.append(f'<div class="ie">{html.escape(w)} <small>{loc}</small></div>')
     ih.append('</div>')
     parts.append("".join(ih))
@@ -499,7 +526,7 @@ def build():
         parts.append('<div class="answerkey testkey">')
         for title,ts in test_key:
             parts.append(f'<h3>{html.escape(title)}</h3>')
-            if ts['answers']: parts.append(md(ts['answers']))
+            if ts['answers']: parts.append(md_ol(ts['answers']))
             if ts['model']:
                 parts.append('<div class="box tip"><span class="h">Model answer</span>'+md(ts['model'])+'</div>')
             if ts['checks']:
