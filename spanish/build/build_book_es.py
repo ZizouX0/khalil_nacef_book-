@@ -22,9 +22,17 @@ def _normalize(t):
         out.append(l)
     return "\n".join(out)
 _EMOJI=re.compile('[\U0001F000-\U0001FAFF\U00002600-\U000026FF\U00002B00-\U00002BFF]')
+# A gap written as ___ is markdown emphasis: "hacer -> ___, ver -> ___" renders as
+# "hacer -> <strong><em>, ver -> </em></strong>" and BOTH blanks disappear. Protect
+# them before conversion, then render them as real ruled answer gaps.
+_BLANK=re.compile(r'_{3,}')
+_B0,_B1='',''
 def md(t):
     _md.reset()
+    t=_BLANK.sub(lambda m: f'{_B0}{len(m.group(0))}{_B1}', t)
     h=_md.convert(_normalize(_EMOJI.sub('',t).strip()))
+    h=re.sub(_B0+r'(\d+)'+_B1,
+             lambda m: f'<span class="blank" style="width:{min(int(m.group(1)),14)*2.6:.1f}mm"></span>', h)
     # python-markdown has no strikethrough extension loaded; support ~~x~~ ourselves
     h=re.sub(r'~~(.+?)~~', r'<del>\1</del>', h)
     # WeasyPrint ignores <ol start="N">, which would silently renumber every

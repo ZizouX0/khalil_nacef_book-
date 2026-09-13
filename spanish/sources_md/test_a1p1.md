@@ -33,10 +33,10 @@ yourself with the key at the end — only after you have answered everything. To
  a) como la jota
  b) no se pronuncia
  c) como la ge
-17. En el aula hay ___ pizarra y ___ proyector.
- a) una / un
- b) un / una
- c) una / uno
+17. En el aula hay ___ proyector y una pizarra.
+ a) un
+ b) uno
+ c) una
 18. It is four in the afternoon and you greet your teacher:
  a) Buenos días
  b) Buenas tardes
@@ -85,7 +85,7 @@ yourself with the key at the end — only after you have answered everything. To
 14) jota
 15) c) ¿Cómo se dice "window" en español?
 16) b) no se pronuncia
-17) a) una / un
+17) a) un
 18) b) Buenas tardes
 19) c) Muy bien
 20) c) nueve
@@ -146,7 +146,7 @@ yourself with the key at the end — only after you have answered everything. To
 11. Él es portugués y ella es ___ (portugués).
 12. Yo ___ (trabajar) en un hospital de Madrid.
 13. — ¿Qué tal, Nadia? — Muy ___, gracias.
-14. — ¿Qué ___ "despacho" en inglés? — "Office".
+14. — ¿Qué ___ "despacho"? — "Office" en inglés.
 
 **C · Choose the correct option (6 points).** Circle **a**, **b** or **c**. Only one is correct.
 15. ___ sois de Sevilla, ¿verdad?
@@ -230,7 +230,7 @@ Buenos días. Me llamo Nadia Weber. Mi apellido se escribe: uve doble, e, be, e,
 
 **Checks.**
 - I gave my name with **me llamo** (or **soy**) + name, and I spelled my surname with the Spanish letter names.
-- I gave my origin with **soy** + nationality **+ de** + city (*Soy alemana, de Berlín*), with no article and no capital letter on the nationality.
+- I gave my origin with **soy** + nationality + **de** + city (*Soy alemana, de Berlín*), with no article and no capital letter on the nationality.
 - My nationality and my profession agree with me: **-a** if I am a woman (*alemana, enfermera*), **-o** or the consonant form if I am a man (*alemán, enfermero*).
 - I gave my age with **tener**, not *ser*: **Tengo … años**.
 - I said what I do with **soy** + profession (no *un/una*) and **trabajo en** / **trabajo como** + place.
@@ -434,7 +434,7 @@ yourself with the key at the end — only after you have answered everything. To
 
 **D · One mistake (4 points).** Each sentence contains **exactly one** mistake. Rewrite the whole sentence correctly.
 21. En Chile hay muchos montañas.
-22. ¿Dónde estan los Andes?
+22. ¿Dónde está los Andes?
 23. El desierto de Atacama es el lugar más seca del mundo.
 24. Nosotros vivemos en la costa.
 
@@ -531,7 +531,7 @@ yourself with the key at the end — only after you have answered everything. To
 8. ¿Cuánto ___ (costar) estas gafas de sol?
 9. ¿Adónde ___ (ir) vosotros?
 10. Vosotros ___ que llevar el pasaporte.
-11. Este abrigo cuesta ___ (500) euros.
+11. Este bolso cuesta ___ (500) pesos.
 12. — ¿Qué camisa prefieres? — Prefiero ___ blanca.
 13. El centro comercial ___ (estar) cerca de la playa.
 14. — ¿Por qué compras esta maleta? — ___ es más barata.
@@ -541,7 +541,7 @@ yourself with the key at the end — only after you have answered everything. To
  a) Qué
  b) Cuál
  c) Cuáles
-16. — Estas dos camisetas son muy bonitas. — ¿___ prefieres?
+16. ¿___ son más baratos, los vaqueros o los pantalones cortos?
  a) Qué
  b) Cuál
  c) Cuáles
@@ -572,7 +572,7 @@ yourself with the key at the end — only after you have answered everything. To
 25. How much does this coat cost? — Three hundred and fifty euros.
 26. Which one do you prefer, the blue one or the striped one?
 27. I have to buy a swimsuit, a towel and sunscreen.
-28. I am going shopping to the shopping centre this afternoon.
+28. This afternoon I am going shopping at the shopping centre.
 29. These sunglasses are cheaper, but I prefer the black ones.
 
 **F · Write (6 points).** Write **40–50 words** in Spanish. You are in a clothes shop before a weekend at the beach. Say what you have to buy, ask the price of two different items, and say which one you prefer and why. When you have finished, read your text against the six checks in the key and give yourself **1 point for each check you can honestly tick**.
