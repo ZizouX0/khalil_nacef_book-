@@ -158,13 +158,13 @@ Spanish has three main past tenses. Choose by **what kind of past** you mean:
 | **Pretérito indefinido** (hablé) | finished, completed events | ayer, el año pasado, en 2019, hace dos días | *Ayer **comí** paella.* |
 | **Pretérito imperfecto** (hablaba) | description, habits, "the background" | antes, siempre, todos los días, de niño | *De niño **jugaba** en la calle.* |
 
-**In a story**, the **imperfecto** paints the scene (weather, time, feelings, what was going on) and the **indefinido** moves the action forward: ***Era** de noche y **llovía** cuando de repente **sonó** el teléfono.*
+**In a story**, the **imperfecto** paints the scene (weather, time, feelings, what was going on) and the **indefinido** moves the action forward: *Era de noche y llovía cuando de repente **sonó** el teléfono.* — *It was night and it was raining when suddenly the phone rang.*
 
 
 ### E.1 Pretérito perfecto (have + done — recent past / experience)
-**haber (present)** + **participio**:
-| he · has · ha · hemos · habéis · han | + hablado / comido / vivido |
+| haber (present) | + participio |
 |---|---|
+| he · has · ha · hemos · habéis · han | hablado / comido / vivido |
 
 *Irregular participles:* hacer→**hecho**, decir→**dicho**, ver→**visto**, escribir→**escrito**, poner→**puesto**, volver→**vuelto**, abrir→**abierto**, romper→**roto**, morir→**muerto**. — Time markers: *hoy, esta semana, ya, todavía no, alguna vez.*
 
