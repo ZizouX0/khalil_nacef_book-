@@ -37,10 +37,10 @@ yourself with the key at the end — only after you have answered everything. To
  a) un
  b) uno
  c) una
-18. ¿Cómo se escribe "España", con "n" o con "ñ"?
- a) con ene
- b) con eñe
- c) con ese
+18. En español, "España" se escribe con la letra ___.
+ a) ene
+ b) eñe
+ c) ese
 19. — ¿Cómo estás? — ___, gracias.
  a) Muy bueno
  b) Muy alto
@@ -86,7 +86,7 @@ yourself with the key at the end — only after you have answered everything. To
 15) c) ¿Cómo se dice "window" en español?
 16) b) no se pronuncia
 17) a) un
-18) b) con eñe
+18) b) eñe
 19) c) Muy bien
 20) c) nueve
 21) Tengo **una** mochila y dos cuadernos.
@@ -214,7 +214,7 @@ yourself with the key at the end — only after you have answered everything. To
 19) c) Buenas noches °
 20) b) Cuál
 21) Nosotros somos de México y ella es **mexicana**.
-22) ¿Cuántos años **tenéis** vosotros? / ¿Cuántos años **tienen** ustedes?
+22) ¿Cuántos años **tenéis** vosotros?
 23) La profesora se **llama** Marta.
 24) ¿Cómo se **escribe** tu apellido? °
 25) Buenos días. ¿Cómo se llama? / ¿Cómo se llama usted?
@@ -606,7 +606,7 @@ yourself with the key at the end — only after you have answered everything. To
 23) **Doscientas** personas van al mercadillo.
 24) Nosotros queremos ir **al** mercado. °
 25) ¿Cuánto cuesta este abrigo? — Trescientos cincuenta euros.
-26) ¿Cuál prefieres, la azul o la de rayas? / ¿Cuál prefiere usted, la azul o la de rayas?
+26) ¿Cuál prefieres, la azul o la de rayas? / ¿Cuál prefieres, el azul o el de rayas? / ¿Cuál prefiere usted, la azul o la de rayas? *(the English gives no gender — either is correct)*
 27) Tengo que comprar un bañador, una toalla y crema solar.
 28) Este fin de semana voy de compras al centro comercial. / Voy de compras al centro comercial este fin de semana.
 29) Estas gafas de sol son más baratas, pero prefiero las negras.
