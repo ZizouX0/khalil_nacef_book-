@@ -238,7 +238,7 @@
 6) lo que más me gusta °
 7) viajamos
 8) Has
-9) hemos visitado
+9) hemos hecho
 10) gustaría
 11) tan / más
 12) cayeron
@@ -627,7 +627,7 @@ Cuando era niña, la vida era más lenta. Vivíamos en un piso pequeño y no ten
 5. to have a good / a bad time
 6. to fall in love (with)
 
-**B · Fill the gap (10 points).** Write the missing word in each gap; a two-word verb form (*estaba cenando*) counts as one answer. Where there is a word in brackets, use that word in the correct form. **Four of these gaps have no word in brackets — you must decide which word is missing.** The person is shown when it is not obvious.
+**B · Fill the gap (10 points).** Write the missing word in each gap; a two-word verb form (*me levanté*, *he comido*) counts as one answer. Where there is a word in brackets, use that word in the correct form. **Four of these gaps have no word in brackets — you must decide which word is missing.** The person is shown when it is not obvious.
 7. Ayer ___ (estar) en casa de Carlos y tuvimos una cena estupenda. *(yo)*
 8. El camarero ___ (pedir) perdón y nos trajo otra botella.
 9. ___ paseando por el parque cuando vi a un hombre muy raro. *(yo)*

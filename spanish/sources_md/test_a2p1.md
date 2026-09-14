@@ -166,7 +166,7 @@
 **A · Vocabulary (6 points).** Write the Spanish **expression**, not a single word. Where the expression contains a noun, the article counts.
 1. at the age of twelve
 2. the following year
-3. to be a great success
+3. from … onwards (e.g. from 1990 onwards)
 4. to shoot a film
 5. to know how to play the violin
 6. to be thirty years old
@@ -186,7 +186,7 @@
 **C · Choose the correct option (6 points).** Circle **a**, **b** or **c**. Only one is correct.
 17. ¿Qué ___ vosotros anoche después del estreno?
     a) hicisteis   b) hicieron   c) hacéis
-18. La película ___ un gran éxito en todo el mundo.
+18. La película ___ muy famosa en todo el mundo.
     a) fue   b) estuvo   c) fui
 19. Vivió en Estados Unidos ___ un tiempo.
     a) durante   b) desde   c) hasta
@@ -238,7 +238,7 @@
 **Answers.**
 1) a los doce años
 2) al año siguiente
-3) ser un gran éxito
+3) a partir de
 4) rodar una película
 5) saber tocar el violín °
 6) tener treinta años °

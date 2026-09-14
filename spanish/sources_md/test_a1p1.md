@@ -37,10 +37,10 @@ yourself with the key at the end — only after you have answered everything. To
  a) un
  b) uno
  c) una
-18. It is four in the afternoon and you greet your teacher:
- a) Buenos días
- b) Buenas tardes
- c) Buenas noches
+18. ¿Cómo se escribe "España", con "n" o con "ñ"?
+ a) con ene
+ b) con eñe
+ c) con ese
 19. — ¿Cómo estás? — ___, gracias.
  a) Muy bueno
  b) Muy alto
@@ -86,7 +86,7 @@ yourself with the key at the end — only after you have answered everything. To
 15) c) ¿Cómo se dice "window" en español?
 16) b) no se pronuncia
 17) a) un
-18) b) Buenas tardes
+18) b) con eñe
 19) c) Muy bien
 20) c) nueve
 21) Tengo **una** mochila y dos cuadernos.
