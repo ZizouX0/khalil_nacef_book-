@@ -15,11 +15,11 @@
 **B · Fill the gap (10 points).** Write the missing word in each gap; a two-word verb form (*he comido*) counts as one answer. Where there is a word in brackets, use that word in the correct form. **Four of these gaps have no word in brackets — you must decide which word is missing.** The person is shown when it is not obvious.
 7. Esta mañana ___ (hacer) una tortilla de patatas para la cena de la clase. *(yo)*
 8. ¿El gazpacho? ___ probé el verano pasado en Sevilla y me encantó.
-9. Primero se ___ (pelar) las patatas y luego se cortan en trozos pequeños.
+9. Primero se ___ (picar) los ajos y luego se echan en el aceite caliente.
 10. Ayer ___ (comprar) medio kilo de alcachofas en el mercado. *(nosotros)*
-11. En este restaurante ___ come muy bien por muy poco dinero.
+11. En este mercado ___ venden verduras muy frescas y muy baratas.
 12. Esta salsa es muy fácil: puedes ___ (hacer) en cinco minutos.
-13. ¡Qué buena ___ esta sopa! ¿Le has puesto ajo?
+13. Normalmente esta sopa no me gusta, pero hoy ___ buenísima.
 14. El vino de esta región es excelente y, ___, no es nada caro.
 15. Antes de cocinar, ___ (lavarse) siempre las manos. *(yo)*
 16. A mis hermanos les ___ (gustar) mucho las legumbres.
@@ -85,7 +85,7 @@
 6) al horno °
 7) he hecho °
 8) Lo
-9) pelan
+9) pican
 10) compramos °
 11) se
 12) hacerla
@@ -134,8 +134,8 @@
 **Routing.**
 | Missed | Re-read | Then redo |
 |---|---|---|
-| Q1–Q3 | Unit 6 → Vocabulario → Otras palabras | Práctica Exercise 4 |
-| Q4 | Unit 6 → Vocabulario → Adjetivos y adverbios | Práctica Exercise 4 |
+| Q1, Q2 | Unit 6 → Vocabulario → Otras palabras | Práctica Exercise 4 |
+| Q3, Q4 | Unit 6 → Vocabulario → Adjetivos y adverbios | Práctica Exercise 4 |
 | Q5, Q6 ° | A1 Unit 7 → Vocabulario → Otras palabras | A1 Unit 7, Práctica Exercise 5 |
 | Q7, Q17, Q24 ° | A2 Unit 5 → Gramática → "Pretérito perfecto" | A2 Unit 5, Práctica Exercise 1 |
 | Q10, Q18 ° | A2 Unit 2 → Gramática → "Pretérito indefinido" | A2 Unit 2, Práctica Exercise 1 |
@@ -146,8 +146,10 @@
 | Q15 ° | A1 Unit 6 → Gramática → "Reflexive (pronominal) verbs" | A1 Unit 6, Práctica Exercise 2 |
 | Q16 ° | A1 Unit 5 → Gramática → "The verb gustar" | A1 Unit 5, Práctica Exercise 1 |
 | Q27 ° | A1 Unit 2 → Gramática → "Por, para and porque" | A1 Unit 2, Práctica Exercise 4 |
-| Q28, Q31, Q32 | Unit 6 → En contexto (diálogo) + Unit 6 → Gramática → "Ser vs Estar" | Práctica Exercise 3 |
-| Q29, Q30 | Unit 6 → En contexto (diálogo) + Unit 6 → Gramática → "Impersonal se (se + 3rd person)" | Práctica Exercise 2 |
+| Q28, Q31 | Unit 6 → En contexto (diálogo) + Unit 6 → Gramática → "Ser vs Estar" | Práctica Exercise 3 |
+| Q29 | Unit 6 → En contexto (More examples) + Unit 6 → Vocabulario → Otras palabras | Práctica Exercise 4 |
+| Q30 | Unit 6 → En contexto (diálogo) + Unit 6 → Gramática → "Impersonal se (se + 3rd person)" | Práctica Exercise 2 |
+| Q32 | Unit 6 → En contexto (diálogo) + A2 Unit 5 → Gramática → "Pretérito perfecto" | A2 Unit 5, Práctica Exercise 1 |
 | Q33–Q37 | Unit 6 → En contexto (More examples) + Vocabulario → Sustantivos | Práctica Exercise 4 |
 | Q38 | Unit 6 → En contexto (diálogo) + **Truco.** | Práctica Exercise 5 |
 
@@ -164,15 +166,15 @@
 6. what I like most
 
 **B · Fill the gap (10 points).** Write the missing word in each gap; a two-word verb form (*he visto*) counts as one answer. Where there is a word in brackets, use that word in the correct form. **Four of these gaps have no word in brackets — you must decide which word is missing.** The person is shown when it is not obvious.
-7. El año pasado ___ (viajar) a Costa Rica con mi hermana. *(nosotros)*
-8. ¿___ estado alguna vez en México? *(tú)*
-9. Esta semana ___ (visitar) tres museos y todavía nos queda uno. *(nosotros)*
-10. A mí me ___ (gustar) hacer una ruta por la selva.
-11. ¡Qué paisaje ___ bonito! Nunca he visto nada igual.
-12. Conocí a sus padres el otro día y me ___ (caer) muy bien.
+7. El verano pasado ___ (conocer) Sevilla y nos encantó la ciudad. *(nosotros)*
+8. ¿___ probado alguna vez la cocina peruana? *(tú)*
+9. Esta semana ___ (hacer) dos excursiones y todavía nos queda una. *(nosotros)*
+10. A mí me ___ (gustar) vivir cerca de la playa algún día.
+11. ¡Qué ciudad ___ bonita! Nunca he visto nada igual.
+12. Conocí a tu hermana en la fiesta y me ___ (caer) muy bien.
 13. En la fiesta de despedida nos ___ pasamos fenomenal.
 14. ¿Qué te ___ (parecer) la exposición de ayer?
-15. Todavía no ___ (ver) la nueva película de Almodóvar. *(yo)*
+15. Todavía no ___ (ver) las fotos del viaje. *(yo)*
 16. Quiero volver a Costa Rica ___ ver las ballenas otra vez.
 
 **C · Choose the correct option (6 points).** Circle **a**, **b** or **c**. Only one is correct.
@@ -180,7 +182,7 @@
  a) desde b) durante c) hasta
 18. Este año ___ tres países diferentes. *(nosotros)*
  a) visitamos b) hemos visitado c) has visitado
-19. A mis amigos les ___ hacer una ruta en elefante.
+19. A mi hermana le ___ ver las ruinas de Machu Picchu.
  a) gustaría b) gustarían c) gustan
 20. ¿Qué te ___ los libros que te presté?
  a) pareció b) parecieron c) pareces
