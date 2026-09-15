@@ -68,13 +68,13 @@ Same shape — auxiliary + past participle — with three differences you must r
 And a warning for what is coming: the Spanish *perfecto* is **not** the workhorse your *passé composé* is. It covers today, this week, and life experience. Finished, dated events need another tense — see unit A2-2.
 
 ## Depuis, ça fait… que {#u=A2-1}
-Here Spanish does exactly what French does, and English cannot follow. All three of these keep the verb in the **present**, precisely as in French:
+Here Spanish does exactly what French does, and English cannot follow. All three keep the verb in the **present**, as in French:
 
 - **desde** + a starting point: *Vivo aquí desde 2019* ≍ *j'habite ici depuis 2019*
 - **desde hace** + a length of time: *Vivo aquí desde hace tres años* ≍ *…depuis trois ans*
 - **hace… que** + present: *Hace tres años que vivo aquí* ≍ *ça fait trois ans que j'habite ici*
 
-English is forced into "I **have** lived here for three years", which is why English speakers struggle here and you need not. Keep the French reflex.
+English is forced into "I **have** lived here for three years", so English speakers struggle where you need not. Keep the French reflex.
 
 One separation to learn: bare *hace tres años*, with no *que*, means *il y a trois ans* — "ago" — and takes a past tense: *Llegué hace tres años* ≍ *je suis arrivé il y a trois ans*.
 

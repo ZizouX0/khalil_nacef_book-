@@ -1,6 +1,6 @@
 # If You Speak French, You Already Have a Head Start
 
-This book is written in English, and English does help: *hospital*, *natural*, *importante*. But Spanish and French are siblings, and English is only a cousin by marriage. Where French helps, it helps *more* — and in three places it reaches things English cannot touch at all. Read this page once now, then use the **Si tu parles français** boxes you will meet inside the units.
+This book is written in English, and English does help: *hospital*, *natural*, *importante*. But Spanish and French are siblings; English is only a cousin by marriage. Where French helps, it helps *more* — and in three places it reaches what English cannot touch at all. Read this page now, then use the **Si tu parles français** boxes inside the units.
 
 ## Three things you already own
 
@@ -56,7 +56,7 @@ Spanish spelling is honest — one letter, one sound — but several French refl
 - **Nasal vowels.** Spanish has none. *Pan* is not *pain*: hold a clean, open [a], then close the mouth for a separate, fully pronounced *n* — two events, never one. Same for *bien, tren, jamón, canción, un*.
 - **The *u*.** There is no [y] in Spanish. *Tú* is "tou", *música* is "moussica", *universidad* opens like *ouvrir*. This is the French habit that survives longest; hunt it down.
 - **Stress.** French stresses the end of the breath group; Spanish gives every word its own fixed beat, and the beat carries meaning: *hablo* (I speak) vs *habló* (he spoke); *término, termino, terminó*. Default: words ending in a vowel, *-n* or *-s* stress the second-to-last syllable (*casa, hablan*), everything else the last (*hablar, ciudad*); exceptions wear a written accent. Learn each word **with its beat**, and stop stressing the end of every phrase.
-- **Final consonants are pronounced.** *Petit* and *vous* trained you to drop them; Spanish never does. The *d* of *usted*, the *l* of *español*, the *j* of *reloj* — and above all every plural *-s* and every *tú* ending *-s*: *hablas* is not *habla*. Drop those and you are deleting grammar.
+- **Final consonants are pronounced.** *Petit* and *vous* trained you to drop them; Spanish never does. The *d* of *usted*, the *l* of *español*, the *j* of *reloj* — and above all every plural *-s* and every *tú* ending *-s*: *hablas* is not *habla*. Drop those and you delete grammar.
 - ***ch* is [tʃ], not [ʃ].** *Muchacho, coche, chico* — the sound of *tchèque*, never of *chat*.
 - ***ll* and *y* are the *y* of *yeux*.** *Llamar, calle, yo, playa*. (Buenos Aires and Montevideo use your *ch/j* sound instead: *calle* → "cache". Also correct Spanish.)
 - ***h* is silent — in both languages.** *Hola, hombre, hospital*, just like *homme* and *hôtel*. One free gift. Only remember that *ch* is a single pair, not "c + silent h".
