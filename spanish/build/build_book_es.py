@@ -27,8 +27,20 @@ _EMOJI=re.compile('[\U0001F000-\U0001FAFF\U00002600-\U000026FF\U00002B00-\U00002
 # them before conversion, then render them as real ruled answer gaps.
 _BLANK=re.compile(r'_{3,}')
 _B0,_B1='',''
+# python-markdown mis-parses bold nested inside italics — "*dice **esto** así*"
+# comes out as broken <em> runs with literal asterisks left in the text. It is an
+# easy thing to write and it had already slipped into six files, so convert the
+# whole pattern to explicit HTML before the converter ever sees it.
+_NEST=re.compile(r'(?<![*\w])\*(?!\s)((?:[^*\n]|\*\*[^*\n]+?\*\*)*?\*\*[^*\n]+?\*\*(?:[^*\n]|\*\*[^*\n]+?\*\*)*?)(?<!\s)\*(?!\*)')
+def _fix_nested_em(t):
+    def rep(m):
+        inner=re.sub(r'\*\*([^*]+?)\*\*', r'<strong>\1</strong>', m.group(1))
+        return f'<em>{inner}</em>'
+    return _NEST.sub(rep, t)
+
 def md(t):
     _md.reset()
+    t=_fix_nested_em(t)
     t=_BLANK.sub(lambda m: f'{_B0}{len(m.group(0))}{_B1}', t)
     h=_md.convert(_normalize(_EMOJI.sub('',t).strip()))
     h=re.sub(_B0+r'(\d+)'+_B1,
