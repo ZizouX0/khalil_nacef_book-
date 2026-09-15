@@ -3,7 +3,7 @@
 ## Usted et le vouvoiement {#u=A1-1}
 *Usted* ≍ *vous* de politesse — same job, two differences worth knowing on day one.
 
-**Grammar.** *Vous* is a second person (*vous êtes*); *usted* is grammatically a **third** person and takes the same verb form as *él/ella*: *usted **es**, usted **tiene***, never "usted eres". And Spain keeps a separate informal plural, *vosotros/as*, where French folds everything into *vous*; Latin America uses *ustedes* for every plural "you", polite or not.
+**Grammar.** *Vous* is a second person (*vous êtes*); *usted* is grammatically a **third** person and takes the same verb form as *él/ella*: *usted es*, *usted tiene* — never "usted eres". And Spain keeps a separate informal plural, *vosotros/as*, where French folds everything into *vous*; Latin America uses *ustedes* for every plural "you", polite or not.
 
 **Socially.** Spanish moves to *tú* far faster than French moves to *tu*. In Spain a shop assistant, a colleague or a teacher of adults will be *tú* almost at once, and *usted* is reserved for the elderly, officials and formal service. In Colombia, Costa Rica and the Andes, *usted* lasts much longer — even inside the family. Listen to the form the other person uses, and copy it.
 
@@ -30,7 +30,7 @@ Be warned: this is the one page of Spanish grammar where French gives you **noth
 
 *Je suis professeur* → *Soy profesor*. *Je suis fatigué* → *Estoy cansado*. *Elle est jolie* (a trait) → *Es guapa*; *elle est jolie ce soir* (tonight) → *Está guapa*. Learn *ser* and *estar* as two separate verbs with separate jobs, never as one *être* cut in half.
 
-One consolation in this unit: ***hay* ≍ *il y a***, an exact match. Both stay invariable — *hay dos libros* ≍ *il y a deux livres* — where English must choose between "there is" and "there are".
+One consolation in this unit: **hay ≍ il y a**, an exact match. Both stay invariable — *hay dos libros* ≍ *il y a deux livres* — where English must choose between "there is" and "there are".
 
 ## Setenta, ochenta, noventa {#u=A1-4}
 Pure relief. Spanish counts in tens all the way up, with no arithmetic: **setenta** (70), **ochenta** (80), **noventa** (90) — no *soixante-dix*, no *quatre-vingts*, no *quatre-vingt-dix*. So 71 is *setenta y uno*, 92 is *noventa y dos*, 99 is *noventa y nueve*. (If you learned your numbers in Belgium or Switzerland, *septante* and *nonante* already prepared you for this.)
