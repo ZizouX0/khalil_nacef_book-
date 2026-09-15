@@ -45,7 +45,7 @@ Guessing the Spanish gender from the French one is right most of the time, and w
 | la peur | **el** miedo | le nuage | **la** nube |
 | l'huile (f.) | **el** aceite | la planète | **el** planeta |
 
-Notice the *-eur* family: almost every feminine French noun in *-eur* turns into a masculine Spanish noun in *-or* (*la chaleur → el calor*, *la douleur → el dolor*), with *la fleur → la flor* as the famous survivor. The habit to build is simple: **never store a Spanish noun without *el* or *la* attached.** And don't be fooled by *el agua*: it is feminine, borrowing *el* because it starts with a stressed *a-* (*el agua está frí**a***, *las aguas*).
+Notice the *-eur* family: almost every feminine French noun in *-eur* turns into a masculine Spanish noun in *-or* (*la chaleur → el calor*, *la douleur → el dolor*), with *la fleur → la flor* as the famous survivor. The habit to build is simple: **never store a Spanish noun without *el* or *la* attached.** And don't be fooled by *el agua*: it is feminine, and borrows *el* only because it starts with a stressed *a-* (*el agua está fría*, *las aguas*).
 
 ## Pronunciation: this is where your accent will show
 
