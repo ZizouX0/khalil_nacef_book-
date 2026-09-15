@@ -180,12 +180,26 @@ def h(level,title,cls=""):
 
 # nouns that take 'el' but are grammatically feminine (stressed initial a-/ha-)
 FEM_EL={'agua','aula','arte','alma','águila','hambre','área','aula','ala','arma','acta','ave','hacha'}
+
+def ex_cell(c):
+    """An 'Ejemplo' cell is 'Spanish sentence. — English gloss.' — set the Spanish
+    as the visible line and the gloss underneath it, smaller."""
+    m=re.split(r'\s+[—–]\s+', c.strip(), maxsplit=1)
+    es=html.escape(m[0].strip())
+    en=html.escape(m[1].strip()) if len(m)>1 else ""
+    return f'<td class="ex"><span class="es">{es}</span>'+(f'<span class="en">{en}</span>' if en else '')+'</td>'
+
+def _is_ex(hd,j):
+    return j<len(hd) and hd[j].strip().lower().startswith('ejemplo')
+
 def gender_table(rows):
     hd=rows[0]; body=rows[1:]
     out=['<table class="voc"><thead><tr>'+"".join(f'<th>{html.escape(c)}</th>' for c in hd)+'</tr></thead><tbody>']
     for r in body:
         cells=[]
         for j,c in enumerate(r):
+            if _is_ex(hd,j):
+                cells.append(ex_cell(c)); continue
             if j==0:
                 mt=re.match(r'^(el|la|los|las)\s+(.+)$', c.strip(), re.I)
                 if mt:
@@ -204,7 +218,8 @@ def plain_table(rows, cls="voc"):
     hd=rows[0]
     o=[f'<table class="{cls}"><thead><tr>'+"".join(f'<th>{html.escape(c)}</th>' for c in hd)+'</tr></thead><tbody>']
     for r in rows[1:]:
-        o.append('<tr>'+"".join(f'<td>{html.escape(c)}</td>' for c in r)+'</tr>')
+        o.append('<tr>'+"".join(ex_cell(c) if _is_ex(hd,j) else f'<td>{html.escape(c)}</td>'
+                                for j,c in enumerate(r))+'</tr>')
     o.append('</tbody></table>'); return "".join(o)
 
 DIAG_MAP={'casa-vivienda':'casa','cuerpo-salud':'cuerpo','familia-caracter':'familia',
@@ -342,13 +357,14 @@ def build():
     cultura=parse_keyed("cultura_es.md")
     variantes=parse_keyed("variantes_es.md")
     relampago=parse_keyed("relampago_es.md")
+    frances=parse_keyed("frances_es.md")
     parts=[]; answer_key=[]; test_key=[]
 
     # -------- front matter --------
     for name in ("welcome_es.md",):
         for t,b in split_h1(md_file(name)):
             parts.append(h(1,t)); parts.append(md(b))
-    for name in ("grammar_words_es.md","studyplan_es.md","variedades_es.md"):
+    for name in ("grammar_words_es.md","studyplan_es.md","variedades_es.md","frances_intro_es.md"):
         for t,b in split_h1(md_file(name)):
             parts.append(h(1,t)); parts.append(md(b))
     pt,pbody=bonus_section("Pronunciation")
@@ -405,6 +421,10 @@ def build():
                 gid=hid(f"g-{nivel}-{uno}-{p['name']}")
                 TOC.append((3,gid,p['name']))
                 parts.append(render_grammar_point(p,gid))
+            if key in frances:
+                ft,body=frances[key]
+                parts.append('<div class="box fr"><span class="h">Si tu parles français — '
+                             +html.escape(ft)+'</span>'+md(body)+'</div>')
             parts.append('</div>')
 
         # 3) Conversations
