@@ -4,7 +4,7 @@ This book is written in English, and English does help: *hospital*, *natural*, *
 
 ## Three things you already own
 
-**Noun gender.** Nobody has to convince you that a table can be feminine. *La table* → **la** *mesa*, *le livre* → **el** *libro*. An English speaker spends weeks accepting the idea itself; you only have to learn which of the two genders each Spanish word happened to keep — and, as you will see below, it is usually the French one.
+**Noun gender.** Nobody has to convince you that a table can be feminine. *La table* → **la** *mesa*, *le livre* → **el** *libro*. An English speaker spends weeks accepting the idea itself; you only have to learn which gender each Spanish word kept — and, as you will see, it is usually the French one.
 
 **Conjugating for person.** *Je parle, tu parles, il parle, nous parlons* is exactly the habit Spanish wants: *hablo, hablas, habla, hablamos*. You already expect the ending to carry the person, which is why Spanish can drop the subject pronoun altogether: *Hablo español*, not *Yo hablo español*. English, with its lone *-s*, gives you none of that reflex.
 
@@ -24,7 +24,7 @@ This book is written in English, and English does help: *hospital*, *natural*, *
 | **circumflex = a lost *s*** | put the ***s*** back | fête → la fiesta · hôpital → el hospital · île → la isla · forêt → la floresta · coûter → costar · honnête → honesto · août → agosto |
 | **é-** at the start | **es-** | école → la escuela · étudiant → el estudiante · épée → la espada · état → el estado · étoile → la estrella · écouter → escuchar |
 
-Two remarks. *-ment* is built on the **feminine** adjective in both languages (*rapide → rapidement*, *rápida → rápidamente*), so the rule you already use is the rule Spanish uses. And the circumflex is the most spectacular of these: the little hat is a tombstone for an *s* that Spanish never lost. (*Floresta* is literary — the everyday words are *el bosque*, *la selva* — but the pattern holds.)
+Two remarks. *-ment* is built on the **feminine** adjective in both languages (*rapide → rapidement*, *rápida → rápidamente*), so the rule you already use is the rule Spanish uses. And the circumflex is the most spectacular of these: the little hat is a tombstone for an *s* Spanish never lost. (*Floresta* is literary — the everyday words are *el bosque*, *la selva* — but the pattern holds.)
 
 ## Where French will trip you up: gender that disagrees
 
@@ -51,7 +51,7 @@ Notice the *-eur* family: almost every feminine French noun in *-eur* turns into
 
 Spanish spelling is honest — one letter, one sound — but several French reflexes have to be switched off on purpose.
 
-- **The R.** Your uvular *r* is the single biggest giveaway. The Spanish *r* is a tongue-**tip** tap on the ridge behind your upper teeth, one quick flick: *pero, cara, mira*. Written *rr*, initial *r-*, and *r* after *n, l, s* are a full trill: *perro, rojo, Enrique*. *Pero* (but) and *perro* (dog) are two different words. Move the sound to the front of the mouth and keep the throat out of it.
+- **The R.** Your uvular *r* is the single biggest giveaway. The Spanish *r* is a tongue-**tip** tap on the ridge behind your upper teeth, one quick flick: *pero, cara, mira*. Written *rr*, initial *r-*, and *r* after *n, l, s* are a full trill: *perro, rojo, Enrique*. *Pero* (but) and *perro* (dog) are different words. Move the sound to the front of the mouth; keep the throat out of it.
 - **…then put that French R to work.** The sound you are removing from *r* is very nearly the Spanish **j** (and **g** before *e, i*): *jamón, jefe, trabajo, gente, elegir*. It is a harsh scrape at the back — never the soft [ʒ] of *je*. You are not losing a sound, you are moving it to the right letter.
 - **Nasal vowels.** Spanish has none. *Pan* is not *pain*: hold a clean, open [a], then close the mouth for a separate, fully pronounced *n* — two events, never one. Same for *bien, tren, jamón, canción, un*.
 - **The *u*.** There is no [y] in Spanish. *Tú* is "tou", *música* is "moussica", *universidad* opens like *ouvrir*. This is the French habit that survives longest; hunt it down.
