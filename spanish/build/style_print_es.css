@@ -323,3 +323,35 @@ blockquote p{margin:.15em 0}
 hr{border:none; border-top:1px solid var(--rule-hair); margin:1em 0}
 small{color:var(--ink-3)}
 .lead{font-size:10.5pt; color:#444; margin-bottom:.6em}
+
+
+/* ============================================================================
+   PRINT-FRIENDLY OVERRIDES — appended for the ink-saving edition only.
+   Tints and full-bleed bands go; colour survives as rules, headings and labels,
+   so the section code still reads but a home printer is not asked to lay down
+   large areas of solid ink.
+   ========================================================================= */
+h1{background:none !important; color:var(--c-brand) !important; padding:10mm 0 4mm !important;
+   margin:0 0 6mm 0 !important; border-bottom:3px solid var(--c-brand) !important}
+h2.testhead{background:none !important; color:var(--c-test) !important;
+   border:none !important; border-bottom:3px solid var(--c-test) !important; padding:4px 0 !important}
+h2.testhead .lv{background:none !important; border:1px solid var(--c-test) !important; color:var(--c-test) !important}
+thead th{background:none !important; color:var(--sec) !important;
+   border-bottom:2px solid var(--sec) !important}
+tbody tr:nth-child(even){background:none !important}
+h3.sec{background:none !important}
+.test,.practice,.relampago,.cando,.box.tip,.box.ojo,.box.dlg,.box.fr{background:none !important}
+.box.ojo .h{background:none !important; color:var(--c-ojo) !important; padding:0 !important; margin:0 0 4px 0 !important}
+.gen.m{background:none !important; color:var(--c-el) !important; border:1px solid var(--c-el) !important}
+.opener{background:none !important; color:var(--ink) !important; border:2px solid var(--c-brand) !important;
+   height:auto !important; padding:10px 14px !important}
+.opener .veil{display:none !important}
+.opener.photo{background-image:none !important}
+.opener .cap{position:static !important; padding:0 !important}
+.opener .utitle{color:var(--c-brand) !important; text-shadow:none !important}
+.opener .usub{color:var(--ink-3) !important; text-shadow:none !important}
+.opener .badge{background:none !important; border:1px solid var(--c-brand) !important; color:var(--c-brand) !important}
+.cover{background:none !important; background-image:none !important; color:var(--ink) !important}
+.cover h1{color:var(--c-brand) !important; text-shadow:none !important; border:none !important}
+.cover .sub,.cover .kick,.cover .meta .author{color:var(--ink) !important; text-shadow:none !important}
+.cover .rule{background:var(--c-brand) !important}

@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 410" font-family="DejaVu Sans">
+  <!-- LA ROPA — picture dictionary, 12 garments. Ink #1A1A1E, rules #DED8CE.
+       Article tinted: masculine #125C82 / feminine #A62466 (word el/la always printed). -->
+
+  <!-- ===== header ===== -->
+  <text x="20" y="24" font-size="13" font-weight="bold" fill="#1A1A1E">La ropa</text>
+  <text x="85" y="24" font-size="10.5" fill="#6E6C72">clothes · ¿Qué llevas hoy?</text>
+  <text x="620" y="23" text-anchor="end" font-size="9.5" fill="#6E6C72"><tspan fill="#125C82" font-weight="bold">el / los</tspan> = masculino · <tspan fill="#A62466" font-weight="bold">la / las</tspan> = femenino</text>
+  <line x1="20" y1="36" x2="620" y2="36" stroke="#DED8CE" stroke-width="1.2"/>
+
+  <!-- ===== row rules ===== -->
+  <line x1="20" y1="156" x2="620" y2="156" stroke="#DED8CE" stroke-width="0.9"/>
+  <line x1="20" y1="266" x2="620" y2="266" stroke="#DED8CE" stroke-width="0.9"/>
+
+  <!-- ============ ROW 1 ============ -->
+
+  <!-- la camiseta -->
+  <g transform="translate(95,86)">
+    <path d="M -14 -26 L -30 -22 L -36 -4 L -24 0 L -24 28 L 24 28 L 24 0 L 36 -4 L 30 -22 L 14 -26 C 12 -18 -12 -18 -14 -26 Z" fill="#E7EFF2" stroke="#1A1A1E" stroke-width="1.4" stroke-linejoin="round"/>
+    <path d="M -14 -26 C -12 -18 12 -18 14 -26" fill="none" stroke="#1A1A1E" stroke-width="1"/>
+    <line x1="-24" y1="0" x2="-24" y2="6" stroke="#1A1A1E" stroke-width="1"/>
+    <line x1="24" y1="0" x2="24" y2="6" stroke="#1A1A1E" stroke-width="1"/>
+  </g>
+  <text x="95" y="136" text-anchor="middle" font-size="11" fill="#1A1A1E"><tspan fill="#A62466" font-weight="bold">la</tspan> camiseta</text>
+  <text x="95" y="149" text-anchor="middle" font-size="9.5" fill="#6E6C72">T-shirt</text>
+
+  <!-- los vaqueros -->
+  <g transform="translate(245,86)">
+    <path d="M -25 -32 L 25 -32 L 21 34 L 7 34 L 0 -6 L -7 34 L -21 34 Z" fill="#E7EFF2" stroke="#1A1A1E" stroke-width="1.4" stroke-linejoin="round"/>
+    <line x1="-25" y1="-22" x2="25" y2="-22" stroke="#1A1A1E" stroke-width="1.1"/>
+    <line x1="0" y1="-22" x2="0" y2="-10" stroke="#1A1A1E" stroke-width="1"/>
+    <path d="M -22 -22 L -13 -11" fill="none" stroke="#1A1A1E" stroke-width="1"/>
+    <path d="M 22 -22 L 13 -11" fill="none" stroke="#1A1A1E" stroke-width="1"/>
+    <rect x="-20" y="-32" width="5" height="5" fill="#DED8CE" stroke="#1A1A1E" stroke-width="0.9"/>
+    <rect x="15" y="-32" width="5" height="5" fill="#DED8CE" stroke="#1A1A1E" stroke-width="0.9"/>
+  </g>
+  <text x="245" y="136" text-anchor="middle" font-size="11" fill="#1A1A1E"><tspan fill="#125C82" font-weight="bold">los</tspan> vaqueros</text>
+  <text x="245" y="149" text-anchor="middle" font-size="9.5" fill="#6E6C72">jeans</text>
+
+  <!-- el jersey -->
+  <g transform="translate(395,86)">
+    <path d="M -15 -26 L -32 -21 L -40 4 L -28 9 L -21 -4 L -21 26 L 21 26 L 21 -4 L 28 9 L 40 4 L 32 -21 L 15 -26 C 12 -18 -12 -18 -15 -26 Z" fill="#F4EEE4" stroke="#1A1A1E" stroke-width="1.4" stroke-linejoin="round"/>
+    <path d="M -12 -24 C -10 -14 10 -14 12 -24" fill="none" stroke="#1A1A1E" stroke-width="1.1"/>
+    <line x1="-21" y1="20" x2="21" y2="20" stroke="#1A1A1E" stroke-width="1"/>
+    <line x1="-37" y1="-3" x2="-26" y2="1" stroke="#1A1A1E" stroke-width="1"/>
+    <line x1="37" y1="-3" x2="26" y2="1" stroke="#1A1A1E" stroke-width="1"/>
+  </g>
+  <text x="395" y="136" text-anchor="middle" font-size="11" fill="#1A1A1E"><tspan fill="#125C82" font-weight="bold">el</tspan> jersey</text>
+  <text x="395" y="149" text-anchor="middle" font-size="9.5" fill="#6E6C72">jumper / sweater</text>
+
+  <!-- la chaqueta -->
+  <g transform="translate(545,86)">
+    <path d="M -15 -26 L -32 -21 L -40 4 L -28 9 L -21 -4 L -21 28 L 21 28 L 21 -4 L 28 9 L 40 4 L 32 -21 L 15 -26 L 0 -12 Z" fill="#F6EAEC" stroke="#1A1A1E" stroke-width="1.4" stroke-linejoin="round"/>
+    <line x1="0" y1="-12" x2="0" y2="28" stroke="#1A1A1E" stroke-width="1.1"/>
+    <path d="M -15 -26 L -3 -14" fill="none" stroke="#1A1A1E" stroke-width="1"/>
+    <path d="M 15 -26 L 3 -14" fill="none" stroke="#1A1A1E" stroke-width="1"/>
+    <circle cx="0" cy="0" r="2.2" fill="#FFFFFF" stroke="#1A1A1E" stroke-width="1"/>
+    <circle cx="0" cy="14" r="2.2" fill="#FFFFFF" stroke="#1A1A1E" stroke-width="1"/>
+    <rect x="-17" y="8" width="12" height="8" fill="none" stroke="#1A1A1E" stroke-width="1"/>
+    <rect x="5" y="8" width="12" height="8" fill="none" stroke="#1A1A1E" stroke-width="1"/>
+  </g>
+  <text x="545" y="136" text-anchor="middle" font-size="11" fill="#1A1A1E"><tspan fill="#A62466" font-weight="bold">la</tspan> chaqueta</text>
+  <text x="545" y="149" text-anchor="middle" font-size="9.5" fill="#6E6C72">jacket</text>
+
+  <!-- ============ ROW 2 ============ -->
+
+  <!-- los zapatos -->
+  <g transform="translate(95,196)">
+    <g transform="translate(-3,-16)">
+      <path d="M -22 6 L -22 -3 C -22 -9 -13 -11 -8 -8 L 3 -2 L 16 1 C 21 2 22 4 22 6 Z" fill="#F4EEE4" stroke="#1A1A1E" stroke-width="1.3" stroke-linejoin="round"/>
+      <path d="M -22 6 L 22 6 L 22 9 L -22 9 Z" fill="#DED8CE" stroke="#1A1A1E" stroke-width="1.1"/>
+      <path d="M -22 9 L -13 9 L -13 14 L -22 14 Z" fill="#DED8CE" stroke="#1A1A1E" stroke-width="1.1"/>
+      <line x1="-11" y1="-8" x2="-6" y2="-1" stroke="#1A1A1E" stroke-width="0.9"/>
+    </g>
+    <g transform="translate(5,12)">
+      <path d="M -22 6 L -22 -3 C -22 -9 -13 -11 -8 -8 L 3 -2 L 16 1 C 21 2 22 4 22 6 Z" fill="#F4EEE4" stroke="#1A1A1E" stroke-width="1.3" stroke-linejoin="round"/>
+      <path d="M -22 6 L 22 6 L 22 9 L -22 9 Z" fill="#DED8CE" stroke="#1A1A1E" stroke-width="1.1"/>
+      <path d="M -22 9 L -13 9 L -13 14 L -22 14 Z" fill="#DED8CE" stroke="#1A1A1E" stroke-width="1.1"/>
+      <line x1="-11" y1="-8" x2="-6" y2="-1" stroke="#1A1A1E" stroke-width="0.9"/>
+    </g>
+  </g>
+  <text x="95" y="246" text-anchor="middle" font-size="11" fill="#1A1A1E"><tspan fill="#125C82" font-weight="bold">los</tspan> zapatos</text>
+  <text x="95" y="259" text-anchor="middle" font-size="9.5" fill="#6E6C72">shoes</text>
+
+  <!-- las zapatillas -->
+  <g transform="translate(245,196)">
+    <g transform="translate(-3,-18)">
+      <path d="M -21 4 L -21 -6 C -21 -13 -11 -15 -6 -11 L 5 -5 L 16 -2 C 21 -1 22 2 22 4 Z" fill="#E9F2F0" stroke="#1A1A1E" stroke-width="1.3" stroke-linejoin="round"/>
+      <path d="M -22 4 L 22 4 L 22 9 C 22 11 20 12 17 12 L -18 12 C -21 12 -22 11 -22 9 Z" fill="#DED8CE" stroke="#1A1A1E" stroke-width="1.2" stroke-linejoin="round"/>
+      <line x1="-13" y1="-9" x2="-6" y2="-6" stroke="#1A1A1E" stroke-width="0.9"/>
+      <line x1="-11" y1="-4" x2="-4" y2="-1" stroke="#1A1A1E" stroke-width="0.9"/>
+      <line x1="-9" y1="1" x2="-2" y2="4" stroke="#1A1A1E" stroke-width="0.9"/>
+    </g>
+    <g transform="translate(5,12)">
+      <path d="M -21 4 L -21 -6 C -21 -13 -11 -15 -6 -11 L 5 -5 L 16 -2 C 21 -1 22 2 22 4 Z" fill="#E9F2F0" stroke="#1A1A1E" stroke-width="1.3" stroke-linejoin="round"/>
+      <path d="M -22 4 L 22 4 L 22 9 C 22 11 20 12 17 12 L -18 12 C -21 12 -22 11 -22 9 Z" fill="#DED8CE" stroke="#1A1A1E" stroke-width="1.2" stroke-linejoin="round"/>
+      <line x1="-13" y1="-9" x2="-6" y2="-6" stroke="#1A1A1E" stroke-width="0.9"/>
+      <line x1="-11" y1="-4" x2="-4" y2="-1" stroke="#1A1A1E" stroke-width="0.9"/>
+      <line x1="-9" y1="1" x2="-2" y2="4" stroke="#1A1A1E" stroke-width="0.9"/>
+    </g>
+  </g>
+  <text x="245" y="246" text-anchor="middle" font-size="11" fill="#1A1A1E"><tspan fill="#A62466" font-weight="bold">las</tspan> zapatillas</text>
+  <text x="245" y="259" text-anchor="middle" font-size="9.5" fill="#6E6C72">trainers / sneakers</text>
+
+  <!-- el vestido -->
+  <g transform="translate(395,196)">
+    <path d="M -13 -30 L -22 -24 L -18 -12 L -13 -14 L -26 26 L 26 26 L 13 -14 L 18 -12 L 22 -24 L 13 -30 C 10 -23 -10 -23 -13 -30 Z" fill="#F6EAEC" stroke="#1A1A1E" stroke-width="1.4" stroke-linejoin="round"/>
+    <path d="M -13 -30 C -10 -23 10 -23 13 -30" fill="none" stroke="#1A1A1E" stroke-width="1"/>
+    <line x1="-15" y1="-6" x2="15" y2="-6" stroke="#1A1A1E" stroke-width="1.1"/>
+    <line x1="-8" y1="-2" x2="-14" y2="24" stroke="#1A1A1E" stroke-width="0.9"/>
+    <line x1="8" y1="-2" x2="14" y2="24" stroke="#1A1A1E" stroke-width="0.9"/>
+  </g>
+  <text x="395" y="246" text-anchor="middle" font-size="11" fill="#1A1A1E"><tspan fill="#125C82" font-weight="bold">el</tspan> vestido</text>
+  <text x="395" y="259" text-anchor="middle" font-size="9.5" fill="#6E6C72">dress</text>
+
+  <!-- la falda -->
+  <g transform="translate(545,196)">
+    <path d="M -16 -14 L 16 -14 L 28 22 C 10 29 -10 29 -28 22 Z" fill="#F6EAEC" stroke="#1A1A1E" stroke-width="1.4" stroke-linejoin="round"/>
+    <rect x="-16" y="-22" width="32" height="8" fill="#DED8CE" stroke="#1A1A1E" stroke-width="1.2"/>
+    <line x1="-8" y1="-14" x2="-13" y2="25" stroke="#1A1A1E" stroke-width="0.9"/>
+    <line x1="0" y1="-14" x2="0" y2="27" stroke="#1A1A1E" stroke-width="0.9"/>
+    <line x1="8" y1="-14" x2="13" y2="25" stroke="#1A1A1E" stroke-width="0.9"/>
+  </g>
+  <text x="545" y="246" text-anchor="middle" font-size="11" fill="#1A1A1E"><tspan fill="#A62466" font-weight="bold">la</tspan> falda</text>
+  <text x="545" y="259" text-anchor="middle" font-size="9.5" fill="#6E6C72">skirt</text>
+
+  <!-- ============ ROW 3 ============ -->
+
+  <!-- el abrigo -->
+  <g transform="translate(95,300)">
+    <path d="M -15 -32 L -32 -26 L -39 0 L -28 5 L -22 -8 L -24 40 L 24 40 L 22 -8 L 28 5 L 39 0 L 32 -26 L 15 -32 L 0 -16 Z" fill="#E7EFF2" stroke="#1A1A1E" stroke-width="1.4" stroke-linejoin="round"/>
+    <line x1="0" y1="-16" x2="0" y2="40" stroke="#1A1A1E" stroke-width="1.1"/>
+    <path d="M -15 -32 L -2 -17" fill="none" stroke="#1A1A1E" stroke-width="1.1"/>
+    <path d="M 15 -32 L 2 -17" fill="none" stroke="#1A1A1E" stroke-width="1.1"/>
+    <rect x="-23" y="0" width="46" height="7" fill="#DED8CE" stroke="#1A1A1E" stroke-width="1.1"/>
+    <circle cx="0" cy="-8" r="2.2" fill="#FFFFFF" stroke="#1A1A1E" stroke-width="1"/>
+    <circle cx="0" cy="16" r="2.2" fill="#FFFFFF" stroke="#1A1A1E" stroke-width="1"/>
+    <circle cx="0" cy="28" r="2.2" fill="#FFFFFF" stroke="#1A1A1E" stroke-width="1"/>
+  </g>
+  <text x="95" y="356" text-anchor="middle" font-size="11" fill="#1A1A1E"><tspan fill="#125C82" font-weight="bold">el</tspan> abrigo</text>
+  <text x="95" y="369" text-anchor="middle" font-size="9.5" fill="#6E6C72">overcoat</text>
+
+  <!-- la bufanda -->
+  <g transform="translate(245,306)">
+    <ellipse cx="0" cy="-18" rx="21" ry="12" fill="#F4EEE4" stroke="#1A1A1E" stroke-width="1.4"/>
+    <ellipse cx="0" cy="-17" rx="11" ry="4.5" fill="#FFFFFF" stroke="#1A1A1E" stroke-width="1.1"/>
+    <rect x="-15" y="-8" width="13" height="30" fill="#F4EEE4" stroke="#1A1A1E" stroke-width="1.3"/>
+    <rect x="3" y="-8" width="13" height="24" fill="#F4EEE4" stroke="#1A1A1E" stroke-width="1.3"/>
+    <line x1="-15" y1="2" x2="-2" y2="2" stroke="#1A1A1E" stroke-width="0.9"/>
+    <line x1="-15" y1="12" x2="-2" y2="12" stroke="#1A1A1E" stroke-width="0.9"/>
+    <line x1="3" y1="2" x2="16" y2="2" stroke="#1A1A1E" stroke-width="0.9"/>
+    <line x1="-13" y1="22" x2="-13" y2="29" stroke="#1A1A1E" stroke-width="0.9"/>
+    <line x1="-8.5" y1="22" x2="-8.5" y2="29" stroke="#1A1A1E" stroke-width="0.9"/>
+    <line x1="-4" y1="22" x2="-4" y2="29" stroke="#1A1A1E" stroke-width="0.9"/>
+    <line x1="5" y1="16" x2="5" y2="23" stroke="#1A1A1E" stroke-width="0.9"/>
+    <line x1="9.5" y1="16" x2="9.5" y2="23" stroke="#1A1A1E" stroke-width="0.9"/>
+    <line x1="14" y1="16" x2="14" y2="23" stroke="#1A1A1E" stroke-width="0.9"/>
+  </g>
+  <text x="245" y="356" text-anchor="middle" font-size="11" fill="#1A1A1E"><tspan fill="#A62466" font-weight="bold">la</tspan> bufanda</text>
+  <text x="245" y="369" text-anchor="middle" font-size="9.5" fill="#6E6C72">scarf</text>
+
+  <!-- la gorra -->
+  <g transform="translate(386,306)">
+    <path d="M -22 8 C -22 -14 -12 -22 0 -22 C 12 -22 22 -14 22 8 Z" fill="#E7EFF2" stroke="#1A1A1E" stroke-width="1.4" stroke-linejoin="round"/>
+    <path d="M 16 8 C 32 7 42 11 42 14 C 42 16 28 16 16 14 Z" fill="#DED8CE" stroke="#1A1A1E" stroke-width="1.3" stroke-linejoin="round"/>
+    <line x1="-22" y1="8" x2="22" y2="8" stroke="#1A1A1E" stroke-width="1.2"/>
+    <path d="M 0 -22 C -8 -12 -11 -2 -11 8" fill="none" stroke="#1A1A1E" stroke-width="0.9"/>
+    <path d="M 0 -22 C 8 -12 11 -2 11 8" fill="none" stroke="#1A1A1E" stroke-width="0.9"/>
+    <circle cx="0" cy="-23" r="2.6" fill="#FFFFFF" stroke="#1A1A1E" stroke-width="1"/>
+  </g>
+  <text x="395" y="356" text-anchor="middle" font-size="11" fill="#1A1A1E"><tspan fill="#A62466" font-weight="bold">la</tspan> gorra</text>
+  <text x="395" y="369" text-anchor="middle" font-size="9.5" fill="#6E6C72">cap</text>
+
+  <!-- los calcetines -->
+  <g transform="translate(545,306)">
+    <g transform="translate(-16,-6)">
+      <path d="M -10 -24 L 10 -24 L 10 4 L 21 4 C 25 4 25 16 21 16 L -1 16 C -7 16 -10 12 -10 6 Z" fill="#E9F2F0" stroke="#1A1A1E" stroke-width="1.3" stroke-linejoin="round"/>
+      <rect x="-10" y="-24" width="20" height="7" fill="#DED8CE" stroke="#1A1A1E" stroke-width="1.1"/>
+    </g>
+    <g transform="translate(6,8)">
+      <path d="M -10 -24 L 10 -24 L 10 4 L 21 4 C 25 4 25 16 21 16 L -1 16 C -7 16 -10 12 -10 6 Z" fill="#E9F2F0" stroke="#1A1A1E" stroke-width="1.3" stroke-linejoin="round"/>
+      <rect x="-10" y="-24" width="20" height="7" fill="#DED8CE" stroke="#1A1A1E" stroke-width="1.1"/>
+    </g>
+  </g>
+  <text x="545" y="356" text-anchor="middle" font-size="11" fill="#1A1A1E"><tspan fill="#125C82" font-weight="bold">los</tspan> calcetines</text>
+  <text x="545" y="369" text-anchor="middle" font-size="9.5" fill="#6E6C72">socks</text>
+
+  <!-- ===== footer note ===== -->
+  <line x1="20" y1="382" x2="620" y2="382" stroke="#DED8CE" stroke-width="0.9"/>
+  <text x="20" y="399" font-size="9.5" fill="#1A1A1E"><tspan font-weight="bold">llevar</tspan> = to wear · Hoy <tspan font-weight="bold">llevo</tspan> unos vaqueros y una camiseta. <tspan fill="#6E6C72">— Today I'm wearing jeans and a T-shirt.</tspan></text>
+</svg>

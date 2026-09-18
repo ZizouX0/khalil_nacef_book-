@@ -48,11 +48,11 @@ c) I feel nervous when I speak.
 d) I study Spanish because I have friends in Mexico.
 
 **Answers.**
-Ex 1: a) me levanto; b) te sientes; c) se levanta; d) nos acordamos; e) se divierten; f) me equivoco
-Ex 2: a) porque; b) para; c) para; d) porque; e) para
-Ex 3: a) desde; b) desde hace; c) Hace … que; d) Desde; e) desde
+Ex 1: a) me levanto; b) te sientes *(sentirse stem-changes e→ie: me siento, te sientes)*; c) se levanta; d) nos acordamos *(nosotros never takes the o→ue change)*; e) se divierten; f) me equivoco
+Ex 2: a) porque *(a conjugated verb follows: quiero)*; b) para *(purpose, so an infinitive follows: viajar)*; c) para; d) porque; e) para
+Ex 3: a) desde; b) desde hace *(a length of time, not a date)*; c) Hace … que *(hace + duration + que + present tense)*; d) Desde; e) desde
 Ex 4: 1-c; 2-a; 3-e; 4-f; 5-d; 6-b
-Ex 5: a) Me levanto temprano para estudiar. b) Estudio español desde hace seis meses. (also: Hace seis meses que estudio español.) c) Me siento nervioso/a cuando hablo. d) Estudio español porque tengo amigos en México.
+Ex 5: a) Me levanto temprano para estudiar. b) Estudio español desde hace seis meses. *(present tense — the action still continues)* (also: Hace seis meses que estudio español.) c) Me siento nervioso/a cuando hablo. *(sentirse takes an adjective, which agrees with you)* d) Estudio español porque tengo amigos en México.
 
 ## Unidad 2 — Una vida de película {#nivel=A2 #unidad=2}
 
@@ -97,11 +97,11 @@ A: ¿Y cuándo ______ (5) a hacer cine? *(did he start)*
 B: ______ (6) su primera película en 1996. *(He released)*
 
 **Answers.**
-Ex 1: a) estudié; b) vivió; c) comimos; d) vivieron; e) trabajaste; f) nació
-Ex 2: a) hice; b) fue; c) fui; d) tuvieron; e) estuvimos
-Ex 3: a) durante; b) hasta; c) desde; d) de … a; e) de … a
-Ex 4: a) nació; b) Empezó; c) casó; d) Ganó; e) Murió
-Ex 5: 1) Viste; 2) hace; 3) ganó; 4) nació; 5) empezó; 6) Estrenó
+Ex 1: a) estudié *(the accent carries yo; estudio is the present)*; b) vivió; c) comimos; d) vivieron; e) trabajaste; f) nació *(-er/-ir third person ends in -ió, accent included)*
+Ex 2: a) hice *(hacer → hic-; careful, third person is hizo with z)*; b) fue *(ser and ir are identical in the indefinido)*; c) fui; d) tuvieron *(tener → tuv- + -ieron, no accent)*; e) estuvimos
+Ex 3: a) durante *(how long it lasted; hace means how long ago)*; b) hasta; c) desde *(the starting point of something still true)*; d) de … a; e) de … a
+Ex 4: a) nació; b) Empezó; c) casó; d) Ganó; e) Murió *(morir is o→u in the third person, not "morió")*
+Ex 5: 1) Viste *(ver indefinido: vi, viste, vio — no accents)*; 2) hace *("ago" is hace, never durante)*; 3) ganó; 4) nació; 5) empezó; 6) Estrenó
 
 ## Unidad 3 — Hogar, dulce hogar {#nivel=A2 #unidad=3}
 
@@ -145,11 +145,11 @@ d) de madera / una mesa / quiero
 e) debajo del / hay / sofá / una alfombra
 
 **Answers.**
-Ex 1: a) es; b) está; c) es; d) está; e) Son; f) estamos
-Ex 2: a) más … que; b) menos … que; c) tanta … como; d) tan … como; e) más … que
-Ex 3: a) encima de; b) debajo del; c) detrás de; d) al lado de; e) entre
-Ex 4: a) La tuya es bonita. b) La mía es pequeña. c) El nuestro es grande. d) El suyo está en el centro. e) Los míos están aquí.
-Ex 5: a) Mi piso es más grande que el tuyo. b) El baño está al lado de la cocina. c) La casa es muy luminosa. d) Quiero una mesa de madera. e) Hay una alfombra debajo del sofá.
+Ex 1: a) es; b) está *(location always takes estar, even for a building)*; c) es; d) está *(desordenado hoy — a temporary state)*; e) Son *(clock time is always ser)*; f) estamos
+Ex 2: a) más … que; b) menos … que; c) tanta … como *(tanto agrees with the noun; la luz is feminine)*; d) tan … como *(tan + adjective, and tan never changes)*; e) más … que
+Ex 3: a) encima de; b) debajo del *(de + el contracts to del)*; c) detrás de; d) al lado de; e) entre
+Ex 4: a) La tuya es bonita. *(agrees with casa, not with the owner)* b) La mía es pequeña. c) El nuestro es grande. d) El suyo está en el centro. e) Los míos están aquí.
+Ex 5: a) Mi piso es más grande que el tuyo. b) El baño está al lado de la cocina. c) La casa es muy luminosa. d) Quiero una mesa de madera. *(material takes de + noun, not an adjective)* e) Hay una alfombra debajo del sofá. *(hay introduces something new; está locates a known thing)*
 
 ## Unidad 4 — ¿Cómo va todo? {#nivel=A2 #unidad=4}
 
@@ -193,11 +193,11 @@ A: ______ (5) que ahora estoy esperando a mi hermana. Lo siento. *(it's just tha
 B: No pasa nada. ¡Hasta ______ (6)! *(see you later)*
 
 **Answers.**
-Ex 1: a) hablando; b) comiendo; c) leyendo; d) durmiendo; e) pidiendo; f) diciendo
-Ex 2: a) estoy saliendo; b) está haciendo; c) estás haciendo; d) estamos viviendo; e) están despidiéndose (also: se están despidiendo)
-Ex 3: a) Podría; b) importaría; c) gustaría; d) Podrías; e) Sería
-Ex 4: a) das; b) pasas; c) dejas; d) pone; e) dejas
-Ex 5: 1) va; 2) quejar; 3) dejas; 4) importaría; 5) Es; 6) luego
+Ex 1: a) hablando; b) comiendo; c) leyendo *(a vowel before the ending turns -iendo into -yendo)*; d) durmiendo *(dormir changes o→u)*; e) pidiendo *(pedir changes e→i)*; f) diciendo
+Ex 2: a) estoy saliendo; b) está haciendo; c) estás haciendo; d) estamos viviendo; e) están despidiéndose *(attaching the pronoun forces a written accent)* (also: se están despidiendo)
+Ex 3: a) Podría *(poder has the irregular stem podr- + -ía)*; b) importaría; c) gustaría; d) Podrías; e) Sería
+Ex 4: a) das *(dar — the water is yours to keep)*; b) pasas; c) dejas; d) pone *(ordering in a bar or café is poner)*; e) dejas
+Ex 5: 1) va; 2) quejar *(infinitive after puedo; the pronoun moves in front)*; 3) dejas; 4) importaría; 5) Es *(es que… softens a refusal)*; 6) luego
 
 ## Unidad 5 — Guía del ocio {#nivel=A2 #unidad=5}
 
@@ -240,10 +240,10 @@ d) Hoy ______ (comer, yo) con unos amigos.
 e) En 2019 ______ (empezar, yo) a estudiar español.
 
 **Answers.**
-Ex 1: a) he ido; b) Has comido; c) hemos viajado; d) ha estado; e) habéis probado; f) han visitado
+Ex 1: a) he ido; b) Has comido *(ya pulls the pretérito perfecto)*; c) hemos viajado; d) ha estado; e) habéis probado *(alguna vez = experience; the participle never changes)*; f) han visitado
 Ex 2: a) abierto; b) hecho; c) visto; d) escrito; e) vuelto; f) dicho
-Ex 3: a) Ya; b) todavía no; c) Todavía no; d) Ya
-Ex 4: a) vamos a ir; b) vas a hacer; c) voy a estudiar; d) van a visitar; e) vais a venir
-Ex 5: a) he ido; b) vi; c) viajé; d) he comido; e) empecé
+Ex 3: a) Ya; b) todavía no; c) Todavía no *(not yet — but the visit is still planned)*; d) Ya
+Ex 4: a) vamos a ir *(ir a + ir — don't drop the second ir)*; b) vas a hacer; c) voy a estudiar; d) van a visitar; e) vais a venir
+Ex 5: a) he ido *(esta semana includes now — perfecto)*; b) vi *(ayer is a closed moment — indefinido)*; c) viajé; d) he comido *(hoy → perfecto; most of Latin America would say comí)*; e) empecé *(en 2019 → indefinido; yo form spelt -cé)*
 
 <!-- END agent=ex_a2p1 ; units=5 ; exercises=25 -->

@@ -38,11 +38,11 @@ c) Do you like concerts?
 d) My cousins love dancing.
 
 **Answers.**
-Ex 1: a) me gusta · b) te gustan · c) le gusta · d) nos gustan · e) les gusta
-Ex 2: a) Mi · b) tus · c) Nuestra · d) mis · e) Su
-Ex 3: a) muy · b) mucha · c) un poco · d) bastante · e) mucho
-Ex 4: a) A mí también. · b) A mí tampoco. · c) A mí no. · d) A mí sí.
-Ex 5: a) Mi hermana es muy simpática. · b) Me gusta la música latina. · c) ¿Te gustan los conciertos? · d) A mis primos les encanta bailar.
+Ex 1: a) me gusta · b) te gustan *(gustar agrees with los libros, not with the person)* · c) le gusta *(an infinitive counts as singular, so gusta)* · d) nos gustan · e) les gusta *(les for the plural people, gusta for the singular salsa)*
+Ex 2: a) Mi · b) tus *(the possessive agrees with padres, not with the owner)* · c) Nuestra *(only nuestro/nuestra marks gender; familia is feminine)* · d) mis · e) Su
+Ex 3: a) muy · b) mucha *(mucho agrees with the noun: mucha familia)* · c) un poco · d) bastante · e) mucho *(verbs take mucho; muy never modifies a verb)*
+Ex 4: a) A mí también. *(with gustar use a mí, never "yo también")* · b) A mí tampoco. · c) A mí no. · d) A mí sí.
+Ex 5: a) Mi hermana es muy simpática. · b) Me gusta la música latina. *(the article is obligatory after gustar)* · c) ¿Te gustan los conciertos? · d) A mis primos les encanta bailar.
 
 ## Unidad 6 — Día a día {#nivel=A1 #unidad=6}
 
@@ -85,11 +85,11 @@ c) It's half past ten.
 d) I always have breakfast at home.
 
 **Answers.**
-Ex 1: a) hago · b) duermes · c) empieza · d) prefieres · e) salgo · f) volvemos
-Ex 2: a) me levanto · b) te acuestas · c) se ducha · d) nos vestimos · e) se despiertan
-Ex 3: a) Es la una (en punto). · b) Son las tres y cuarto. · c) Son las seis y media. · d) Son las nueve menos veinte. · e) Son las diez menos cuarto. · f) Son las dos y diez.
-Ex 4: a) Primero · b) veces · c) Los · d) antes de · e) nunca
-Ex 5: a) Me levanto a las siete. · b) ¿A qué hora te acuestas? · c) Son las diez y media. · d) Siempre desayuno en casa.
+Ex 1: a) hago · b) duermes · c) empieza · d) prefieres · e) salgo *(salir has the irregular -go yo form)* · f) volvemos *(the o→ue change never reaches nosotros)*
+Ex 2: a) me levanto · b) te acuestas *(acostarse is reflexive and o→ue at the same time)* · c) se ducha · d) nos vestimos *(vestirse is e→i, but nosotros keeps the e)* · e) se despiertan
+Ex 3: a) Es la una (en punto). *(only one o'clock is singular; all others take Son las)* · b) Son las tres y cuarto. · c) Son las seis y media. · d) Son las nueve menos veinte. *(after the half hour, name the next hour and subtract)* · e) Son las diez menos cuarto. · f) Son las dos y diez.
+Ex 4: a) Primero · b) veces *(vez/veces counts occurrences, not clock time)* · c) Los *("on Mondays" is los lunes — no preposition, no added -s)* · d) antes de *(antes de takes an infinitive, never a conjugated verb)* · e) nunca
+Ex 5: a) Me levanto a las siete. · b) ¿A qué hora te acuestas? · c) Son las diez y media. · d) Siempre desayuno en casa. *(desayunar is one verb — no "have"; en casa takes no article)*
 
 ## Unidad 7 — ¡A comer! {#nivel=A1 #unidad=7}
 
@@ -129,11 +129,11 @@ English: a) glass · b) spoon · c) fork · d) napkin · e) knife · f) cup
 — Cliente: Sí, un café. Y la ___ (e), por favor.
 
 **Answers.**
-Ex 1: a) pone · b) traigo · c) pongo · d) traes · e) trae
-Ex 2: a) Lo · b) la · c) Los · d) las · e) la
-Ex 3: a) de · b) con · c) de · d) de / con · e) con
+Ex 1: a) pone *(usted always takes the él/ella form)* · b) traigo *(only the yo form is irregular: traigo)* · c) pongo · d) traes · e) trae
+Ex 2: a) Lo *(the pronoun goes before the verb: lo tomo, never "tomo lo")* · b) la *(it matches la fruta's gender, not the speaker's)* · c) Los · d) las · e) la
+Ex 3: a) de *(de names what it is made of, where English says "with")* · b) con · c) de · d) de / con *(de is the filling, con is the extra added)* · e) con
 Ex 4: 1-e (knife) · 2-b (spoon) · 3-c (fork) · 4-f (cup) · 5-a (glass) · 6-d (napkin)
-Ex 5: a) de segundo · b) para beber · c) trae · d) pongo · e) cuenta
+Ex 5: a) de segundo · b) para beber · c) trae *(the customer uses usted: ¿Me trae…?, not traes)* · d) pongo *(now the waiter speaks, so his own yo form)* · e) cuenta
 
 ## Unidad 8 — El barrio ideal {#nivel=A1 #unidad=8}
 
@@ -173,11 +173,11 @@ c) The cinema is next to the bank.
 d) There is no park in my neighbourhood.
 
 **Answers.**
-Ex 1: a) muchos · b) demasiada · c) pocas · d) bastante · e) mucha
-Ex 2: a) algún · b) ningún · c) alguna · d) ninguna · e) algún
-Ex 3: a) al lado del · b) cerca de · c) lejos del · d) en la · e) a la derecha de la
-Ex 4: a) Mi barrio tiene muchas zonas verdes. · b) La farmacia está cerca de aquí. · c) ¿Hay algún supermercado por aquí? · d) Hay demasiado tráfico en el centro.
-Ex 5: a) En mi barrio hay muchos bares. · b) ¿Hay alguna farmacia cerca de aquí? · c) El cine está al lado del banco. · d) No hay ningún parque en mi barrio.
+Ex 1: a) muchos · b) demasiada *(gente is feminine singular — never "muchas gentes")* · c) pocas · d) bastante *(bastante has no masculine or feminine form)* · e) mucha
+Ex 2: a) algún *(shorten alguno to algún before a masculine noun)* · b) ningún *(ningún needs the earlier no: "No hay ningún…")* · c) alguna · d) ninguna · e) algún
+Ex 3: a) al lado del *(a + el = al and de + el = del, always)* · b) cerca de · c) lejos del · d) en la · e) a la derecha de la *(de la never contracts — only de + el does)*
+Ex 4: a) Mi barrio tiene muchas zonas verdes. *(adjectives follow the noun: zonas verdes)* · b) La farmacia está cerca de aquí. · c) ¿Hay algún supermercado por aquí? · d) Hay demasiado tráfico en el centro.
+Ex 5: a) En mi barrio hay muchos bares. · b) ¿Hay alguna farmacia cerca de aquí? · c) El cine está al lado del banco. · d) No hay ningún parque en mi barrio. *(Spanish keeps both negatives: no … ningún)*
 
 ## Unidad 9 — ¿Sabes conducir? {#nivel=A1 #unidad=9}
 
@@ -219,10 +219,10 @@ c) I've worked as a waiter.
 d) She is a very kind and patient person.
 
 **Answers.**
-Ex 1: a) he viajado · b) Has estado · c) hemos vivido · d) Habéis comido · e) ha trabajado
-Ex 2: a) hecho · b) visto · c) escrito · d) comido · e) vuelto · f) trabajado
-Ex 3: a) Sabes · b) puedo · c) sabe · d) Podéis · e) sabemos
-Ex 4: a) generoso · b) generosa · c) egoístas · d) inteligente / amable · e) trabajadores
-Ex 5: a) ¿Has estado alguna vez en México? · b) Sé cocinar bastante bien. · c) He trabajado de camarero. · d) Es una persona muy amable y paciente.
+Ex 1: a) he viajado · b) Has estado · c) hemos vivido *(nothing may come between haber and the participle)* · d) Habéis comido · e) ha trabajado
+Ex 2: a) hecho *(irregular: hecho, not "hacido")* · b) visto · c) escrito · d) comido · e) vuelto *(volver is irregular too: vuelto, not "volvido")* · f) trabajado
+Ex 3: a) Sabes *(saber is a learned skill you have)* · b) puedo *(poder is what the circumstances allow right now)* · c) sabe · d) Podéis · e) sabemos
+Ex 4: a) generoso · b) generosa · c) egoístas *(-ista adjectives never change for gender, only for number)* · d) inteligente / amable · e) trabajadores *(-dor adds -es; the feminine would be trabajadoras)*
+Ex 5: a) ¿Has estado alguna vez en México? · b) Sé cocinar bastante bien. *(sé carries an accent to separate it from se)* · c) He trabajado de camarero. *(de + profession, with no article)* · d) Es una persona muy amable y paciente.
 
 <!-- END agent=ex_a1p2 ; units=5 ; exercises=25 -->

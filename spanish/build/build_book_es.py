@@ -398,14 +398,16 @@ def build():
         fpath=f"{PHOTOS}/{nivel.lower()}_u{int(uno):02d}.jpg"
         tid=slug(f"lesson-{t['name']}-{nivel}-{uno}"); TOC.append((2,tid,f"{t['name']} ({nivel})"))
         sub="You will learn: "+html.escape(u.get('scope',''))
+        bmk=f"{nivel} Unidad {uno} — {t['name']}"
         cap=(f'<div class="cap"><span class="badge">UNIDAD {uno} · {nivel}</span>'
              f'<div class="utitle">{html.escape(t["name"])}</div>'
              f'<div class="usub">{sub}</div></div>')
         if os.path.exists(fpath):
-            parts.append(f'<div class="opener photo" id="{tid}" style="background-image:url(\'file://{fpath}\')">'
+            parts.append(f'<div class="opener photo" id="{tid}" data-title="{html.escape(bmk)}" '
+                         f'style="background-image:url(\'file://{fpath}\')">'
                          f'<div class="veil"></div>{cap}</div>')
         else:
-            parts.append(f'<div class="opener nophoto" id="{tid}">{cap}</div>')
+            parts.append(f'<div class="opener nophoto" id="{tid}" data-title="{html.escape(bmk)}">{cap}</div>')
 
         # 0) can-do promise
         if key in cando:
@@ -621,12 +623,20 @@ def build():
            f'<div class="meta"><div class="author">Aziz Dardouri</div>'
            f'<div class="badge">Beginner\'s course · {datetime.date.today().strftime("%d/%m/%Y")}</div></div></div>')
 
+    sheet=os.environ.get("ES_STYLE","style_es.css")
     doc=(f'<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">'
-         f'<link rel="stylesheet" href="file://{BUILD}/style_es.css"></head><body>'
+         f'<link rel="stylesheet" href="file://{BUILD}/{sheet}"></head><body>'
          f'{cover}{"".join(toc)}{"".join(parts)}</body></html>')
     open(f"{BUILD}/_book.html","w",encoding="utf-8").write(doc)
     out=sys.argv[1] if len(sys.argv)>1 else f"{ROOT}/Espanol_A1-A2_Curso_Completo.pdf"
-    HTML(string=doc, base_url=BUILD).write_pdf(out)
+    html_doc=HTML(string=doc, base_url=BUILD)
+    # PDF/UA: tagged structure, document language and an outline, so the file is
+    # navigable and readable by assistive technology rather than a flat page image.
+    try:
+        html_doc.write_pdf(out, pdf_variant="pdf/ua-1")
+    except Exception as e:
+        print(f"  (pdf/ua-1 unavailable: {e}; writing a plain PDF)")
+        html_doc.write_pdf(out)
     print(f"PDF -> {out} ({os.path.getsize(out)//1024} KB) | lessons={len(themes)} "
           f"exercises={len(answer_key)} tests={len(test_key)} indexwords={len(words)} "
           f"cando={len(cando)} cultura={len(cultura)} variantes={len(variantes)} relampago={len(relampago)}")

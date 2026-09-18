@@ -40,8 +40,8 @@ English: a) pen · b) window · c) backpack · d) board · e) notebook · f) doo
 
 **Answers.**
 Ex 1: a) dos · b) cinco · c) ocho · d) seis · e) nueve · f) diez
-Ex 2: a) una · b) un · c) una · d) un · e) una · f) un
-Ex 3: a) se dice · b) significa · c) se escribe · d) se pronuncia
+Ex 2: a) una · b) un · c) una · d) un *(nouns in -r are usually masculine: el ordenador)* · e) una · f) un
+Ex 3: a) se dice · b) significa *(the verb is significar — ¿Qué significa…?, never cómo)* · c) se escribe *(letters are named, so this is spelling, not pronunciation)* · d) se pronuncia
 Ex 4: 1-d (board) · 2-c (backpack) · 3-a (pen) · 4-f (door) · 5-b (window) · 6-e (notebook)
 Ex 5: a) Hola · b) Me llamo · c) se escribe · d) Gracias · e) Hasta luego
 
@@ -88,10 +88,10 @@ d) We are from Mexico.
 
 **Answers.**
 Ex 1: a) soy · b) eres · c) es · d) somos · e) sois · f) son
-Ex 2: a) tengo · b) tienes · c) tiene · d) tenemos · e) tienen · f) tienes
-Ex 3: a) me llamo · b) te llamas · c) se llama · d) nos llamamos · e) se llaman
-Ex 4: a) italiana · b) española · c) alemana · d) francesa · e) enfermera · f) estudiante
-Ex 5: a) Soy profesor. (m.) / Soy profesora. (f.) — no article · b) (Ella) es italiana. · c) Tengo veinte años. · d) Somos de México.
+Ex 2: a) tengo *(irregular yo form in -go, not "teno")* · b) tienes · c) tiene · d) tenemos *(the e→ie change skips nosotros — never "tienemos")* · e) tienen · f) tienes *(age takes tener, never ser)*
+Ex 3: a) me llamo · b) te llamas · c) se llama *(the pronoun must match the subject: se with él/ella)* · d) nos llamamos · e) se llaman
+Ex 4: a) italiana · b) española *(nationalities ending in a consonant still add -a)* · c) alemana *(the written accent disappears in the feminine)* · d) francesa · e) enfermera · f) estudiante *(nouns in -e have one form for both genders)*
+Ex 5: a) Soy profesor. (m.) / Soy profesora. (f.) — no article *(unlike English, ser + profession drops un/una)* · b) (Ella) es italiana. *(nationalities are lowercase and agree with the person)* · c) Tengo veinte años. *(age uses tener, and años cannot be dropped)* · d) Somos de México.
 
 ## Unidad 2 — Quiero aprender español {#nivel=A1 #unidad=2}
 
@@ -135,11 +135,11 @@ c) I study Spanish to travel.
 d) She does a lot of exercises.
 
 **Answers.**
-Ex 1: a) hablo · b) comprendemos · c) vives · d) estudian · e) escribe · f) leéis
-Ex 2: a) el · b) la · c) la · d) el · e) la · f) el
-Ex 3: a) quiero · b) queremos · c) quieres · d) hago · e) hace · f) hacen
-Ex 4: a) por · b) para · c) porque · d) por · e) para
-Ex 5: a) Quiero aprender español. · b) Vivimos en Madrid. · c) Estudio español para viajar. · d) (Ella) hace muchos ejercicios.
+Ex 1: a) hablo · b) comprendemos · c) vives · d) estudian · e) escribe · f) leéis *(the -er vosotros ending is -éis, with the accent)*
+Ex 2: a) el *(idioma is masculine despite the -a ending)* · b) la *(nouns in -ción and -dad are always feminine)* · c) la · d) el · e) la · f) el *(día is one of the masculine -a nouns, like mapa)*
+Ex 3: a) quiero · b) queremos *(the stem change disappears in nosotros — never "quieremos")* · c) quieres · d) hago *(hacer has an irregular yo form)* · e) hace · f) hacen
+Ex 4: a) por *(por + noun gives the cause)* · b) para *(para + infinitive gives the purpose)* · c) porque · d) por *(por also means movement around or through a place)* · e) para
+Ex 5: a) Quiero aprender español. · b) Vivimos en Madrid. · c) Estudio español para viajar. · d) (Ella) hace muchos ejercicios. *(mucho agrees with the noun; muy is impossible here)*
 
 ## Unidad 3 — ¿Dónde está Santiago? {#nivel=A1 #unidad=3}
 
@@ -184,11 +184,11 @@ d) Hay ___ nieve en el sur.
 e) En Chile hay ___ lagos.
 
 **Answers.**
-Ex 1: a) es · b) está · c) hay · d) es · e) están · f) hay
-Ex 2: a) estoy · b) estás · c) estamos · d) están · e) estáis · f) está
-Ex 3: a) hace · b) está · c) Hay · d) llueve · e) nieva · f) hace
-Ex 4: a) Dónde · b) Cuál · c) Cuántos · d) Cómo · e) Qué
-Ex 5: a) más · b) el · c) muy · d) mucha · e) muchos
+Ex 1: a) es · b) está *(location always takes estar, never ser)* · c) hay *(hay states existence and never takes el/la)* · d) es *(a lasting characteristic takes ser; está would mean a mood)* · e) están · f) hay
+Ex 2: a) estoy · b) estás *(every form but estoy and estamos carries an accent)* · c) estamos · d) están · e) estáis · f) está
+Ex 3: a) hace *(sol, frío, calor and viento take hacer, not ser or estar)* · b) está *(nublado is a passing state, so estar)* · c) Hay · d) llueve *(llover exists only in the third person singular)* · e) nieva · f) hace
+Ex 4: a) Dónde · b) Cuál *(identifying one item uses cuál + ser, not qué)* · c) Cuántos · d) Cómo · e) Qué *(qué + ser asks for a definition)*
+Ex 5: a) más · b) el · c) muy *(muy goes with adjectives; mucho goes with nouns)* · d) mucha *(nieve is feminine, so mucha)* · e) muchos
 
 ## Unidad 4 — ¿Cuál prefieres? {#nivel=A1 #unidad=4}
 
@@ -230,10 +230,10 @@ c) I have to buy a red dress.
 d) These shoes cost two hundred pesos.
 
 **Answers.**
-Ex 1: a) este · b) esta · c) estos · d) estas · e) esta · f) estos
-Ex 2: a) Qué · b) Cuál · c) Cuáles · d) Cuál · e) Qué
-Ex 3: a) voy · b) vamos · c) va · d) prefiero · e) prefieres · f) preferimos
-Ex 4: a) tengo que · b) tenemos que · c) tienes que · d) tienen que
-Ex 5: a) Prefiero la azul. · b) Cuesta cien euros. · c) Tengo que comprar un vestido rojo. · d) Estos zapatos cuestan doscientos pesos.
+Ex 1: a) este · b) esta · c) estos · d) estas · e) esta · f) estos *(pantalones is plural, so the demonstrative is too)*
+Ex 2: a) Qué *(qué, not cuál, goes directly before a noun)* · b) Cuál · c) Cuáles · d) Cuál *(English says "what", but identifying takes cuál + ser)* · e) Qué
+Ex 3: a) voy · b) vamos · c) va · d) prefiero · e) prefieres · f) preferimos *(the e→ie change never reaches nosotros)*
+Ex 4: a) tengo que *(que is obligatory — never "tengo comprar")* · b) tenemos que · c) tienes que · d) tienen que
+Ex 5: a) Prefiero la azul. *(la keeps the gender of the omitted camiseta)* · b) Cuesta cien euros. *(exactly 100 is cien; ciento only for 101–199)* · c) Tengo que comprar un vestido rojo. · d) Estos zapatos cuestan doscientos pesos. *(costar is o→ue: cuestan, not "costan")*
 
 <!-- END agent=ex_a1p1 ; units=5 ; exercises=25 -->

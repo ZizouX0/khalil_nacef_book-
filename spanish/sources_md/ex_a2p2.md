@@ -46,11 +46,11 @@ f) El pescado es muy ___: tiene poca grasa.
 > B: Sí, (6)___ es muy sana.
 
 **Answers.**
-Ex 1: a) lo b) La c) Los d) las e) hacerla f) lo
-Ex 2: a) se pelan b) se baten c) se sirve d) se cena e) Se corta f) se come
-Ex 3: a) son b) está c) es d) están e) es f) está
-Ex 4: a) vegano/a b) hervir c) ligero d) alérgico/a e) receta f) sano
-Ex 5: 1) se 2) se 3) y 4) la 5) pero 6) además
+Ex 1: a) lo b) La *(la miel is feminine; the pronoun goes before he)* c) Los d) las e) hacerla *(attached to the infinitive — no accent needed here)* f) lo *(neuter lo stands for the whole fact)*
+Ex 2: a) se pelan *(the verb agrees with las patatas, plural)* b) se baten c) se sirve d) se cena *(no thing named, so the verb stays singular)* e) Se corta f) se come
+Ex 3: a) son b) está *(estar bueno = tastes good; ser bueno = good for you)* c) es d) están *(maduras is a state that changes — estar)* e) es f) está *(duro today, not what bread is by nature)*
+Ex 4: a) vegano/a b) hervir c) ligero d) alérgico/a *(ser alérgico a + noun — the preposition is a)* e) receta f) sano
+Ex 5: 1) se 2) se 3) y 4) la *(la cebolla — feminine singular)* 5) pero *(contrast; porque would give a reason)* 6) además
 
 ## Unidad 7 — Nos gustó mucho {#nivel=A2 #unidad=7}
 
@@ -101,11 +101,11 @@ c) I would like to visit the museum.
 d) What a beautiful place!
 
 **Answers.**
-Ex 1: a) hemos visitado b) viajamos c) Has estado d) cené e) he visto f) vi
-Ex 2: a) viajamos b) vi c) gustó d) abrió e) comieron f) probaste
-Ex 3: a) me gustaría b) te gustaría c) le gustaría d) nos gustaría e) les gustaría f) os gustaría
+Ex 1: a) hemos visitado *(esta semana includes now — perfecto; Latin America: visitamos)* b) viajamos c) Has estado *(alguna vez = life experience — perfecto)* d) cené e) he visto *(todavía no keeps it connected to now)* f) vi *(el otro día is a closed moment — indefinido)*
+Ex 2: a) viajamos *(-ar nosotros looks like the present; el año pasado decides)* b) vi *(ver takes no accent: vi, vio)* c) gustó *(agrees with the thing — la excursión)* d) abrió e) comieron f) probaste
+Ex 3: a) me gustaría b) te gustaría c) le gustaría d) nos gustaría e) les gustaría *(les for plural people, but gustaría stays singular)* f) os gustaría
 Ex 4: 1-c, 2-e, 3-f, 4-a, 5-b, 6-d
-Ex 5: a) ¿Has estado alguna vez en México? b) El año pasado viajamos a Costa Rica. c) Me gustaría visitar el museo. d) ¡Qué lugar tan bonito!
+Ex 5: a) ¿Has estado alguna vez en México? *(alguna vez → perfecto)* b) El año pasado viajamos a Costa Rica. c) Me gustaría visitar el museo. d) ¡Qué lugar tan bonito! *(no article after qué; tan goes before the adjective)*
 
 ## Unidad 8 — Estamos muy bien {#nivel=A2 #unidad=8}
 
@@ -151,11 +151,11 @@ f) deporte / haz / a menudo
 > Sr. Ruiz: Muchas gracias, doctora.
 
 **Answers.**
-Ex 1: a) duele b) duelen c) duele d) duelen e) duele f) duelen
-Ex 2: a) Bebe b) Haz c) Duerme d) Ponte e) Ven f) Come
-Ex 3: a) Beba b) Quédese c) Tome d) Descanse e) Póngase
-Ex 4: a) Me duele la cabeza. b) Bebe mucha agua. c) ¿Te duelen los pies? d) Quédese en casa. e) Ponte crema protectora. f) Haz deporte a menudo.
-Ex 5: 1) duele 2) fiebre 3) duelen 4) Descanse 5) beba
+Ex 1: a) duele *(the subject is la cabeza, not the person)* b) duelen *(plural body part → plural verb)* c) duele d) duelen e) duele f) duelen
+Ex 2: a) Bebe b) Haz *(irregular tú command; the negative is no hagas)* c) Duerme *(o→ue, as in the present duermes)* d) Ponte *(pon + attached te; negative is no te pongas)* e) Ven f) Come
+Ex 3: a) Beba *(usted forms come from yo bebo with the opposite vowel)* b) Quédese *(the attached pronoun forces a written accent)* c) Tome d) Descanse e) Póngase
+Ex 4: a) Me duele la cabeza. b) Bebe mucha agua. c) ¿Te duelen los pies? d) Quédese en casa. e) Ponte crema protectora. *(the pronoun attaches to an affirmative command)* f) Haz deporte a menudo.
+Ex 5: 1) duele 2) fiebre 3) duelen *(los músculos is the subject — plural)* 4) Descanse *(usted command, not the present descansa)* 5) beba
 
 ## Unidad 9 — Antes y ahora {#nivel=A2 #unidad=9}
 
@@ -200,11 +200,11 @@ c) Before, people didn't travel much.
 d) I don't live in Madrid any more.
 
 **Answers.**
-Ex 1: a) era b) íbamos c) viajaba d) tenía e) Eran f) veía
-Ex 2: a) vivíamos b) jugabas c) escuchaban d) salía e) viajabais f) estudiaba
-Ex 3: a) ya no b) Todavía c) ya no d) Todavía e) ya no
+Ex 1: a) era b) íbamos *(ir is irregular: iba, íbamos — note the accent)* c) viajaba d) tenía e) Eran *(clock time in the past is always imperfecto)* f) veía *(ver keeps the e: veía, not "vía")*
+Ex 2: a) vivíamos *(every -er/-ir imperfect carries the accent on í)* b) jugabas *(no stem change in the imperfecto — not "juegabas")* c) escuchaban d) salía e) viajabais f) estudiaba
+Ex 3: a) ya no b) Todavía *(still doing it; todavía no would mean "not yet")* c) ya no d) Todavía e) ya no *(it changed — ya no = not any more)*
 Ex 4: a) Hoy en día b) democracia c) frontera d) siglo e) época f) Antes
-Ex 5: a) Cuando era niño, vivía en un pueblo pequeño. b) Todos los veranos íbamos a la playa. c) Antes la gente no viajaba mucho. d) Ya no vivo en Madrid.
+Ex 5: a) Cuando era niño, vivía en un pueblo pequeño. *(both set the scene — imperfecto; no article with niño)* b) Todos los veranos íbamos a la playa. c) Antes la gente no viajaba mucho. *(la gente is singular in Spanish)* d) Ya no vivo en Madrid.
 
 ## Unidad 10 — Momentos especiales {#nivel=A2 #unidad=10}
 
@@ -256,8 +256,8 @@ e. I was very scared
 f. a noise
 
 **Answers.**
-Ex 1: a) estuve b) tuvimos c) pude d) Hizo e) pidió f) fui
-Ex 2: a) Hacía / decidí b) llegué / dormía c) Era / había d) Estábamos / sonó e) empezó
-Ex 3: a) Estaba lloviendo b) estaba cenando c) estábamos bailando d) estaba paseando e) estaba leyendo
-Ex 4: 1) pasó 2) estaba 3) vi 4) De repente 5) Resulta que
+Ex 1: a) estuve *(irregular stem estuv- — no accent on the yo form)* b) tuvimos c) pude d) Hizo *(hacer → hizo, spelt with z)* e) pidió *(pedir changes e→i in the third person)* f) fui
+Ex 2: a) Hacía / decidí *(weather sets the scene; the decision is the event)* b) llegué / dormía *(arriving is the event, sleeping the background)* c) Era / había *(both describe the scene — había, never hubo here)* d) Estábamos / sonó *(an action in progress cut short by one event)* e) empezó *(de repente marks a single completed action)*
+Ex 3: a) Estaba lloviendo *(rain as background; estuvo lloviendo would close it off)* b) estaba cenando c) estábamos bailando d) estaba paseando e) estaba leyendo *(leer → leyendo)*
+Ex 4: 1) pasó 2) estaba 3) vi *(estaba = the scene, vi = the event that moves it)* 4) De repente 5) Resulta que *(introduces the twist, not "as a result")*
 Ex 5: 1-c, 2-a, 3-b, 4-e, 5-f, 6-d
