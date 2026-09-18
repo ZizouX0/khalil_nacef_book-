@@ -2,7 +2,7 @@
   <!-- EL BARRIO — street plan seen from above + direction phrases drawn on the streets.
        Route: solid crimson = the instruction given; dashed ochre = the alternative turn.
        Double-headed blue arrows = position phrases (enfrente de / al lado de).
-       All arrowheads are <polygon> triangles (no <marker>). -->
+       All arrowheads are polygon triangles; no marker elements are used. -->
 
   <!-- ===== header ===== -->
   <text x="20" y="24" font-size="13" font-weight="bold" fill="#1A1A1E">El barrio</text>

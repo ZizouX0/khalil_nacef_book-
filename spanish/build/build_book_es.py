@@ -235,7 +235,18 @@ def plain_table(rows, cls="voc"):
     o.append('</tbody></table>'); return "".join(o)
 
 DIAG_MAP={'casa-vivienda':'casa','cuerpo-salud':'cuerpo','familia-caracter':'familia',
-          'rutina-hora':'hora','comida':'mesa','comida-recetas':'mesa'}
+          'rutina-hora':'rutina','comida':'mesa','comida-recetas':'mesa',
+          'compras-ropa':'ropa','ciudad-barrio':'ciudad','geografia-clima':'clima',
+          'ocio-viajes':'viajes'}
+# Diagrams for the four grammar points learners reliably fail. A conjugation table
+# does not fix a conceptual gap — English has no preterite/imperfect split, so a
+# picture is the only thing that gives the learner a reference point.
+GRAM_DIAG={'Indefinido vs imperfecto':'pasados',
+           'Por, para and porque':'porpara',
+           'Direct object pronouns (lo/la/los/las)':'pronombres',
+           'Ser vs Estar':'serestar',
+           'The verb gustar':'gustar'}
+_DIAG_DONE=set()
 def diagram(suj):
     d=DIAG_MAP.get(suj)
     if d and os.path.exists(f"{DIAG}/{d}.svg"):
@@ -264,6 +275,10 @@ def render_ctx(ctx):
 
 def render_grammar_point(p, gid):
     o=[f'<div class="gpoint"><h4 id="{gid}">{html.escape(p["name"])}</h4>']
+    d=GRAM_DIAG.get(p['name'])
+    if d and d not in _DIAG_DONE and os.path.exists(f"{DIAG}/{d}.svg"):
+        _DIAG_DONE.add(d)   # only on the first unit that teaches the point
+        o.append(f'<div class="diagram gram">{open(f"{DIAG}/{d}.svg").read()}</div>')
     if p['rule']: o.append('<div class="g-rule">'+md(p['rule'])+'</div>')
     if p['exs']:  o.append('<div class="g-exwrap"><span class="lbl">Examples</span>'+md(p['exs'])+'</div>')
     if p['tbl']:  o.append(md(p['tbl']))
@@ -371,7 +386,7 @@ def build():
     relampago=parse_keyed("relampago_es.md")
     frances=parse_keyed("frances_es.md")
     suena=parse_keyed("suena_es.md")
-    parts=[]; answer_key=[]; test_key=[]
+    parts=[]; answer_key=[]; test_key=[]; relamp_key=[]; unit_anchor={}
 
     # -------- front matter --------
     for name in ("welcome_es.md",):
@@ -400,6 +415,7 @@ def build():
         u=foto.get((nivel,uno),{})
         fpath=f"{PHOTOS}/{nivel.lower()}_u{int(uno):02d}.jpg"
         tid=slug(f"lesson-{t['name']}-{nivel}-{uno}"); TOC.append((2,tid,f"{t['name']} ({nivel})"))
+        unit_anchor[(nivel,str(int(uno)))]=tid
         sub="You will learn: "+html.escape(u.get('scope',''))
         bmk=f"{nivel} Unidad {uno} — {t['name']}"
         cap=(f'<div class="cap"><span class="badge">UNIDAD {uno} · {nivel}</span>'
@@ -478,7 +494,10 @@ def build():
                     blk+=('<div class="cumul"><span class="h2">Y estas palabras de antes — write the Spanish</span>'
                           +md_inline(cum)+'</div>')
                 tail=" · ".join(x for x in (rans.strip(), cumans.strip()) if x)
-                if tail: blk+=f'<div class="upside">{md_inline(tail)}</div>'
+                if tail:
+                    blk+=('<p class="ansref"><small>Answers at the back, under '
+                          '<b>Repaso relámpago — Answers</b>. Don\'t look until you have tried all of them.</small></p>')
+                    relamp_key.append((f"{nivel} Unidad {uno}", tail))
                 parts.append(blk+'</div>')
             parts.append('<div class="practice">'+md_ol(ex[0])+'</div>')
             parts.append('<p class="ansref"><small>Check your answers in the <b>Answer Key</b> at the back of the book.</small></p>')
@@ -567,18 +586,22 @@ def build():
                 w=re.sub(r'\s*\(.+?\)','',w).strip()
                 if w and w[0].isalpha():
                     e=words.setdefault(w.lower(), [w, []])
-                    loc=f"{nivel[-1]}·{uno}"
+                    loc=(nivel,str(int(uno)))
                     if loc not in e[1]: e[1].append(loc)
     parts.append(h(1,"Alphabetical Index"))
     parts.append('<p class="lead">Every headword, with the level·unit where it appears.</p>')
     letters={}
     for kw,(w,locs) in words.items():
-        letters.setdefault(kw[0].upper(),[]).append((w,", ".join(locs)))
+        letters.setdefault(kw[0].upper(),[]).append((w,locs))
     ih=['<div class="indexgrid">']
     for L in sorted(letters):
         ih.append(f'<div class="idx-letter">{L}</div>')
-        for w,loc in sorted(letters[L], key=lambda x:x[0].lower()):
-            ih.append(f'<div class="ie">{html.escape(w)} <small>{loc}</small></div>')
+        for w,locs in sorted(letters[L], key=lambda x:x[0].lower()):
+            refs=[]
+            for lv,u in locs:
+                a=unit_anchor.get((lv,u))
+                refs.append(f'<a class="pref" href="#{a}">{lv[-1]}·{u}</a>' if a else f'{lv[-1]}·{u}')
+            ih.append(f'<div class="ie">{html.escape(w)} <small>{" ".join(refs)}</small></div>')
     ih.append('</div>')
     parts.append("".join(ih))
 
@@ -590,6 +613,16 @@ def build():
     for title,ans in answer_key:
         parts.append(f'<h3>{html.escape(title)}</h3>'); parts.append(md(ans))
     parts.append('</div>')
+
+    if relamp_key:
+        parts.append(h(1,"Repaso relámpago — Answers"))
+        parts.append('<p class="lead">Answers to the two-minute recall strips. They live here, at the back, '
+                     'on purpose: a strip whose answers sat on the same page would not be a recall exercise '
+                     'at all — you would read them before you had tried to remember anything.</p>')
+        parts.append('<div class="answerkey">')
+        for title,ans in relamp_key:
+            parts.append(f'<h3>{html.escape(title)}</h3>'); parts.append(md_inline(ans))
+        parts.append('</div>')
 
     # -------- test answer key --------
     if test_key:

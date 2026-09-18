@@ -60,13 +60,15 @@
 
 /* ---------- page ---------- */
 @page{
-  size:A4; margin:16mm 14mm 17mm 14mm;
+  size:A4; margin:19mm 14mm 17mm 14mm;
+  @top-right { content:string(unitname); font-family:var(--font-body); font-size:7.8pt;
+               color:#6B6259; padding-bottom:2mm }
   @bottom-left  { content:"Español A1–A2"; font-family:var(--font-body); font-size:8pt; color:#6B6259 }
   @bottom-center{ content:"Aziz Dardouri"; font-family:var(--font-body); font-size:8.5pt; color:#8E1220; font-weight:bold }
   @bottom-right { content:counter(page) " / " counter(pages); font-family:var(--font-body); font-size:8pt; color:#6B6259 }
 }
-@page :first { margin:0; @bottom-left{content:none} @bottom-center{content:none} @bottom-right{content:none} }
-@page cover  { margin:0; @bottom-left{content:none} @bottom-center{content:none} @bottom-right{content:none} }
+@page :first { margin:0; @top-right{content:none} @bottom-left{content:none} @bottom-center{content:none} @bottom-right{content:none} }
+@page cover  { margin:0; @top-right{content:none} @bottom-left{content:none} @bottom-center{content:none} @bottom-right{content:none} }
 
 *{box-sizing:border-box}
 html{font-family:var(--font-body); font-size:10.2pt; line-height:1.5; color:var(--ink)}
@@ -74,9 +76,9 @@ body{margin:0}
 
 /* PDF outline: one bookmark per chapter, unit, test and review checkpoint, so the
    reader can jump straight to a unit instead of scrolling 300 pages. */
-h1{bookmark-level:1; bookmark-label:content()}
+h1{bookmark-level:1; bookmark-label:content(); string-set:unitname content()}
 h2.testhead,.repasohead{bookmark-level:2; bookmark-label:content()}
-.opener{bookmark-level:2; bookmark-label:attr(data-title)}
+.opener{bookmark-level:2; bookmark-label:attr(data-title); string-set:unitname attr(data-title)}
 h3.sec{bookmark-level:3; bookmark-label:content()}
 p{margin:0 0 .5em}
 em{color:#444} strong{color:#111}
@@ -264,8 +266,6 @@ ul,ol{margin:.25em 0 .6em 1.1em; padding:0} li{margin:.12em 0}
 .relampago .cumul{margin-top:6px; padding-top:5px; border-top:1px dashed var(--c-prac-rule)}
 .relampago .cumul .h2{display:block; font-weight:bold; font-size:7.8pt; text-transform:uppercase;
   letter-spacing:.05em; color:var(--c-prac); margin-bottom:3px}
-.relampago .upside{margin-top:6px; padding-top:4px; border-top:1px dashed var(--c-prac-rule);
-  font-size:7.6pt; color:#6B6259; transform:rotate(180deg)}
 
 .practice{background:#F7F8F7; border:1px solid var(--c-prac-rule); border-radius:8px; padding:8px 14px 10px; margin:6px 0}
 .practice p{margin:.35em 0}
@@ -306,6 +306,8 @@ h2.testhead .lv{float:right; font-size:10pt; background:rgba(255,255,255,.22);
 /* ---------- reference / back matter ---------- */
 .indexgrid{column-count:2; column-gap:14mm; font-size:9pt}
 .indexgrid .ie{break-inside:avoid; margin:.08em 0}
+.indexgrid a.pref{text-decoration:none; color:var(--ink-3); white-space:nowrap}
+.indexgrid a.pref::after{content:" p." target-counter(attr(href), page); color:#8a837c}
 .idx-letter{font-weight:bold; color:var(--c-ref); margin:.5em 0 .1em; font-size:11pt;
   border-bottom:1px solid var(--c-ref-rule)}
 .credits{font-size:7.6pt; color:var(--ink-3); column-count:2; column-gap:10mm}

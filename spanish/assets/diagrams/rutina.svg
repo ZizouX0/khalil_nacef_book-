@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 390" font-family="DejaVu Sans">
+  <!-- LA RUTINA DIARIA — a left-to-right strip of eight moments, each with a time,
+       the infinitive, and the yo form, so that reflexive (me levanto) and
+       non-reflexive (desayuno) sit side by side. -->
+
+  <!-- ===== header ===== -->
+  <text x="20" y="24" font-size="13" font-weight="bold" fill="#1A1A1E">La rutina diaria</text>
+  <text x="156" y="24" font-size="10.5" fill="#6E6C72">¿A qué hora te levantas?</text>
+  <text x="620" y="23" text-anchor="end" font-size="9.5" font-style="italic" fill="#6E6C72">— Me levanto a las siete.</text>
+
+  <!-- ===== flow arrows ===== -->
+  <g fill="#1A1A1E">
+    <polygon points="164,101 173,107 164,113"/>
+    <polygon points="316,101 325,107 316,113"/>
+    <polygon points="468,101 477,107 468,113"/>
+    <polygon points="164,253 173,259 164,265"/>
+    <polygon points="316,253 325,259 316,265"/>
+    <polygon points="468,253 477,259 468,265"/>
+  </g>
+
+  <!-- ============ 1 · levantarse ============ -->
+  <rect x="22" y="48" width="140" height="118" rx="8" fill="#FFFFFF" stroke="#DED8CE" stroke-width="1.2"/>
+  <rect x="32" y="57" width="48" height="17" rx="8" fill="#E7EFF2" stroke="#125C82" stroke-width="1"/>
+  <text x="56" y="69" text-anchor="middle" font-size="9.5" font-weight="bold" fill="#125C82">07:00</text>
+  <rect x="94" y="57" width="58" height="17" rx="8" fill="#F6EAEC" stroke="#A0182A" stroke-width="1"/>
+  <text x="123" y="69" text-anchor="middle" font-size="9" font-weight="bold" fill="#A0182A">reflexivo</text>
+  <g transform="translate(92,106)">
+    <rect x="-30" y="-16" width="5" height="22" fill="#DED8CE" stroke="#1A1A1E" stroke-width="1.3"/>
+    <rect x="-26" y="-6" width="50" height="8" fill="#FFFFFF" stroke="#1A1A1E" stroke-width="1.3"/>
+    <rect x="-26" y="2" width="50" height="10" rx="2" fill="#DED8CE" stroke="#1A1A1E" stroke-width="1.3"/>
+    <line x1="-10" y1="-11" x2="-6" y2="-6" stroke="#1A1A1E" stroke-width="2.4" stroke-linecap="round"/>
+    <line x1="-10" y1="-14" x2="-2" y2="-22" stroke="#1A1A1E" stroke-width="2.2" stroke-linecap="round"/>
+    <circle cx="-10" cy="-16" r="5" fill="#FFFFFF" stroke="#1A1A1E" stroke-width="1.5"/>
+    <circle cx="18" cy="-12" r="7" fill="#FFFFFF" stroke="#1A1A1E" stroke-width="1.4"/>
+    <g stroke="#1A1A1E" stroke-width="1.4" stroke-linecap="round">
+      <line x1="13" y1="-19" x2="15" y2="-17"/>
+      <line x1="23" y1="-19" x2="21" y2="-17"/>
+      <line x1="18" y1="-12" x2="18" y2="-16"/>
+      <line x1="18" y1="-12" x2="21" y2="-11"/>
+    </g>
+  </g>
+  <text x="92" y="142" text-anchor="middle" font-size="11" font-weight="bold" fill="#1A1A1E">levantarse</text>
+  <text x="92" y="156" text-anchor="middle" font-size="10" fill="#1A1A1E"><tspan fill="#A0182A" font-weight="bold">me</tspan> levanto</text>
+
+  <!-- ============ 2 · ducharse ============ -->
+  <rect x="174" y="48" width="140" height="118" rx="8" fill="#FFFFFF" stroke="#DED8CE" stroke-width="1.2"/>
+  <rect x="184" y="57" width="48" height="17" rx="8" fill="#E7EFF2" stroke="#125C82" stroke-width="1"/>
+  <text x="208" y="69" text-anchor="middle" font-size="9.5" font-weight="bold" fill="#125C82">07:15</text>
+  <rect x="246" y="57" width="58" height="17" rx="8" fill="#F6EAEC" stroke="#A0182A" stroke-width="1"/>
+  <text x="275" y="69" text-anchor="middle" font-size="9" font-weight="bold" fill="#A0182A">reflexivo</text>
+  <g transform="translate(244,106)">
+    <polyline points="2,-22 14,-22 14,-15" fill="none" stroke="#1A1A1E" stroke-width="2" stroke-linejoin="round"/>
+    <rect x="-12" y="-15" width="26" height="6" rx="2" fill="#DED8CE" stroke="#1A1A1E" stroke-width="1.3"/>
+    <g stroke="#125C82" stroke-width="1.8" stroke-linecap="round">
+      <line x1="-8" y1="-5" x2="-10" y2="7"/>
+      <line x1="-3" y1="-5" x2="-5" y2="7"/>
+      <line x1="2" y1="-5" x2="0" y2="7"/>
+      <line x1="7" y1="-5" x2="5" y2="7"/>
+      <line x1="12" y1="-5" x2="10" y2="7"/>
+    </g>
+    <rect x="-20" y="10" width="42" height="6" rx="2" fill="#E7EFF2" stroke="#1A1A1E" stroke-width="1.3"/>
+  </g>
+  <text x="244" y="142" text-anchor="middle" font-size="11" font-weight="bold" fill="#1A1A1E">ducharse</text>
+  <text x="244" y="156" text-anchor="middle" font-size="10" fill="#1A1A1E"><tspan fill="#A0182A" font-weight="bold">me</tspan> ducho</text>
+
+  <!-- ============ 3 · desayunar ============ -->
+  <rect x="326" y="48" width="140" height="118" rx="8" fill="#FFFFFF" stroke="#DED8CE" stroke-width="1.2"/>
+  <rect x="336" y="57" width="48" height="17" rx="8" fill="#E7EFF2" stroke="#125C82" stroke-width="1"/>
+  <text x="360" y="69" text-anchor="middle" font-size="9.5" font-weight="bold" fill="#125C82">07:45</text>
+  <g transform="translate(394,106)">
+    <g fill="none" stroke="#1A1A1E" stroke-width="1.2">
+      <path d="M -20 -12 C -17 -16 -23 -18 -20 -22"/>
+      <path d="M -12 -12 C -9 -16 -15 -18 -12 -22"/>
+    </g>
+    <path d="M -4 -4 C 3 -4 3 4 -5 4" fill="none" stroke="#1A1A1E" stroke-width="1.6"/>
+    <path d="M -26 -8 L -6 -8 L -9 8 L -23 8 Z" fill="#FFFFFF" stroke="#1A1A1E" stroke-width="1.4" stroke-linejoin="round"/>
+    <ellipse cx="-16" cy="11" rx="16" ry="3.5" fill="#DED8CE" stroke="#1A1A1E" stroke-width="1.3"/>
+    <path d="M 8 10 L 8 0 C 8 -9 28 -9 28 0 L 28 10 Z" fill="#F4EEE4" stroke="#1A1A1E" stroke-width="1.4" stroke-linejoin="round"/>
+    <path d="M 11 0 C 14 -3 22 -3 25 0" fill="none" stroke="#1A1A1E" stroke-width="1.1"/>
+  </g>
+  <text x="396" y="142" text-anchor="middle" font-size="11" font-weight="bold" fill="#1A1A1E">desayunar</text>
+  <text x="396" y="156" text-anchor="middle" font-size="10" fill="#1A1A1E">desayuno</text>
+
+  <!-- ============ 4 · ir al trabajo ============ -->
+  <rect x="478" y="48" width="140" height="118" rx="8" fill="#FFFFFF" stroke="#DED8CE" stroke-width="1.2"/>
+  <rect x="488" y="57" width="48" height="17" rx="8" fill="#E7EFF2" stroke="#125C82" stroke-width="1"/>
+  <text x="512" y="69" text-anchor="middle" font-size="9.5" font-weight="bold" fill="#125C82">08:30</text>
+  <g transform="translate(548,106)">
+    <polyline points="-12,-6 -12,-13 2,-13 2,-6" fill="none" stroke="#1A1A1E" stroke-width="1.6" stroke-linejoin="round"/>
+    <rect x="-26" y="-6" width="40" height="24" rx="3" fill="#F4EEE4" stroke="#1A1A1E" stroke-width="1.4"/>
+    <rect x="-9" y="2" width="9" height="6" fill="#FFFFFF" stroke="#1A1A1E" stroke-width="1.1"/>
+    <line x1="19" y1="6" x2="27" y2="6" stroke="#1F7A68" stroke-width="2.4" stroke-linecap="round"/>
+    <polygon points="34,6 25,1.5 25,10.5" fill="#1F7A68"/>
+  </g>
+  <text x="548" y="142" text-anchor="middle" font-size="11" font-weight="bold" fill="#1A1A1E">ir al trabajo</text>
+  <text x="548" y="156" text-anchor="middle" font-size="10" fill="#1A1A1E">voy al trabajo</text>
+
+  <!-- ============ 5 · comer ============ -->
+  <rect x="22" y="200" width="140" height="118" rx="8" fill="#FFFFFF" stroke="#DED8CE" stroke-width="1.2"/>
+  <rect x="32" y="209" width="48" height="17" rx="8" fill="#F4EEE4" stroke="#9A6207" stroke-width="1"/>
+  <text x="56" y="221" text-anchor="middle" font-size="9.5" font-weight="bold" fill="#9A6207">14:00</text>
+  <g transform="translate(92,258)">
+    <circle cx="14" cy="-20" r="5" fill="#F4EEE4" stroke="#1A1A1E" stroke-width="1.3"/>
+    <g stroke="#1A1A1E" stroke-width="1.3" stroke-linecap="round">
+      <line x1="21" y1="-20" x2="24" y2="-20"/>
+      <line x1="17.5" y1="-14" x2="19" y2="-11.4"/>
+      <line x1="10.5" y1="-14" x2="9" y2="-11.4"/>
+      <line x1="7" y1="-20" x2="4" y2="-20"/>
+      <line x1="10.5" y1="-26" x2="9" y2="-28.6"/>
+      <line x1="17.5" y1="-26" x2="19" y2="-28.6"/>
+    </g>
+    <circle cx="0" cy="4" r="14" fill="#FFFFFF" stroke="#1A1A1E" stroke-width="1.5"/>
+    <circle cx="0" cy="4" r="9" fill="none" stroke="#1A1A1E" stroke-width="1"/>
+    <g stroke="#1A1A1E" stroke-linecap="round">
+      <line x1="-24" y1="-4" x2="-24" y2="15" stroke-width="2"/>
+      <line x1="-27" y1="-10" x2="-27" y2="-4" stroke-width="1.2"/>
+      <line x1="-24" y1="-10" x2="-24" y2="-4" stroke-width="1.2"/>
+      <line x1="-21" y1="-10" x2="-21" y2="-4" stroke-width="1.2"/>
+      <line x1="24" y1="-4" x2="24" y2="15" stroke-width="2"/>
+    </g>
+    <path d="M 22 -10 C 27 -10 28 -7 28 -4 L 21 -4 Z" fill="#DED8CE" stroke="#1A1A1E" stroke-width="1.1" stroke-linejoin="round"/>
+  </g>
+  <text x="92" y="294" text-anchor="middle" font-size="11" font-weight="bold" fill="#1A1A1E">comer</text>
+  <text x="92" y="308" text-anchor="middle" font-size="10" fill="#1A1A1E">como</text>
+
+  <!-- ============ 6 · volver a casa ============ -->
+  <rect x="174" y="200" width="140" height="118" rx="8" fill="#FFFFFF" stroke="#DED8CE" stroke-width="1.2"/>
+  <rect x="184" y="209" width="48" height="17" rx="8" fill="#F4EEE4" stroke="#9A6207" stroke-width="1"/>
+  <text x="208" y="221" text-anchor="middle" font-size="9.5" font-weight="bold" fill="#9A6207">18:30</text>
+  <g transform="translate(244,258)">
+    <polygon points="-20,-2 0,-17 20,-2" fill="#DED8CE" stroke="#1A1A1E" stroke-width="1.4" stroke-linejoin="round"/>
+    <rect x="-15" y="-2" width="30" height="18" fill="#FFFFFF" stroke="#1A1A1E" stroke-width="1.4"/>
+    <rect x="-5" y="5" width="10" height="11" fill="#F4EEE4" stroke="#1A1A1E" stroke-width="1.1"/>
+    <line x1="34" y1="8" x2="26" y2="8" stroke="#1F7A68" stroke-width="2.4" stroke-linecap="round"/>
+    <polygon points="19,8 28,3.5 28,12.5" fill="#1F7A68"/>
+  </g>
+  <text x="244" y="294" text-anchor="middle" font-size="11" font-weight="bold" fill="#1A1A1E">volver a casa</text>
+  <text x="244" y="308" text-anchor="middle" font-size="10" fill="#1A1A1E">vuelvo a casa</text>
+
+  <!-- ============ 7 · cenar ============ -->
+  <rect x="326" y="200" width="140" height="118" rx="8" fill="#FFFFFF" stroke="#DED8CE" stroke-width="1.2"/>
+  <rect x="336" y="209" width="48" height="17" rx="8" fill="#F6EAEC" stroke="#A0182A" stroke-width="1"/>
+  <text x="360" y="221" text-anchor="middle" font-size="9.5" font-weight="bold" fill="#A0182A">21:00</text>
+  <g transform="translate(396,258)">
+    <path d="M 18 -29 C 9 -26 9 -14 18 -11 C 13.5 -16 13.5 -24 18 -29 Z" fill="#DED8CE" stroke="#1A1A1E" stroke-width="1.2" stroke-linejoin="round"/>
+    <circle cx="0" cy="4" r="14" fill="#FFFFFF" stroke="#1A1A1E" stroke-width="1.5"/>
+    <circle cx="0" cy="4" r="9" fill="none" stroke="#1A1A1E" stroke-width="1"/>
+    <g stroke="#1A1A1E" stroke-linecap="round">
+      <line x1="-24" y1="-4" x2="-24" y2="15" stroke-width="2"/>
+      <line x1="-27" y1="-10" x2="-27" y2="-4" stroke-width="1.2"/>
+      <line x1="-24" y1="-10" x2="-24" y2="-4" stroke-width="1.2"/>
+      <line x1="-21" y1="-10" x2="-21" y2="-4" stroke-width="1.2"/>
+      <line x1="24" y1="-4" x2="24" y2="15" stroke-width="2"/>
+    </g>
+    <path d="M 22 -10 C 27 -10 28 -7 28 -4 L 21 -4 Z" fill="#DED8CE" stroke="#1A1A1E" stroke-width="1.1" stroke-linejoin="round"/>
+  </g>
+  <text x="396" y="294" text-anchor="middle" font-size="11" font-weight="bold" fill="#1A1A1E">cenar</text>
+  <text x="396" y="308" text-anchor="middle" font-size="10" fill="#1A1A1E">ceno</text>
+
+  <!-- ============ 8 · acostarse ============ -->
+  <rect x="478" y="200" width="140" height="118" rx="8" fill="#FFFFFF" stroke="#DED8CE" stroke-width="1.2"/>
+  <rect x="488" y="209" width="48" height="17" rx="8" fill="#F6EAEC" stroke="#A0182A" stroke-width="1"/>
+  <text x="512" y="221" text-anchor="middle" font-size="9.5" font-weight="bold" fill="#A0182A">23:30</text>
+  <rect x="550" y="209" width="58" height="17" rx="8" fill="#F6EAEC" stroke="#A0182A" stroke-width="1"/>
+  <text x="579" y="221" text-anchor="middle" font-size="9" font-weight="bold" fill="#A0182A">reflexivo</text>
+  <g transform="translate(548,262)">
+    <rect x="-30" y="-14" width="5" height="20" fill="#DED8CE" stroke="#1A1A1E" stroke-width="1.3"/>
+    <rect x="-26" y="-6" width="50" height="8" fill="#FFFFFF" stroke="#1A1A1E" stroke-width="1.3"/>
+    <rect x="-26" y="2" width="50" height="10" rx="2" fill="#DED8CE" stroke="#1A1A1E" stroke-width="1.3"/>
+    <rect x="-23" y="-5" width="13" height="6" rx="2" fill="#E7EFF2" stroke="#1A1A1E" stroke-width="1.1"/>
+    <path d="M -8 -6 C 0 -13 12 -13 20 -6" fill="#E7EFF2" stroke="#1A1A1E" stroke-width="1.2"/>
+    <text x="8" y="-14" font-size="9" font-weight="bold" fill="#1A1A1E">z</text>
+    <text x="15" y="-21" font-size="11" font-weight="bold" fill="#1A1A1E">Z</text>
+  </g>
+  <text x="548" y="294" text-anchor="middle" font-size="11" font-weight="bold" fill="#1A1A1E">acostarse</text>
+  <text x="548" y="308" text-anchor="middle" font-size="10" fill="#1A1A1E"><tspan fill="#A0182A" font-weight="bold">me</tspan> acuesto</text>
+
+  <!-- ===== footer: the grammar point ===== -->
+  <line x1="20" y1="334" x2="620" y2="334" stroke="#DED8CE" stroke-width="0.9"/>
+  <text x="20" y="352" font-size="9.5" fill="#1A1A1E"><tspan font-weight="bold" fill="#A0182A">Reflexivos:</tspan> <tspan font-weight="bold">me</tspan> levanto, <tspan font-weight="bold">te</tspan> levantas, <tspan font-weight="bold">se</tspan> levanta, <tspan font-weight="bold">nos</tspan> levantamos, <tspan font-weight="bold">os</tspan> levantáis, <tspan font-weight="bold">se</tspan> levantan.</text>
+  <text x="20" y="368" font-size="9.5" fill="#1A1A1E">Los demás no llevan pronombre: desayuno, como, ceno.</text>
+  <text x="620" y="368" text-anchor="end" font-size="9.5" fill="#6E6C72">— me / te / se only on the reflexive ones.</text>
+</svg>
