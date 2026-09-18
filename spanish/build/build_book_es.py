@@ -370,17 +370,20 @@ def build():
     variantes=parse_keyed("variantes_es.md")
     relampago=parse_keyed("relampago_es.md")
     frances=parse_keyed("frances_es.md")
+    suena=parse_keyed("suena_es.md")
     parts=[]; answer_key=[]; test_key=[]
 
     # -------- front matter --------
     for name in ("welcome_es.md",):
         for t,b in split_h1(md_file(name)):
             parts.append(h(1,t)); parts.append(md(b))
-    for name in ("grammar_words_es.md","studyplan_es.md","variedades_es.md","frances_intro_es.md"):
+    for name in ("grammar_words_es.md","aprender_es.md","studyplan_es.md","variedades_es.md","frances_intro_es.md"):
         for t,b in split_h1(md_file(name)):
             parts.append(h(1,t)); parts.append(md(b))
     pt,pbody=bonus_section("Pronunciation")
     if pt: parts.append(h(1,pt)); parts.append(md(pbody))
+    for t,b in split_h1(md_file("leer_voz_alta_es.md")):
+        parts.append(h(1,t)); parts.append(md(b))
     for t,b in split_h1(md_file("cognates_es.md")):
         parts.append(h(1,t)); parts.append(md(b))
 
@@ -449,6 +452,9 @@ def build():
             if key in cultura:
                 ct,body=cultura[key]
                 parts.append('<div class="box cult"><span class="h">Cultura — '+html.escape(ct)+'</span>'+md(body)+'</div>')
+            if key in suena:
+                st,body=suena[key]
+                parts.append('<div class="box suena"><span class="h">Suena así — '+html.escape(st)+'</span>'+md(body)+'</div>')
             parts.append('</div>')
 
         # 4) Practice
@@ -457,12 +463,23 @@ def build():
             parts.append('<div class="scope prac"><h3 class="sec sec-prac"><span class="tag">Practice</span></h3>')
             if key in relampago:
                 _,body=relampago[key]
+                # optional cumulative recall grid, appended after the answers
+                cum=cumans=""
+                cm=re.search(r'\*\*Cumulative\.?\*\*(.*?)(?=\*\*Cumulative answers|\Z)', body, re.S)
+                ca=re.search(r'\*\*Cumulative answers\.?\*\*(.*)$', body, re.S)
+                if cm: cum=cm.group(1).strip()
+                if ca: cumans=ca.group(1).strip()
+                if cm: body=body[:cm.start()]
                 am=re.search(r'\*\*Answers\.?\*\*', body)
                 items, rans = (body[:am.start()], body[am.end():]) if am else (body, "")
-                parts.append('<div class="relampago"><span class="h">Repaso relámpago · 2 minutes · don\'t look back</span>'
-                             +md_ol(items)
-                             +(f'<div class="upside">{md_inline(rans.strip())}</div>' if rans.strip() else '')
-                             +'</div>')
+                blk=('<div class="relampago"><span class="h">Repaso relámpago · 2 minutes · don\'t look back</span>'
+                     +md_ol(items))
+                if cum:
+                    blk+=('<div class="cumul"><span class="h2">Y estas palabras de antes — write the Spanish</span>'
+                          +md_inline(cum)+'</div>')
+                tail=" · ".join(x for x in (rans.strip(), cumans.strip()) if x)
+                if tail: blk+=f'<div class="upside">{md_inline(tail)}</div>'
+                parts.append(blk+'</div>')
             parts.append('<div class="practice">'+md_ol(ex[0])+'</div>')
             parts.append('<p class="ansref"><small>Check your answers in the <b>Answer Key</b> at the back of the book.</small></p>')
             parts.append('</div>')
@@ -639,7 +656,7 @@ def build():
         html_doc.write_pdf(out)
     print(f"PDF -> {out} ({os.path.getsize(out)//1024} KB) | lessons={len(themes)} "
           f"exercises={len(answer_key)} tests={len(test_key)} indexwords={len(words)} "
-          f"cando={len(cando)} cultura={len(cultura)} variantes={len(variantes)} relampago={len(relampago)}")
+          f"cando={len(cando)} suena={len(suena)} cultura={len(cultura)} variantes={len(variantes)} relampago={len(relampago)}")
 
 if __name__=="__main__":
     build()
