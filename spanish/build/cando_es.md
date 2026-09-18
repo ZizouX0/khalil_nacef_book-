@@ -5,7 +5,7 @@
 - Ask how somebody is, and answer when the question comes back at you.
 - Say you are lost. Then get the other person to slow down, repeat, or find another way to say it.
 - Ask what a thing is called in Spanish, ask how a word is spelled, and spell your own name out loud.
-- Count to ten, and do what the teacher has just asked the class to do.
+- Count from 0 to 10, and do what the teacher has just asked the class to do.
 
 *None of that is grammar, and all of it is what keeps the class in Spanish.*
 
@@ -34,7 +34,7 @@
 - Buy something: say what you want, ask what it costs, and say which one you prefer.
 - Point at things and ask about them — *this one, that one, which one?* — without knowing the word for the thing.
 - Describe clothes and objects by colour, size and what they are made of, and hold two of them up against each other.
-- Understand a price said out loud at speed, and handle numbers past a hundred.
+- Understand a price said out loud at speed, and handle numbers, quantities and prices above 100.
 - Say what you have to buy and what you have to do, with *tener que*.
 
 ## Tus amigos son mis amigos {#u=A1-5}

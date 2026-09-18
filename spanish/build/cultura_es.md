@@ -19,7 +19,7 @@ Say *estadounidense*, not *americano*. For most Latin Americans *América* is a 
 Two more habits from this unit's dialogues: nationalities and languages take no capital letter (*soy alemana, hablo francés*), and you ask what somebody does for a living with ***¿A qué te dedicas?***
 
 ## Lenguas del mundo hispano {#u=A1-2}
-The word on the sign is *sortida*, or it is *saída*. Both mean *salida*, and if you are standing in a station in Barcelona or Santiago de Compostela wondering where the exit has gone, that is your answer. The sign is not in Spanish.
+The sign says *sortida*. Or it says *saída*. Both mean *salida*, and if you are standing in a station in Barcelona or Santiago de Compostela wondering where the exit has gone, that is your answer: the sign is not in Spanish.
 
 Spanish is official in 21 countries and almost nowhere is it the only language. Spain has four more beside *castellano*. **Catalan/Valencian** is spoken by roughly 11% and 5% of Spaniards, **Galician** by about 5%, **Basque** by about 2% — *el euskera*, which is not related to Spanish, or to French, or to any other language anybody has ever managed to find. **Aranese** has some 10,000 speakers in one Pyrenean valley and is co-official too. In Barcelona, Valencia, Bilbao and Santiago, signs and menus may put the local language first. Saying ***Perdona, no hablo catalán, ¿me lo dices en castellano?*** is polite and completely ordinary.
 
@@ -65,7 +65,7 @@ Turn up for dinner at 19:00 and you will find the chairs on the tables. Most res
 
 The whole day sits about two hours later than you expect it to. *El desayuno* (7–9) is coffee and toast and not much else. *La comida*, **14:00–15:30**, is the real meal. Children get *la merienda* around 17:30 to bridge the gap, and they need it.
 
-Part of this is the clock itself. Spain lies at roughly the longitude of Britain but keeps Central European Time, so on 21 June the sun goes down in Madrid at **21:48**. Dinner at ten feels like dinner at eight. I have been going for years and I still cannot make myself hungry at that hour.
+Part of this is the clock itself. Spain lies at roughly the longitude of Britain but keeps Central European Time, so on 21 June the sun goes down in Madrid at **21:48**. Dinner at ten feels like dinner at eight. I have eaten a great many Spanish dinners and I still cannot make myself hungry at that hour.
 
 Latin America is not Spain. Mexico takes *la comida* mid-afternoon too, but *la cena* is lighter and earlier, 19:00–21:00. Argentina and Uruguay eat as late as Spain, sometimes later.
 
@@ -94,7 +94,7 @@ Addresses run from big to small and include the floor. *Calle Mayor 12, 3.º izq
 The *barrio* is a unit of life rather than a postcode — its bar, its *farmacia* under a green cross, its *estanco* for stamps and transport cards. In smaller towns the independent shops shut roughly **14:00–17:00**, and Sunday opening is limited and set region by region. The malls and the big chains stay open all day regardless.
 
 ## Buscar trabajo {#u=A1-9}
-Put a photograph on it. The Spanish *currículum* normally carries a headshot, along with your date of birth and often a line reading *carné de conducir: sí*. None of it is legally required and attitudes are shifting, but a CV without a photo still looks half-finished to a great many recruiters in Spain and across Latin America.
+Put a photograph on your CV. The Spanish *currículum* normally carries a headshot, along with your date of birth and often a line reading *carné de conducir: sí*. None of it is legally required and attitudes are shifting, but a CV without a photo still looks half-finished to a great many recruiters in Spain and across Latin America.
 
 Then the number that catches everyone out. Salaries are quoted gross, per year, and paid in fourteen instalments: Spanish law gives employees two extra payslips a year, *las pagas extras*, normally in summer and at Christmas, unless the collective agreement spreads them over twelve months instead. So *24.000 € brutos en 14 pagas* is about €1,714 gross a month, not €2,000. Ask outright: ***¿Son catorce pagas o doce?***
 
