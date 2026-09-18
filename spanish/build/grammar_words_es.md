@@ -23,7 +23,7 @@ is the one that matters.
 - **pronoun** — a word that replaces a noun so you don't repeat it: *I, you, it, them* → *yo, tú, lo, las*.
 
 > **Gender is the one that trips everyone up.** In English a table is just a table. In Spanish it is *la
-> mesa*, feminine, and everything you put round it has to agree: *la mesa pequeña*, never "el mesa pequeño".
+> mesa*, feminine, and everything you put around it has to agree: *la mesa pequeña*, never "el mesa pequeño".
 > So never learn *mesa*. Learn **la mesa**, from your very first word. The article is part of the word.
 > This book prints every noun with a coloured tag — <span class="gen m">el</span> for masculine,
 > <span class="gen f">la</span> for feminine — so you can't quietly forget which is which.
