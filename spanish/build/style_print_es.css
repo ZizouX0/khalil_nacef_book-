@@ -39,6 +39,9 @@ h3.sec{background:none !important}
 .cover .sub,.cover .kick,.cover .meta .author{color:var(--ink) !important; text-shadow:none !important}
 .cover .rule{background:var(--c-brand) !important}
 
-/* No running head is wanted on a stapled home printout: the page numbers
-   at the foot are enough, and the reclaimed 3mm is a spare line per page. */
-@page{ margin-top:16mm; @top-right{content:none} }
+/* No running head is wanted on a stapled home printout: the page numbers at the
+   foot are enough, and the 3mm it frees is about half a line back on every page.
+   The left margin goes to 20mm because this is the edition that actually gets
+   punched or stapled: a 2- or 4-hole punch centres its holes about 12mm in with a
+   6mm bore, so at a symmetric 14mm the rim of the hole comes through the text. */
+@page{ margin:16mm 14mm 17mm 20mm; @top-right{content:none} }

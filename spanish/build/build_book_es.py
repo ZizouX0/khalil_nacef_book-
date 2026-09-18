@@ -51,7 +51,19 @@ def md(t):
     # test back to 1 in each section and break all 20 routing tables.
     h=re.sub(r'<ol start="(\d+)"',
              lambda m: f'<ol style="counter-reset:list-item {int(m.group(1))-1}"', h)
+    h=_drop_empty_thead(h)
     return h
+
+def _drop_empty_thead(h):
+    """A markdown table must have a header row, so a table that wants no headings
+    is written with an empty one. That empty row still prints — a solid bar of
+    section colour with nothing in it, which reads as a rendering fault."""
+    def strip(m):
+        cells=re.findall(r'<th[^>]*>(.*?)</th>', m.group(1), re.S)
+        if cells and all(not re.sub(r'<[^>]+>', '', c).strip() for c in cells):
+            return ''
+        return m.group(0)
+    return re.sub(r'<thead>(.*?)</thead>', strip, h, flags=re.S)
 def md_ol(t):
     """Render markdown but KEEP the author's ordered-list start numbers.
     python-markdown restarts every <ol> at 1, which would renumber the tests
@@ -138,6 +150,10 @@ def parse_grammar(gram):
         rule=grab('Rule','Examples|Table')
         exs =grab('Examples','Table')
         tbl =grab('Table','')
+        # A block with two tables carries a second '**Table.**' inside the part we
+        # just grabbed, and it would print as a stray one-word paragraph. The label
+        # has done its job by now; drop any that are left over.
+        tbl=re.sub(r'(?m)^\s*\*\*(?:Rule|Examples|Table)\.\*\*[ \t]*$\n?', '', tbl).strip()
         # anything that used none of the three labels stays as free prose
         rest=main if not (rule or exs or tbl) else ""
         pts.append(dict(name=nm,cat=cat,rule=rule,exs=exs,tbl=tbl,rest=rest,ojo=ojo))
@@ -313,6 +329,44 @@ def parse_repaso(path):
         content, answers = (body[:am.start()], body[am.end():]) if am else (body, "")
         out[key]=(content.strip(), answers.strip())
     return out
+
+# How many "Notas" lines each test gets. A test runs to about a page and a half,
+# and the next unit always opens on a fresh page, so the tail of the second page
+# can never be backfilled by what follows. fit_notes.py measures the leftover on
+# each of those pages and writes the line count that fills it; without that file
+# every test falls back to a plain seven.
+NOTES_FILL = {}
+if os.path.exists(f"{BUILD}/notes_fill.json"):
+    NOTES_FILL = json.load(open(f"{BUILD}/notes_fill.json"))
+NOTES_FILL = {}
+if os.path.exists(f"{BUILD}/notes_fill.json"):
+    NOTES_FILL = json.load(open(f"{BUILD}/notes_fill.json"))
+
+def score_panel(points, nivel, key):
+    """The page after a test is always a fresh one — the next unit opens on its
+    own page — so whatever is left of the test page cannot be backfilled. Rather
+    than leave two-thirds of it blank, give the learner the thing a self-study
+    course otherwise never provides: somewhere to write the score down, and the
+    one instruction that decides what they do next. Recording a score and acting
+    on it is the whole point of a mastery gate."""
+    secs=re.findall(r'\b([A-G])\s+(\d+)\b', points or "")
+    tot=re.search(r'=\s*\*{0,2}(\d+)', points or "")
+    if not secs or not tot: return ""
+    total=int(tot.group(1)); gate=round(total*0.8)
+    nlines=int(NOTES_FILL.get(key, 7))
+    head="".join(f'<th>{s}</th>' for s,_ in secs)+'<th class="tot">Total</th>'
+    cell="".join(f'<td><span class="mk"></span><span class="of">/{n}</span></td>' for _,n in secs)+\
+         f'<td class="tot"><span class="mk"></span><span class="of">/{total}</span></td>'
+    return ('<div class="score">'
+            '<span class="h">Mi resultado</span>'
+            f'<table class="scoregrid"><thead><tr>{head}</tr></thead>'
+            f'<tbody><tr>{cell}</tr></tbody></table>'
+            f'<p class="gate">Pass mark <b>{gate}/{total}</b>. Below that, don\'t move on. '
+            'The answer key sends every question you got wrong back to the page that teaches it: '
+            'do those pages again, then sit this test a second time about a week later.</p>'
+            '<span class="h2">Notas — what went wrong, and what to look at again</span>'
+            +'<div class="nline"></div>'*nlines+
+            '</div>')
 
 def parse_tests(path):
     """{(nivel,unidad): dict(paper, points, answers, model, checks, routing)}"""
@@ -525,6 +579,7 @@ def build():
             if ts['points']: parts.append('<p class="pointmap">'+md_inline(ts['points'])+'</p>')
             parts.append('<p class="ansref"><small>Mark yourself from the <b>Test Answer Key</b> at the back — '
                          'only after you have answered everything.</small></p></div>')
+            parts.append(score_panel(ts['points'], nivel, f"{nivel}-{uno}"))
             test_key.append((f"Test — Unidad {uno}: {t['name']} ({nivel})", ts))
 
         # Repaso checkpoint

@@ -107,8 +107,15 @@ ul.toc a{text-decoration:none; color:inherit}
 ul.toc li a::after{content:"  " leader('.') " " target-counter(attr(href), page); color:#6B6259; font-weight:normal}
 
 /* ---------- headings ---------- */
+/* The band bleeds off all three edges. The top margin is 19mm, so the negative
+   margin has to be the same 19mm — at -16mm it stopped 3mm short and left a white
+   sliver above a band that is meant to run off the paper. */
 h1{ page-break-before:always; font-size:25pt; color:#fff; background:var(--c-brand);
-  margin:-16mm -14mm 7mm -14mm; padding:24mm 14mm 9mm; border-bottom:6px solid #6E0E19}
+  margin:-19mm -14mm 7mm -14mm; padding:27mm 14mm 9mm; border-bottom:6px solid #6E0E19;
+  page:unitopen}
+/* No running head on a page whose band already carries the title: it printed grey
+   on dark red, at 1.6:1, and said the same thing as the 25pt heading under it. */
+@page unitopen{ @top-right{ content:none } }
 h2{font-size:16pt; color:var(--c-brand); margin:1.1em 0 .45em; padding-bottom:3px;
   border-bottom:2px solid var(--c-brand-rule); page-break-after:avoid}
 h3{font-size:12.5pt; color:var(--ink-3); margin:.9em 0 .35em; page-break-after:avoid}
@@ -138,13 +145,27 @@ h3.sec .tag::before{ margin-right:.55em; font-size:11.5pt; font-weight:normal }
 .sec-conv .tag::before{ content:"\275D" }   /* quote mark  */
 .sec-prac .tag::before{ content:"\270E" }   /* pencil      */
 
+/* width:fit-content, not inline-block: the rule under the label has to stop at the
+   end of the word rather than run the full measure, but break-after:avoid does not
+   apply to an inline-level box, so as an inline-block this label would strand itself
+   at the foot of a page with its table overleaf. */
 h4.vh{ color:var(--sec); font-size:10pt; text-transform:uppercase; letter-spacing:.05em;
-  margin:.75em 0 .25em; border-bottom:1px solid var(--sec); padding-bottom:2px; display:inline-block }
+  margin:.75em 0 .25em; border-bottom:1px solid var(--sec); padding-bottom:2px;
+  display:block; width:fit-content; page-break-after:avoid }
 
 /* ---------- tables ---------- */
 table{border-collapse:collapse; width:100%; font-size:9.3pt; margin:.4em 0 1em}
 tr{page-break-inside:avoid}
+/* The header group reprints at the top of every page a long table runs onto, so a
+   vocabulary list never continues as four unlabelled columns. It is also what keeps
+   a header off the very foot of a page: WeasyPrint will not reprint a header it
+   cannot put at least one row beneath. */
 thead{display:table-header-group}
+/* A short table moves to the next page whole rather than leave its header and a
+   single row stranded at the foot — split that way it reads as two broken tables.
+   Eight rows is the limit on purpose: forbid a longer table to split and it gets
+   pushed onto a page of its own, leaving the page before it half empty. */
+table:not(:has(tbody tr:nth-child(9))){break-inside:avoid}
 th,td{border:1px solid var(--rule-hair); padding:3.5px 8px; text-align:left; vertical-align:top}
 thead th{background:var(--sec); color:#fff; border-color:rgba(0,0,0,.28)}
 tbody tr:nth-child(even){background:#F7F5F1}
@@ -162,6 +183,13 @@ table.voc td.ex{width:36%; font-size:8.7pt; line-height:1.3}
 /* keep the headword column wide enough that the gender pill isn't orphaned
    from its noun ("la | hoja de / papel") */
 table.voc td:first-child{width:21%}
+/* Pin the middle two columns as well. Left to size themselves, they split the
+   leftover width by whatever the longest note in that particular table happens
+   to be, so the English column landed at 73 different positions across the book
+   — it visibly jumped every time you turned the page. Percentages, not
+   table-layout:fixed, which re-bases all four and moves the two that were right. */
+table.voc td:nth-child(2), table.voc th:nth-child(2){width:22%}
+table.voc td:nth-child(3), table.voc th:nth-child(3){width:21%}
 td.ex .es{display:block; color:var(--ink)}
 td.ex .en{display:block; color:#6B6259; font-size:7.9pt; font-style:italic; margin-top:1px}
 
@@ -219,6 +247,25 @@ td.ex .en{display:block; color:#6B6259; font-size:7.9pt; font-style:italic; marg
 .var table{font-size:8.8pt; margin:.3em 0 .4em}
 .var thead th{background:var(--c-cult)}
 
+/* ---------- what may break across a page, and what may not ----------
+   Holding a box whole costs nothing while the box is short: ¡Ojo! tops out at
+   74pt and the tip box at 103pt, and across 140 of them neither has ever had to
+   jump. The talkative boxes are a different matter — a dialogue or a culture note
+   runs to 200-320pt, so every time one misses the fold it throws a third of a
+   page away, and there were 23 such jumps. A dialogue reads perfectly well across
+   a break; half a page of nothing does not. The rule order matters here: these
+   have the same specificity as .box above, so they win by coming later. */
+.box{page-break-inside:auto}
+.tip,.ojo{page-break-inside:avoid}
+.dlg,.cult,.var,.suena,.fr{orphans:2; widows:2}
+/* whatever else breaks, the box's own label must never be the last thing on a page */
+.dlg .h,.cult .h,.var .h,.suena .h,.fr .h{page-break-after:avoid}
+
+/* the two-minute recall strip is a numbered list — the one exercise a learner can
+   pick up again overleaf without losing the thread */
+.relampago{page-break-inside:auto; orphans:2; widows:2}
+.relampago .h{page-break-after:avoid}
+
 /* ---------- unit opener ---------- */
 .opener{position:relative; overflow:hidden; color:#fff; border-radius:12px; margin:0 0 11px;
   page-break-inside:avoid; page-break-before:always; page-break-after:avoid; background:var(--c-brand)}
@@ -250,11 +297,21 @@ td.ex .en{display:block; color:#6B6259; font-size:7.9pt; font-style:italic; marg
 .g-exwrap ul,.g-ex{margin:.1em 0 .2em 1.05em}
 .exlead{margin:.5em 0 .1em}
 
-ul,ol{margin:.25em 0 .6em 1.1em; padding:0} li{margin:.12em 0}
+/* Indent with padding, not margin, so the marker sits inside the list box. Indented
+   by margin, a two-digit marker ("10.") hangs past the left text edge and into the
+   gutter — which is where a hole punch or a staple goes. */
+ul{margin:.25em 0 .6em 0; padding-left:1.35em}
+ol{margin:.25em 0 .6em 0; padding-left:1.6em}
+li{margin:.12em 0}
 
 /* ---------- diagram ---------- */
 .diagram{text-align:center; margin:8px 0 12px; page-break-inside:avoid}
-.diagram svg{max-width:80%}
+/* The body diagram is the only portrait one, half again taller than the other
+   fifteen, and at full width it missed the fold by about 17pt and left the biggest
+   hole in the book behind it. Cap the height rather than the width: capping width
+   would shrink the fifteen that already fit. 380pt keeps its labels at 8.2pt —
+   capping at 300, which also clears, would take them down to 6.5pt. */
+.diagram svg{max-width:80%; max-height:380pt}
 
 /* ---------- practice ---------- */
 .relampago{background:var(--c-prac-tint); border:1px solid var(--c-prac-rule); border-radius:8px;
@@ -283,15 +340,47 @@ h2.testhead .lv{float:right; font-size:10pt; background:rgba(255,255,255,.22);
 .test p{margin:.38em 0}
 .test ol,.test ul{margin:.3em 0 .5em 1.2em}
 .test strong{color:var(--c-test)}
+/* the total answers the test above it; alone at the top of a page it reads as a
+   heading for whatever comes next */
 .test .pointmap{margin-top:8px; padding-top:5px; border-top:1px solid var(--c-test-rule);
-  font-weight:bold; color:var(--c-test); text-align:right}
+  font-weight:bold; color:var(--c-test); text-align:right; page-break-before:avoid}
 .testkey .box.tip{margin:5px 0}
 .checks,.routing{margin:6px 0 10px; font-size:8.8pt}
+/* break-after:avoid, or "WHERE TO GO BACK TO" prints at the foot of a page with the
+   table it introduces overleaf — the one line in the answer key a failed test sends
+   you to. Kept on the label rather than the whole block, so a long routing table can
+   still split instead of being pushed onto a page of its own. */
 .checks .h,.routing .h{display:block; font-weight:bold; font-size:7.8pt; text-transform:uppercase;
-  letter-spacing:.05em; color:var(--c-test); margin-bottom:3px}
+  letter-spacing:.05em; color:var(--c-test); margin-bottom:3px; page-break-after:avoid}
 .checks ul{list-style:none; margin:.1em 0 0 0}
 .checks li::before{content:"\2610\00A0\00A0"; color:var(--c-test)}
 .routing table{font-size:8.5pt} .routing thead th{background:var(--c-test)}
+
+/* Mi resultado — sits on the tail of a test page, which can never be backfilled
+   because the next unit opens on a fresh page. Rule-only, no fill: the test box
+   directly above it is already tinted, and two stacked fills would read as one
+   block instead of two steps (sit the test, then score it). The notes lines are
+   allowed to break over the page; the grid is not, because half a score table
+   is unusable. */
+.score{margin:10px 0 0; padding:9px 0 0; border-top:2px solid var(--c-test-rule); page-break-inside:auto}
+.score .h{display:block; font-weight:bold; font-size:9.5pt; color:var(--c-test);
+  text-transform:uppercase; letter-spacing:.05em; margin-bottom:5px}
+.score .h::before{content:"\25A3\00A0\00A0"}
+.scoregrid{width:auto; margin:0 0 7px; font-size:9.4pt; page-break-inside:avoid; border-collapse:collapse}
+.scoregrid th{background:none; color:var(--c-test); font-size:8.6pt; text-align:center;
+  padding:1px 0 3px; border:none; border-bottom:1px solid var(--c-test-rule)}
+.scoregrid td{border:none; padding:0; text-align:center}
+/* the rule is the box the mark goes in, so it stops before the "/6" — run it under
+   both and there is no telling where the writing is supposed to start */
+.scoregrid .mk{display:inline-block; min-width:13mm; border-bottom:1px solid #9A938C;
+  height:5.5mm; vertical-align:bottom}
+.scoregrid .of{color:var(--ink-3); font-size:8.6pt; padding-left:1mm}
+.scoregrid .tot .of{color:var(--c-test); font-weight:bold}
+.scoregrid th.tot{color:var(--c-test); border-bottom-width:2px}
+.score .gate{margin:.35em 0 .7em; font-size:9.2pt}
+.score .h2{display:block; font-weight:bold; font-size:7.8pt; text-transform:uppercase;
+  letter-spacing:.05em; color:var(--c-test); margin:0 0 3px}
+.score .nline{border-bottom:1px solid #C3B9AF; height:7mm}
 
 /* ---------- repaso: its identity is "all four sections at once" ---------- */
 .repaso{margin-top:8px; padding-top:7px;
@@ -324,7 +413,11 @@ blockquote{background:var(--c-tip-tint); border:1px solid var(--c-tip-rule); bor
 blockquote p{margin:.15em 0}
 
 /* ruled space for the end-of-test writing task */
-.writebox{margin:6px 0 2px; page-break-inside:avoid}
+/* Ruled lines are the only thing in the book that loses nothing by splitting, and
+   held whole they were the reason three tests pushed their score line onto a page
+   of its own. Let the fold fall between two lines instead. */
+.writebox{margin:6px 0 2px; page-break-inside:auto}
+.writebox .wq{page-break-after:avoid}
 .writebox .wq{display:block; font-weight:bold; color:var(--c-test); font-size:9.6pt; margin-bottom:2mm}
 .writebox .wline{border-bottom:1px solid #B5ABA1; height:7mm}
 
