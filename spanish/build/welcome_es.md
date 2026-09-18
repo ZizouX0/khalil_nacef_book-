@@ -1,109 +1,98 @@
-# Start Here — How to Use This Book
+# Start Here
 
-**¡Hola! Welcome.** This book takes you from **zero** to a solid A2 level in Spanish. You don't need to know
-a single word to begin — everything is explained in English, step by step, and you learn by *seeing the
-language in action* and then *using it yourself*.
+You don't know any Spanish. That's fine — this book assumes it. By the end you'll be able to order
+lunch, describe your flat, argue mildly about a film, and tell someone what happened to you last Tuesday.
+That's roughly A2, and it's further than it sounds.
 
-## Who this book is for
+Two things before you start.
 
-Complete beginners who want to **learn**, not just revise. If you can read this sentence, you can start
-Unit 0 today.
+**Write in this book.** There are ruled lines for a reason. A gap you fill in with a pen is worth about
+three you read and nod at. If that feels like vandalism, photocopy the exercise pages — but write.
 
-## How the book is organised
+**The hard bits are supposed to be hard.** Every so often this book will ask you to remember something
+from five units ago, with no warning and no way to look it back up on that page. That isn't an oversight.
+Failing to remember something and then looking it up is the single most useful thing that happens in a
+study session. The book is built around it.
 
-**1. The opening pages** — this page, *The Eight Grammar Words*, *Your Study Plan*, *Which Spanish Are You
-Learning?*, *Pronunciation & Accents* and *The Spanish You Already Know*. Read them once before Unit 0. They
-take twenty minutes and they save you weeks.
+## How a unit works
 
-**2. The 20 units** — the heart of the book, in learning order (A1 first, then A2). Work through them **one
-at a time, in order.** Every unit has the same shape, and every part has its own colour so you always know
-where you are:
+Same shape every time, so you stop having to think about the shape:
 
-- **A promise** — a short list of what you will be able to *do* by the end of the unit.
-- **Vocabulary** — the words of the topic, with gender tags, often with a picture or diagram, plus an
-  *En España / En América* box showing which words change across the Spanish-speaking world.
-- **Grammar** — the rules you need for this topic, each one as *rule → examples → full table → the pitfall*.
-- **Conversations** — a real mini-dialogue using the words and grammar, with the English underneath, and a
-  *Cultura* box on how things actually work in Spain and Latin America.
-- **Practice** — five exercises so *you* use the language, opening with a two-minute **Repaso relámpago**
-  that brings back material from earlier units.
-- **Test** — a scored test of the whole unit. See below; this is the most important page in the unit.
+| | |
+|---|---|
+| **Vocabulary** | The words, with *el* or *la* attached, and a real sentence using each one. |
+| **Grammar** | Usually four to seven points. Rule, examples, table, and the mistake everyone makes. |
+| **Conversations** | One dialogue, read out loud. Then a note on how the thing actually works in Spain and Latin America. |
+| **Practice** | Five exercises. Before them, a two-minute recall strip from earlier units — do it cold. |
+| **Test** | 40 points at A1, 50 at A2. You need 80% before moving on. |
 
-**3. Reference** (at the back) — full grammar tables, useful phrases, *Where to Go After Unit 20*, a glossary
-of every verb and adjective, an alphabetical index, the **Answer Key**, and the **Test Answer Key**.
+Wait a day between finishing a unit and taking its test. Sleeping on it is part of the method, not a
+delay.
 
-## The colour code
+## The colours
 
-Each part of a unit has its own colour, on the section bar and down the edge of the page. You do not need to
-memorise this — after two units your eye will find the grammar without reading a word.
+Each part of a unit has a colour on its bar and down the edge of the page, and the tables in that section
+match it. You'll stop reading the labels after two units and just know where you are.
 
-| Colour | Icon | Part of the unit |
+| | | |
 |---|---|---|
-| **Blue** | ▤ | **Vocabulary** — words, tables, gender |
-| **Ochre** | ⊞ | **Grammar** — rules, examples and conjugation tables |
-| **Green** | ❝ | **Conversations** — the dialogue and the culture box |
-| **Graphite** | ✎ | **Practice** — the exercises you do |
-| **Crimson** | — | **Test** — the scored end-of-unit check |
-| **All four at once** | ⟳ | **Repaso** — the review checkpoints after A1-5, A1-9, A2-5 and A2-10 |
+| ▤ | **Blue** | Vocabulary |
+| ⊞ | **Ochre** | Grammar |
+| ❝ | **Green** | Conversations |
+| ✎ | **Graphite** | Practice |
+| ◆ | **Crimson** | Test |
 
-The colour appears on the section bar, on the rule running down the edge of the page, and on the heading
-row of every table in that section — so a table tells you which part of the unit you are in even if you
-have flipped straight to it.
-
-**Colour is never the only signal.** Every section also carries an icon and a written label, and the Test
-is the only part with a full-width coloured band. So the book works exactly as well photocopied in black
-and white, and for the roughly one man in twelve who doesn't distinguish red from green.
+Nothing depends on colour alone — every section is also labelled and carries an icon, so the book works
+photocopied in black and white.
 
 ## The boxes
 
-| You'll see | It means |
+| | |
 |---|---|
-| <span class="gen m">el</span> before a word | this noun is **masculine** |
-| <span class="gen f">la</span> before a word | this noun is **feminine** |
-| a yellow **TRUCO** box | a memory trick that makes something stick |
-| a red **¡OJO!** box | watch out — this is where learners go wrong |
-| a blue **EN CONTEXTO** box | a real conversation, to be read aloud |
-| an amber **CULTURA** box | how it actually works in Spain and Latin America |
-| a grey **EN ESPAÑA / EN AMÉRICA** strip | words that change from country to country |
+| <span class="gen m">el</span> <span class="gen f">la</span> | The gender of a noun. Learn it *with* the word, always. |
+| **¡Ojo!** | Where learners go wrong. Read these twice. |
+| **Truco** | A trick for remembering something awkward. |
+| **Cultura** | How it actually works — meal times, greetings, tipping, pharmacies. |
+| **En España / En América** | Words that change between Spain and Latin America. |
+| **Suena así** | How to say it, and one pair of words a beginner mixes up. |
+| **Si tu parles français** | Where French gives you a shortcut Spanish learners from English don't get. |
 
-> **Gender matters in Spanish.** Every noun is masculine or feminine, so always learn a word *with its*
-> **el** *or* **la** — that is why they are colour-tagged everywhere in this book. Never learn *mesa*.
-> Learn **la mesa**.
+That last one appears in about two-thirds of the units, not all of them. Where it's missing, it's because
+French offers nothing useful there — and I'd rather leave a gap than pad it. *Ser* and *estar* are the
+clearest case: French has one verb where Spanish has two, so on that page you're on your own like
+everybody else.
 
-## How to study one unit
+## What to do when you get stuck
 
-1. Read the **promise** at the top. That is what you are going for.
-2. Read the **Vocabulary** out loud — don't try to memorise it all at once.
-3. Work through the **Grammar** slowly. Look at every example before you look at the table.
-4. Read the **Conversation** out loud, then check yourself against the English.
-5. Do the **Practice** with a pen. Reading exercises is not doing them.
-6. Check the **Answer Key** and circle what you got wrong. Don't just notice it — circle it.
-7. **Wait a day.** Then take the **Test** with the book shut.
-8. Mark the test. If you scored 80% or more, move on. If not, the test tells you exactly which pages to
-   go back to.
+Every test question has a line at the back telling you which section to re-read and which exercise to
+redo. Use it. Don't just note the score and carry on — that's how people get to Unit 15 with a hole where
+Unit 4 should be.
 
-## About the tests
+If a unit defeats you, the answer is almost never to push forward. Go back, wait two days, take the test
+again. Two days of waiting is not lost time.
 
-There is a test at the end of every unit: **40 points at A1, 50 points at A2**, about 25–30 minutes. You
-need **80%** to move on. They are deliberately harder than the exercises, and some questions come from
-*earlier* units without warning — both of those things are on purpose. Retrieving something with effort is
-what makes it stick; a test you breeze through has taught you nothing you did not already have.
+## Nine expressions, free
 
-Full marking instructions, the score bands, and a *Where to go back to* table for every test are in the
-**Test Answer Key** at the back.
-
-## Your very first words — learn these now
+You already know more Spanish than you think — *hotel*, *hospital*, *chocolate*, *animal*, *actor* are all
+free. Here are nine more to learn right now, before Unit 0:
 
 | Español | English |
 |---|---|
-| Hola | Hi / Hello |
+| Hola | Hi |
 | Buenos días | Good morning |
 | ¿Qué tal? | How's it going? |
-| Gracias / De nada | Thank you / You're welcome |
+| Gracias / De nada | Thanks / You're welcome |
 | Por favor | Please |
 | Sí / No | Yes / No |
-| Adiós / Hasta luego | Bye / See you later |
+| Adiós / Hasta luego | Bye / See you |
 | No entiendo. | I don't understand. |
 | ¿Cómo se dice…? | How do you say…? |
 
-**You already know nine Spanish expressions. ¡Vamos!**
+Read **Pronunciation & Accents** next — it's short, and Spanish spelling is honest enough that twenty
+minutes there will serve you for the whole book. Then start Unit 0.
+
+The rest of the front of the book — how to learn vocabulary properly, a study plan, which Spanish this is,
+and the French head start — is at the back, under **Reference**. It's there when you want it. You don't
+need it to begin.
+
+¡Vamos!

@@ -235,7 +235,7 @@ def plain_table(rows, cls="voc"):
     o.append('</tbody></table>'); return "".join(o)
 
 DIAG_MAP={'casa-vivienda':'casa','cuerpo-salud':'cuerpo','familia-caracter':'familia',
-          'rutina-hora':'rutina','comida':'mesa','comida-recetas':'mesa',
+          'rutina-hora':['rutina','hora'],'comida':'mesa','comida-recetas':'mesa',
           'compras-ropa':'ropa','ciudad-barrio':'ciudad','geografia-clima':'clima',
           'ocio-viajes':'viajes'}
 # Diagrams for the four grammar points learners reliably fail. A conjugation table
@@ -249,9 +249,12 @@ GRAM_DIAG={'Indefinido vs imperfecto':'pasados',
 _DIAG_DONE=set()
 def diagram(suj):
     d=DIAG_MAP.get(suj)
-    if d and os.path.exists(f"{DIAG}/{d}.svg"):
-        return f'<div class="diagram">{open(f"{DIAG}/{d}.svg").read()}</div>'
-    return ""
+    if not d: return ""
+    out=[]
+    for name in ([d] if isinstance(d,str) else d):
+        if os.path.exists(f"{DIAG}/{name}.svg"):
+            out.append(f'<div class="diagram">{open(f"{DIAG}/{name}.svg").read()}</div>')
+    return "".join(out)
 
 VOC_TITLE={'verbos':'Verbs','sustantivos':'Nouns','adjetivos':'Adjectives & adverbs','otras':'Other words'}
 def md_inline(t):
@@ -392,13 +395,8 @@ def build():
     for name in ("welcome_es.md",):
         for t,b in split_h1(md_file(name)):
             parts.append(h(1,t)); parts.append(md(b))
-    for name in ("grammar_words_es.md","aprender_es.md","studyplan_es.md","variedades_es.md","frances_intro_es.md"):
-        for t,b in split_h1(md_file(name)):
-            parts.append(h(1,t)); parts.append(md(b))
     pt,pbody=bonus_section("Pronunciation")
     if pt: parts.append(h(1,pt)); parts.append(md(pbody))
-    for t,b in split_h1(md_file("leer_voz_alta_es.md")):
-        parts.append(h(1,t)); parts.append(md(b))
     for t,b in split_h1(md_file("cognates_es.md")):
         parts.append(h(1,t)); parts.append(md(b))
 
@@ -548,7 +546,8 @@ def build():
     et,ebody=bonus_section("Useful Expressions")
     if et: parts.append(h(1,et)); parts.append(md(ebody))
 
-    for name in ("nextsteps_es.md",):
+    for name in ("aprender_es.md","leer_voz_alta_es.md","grammar_words_es.md",
+                 "variedades_es.md","frances_intro_es.md","studyplan_es.md","nextsteps_es.md"):
         for t,b in split_h1(md_file(name)):
             parts.append(h(1,t)); parts.append(md(b))
 
