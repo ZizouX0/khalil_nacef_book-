@@ -1,8 +1,10 @@
 # The Eight Grammar Words This Book Uses
 
-You do not need to have studied grammar to use this book. But eight words come up again and again, and it
-is worth spending two minutes on them now so they never slow you down later. Every one is explained with an
-English example first.
+You don't need to have studied grammar to use this book. You do need eight words. Two minutes here and they
+will never slow you down again. English example first, every time.
+
+If you already know what a subject and an object are, skim the table and go to the box at the bottom. The box
+is the one that matters.
 
 | Word | What it means | In English | In Spanish |
 |---|---|---|---|
@@ -20,8 +22,8 @@ English example first.
 - **article** — the little word before a noun: *the* → **el, la, los, las**; *a/an* → **un, una**.
 - **pronoun** — a word that replaces a noun so you don't repeat it: *I, you, it, them* → *yo, tú, lo, las*.
 
-> **The one that trips everyone up is gender.** In English a table is just a table. In Spanish it is *la
-> mesa* — feminine — and everything you put around it has to agree: *la mesa pequeña*, not "el mesa pequeño".
-> So from your very first word, never learn *mesa*. Learn **la mesa**. The article is part of the word.
+> **Gender is the one that trips everyone up.** In English a table is just a table. In Spanish it is *la
+> mesa*, feminine, and everything you put round it has to agree: *la mesa pequeña*, never "el mesa pequeño".
+> So never learn *mesa*. Learn **la mesa**, from your very first word. The article is part of the word.
 > This book prints every noun with a coloured tag — <span class="gen m">el</span> for masculine,
-> <span class="gen f">la</span> for feminine — so you always see it.
+> <span class="gen f">la</span> for feminine — so you can't quietly forget which is which.

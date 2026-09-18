@@ -1,11 +1,13 @@
 # Your Study Plan
 
-Twenty minutes on five days beats a hundred minutes on one. That is not encouragement — it is how memory
-works. If you miss a day, don't "catch up" by doubling. Just do today's twenty minutes.
+Twenty minutes on five days beats a hundred minutes on one. That is not encouragement, it is how memory
+works. Miss a day and don't "catch up" by doubling tomorrow. Just do tomorrow's twenty minutes.
 
-Pick one of the two plans below, write real dates into the blank column, and tick the boxes as you go.
-The tracker is not decoration: for a self-study learner, **seeing** progress is the single best protection
-against quitting.
+Pick a plan, write real dates into the blank column, tick the boxes. The tracker is not decoration: studying
+alone, **seeing** the progress is your best protection against quitting in week seven.
+
+Plan A if something is forcing your hand — a trip, an exam, a job. Otherwise Plan B. Nobody ever failed at
+Spanish by going too slowly.
 
 ## The shape of one study session (25 minutes)
 
@@ -36,8 +38,8 @@ On the last day of a unit, swap the middle two steps for the unit **Test**.
 | 11 | **A2-9** | **A2-10** | **Repaso 4** | **A2 complete** |
 | 12 | Mixed past-tense drill | Re-do all four Repaso mini-tests cold | Full "you can now" audit, all 20 units | Finished — see *Where to go next* |
 
-> **Weeks 6 and 12 are not padding.** They are where the spacing effect is collected. Skipping them costs
-> you more than skipping a unit would.
+> **Weeks 6 and 12 are not padding.** They are where the spacing effect gets collected. Skip one and you
+> lose more than you would by skipping a unit.
 
 ## Plan B — 24 weeks, 1 unit a week (about 20 minutes a day, 4 days a week)
 
@@ -56,9 +58,9 @@ On the last day of a unit, swap the middle two steps for the unit **Test**.
 | 11 | **A1-9** ¿Sabes conducir? | 23 | **A2-10** Momentos especiales |
 | 12 | **Repaso 2** + A1 consolidation | 24 | **Repaso 4** + full self-assessment |
 
-**How a review week works.** Day 1 — the Repaso can-do checklist, ticked honestly. Day 2 — the mini-test,
-cold, no notes. Day 3 — re-read only the pages behind the items you got wrong. Day 4 — re-take the unit
-test you scored lowest on.
+**How a review week works.** Day 1: the Repaso can-do checklist, ticked honestly. Day 2: the mini-test, cold,
+no notes. Day 3: re-read only the pages behind the items you got wrong. Day 4: re-take the unit test you
+scored lowest on.
 
 ## Mi plan — write your dates in
 
@@ -89,5 +91,5 @@ test you scored lowest on.
 | 23 | A2-10 Momentos especiales | | ( ) | ( ) | ___ /50 | ( ) |
 | 24 | **Repaso 4 — A2 complete** | | ( ) | ( ) | ___ | ( ) |
 
-> The last column is the one that actually makes it stick. Coming back to a unit a week later, cold, is
-> worth more than reading it twice on the day.
+> The last column is the one that does the work. Coming back to a unit a week later, cold, beats reading it
+> twice on the day.
