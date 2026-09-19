@@ -22,11 +22,18 @@ WB_FILES = ["wb_a1p1.md", "wb_a1p2.md", "wb_a2p1.md", "wb_a2p2.md"]
 # Which course colour each workbook section borrows, so a learner who has used
 # the course book already knows what a heading's colour means before reading it.
 SEC_CLASS = {
-    "vocabulario": "voc",  "vocabulary": "voc",
-    "gramatica":   "gram", "grammar":    "gram",
-    "lectura":     "conv", "reading":    "conv",
-    "escritura":   "conv", "writing":    "conv",
-    "repaso":      "prac", "mixed":      "prac", "todo": "prac",
+    # the nine block names from WB_SPEC_ES.md, each borrowing the course book's
+    # colour for the kind of work it is
+    "reconocimiento": "voc",  "vocabulario": "voc", "vocabulary": "voc",
+    "formas":         "gram", "gramatica":   "gram", "grammar":   "gram",
+    "huecos":         "gram", "cloze":       "gram",
+    "un solo error":  "gram", "error":       "gram",
+    "lectura":        "conv", "reading":     "conv",
+    "reconstruye":    "conv",
+    "escribe":        "conv", "escritura":   "conv", "writing":   "conv",
+    "tu":             "conv",
+    "vuelve":         "prac", "repaso":      "prac", "traduce":   "prac",
+    "mixed":          "prac", "todo":        "prac",
 }
 UNIT_RE = re.compile(r'^##\s+Unidad\s+(\d+)\s*[—–-]\s*(.+?)\s*\{(.+?)\}\s*$', re.M)
 SEC_RE  = re.compile(r'^###\s+(.+?)\s*$', re.M)
@@ -34,6 +41,9 @@ TEXT_RE = re.compile(r'^\*\*(?:Texto|Text|Lectura)\.\*\*\s*(.+?)(?=\n\s*\n|\*\*E
 # "**Espacio.** 12" asks for twelve ruled lines: a 70-word writing task needs a
 # page to write on, not the single rule an ordinary item gets.
 SPACE_RE = re.compile(r'^\*\*(?:Espacio|Space)\.\*\*\s*(\d+)\s*$', re.M)
+# "**Corte.**" prints the halfway rule: a chapter is designed to be splittable
+# into two sittings of under twenty minutes, which is the length people finish.
+CUT_RE = re.compile(r'^\*\*(?:Corte|Split)\.\*\*\s*$', re.M)
 
 
 def sec_class(name):
@@ -95,6 +105,31 @@ def render_section(name, body):
     return "".join(o)
 
 
+
+BLOCK_PTS = [("A", "Reconocimiento", 6), ("B", "Formas", 6), ("C", "Texto con huecos", 8),
+             ("D", "Lectura", 6), ("D2", "Lee y reconstruye", 6), ("E", "Vuelve", 16),
+             ("F", "Un solo error", 5), ("G", "Traduce", 8), ("H1", "Tú", 3), ("H2", "Escribe", 6)]
+
+
+def chapter_grid():
+    """The end-of-chapter marking grid. There is no pass mark on purpose: this
+    book interleaves deliberately, interleaving is supposed to produce errors,
+    and a gate would punish the learner for the mechanism working. 60% a block is
+    an action threshold — below it, do the corrective — and the number that
+    matters is the trend on the chart at the back, not any single chapter."""
+    rows = BLOCK_PTS
+    total = sum(p for _, _, p in rows)
+    head = "".join(f'<th>{k}</th>' for k, _, _ in rows) + '<th class="tot">Total</th>'
+    cell = "".join(f'<td><span class="mk"></span><span class="of">/{p}</span></td>'
+                   for _, _, p in rows) + \
+           f'<td class="tot"><span class="mk"></span><span class="of">/{total}</span></td>'
+    return ('<div class="score wbgrid"><span class="h">Cómo ha ido</span>'
+            f'<table class="scoregrid"><thead><tr>{head}</tr></thead>'
+            f'<tbody><tr>{cell}</tr></tbody></table>'
+            '<p class="gate">No pass mark — this book is meant to make you get things wrong, because that '
+            'is what makes them stick. Any block under <b>60%</b>, do what the routing table says. '
+            'Then put the total on the chart at the back and watch the line, not the number.</p></div>')
+
 def build():
     B.TOC.clear(); B._IDS.clear()
     chapters = []
@@ -114,12 +149,19 @@ def build():
     n_ex = n_items = 0
     for nivel, uno, title, secs, answers in chapters:
         cid = B.hid(f"wb-{nivel}-{uno}")
-        parts.append(f'<h1 id="{cid}">{nivel} Unidad {uno} — {html.escape(title)}</h1>')
+        parts.append(f'<h1 id="{cid}">{nivel} Unidad {uno} — {html.escape(title)}</h1>'
+                     f'<div class="wbchapter">')
         for name, body in secs:
+            if CUT_RE.search(body):
+                body = CUT_RE.sub('', body)
+                parts.append('<div class="wbcut"><span>Stop here if you are splitting this '
+                             'chapter — come back within two days</span></div>')
             parts.append(render_section(name, body))
             n_ex += len(re.findall(r'^\*\*Exercise\s', body, re.M))
+        parts.append(chapter_grid())
         parts.append('<p class="ansref"><small>Answers at the back, under '
                      f'<b>{nivel} Unidad {uno}</b>. Do the whole chapter first.</small></p>')
+        parts.append('</div>')
         if answers:
             answer_key.append((f"{nivel} Unidad {uno} — {title}", answers))
 

@@ -38,3 +38,19 @@ h1{ background:var(--c-voc); border-bottom-color:#0C4460 }
 /* This is the workbook, and its foot should say so — the imported stylesheet
    names the course book. */
 @page{ @bottom-left{ content:"Cuaderno de Ejercicios · A1–A2" } }
+
+/* Tick the box only if you were sure BEFORE you looked. Confidently-wrong is the
+   most useful thing a learner can find out about themselves, and it is invisible
+   unless it is recorded at the moment of answering. */
+.wbchapter .exitem{ position:relative; padding-left:7mm }
+.wbchapter .exitem::before{ content:""; position:absolute; left:0; top:1.1mm;
+  width:3.2mm; height:3.2mm; border:1px solid #B5ABA1; border-radius:1px }
+
+.wbcut{ margin:6mm 0 5mm; border-top:1px dashed var(--c-prac-rule); text-align:center }
+.wbcut span{ position:relative; top:-1.6mm; background:#fff; padding:0 4mm;
+  font-size:8pt; color:var(--ink-3); font-style:italic }
+
+.wbgrid{ border-top-color:var(--c-voc-rule) }
+.wbgrid .h{ color:var(--c-voc) }
+.wbgrid .scoregrid th{ color:var(--c-voc); border-bottom-color:var(--c-voc-rule) }
+.wbgrid .scoregrid .tot .of{ color:var(--c-voc) }
