@@ -131,6 +131,127 @@ def chapter_grid():
             'is what makes them stick. Any block under <b>60%</b>, do what the routing table says. '
             'Then put the total on the chart at the back and watch the line, not the number.</p></div>')
 
+# ---------------------------------------------------------------- answer key
+# The keys arrive as one run-on paragraph per exercise — answer, reason and page
+# reference all in the same grey italic, separated by middots, with the same
+# routing string repeated for every item. It is accurate and nearly unusable:
+# to mark item (g) you have to read the whole block. Split it into a table so
+# the three things are three things: what the answer was, why, and where to look.
+EXHEAD = re.compile(r'^\*\*Ex\s*(\d+)\s*[—:-]\s*(.*?)\*\*\s*', re.M)
+ROUTE  = re.compile(r'\s*→\s*((?:A[12]\s+)?Unit\s+.*)$', re.S)
+
+
+def _key_items(s):
+    """Both writers' shapes reduce to one string of 'a) … · b) … · c) …'."""
+    s = re.sub(r'\n\s*-\s+', ' · ', s)
+    s = re.sub(r'\s+', ' ', s).strip()
+    marks, want = [], 'a'
+    for m in re.finditer(r'(?:(?<=^)|(?<=[·\s]))([a-z])\)\s', s):
+        if m.group(1) == want:
+            marks.append((m.start(), m.end(), want))
+            want = chr(ord(want) + 1)
+    out = []
+    for i, (st, en, ltr) in enumerate(marks):
+        nxt = marks[i + 1][0] if i + 1 < len(marks) else len(s)
+        out.append((ltr, s[en:nxt].strip().rstrip('·').strip()))
+    return out, (s[:marks[0][0]].strip() if marks else s)
+
+
+def _key_parts(chunk):
+    """-> (answer, also-accept, why, where) for one item."""
+    where = ""
+    rm = ROUTE.search(chunk)
+    if rm:
+        where = rm.group(1).strip()
+        chunk = chunk[:rm.start()].strip()
+    # A spiral item carries two bracketed groups: the ° lane tag that says which
+    # unit it came from, and the actual reason. Taking the first one put "A1-6"
+    # in the why column and left the explanation stranded in the answer cell.
+    lane, why, spans = "", "", list(re.finditer(r'\*\((.+?)\)\*', chunk))
+    keep = []
+    for m in spans:
+        g = m.group(1).strip()
+        if re.fullmatch(r'(?:A[12]-\d+|U\d+)', g):
+            lane = g
+        else:
+            keep.append(g)
+    if keep:
+        why = max(keep, key=len)
+    for m in reversed(spans):
+        chunk = (chunk[:m.start()] + chunk[m.end():])
+    chunk = chunk.strip()
+    # the ° means "recycled from an earlier unit"; the lane tag now says which,
+    # so the marker itself is noise in the key
+    chunk = chunk.replace('°', '').strip()
+    alt = ""
+    am = re.search(r'·\s*also:\s*(.*?)\s*(?:·|$)', chunk)
+    if am:
+        alt = am.group(1).strip()
+        chunk = (chunk[:am.start()] + chunk[am.end():]).strip()
+        if alt in ("—", "-", ""):
+            alt = ""
+    if not why:
+        n2 = re.search(r'·?\s*not\s+(.*)$', chunk)
+        if n2:
+            why = "not " + n2.group(1).strip()
+            chunk = chunk[:n2.start()].strip()
+    return chunk.strip(' ·'), alt, why, where, lane
+
+
+def _short_route(r):
+    """'Unit 0 → Gramática → "G · Numbers 0–10", then Práctica Ex 1'
+       -> 'Unit 0 · Numbers 0–10 · Ex 1' — the words between are the same on
+       every row and are what made the column unreadable."""
+    if not r:
+        return ""
+    unit = re.match(r'((?:A[12]\s+)?Unit\s+\d+)', r)
+    unit = unit.group(1) if unit else ""
+    tgt = re.search(r'[“"]G\s*·\s*(.+?)[”"]', r)
+    if not tgt:
+        tgt = re.search(r'→\s*(?:Vocabulario|Gramática|En contexto)\s*→\s*([^,→]+)', r)
+    tgt = tgt.group(1).strip() if tgt else ""
+    ex = re.search(r'(?:Práctica\s*)?Ex\s*(\d+)', r[r.find("then"):] if "then" in r else "")
+    bits = [b for b in (unit, tgt, f"Ex {ex.group(1)}" if ex else "") if b]
+    return " · ".join(bits)
+
+
+def render_answer_key(ans):
+    """One table per exercise: letter, answer, then why and where."""
+    out, blocks = [], EXHEAD.split(ans)
+    if blocks[0].strip():
+        out.append(B.md(blocks[0]))
+    for i in range(1, len(blocks), 3):
+        num, title, body = blocks[i], blocks[i + 1].strip().rstrip('.'), blocks[i + 2]
+        items, lead = _key_items(body)
+        out.append(f'<p class="akx"><b>Ex {num}</b> · {B.md_inline(title)}</p>')
+        if not items:
+            # a block with no lettered answers (the reconstruct task, the writing
+            # task) is all lead, so printing both would print it twice
+            out.append(f'<p class="aklead">{B.md_inline(body.strip())}</p>')
+            continue
+        if lead:
+            out.append(f'<p class="aklead">{B.md_inline(lead)}</p>')
+        rows = []
+        for ltr, chunk in items:
+            a, alt, why, where, lane = _key_parts(chunk)
+            ans_cell = f'<b>{B.md_inline(a)}</b>' if a else ""
+            if alt:
+                ans_cell += f'<span class="alt">also: {B.md_inline(alt)}</span>'
+            note = ""
+            if why and why.lower() not in ("model", "modelo"):
+                note = f'<span class="why">{B.md_inline(why)}</span>'
+            elif why:
+                note = '<span class="ismodel">worked example</span>'
+            sr = _short_route(where)
+            if sr:
+                note += f'<span class="go">{B.esc_md(sr)}</span>'
+            lt = f'{ltr})' + (f'<span class="lane">{B.esc_md(lane)}</span>' if lane else '')
+            rows.append(f'<tr><td class="lt">{lt}</td><td class="ans">{ans_cell}</td>'
+                        f'<td class="why">{note}</td></tr>')
+        out.append('<table class="aktab"><tbody>' + "".join(rows) + '</tbody></table>')
+    return "".join(out)
+
+
 def build():
     B.TOC.clear(); B._IDS.clear()
     chapters = []
@@ -181,7 +302,7 @@ def build():
         aid = B.hid(title)
         B.TOC.append((3, aid, title))
         parts.append(f'<h2 class="akhead" id="{aid}">{html.escape(title)}</h2>')
-        parts.append('<div class="answerkey">' + B.md(ans) + '</div>')
+        parts.append('<div class="answerkey">' + render_answer_key(ans) + '</div>')
 
     toc = ['<h1 class="toc-title">Contents</h1><ul class="toc">']
     for lvl, i, t in B.TOC:
