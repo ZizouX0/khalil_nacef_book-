@@ -5,4 +5,4 @@ build/tmp/
 __pycache__/
 spanish/build/_book.html
 spanish/build/__pycache__/
-_workbook.html
+spanish/build/_workbook.html
