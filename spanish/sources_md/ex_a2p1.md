@@ -155,13 +155,13 @@ Ex 5: a) Mi piso es más grande que el tuyo. b) El baño está al lado de la coc
 
 ### Práctica
 
-**Exercise 1 — Write the gerundio (-ando / -iendo) of each verb.**
-a) hablar
-b) comer
-c) leer
-d) dormir
-e) pedir
-f) decir
+**Exercise 1 — Complete each sentence with the gerundio (-ando / -iendo) of the verb in brackets.**
+a) Perdona, ahora estoy ______ (hablar) por teléfono con Ana.
+b) Mis hijos están ______ (comer) en la cocina con su abuela.
+c) Mi compañera de piso está ______ (leer) en el balcón.
+d) Mi hermana está ______ (dormir) y no quiero hacer ruido.
+e) Marta y Luis están ______ (pedir) dos cañas en el bar.
+f) Mi vecino está ______ (decir) que la música molesta.
 
 **Exercise 2 — Complete with estar + gerundio (present continuous).**
 a) Yo ______ (salir) de casa ahora.
@@ -211,13 +211,13 @@ d) Ella ______ (estar) dos veces en Cuba.
 e) ¿Alguna vez ______ (probar) vosotros la paella?
 f) Ellos todavía no ______ (visitar) el museo.
 
-**Exercise 2 — Write the past participle of these verbs (all irregular).**
-a) abrir
-b) hacer
-c) ver
-d) escribir
-e) volver
-f) decir
+**Exercise 2 — Complete each sentence with the past participle of the verb in brackets (all irregular).**
+a) Han ______ (abrir) una discoteca nueva en mi barrio.
+b) Este año hemos ______ (hacer) dos excursiones a la montaña.
+c) Este mes he ______ (ver) una película argentina en el cine.
+d) He ______ (escribir) tres postales durante las vacaciones.
+e) Mis amigos han ______ (volver) del viaje muy contentos.
+f) El guía nos ha ______ (decir) el horario del museo.
 
 **Exercise 3 — Complete with ya or todavía no.**
 a) ¿______ has visto la nueva película de Almodóvar? — Sí, ya la he visto.
@@ -241,7 +241,7 @@ e) En 2019 ______ (empezar, yo) a estudiar español.
 
 **Answers.**
 Ex 1: a) he ido; b) Has comido *(ya pulls the pretérito perfecto)*; c) hemos viajado; d) ha estado; e) habéis probado *(alguna vez = experience; the participle never changes)*; f) han visitado
-Ex 2: a) abierto; b) hecho; c) visto; d) escrito; e) vuelto; f) dicho
+Ex 2: a) abierto; b) hecho; c) visto; d) escrito *(after haber the participle never agrees — not "escritas")*; e) vuelto; f) dicho
 Ex 3: a) Ya; b) todavía no; c) Todavía no *(not yet — but the visit is still planned)*; d) Ya
 Ex 4: a) vamos a ir *(ir a + ir — don't drop the second ir)*; b) vas a hacer; c) voy a estudiar; d) van a visitar; e) vais a venir
 Ex 5: a) he ido *(esta semana includes now — perfecto)*; b) vi *(ayer is a closed moment — indefinido)*; c) viajé; d) he comido *(hoy → perfecto; most of Latin America would say comí)*; e) empecé *(en 2019 → indefinido; yo form spelt -cé)*

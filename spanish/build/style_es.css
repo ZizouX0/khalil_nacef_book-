@@ -328,6 +328,50 @@ li{margin:.12em 0}
 .practice p{margin:.35em 0}
 .practice ol,.practice ul{margin:.3em 0 .5em 1.2em}
 .practice strong{color:var(--c-prac)}
+
+/* ---------- exercises: the writing space ----------
+   The rule under each item is the whole point of the page. It is a full line
+   rather than a short blank because the learner should be able to write the
+   sentence out, not just drop one word into a gap — and a pen-width of space
+   invites a one-word answer, which is the answer that teaches least. */
+.practice .exi{margin:.75em 0 .3em}
+.practice .exi:first-child{margin-top:.15em}
+/* the gap under the item is its writing space, so it has to read as belonging to
+   the item above it, not to the one below: 7mm of room above the rule, 3mm of air
+   under it */
+.exitem{margin:0 0 3mm; page-break-inside:avoid}
+.exitem .lt{display:inline-block; min-width:1.5em; font-weight:bold; color:var(--c-prac)}
+.exitem .q{font-size:9.6pt}
+/* the rule sits under the item and is indented to clear the a) b) c) column */
+.exitem .w{display:block; margin:0 0 0 1.5em; height:6.5mm; border-bottom:1px solid #B5ABA1}
+.exbank{margin:.25em 0 .45em; padding:3px 9px; font-size:9.1pt;
+  background:#EFEFEF; border-left:3px solid var(--c-prac-rule); border-radius:0 4px 4px 0}
+.exnote{margin:.25em 0}
+.exfree .dl{margin:.1em 0 .1em .8em; text-indent:-.8em}
+.exfree .mi{margin:.06em 0 .06em 1.1em; text-indent:-1.1em}
+.exfree .mi .mk{display:inline-block; min-width:1.1em; font-weight:bold; color:var(--c-prac)}
+
+/* Matching pairs and gapped dialogues answer as a set, not line by line, so the
+   slots go together underneath, numbered to match the gaps. */
+/* The recall strip and the checkpoint mini-tests are exercises too, and had the
+   same problem: a question with nowhere to answer it. Their items are already one
+   per line, so the rule can hang off the list item and no markup has to change.
+   The strip's rule is shorter — it is a two-minute drill, usually one word. */
+.relampago ol > li::after,
+.repaso ol > li::after{content:""; display:block; height:5mm; margin:.5mm 0 1mm;
+  border-bottom:1px solid #B5ABA1}
+.repaso ol > li::after{height:6.5mm; margin-bottom:2mm}
+/* the cumulative words are answered in a grid of slots, four to a row */
+.cumul .cword{display:inline-block; width:42mm; margin:0 0 2mm 0; font-size:8.6pt}
+.cumul .cword .sw{display:block; width:39mm; height:5mm; border-bottom:1px solid #B5ABA1}
+
+.exslots{margin:2mm 0 1mm; page-break-inside:avoid}
+/* three to a row, on a fixed width, so six gaps make two even rows instead of
+   five and a lonely sixth */
+.exslots .slot{display:inline-block; width:57mm; margin:0 0 2.5mm 0; white-space:nowrap}
+.exslots .slot b{color:var(--c-prac); font-size:8.6pt; margin-right:1mm}
+.exslots .slot .sw{display:inline-block; width:46mm; border-bottom:1px solid #B5ABA1;
+  height:5.5mm; vertical-align:bottom}
 .ansref{color:var(--ink-3); margin:3px 0 12px}
 
 /* ---------- test ---------- */

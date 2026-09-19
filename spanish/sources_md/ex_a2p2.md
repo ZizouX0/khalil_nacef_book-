@@ -112,27 +112,27 @@ Ex 5: a) ¿Has estado alguna vez en México? *(alguna vez → perfecto)* b) El a
 ### Práctica
 
 **Exercise 1 — The verb doler. Complete each sentence with duele or duelen.**
-a) Me ___ la cabeza.
-b) ¿Te ___ los pies?
+a) Hoy me ___ la cabeza y estoy de mal humor.
+b) ¿Te ___ los pies cuando llevas zapatos nuevos?
 c) A mi madre le ___ el estómago.
 d) Nos ___ las piernas después de correr.
-e) ¿Qué le ___, señora?
-f) Me ___ las muelas.
+e) Dígame, señora, ¿qué le ___?
+f) Me ___ las muelas y no puedo comer nada frío.
 
 **Exercise 2 — Affirmative imperative (tú). Give the tú command of the verb in brackets.**
-a) ___ mucha agua. (beber)
+a) ___ mucha agua cada día: es bueno para la piel. (beber)
 b) ___ deporte tres veces a la semana. (hacer)
 c) ___ ocho horas cada noche. (dormir)
 d) ___ crema protectora en verano. (ponerse)
-e) ___ pronto, es tarde. (venir)
-f) ___ fruta y verdura. (comer)
+e) ___ pronto a casa, porque hoy cenamos temprano. (venir)
+f) ___ más fruta y verdura, y menos carne. (comer)
 
 **Exercise 3 — Formal imperative (usted). The doctor speaks. Give the usted command.**
-a) ___ mucha agua. (beber)
+a) ___ mucha agua estos días, señor Ruiz. (beber)
 b) ___ en casa dos días. (quedarse)
-c) ___ esta medicina. (tomar)
+c) ___ esta medicina después de cada comida. (tomar)
 d) ___ mucho, no vaya a trabajar. (descansar)
-e) ___ crema protectora, señora. (ponerse)
+e) ___ un jersey, señora, porque hace mucho frío. (ponerse)
 
 **Exercise 4 — Word order. Put the words in the correct order to make a sentence.**
 a) me / la / duele / cabeza
@@ -151,7 +151,7 @@ f) deporte / haz / a menudo
 > Sr. Ruiz: Muchas gracias, doctora.
 
 **Answers.**
-Ex 1: a) duele *(the subject is la cabeza, not the person)* b) duelen *(plural body part → plural verb)* c) duele d) duelen e) duele f) duelen
+Ex 1: a) duele *(the subject is la cabeza, not the person)* b) duelen *(plural body part → plural verb)* c) duele d) duelen e) duele *(qué is the subject here, so the verb stays singular)* f) duelen
 Ex 2: a) Bebe b) Haz *(irregular tú command; the negative is no hagas)* c) Duerme *(o→ue, as in the present duermes)* d) Ponte *(pon + attached te; negative is no te pongas)* e) Ven f) Come
 Ex 3: a) Beba *(usted forms come from yo bebo with the opposite vowel)* b) Quédese *(the attached pronoun forces a written accent)* c) Tome d) Descanse e) Póngase
 Ex 4: a) Me duele la cabeza. b) Bebe mucha agua. c) ¿Te duelen los pies? d) Quédese en casa. e) Ponte crema protectora. *(the pronoun attaches to an affirmative command)* f) Haz deporte a menudo.
@@ -170,12 +170,12 @@ e) ___ las ocho y llovía. (ser)
 f) De niño (yo) ___ mucho la televisión. (ver)
 
 **Exercise 2 — Regular imperfecto. Complete with the verb in brackets for the person shown.**
-a) (nosotros) ___ en Madrid. (vivir)
+a) Antes (nosotros) ___ en Madrid, muy cerca del parque. (vivir)
 b) (tú) ___ en la calle con tus amigos. (jugar)
 c) (ellos) ___ la radio por la noche. (escuchar)
-d) (yo) ___ mucho de noche. (salir)
-e) (vosotros) ¿___ mucho? (viajar)
-f) (ella) ___ en la universidad. (estudiar)
+d) De joven (yo) ___ mucho de noche y volvía tarde. (salir)
+e) (vosotros) ¿___ mucho antes de tener hijos? (viajar)
+f) (ella) ___ en la universidad y trabajaba en un bar. (estudiar)
 
 **Exercise 3 — ya no / todavía. Complete with ya no (not any more) or todavía (still).**
 a) Antes fumaba, pero ___ fumo.
@@ -212,7 +212,7 @@ Ex 5: a) Cuando era niño, vivía en un pueblo pequeño. *(both set the scene �
 
 **Exercise 1 — Irregular pretérito indefinido. Write the verb in brackets in the indefinido.**
 a) Ayer (yo) ___ en casa de Carlos. (estar)
-b) (Nosotros) ___ una cena estupenda. (tener)
+b) (Nosotros) ___ una cena estupenda con toda la familia. (tener)
 c) No (yo) ___ venir a la fiesta. (poder)
 d) ___ mucho frío por la noche. (hacer)
 e) El camarero ___ la cuenta. (pedir)

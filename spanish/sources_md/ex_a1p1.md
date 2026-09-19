@@ -4,21 +4,21 @@
 
 ### Práctica
 
-**Exercise 1 — Write the number in Spanish (in words).**
-a) 2
-b) 5
-c) 8
-d) 6
-e) 9
-f) 10
+**Exercise 1 — Complete each sentence with the number in words.**
+a) En el aula hay ___ (2) ventanas.
+b) Tengo ___ (5) bolígrafos en el estuche.
+c) En la clase hay ___ (8) ordenadores.
+d) Hay ___ (6) sillas en el aula.
+e) Tengo ___ (9) hojas de papel.
+f) Hay ___ (10) libros en la mesa.
 
-**Exercise 2 — Choose un or una before each classroom object.**
-a) (un / una) mochila
-b) (un / una) libro
-c) (un / una) silla
-d) (un / una) ordenador
-e) (un / una) ventana
-f) (un / una) cuaderno
+**Exercise 2 — Complete each sentence with un or una.**
+a) En el aula hay ___ mochila.
+b) En la mesa hay ___ libro de español.
+c) Hay ___ silla en el aula de español.
+d) Tengo ___ ordenador en la mesa.
+e) En la clase hay ___ ventana.
+f) Tengo ___ cuaderno de español.
 
 **Exercise 3 — Complete the classroom question with se dice, se escribe, se pronuncia or significa.**
 a) ¿Cómo ___ "table" en español? — Mesa.
@@ -50,19 +50,19 @@ Ex 5: a) Hola · b) Me llamo · c) se escribe · d) Gracias · e) Hasta luego
 ### Práctica
 
 **Exercise 1 — Conjugate the verb ser (the subject is shown).**
-a) (yo) ___
-b) (tú) ___
-c) (ella) ___
-d) (nosotros) ___
-e) (vosotros) ___
-f) (ellos) ___
+a) (yo) ___ estudiante de español.
+b) (tú) ___ traductor en una agencia.
+c) (ella) ___ periodista en Madrid.
+d) (nosotros) ___ cocineros en un restaurante.
+e) (vosotros) ___ de Barcelona, ¿verdad?
+f) (ellos) ___ científicos en un laboratorio.
 
 **Exercise 2 — Conjugate the verb tener (the subject is shown).**
-a) (yo) ___
-b) (tú) ___
-c) (él) ___
-d) (nosotras) ___
-e) (ellos) ___
+a) (yo) ___ dos clases de español.
+b) (tú) ___ mi número de teléfono.
+c) (él) ___ treinta años.
+d) (nosotras) ___ un despacho en la agencia.
+e) (ellos) ___ un bar en Sevilla.
 f) ¿Cuántos años ___ (tú)?
 
 **Exercise 3 — Complete with llamarse (reflexive pronoun + verb): me llamo, te llamas, se llama, nos llamamos or se llaman.**
@@ -72,13 +72,13 @@ c) Mi profesora ___ Marta.
 d) Nosotros ___ Ana y Luis.
 e) Ellos ___ Pedro y Juan.
 
-**Exercise 4 — Write the feminine form of each nationality or profession.**
-a) italiano
-b) español
-c) alemán
-d) francés
-e) enfermero
-f) estudiante
+**Exercise 4 — Complete each sentence with the feminine form of the nationality or profession.**
+a) Marco es italiano y Laura es ___.
+b) Pablo es español y Ana es ___.
+c) Mi profesor es alemán y mi profesora es ___.
+d) Hugo es francés y Clara es ___.
+e) Luis es enfermero y Marta es ___.
+f) Tom es estudiante y Nadia es ___.
 
 **Exercise 5 — Translate into Spanish.**
 a) I am a teacher.
@@ -98,28 +98,28 @@ Ex 5: a) Soy profesor. (m.) / Soy profesora. (f.) — no article *(unlike Englis
 ### Práctica
 
 **Exercise 1 — Conjugate the regular verb in the present tense (infinitive + subject).**
-a) (hablar, yo) ___
-b) (comprender, nosotros) ___
-c) (vivir, tú) ___
-d) (estudiar, ellos) ___
-e) (escribir, ella) ___
-f) (leer, vosotros) ___
+a) (hablar, yo) ___ español con mi profesora.
+b) (comprender, nosotros) ___ el pódcast en español.
+c) (vivir, tú) ___ en Madrid con unos amigos.
+d) (estudiar, ellos) ___ historia en la universidad.
+e) (escribir, ella) ___ textos muy interesantes.
+f) (leer, vosotros) ___ el periódico en clase.
 
 **Exercise 2 — Choose the definite article el or la.**
-a) (el / la) idioma
-b) (el / la) canción
-c) (el / la) ciudad
-d) (el / la) museo
-e) (el / la) película
-f) (el / la) día
+a) Aprendo ___ idioma oficial de Chile.
+b) Escucho ___ canción en la radio.
+c) Ana trabaja en ___ ciudad de Valencia.
+d) Visito ___ museo de historia en Madrid.
+e) Veo ___ película en la televisión.
+f) Paso ___ día en la playa con Ana.
 
 **Exercise 3 — Conjugate querer or hacer in the present tense (infinitive + subject).**
-a) (querer, yo) ___
-b) (querer, nosotros) ___
-c) (querer, tú) ___
-d) (hacer, yo) ___
-e) (hacer, ella) ___
-f) (hacer, ellos) ___
+a) (querer, yo) ___ aprender italiano.
+b) (querer, nosotros) ___ ver una serie en español.
+c) (querer, tú) ___ practicar la pronunciación.
+d) (hacer, yo) ___ un intercambio los lunes.
+e) (hacer, ella) ___ un curso de literatura.
+f) (hacer, ellos) ___ los ejercicios del libro.
 
 **Exercise 4 — Choose por, para or porque.**
 a) Estudio español ___ mi trabajo.
@@ -154,10 +154,10 @@ e) Los Andes ___ al este de la ciudad.
 f) En Chile ___ muchos volcanes.
 
 **Exercise 2 — Conjugate the verb estar (the subject is shown).**
-a) (yo) ___
-b) (tú) ___
-c) (nosotros) ___
-d) (ellos) ___
+a) (yo) ___ en la playa con unos amigos.
+b) (tú) ___ lejos de la capital.
+c) (nosotros) ___ en el sur de Chile.
+d) (ellos) ___ en el desierto de Atacama.
 e) ¿Dónde ___ (vosotros)?
 f) El museo ___ en el centro.
 
@@ -195,12 +195,12 @@ Ex 5: a) más · b) el · c) muy *(muy goes with adjectives; mucho goes with nou
 ### Práctica
 
 **Exercise 1 — Choose the demonstrative that agrees: este, esta, estos or estas.**
-a) ___ jersey
-b) ___ camiseta
-c) ___ zapatos
-d) ___ sandalias
-e) ___ falda
-f) ___ pantalones
+a) Quiero comprar ___ jersey verde.
+b) Me llevo ___ camiseta de algodón.
+c) En el mercadillo venden ___ zapatos.
+d) Necesito ___ sandalias para la playa.
+e) Compro ___ falda en la tienda.
+f) En invierno llevo ___ pantalones grises.
 
 **Exercise 2 — Choose qué, cuál or cuáles.**
 a) ¿___ falda prefieres, la verde o la azul?
@@ -210,12 +210,12 @@ d) ¿___ es tu talla?
 e) ¿___ es esto?
 
 **Exercise 3 — Conjugate ir or preferir in the present tense (infinitive + subject).**
-a) (ir, yo) ___
-b) (ir, nosotros) ___
-c) (ir, ella) ___
-d) (preferir, yo) ___
-e) (preferir, tú) ___
-f) (preferir, nosotros) ___
+a) (ir, yo) ___ al centro comercial.
+b) (ir, nosotros) ___ de compras este fin de semana.
+c) (ir, ella) ___ al mercadillo con una amiga.
+d) (preferir, yo) ___ el abrigo beis.
+e) (preferir, tú) ___ la camisa de rayas.
+f) (preferir, nosotros) ___ la chaqueta gris.
 
 **Exercise 4 — Complete with tener que (correct form of tener + que) + infinitive.**
 a) (Yo) ___ comprar un regalo.

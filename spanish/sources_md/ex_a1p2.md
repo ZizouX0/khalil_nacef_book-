@@ -63,13 +63,13 @@ c) Mi hija ___ (ducharse) antes de desayunar.
 d) Nosotros ___ (vestirse) y salimos.
 e) Mis hijos ___ (despertarse) muy temprano.
 
-**Exercise 3 — Write the time in Spanish (¿Qué hora es?).**
-a) 1:00
-b) 3:15
-c) 6:30
-d) 8:40
-e) 9:45
-f) 2:10
+**Exercise 3 — Complete with the time in Spanish (¿Qué hora es?).**
+a) — ¿Qué hora es? — ___ (1:00)
+b) ___ (3:15) y mi clase de español empieza.
+c) — ¿Tienes hora? — ___ (6:30)
+d) ___ (8:40) y llegamos tarde al cine.
+e) — ¿Qué hora es en tu móvil? — ___ (9:45)
+f) ___ (2:10) y el tren llega tarde.
 
 **Exercise 4 — Complete with the missing word (the English hint is in brackets).**
 a) ___ me ducho, después desayuno. (First)
@@ -110,14 +110,14 @@ d) Las patatas ___ como fritas.
 e) ¿La cuenta? Ahora ___ traigo.
 
 **Exercise 3 — Complete with de or con.**
-a) Una tortilla ___ patatas.
-b) Café ___ leche, por favor.
-c) Un helado ___ chocolate.
+a) De primero pido una tortilla ___ patatas.
+b) Todos los días desayuno un café ___ leche.
+c) De postre quiero un helado ___ chocolate.
 d) Quiero un bocadillo ___ queso ___ tomate.
-e) Un té ___ limón.
+e) Después de cenar tomo un té ___ limón.
 
-**Exercise 4 — Match each Spanish word with its English translation.**
-Spanish: 1) el cuchillo · 2) la cuchara · 3) el tenedor · 4) la taza · 5) el vaso · 6) la servilleta
+**Exercise 4 — Match each sentence with the English word for the table item it names.**
+Spanish: 1) Necesito un cuchillo para el queso. · 2) Mi hijo toma la sopa con una cuchara. · 3) Como la ensalada con un tenedor. · 4) Mi padre bebe el café en una taza grande. · 5) ¿Me trae un vaso de agua, por favor? · 6) Este restaurante tiene servilletas de papel.
 English: a) glass · b) spoon · c) fork · d) napkin · e) knife · f) cup
 
 **Exercise 5 — Complete the restaurant dialogue with the word bank: cuenta · de segundo · para beber · pongo · trae**
@@ -190,13 +190,13 @@ c) Nunca ___ (vivir) en el campo. (nosotros)
 d) ¿___ (comer) ya? (vosotros)
 e) Marcos ___ (trabajar) de camarero.
 
-**Exercise 2 — Write the past participle (some are irregular).**
-a) hacer
-b) ver
-c) escribir
-d) comer
-e) volver
-f) trabajar
+**Exercise 2 — Complete with the past participle (some are irregular).**
+a) Mi marido ha ___ (hacer) la cena hoy.
+b) Nunca hemos ___ (ver) esta serie.
+c) He ___ (escribir) un correo a mi profesora.
+d) Mis hijos no han ___ (comer) el pescado.
+e) Mi hermana todavía no ha ___ (volver) a casa.
+f) Mi prima ha ___ (trabajar) en una tienda.
 
 **Exercise 3 — Choose saber or poder (correct present form).**
 a) ¿(Sabes / Puedes) conducir? Tengo el carné desde hace años.

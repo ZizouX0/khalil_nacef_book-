@@ -320,6 +320,96 @@ def parse_exercises(path):
         out[(nivel,str(int(uni)))]=(practica.strip(), answers.strip())
     return out
 
+_EX_HEAD=re.compile(r'^\*\*(Exercise\s+\d+[^*]*)\*\*\s*$', re.M)
+_EX_ITEM=re.compile(r'^([a-z])\)\s+(.*)$')
+_EX_NUM =re.compile(r'^(\d+)[.)]\s+(.*)$')
+_EX_LET =re.compile(r'^([a-z])[.]\s+(.*)$')
+_EX_DLG =re.compile(r'^>?\s*(—\s*)?([A-ZÁÉÍÓÚ][\wÁÉÍÓÚáéíóúñ. ]{0,18}):\s*(.*)$')
+_EX_BANK=re.compile(r'^(Box|Word bank|Banco)\s*:\s*(.*)$', re.I)
+_GAP    =re.compile(r'\((\d+|[a-z])\)')      # the printed gap label: (1) … or (a) …
+_BLANKRUN=re.compile(r'_{3,}')
+
+def render_practice(src):
+    """Lay the five exercises out so there is somewhere to write.
+
+    As plain markdown the items are consecutive lines, which markdown joins into
+    one grey paragraph — "a) 2 b) 5 c) 8 d) 6" — and the learner has nothing but
+    the margin to answer in. Every item goes on its own line here, with a ruled
+    line under it. Exercises that are not a lettered list (matching pairs, gapped
+    dialogues) keep their shape and get a numbered answer block instead, one slot
+    per gap, because their answers belong together rather than under each line."""
+    out=[]
+    pieces=_EX_HEAD.split(src)
+    if pieces[0].strip():                       # anything before the first heading
+        out.append(md(pieces[0]))
+    for i in range(1, len(pieces), 2):
+        head, body = pieces[i], pieces[i+1]
+        out.append(f'<p class="exi"><strong>{md_inline(head)}</strong></p>')
+        lines=[l.rstrip() for l in body.split("\n") if l.strip()]
+        items=[l for l in lines if _EX_ITEM.match(l)]
+        if items and len(items)>=len(lines)-2:
+            out.append(_ex_lettered(lines))
+        else:
+            out.append(_ex_freeform(lines))
+    return "".join(out)
+
+def _ex_lettered(lines):
+    """a) … f) — one per line, each with its own rule."""
+    html=['<div class="exlist">']
+    for l in lines:
+        m=_EX_ITEM.match(l)
+        if not m:
+            b=_EX_BANK.match(l)
+            html.append(f'<div class="exbank">{md_inline(l)}</div>' if b
+                        else f'<p class="exnote">{md_inline(l)}</p>')
+            continue
+        html.append(f'<div class="exitem"><span class="lt">{m.group(1)})</span>'
+                    f'<span class="q">{md_inline(m.group(2))}</span>'
+                    f'<span class="w"></span></div>')
+    html.append('</div>')
+    return "".join(html)
+
+def _ex_freeform(lines):
+    """Matching pairs and gapped dialogues: keep the shape, add answer slots."""
+    html=['<div class="exfree">']; gaps=0; labels=[]
+    for l in lines:
+        b=_EX_BANK.match(l)
+        if b:
+            html.append(f'<div class="exbank">{md_inline(l)}</div>'); continue
+        d=_EX_DLG.match(l)
+        bare=l.lstrip("> ")
+        n=_EX_NUM.match(bare); a=_EX_LET.match(bare)
+        if (n or a) and not d:
+            # "1. la palabra" / "a. exam" — hand the marker to markdown and it
+            # builds a list, renumbering from 1 and losing the pairing the
+            # exercise is built on. Split the marker off and print it literally.
+            m=n or a
+            html.append(f'<p class="mi"><span class="mk">{m.group(1)}.</span>'
+                        f'{md_inline(m.group(2))}</p>')
+            continue
+        cls="dl" if d else "exnote"
+        html.append(f'<p class="{cls}">{md_inline(bare)}</p>')
+        # A gap is written either "___ (a)" or "(1)___" — one gap, one label, so
+        # count the labels and not the underscores, or every slot appears twice.
+        for g in _GAP.finditer(l):
+            if g.group(1) not in labels: labels.append(g.group(1)); gaps+=1
+    if not gaps:                       # gaps marked by a bare rule, with no label
+        gaps=sum(len(_BLANKRUN.findall(l)) for l in lines)
+        labels=[str(k+1) for k in range(gaps)]
+    html.append('</div>')
+    if not gaps:
+        # a matching exercise: one slot per left-hand item
+        left=[m.group(1) for l in lines if (m:=_EX_NUM.match(l.lstrip("> ")))]
+        if not left:
+            inline=[l for l in lines if l.lower().startswith(("spanish:","español:"))]
+            if inline: left=re.findall(r'(\d+)\)', inline[0])
+        labels=left; gaps=len(left)
+    if gaps:
+        slots="".join(f'<span class="slot"><b>{lb}</b><span class="sw"></span></span>'
+                      for lb in labels)
+        html.append(f'<div class="exslots">{slots}</div>')
+    return "".join(html)
+
 def parse_repaso(path):
     if not os.path.exists(path): return {}
     text=open(path,encoding="utf-8").read(); out={}
@@ -543,15 +633,20 @@ def build():
                 blk=('<div class="relampago"><span class="h">Repaso relámpago · 2 minutes · don\'t look back</span>'
                      +md_ol(items))
                 if cum:
+                    # "write the Spanish" needs somewhere to write it: one slot per
+                    # word instead of a run-on line of prompts separated by dots
+                    words=[w.strip() for w in re.split(r'\s*·\s*', cum) if w.strip()]
+                    slots="".join(f'<span class="cword">{md_inline(w)}'
+                                  f'<span class="sw"></span></span>' for w in words)
                     blk+=('<div class="cumul"><span class="h2">Y estas palabras de antes — write the Spanish</span>'
-                          +md_inline(cum)+'</div>')
+                          +slots+'</div>')
                 tail=" · ".join(x for x in (rans.strip(), cumans.strip()) if x)
                 if tail:
                     blk+=('<p class="ansref"><small>Answers at the back, under '
                           '<b>Repaso relámpago — Answers</b>. Don\'t look until you have tried all of them.</small></p>')
                     relamp_key.append((f"{nivel} Unidad {uno}", tail))
                 parts.append(blk+'</div>')
-            parts.append('<div class="practice">'+md_ol(ex[0])+'</div>')
+            parts.append('<div class="practice">'+render_practice(ex[0])+'</div>')
             parts.append('<p class="ansref"><small>Check your answers in the <b>Answer Key</b> at the back of the book.</small></p>')
             parts.append('</div>')
             if ex[1]:
