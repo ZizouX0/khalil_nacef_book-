@@ -1,0 +1,163 @@
+unit,headword,kind,ENC,RETR,rescued_by_plan
+A1-0,hoja de papel,sustantivos,0,0,1
+A1-1,agencia,sustantivos,2,0,1
+A1-1,canadiense,adjetivos,1,0,1
+A1-1,correo electrónico,sustantivos,0,0,1
+A1-1,nombre,sustantivos,1,0,1
+A1-1,número de teléfono,sustantivos,0,0,1
+A1-1,suizo,adjetivos,0,0,1
+A1-1,venezolano,adjetivos,0,0,1
+A1-2,hispano,adjetivos,0,0,1
+A1-2,página web,sustantivos,0,0,1
+A1-2,vida nocturna,sustantivos,0,0,1
+A1-3,cálido,adjetivos,0,0,1
+A1-3,húmedo,adjetivos,1,0,1
+A1-3,nevado,adjetivos,0,0,1
+A1-3,nevar,verbos,1,0,1
+A1-3,noreste,sustantivos,0,0,1
+A1-3,noroeste,sustantivos,1,0,1
+A1-3,poblado,adjetivos,1,0,1
+A1-3,sureste,sustantivos,0,0,1
+A1-3,suroeste,sustantivos,0,0,1
+A1-3,templado,adjetivos,1,0,1
+A1-3,tropical,adjetivos,0,0,1
+A1-3,árido,adjetivos,0,0,1
+A1-4,amarillo,adjetivos,0,0,1
+A1-4,beis,adjetivos,1,0,1
+A1-4,carné de conducir,sustantivos,0,0,1
+A1-4,carné de identidad,sustantivos,0,0,1
+A1-4,centro comercial,sustantivos,0,0,1
+A1-4,cepillo de dientes,sustantivos,0,0,1
+A1-4,clásico,adjetivos,0,0,1
+A1-4,crema solar,sustantivos,0,0,1
+A1-4,elegante,adjetivos,1,0,1
+A1-4,estampado,adjetivos,0,0,1
+A1-4,falda,sustantivos,2,0,1
+A1-4,feo,adjetivos,0,0,1
+A1-4,gafas de sol,sustantivos,0,0,1
+A1-4,gel de baño,sustantivos,0,0,1
+A1-4,gris,adjetivos,1,0,1
+A1-4,lila,adjetivos,0,0,1
+A1-4,llevarse,verbos,0,0,1
+A1-4,marrón,adjetivos,0,0,1
+A1-4,naranja,adjetivos,0,0,1
+A1-4,pantalones cortos,sustantivos,0,0,1
+A1-4,pasta de dientes,sustantivos,0,0,1
+A1-4,pijama,sustantivos,0,0,1
+A1-4,ropa interior,sustantivos,0,0,1
+A1-4,rosa,adjetivos,1,0,1
+A1-4,secador de pelo,sustantivos,0,0,1
+A1-4,tarjeta de crédito,sustantivos,0,0,1
+A1-4,zapatillas deportivas,sustantivos,0,0,1
+A1-6,fin de semana,sustantivos,0,0,1
+A1-7,atún,sustantivos,0,0,1
+A1-7,chorizo,sustantivos,0,0,1
+A1-7,cocido,adjetivos,0,0,1
+A1-7,copa,sustantivos,0,0,1
+A1-7,guisado,adjetivos,0,0,1
+A1-7,salteado,adjetivos,0,0,1
+A1-7,taza,sustantivos,1,0,1
+A1-8,cajero automático,sustantivos,0,0,1
+A1-8,oficina de correos,sustantivos,0,0,1
+A1-9,cambiar,verbos,0,0,1
+A1-9,cualidad,sustantivos,0,0,1
+A1-9,impaciente,adjetivos,0,0,1
+A1-9,perder,verbos,0,0,1
+A1-9,vendedor,sustantivos,0,0,1
+A2-1,acento,sustantivos,2,0,1
+A2-1,actividad,sustantivos,0,0,1
+A2-1,escritor,sustantivos,0,0,1
+A2-1,extranjero,adjetivos,0,0,1
+A2-1,seguro,adjetivos,0,0,1
+A2-2,acontecimiento,sustantivos,0,0,1
+A2-2,actor,sustantivos,1,0,1
+A2-2,conocido,adjetivos,1,0,1
+A2-2,interpretar,verbos,0,0,1
+A2-2,mundial,adjetivos,0,0,1
+A2-2,novel,adjetivos,0,0,1
+A2-2,taquillero,adjetivos,0,0,1
+A2-2,trasladarse,verbos,0,0,1
+A2-3,colocar,verbos,0,0,1
+A2-3,espacioso,adjetivos,0,0,1
+A2-3,peor,adjetivos,2,0,1
+A2-4,brusco,adjetivos,0,0,1
+A2-4,charlar,verbos,0,0,1
+A2-4,igualmente,adjetivos,0,0,1
+A2-5,cerrado,adjetivos,0,0,1
+A2-5,discoteca,sustantivos,2,0,1
+A2-5,planificar,verbos,1,0,1
+A2-5,reducido,adjetivos,0,0,1
+A2-6,batir,verbos,1,0,1
+A2-6,cocer,verbos,1,0,1
+A2-6,de vez en cuando,adjetivos,0,0,1
+A2-6,echar,verbos,0,0,1
+A2-6,fruto seco,sustantivos,0,0,1
+A2-6,hervir,verbos,1,0,1
+A2-6,ligero,adjetivos,2,0,1
+A2-6,picado,adjetivos,0,0,1
+A2-7,aventura,sustantivos,1,0,0
+A2-7,caer bien,verbos,0,0,0
+A2-7,espectacular,adjetivos,1,0,0
+A2-7,increíble,adjetivos,1,0,0
+A2-7,maravilloso,adjetivos,0,0,0
+A2-7,templo,sustantivos,2,0,0
+A2-7,valorar,verbos,0,0,0
+A2-8,a diario,adjetivos,0,0,0
+A2-8,brazo,sustantivos,1,0,0
+A2-8,contento,adjetivos,5,0,0
+A2-8,cuerpo,sustantivos,0,0,0
+A2-8,deber,verbos,1,0,0
+A2-8,estómago,sustantivos,2,0,0
+A2-8,fortalecer,verbos,0,0,0
+A2-8,hidratar,verbos,0,0,0
+A2-8,mano,sustantivos,4,0,0
+A2-8,mareado,adjetivos,1,0,0
+A2-8,pie,sustantivos,1,0,0
+A2-8,pierna,sustantivos,2,0,0
+A2-8,preocupado,adjetivos,0,0,0
+A2-8,prevenir,verbos,0,0,0
+A2-8,pálido,adjetivos,0,0,0
+A2-9,actual,adjetivos,0,0,0
+A2-9,argumentar,verbos,0,0,0
+A2-9,debatir,verbos,0,0,0
+A2-9,democracia,sustantivos,1,0,0
+A2-9,década,sustantivos,0,0,0
+A2-9,enriquecedor,adjetivos,1,0,0
+A2-9,etapa,sustantivos,0,0,0
+A2-9,exótico,adjetivos,0,0,0
+A2-9,frontera,sustantivos,1,0,0
+A2-9,ilegal,adjetivos,0,0,0
+A2-9,juventud,sustantivos,0,0,0
+A2-9,madurez,sustantivos,0,0,0
+A2-9,opinar,verbos,0,0,0
+A2-9,prohibido,adjetivos,1,0,0
+A2-9,romántico,adjetivos,1,0,0
+A2-9,siglo,sustantivos,1,0,0
+A2-9,turista,sustantivos,1,0,0
+A2-9,viajero,sustantivos,0,0,0
+A2-10,accidente,sustantivos,1,0,0
+A2-10,asustado,adjetivos,0,0,0
+A2-10,asustarse,verbos,1,0,0
+A2-10,atentado,sustantivos,0,0,0
+A2-10,crisis,sustantivos,0,0,0
+A2-10,curioso,adjetivos,0,0,0
+A2-10,darse cuenta,verbos,0,0,0
+A2-10,de madrugada,adjetivos,0,0,0
+A2-10,de repente,adjetivos,0,0,0
+A2-10,ejército,sustantivos,0,0,0
+A2-10,emocionado,adjetivos,0,0,0
+A2-10,emocionarse,verbos,0,0,0
+A2-10,emoción,sustantivos,0,0,0
+A2-10,especial,adjetivos,2,0,0
+A2-10,hecho,sustantivos,12,0,0
+A2-10,horrible,adjetivos,1,0,0
+A2-10,inolvidable,adjetivos,0,0,0
+A2-10,misterio,sustantivos,0,0,0
+A2-10,ocurrir,verbos,0,0,0
+A2-10,ponerse,verbos,1,0,0
+A2-10,relatar,verbos,0,0,0
+A2-10,reírse,verbos,0,0,0
+A2-10,sorpresa,sustantivos,1,0,0
+A2-10,suceder,verbos,0,0,0
+A2-10,terremoto,sustantivos,1,0,0
+A2-10,terrible,adjetivos,1,0,0

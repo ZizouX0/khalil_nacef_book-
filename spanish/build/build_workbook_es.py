@@ -17,7 +17,8 @@ import build_book_es as B
 from weasyprint import HTML
 
 ROOT, BUILD, PHOTOS = B.ROOT, B.BUILD, B.PHOTOS
-WB_FILES = ["wb_a1p1.md", "wb_a1p2.md", "wb_a2p1.md", "wb_a2p2.md"]
+# one file per writer, concatenated in course order
+WB_FILES = [f"wb_part{i}.md" for i in range(1, 6)]
 
 # Which course colour each workbook section borrows, so a learner who has used
 # the course book already knows what a heading's colour means before reading it.

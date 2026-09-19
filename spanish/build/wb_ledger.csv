@@ -1,0 +1,321 @@
+chapter,source_unit,lane,headword,kind,SPACED_now,RETR_now,ENC_now,is_orphan,new_hits_from_plan
+A1-0,A1-0,S,hoja de papel,sustantivos,0,0,0,1,3
+A1-0,A1-0,S,deletrear,verbos,1,1,2,0,2
+A1-0,A1-0,S,alto,adjetivos,2,1,2,0,2
+A1-0,A1-0,S,entender,verbos,2,2,2,0,3
+A1-0,A1-0,S,papelera,sustantivos,2,2,2,0,3
+A1-0,A1-0,S,proyector,sustantivos,2,2,2,0,3
+A1-0,A1-0,S,tableta,sustantivos,2,2,2,0,3
+A1-0,A1-0,S,aula,sustantivos,2,2,3,0,3
+A1-0,A1-0,S,repetir,verbos,2,2,3,0,3
+A1-0,A1-0,S,estuche,sustantivos,2,2,4,0,3
+A1-0,A1-0,S,ordenador,sustantivos,2,2,4,0,3
+A1-0,A1-0,S,silla,sustantivos,3,2,5,0,2
+A1-0,A1-0,S,despacio,adjetivos,3,3,4,0,2
+A1-0,A1-0,S,bolígrafo,sustantivos,3,3,5,0,1
+A1-0,A1-0,S,cuaderno,sustantivos,3,3,5,0,1
+A1-0,A1-0,S,mochila,sustantivos,3,3,5,0,1
+A1-1,A1-0,L,hoja de papel,sustantivos,0,0,0,1,3
+A1-1,A1-0,L,entender,verbos,2,2,2,0,3
+A1-1,A1-0,L,papelera,sustantivos,2,2,2,0,3
+A1-1,A1-0,L,proyector,sustantivos,2,2,2,0,3
+A1-1,A1-0,L,tableta,sustantivos,2,2,2,0,3
+A1-1,A1-0,L,aula,sustantivos,2,2,3,0,3
+A1-1,A1-0,L,repetir,verbos,2,2,3,0,3
+A1-1,A1-0,L,estuche,sustantivos,2,2,4,0,3
+A1-1,A1-0,L,ordenador,sustantivos,2,2,4,0,3
+A1-1,A1-0,L,silla,sustantivos,3,2,5,0,2
+A1-1,A1-0,L,ventana,sustantivos,4,2,5,0,2
+A1-1,A1-0,L,decir,verbos,10,2,10,0,2
+A1-1,A1-0,L,despacio,adjetivos,3,3,4,0,2
+A1-1,A1-0,L,pronunciar,verbos,4,3,4,0,1
+A1-1,A1-0,L,bolígrafo,sustantivos,3,3,5,0,1
+A1-1,A1-0,L,cuaderno,sustantivos,3,3,5,0,1
+A1-2,A1-1,L,correo electrónico,sustantivos,0,0,0,1,4
+A1-2,A1-1,L,número de teléfono,sustantivos,0,0,0,1,4
+A1-2,A1-1,L,suizo,adjetivos,0,0,0,1,3
+A1-2,A1-1,L,venezolano,adjetivos,0,0,0,1,3
+A1-2,A1-1,L,canadiense,adjetivos,0,0,1,1,3
+A1-2,A1-1,L,nombre,sustantivos,0,0,1,1,1
+A1-2,A1-1,L,agencia,sustantivos,0,0,2,1,1
+A1-2,A1-1,L,empresa,sustantivos,2,2,2,0,2
+A1-2,A1-1,L,profesión,sustantivos,2,2,2,0,2
+A1-2,A1-1,L,hospital,sustantivos,3,2,3,0,2
+A1-2,A1-1,L,enfermero,sustantivos,2,2,4,0,2
+A1-2,A1-1,L,taller,sustantivos,4,2,4,0,2
+A1-2,A1-0,L,entender,verbos,2,2,2,0,3
+A1-2,A1-0,L,papelera,sustantivos,2,2,2,0,3
+A1-2,A1-0,L,proyector,sustantivos,2,2,2,0,3
+A1-2,A1-0,L,tableta,sustantivos,2,2,2,0,3
+A1-3,A1-2,L,hispano,adjetivos,0,0,0,1,2
+A1-3,A1-2,L,página web,sustantivos,0,0,0,1,2
+A1-3,A1-2,L,vida nocturna,sustantivos,0,0,0,1,2
+A1-3,A1-2,L,chatear,verbos,2,2,2,0,2
+A1-3,A1-2,L,diccionario,sustantivos,2,2,2,0,2
+A1-3,A1-2,L,jugar,verbos,2,2,2,0,2
+A1-3,A1-2,L,naturaleza,sustantivos,2,2,2,0,2
+A1-3,A1-2,L,historia,sustantivos,2,2,3,0,2
+A1-3,A1-1,L,empresa,sustantivos,2,2,2,0,2
+A1-3,A1-1,L,profesión,sustantivos,2,2,2,0,2
+A1-3,A1-1,L,edad,sustantivos,3,3,3,0,1
+A1-3,A1-1,L,hospital,sustantivos,3,2,3,0,2
+A1-3,A1-0,L,aula,sustantivos,2,2,3,0,3
+A1-3,A1-0,L,repetir,verbos,2,2,3,0,3
+A1-3,A1-0,L,estuche,sustantivos,2,2,4,0,3
+A1-3,A1-0,L,ordenador,sustantivos,2,2,4,0,3
+A1-4,A1-0,T,mochila,sustantivos,3,3,5,0,1
+A1-4,A1-0,T,silla,sustantivos,3,2,5,0,2
+A1-4,A1-0,T,ventana,sustantivos,4,2,5,0,2
+A1-4,A1-0,T,decir,verbos,10,2,10,0,2
+A1-4,A1-0,T,hoja de papel,sustantivos,0,0,0,1,3
+A1-4,A1-0,T,alto,adjetivos,2,1,2,0,2
+A1-4,A1-0,T,deletrear,verbos,1,1,2,0,2
+A1-4,A1-0,T,entender,verbos,2,2,2,0,3
+A1-4,A1-0,T,papelera,sustantivos,2,2,2,0,3
+A1-4,A1-0,T,proyector,sustantivos,2,2,2,0,3
+A1-4,A1-0,T,tableta,sustantivos,2,2,2,0,3
+A1-4,A1-0,T,aula,sustantivos,2,2,3,0,3
+A1-4,A1-0,T,repetir,verbos,2,2,3,0,3
+A1-4,A1-0,T,despacio,adjetivos,3,3,4,0,2
+A1-4,A1-0,T,estuche,sustantivos,2,2,4,0,3
+A1-4,A1-0,T,ordenador,sustantivos,2,2,4,0,3
+A1-5,A1-1,T,enfermero,sustantivos,2,2,4,0,2
+A1-5,A1-1,T,taller,sustantivos,4,2,4,0,2
+A1-5,A1-1,T,alemán,adjetivos,3,3,5,0,1
+A1-5,A1-1,T,comercial,sustantivos,4,3,5,0,1
+A1-5,A1-1,T,supermercado,sustantivos,5,3,5,0,1
+A1-5,A1-1,T,italiano,adjetivos,5,3,7,0,1
+A1-5,A1-1,T,argentino,adjetivos,7,3,9,0,1
+A1-5,A1-1,T,correo electrónico,sustantivos,0,0,0,1,4
+A1-5,A1-1,T,número de teléfono,sustantivos,0,0,0,1,4
+A1-5,A1-1,T,suizo,adjetivos,0,0,0,1,3
+A1-5,A1-1,T,venezolano,adjetivos,0,0,0,1,3
+A1-5,A1-1,T,belga,adjetivos,1,1,1,0,2
+A1-5,A1-1,T,brasileño,adjetivos,1,1,1,0,2
+A1-5,A1-1,T,canadiense,adjetivos,0,0,1,1,3
+A1-5,A1-1,T,chileno,adjetivos,1,1,1,0,2
+A1-5,A1-1,T,colombiano,adjetivos,1,1,1,0,2
+A1-6,A1-2,T,mensaje,sustantivos,2,2,3,0,2
+A1-6,A1-2,T,revista,sustantivos,2,2,3,0,2
+A1-6,A1-2,T,videojuego,sustantivos,3,2,3,0,2
+A1-6,A1-2,T,nativo,adjetivos,3,2,4,0,2
+A1-6,A1-2,T,radio,sustantivos,3,2,4,0,2
+A1-6,A1-2,T,chatear,verbos,2,2,2,0,2
+A1-6,A1-2,T,diccionario,sustantivos,2,2,2,0,2
+A1-6,A1-2,T,jugar,verbos,2,2,2,0,2
+A1-6,A1-2,T,naturaleza,sustantivos,2,2,2,0,2
+A1-6,A1-2,T,historia,sustantivos,2,2,3,0,2
+A1-6,A1-2,T,pasar,verbos,4,3,4,0,1
+A1-6,A1-2,T,pronunciación,sustantivos,3,3,4,0,1
+A1-6,A1-2,T,canción,sustantivos,3,3,5,0,1
+A1-6,A1-2,T,difícil,adjetivos,4,3,5,0,1
+A1-6,A1-2,T,escuchar,verbos,3,3,5,0,1
+A1-6,A1-2,T,teatro,sustantivos,4,3,5,0,1
+A1-7,A1-3,R,cálido,adjetivos,0,0,0,1,1
+A1-7,A1-3,R,nevado,adjetivos,0,0,0,1,1
+A1-7,A1-3,R,noreste,sustantivos,0,0,0,1,1
+A1-7,A1-3,R,sureste,sustantivos,0,0,0,1,1
+A1-7,A1-3,R,suroeste,sustantivos,0,0,0,1,1
+A1-7,A1-3,R,tropical,adjetivos,0,0,0,1,1
+A1-7,A1-3,R,árido,adjetivos,0,0,0,1,1
+A1-7,A1-3,R,húmedo,adjetivos,0,0,1,1,1
+A1-7,A1-3,R,nevar,verbos,0,0,1,1,1
+A1-7,A1-3,R,noroeste,sustantivos,0,0,1,1,1
+A1-7,A1-3,R,poblado,adjetivos,0,0,1,1,1
+A1-7,A1-3,R,templado,adjetivos,0,0,1,1,1
+A1-7,A1-3,T,bosque,sustantivos,2,2,2,0,1
+A1-7,A1-3,T,océano,sustantivos,2,2,2,0,1
+A1-7,A1-3,T,estación,sustantivos,3,2,3,0,1
+A1-7,A1-3,T,lengua,sustantivos,2,2,3,0,1
+A1-8,A1-4,R,amarillo,adjetivos,0,0,0,1,1
+A1-8,A1-4,R,carné de conducir,sustantivos,0,0,0,1,1
+A1-8,A1-4,R,carné de identidad,sustantivos,0,0,0,1,1
+A1-8,A1-4,R,centro comercial,sustantivos,0,0,0,1,1
+A1-8,A1-4,R,cepillo de dientes,sustantivos,0,0,0,1,1
+A1-8,A1-4,R,clásico,adjetivos,0,0,0,1,1
+A1-8,A1-4,R,crema solar,sustantivos,0,0,0,1,1
+A1-8,A1-4,R,estampado,adjetivos,0,0,0,1,1
+A1-8,A1-4,R,feo,adjetivos,0,0,0,1,1
+A1-8,A1-4,R,gafas de sol,sustantivos,0,0,0,1,1
+A1-8,A1-4,R,gel de baño,sustantivos,0,0,0,1,1
+A1-8,A1-4,R,lila,adjetivos,0,0,0,1,1
+A1-8,A1-4,T,bufanda,sustantivos,2,2,2,0,1
+A1-8,A1-4,T,bolso,sustantivos,3,2,3,0,1
+A1-8,A1-0,T,hoja de papel,sustantivos,0,0,0,1,3
+A1-8,A1-0,T,alto,adjetivos,2,1,2,0,2
+A1-9,A1-5,T,cantante,sustantivos,2,2,2,0,2
+A1-9,A1-5,T,cantar,verbos,2,2,2,0,2
+A1-9,A1-5,T,pareja,sustantivos,2,2,2,0,2
+A1-9,A1-5,T,grupo,sustantivos,2,2,3,0,2
+A1-9,A1-5,T,favorito,adjetivos,3,2,4,0,2
+A1-9,A1-5,T,sobrino,sustantivos,2,2,4,0,2
+A1-9,A1-5,T,abierto,adjetivos,6,2,6,0,2
+A1-9,A1-5,T,tímido,adjetivos,4,2,6,0,2
+A1-9,A1-1,T,correo electrónico,sustantivos,0,0,0,1,4
+A1-9,A1-1,T,número de teléfono,sustantivos,0,0,0,1,4
+A1-9,A1-1,T,suizo,adjetivos,0,0,0,1,3
+A1-9,A1-1,T,venezolano,adjetivos,0,0,0,1,3
+A1-9,A1-1,T,belga,adjetivos,1,1,1,0,2
+A1-9,A1-1,T,brasileño,adjetivos,1,1,1,0,2
+A1-9,A1-1,T,canadiense,adjetivos,0,0,1,1,3
+A1-9,A1-1,T,chileno,adjetivos,1,1,1,0,2
+A2-1,A1-6,R,fin de semana,sustantivos,0,0,0,1,1
+A2-1,A1-6,T,lavarse,verbos,2,2,2,0,2
+A2-1,A1-6,T,miércoles,sustantivos,2,2,3,0,2
+A2-1,A1-6,T,organizado,adjetivos,3,2,3,0,2
+A2-1,A1-6,T,acostarse,verbos,2,2,4,0,2
+A2-1,A1-6,T,despertarse,verbos,2,2,4,0,2
+A2-1,A1-6,T,sano,adjetivos,4,3,4,0,1
+A2-1,A1-6,T,cama,sustantivos,3,3,5,0,1
+A2-1,A1-6,T,diente,sustantivos,3,3,5,0,1
+A2-1,A1-2,T,mensaje,sustantivos,2,2,3,0,2
+A2-1,A1-2,T,revista,sustantivos,2,2,3,0,2
+A2-1,A1-2,T,videojuego,sustantivos,3,2,3,0,2
+A2-1,A1-2,T,nativo,adjetivos,3,2,4,0,2
+A2-1,A1-2,T,radio,sustantivos,3,2,4,0,2
+A2-1,A1-2,T,vacaciones,sustantivos,7,3,7,0,1
+A2-1,A1-2,T,leer,verbos,8,3,9,0,1
+A2-2,A1-7,R,atún,sustantivos,0,0,0,1,1
+A2-2,A1-7,R,chorizo,sustantivos,0,0,0,1,1
+A2-2,A1-7,R,cocido,adjetivos,0,0,0,1,1
+A2-2,A1-7,R,copa,sustantivos,0,0,0,1,1
+A2-2,A1-7,R,guisado,adjetivos,0,0,0,1,1
+A2-2,A1-7,R,salteado,adjetivos,0,0,0,1,1
+A2-2,A1-7,R,taza,sustantivos,0,0,1,1,1
+A2-2,A1-7,T,lechuga,sustantivos,2,2,2,0,1
+A2-2,A1-7,T,merendar,verbos,2,2,2,0,1
+A2-2,A1-7,T,plato,sustantivos,2,2,2,0,1
+A2-2,A1-7,T,aceite,sustantivos,3,2,3,0,1
+A2-2,A1-7,T,cerveza,sustantivos,2,2,3,0,1
+A2-2,A1-3,T,niebla,sustantivos,2,2,3,0,1
+A2-2,A1-3,T,producto,sustantivos,3,2,3,0,1
+A2-2,A1-3,T,nieve,sustantivos,2,2,4,0,1
+A2-2,A1-3,T,norte,sustantivos,2,2,4,0,1
+A2-3,A1-8,R,cajero automático,sustantivos,0,0,0,1,1
+A2-3,A1-8,T,biblioteca,sustantivos,2,2,2,0,2
+A2-3,A1-8,T,metro,sustantivos,2,2,3,0,1
+A2-3,A1-4,R,llevarse,verbos,0,0,0,1,1
+A2-3,A1-4,R,marrón,adjetivos,0,0,0,1,1
+A2-3,A1-4,R,naranja,adjetivos,0,0,0,1,1
+A2-3,A1-4,R,pantalones cortos,sustantivos,0,0,0,1,1
+A2-3,A1-4,R,pasta de dientes,sustantivos,0,0,0,1,1
+A2-3,A1-4,R,pijama,sustantivos,0,0,0,1,1
+A2-3,A1-4,R,ropa interior,sustantivos,0,0,0,1,1
+A2-3,A1-4,R,secador de pelo,sustantivos,0,0,0,1,1
+A2-3,A1-4,R,tarjeta de crédito,sustantivos,0,0,0,1,1
+A2-3,A1-4,R,zapatillas deportivas,sustantivos,0,0,0,1,1
+A2-3,A1-4,R,beis,adjetivos,0,0,1,1,1
+A2-3,A1-4,T,cómodo,adjetivos,2,2,3,0,1
+A2-3,A1-0,T,deletrear,verbos,1,1,2,0,2
+A2-4,A1-9,R,cambiar,verbos,0,0,0,1,1
+A2-4,A1-9,R,cualidad,sustantivos,0,0,0,1,1
+A2-4,A1-9,R,impaciente,adjetivos,0,0,0,1,1
+A2-4,A1-9,R,perder,verbos,0,0,0,1,1
+A2-4,A1-9,R,vendedor,sustantivos,0,0,0,1,1
+A2-4,A1-9,T,ganar,verbos,2,2,2,0,2
+A2-4,A1-9,T,nadar,verbos,2,2,4,0,2
+A2-4,A1-9,T,vida,sustantivos,3,2,5,0,2
+A2-4,A1-9,T,agricultor,sustantivos,1,1,1,0,2
+A2-4,A1-5,T,cantante,sustantivos,2,2,2,0,2
+A2-4,A1-5,T,cantar,verbos,2,2,2,0,2
+A2-4,A1-5,T,pareja,sustantivos,2,2,2,0,2
+A2-4,A1-5,T,grupo,sustantivos,2,2,3,0,2
+A2-4,A1-1,T,colombiano,adjetivos,1,1,1,0,2
+A2-4,A1-1,T,correo electrónico,sustantivos,0,0,0,1,4
+A2-4,A1-1,T,número de teléfono,sustantivos,0,0,0,1,4
+A2-5,A2-1,R,actividad,sustantivos,0,0,0,1,1
+A2-5,A2-1,R,escritor,sustantivos,0,0,0,1,1
+A2-5,A2-1,R,extranjero,adjetivos,0,0,0,1,1
+A2-5,A2-1,R,seguro,adjetivos,0,0,0,1,1
+A2-5,A2-1,R,acento,sustantivos,0,0,2,1,1
+A2-5,A2-1,T,traducir,verbos,2,2,2,0,2
+A2-5,A2-1,T,inseguro,adjetivos,2,2,3,0,2
+A2-5,A2-1,T,vergüenza,sustantivos,2,2,4,0,2
+A2-5,A2-1,T,nervioso,adjetivos,4,2,6,0,1
+A2-5,A1-6,T,lavarse,verbos,2,2,2,0,2
+A2-5,A1-6,T,miércoles,sustantivos,2,2,3,0,2
+A2-5,A1-6,T,organizado,adjetivos,3,2,3,0,2
+A2-5,A1-6,T,acostarse,verbos,2,2,4,0,2
+A2-5,A1-2,T,hispano,adjetivos,0,0,0,1,2
+A2-5,A1-2,T,página web,sustantivos,0,0,0,1,2
+A2-5,A1-2,T,vida nocturna,sustantivos,0,0,0,1,2
+A2-6,A2-2,R,acontecimiento,sustantivos,0,0,0,1,1
+A2-6,A2-2,R,interpretar,verbos,0,0,0,1,1
+A2-6,A2-2,R,mundial,adjetivos,0,0,0,1,1
+A2-6,A2-2,R,novel,adjetivos,0,0,0,1,1
+A2-6,A2-2,R,taquillero,adjetivos,0,0,0,1,1
+A2-6,A2-2,R,trasladarse,verbos,0,0,0,1,1
+A2-6,A2-2,R,actor,sustantivos,0,0,1,1,1
+A2-6,A2-2,R,conocido,adjetivos,0,0,1,1,1
+A2-6,A2-2,T,carrera,sustantivos,2,2,3,0,2
+A2-6,A2-2,T,casarse,verbos,2,2,3,0,2
+A2-6,A2-2,T,obra,sustantivos,2,2,3,0,2
+A2-6,A1-7,T,cuchillo,sustantivos,2,2,3,0,1
+A2-6,A1-7,T,huevo,sustantivos,3,2,3,0,1
+A2-6,A1-7,T,manzana,sustantivos,3,2,3,0,1
+A2-6,A1-3,T,nublado,adjetivos,2,2,4,0,1
+A2-6,A1-3,T,selva,sustantivos,3,2,4,0,1
+A2-7,A2-3,R,colocar,verbos,0,0,0,1,1
+A2-7,A2-3,R,espacioso,adjetivos,0,0,0,1,1
+A2-7,A2-3,R,peor,adjetivos,0,0,2,1,1
+A2-7,A2-3,T,alquilar,verbos,2,2,2,0,1
+A2-7,A2-3,T,ascensor,sustantivos,2,2,2,0,1
+A2-7,A2-3,T,compartir,verbos,2,2,2,0,1
+A2-7,A1-8,R,oficina de correos,sustantivos,0,0,0,1,1
+A2-7,A1-8,T,esquina,sustantivos,2,2,4,0,1
+A2-7,A1-8,T,iglesia,sustantivos,2,2,4,0,1
+A2-7,A1-8,T,biblioteca,sustantivos,2,2,2,0,2
+A2-7,A1-4,R,elegante,adjetivos,0,0,1,1,1
+A2-7,A1-4,R,gris,adjetivos,0,0,1,1,1
+A2-7,A1-4,R,rosa,adjetivos,0,0,1,1,1
+A2-7,A1-4,R,falda,sustantivos,0,0,2,1,1
+A2-7,A1-4,T,toalla,sustantivos,2,2,3,0,1
+A2-7,A1-4,T,maleta,sustantivos,3,2,4,0,1
+A2-8,A2-4,R,brusco,adjetivos,0,0,0,1,1
+A2-8,A2-4,R,charlar,verbos,0,0,0,1,1
+A2-8,A2-4,R,igualmente,adjetivos,0,0,0,1,1
+A2-8,A2-4,T,abrazo,sustantivos,2,2,2,0,1
+A2-8,A2-4,T,cortado,sustantivos,2,2,2,0,1
+A2-8,A2-4,T,quejarse,verbos,2,2,2,0,1
+A2-8,A2-4,T,zumo,sustantivos,2,2,2,0,1
+A2-8,A2-4,T,beso,sustantivos,2,2,3,0,1
+A2-8,A1-9,T,agricultor,sustantivos,1,1,1,0,2
+A2-8,A1-9,T,ganar,verbos,2,2,2,0,2
+A2-8,A1-9,T,nadar,verbos,2,2,4,0,2
+A2-8,A1-9,T,vida,sustantivos,3,2,5,0,2
+A2-8,A1-5,T,favorito,adjetivos,3,2,4,0,2
+A2-8,A1-5,T,sobrino,sustantivos,2,2,4,0,2
+A2-8,A1-5,T,abierto,adjetivos,6,2,6,0,2
+A2-8,A1-5,T,tímido,adjetivos,4,2,6,0,2
+A2-9,A2-5,R,cerrado,adjetivos,0,0,0,1,1
+A2-9,A2-5,R,reducido,adjetivos,0,0,0,1,1
+A2-9,A2-5,R,planificar,verbos,0,0,1,1,1
+A2-9,A2-5,R,discoteca,sustantivos,0,0,2,1,1
+A2-9,A2-5,T,aeropuerto,sustantivos,2,2,2,0,1
+A2-9,A2-5,T,apuntarse,verbos,2,2,2,0,1
+A2-9,A2-5,T,entrada,sustantivos,2,2,2,0,1
+A2-9,A2-5,T,gratuito,adjetivos,2,2,2,0,1
+A2-9,A2-1,T,examen,sustantivos,3,2,8,0,1
+A2-9,A2-1,T,traducir,verbos,2,2,2,0,2
+A2-9,A2-1,T,inseguro,adjetivos,2,2,3,0,2
+A2-9,A2-1,T,vergüenza,sustantivos,2,2,4,0,2
+A2-9,A1-6,T,despertarse,verbos,2,2,4,0,2
+A2-9,A1-6,T,domingo,sustantivos,4,3,5,0,1
+A2-9,A1-6,T,vestirse,verbos,3,3,5,0,1
+A2-9,A1-6,T,cansado,adjetivos,5,3,6,0,1
+A2-10,A2-6,R,de vez en cuando,adjetivos,0,0,0,1,1
+A2-10,A2-6,R,echar,verbos,0,0,0,1,1
+A2-10,A2-6,R,fruto seco,sustantivos,0,0,0,1,1
+A2-10,A2-6,R,picado,adjetivos,0,0,0,1,1
+A2-10,A2-6,R,batir,verbos,0,0,1,1,1
+A2-10,A2-6,R,cocer,verbos,0,0,1,1,1
+A2-10,A2-6,R,hervir,verbos,0,0,1,1,1
+A2-10,A2-6,R,ligero,adjetivos,0,0,2,1,1
+A2-10,A2-6,T,freír,verbos,2,2,2,0,1
+A2-10,A2-6,T,pelar,verbos,2,2,3,0,1
+A2-10,A2-6,T,maduro,adjetivos,2,2,4,0,1
+A2-10,A2-2,T,carrera,sustantivos,2,2,3,0,2
+A2-10,A2-2,T,casarse,verbos,2,2,3,0,2
+A2-10,A2-2,T,obra,sustantivos,2,2,3,0,2
+A2-10,A1-7,T,servilleta,sustantivos,2,2,3,0,1
+A2-10,A1-7,T,caliente,adjetivos,4,2,4,0,1
