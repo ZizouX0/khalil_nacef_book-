@@ -33,7 +33,7 @@ work plus 8 of marking.** The item count is a ceiling, not a target.
 |---|---|---|---|---|
 | A | **Reconocimiento** | 6 current-unit words. A1: match Spanish↔English, 8 in the pool for 6 slots. A2: English → Spanish chunk recall, nouns keyed with *el/la*. | 6 | 6 |
 | B | **Formas** | Current-unit grammar, **blocked** by point, cued with a bracketed infinitive and person. Small on purpose — the course book already carries five exercises of this shape. | 6 | 6 |
-| C | **Texto con huecos** | One connected 70–90-word text. **Rational deletion, never fixed-ratio**: 4 lexical gaps + 4 grammatical. A1 has a word bank, A2 does not. | 8 | 8 |
+| C | **Texto con huecos** | One connected 70–90-word text, **printed as eight lettered lines** `a)`–`h)` that read on from each other — not as a paragraph, because only a lettered item gets a ruled line to write on. **Rational deletion, never fixed-ratio**: 4 lexical gaps + 4 grammatical. A1 has a word bank, A2 does not. | 8 | 8 |
 | D | **Lectura** | One text — email, notice, chat thread, blog post. 90–120 words at A1, 130–160 at A2. 2 true/false **with the Spanish line that proves it**, 2 multiple choice, 2 short answer. | 6 | 6 |
 | D2 | **Lee y reconstruye** | 3 sentences lifted verbatim from the Block D text. Read one, cover it, write it from memory, uncover, compare. Scored 2/1/0. | 3 | 6 |
 | — | *split point* | **"Stop here if you are splitting this chapter — come back within two days."** | | |
@@ -70,7 +70,7 @@ interval, which is where the spacing research puts the optimum.
 |---|---|
 | L1 (N−1) | 4 vocabulary items, English → Spanish cued recall |
 | L2 (N−3) | 4 grammar gap-fills — cued at A1, uncued at A2 |
-| L3 (N−7) | 2 vocabulary recall + 2 multiple choice with **same-lemma distractors** (*fui / era / he ido*) |
+| L3 (N−7) | 2 vocabulary recall + 2 multiple choice. **A2: same-lemma distractors** (*fui / era / he ido*), so recognising the word cannot help. **A1: different lemmas** (*es / está / hay*) — same-lemma contrasts need past tenses that do not exist yet at A1. |
 | L4 (N−12) | 2 vocabulary (recognition at A1, recall at A2) + 2 two-word translation fragments |
 
 **Early chapters, where a lane points before the course started.** Its four items move to the oldest lane that
