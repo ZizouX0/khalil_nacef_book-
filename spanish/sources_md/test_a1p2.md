@@ -259,7 +259,7 @@ yourself with the key at the end — only after you have answered everything. To
 6. to order, to ask for
 
 **B · Fill the gap (8 points).** Write **one word** in each gap. Where there is a word in brackets, use that word in the correct form. The person is shown when it is not obvious.
-7. ¿Me ___ (poner) un café, por favor? *(usted)*
+7. ¿Nos ___ (poner) dos cafés, por favor? *(usted)*
 8. Los camareros ___ (traer) los postres ahora mismo.
 9. De primero quiero una sopa ___ pescado.
 10. No tomo azúcar: para mí un café ___ azúcar, por favor.
@@ -516,7 +516,7 @@ yourself with the key at the end — only after you have answered everything. To
     a) Sé   b) Puedo   c) Conozco
 16. Hoy no ___ venir a la fiesta: tengo que trabajar.
     a) sé   b) puedo   c) quiero
-17. Nunca he ___ un hueso.
+17. Nunca me he ___ un hueso.
     a) romper   b) rompido   c) roto
 18. ¿___ comido ya? *(vosotros)*
     a) Habéis   b) Habláis   c) Tenéis

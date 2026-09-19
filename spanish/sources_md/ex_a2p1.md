@@ -51,7 +51,7 @@ d) I study Spanish because I have friends in Mexico.
 Ex 1: a) me levanto; b) te sientes *(sentirse stem-changes e→ie: me siento, te sientes)*; c) se levanta; d) nos acordamos *(nosotros never takes the o→ue change)*; e) se divierten; f) me equivoco
 Ex 2: a) porque *(a conjugated verb follows: quiero)*; b) para *(purpose, so an infinitive follows: viajar)*; c) para; d) porque; e) para
 Ex 3: a) desde; b) desde hace *(a length of time, not a date)*; c) Hace … que *(hace + duration + que + present tense)*; d) Desde; e) desde
-Ex 4: 1-c; 2-a; 3-e; 4-f; 5-d; 6-b
+Ex 4: 1-c *(palabra is a single word; una frase is a whole sentence)*; 2-a *(the plural adds an accent: examen → exámenes)*; 3-e *(Latin America often says el pizarrón for the same board)*; 4-f *(idioma and lengua both work; lenguaje means language in the abstract)*; 5-d *(the ü is needed to sound the u; plain gue would not)*; 6-b *(diccionario keeps the double c — dic-cio-na-rio)*
 Ex 5: a) Me levanto temprano para estudiar. b) Estudio español desde hace seis meses. *(present tense — the action still continues)* (also: Hace seis meses que estudio español.) c) Me siento nervioso/a cuando hablo. *(sentirse takes an adjective, which agrees with you)* d) Estudio español porque tengo amigos en México.
 
 ## Unidad 2 — Una vida de película {#nivel=A2 #unidad=2}

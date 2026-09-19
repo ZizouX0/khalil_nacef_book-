@@ -414,7 +414,7 @@
 24) Cuando corro mucho, me **duelen** las rodillas y tengo que parar un rato.
 25) Señora, **póngase** crema protectora en la piel antes de salir, que hace mucho sol.
 26) Esta semana **he ido** dos veces al fisioterapeuta porque me duele mucho la espalda. °
-27) Mi hermana se siente **ansiosa** cuando va al médico, aunque no tiene nada grave. °
+27) Mi hermana se siente **ansiosa** cuando va al médico, aunque no tiene nada grave. ° *(also correct:* **siente ansiedad** *— drop the pronoun and keep the noun)*
 
 **Marking note for E (Q28–Q32).** Give **2 points** for a sentence that is fully correct. Give **1 point** if the meaning is clear and both clauses are there, but there is one slip (a wrong accent, a wrong ending, a missing article). Give **0** if the connector is wrong, if *doler* does not agree with the body part, or if one clause is missing. Latin American variants are correct: *ustedes* for *vosotros*, and the indefinido where Spain uses the perfecto in Q29 and Q31 (*fui tres veces*, *me desperté*).
 
@@ -439,7 +439,7 @@
 - I used **estar** for how someone feels or is right now (*estás resfriada*) and **ser** for what someone is like (*es muy tranquilo*).
 - I used at least one health expression: *tener fiebre*, *tener dolor de…*, *tener mala cara*, *encontrarse bien/mal* or *ir bien para*.
 - I joined two of my sentences with a connector — **porque**, **pero**, **así que** or **además**.
-- My message has an opening line and a closing line of the kind you write to a friend (*¡Hola, Ana!* … *¡Que te mejores! Un beso*).
+- My message has an opening line and a closing line of the kind you write to a friend (*¡Hola, Ana!* … *¡Cuídate mucho! Un beso*, or *¡Que te mejores!*, which you have met as a set phrase).
 - I wrote 70–90 words, and I read my text again to check the accents (*está, duelen, médico, días*).
 
 **Routing.**
@@ -541,7 +541,7 @@
 **Answers.**
 1) ya no
 2) hoy en día
-3) en aquellos tiempos
+3) en aquellos tiempos / en aquella época
 4) no estar de acuerdo
 5) a los … años °
 6) por eso °

@@ -26,7 +26,17 @@ EXES=["ex_a1p1.md","ex_a1p2.md","ex_a2p1.md","ex_a2p2.md"]
 def norm(s):
     s=unicodedata.normalize('NFD', s.lower())
     s=''.join(c for c in s if unicodedata.category(c)!='Mn')
-    return re.sub(r'[^a-z0-9 ]+',' ', s).strip()
+    # collapse runs: punctuation became spaces above, and "___" became four of
+    # them, so without this two identical sentences compare unequal
+    return re.sub(r'\s+',' ', re.sub(r'[^a-z0-9 ]+',' ', s)).strip()
+
+def item_norm(s):
+    """Normalise an exercise or test item for comparison, WITHOUT its label.
+    A Practica item is lettered "c)" and the same sentence in a test is numbered
+    "16.", so comparing the labelled strings never matched and three verbatim
+    copies of a Practica item sat in scored tests with their answers already
+    printed in the Answer Key."""
+    return norm(re.sub(r'^\s*(?:\d+|[a-z])\s*[.)]\s*', '', s.strip()))
 
 def words(s): return [w for w in norm(s).split() if len(w)>3]
 
@@ -40,7 +50,7 @@ for f in UNITS:
 PRACTICA={}
 for f in EXES:
     for k,(p,a) in B.parse_exercises(f"{SRC}/{f}").items():
-        PRACTICA[k]=set(norm(l) for l in p.split("\n") if len(norm(l))>25)
+        PRACTICA[k]=set(item_norm(l) for l in p.split("\n") if len(item_norm(l))>18)
 
 findings=[]
 def flag(unit, kind, msg):
@@ -135,8 +145,10 @@ for f in TESTS:
         # 8. verbatim reuse of a Practica item
         pr=PRACTICA.get((lvl,str(int(uno))), set())
         for line in paper.split("\n"):
-            ln=norm(line)
-            if len(ln)>30 and ln in pr:
+            ln=item_norm(line)
+            # 18, not 30: the shortest real copy found was 26 characters once the
+            # label and punctuation were stripped, and it went unreported for months
+            if len(ln)>18 and ln in pr:
                 flag(U,'rerun',f"item copied verbatim from this unit's Practica: “{line.strip()[:70]}”")
 
 # ---- report -------------------------------------------------------------

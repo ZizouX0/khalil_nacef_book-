@@ -247,7 +247,7 @@ Markers: *ayer, el año pasado, en 2019, hace dos días.*
 |---|---|
 | purpose: *Estudio **para** aprender.* | reason: *Gracias **por** tu ayuda.* |
 | recipient: *Es **para** ti.* | exchange/price: *Lo compré **por** 10 €.* |
-| deadline: ***para** el lunes* | duration: *Viví allí **por** dos años.* |
+| deadline: ***para** el lunes* | duration: *Viví allí **durante** dos años.* |
 | destination: *Salgo **para** Madrid.* | through/along: *Paseo **por** el parque.* |
 | opinion: ***Para** mí, es fácil.* | means: *Hablamos **por** teléfono.* |
 

@@ -676,7 +676,7 @@ Mi abuela Teresa nació en un pueblo de Galicia en 1940. A los dieciséis años 
     a) he ido   b) fui   c) voy
 18. ¿___ has comido? — No, todavía no.
     a) Ya   b) Todavía   c) Nunca
-19. El año que viene yo ___ estudiar en Argentina.
+19. El mes que viene yo ___ buscar un trabajo nuevo.
     a) voy a   b) voy   c) vamos a
 20. Este verano yo ___ hacer un viaje por Andalucía.
     a) pienso   b) pienso en   c) piensas

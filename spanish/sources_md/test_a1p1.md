@@ -411,7 +411,7 @@ yourself with the key at the end — only after you have answered everything. To
  a) es
  b) está
  c) hay
-16. El clima del norte es ___ seco.
+16. La costa del sur es ___ fría en invierno.
  a) muy
  b) mucho
  c) muchos

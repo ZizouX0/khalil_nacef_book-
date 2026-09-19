@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """Build the illustrated Spanish A1-A2 course PDF from the agent source files + assets."""
-import re, os, json, html, datetime, sys
+import re, os, json, html, datetime, sys, unicodedata
 import markdown
 from weasyprint import HTML
 
@@ -200,11 +200,43 @@ def parse_ctx(ctx):
     return dict(dialogues=dialogues, examples=examples, truco=truco)
 
 # ---------------- rendering ----------------
+_INLINE_MD=re.compile(r'\*\*(.+?)\*\*|\*(.+?)\*')
+def esc_md(s):
+    """Escape for HTML, then honour the two inline markers that authors actually
+    use in titles and table cells. Escaping alone printed the asterisks: the
+    chapter "False Friends (*los falsos amigos*)" reached the page with its stars
+    still on, in the heading and again in the table of contents."""
+    s=html.escape(s)
+    return _INLINE_MD.sub(lambda m: f'<strong>{m.group(1)}</strong>' if m.group(1)
+                          else f'<em>{m.group(2)}</em>', s)
+
+def strip_md(s):
+    return re.sub(r'\*{1,2}(.+?)\*{1,2}', r'\1', s)
+
 def h(level,title,cls=""):
     """title is RAW text; escaped once here for display, stored raw for the TOC."""
-    i=hid(title); TOC.append((level,i,re.sub(r'<[^>]+>','',title)))
+    i=hid(title); TOC.append((level,i,strip_md(re.sub(r'<[^>]+>','',title))))
     c=f' class="{cls}"' if cls else ''
-    return f'<h{level} id="{i}"{c}>{html.escape(title)}</h{level}>'
+    return f'<h{level} id="{i}"{c}>{esc_md(title)}</h{level}>'
+
+def _fold(s):
+    """Strip accents for sorting, but keep ñ: Spanish files Ñ as its own letter
+    after N, while á/é/í/ó/ú sort exactly as a/e/i/o/u."""
+    s=s.replace('ñ','\u0001').replace('Ñ','\u0001')
+    s=''.join(c for c in unicodedata.normalize('NFD', s)
+              if not unicodedata.combining(c))
+    return s.replace('\u0001','ñ')
+
+def idx_key(w):
+    """Sort key: ignore a leading ¿ or ¡ and any accent, so ¿Qué tal? files under
+    Q and árabe under A instead of both landing after Z."""
+    return _fold(w.lower()).lstrip('¿¡"\'(-–— ').strip()
+
+def idx_letter(w):
+    k=idx_key(w)
+    for c in k:
+        if c.isalpha(): return c.upper()
+    return '#'
 
 # nouns that take 'el' but are grammatically feminine (stressed initial a-/ha-)
 FEM_EL={'agua','aula','arte','alma','águila','hambre','área','aula','ala','arma','acta','ave','hacha'}
@@ -235,9 +267,9 @@ def gender_table(rows):
                     g='f' if art in ('la','las') else 'm'
                     head=re.sub(r'\s*\(.*?\)','',rest).strip().split('/')[0].strip().lower()
                     if art in ('el','los') and head in FEM_EL: g='f'
-                    cells.append(f'<td><span class="gen {g}">{art}</span>{html.escape(rest)}</td>')
-                else: cells.append(f'<td>{html.escape(c)}</td>')
-            else: cells.append(f'<td>{html.escape(c)}</td>')
+                    cells.append(f'<td><span class="gen {g}">{art}</span>{esc_md(rest)}</td>')
+                else: cells.append(f'<td>{esc_md(c)}</td>')
+            else: cells.append(f'<td>{esc_md(c)}</td>')
         out.append('<tr>'+"".join(cells)+'</tr>')
     out.append('</tbody></table>'); return "".join(out)
 
@@ -246,7 +278,7 @@ def plain_table(rows, cls="voc"):
     hd=rows[0]
     o=[f'<table class="{cls}"><thead><tr>'+"".join(f'<th>{html.escape(c)}</th>' for c in hd)+'</tr></thead><tbody>']
     for r in rows[1:]:
-        o.append('<tr>'+"".join(ex_cell(c) if _is_ex(hd,j) else f'<td>{html.escape(c)}</td>'
+        o.append('<tr>'+"".join(ex_cell(c) if _is_ex(hd,j) else f'<td>{esc_md(c)}</td>'
                                 for j,c in enumerate(r))+'</tr>')
     o.append('</tbody></table>'); return "".join(o)
 
@@ -282,8 +314,8 @@ def render_ctx(ctx):
         o.append('<div class="box dlg"><span class="h">En contexto — '+html.escape(d['title'])+'</span>')
         for who,tx in d['lines']:
             if who: o.append(f'<div class="line"><span class="who">{html.escape(who)}:</span> {html.escape(tx)}</div>')
-            else: o.append(f'<div class="line">{html.escape(tx)}</div>')
-        if d['tr']: o.append(f'<div class="tr">{html.escape(d["tr"])}</div>')
+            else: o.append(f'<div class="line">{esc_md(tx)}</div>')
+        if d['tr']: o.append(f'<div class="tr">{esc_md(d["tr"])}</div>')
         o.append('</div>')
     if ctx['examples']:
         o.append('<p class="exlead"><b>More examples</b></p><ul class="g-ex">'+
@@ -432,6 +464,34 @@ NOTES_FILL = {}
 if os.path.exists(f"{BUILD}/notes_fill.json"):
     NOTES_FILL = json.load(open(f"{BUILD}/notes_fill.json"))
 
+def link_routing(hcell, unit_anchor, gpoint_id):
+    """A routing row names a place to go back to but never said which page, which
+    is the one table in the book written for a learner who has just failed. Link
+    the quoted grammar point where there is one, otherwise the unit itself, and
+    let target-counter print the page."""
+    def lvl_unit(m):
+        return ('A2', m.group(2)) if m.group(1) else ('A1', m.group(2))
+    def rep(m):
+        lv,u = lvl_unit(m)
+        name = (m.group(3) or '').strip()
+        href = gpoint_id.get((lv,u,name)) or unit_anchor.get((lv,u))
+        if not href: return m.group(0)
+        return f'<a class="pref" href="#{href}">{m.group(0)}</a>'
+    # "Unit 3 → Gramática → “Comparatives”" or just "A2 Unit 2 → Vocabulario → …"
+    pat = re.compile(r'(A2\s+)?Unit\s+(\d+)\s*→\s*Gram[áa]tica\s*→\s*[“"„]([^”"]+)[”"]')
+    hcell = pat.sub(rep, hcell)
+    pat2 = re.compile(r'(A2\s+)?Unit\s+(\d+)(?=\s*→)(?![^<]*</a>)')
+    def rep2(m):
+        lv,u = lvl_unit(m)
+        href = unit_anchor.get((lv,u))
+        return f'<a class="pref" href="#{href}">{m.group(0)}</a>' if href else m.group(0)
+    # only link a bare "Unit N" that the grammar-point pass did not already wrap
+    out=[]; i=0
+    for am in re.finditer(r'<a class="pref".*?</a>', hcell):
+        out.append(pat2.sub(rep2, hcell[i:am.start()])); out.append(am.group(0)); i=am.end()
+    out.append(pat2.sub(rep2, hcell[i:]))
+    return "".join(out)
+
 def score_panel(points, nivel, key):
     """The page after a test is always a fresh one — the next unit opens on its
     own page — so whatever is left of the test page cannot be backfilled. Rather
@@ -533,7 +593,7 @@ def build():
     relampago=parse_keyed("relampago_es.md")
     frances=parse_keyed("frances_es.md")
     suena=parse_keyed("suena_es.md")
-    parts=[]; answer_key=[]; test_key=[]; relamp_key=[]; unit_anchor={}
+    parts=[]; answer_key=[]; test_key=[]; relamp_key=[]; unit_anchor={}; gpoint_id={}
 
     # -------- front matter --------
     for name in ("welcome_es.md",):
@@ -594,6 +654,7 @@ def build():
             parts.append('<div class="scope gram"><h3 class="sec sec-gram"><span class="tag">Grammar</span></h3>')
             for p in gp:
                 gid=hid(f"g-{nivel}-{uno}-{p['name']}")
+                gpoint_id.setdefault((nivel,str(int(uno)),p['name'].strip()), gid)
                 TOC.append((3,gid,p['name']))
                 parts.append(render_grammar_point(p,gid))
             if key in frances:
@@ -682,7 +743,15 @@ def build():
             rc,ra=repaso[key]
             rid=slug(f"repaso-{key}"); TOC.append((2,rid,f"Repaso — after {nivel} unit {uno}"))
             parts.append(f'<div class="repaso" id="{rid}"><h2 class="repasohead">Repaso · Review after {nivel} Unit {uno}</h2>')
-            parts.append(md_ol(rc)); parts.append('</div>')
+            parts.append(md_ol(rc))
+            # Every other assessed part of the book tells the learner where its
+            # answers live; the checkpoint was the one that did not, so its answers
+            # sat in the back of the book unfindable.
+            if ra:
+                parts.append('<p class="ansref"><small>Answers in the <b>Answer Key</b> at the back, '
+                             f'under <b>Repaso — after {nivel} unit {uno}</b>. '
+                             'Do the whole checkpoint before you look.</small></p>')
+            parts.append('</div>')
             if ra: answer_key.append((f"Repaso — after {nivel} unit {uno}", ra))
 
     # ================= REFERENCE =================
@@ -733,19 +802,22 @@ def build():
                     w=re.sub(r'^\s*(el|la|los|las)\s+','',w,flags=re.I)
                     w=re.sub(r'\s*/\s*(el|la|los|las)\s+',' / ',w,flags=re.I)
                 w=re.sub(r'\s*\(.+?\)','',w).strip()
-                if w and w[0].isalpha():
-                    e=words.setdefault(w.lower(), [w, []])
+                # "starts with a letter" threw away every question and exclamation
+                # headword — ¿Qué tal?, ¿Cómo te llamas?, ¡Hasta luego! — which are
+                # the first phrases anyone learns and the ones most looked up.
+                if w and any(c.isalpha() for c in w):
+                    e=words.setdefault(idx_key(w), [w, []])
                     loc=(nivel,str(int(uno)))
                     if loc not in e[1]: e[1].append(loc)
     parts.append(h(1,"Alphabetical Index"))
     parts.append('<p class="lead">Every headword, with the level·unit where it appears.</p>')
     letters={}
     for kw,(w,locs) in words.items():
-        letters.setdefault(kw[0].upper(),[]).append((w,locs))
+        letters.setdefault(idx_letter(w),[]).append((w,locs))
     ih=['<div class="indexgrid">']
     for L in sorted(letters):
         ih.append(f'<div class="idx-letter">{L}</div>')
-        for w,locs in sorted(letters[L], key=lambda x:x[0].lower()):
+        for w,locs in sorted(letters[L], key=lambda x: idx_key(x[0])):
             refs=[]
             for lv,u in locs:
                 a=unit_anchor.get((lv,u))
@@ -786,7 +858,8 @@ def build():
             if ts['checks']:
                 parts.append('<div class="checks"><span class="h">Give yourself 1 point for each you can honestly tick</span>'+md(ts['checks'])+'</div>')
             if ts['routing']:
-                parts.append('<div class="routing"><span class="h">Where to go back to</span>'+md(ts['routing'])+'</div>')
+                parts.append('<div class="routing"><span class="h">Where to go back to</span>'
+                             +link_routing(md(ts['routing']), unit_anchor, gpoint_id)+'</div>')
         parts.append('</div>')
 
     # -------- photo credits --------
@@ -823,7 +896,15 @@ def build():
            f'<div class="badge">Beginner\'s course · {datetime.date.today().strftime("%d/%m/%Y")}</div></div></div>')
 
     sheet=os.environ.get("ES_STYLE","style_es.css")
-    doc=(f'<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">'
+    # The file declares PDF/UA-1 conformance and sets DisplayDocTitle, so a viewer
+    # is told to show a title — without one it shows the filename, and that is the
+    # single most-cited PDF/UA failure. lang is es: three fifths of the running
+    # text is Spanish, and a screen reader was giving all of it English phonetics.
+    doc=(f'<!DOCTYPE html><html lang="es"><head><meta charset="utf-8">'
+         f'<title>Español A1–A2 · Curso Completo — Aziz Dardouri</title>'
+         f'<meta name="author" content="Aziz Dardouri">'
+         f'<meta name="description" content="A complete Spanish course from zero to A2: '
+         f'20 units, 100 exercises, 20 scored tests.">'
          f'<link rel="stylesheet" href="file://{BUILD}/{sheet}"></head><body>'
          f'{cover}{"".join(toc)}{"".join(parts)}</body></html>')
     open(f"{BUILD}/_book.html","w",encoding="utf-8").write(doc)

@@ -104,7 +104,7 @@ d) What a beautiful place!
 Ex 1: a) hemos visitado *(esta semana includes now — perfecto; Latin America: visitamos)* b) viajamos c) Has estado *(alguna vez = life experience — perfecto)* d) cené e) he visto *(todavía no keeps it connected to now)* f) vi *(el otro día is a closed moment — indefinido)*
 Ex 2: a) viajamos *(-ar nosotros looks like the present; el año pasado decides)* b) vi *(ver takes no accent: vi, vio)* c) gustó *(agrees with the thing — la excursión)* d) abrió e) comieron f) probaste
 Ex 3: a) me gustaría b) te gustaría c) le gustaría d) nos gustaría e) les gustaría *(les for plural people, but gustaría stays singular)* f) os gustaría
-Ex 4: 1-c, 2-e, 3-f, 4-a, 5-b, 6-d
+Ex 4: 1-c *(literally "what envy" — the noun does the work, not an adjective)*, 2-e *(pasarlo bien keeps the lo, which stands for nothing)*, 3-f *(allí is over there; ahí is nearer and aquí is here)*, 4-a *(caer bien is for people; gustar would suggest attraction)*, 5-b *(parecer works like gustar: me pareció, te pareció)*, 6-d *(pasado is the last one; que viene or próximo is the next)*
 Ex 5: a) ¿Has estado alguna vez en México? *(alguna vez → perfecto)* b) El año pasado viajamos a Costa Rica. c) Me gustaría visitar el museo. d) ¡Qué lugar tan bonito! *(no article after qué; tan goes before the adjective)*
 
 ## Unidad 8 — Estamos muy bien {#nivel=A2 #unidad=8}
@@ -203,7 +203,7 @@ d) I don't live in Madrid any more.
 Ex 1: a) era b) íbamos *(ir is irregular: iba, íbamos — note the accent)* c) viajaba d) tenía e) Eran *(clock time in the past is always imperfecto)* f) veía *(ver keeps the e: veía, not "vía")*
 Ex 2: a) vivíamos *(every -er/-ir imperfect carries the accent on í)* b) jugabas *(no stem change in the imperfecto — not "juegabas")* c) escuchaban d) salía e) viajabais f) estudiaba
 Ex 3: a) ya no b) Todavía *(still doing it; todavía no would mean "not yet")* c) ya no d) Todavía e) ya no *(it changed — ya no = not any more)*
-Ex 4: a) Hoy en día b) democracia c) frontera d) siglo e) época f) Antes
+Ex 4: a) Hoy en día *(a set phrase — hoy on its own means just today)* b) democracia c) frontera *(frontera is the line between countries, not a frontier to explore)* d) siglo e) época *(en aquella época is the set way to say "back then")* f) Antes *(antes alone means "in the past"; antes de needs a complement)*
 Ex 5: a) Cuando era niño, vivía en un pueblo pequeño. *(both set the scene — imperfecto; no article with niño)* b) Todos los veranos íbamos a la playa. c) Antes la gente no viajaba mucho. *(la gente is singular in Spanish)* d) Ya no vivo en Madrid.
 
 ## Unidad 10 — Momentos especiales {#nivel=A2 #unidad=10}
@@ -260,4 +260,4 @@ Ex 1: a) estuve *(irregular stem estuv- — no accent on the yo form)* b) tuvimo
 Ex 2: a) Hacía / decidí *(weather sets the scene; the decision is the event)* b) llegué / dormía *(arriving is the event, sleeping the background)* c) Era / había *(both describe the scene — había, never hubo here)* d) Estábamos / sonó *(an action in progress cut short by one event)* e) empezó *(de repente marks a single completed action)*
 Ex 3: a) Estaba lloviendo *(rain as background; estuvo lloviendo would close it off)* b) estaba cenando c) estábamos bailando d) estaba paseando e) estaba leyendo *(leer → leyendo)*
 Ex 4: 1) pasó 2) estaba 3) vi *(estaba = the scene, vi = the event that moves it)* 4) De repente 5) Resulta que *(introduces the twist, not "as a result")*
-Ex 5: 1-c, 2-a, 3-b, 4-e, 5-f, 6-d
+Ex 5: 1-c *(de repente is fixed — never "de repentemente")*, 2-a *(resulta que takes a full clause, never an infinitive)*, 3-b *(asustarse is reflexive — the fright happens to you)*, 4-e *(pasar miedo is living through it; tener miedo is the state)*, 5-f *(ruido is usually unwanted noise; sonido is the neutral word)*, 6-d *(un corte is a cut, but ¡qué corte! is embarrassment)*

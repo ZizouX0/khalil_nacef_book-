@@ -132,7 +132,7 @@ English: a) glass · b) spoon · c) fork · d) napkin · e) knife · f) cup
 Ex 1: a) pone *(usted always takes the él/ella form)* · b) traigo *(only the yo form is irregular: traigo)* · c) pongo · d) traes · e) trae
 Ex 2: a) Lo *(the pronoun goes before the verb: lo tomo, never "tomo lo")* · b) la *(it matches la fruta's gender, not the speaker's)* · c) Los · d) las · e) la
 Ex 3: a) de *(de names what it is made of, where English says "with")* · b) con · c) de · d) de / con *(de is the filling, con is the extra added)* · e) con
-Ex 4: 1-e (knife) · 2-b (spoon) · 3-c (fork) · 4-f (cup) · 5-a (glass) · 6-d (napkin)
+Ex 4: 1-e (knife) *(cuchillo cuts; cuchara is the round one for soup)* · 2-b (spoon) *(a cucharilla is the small one for coffee)* · 3-c (fork) *(tenedor comes from tener — it holds the food)* · 4-f (cup) *(taza has a handle and holds hot drinks; a vaso does not)* · 5-a (glass) *(vaso is a drinking glass, not a vase — that is un florero)* · 6-d (napkin) *(servilleta is the table napkin; una toalla is a bath towel)*
 Ex 5: a) de segundo · b) para beber · c) trae *(the customer uses usted: ¿Me trae…?, not traes)* · d) pongo *(now the waiter speaks, so his own yo form)* · e) cuenta
 
 ## Unidad 8 — El barrio ideal {#nivel=A1 #unidad=8}

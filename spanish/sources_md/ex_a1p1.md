@@ -39,11 +39,11 @@ English: a) pen · b) window · c) backpack · d) board · e) notebook · f) doo
 — Ben: ¡Adiós!
 
 **Answers.**
-Ex 1: a) dos · b) cinco · c) ocho · d) seis · e) nueve · f) diez
+Ex 1: a) dos *(only uno and the hundreds change for gender — dos never does)* · b) cinco · c) ocho · d) seis *(seis has no accent, but dieciséis and veintiséis do)* · e) nueve *(nueve keeps the -ue-, but noventa drops it)* · f) diez *(diez ends in -z, but 16–19 start dieci- with a c)*
 Ex 2: a) una · b) un · c) una · d) un *(nouns in -r are usually masculine: el ordenador)* · e) una · f) un
 Ex 3: a) se dice · b) significa *(the verb is significar — ¿Qué significa…?, never cómo)* · c) se escribe *(letters are named, so this is spelling, not pronunciation)* · d) se pronuncia
-Ex 4: 1-d (board) · 2-c (backpack) · 3-a (pen) · 4-f (door) · 5-b (window) · 6-e (notebook)
-Ex 5: a) Hola · b) Me llamo · c) se escribe · d) Gracias · e) Hasta luego
+Ex 4: 1-d (board) *(pizarra is also the word for slate, what boards were made of)* · 2-c (backpack) *(a mochilero is a backpacker — same root)* · 3-a (pen) *(everyday Spanish shortens bolígrafo to boli)* · 4-f (door) *(la puerta is a door; el puerto is a port)* · 5-b (window) *(ventana shares its root with viento — the opening for air)* · 6-e (notebook) *(cuaderno is for writing in; a libro is printed to read)*
+Ex 5: a) Hola *(Spanish opens the exclamation too: ¡Hola!)* · b) Me llamo *(llamarse literally says "I call myself" — the me is obligatory)* · c) se escribe *(impersonal se: "how is it written", with nobody named)* · d) Gracias · e) Hasta luego *(hasta luego is "see you later"; adiós is the plain goodbye)*
 
 ## Unidad 1 — Nosotros y nosotras {#nivel=A1 #unidad=1}
 
@@ -87,7 +87,7 @@ c) I am twenty years old.
 d) We are from Mexico.
 
 **Answers.**
-Ex 1: a) soy · b) eres · c) es · d) somos · e) sois · f) son
+Ex 1: a) soy *(soy, estoy, voy and doy are the yo forms ending in -y)* · b) eres · c) es *(usted takes the same form as él and ella)* · d) somos *(every nosotros form ends in -mos, however irregular the verb)* · e) sois *(vosotros is used in Spain; Latin America says ustedes son)* · f) son
 Ex 2: a) tengo *(irregular yo form in -go, not "teno")* · b) tienes · c) tiene · d) tenemos *(the e→ie change skips nosotros — never "tienemos")* · e) tienen · f) tienes *(age takes tener, never ser)*
 Ex 3: a) me llamo · b) te llamas · c) se llama *(the pronoun must match the subject: se with él/ella)* · d) nos llamamos · e) se llaman
 Ex 4: a) italiana · b) española *(nationalities ending in a consonant still add -a)* · c) alemana *(the written accent disappears in the feminine)* · d) francesa · e) enfermera · f) estudiante *(nouns in -e have one form for both genders)*

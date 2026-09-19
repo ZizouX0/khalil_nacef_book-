@@ -36,7 +36,7 @@
 
   /* LAYER 1 — navigation */
   --c-voc:#125C82;    --c-voc-tint:#E7EFF2;    --c-voc-rule:#B8CEDA;
-  --c-gram:#9A6207;   --c-gram-tint:#F4EEE4;   --c-gram-rule:#DFCDB0;
+  --c-gram:#966007;   --c-gram-tint:#F4EEE4;   --c-gram-rule:#DFCDB0;
   --c-conv:#1F7A68;   --c-conv-tint:#E9F2F0;   --c-conv-rule:#BCD7D2;
   --c-prac:#3F3F3F;   --c-prac-tint:#EEEEEE;   --c-prac-rule:#CDCDCD;
   --c-test:#A0182A;   --c-test-tint:#F6EAEC;   --c-test-rule:#E4BEC3;
@@ -45,7 +45,10 @@
   --c-brand:#8E1220;  --c-brand-tint:#F6ECED;  --c-brand-rule:#E2C1C5;
 
   /* LAYER 2 — boxes */
-  --c-tip:#A36700;    --c-tip-tint:#F3EBDE;    --c-tip-rule:#E0CBA8;
+  /* was #A36700, which sat at dE 2.6 from the grammar ochre — two palette entries
+     nobody could tell apart, colour-blind or not. Dropped 12 points of lightness:
+     dE 19.7 apart now, and 7.1:1 on its own tint instead of 3.98:1. */
+  --c-tip:#6E4410;    --c-tip-tint:#F3EBDE;    --c-tip-rule:#E0CBA8;
   --c-ojo:#822B37;    --c-ojo-tint:#F2EAEB;    --c-ojo-rule:#DABFC3;
   --c-dlg:#125C82;    --c-dlg-tint:#E7EFF2;    --c-dlg-rule:#B8CEDA;
   --c-cult:#6B6259;   --c-cult-rule:#D6D3D1;
@@ -82,6 +85,8 @@ h2.testhead,.repasohead{bookmark-level:2; bookmark-label:content()}
 h3.sec{bookmark-level:3; bookmark-label:content()}
 p{margin:0 0 .5em}
 em{color:#444} strong{color:#111}
+/* ...but not where the surrounding text is deliberately reversed out */
+thead th em, thead th strong, h1 em, .testhead em, .cover em{color:inherit}
 del{text-decoration:line-through; color:#8a6a6a}
 
 /* ---------- cover ---------- */
@@ -399,6 +404,12 @@ h2.testhead .lv{float:right; font-size:10pt; background:rgba(255,255,255,.22);
 .checks ul{list-style:none; margin:.1em 0 0 0}
 .checks li::before{content:"\2610\00A0\00A0"; color:var(--c-test)}
 .routing table{font-size:8.5pt} .routing thead th{background:var(--c-test)}
+/* the routing row now carries the page it is sending you to — it is the one table
+   in the book written for someone who has just failed, and it used to name a place
+   without saying where it was */
+.routing a.pref{text-decoration:none; color:inherit}
+.routing a.pref::after{content:" (p." target-counter(attr(href), page) ")";
+  color:var(--c-test); font-weight:bold; white-space:nowrap}
 
 /* Mi resultado — sits on the tail of a test page, which can never be backfilled
    because the next unit opens on a fresh page. Rule-only, no fill: the test box
@@ -431,7 +442,11 @@ h2.testhead .lv{float:right; font-size:10pt; background:rgba(255,255,255,.22);
   border-top:4px solid transparent;
   border-image:linear-gradient(to right, var(--c-voc) 0 25%, var(--c-gram) 25% 50%,
     var(--c-conv) 50% 75%, var(--c-prac) 75% 100%) 1}
-.repasohead{page-break-before:always; color:var(--c-repaso); border-bottom:2px solid var(--c-prac-rule)}
+/* The checkpoint spans two pages and is not part of any unit, so without its own
+   string-set it inherited the running head of the unit before it — "A1 Unidad 5"
+   printed above a page that belongs to no unit. */
+.repasohead{page-break-before:always; color:var(--c-repaso); border-bottom:2px solid var(--c-prac-rule);
+  string-set:unitname content()}
 .repasohead::before{content:"\27F3\00A0\00A0"; font-weight:normal}
 .repaso ul{margin:.3em 0 .6em 1.1em}
 .repaso h3{color:var(--c-repaso)}
@@ -440,7 +455,7 @@ h2.testhead .lv{float:right; font-size:10pt; background:rgba(255,255,255,.22);
 .indexgrid{column-count:2; column-gap:14mm; font-size:9pt}
 .indexgrid .ie{break-inside:avoid; margin:.08em 0}
 .indexgrid a.pref{text-decoration:none; color:var(--ink-3); white-space:nowrap}
-.indexgrid a.pref::after{content:" p." target-counter(attr(href), page); color:#8a837c}
+.indexgrid a.pref::after{content:" p." target-counter(attr(href), page); color:#7A746D}
 .idx-letter{font-weight:bold; color:var(--c-ref); margin:.5em 0 .1em; font-size:11pt;
   border-bottom:1px solid var(--c-ref-rule)}
 .credits{font-size:7.6pt; color:var(--ink-3); column-count:2; column-gap:10mm}
