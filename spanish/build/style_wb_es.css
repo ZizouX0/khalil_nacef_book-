@@ -54,3 +54,7 @@ h1{ background:var(--c-voc); border-bottom-color:#0C4460 }
 .wbgrid .h{ color:var(--c-voc) }
 .wbgrid .scoregrid th{ color:var(--c-voc); border-bottom-color:var(--c-voc-rule) }
 .wbgrid .scoregrid .tot .of{ color:var(--c-voc) }
+
+/* the answer-key section heads carry a bookmark so the PDF outline can reach
+   them, even though the printed contents lists only the chapters */
+h2.akhead{ bookmark-level:2; bookmark-label:content() }

@@ -150,8 +150,12 @@ def build():
     n_ex = n_items = 0
     for nivel, uno, title, secs, answers in chapters:
         cid = B.hid(f"wb-{nivel}-{uno}")
-        parts.append(f'<h1 id="{cid}">{nivel} Unidad {uno} — {html.escape(title)}</h1>'
-                     f'<div class="wbchapter">')
+        ctitle = f"{nivel} Unidad {uno} — {title}"
+        # register it: a heading emitted as raw HTML never reaches B.TOC, and the
+        # printed contents then lists only the answer-key sections — so looking up
+        # a unit sent you to its answers instead of its exercises.
+        B.TOC.append((1, cid, ctitle))
+        parts.append(f'<h1 id="{cid}">{html.escape(ctitle)}</h1><div class="wbchapter">')
         for name, body in secs:
             if CUT_RE.search(body):
                 body = CUT_RE.sub('', body)
@@ -171,7 +175,12 @@ def build():
     parts.append('<p class="lead">Mark your own work. Where a note follows an answer, '
                  'it is the rule the item was testing — read it even when you were right.</p>')
     for title, ans in answer_key:
-        parts.append(B.h(2, title))
+        # level 3 keeps these out of the printed contents, which lists chapters and
+        # "Answer Key" itself — the same twenty names twice would be noise. They
+        # stay as headings on the page and in the PDF outline.
+        aid = B.hid(title)
+        B.TOC.append((3, aid, title))
+        parts.append(f'<h2 class="akhead" id="{aid}">{html.escape(title)}</h2>')
         parts.append('<div class="answerkey">' + B.md(ans) + '</div>')
 
     toc = ['<h1 class="toc-title">Contents</h1><ul class="toc">']
