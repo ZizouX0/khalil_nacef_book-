@@ -1,0 +1,4 @@
+/* Ink-saving workbook: the workbook stylesheet, then the course book's own
+   print overrides, then the binding margin. Nothing new is invented here. */
+@import url("style_wb_es.css");
+@import url("style_print_es.css");

@@ -1,0 +1,40 @@
+/* ============================================================================
+   Español A1–A2 · Cuaderno de Ejercicios — stylesheet
+   ----------------------------------------------------------------------------
+   The workbook imports the course book's stylesheet whole. It is the same book
+   in the hand: same type, same section colours, same ruled line under every
+   item. Only the things that differ between a course and a workbook are set
+   here — the cover, the chapter band, and the reading-passage box, which the
+   course book has no equivalent of.
+   ========================================================================= */
+@import url("style_es.css");
+
+/* The workbook's chapter band is the vocabulary blue, not the course book's
+   crimson, so the two are never confused on a desk with both open. */
+h1{ background:var(--c-voc); border-bottom-color:#0C4460 }
+.wbcover{ background-color:#0E4A69 }
+.wbcover .rule{ background:rgba(255,255,255,.85) }
+
+/* A reading passage is the thing the questions ask about, so it has to read as
+   a text and not as another instruction: wider leading, no fill, a rule top and
+   bottom the way a quoted passage is set in a book. */
+.wbtext{ margin:8px 0 12px; padding:9px 0 10px; font-size:10pt; line-height:1.62;
+  border-top:2px solid var(--c-conv-rule); border-bottom:2px solid var(--c-conv-rule);
+  page-break-inside:auto; orphans:2; widows:2 }
+.wbtext .h{ display:block; font-weight:bold; font-size:8pt; text-transform:uppercase;
+  letter-spacing:.05em; color:var(--c-conv); margin-bottom:5px }
+.wbtext .h::before{ content:"\25A4\00A0\00A0" }
+.wbtext p{ margin:.4em 0 }
+
+/* the answer key is read with a pen in hand, so keep it tight but not cramped */
+.answerkey{ font-size:9.3pt }
+.answerkey p{ margin:.3em 0 }
+
+/* A 70-word writing task needs a page to write on, not the single rule an
+   ordinary item gets. Requested per section with "**Espacio.** N". */
+.wbwrite{ margin:3mm 0 1mm; page-break-inside:auto }
+.wbwrite .wline{ border-bottom:1px solid #B5ABA1; height:7mm }
+
+/* This is the workbook, and its foot should say so — the imported stylesheet
+   names the course book. */
+@page{ @bottom-left{ content:"Cuaderno de Ejercicios · A1–A2" } }
