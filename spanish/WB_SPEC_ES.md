@@ -34,7 +34,7 @@ work plus 8 of marking.** The item count is a ceiling, not a target.
 | A | **Reconocimiento** | 6 current-unit words. A1: match Spanish↔English, 8 in the pool for 6 slots. A2: English → Spanish chunk recall, nouns keyed with *el/la*. | 6 | 6 |
 | B | **Formas** | Current-unit grammar, **blocked** by point, cued with a bracketed infinitive and person. Small on purpose — the course book already carries five exercises of this shape. | 6 | 6 |
 | C | **Texto con huecos** | One connected 70–90-word text, **printed as eight lettered lines** `a)`–`h)` that read on from each other — not as a paragraph, because only a lettered item gets a ruled line to write on. **Rational deletion, never fixed-ratio**: 4 lexical gaps + 4 grammatical. A1 has a word bank, A2 does not. | 8 | 8 |
-| D | **Lectura** | One text — email, notice, chat thread, blog post. 90–120 words at A1, 130–160 at A2. 2 true/false **with the Spanish line that proves it**, 2 multiple choice, 2 short answer. | 6 | 6 |
+| D | **Lectura** | One text — email, notice, chat thread, blog post. 90–120 words at A1, 130–160 at A2. **It must be a story, not a description**: see §2.1. 2 true/false **with the Spanish line that proves it**, 2 multiple choice, 2 short answer. | 6 | 6 |
 | D2 | **Lee y reconstruye** | 3 sentences lifted verbatim from the Block D text. Read one, cover it, write it from memory, uncover, compare. Scored 2/1/0. | 3 | 6 |
 | — | *split point* | **"Stop here if you are splitting this chapter — come back within two days."** | | |
 | E | **Vuelve** | The spacing engine. 4 lanes × 4 items, printed in **shuffled lane order**. | 16 | 16 |
@@ -42,6 +42,33 @@ work plus 8 of marking.** The item count is a ceiling, not a target.
 | G | **Traduce** | 4 sentences English → Spanish, 2 points each: one for the structure, one for the lexis. | 4 | 8 |
 | H1 | **Tú** | 3 stems completed **about the learner's own life**, each forcing two bracketed target words. | 3 | 3 |
 | H2 | **Escribe** | One open task. A1 50–70 words, A2 80–100. Six binary self-checks. | 1 | 6 |
+
+### 2.1 · The reading text has to be worth reading
+
+The first draft of this book got this wrong in every A1 chapter, and it is worth saying why. The brief demanded
+20–30 recycled headwords per text, so the writers delivered exactly that — and what came back was an inventory:
+
+> *En el aula de español hay una puerta, tres ventanas y una pizarra. Hay diez mesas y diez sillas…*
+
+Every word is on the list. Nobody wants anything, nothing goes wrong, and there is no reason to read past the
+second sentence. The word count ate the story.
+
+**A story needs somebody who wants something and cannot have it.** That works at A1, in the present tense,
+inside forty words of vocabulary:
+
+| Instead of | Write |
+|---|---|
+| an inventory of the classroom | Ben has lost something; it was in his backpack this morning; he looks on the teacher's desk, in the bin, under ten chairs |
+| a headcount of the office | fourteen people work there and three came in today; the client arrives at four |
+| what is in the suitcase | it is freezing in Madrid and Elena has packed for summer |
+| "my daily routine is very normal" | the alarm does not go off, and the whole normal routine has twenty minutes |
+
+Same nouns, same numbers, same level. A want, an obstacle, and a turn: **something is different in the last
+sentence from the first.**
+
+This is not decoration. A learner who is bored stops reading, and vocabulary only sticks through volume — so a
+dull text that is perfectly levelled teaches less than an interesting one that is slightly too hard. If a
+passage could be replaced by a bulleted list without losing anything, it has failed and must be rewritten.
 
 ### Why that order
 
