@@ -38,22 +38,22 @@ h) Mi barrio no es moderno, pero está muy bien ___: la estación de metro está
 
 ### D · Lectura
 
-**Texto.** ¡Hola, Marta! Ya vivo en mi barrio nuevo y me gusta mucho. No es un barrio céntrico, pero está muy bien comunicado: hay una parada de autobús en mi calle y la estación de metro está a diez minutos. Enfrente de mi casa hay un mercado pequeño y bastante barato. Al lado del mercado hay una farmacia y un cajero automático. No hay ningún cine, y a mí me gusta mucho el cine. Pero hay dos parques con muchas zonas verdes. Las calles están siempre limpias y mi calle no es nada ruidosa por la noche. ¿Quieres venir el sábado? ¡Hasta pronto! Sara
+**Texto.** ¡Hola, Marta! Son las diez de la noche y busco una farmacia. Mi barrio nuevo no es céntrico, pero está muy bien comunicado: hay una parada de autobús en mi calle. Un vecino dice: «Sigue todo recto y gira a la derecha, enfrente de la oficina de correos». Allí no hay ninguna farmacia: hay un cajero automático y un banco muy feo. El camarero de la plaza dice que está al lado de la biblioteca, cerca del mercado. Allí solo hay un supermercado y mucho tráfico. A las once veo la farmacia en la esquina de mi calle, enfrente de mi casa. Lo que más me gusta de este barrio tranquilo es esta farmacia. ¡Hasta pronto! Sara
 
 **Exercise 4 — Answer about the text. For a) and b) write *Verdadero* or *Falso* and copy the words that prove it. For c) and d) circle a, b or c. Answer e) and f) in Spanish.**
-a) La estación de metro está muy lejos de la casa de Sara. → **Falso** — *"la estación de metro está a diez minutos"* *(model)*
-b) En el barrio de Sara no hay cine.
-c) ¿Qué hay enfrente de la casa de Sara? — a) una farmacia · b) un mercado · c) un parque
-d) ¿Cómo son las calles del barrio de Sara? — a) sucias · b) ruidosas · c) limpias
+a) Sara busca una farmacia por la mañana. → **Falso** — «Son las diez de la noche y busco una farmacia» *(model)*
+b) El barrio de Sara no es céntrico.
+c) ¿Qué hay enfrente de la oficina de correos? — a) una farmacia · b) un cajero automático y un banco · c) una biblioteca
+d) ¿Dónde está la farmacia? — a) al lado de la biblioteca · b) cerca del mercado · c) en la esquina de la calle de Sara
 e) ¿Por qué dice Sara que su barrio está muy bien comunicado?
-f) ¿Qué no hay en el barrio de Sara?
+f) ¿Qué hay al lado de la biblioteca?
 
 ### D2 · Lee y reconstruye
 
 **Exercise 5 — Read one sentence, cover it, write it from memory, then uncover it and compare. Score 2 if it is identical, 1 if one word is wrong or missing, 0 if more.**
-a) Enfrente de mi casa hay un mercado pequeño y bastante barato. *(model — cover the line with your hand before you write.)*
-b) Al lado del mercado hay una farmacia y un cajero automático.
-c) Las calles están siempre limpias y mi calle no es nada ruidosa por la noche.
+a) Allí no hay ninguna farmacia: hay un cajero automático y un banco muy feo. *(model — cover the line with your hand before you write.)*
+b) El camarero de la plaza dice que está al lado de la biblioteca, cerca del mercado.
+c) A las once veo la farmacia en la esquina de mi calle, enfrente de mi casa.
 
 ### E · Vuelve
 
@@ -132,14 +132,14 @@ c) Lo que más me gusta de mi barrio es ___, porque ___. *(lo que más me gusta 
 - g) mucha · also: — · not "muchas": *gente* is uncountable and stays singular · "muchas gentes" does not exist in Spanish → Unit 8 → Gramática → "G · Quantifiers of quantity (mucho, poco, bastante, demasiado)", then Práctica Ex 1
 - h) comunicado · also: — · not "comunicada": it agrees with *barrio*, masculine · the fixed phrase is *estar bien/mal comunicado* → Unit 8 → Vocabulario → Otras palabras, then Práctica Ex 5
 
-**Ex 4 — Lectura.** - a) Falso — *"la estación de metro está a diez minutos"* *(model)*
-- b) Verdadero — *"No hay ningún cine"* · also: quoting *"No hay ningún cine, y a mí me gusta mucho el cine"* · not "Falso": the text says *no hay*, not *hay* · proof lines must be copied, not summarised → Unit 8 → En contexto, then Práctica Ex 2
-- c) b) un mercado · also: — · not "a) una farmacia": the farmacia is *al lado del* mercado, not *enfrente de* Sara · *enfrente de* = opposite, *al lado de* = next to → Unit 8 → Gramática → "G · Prepositions and adverbs of place", then Práctica Ex 3
-- d) c) limpias · also: — · not "b) ruidosas": the text says the street is *no es nada ruidosa* · *no… nada* + adjective means "not at all" → Unit 5 → Gramática → "G · Quantifiers muy / bastante / un poco", then Unit 5, Práctica Ex 3
-- e) Porque hay una parada de autobús en su calle y la estación de metro está a diez minutos. · also: Porque tiene una parada de autobús y el metro muy cerca. · not "Porque está en el centro": the text says it is *no… céntrico* · read the whole clause before answering → Unit 8 → Vocabulario → Otras palabras, then Práctica Ex 5
-- f) No hay ningún cine. · also: Un cine. / Cine. · not "No hay parques": there are two · *ningún* marks the only thing missing → Unit 8 → Gramática → "G · algún / ningún / alguno / ninguno", then Práctica Ex 2
+**Ex 4 — Lectura.** - a) Falso — «Son las diez de la noche y busco una farmacia» *(model)*
+- b) Verdadero — «Mi barrio nuevo no es céntrico» · also: quoting «Mi barrio nuevo no es céntrico, pero está muy bien comunicado» · not "Falso": *bien comunicado* is about transport, not about being central · proof lines must be copied, not summarised → Unit 8 → En contexto, then Práctica Ex 2
+- c) b) un cajero automático y un banco · also: un cajero automático y un banco muy feo · not "a) una farmacia": that is where the vecino sends Sara, and the text says *no hay ninguna* there · read the sentence after the directions → Unit 8 → Gramática → "G · algún / ningún / alguno / ninguno", then Práctica Ex 2
+- d) c) en la esquina de la calle de Sara · also: — · not "a) al lado de la biblioteca": that is the camarero's answer and it is wrong too · only the sentence with *veo* says where the farmacia really is → Unit 8 → Gramática → "G · Prepositions and adverbs of place", then Práctica Ex 3
+- e) Porque hay una parada de autobús en su calle. · also: Porque tiene una parada de autobús en la calle. · not "Porque está en el centro": the text says it is *no… céntrico* · read the whole clause before answering → Unit 8 → Vocabulario → Otras palabras, then Práctica Ex 5
+- f) Un supermercado y mucho tráfico. · also: Hay un supermercado y mucho tráfico. · not "Una farmacia": *allí* points back to the biblioteca, and no farmacia is there · *mucho* stays singular before the uncountable *tráfico* → Unit 8 → Gramática → "G · Quantifiers of quantity (mucho, poco, bastante, demasiado)", then Práctica Ex 1
 
-**Ex 5 — Lee y reconstruye.** score each line 2 / 1 / 0 against the text. There is no variant to accept: the point is the exact wording, including *bastante*, *siempre* and *nada*. If you scored 0 or 1 twice, read the text once more and do the block again tomorrow → Unit 8 → En contexto (Diálogo).
+**Ex 5 — Lee y reconstruye.** score each line 2 / 1 / 0 against the text. There is no variant to accept: the point is the exact wording, including *ninguna* in a), the two place phrases *al lado de* and *cerca del* in b) and *en la esquina de* + *enfrente de* in c). If you scored 0 or 1 twice, read the text once more and do the block again tomorrow → Unit 8 → En contexto (Diálogo).
 
 **Ex 6 — Vuelve.** - a) la taza °Unit 7 *(model)*
 - b) gustan °Unit 5 · also: — · not "gusta": the subject is *los conciertos*, plural · *gustar* agrees with the thing liked, not the person → Unit 5 → Gramática → "G · The verb gustar", then Unit 5, Práctica Ex 1
@@ -220,22 +220,22 @@ h) Y todavía no tengo el ___ de conducir. ¿Quieres venir el domingo?
 
 ### D · Lectura
 
-**Texto.** Hola, Marta: Me llamo Pablo y busco piso en tu barrio. Tengo treinta y dos años y trabajo de cocinero en un restaurante del centro. He vivido en Valencia y en Lisboa, y he trabajado también de camarero y de taxista. Sé cocinar muy bien y sé reparar casi todo en casa, pero no sé nadar y dibujo fatal. Soy una persona tranquila, organizada y muy paciente; mi defecto es que soy bastante despistado y pierdo las llaves [keys] muchas veces. No tengo carné de conducir, por eso voy al trabajo en metro. ¿Puedo ver el piso el sábado por la mañana? Hasta pronto, Pablo.
+**Texto.** Hola, Julia: tengo un problema. Busco compañero de piso: esta tarde vienen dos chicos a la misma hora. Pablo trabaja de cocinero, ha vivido en Valencia y ha trabajado de camarero. Sabe cocinar muy bien y sabe reparar casi todo en casa. Su defecto: es bastante despistado y pierde las llaves muchas veces. Óscar trabaja de vendedor en un centro comercial, es muy organizado y responsable y nunca pierde las llaves, pero no sabe cocinar y es un poco impaciente. Solo tengo una habitación. A las seis viene Pablo con una tortilla. A las siete Óscar todavía no viene: ha cambiado de trabajo y hoy no puede. Para mí, saber cocinar es una cualidad muy importante. Hasta pronto, Bea.
 
 **Exercise 4 — Answer about the text. For a) and b) write *Verdadero* or *Falso* and copy the words that prove it. For c) and d) circle a, b or c. Answer e) and f) in Spanish.**
-a) Pablo ha trabajado siempre de cocinero. → **Falso** — *"he trabajado también de camarero y de taxista"* *(model)*
-b) Pablo sabe nadar bastante bien.
-c) ¿Por qué va Pablo al trabajo en metro? — a) porque no tiene carné de conducir · b) porque el restaurante está muy cerca · c) porque no sabe conducir
+a) Pablo ha trabajado siempre de cocinero. → **Falso** — «ha trabajado de camarero» *(model)*
+b) Óscar sabe cocinar bastante bien.
+c) ¿Por qué no viene Óscar a las siete? — a) porque ha cambiado de trabajo · b) porque no sabe cocinar · c) porque pierde las llaves
 d) ¿Cuál es el defecto de Pablo? — a) es egoísta · b) es despistado · c) es impaciente
-e) ¿En qué dos ciudades ha vivido Pablo?
-f) ¿Qué dos cosas sabe hacer Pablo muy bien?
+e) ¿Qué dos cosas sabe hacer Pablo muy bien?
+f) ¿Qué cualidad es muy importante para Bea?
 
 ### D2 · Lee y reconstruye
 
 **Exercise 5 — Read one sentence, cover it, write it from memory, then uncover it and compare. Score 2 if it is identical, 1 if one word is wrong or missing, 0 if more.**
-a) He vivido en Valencia y en Lisboa, y he trabajado también de camarero y de taxista. *(model — cover the line with your hand before you write.)*
-b) Sé cocinar muy bien y sé reparar casi todo en casa, pero no sé nadar y dibujo fatal.
-c) No tengo carné de conducir, por eso voy al trabajo en metro.
+a) Pablo trabaja de cocinero, ha vivido en Valencia y ha trabajado de camarero. *(model — cover the line with your hand before you write.)*
+b) Sabe cocinar muy bien y sabe reparar casi todo en casa.
+c) A las siete Óscar todavía no viene: ha cambiado de trabajo y hoy no puede.
 
 ### E · Vuelve
 
@@ -285,7 +285,7 @@ c) Soy una persona ___ y bastante ___, pero un poco ___. *(two personality adjec
 
 ### H2 · Escribe
 
-**Exercise 10 — Answer Pablo's message. Write 50–70 words: say two things you know how to do and one you do not, say one thing you cannot do this week and why, describe yourself with two personality adjectives, and say one thing you have done or somewhere you have lived. Finish with a question for him.**
+**Exercise 10 — You want the room in Bea's flat, so answer her message. Write 50–70 words: say two things you know how to do and one you do not, say one thing you cannot do this week and why, describe yourself with two personality adjectives, and say one thing you have done or somewhere you have lived. Finish with a question for her.**
 
 **Espacio.** 12
 
@@ -314,14 +314,14 @@ c) Soy una persona ___ y bastante ___, pero un poco ___. *(two personality adjec
 - g) tocado · also: — · not "tocar": after *he* you need the participle, never the infinitive → Unit 9 → Gramática → "G · The past participle (regular & irregular)", then Práctica Ex 2
 - h) carné · also: — · not "defecto": already used, and the phrase is fixed: *el carné de conducir* → Unit 9 → Vocabulario → Sustantivos, then Práctica Ex 5
 
-**Ex 4 — Lectura.** - a) Falso — *"he trabajado también de camarero y de taxista"* *(model)*
-- b) Falso — *"no sé nadar"* · also: quoting *"pero no sé nadar y dibujo fatal"* · not "Verdadero": *sé cocinar* is a different skill · read which infinitive follows *sé* → Unit 9 → Gramática → "G · saber + infinitive", then Práctica Ex 3
-- c) a) porque no tiene carné de conducir · also: — · not "c) porque no sabe conducir": the text says he has no licence, not that he cannot drive · *saber* and *tener el carné* are different claims → Unit 9 → Gramática → "G · poder + infinitive", then Práctica Ex 3
+**Ex 4 — Lectura.** - a) Falso — «ha trabajado de camarero» *(model)*
+- b) Falso — «no sabe cocinar» · also: quoting «pero no sabe cocinar y es un poco impaciente» · not "Verdadero": Pablo is the one who cooks, not Óscar · check whose name the verb belongs to → Unit 9 → Gramática → "G · saber + infinitive", then Práctica Ex 3
+- c) a) porque ha cambiado de trabajo · also: — · not "c) porque pierde las llaves": that is Pablo's defecto, not Óscar's · the reason comes after the colon → Unit 9 → Gramática → "G · Pretérito perfecto", then Práctica Ex 1
 - d) b) es despistado · also: — · not "a) es egoísta": *egoísta* is not in the text at all → Unit 9 → Vocabulario → Adjetivos y adverbios, then Práctica Ex 4
-- e) En Valencia y en Lisboa. · also: Valencia y Lisboa. · not "En Madrid": not in the text · answer from the line, not from memory → Unit 9 → Gramática → "G · Pretérito perfecto", then Práctica Ex 1
-- f) Sabe cocinar y sabe reparar casi todo en casa. · also: Cocinar y reparar cosas. · not "Nadar y dibujar": those are the two he does badly → Unit 9 → Gramática → "G · saber + infinitive", then Práctica Ex 3
+- e) Sabe cocinar y sabe reparar casi todo en casa. · also: Cocinar y reparar casi todo en casa. · not "Es organizado y responsable": those are Óscar's cualidades, and they are not things you *sabes hacer* → Unit 9 → Gramática → "G · saber + infinitive", then Práctica Ex 3
+- f) Saber cocinar. · also: Cocinar. / Saber cocinar es una cualidad muy importante para ella. · not "Ser organizado": that is Óscar, and Óscar never arrives · the last sentence names the cualidad → Unit 9 → Vocabulario → Sustantivos, then Práctica Ex 5
 
-**Ex 5 — Lee y reconstruye.** score each line 2 / 1 / 0 against the text. There is no variant to accept. Watch the two *sé* accents in b) and the *por eso* in c). If you scored 0 or 1 twice, read the text once more and do the block again tomorrow → Unit 9 → En contexto (Diálogo).
+**Ex 5 — Lee y reconstruye.** score each line 2 / 1 / 0 against the text. There is no variant to accept. Watch the two *ha* + participle pairs in a), the two *sabe* in b) and the *todavía no* in c). If you scored 0 or 1 twice, read the text once more and do the block again tomorrow → Unit 9 → En contexto (Diálogo).
 
 **Ex 6 — Vuelve.** - a) el cajero automático °Unit 8 *(model)*
 - b) se despierta °Unit 6 · also: — · not "despierta": the pronoun cannot be dropped · *despertarse* is reflexive and the pronoun matches the subject → Unit 6 → Gramática → "G · Reflexive (pronominal) verbs", then Unit 6, Práctica Ex 2
@@ -353,7 +353,7 @@ c) Soy una persona ___ y bastante ___, pero un poco ___. *(two personality adjec
 
 **Ex 9 — Tú.** one possible answer — do not score yourself against it. b) *Este año he cambiado de trabajo y también he viajado a Chile.* c) *Soy una persona tranquila y bastante organizada, pero un poco impaciente.* Check only this: both bracketed structures are there, nothing sits between *he* and the participle, and every adjective matches your own gender → Unit 9 → Gramática → "G · Pretérito perfecto".
 
-**Ex 10 — Escribe.** one possible answer — do not score yourself against it. *Hola, Pablo: Me llamo Lena. Sé cocinar bastante bien y sé reparar cosas pequeñas, pero no sé conducir. Esta semana no puedo ver el piso porque trabajo por la tarde. Soy una persona tranquila y muy organizada, un poco despistada con las llaves. He vivido dos años en Lisboa y he trabajado de recepcionista. ¿Puedo ver el piso el domingo?*
+**Ex 10 — Escribe.** one possible answer — do not score yourself against it. *Hola, Bea: Me llamo Lena. Sé cocinar bastante bien y sé reparar cosas pequeñas, pero no sé conducir. Esta semana no puedo ver la habitación porque trabajo por la tarde. Soy una persona tranquila y muy organizada, un poco despistada con las llaves. He vivido dos años en Lisboa y he trabajado de recepcionista. ¿Puedo ver el piso el domingo?*
 
 Checks — one point each, and be honest:
 
@@ -400,22 +400,22 @@ h) Después la escribo en un ___ pequeño que llevo siempre en la mochila.
 
 ### D · Lectura
 
-**Texto.** Me llamo Irene y soy profesora de español para extranjeros desde hace once años. Todos los cursos mis estudiantes me preguntan por qué les cuesta mucho hablar. Casi nunca es la gramática: ellos memorizan el vocabulario, traducen los textos difíciles y hacen todos los ejercicios del libro. Pero cuando salen a la pizarra se sienten inseguros y les da vergüenza equivocarse. Yo siempre les digo que un error no es nada grave [serious]: es una actividad más. La persona que nunca se equivoca es la persona que nunca habla. Por eso en mi clase empezamos todos los días con veinte minutos en parejas, sin diccionario y sin pizarra. Al final del curso mis estudiantes todavía tienen acento —yo también tengo acento cuando hablo inglés—, pero ya no se sienten ridículos y participan [take part] mucho más.
+**Texto.** Me llamo Irene y enseño español a extranjeros desde hace once años. Este curso tengo el grupo más difícil de mi vida: nueve estudiantes que no hablan. No les cuesta la gramática: memorizan el vocabulario, traducen los textos y hacen todos los ejercicios del libro. En el examen de gramática no tienen errores. Pero cuando salen a la pizarra no dicen nada: les da vergüenza equivocarse y se sienten ridículos. Hago actividades en parejas, practicamos la pronunciación, busco un intercambio con otra escuela, leo a una escritora chilena, y nada. Por eso el lunes escribo en la pizarra cuatro frases en inglés, mi segunda lengua, con cuatro errores, y les pregunto cuál es el error más grave [serious]. Los estudiantes empiezan a hablar, primero muy despacio y después todos juntos. Hoy, en la actividad en parejas, hablan veinte minutos y no quieren volver al libro. Todavía tienen acento, y yo también, pero ahora se sienten seguros cuando se equivocan.
 
 **Exercise 4 — Contesta sobre el texto. En a) y b) escribe *Verdadero* o *Falso* y copia las palabras que lo demuestran. En c) y d) rodea a, b o c. Contesta e) y f) en español.**
-a) Irene enseña español desde hace menos de un año. → **Falso** — *"soy profesora de español para extranjeros desde hace once años"* *(model)*
-b) Para Irene, el problema de sus estudiantes casi nunca es la gramática.
-c) ¿Qué les da vergüenza a los estudiantes de Irene? — a) hacer los ejercicios · b) equivocarse delante de la clase · c) memorizar el vocabulario
-d) ¿Con qué empieza Irene todas las clases? — a) con veinte minutos en parejas · b) con un examen de gramática · c) con un texto difícil
-e) ¿Qué hacen los estudiantes de Irene con los textos difíciles?
-f) ¿Por qué dice Irene que ella también tiene acento?
+a) Irene enseña español desde hace menos de un año. → **Falso** — «enseño español a extranjeros desde hace once años» *(model)*
+b) A los estudiantes de Irene no les cuesta la gramática.
+c) ¿Qué les da vergüenza a los estudiantes de Irene? — a) hacer los ejercicios · b) equivocarse · c) memorizar el vocabulario
+d) ¿Qué escribe Irene en la pizarra el lunes? — a) cuatro frases en inglés con cuatro errores · b) el vocabulario nuevo · c) los verbos irregulares
+e) ¿Qué hacen los estudiantes de Irene con los textos?
+f) ¿Cómo se sienten hoy los estudiantes cuando se equivocan?
 
 ### D2 · Lee y reconstruye
 
 **Exercise 5 — Lee una frase, tápala, escríbela de memoria, destápala y compara. Score 2 if it is identical, 1 if one word is wrong or missing, 0 if more.**
-a) La persona que nunca se equivoca es la persona que nunca habla. *(model — cover the line with your hand before you write.)*
-b) Pero cuando salen a la pizarra se sienten inseguros y les da vergüenza equivocarse.
-c) Por eso en mi clase empezamos todos los días con veinte minutos en parejas, sin diccionario y sin pizarra.
+a) No les cuesta la gramática: memorizan el vocabulario, traducen los textos y hacen todos los ejercicios del libro. *(model — cover the line with your hand before you write.)*
+b) Pero cuando salen a la pizarra no dicen nada: les da vergüenza equivocarse y se sienten ridículos.
+c) Todavía tienen acento, y yo también, pero ahora se sienten seguros cuando se equivocan.
 
 ### E · Vuelve
 
@@ -494,14 +494,14 @@ c) Para mejorar mi español, todos los días ___ y ___. *(para + infinitive · t
 - g) diccionario · also: — · not "abecedario": you look words up in a dictionary → Unit 1 → Vocabulario → Sustantivos, then Práctica Ex 4
 - h) cuaderno · also: — · not "libro": the sentence says *un… pequeño que llevo siempre* — it is your own notebook → A1 Unit 0 → Vocabulario → Sustantivos, then A1 Unit 0, Práctica Ex 4
 
-**Ex 4 — Lectura.** - a) Falso — *"soy profesora de español para extranjeros desde hace once años"* *(model)*
-- b) Verdadero — *"Casi nunca es la gramática"* · also: quoting the whole clause with the colon · not "Falso": *casi nunca* is a negative, not a positive → Unit 1 → En contexto, then Práctica Ex 4
-- c) b) equivocarse delante de la clase · also: — · not "a) hacer los ejercicios": the text says they do all of them without trouble → Unit 1 → Vocabulario → Otras palabras, then Práctica Ex 4
-- d) a) con veinte minutos en parejas · also: — · not "c) con un texto difícil": the texts appear earlier, as homework, not as the start of class → Unit 1 → En contexto, then Práctica Ex 4
-- e) Los traducen. · also: Traducen los textos difíciles. / Los traducen y hacen los ejercicios. · not "Los memorizan": they memorise the vocabulary, not the texts → Unit 1 → Vocabulario → Verbos, then Práctica Ex 4
-- f) Porque también tiene acento cuando habla inglés. · also: Porque el inglés no es su lengua materna. · not "Porque es profesora": the text gives the reason in the dashes → Unit 1 → En contexto, then Práctica Ex 4
+**Ex 4 — Lectura.** - a) Falso — «enseño español a extranjeros desde hace once años» *(model)*
+- b) Verdadero — «No les cuesta la gramática» · also: quoting «No les cuesta la gramática: memorizan el vocabulario» · not "Falso": what the text calls hard is speaking, not the grammar · *costar* agrees with the difficult thing, never with the person → Unit 1 → Gramática → "G · The verbs costar and sentirse", then Práctica Ex 5
+- c) b) equivocarse · also: — · not "a) hacer los ejercicios": the text says they do all of them and score no errors → Unit 1 → Vocabulario → Otras palabras, then Práctica Ex 4
+- d) a) cuatro frases en inglés con cuatro errores · also: — · not "c) los verbos irregulares": the verbs are not in the text at all · the sentence after *Por eso* gives the answer → Unit 1 → En contexto, then Práctica Ex 4
+- e) Los traducen. · also: Traducen los textos. / Los traducen y hacen los ejercicios. · not "Los memorizan": they memorise the vocabulary, not the texts → Unit 1 → Vocabulario → Verbos, then Práctica Ex 4
+- f) Se sienten seguros. · also: Seguros. / Ahora se sienten seguros cuando se equivocan. · not "Se sienten ridículos": that is how they feel before the Monday lesson · *ahora* in the last sentence marks the change → Unit 1 → Gramática → "G · The verbs costar and sentirse", then Práctica Ex 5
 
-**Ex 5 — Lee y reconstruye.** score each line 2 / 1 / 0 against the text. There is no variant to accept. Watch the reflexive pronouns in b) and the two *sin* in c). If you scored 0 or 1 twice, read the text once more and do the block again tomorrow → Unit 1 → En contexto (Diálogo).
+**Ex 5 — Lee y reconstruye.** score each line 2 / 1 / 0 against the text. There is no variant to accept. Watch *No les cuesta* and the three present-tense verbs in a), the reflexive pronoun in b) and *se sienten* + *se equivocan* in c). If you scored 0 or 1 twice, read the text once more and do the block again tomorrow → Unit 1 → En contexto (Diálogo).
 
 **Ex 6 — Vuelve.** - a) ha cambiado °A1 Unit 9 *(model)*
 - b) les °A1 Unit 7 · also: — · not "le": *sus hermanas* is plural · *le/les* is the person, *lo/la* the thing → A1 Unit 7 → Gramática → "G · Indirect object pronouns (me, te, le, nos, os, les)", then A1 Unit 7 → En contexto (Diálogo)
@@ -583,7 +583,7 @@ h) ___ 2005 vive en Buenos Aires y tiene una escuela de cine.
 **Texto.** **CINE DE BARRIO — La película que he visto tres veces.** El sábado pasado vi otra vez *El último tren*, la película que más me gustó el año pasado. La vi por primera vez en 2022, en un cine pequeño del centro, y desde ese día ya la he visto tres veces. La dirigió Marta Cepeda, una directora bastante conocida en Argentina, que empezó a rodar películas cortas a los diecinueve años. Cepeda escribió la historia durante un viaje en tren de Buenos Aires a Salta. La protagonista es una peluquera de cincuenta años que un día cambia de vida y se va a vivir al sur. La actriz Nuria Sanz interpretó ese papel y ganó el premio a la mejor actriz en San Sebastián. La película no fue muy taquillera, pero para mí es la mejor obra del cine argentino de estos años.
 
 **Exercise 4 — Contesta sobre el texto. En a) y b) escribe *Verdadero* o *Falso* y copia las palabras que lo demuestran. En c) y d) rodea a, b o c. Contesta e) y f) en español.**
-a) La película fue un gran éxito de taquilla. → **Falso** — *"La película no fue muy taquillera"* *(model)*
+a) La película fue un gran éxito de taquilla. → **Falso** — «La película no fue muy taquillera» *(model)*
 b) Marta Cepeda empezó a rodar cuando era una directora muy joven.
 c) ¿Dónde escribió Cepeda la historia de la película? — a) en un cine del centro · b) durante un viaje en tren · c) en San Sebastián
 d) ¿Qué hace la protagonista de la película? — a) dirige una escuela de cine · b) gana un premio en San Sebastián · c) cambia de vida y se va al sur
@@ -674,8 +674,8 @@ c) Empecé a estudiar español ___ porque ___. *(empezar a · porque)*
 - g) rodó · also: dirigió · not "rodaba": that is the imperfecto, which this course teaches later → Unit 2 → Vocabulario → Verbos, then Práctica Ex 1
 - h) Desde · also: — · not "Durante": the sentence ends in the present, so it needs a starting point → Unit 2 → Gramática → "G · Prepositions desde / durante / hasta", then Práctica Ex 3
 
-**Ex 4 — Lectura.** - a) Falso — *"La película no fue muy taquillera"* *(model)*
-- b) Verdadero — *"empezó a rodar películas cortas a los diecinueve años"* · also: quoting from *"que empezó a rodar…"* · not "Falso": nineteen is young for a first film → Unit 2 → Gramática → "G · Empezar a + infinitive", then Práctica Ex 5
+**Ex 4 — Lectura.** - a) Falso — «La película no fue muy taquillera» *(model)*
+- b) Verdadero — «empezó a rodar películas cortas a los diecinueve años» · also: quoting from «que empezó a rodar…» · not "Falso": nineteen is young for a first film → Unit 2 → Gramática → "G · Empezar a + infinitive", then Práctica Ex 5
 - c) b) durante un viaje en tren · also: — · not "a) en un cine del centro": that is where the writer saw the film → Unit 2 → Gramática → "G · Prepositions desde / durante / hasta", then Práctica Ex 3
 - d) c) cambia de vida y se va al sur · also: — · not "b) gana un premio en San Sebastián": that is the actress, not the character → Unit 2 → Gramática → "G · Ir / irse", then Práctica Ex 2
 - e) Tres veces. · also: La ha visto tres veces. · not "Dos veces": the text counts the first time plus the rest → A1 Unit 9 → Gramática → "G · Pretérito perfecto", then A1 Unit 9, Práctica Ex 1
