@@ -1,0 +1,8 @@
+/* Ink-saving game book: the game stylesheet, then the course book's own print
+   overrides, then the binding margin. Nothing new is invented here.
+
+   One thing the print edition matters more for than the other two books: these
+   pages get folded down the gutter and handled by two people for twenty minutes,
+   so the lighter fills survive the treatment better than a solid tint would. */
+@import url("style_game_es.css");
+@import url("style_print_es.css");

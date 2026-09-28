@@ -1,0 +1,104 @@
+/* ============================================================================
+   Español A1–A2 · Juego de Conversación — stylesheet
+   ----------------------------------------------------------------------------
+   The third book imports the course book's stylesheet whole, like the workbook
+   does: same type, same measure, same section colours, so the three read as one
+   set. Only what is peculiar to a game of scenes is set here.
+
+   Its own colour is a burnt terracotta, #9A4A18. It sits 6.24:1 against the page
+   (comfortably past the 4.5:1 floor for white type on the chapter band) and ΔE
+   17.5 from the nearest colour already in the palette, the grammar ochre. That
+   distance is the point: an earlier version of this set shipped two browns ΔE 2.6
+   apart and they were indistinguishable in print.
+   ========================================================================= */
+@import url("style_es.css");
+
+:root{
+  --c-game:#9A4A18; --c-game-tint:#F7EEE8; --c-game-rule:#E0C4B2;
+}
+
+h1{ background:var(--c-game); border-bottom-color:#7E3A10 }
+.gcover{ background-color:#8A3E12 }
+.gcover .rule{ background:rgba(255,255,255,.85) }
+
+/* --------------------------------------------------------------------------
+   A scene is a card, and a card you cannot see all of is useless — you would be
+   turning the page mid-negotiation to find out how the scene ends. So a scene
+   never splits, whatever it costs in white space.
+   ----------------------------------------------------------------------- */
+.scene{ border:1.2pt solid var(--c-game-rule); border-left:3.5pt solid var(--c-game);
+  padding:3mm 4mm 3.5mm; margin:0 0 5mm; page-break-inside:avoid; break-inside:avoid }
+
+.sh{ font-family:var(--font-head); font-size:11.4pt; font-weight:bold; margin:0 0 1.5mm;
+  color:var(--c-game); page-break-after:avoid }
+.sh .sn{ display:inline-block; min-width:9mm; margin-right:2mm; padding:0 1.2mm;
+  background:var(--c-game); color:#fff; font-size:9pt; text-align:center; border-radius:1pt }
+.sh .tag{ display:inline-block; margin-right:2mm; padding:.2mm 1.6mm; font-size:7.4pt;
+  font-weight:bold; text-transform:uppercase; letter-spacing:.05em; border-radius:1pt;
+  vertical-align:.4mm }
+/* the three shapes borrow colours the course book has already taught the reader */
+.sh .tag.t{ background:var(--c-voc-tint);  color:var(--c-voc);  border:.5pt solid var(--c-voc-rule) }
+.sh .tag.n{ background:var(--c-gram-tint); color:var(--c-gram); border:.5pt solid var(--c-gram-rule) }
+.sh .tag.s{ background:var(--c-conv-tint); color:var(--c-conv); border:.5pt solid var(--c-conv-rule) }
+
+/* the situation is the only Spanish both players read cold, so it gets room */
+.situ{ margin:0 0 2.5mm; font-size:10.4pt; font-style:italic; color:var(--ink) }
+
+/* --------------------------------------------------------------------------
+   The two roles. display:table rather than flex — WeasyPrint's table cells are
+   the most predictable way to get two equal columns that never reflow, and this
+   is a layout that must be identical on every one of sixty pages.
+   ----------------------------------------------------------------------- */
+.roles{ display:table; width:100%; table-layout:fixed; margin:0 0 2.5mm }
+.role{ display:table-cell; width:47.5%; vertical-align:top; padding:2mm 2.5mm;
+  background:var(--c-game-tint); border:.6pt solid var(--c-game-rule); font-size:9.4pt;
+  line-height:1.45 }
+.role .rh{ font-weight:bold; font-size:7.6pt; text-transform:uppercase; letter-spacing:.06em;
+  color:var(--c-game); margin-bottom:1mm }
+.role .rtext{ margin:0 }
+/* the gutter is the fold: crease the page here and neither of you can read the
+   other's half, which is what makes the scene a surprise instead of a script.
+   It is two cells, not one with a border, because a table-cell border sits hard
+   against box A — you would crease through the edge of your own text instead of
+   down the middle of the gap. The rule falls where the two cells meet. */
+.fold{ display:table-cell; width:2.5% }
+.f2{ border-left:.7pt dashed #9A9089 }
+
+/* --------------------------------------------------------------------------
+   The four small blocks under the roles. Each is one labelled line, because a
+   scene card that takes a minute to read is a scene nobody sets up.
+   ----------------------------------------------------------------------- */
+.ends,.reto,.hablar,.desp{ font-size:9.2pt; margin:0 0 1.4mm; line-height:1.45 }
+.ends .h,.reto .h,.hablar .h,.desp .h{ display:inline-block; font-weight:bold; font-size:7.4pt;
+  text-transform:uppercase; letter-spacing:.05em; color:var(--c-game); margin-right:2mm }
+.ends{ padding-top:1mm; border-top:.5pt solid var(--c-game-rule) }
+.reto .h{ color:var(--c-gram) }
+.desp{ color:#5A534D; font-style:italic }
+
+/* the phrases are the scaffolding — the thing a learner freezes for want of, so
+   they are set to be scanned mid-sentence, not read in order */
+.hablar{ margin-top:1mm }
+.hablar ul{ display:inline; margin:0; padding:0; list-style:none }
+.hablar li{ display:inline; white-space:nowrap }
+.hablar li::after{ content:"  ·  "; color:var(--c-game-rule); white-space:normal }
+.hablar li:last-child::after{ content:"" }
+
+.modref{ color:#6B6259; margin:1mm 0 4mm }
+
+/* --------------------------------------------------------------------------
+   The models, at the back. A and B are stepped so you can see at a glance which
+   player carried the scene — usually a surprise, and usually the useful part.
+   ----------------------------------------------------------------------- */
+.mhead{ font-family:var(--font-head); font-size:12pt; color:var(--c-game);
+  border-bottom:1pt solid var(--c-game-rule); padding-bottom:1mm; margin:5mm 0 2mm;
+  page-break-after:avoid }
+.mk{ font-size:9.6pt; font-weight:bold; margin:3mm 0 1mm; color:#3F3F3F;
+  page-break-after:avoid }
+.modelo{ margin:0 0 3mm; page-break-inside:auto }
+.turn{ font-size:9.4pt; line-height:1.5; margin:.15em 0; padding-left:7mm; text-indent:-7mm }
+.turn .w{ display:inline-block; width:5mm; font-weight:bold; font-size:8pt;
+  color:var(--c-game) }
+.turn.mb{ padding-left:13mm; text-indent:-7mm; color:#38322D }
+.turn.mb .w{ color:var(--c-voc) }
+
+@page{ @bottom-left{ content:"Juego de Conversación · A1–A2" } }
