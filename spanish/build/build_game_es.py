@@ -114,6 +114,55 @@ def render_modelo(sc):
     return "".join(o)
 
 
+def render_dialogos():
+    """Diálogo dirigido: the easy way in, and the one to start with.
+
+    One player holds the page and reads the lines out; the other has nothing in
+    front of them and simply answers. That split is the whole idea — inventing a
+    conversation from nothing is the hardest thing a beginner can be asked to do,
+    and answering a question somebody has just asked is one of the easiest. The
+    guide does the hard half, and the guide's half is already written down.
+
+    Each unit carries an A and a B version with the same grammar and different
+    questions, so that swapping seats is not a chance to repeat what you just
+    heard.
+
+    It goes at the front because a reader who opens the book at a scene and
+    freezes never reaches the rest of it.
+    """
+    path = f"{BUILD}/game_dialogo_es.md"
+    if not os.path.exists(path):
+        return ""
+    txt = open(path, encoding="utf-8").read()
+    pre = re.sub(r'^#\s+.*$', '', txt.split("\n## Unidad ")[0], count=1, flags=re.M)
+    out = [B.h(1, "Diálogo dirigido"), B.md(pre)]
+    for chunk in re.split(r'^##\s+Unidad\s+', txt, flags=re.M)[1:]:
+        m = re.match(r'(\d+)\s*[—–-]\s*(.+?)\s*\{', chunk.split("\n")[0])
+        if not m:
+            continue
+        out.append(f'<h2 class="dunit">{B.esc_md(m.group(1))} · {B.md_inline(m.group(2))}</h2>')
+        for d in re.split(r'^###\s+', chunk, flags=re.M)[1:]:
+            dh = d.split("\n")[0].strip()
+            dm = re.match(r'([AB])\s*·\s*(.+)$', dh)
+            if not dm:
+                continue
+            o = [f'<div class="dcard"><h3 class="dch"><span class="dv">{dm.group(1)}</span>'
+                 f'{B.md_inline(dm.group(2))}</h3><ol class="dlines">']
+            for line in re.findall(r'^\d+\.\s*(.*?)$', d, re.M):
+                say, _, hint = line.partition("→")
+                o.append(f'<li><span class="say">{B.md_inline(say.strip())}</span>'
+                         + (f'<span class="hint">{B.md_inline(hint.strip())}</span>'
+                            if hint.strip() else "") + '</li>')
+            o.append('</ol>')
+            am = re.search(r'^\*\*Ayuda\.\*\*\s*(.*?)$', d, re.M)
+            if am:
+                o.append(f'<div class="dayuda"><span class="h">Si se para</span>'
+                         f'{B.md_inline(am.group(1))}</div>')
+            o.append('</div>')
+            out.append("".join(o))
+    return "".join(out)
+
+
 def build():
     B.TOC.clear(); B._IDS.clear()
     units = []
@@ -130,6 +179,8 @@ def build():
     intro = B.md_file("game_intro_es.md")
     if intro:
         parts.append(B.md(re.sub(r'^#\s+.*$', '', intro, count=1, flags=re.M)))
+    # the guided dialogues first, then the scenes they prepare you for
+    parts.append(render_dialogos())
 
     n_sc = 0
     for nivel, uno, title, scenes in units:

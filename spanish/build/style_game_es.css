@@ -101,4 +101,32 @@ h1{ background:var(--c-game); border-bottom-color:#7E3A10 }
 .turn.mb{ padding-left:13mm; text-indent:-7mm; color:#38322D }
 .turn.mb .w{ color:var(--c-voc) }
 
+/* --------------------------------------------------------------------------
+   Diálogo dirigido — one player reads these lines out, the other has nothing in
+   front of them. So the page has one job: let the guide find the next line
+   instantly while half-looking at their partner. Big numbered lines, and the
+   expected answer set small and grey beside each, close enough to glance at and
+   quiet enough not to be read out by mistake.
+   ----------------------------------------------------------------------- */
+.dunit{ font-family:var(--font-head); font-size:11.6pt; color:var(--c-game);
+  border-bottom:1pt solid var(--c-game-rule); padding-bottom:1mm; margin:6mm 0 3mm;
+  page-break-after:avoid }
+.dcard{ border:.8pt solid var(--c-game-rule); border-left:3pt solid var(--c-game);
+  padding:2.5mm 3mm 3mm; margin:0 0 4mm; page-break-inside:avoid; break-inside:avoid }
+.dch{ font-family:var(--font-head); font-size:10.4pt; font-weight:bold; margin:0 0 1.5mm;
+  color:var(--c-game) }
+.dch .dv{ display:inline-block; min-width:5.5mm; margin-right:2mm; padding:0 1.2mm;
+  background:var(--c-game); color:#fff; font-size:8.6pt; text-align:center; border-radius:1pt }
+.dlines{ margin:0; padding-left:6mm }
+.dlines li{ font-size:9.8pt; line-height:1.5; margin:0 0 1.2mm }
+.dlines .say{ font-weight:600 }
+/* the expected answer is for the guide's eye only — it is a safety net, and a
+   guide who reads it out has answered their own question */
+.dlines .hint{ display:block; font-size:8.4pt; color:#7A746D; font-style:italic;
+  margin-top:.2mm }
+.dayuda{ margin-top:1.5mm; padding-top:1mm; border-top:.5pt solid var(--c-game-rule);
+  font-size:8.8pt; line-height:1.45 }
+.dayuda .h{ display:inline-block; font-weight:bold; font-size:7.4pt; text-transform:uppercase;
+  letter-spacing:.05em; color:var(--c-gram); margin-right:2mm }
+
 @page{ @bottom-left{ content:"Juego de Conversación · A1" } }
