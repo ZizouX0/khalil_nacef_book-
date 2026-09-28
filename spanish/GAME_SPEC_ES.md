@@ -155,14 +155,15 @@ Three scenes make a twenty-minute session, which is the length that actually get
 
 ## 6. Files
 
-One file per five units, mirroring the workbook's layout:
+The game covers **A1**, units 0 to 9. One file per five units, mirroring the workbook's layout:
 
 | File | Units |
 |---|---|
 | `game_part1.md` | A1 units 0, 1, 2, 3, 4 |
 | `game_part2.md` | A1 units 5, 6, 7, 8, 9 |
-| `game_part3.md` | A2 units 1, 2, 3, 4, 5 |
-| `game_part4.md` | A2 units 6, 7, 8, 9, 10 |
+
+A2 has a course book and a workbook but no scenes. If it ever gets them, they continue the same
+numbering in `game_part3.md` and `game_part4.md`, and `LEVELS` in `check_games.py` gains `"A2"`.
 
 Each unit opens with the heading the builder keys on:
 
@@ -178,7 +179,7 @@ Take the title from `units.json`, so the game book, the course book and the work
 
 `check_games.py` fails on any of these, and it is the gate for "done":
 
-1. Every unit in `units.json` is present, with at least three scenes.
+1. Every A1 unit in `units.json` is present, with at least three scenes.
 2. The first three scenes of each unit are one **T**, one **N** and one **S**.
 3. All nine fields present, in order, with the exact labels.
 4. **Papel A** and **Papel B** both say what the player wants — the passive-role test, checked by

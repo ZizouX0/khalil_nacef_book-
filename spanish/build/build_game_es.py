@@ -24,7 +24,7 @@ ROOT, BUILD, PHOTOS = B.ROOT, B.BUILD, B.PHOTOS
 # scene cards, the models at the back — can be smoke-tested against one unit
 # while the chapters themselves are still being written.
 GAME_FILES = (os.environ["ES_GAME_SRC"].split(",") if os.environ.get("ES_GAME_SRC")
-              else [f"game_part{i}.md" for i in range(1, 5)])
+              else [f"game_part{i}.md" for i in range(1, 3)])
 
 UNIT_RE = re.compile(r'^##\s+Unidad\s+(\d+)\s*[—–-]\s*(.+?)\s*\{(.+?)\}\s*$', re.M)
 SCENE_RE = re.compile(r'^###\s+(\d+)\s*·\s*([TNS])\s*·\s*(.+?)\s*$', re.M)
@@ -170,25 +170,25 @@ def build():
     covstyle = (f"background-image:linear-gradient(rgba(96,40,20,.40),rgba(60,22,10,.86)),"
                 f"url('file://{cov}')" if os.path.exists(cov) else "")
     cover = (f'<div class="cover gcover" style="{covstyle}">'
-             f'<div class="kick">Two players · A1 → A2</div>'
+             f'<div class="kick">Two players · A1</div>'
              f'<h1>Spanish for Beginners<br>The Talking Game</h1>'
              f'<div class="rule"></div>'
-             f'<div class="sub">{n_sc} scenes for two learners and no teacher — one for every unit '
-             f'of the course, where each of you wants something and the other is in the way</div>'
+             f'<div class="sub">{n_sc} scenes for two learners and no teacher — for every unit of A1, '
+             f'where each of you wants something and the other is in the way</div>'
              f'<div class="meta"><div class="author">Aziz Dardouri</div>'
              f'<div class="badge">Juego · {datetime.date.today().strftime("%d/%m/%Y")}</div></div></div>')
 
     sheet = os.environ.get("ES_STYLE", "style_game_es.css")
     doc = (f'<!DOCTYPE html><html lang="es"><head><meta charset="utf-8">'
-           f'<title>Español A1–A2 · Juego de Conversación — Aziz Dardouri</title>'
+           f'<title>Español A1 · Juego de Conversación — Aziz Dardouri</title>'
            f'<meta name="author" content="Aziz Dardouri">'
-           f'<meta name="description" content="A two-player speaking game for the Spanish A1-A2 '
-           f'course: one scene per unit where each player has a goal and the other is in the way.">'
+           f'<meta name="description" content="A two-player speaking game for the Spanish A1 course: '
+           f'scenes for every unit where each player has a goal and the other is in the way.">'
            f'<link rel="stylesheet" href="file://{BUILD}/{sheet}"></head><body>'
            f'{cover}{"".join(toc)}{"".join(parts)}</body></html>')
     open(f"{BUILD}/_game.html", "w", encoding="utf-8").write(doc)
 
-    out = sys.argv[1] if len(sys.argv) > 1 else f"{ROOT}/Espanol_A1-A2_Juego_Conversacion.pdf"
+    out = sys.argv[1] if len(sys.argv) > 1 else f"{ROOT}/Espanol_A1_Juego_Conversacion.pdf"
     d = HTML(string=doc, base_url=BUILD)
     try:
         d.write_pdf(out, pdf_variant="pdf/ua-1")

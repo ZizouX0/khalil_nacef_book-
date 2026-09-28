@@ -1,5 +1,5 @@
 /* ============================================================================
-   Español A1–A2 · Juego de Conversación — stylesheet
+   Español A1 · Juego de Conversación — stylesheet
    ----------------------------------------------------------------------------
    The third book imports the course book's stylesheet whole, like the workbook
    does: same type, same measure, same section colours, so the three read as one
@@ -101,4 +101,4 @@ h1{ background:var(--c-game); border-bottom-color:#7E3A10 }
 .turn.mb{ padding-left:13mm; text-indent:-7mm; color:#38322D }
 .turn.mb .w{ color:var(--c-voc) }
 
-@page{ @bottom-left{ content:"Juego de Conversación · A1–A2" } }
+@page{ @bottom-left{ content:"Juego de Conversación · A1" } }

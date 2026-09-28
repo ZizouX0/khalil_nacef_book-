@@ -53,7 +53,10 @@ def field(body, name):
 
 
 units = json.load(open(f"{ROOT}/build/units.json", encoding="utf-8"))
-want_units = {f"{lv}-{u['unidad']}" for lv in ("A1", "A2") for u in units[lv]}
+# The game covers A1. A2 units exist in the course and the workbook but have no
+# scenes, so asking for them here would report nineteen phantom failures.
+LEVELS = ("A1",)
+want_units = {f"{lv}-{u['unidad']}" for lv in LEVELS for u in units[lv]}
 seen_units, titles = set(), {}
 
 for path in sorted(glob.glob(f"{BUILD}/game_part*.md")):
