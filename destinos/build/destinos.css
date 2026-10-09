@@ -146,7 +146,9 @@ table.phr td.en { font-style: italic; color: var(--muted); font-size: 9.8pt; }
 .lines .l { height: 8.5mm; border-bottom: .5pt solid var(--rule); }
 
 /* ---------------------------------------------------------------- the verb */
-.vhead { margin-bottom: 2.5mm; }
+.vhead { margin-bottom: 2.5mm; break-after: avoid; }
+.conj2 { break-inside: avoid; }
+.note { break-inside: avoid; }
 .vhead .v { font: 700 26pt/1 "Charis"; color: var(--accent); margin-right: 3mm; }
 .vhead .mean { font: italic 12.5pt "Charis"; color: var(--muted); margin-right: 3mm; }
 .vhead .lbl { color: var(--muted); }
@@ -164,7 +166,8 @@ table.cj td.m { font-style: italic; color: var(--muted); font-size: 9.8pt; }
 .note > .lbl:first-child { position: absolute; left: 0; top: .2em; width: 33mm; line-height: 1.3; }
 .note > .lbl i { font-style: normal; text-transform: none; letter-spacing: .02em; }
 div.met { margin-top: 4mm; }
-div.met > .lbl { display: block; color: var(--ink); border-bottom: .8pt solid var(--ink); padding-bottom: 1mm; margin-bottom: .5mm; }
+div.met > .lbl { display: block; color: var(--ink); border-bottom: .8pt solid var(--ink); padding-bottom: 1mm; margin-bottom: .5mm; break-after: avoid; }
+table.met tr, table.rules tr, table.phr tr, table.pairs tr { break-inside: avoid; }
 table.met { width: 100%; border-collapse: collapse; }
 table.met td { padding: 1.1mm 0; border-bottom: .4pt solid var(--rule); vertical-align: baseline; }
 table.met td.form { width: 50mm; font-weight: 700; padding-right: 3mm; }

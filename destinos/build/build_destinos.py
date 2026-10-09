@@ -166,7 +166,7 @@ def verbs_section(ep):
                          f'<td class="en">{md(c)}</td></tr>' for a, b, c in v["met"])
                + '</table>')
     if not t:
-        return sec("Verbos", "Verb forms in this lesson", met, "keep")
+        return sec("Verbos", "Verb forms in this lesson", met)
     half = lambda rows, prons: "".join(
         f'<tr><td class="p">{p}</td><td class="f">{md(f)}</td><td class="m">{md(m)}</td></tr>'
         for p, (f, m) in zip(prons, rows))
@@ -183,7 +183,8 @@ def verbs_section(ep):
         body += f'<div class="note"><span class="lbl">{md(nt["label"])}</span>{md(nt["text"])}</div>'
     if met:
         body += f'<div class="met"><span class="lbl">Other verbs in this lesson</span>{met}</div>'
-    return sec("El verbo", t["verb"] + " · " + t["meaning"], body, "keep")
+    # the card itself stays in one piece; its notes and the list may run on
+    return sec("El verbo", t["verb"] + " · " + t["meaning"], body)
 
 
 def grid(t):
