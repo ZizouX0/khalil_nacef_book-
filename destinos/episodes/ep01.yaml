@@ -1,139 +1,230 @@
-# Episode 1 — written before the textbook pages arrived.
-# Check vocabulary and grammar against Lección 1 when the books are in.
+# Episodio 1 · La carta
+# Sources: Textbook Lección 1 (pp. 4–10) and Workbook/Study Guide Lección 1 (pp. 3–8).
+# Words in vocab.core are the two books' own Vocabulario lists.
 
 episode: 1
 title: La carta
 title_en: The letter
 setting: La Gavia, México
 stop: mexico
+pages: "Textbook pp. 4–10 · Workbook pp. 3–8"
 
+essentials:
+  - "**Ser** means *to be*: soy, eres, es, somos, sois, son. Use it to say **who** someone is (*Raquel es abogada*) and **where they are from** (*Don Fernando es de España*)."
+  - "**Cognates**: a Spanish word that looks like an English word usually means the same thing (*historia, importante, misterioso*). Watch for false friends: *librería* = bookstore, *colegio* = high school."
+  - "**The story**: Raquel, a lawyer in Los Angeles, takes a special case for don Fernando, the head of a family in Mexico. His letter from Spain hides a secret."
+  - "**How to watch**: follow the narrator and Raquel's summary at the end. Get the gist, guess from context, and skip the words you don't know."
 
 story:
-  - es: "Raquel Rodríguez es abogada. Vive y trabaja en Los Ángeles."
-    en: "Raquel Rodríguez is a lawyer. She lives and works in Los Angeles."
-  - es: "Don Fernando Castillo es un señor muy viejo y está enfermo. Vive en La Gavia, una hacienda en México."
-    en: "Don Fernando Castillo is a very old man and he is ill. He lives at La Gavia, an estate in Mexico."
-  - es: "Una señora de España, Teresa Suárez, le escribe una carta."
-    en: "A woman from Spain, Teresa Suárez, writes him a letter."
-  - es: "La carta habla de Rosario, la primera esposa de don Fernando. Él cree que Rosario murió en la Guerra Civil española."
-    en: "The letter talks about Rosario, don Fernando's first wife. He believes Rosario died in the Spanish Civil War."
-  - es: "Don Fernando quiere saber la verdad. Raquel va a investigar el caso, y su viaje empieza en Sevilla."
-    en: "Don Fernando wants to know the truth. Raquel is going to investigate the case, and her journey starts in Seville."
+  - es: "Raquel Rodríguez es abogada. Es mexicoamericana y vive en Los Ángeles."
+    en: "Raquel Rodríguez is a lawyer. She is Mexican-American and lives in Los Angeles."
+  - es: "Don Fernando Castillo Saavedra es el patriarca de la familia Castillo. Es de España, pero vive en México, en La Gavia."
+    en: "Don Fernando Castillo Saavedra is the head of the Castillo family. He is from Spain, but he lives in Mexico, at La Gavia."
+  - es: "Don Fernando necesita un doctor. Es paciente de Julio, el médico."
+    en: "Don Fernando needs a doctor. He is the patient of Julio, the doctor."
+  - es: "Don Fernando tiene una carta muy importante. Es de una señora de Sevilla, España: Teresa Suárez."
+    en: "Don Fernando has a very important letter. It is from a woman in Seville, Spain: Teresa Suárez."
+  - es: "En la carta hay un secreto. Es sobre Rosario, la primera esposa de don Fernando, una persona muy misteriosa."
+    en: "There is a secret in the letter. It is about Rosario, don Fernando's first wife, a very mysterious person."
+  - es: "Don Fernando es el cliente de Raquel en un caso especial."
+    en: "Don Fernando is Raquel's client in a special case."
 
-# who's who: drawn as a family tree, see assets/trees/
 tree: ep01.svg
 cast:
-  - ["Raquel Rodríguez", "abogada, de Los Ángeles", "the lawyer who tells the story"]
+  - ["Raquel Rodríguez", "abogada, mexicoamericana, de Los Ángeles", "tells the story; don Fernando is her client"]
+  - ["Julio", "el médico de don Fernando", "the doctor"]
   - ["Teresa Suárez", "una señora de Sevilla, España", "writes the letter"]
 
-vocab:
-  - group: La familia
-    words:
-      - ["el padre", "father"]
-      - ["la madre", "mother"]
-      - ["el hijo · la hija", "son · daughter"]
-      - ["los hijos", "children (sons and daughters)"]
-      - ["el hermano · la hermana", "brother · sister"]
-      - ["el nieto · la nieta", "grandson · granddaughter"]
-      - ["el esposo · la esposa", "husband · wife"]
-      - ["la familia", "family"]
-  - group: Personas
-    words:
-      - ["el abogado · la abogada", "lawyer"]
-      - ["el señor · la señora", "man · woman (polite)"]
-      - ["don · doña", "title of respect + first name"]
-  - group: El caso
-    words:
-      - ["la carta", "letter"]
-      - ["el secreto", "secret"]
-      - ["la verdad", "truth"]
-      - ["la guerra", "war"]
-      - ["el caso", "case"]
-      - ["el viaje", "journey; trip"]
-  - group: Describir
-    words:
-      - ["viejo · vieja", "old"]
-      - ["enfermo · enferma", "ill; sick"]
-      - ["primero · primera", "first"]
-      - ["muy", "very"]
-      - ["también", "also; too"]
+place:
+  name: La Gavia
+  facts:
+    - ["Es una hacienda de la época colonial.", "A colonial-era estate."]
+    - ["Está al suroeste de la Ciudad de México, cerca de Toluca.", "Southwest of Mexico City, near Toluca."]
+    - ["Es la residencia principal de don Fernando.", "Don Fernando's main home."]
+    - ["Don Fernando compró La Gavia en ruinas, para restaurarla.", "He bought it in ruins, to restore it."]
+    - ["Tiene una entrada majestuosa, una capilla muy bonita, un patio muy agradable y una biblioteca impresionante.", "A grand entrance, a pretty chapel, a pleasant courtyard and an impressive library."]
+  timeline:
+    - ["XVI", "construcción", "built"]
+    - ["XVII", "gran esplendor", "its golden age"]
+    - ["XVIII", "los jesuitas", "the Jesuits move in"]
+    - ["XIX", "la Independencia", "a centre of the independence movement"]
+    - ["XX", "la Revolución de 1910", "partly destroyed"]
+  note: "*Siglo* means **century**, and Spanish writes centuries in Roman numerals: *el siglo XVI* = the 16th century."
 
 verbs:
   table:
     verb: ser
-    meaning: to be (who or what someone is)
-    forms: [soy, eres, es, somos, sois, son]
+    meaning: to be
     irregular: true
+    forms:
+      - ["soy", "I am"]
+      - ["eres", "you are"]
+      - ["es", "he, she is · you are"]
+      - ["somos", "we are"]
+      - ["sois", "you are"]
+      - ["son", "they are · you are"]
+    hook: "The plural forms all start with **s-**: **s**omos, **s**ois, **s**on."
+  notes:
+    - label: Four ways to say *you are*
+      text: "**eres** to one friend (*tú*), **es** to one person politely (*usted*), **sois** to a group in Spain (*vosotros*), **son** to a group (*ustedes*). The lessons ahead explain each one."
   met:
-    - ["llamarse", "me llamo · se llama", "to be called"]
-    - ["vivir", "vive", "to live"]
-    - ["trabajar", "trabaja", "to work"]
-    - ["escribir", "escribe", "to write"]
-    - ["creer", "cree", "to believe"]
-    - ["querer", "quiere", "to want; e becomes ie"]
-    - ["saber", "no sé · sabe", "to know (a fact)"]
-    - ["ir a + verb", "va a investigar", "is going to …"]
+    - ["tiene", "tener", "he / she has"]
+    - ["vive · vivo", "vivir", "he / she lives · I live"]
+    - ["necesita", "necesitar", "he / she needs"]
+    - ["hay", "haber", "there is · there are"]
+    - ["habla", "hablar", "he / she speaks"]
 
 grammar:
-  - title: "Ser: saying who someone is"
-    rule: >-
-      Use **ser** to say who someone is, what they do and where they come from.
-      Spanish usually drops the subject: *Soy Raquel* is more natural than *Yo soy Raquel*,
-      because the ending already tells you who.
-      Did you notice *está enfermo*? For how someone **is right now** (ill, tired, happy),
-      Spanish switches to **estar**. That contrast comes back in later episodes.
-    examples:
-      - ["Raquel es abogada.", "Raquel is a lawyer."]
-      - ["Teresa Suárez es de España.", "Teresa Suárez is from Spain."]
-      - ["Ramón y Carlos son hermanos.", "Ramón and Carlos are brothers."]
-    trap: >-
-      No *un/una* before a job: **Raquel es abogada**, not ~~Raquel es una abogada~~.
-      The article comes back only when you add an adjective: *Es una abogada muy buena.*
+  - title: "Two jobs for ser"
+    uses:
+      - label: "A = B"
+        text: "Say what someone **is**."
+        examples:
+          - ["Raquel es abogada.", "Raquel = abogada"]
+          - ["Don Fernando es cliente.", "don Fernando = cliente"]
+      - label: "ser de"
+        text: "Say where someone is **from**."
+        examples:
+          - ["Raquel es de los Estados Unidos.", "Raquel is from the United States."]
+          - ["Don Fernando es de España.", "Don Fernando is from Spain."]
+rules:
+    - ["*Yo* is optional: the verb already says who.", "(Yo) soy de México."]
+    - ["No *un / una* before a job.", "Raquel es abogada. Juan es profesor de literatura."]
+    - ["**-s** means more than one, and *es* becomes *son*.", "Juan es mexicano. · Juan y Ramón son mexicanos."]
+    - ["*… y yo* (… and I) takes **somos**.", "Carlos, Juan y yo somos hijos de don Fernando."]
+    - ["**Hay** = there is / there are.", "En la carta hay un secreto."]
+    - ["**un / una** = a, an · **el / la** = the", "una carta · el patriarca"]
+    - ["**¿Quién?** for one person, **¿Quiénes?** for more.", "¿Quién es don Fernando? ¿Quiénes son?"]
 
-  - title: "El or la: every noun has a gender"
-    rule: >-
-      Learn every noun with its article. Most nouns in **-o** are masculine, most in **-a**
-      are feminine, but the article is what you can trust: *el viaje*, *la verdad*.
-      A masculine plural covers a mixed group, so *los hijos de don Fernando* includes his daughter Mercedes.
-    examples:
-      - ["el hijo · los hijos", "the son · the children"]
-      - ["la carta · las cartas", "the letter · the letters"]
-      - ["el abogado · la abogada", "the lawyer (man · woman)"]
-    trap: >-
-      *Los padres* means **parents**, not only fathers. *Mis padres* = my mother and my father.
+vocab:
+  core:
+    - group: Las personas
+      words:
+        - ["la abogada", "lawyer"]
+        - ["el cliente", "client"]
+        - ["el doctor", "doctor"]
+        - ["el hombre", "man"]
+        - ["la mujer", "woman"]
+        - ["el patriarca", "patriarch, male head of the family"]
+    - group: Lugares · cosas · conceptos
+      words:
+        - ["la hacienda", "estate"]
+        - ["la carta", "letter"]
+        - ["la historia", "story; history"]
+    - group: Los verbos
+      words:
+        - ["ser", "to be"]
+        - ["es · son", "is · are"]
+        - ["tiene", "he / she has"]
+        - ["vive", "he / she lives"]
+        - ["hay", "there is · there are"]
+    - group: Palabras pequeñas
+      words:
+        - ["¿quién?", "who?"]
+        - ["yo", "I"]
+        - ["de", "of; from"]
+        - ["en", "in"]
+        - ["muy", "very"]
+        - ["para", "for"]
+        - ["sí · no", "yes · no"]
+        - ["también", "also"]
+        - ["y", "and"]
+  extra:
+    - group: La familia y las personas
+      words:
+        - ["el médico", "doctor"]
+        - ["el hijo · la hija", "son · daughter"]
+        - ["los hijos", "children; sons"]
+        - ["la esposa", "wife"]
+        - ["el propietario", "owner"]
+        - ["el miembro", "member"]
+        - ["el estudiante", "student"]
+        - ["la persona", "person"]
+    - group: En La Gavia
+      words:
+        - ["la capilla", "chapel"]
+        - ["la biblioteca", "library"]
+        - ["la entrada", "entrance"]
+        - ["el patio", "courtyard"]
+        - ["el establo", "stable"]
+        - ["el lugar", "place"]
+        - ["el siglo", "century"]
+    - group: Para describir
+      words:
+        - ["importante", "important"]
+        - ["misterioso · misteriosa", "mysterious"]
+        - ["histórico · histórica", "historic"]
+        - ["grande", "big"]
+        - ["pequeño · pequeña", "small"]
+        - ["bonito · bonita", "pretty"]
+        - ["mexicoamericano · mexicoamericana", "Mexican-American"]
+    - group: Otras
+      words:
+        - ["el nombre", "name"]
+        - ["el secreto", "secret"]
+        - ["la cosa", "thing"]
+        - ["ahora", "now"]
+        - ["un · una", "a, an"]
+  course:
+    - ["la lección", "lesson"]
+    - ["el episodio", "episode"]
+    - ["la actividad", "activity"]
+    - ["el desafío", "challenge"]
+    - ["el objetivo", "objective"]
+    - ["el tema", "topic"]
+    - ["el idioma", "language"]
+    - ["la serie", "TV series"]
+    - ["cierto · falso", "true · false"]
+    - ["un poco de…", "a bit of…"]
+    - ["más allá", "beyond"]
+    - ["¡OJO!", "watch out!"]
+    - ["¿Y tú?", "and you?"]
+    - ["¿Tienes buena memoria?", "do you have a good memory?"]
+    - ["¡Aumenta tu vocabulario!", "increase your vocabulary!"]
 
-  - title: "Asking: ¿Quién? ¿Dónde? ¿De dónde?"
-    rule: >-
-      The narrator keeps asking you questions, and you can answer them out loud.
-      Question words carry an accent, and a question opens with **¿**.
-    examples:
-      - ["¿Quién es Rosario?", "Who is Rosario?"]
-      - ["¿Dónde vive don Fernando?", "Where does don Fernando live?"]
-      - ["¿De dónde es Teresa?", "Where is Teresa from?"]
-    trap: >-
-      No *'s* in Spanish. Possession goes with **de**: *la carta de Teresa*, *el hermano de don Fernando*.
+cognates:
+  rule: "A **cognate** looks like an English word and means the same thing. Spanish is full of them, which is why you understood more of Episode 1 than you expected. When a word looks familiar, trust it; when it doesn't, guess from the words around it, or skip it."
+  patterns:
+    - ["-dad", "-ty", "universidad, cualidad", "university, quality"]
+    - ["-ción", "-tion", "información, combinación", "information, combination"]
+    - ["-oso · -osa", "-ous", "misterioso, delicioso", "mysterious, delicious"]
+    - ["-ico · -ica", "-ic", "histórico, esquemático", "historic, schematic"]
+    - ["es- + consonant", "s-", "España, estudiante, establo", "Spain, student, stable"]
+  harder:
+    - ["preocupado", "worried", "think *preoccupied*"]
+    - ["la esposa", "wife", "think *spouse*"]
+    - ["los datos", "information", "think *data*"]
+  false_friends:
+    - ["la librería", "bookstore", "library", "la biblioteca"]
+    - ["el colegio", "high school", "college", "la universidad"]
+  borrowed: "Words travel both ways: English took **patio, rodeo, canyon** from Spanish, and Spanish took **automóvil, computadora, radio** from English. Even the title is a cognate: *Destinos* means both **destinies** and **destinations**."
+
+sounds:
+  - title: "Cognates look alike but sound different"
+    body: "Don't read *historia* or *importante* the English way. Copy the speaker on the audio, vowel by vowel."
+  - title: "H is silent"
+    body: "**h**acienda, **h**istoria, **h**ombre, **h**ay, **h**ispano: start straight on the vowel."
+  - title: "The accent mark shows the strong syllable"
+    body: "lec**ción**, tam**bién**, ¿**quién**?, Ro**drí**guez, jar**dín**."
+  - title: "Five short vowels"
+    body: "**a e i o u** always sound the same, short and clean: *sí, no, es, son, muy*."
 
 phrases:
-  - ["Me llamo Raquel.", "My name is Raquel."]
-  - ["¿Cómo se llama?", "What is his / her / your name?"]
-  - ["Es de Los Ángeles.", "She's from Los Angeles."]
-  - ["Vive en México.", "He lives in Mexico."]
-  - ["Es el hermano de don Fernando.", "He is don Fernando's brother."]
-  - ["¿Quién es?", "Who is it? / Who is he / she?"]
-  - ["No sé.", "I don't know."]
-  - ["Quiere saber la verdad.", "He wants to know the truth."]
-
-sound:
-  title: "R at the start of a word"
-  body: >-
-    An **r** at the start of a word is rolled, just like **rr**. Every name in this episode
-    is practice: **R**aquel, **R**odríguez, **R**osario, and *gue**rr**a*. Between vowels a single **r** is
-    one quick tap: *Te**r**esa*, *prime**r**a*. Say *pero* (but) and *perro* (dog) until they sound different.
+  - ["Soy estudiante de español.", "I'm a student of Spanish."]
+  - ["Soy de ___. · Vivo en ___.", "I'm from ___. · I live in ___."]
+  - ["Soy abogada. Don Fernando es mi cliente.", "I'm a lawyer. Don Fernando is my client."]
+  - ["Carlos, Juan y yo somos hijos de don Fernando.", "Carlos, Juan and I are don Fernando's sons."]
+  - ["¿Quién es? · ¿Quiénes son?", "Who is it? · Who are they?"]
+  - ["¿Quién habla?", "Who is speaking?"]
+  - ["En la carta hay un secreto.", "There is a secret in the letter."]
+  - ["Es una persona muy misteriosa.", "He / she is a very mysterious person."]
+  - ["Es una historia de aventuras, de secretos y de amor.", "It's a story of adventure, secrets and love."]
+  - ["¿Y tú?", "And you?"]
 
 culture:
-  title: "Don, doña, and two surnames"
-  body: >-
-    *Don* and *doña* go before a **first name** to show respect to an older person: *don Fernando*, never
-    ~~don Castillo~~. And Spanish speakers carry two surnames, father's first and mother's second:
-    *Fernando **Castillo Saavedra***. After the Civil War (1936–1939), Mexico took in thousands of refugees from Spain.
-
+  - title: "Don + first name"
+    body: "*Don* is a title of respect for a man, always with his **first** name: *don Fernando*, never ~~don Castillo~~."
+  - title: "Two surnames"
+    body: "*Fernando **Castillo Saavedra***: Hispanic names have two family names. Lección 3 explains how they work."
+  - title: "The envelope"
+    body: "**Sra.** = señora · **Calle** = street · **México, D.F.** = Mexico City (*Distrito Federal*) · **Por avión** = air mail."

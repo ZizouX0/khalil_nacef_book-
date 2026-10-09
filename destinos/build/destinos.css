@@ -111,6 +111,7 @@ ol.toc i { color: var(--muted); font-size: 9pt; margin-left: 1.5mm; }
 .opener .en { font: italic 13pt "Charis"; color: var(--muted); margin-top: 1.5mm; }
 .opener .where { margin-top: 4mm; font: 500 7.5pt "Plex"; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
 .opener .where b { color: var(--ink); font-weight: 600; }
+.opener .where .pp { margin-left: 3mm; color: var(--faint); }
 
 .route { margin: 9mm 0 9mm var(--side); }
 .route svg { width: 133mm; height: auto; display: block; }
@@ -139,43 +140,105 @@ table.words td { padding: .9mm 0; border-bottom: .4pt solid var(--rule); vertica
 table.words td.es { width: 60%; padding-right: 2mm; }
 table.words td.en { font-style: italic; color: var(--muted); font-size: 8.6pt; }
 
-.verbs { display: flex; gap: 7mm; align-items: flex-start; }
-.conj { width: 46mm; flex: none; }
-.conj .head { font-size: 15pt; line-height: 1; }
-.conj .head .lbl { margin-left: 2mm; color: var(--muted); }
-.conj .mean { font-style: italic; color: var(--muted); font-size: 8.6pt; margin: 1mm 0 2mm; }
-table.cj { border-collapse: collapse; width: 100%; border-top: .8pt solid var(--ink); border-bottom: .8pt solid var(--ink); }
-table.cj td { padding: 1.1mm 0; }
-table.cj td.p { font: 400 7.4pt "Plex"; color: var(--muted); width: 26mm; }
-table.cj td.f { font-weight: 700; font-size: 10.4pt; }
-table.cj tr + tr td { border-top: .4pt solid var(--rule); }
-.met { flex: 1; }
-.met .lbl { display: block; color: var(--ink); border-bottom: .8pt solid var(--ink); padding-bottom: 1mm; margin-bottom: 1mm; }
-table.met { width: 100%; border-collapse: collapse; }
-table.met td { padding: .9mm 0; border-bottom: .4pt solid var(--rule); vertical-align: baseline; }
-table.met td.inf { width: 21mm; }
-table.met td.form { width: 32mm; font-weight: 700; white-space: nowrap; }
-table.met td.en { font-style: italic; color: var(--muted); font-size: 8.6pt; }
-
 /* grammar */
 .gpoint { break-inside: avoid; margin-bottom: 6mm; }
 .gpoint h3 { font: 700 11.5pt/1.25 "Charis"; margin: 0 0 1.5mm; }
-.gpoint h3 .k { font: 600 8pt "Plex"; color: var(--accent); margin-right: 2mm; }
 table.ex { border-collapse: collapse; margin: 1.5mm 0 2.5mm; width: 100%; }
 table.ex td { padding: .7mm 0; vertical-align: baseline; }
 table.ex td.es { width: 50%; padding-left: 4mm; font-size: 10.2pt; }
 table.ex td.en { font-style: italic; color: var(--muted); font-size: 8.6pt; }
-.trap { position: relative; padding-left: 20mm; }
-.trap .lbl { position: absolute; left: 0; top: .25em; }
-
 table.phr { width: 100%; border-collapse: collapse; }
 table.phr td { padding: 1.2mm 0; border-bottom: .4pt solid var(--rule); vertical-align: baseline; }
 table.phr td.es { width: 52%; font-size: 10.2pt; }
 table.phr td.en { font-style: italic; color: var(--muted); font-size: 8.6pt; }
 
-.pair { display: flex; gap: 8mm; }
-.pair > div { flex: 1; }
-.pair h4 { font: 700 10.2pt/1.25 "Charis"; margin: 0 0 1.2mm; }
-.pair .lbl { display: block; margin-bottom: 1.5mm; }
-
 .lines .l { height: 7.4mm; border-bottom: .5pt solid var(--rule); }
+
+/* ---------------------------------------------------------------- revision sheet */
+/* the minute-long version of the lesson */
+ol.ess { list-style: none; margin: 0; padding: 3.5mm 4.5mm 1.5mm; background: var(--tint); counter-reset: e; }
+ol.ess li { counter-increment: e; position: relative; padding-left: 7mm; margin-bottom: 2.2mm; line-height: 1.45; }
+ol.ess li::before { content: counter(e); position: absolute; left: 0; top: -.05em;
+                    font: 700 13pt/1 "Charis"; color: var(--accent); }
+
+/* Spanish left, English right: cover a column to revise */
+table.pairs, table.facts { width: 100%; border-collapse: collapse; }
+table.pairs td, table.facts td { padding: 1mm 0; border-bottom: .4pt solid var(--rule); vertical-align: baseline; }
+table.pairs td.es, table.facts td.es { width: 52%; padding-right: 4mm; }
+table.pairs td.en, table.facts td.en { font-style: italic; color: var(--muted); font-size: 8.6pt; }
+p.aside { margin-top: 2.5mm; font-size: 9pt; color: var(--muted); }
+p.aside b { color: var(--ink); }
+
+.timeline { display: flex; margin-top: 4.5mm; border-top: 1.2pt solid var(--ink); }
+.timeline > div { flex: 1; padding: 2mm 2mm 0 0; position: relative; }
+.timeline > div::before { content: ""; position: absolute; top: -2.1mm; left: 0; width: 2.4mm; height: 2.4mm;
+                          border-radius: 50%; background: var(--accent); }
+.timeline .c { display: block; font: 600 8pt "Plex"; letter-spacing: .08em; color: var(--accent); margin-top: 1mm; }
+.timeline .es { display: block; font-size: 9.2pt; line-height: 1.3; }
+.timeline .en { display: block; font-style: italic; color: var(--muted); font-size: 7.8pt; line-height: 1.3; margin-top: .5mm; }
+
+/* the verb */
+.vhead { margin-bottom: 2.5mm; }
+.vhead .v { font: 700 22pt/1 "Charis"; color: var(--accent); margin-right: 3mm; }
+.vhead .mean { font: italic 11pt "Charis"; color: var(--muted); margin-right: 3mm; }
+.vhead .lbl { color: var(--muted); }
+.conj2 { display: flex; gap: 7mm; margin-bottom: 3mm; }
+.conj2 table.cj { flex: 1; }
+table.cj { border-collapse: collapse; border-top: .8pt solid var(--ink); border-bottom: .8pt solid var(--ink); }
+table.cj th { font: 500 6.8pt "Plex"; letter-spacing: .14em; text-transform: uppercase; color: var(--faint);
+              text-align: left; padding: 1.2mm 0 .6mm; font-weight: 500; }
+table.cj td { padding: 1.3mm 0; border-top: .4pt solid var(--rule); vertical-align: baseline; }
+table.cj td.p { font: 400 6.8pt/1.25 "Plex"; color: var(--muted); width: 17mm; padding-right: 1.5mm; }
+table.cj td.f { font-weight: 700; font-size: 12pt; width: 15mm; }
+table.cj td.f b { color: var(--accent); }
+table.cj td.m { font-style: italic; color: var(--muted); font-size: 8.2pt; white-space: nowrap; }
+.note { position: relative; padding-left: 30mm; margin: 1.6mm 0; }
+.note > .lbl:first-child { position: absolute; left: 0; top: .25em; width: 27mm; line-height: 1.3; }
+.note > .lbl i { font-style: normal; text-transform: none; letter-spacing: .02em; }
+div.met { margin-top: 3.5mm; }
+div.met > .lbl { display: block; color: var(--ink); border-bottom: .8pt solid var(--ink); padding-bottom: 1mm; margin-bottom: .5mm; }
+table.met { width: 100%; border-collapse: collapse; }
+table.met td { padding: .9mm 0; border-bottom: .4pt solid var(--rule); vertical-align: baseline; }
+table.met td.form { width: 30mm; font-weight: 700; }
+table.met td.inf { width: 30mm; color: var(--muted); }
+table.met td.en { font-style: italic; color: var(--muted); font-size: 8.6pt; }
+
+/* grammar */
+.uses { display: flex; gap: 7mm; margin: 1mm 0 2mm; }
+.uses > div { flex: 1; }
+.uses .tag { display: inline-block; font: 600 9pt "Plex"; color: #fff; background: var(--accent);
+             padding: .5mm 2mm; margin-bottom: 1.2mm; letter-spacing: .04em; }
+.uses p { margin-bottom: 1mm; }
+.uses table.ex td.es { width: 56%; padding-left: 0; }
+table.rules { width: 100%; border-collapse: collapse; }
+table.rules td { padding: 1.3mm 0; border-bottom: .4pt solid var(--rule); vertical-align: baseline; }
+table.rules td.r { width: 50%; padding-right: 4mm; }
+table.rules td.x { font-style: italic; font-size: 9.6pt; }
+
+/* words */
+.tier { font-size: 9pt; color: var(--muted); margin: 0 0 2.5mm; }
+.tier b { color: var(--ink); }
+.vocab + .tier { margin-top: 1mm; }
+p.course { font-size: 8.8pt; line-height: 1.7; color: var(--muted); }
+p.course span { white-space: nowrap; margin-right: 4.5mm; }
+p.course b { color: var(--ink); font-weight: 400; }
+
+/* cognates */
+.lbl.sub { display: block; margin: 4mm 0 1.2mm; }
+table.pat, table.ff { width: 100%; border-collapse: collapse; }
+table.pat th { font: 500 6.8pt "Plex"; letter-spacing: .14em; text-transform: uppercase; color: var(--faint);
+               text-align: left; padding: 0 0 .8mm; border-bottom: .8pt solid var(--ink); }
+table.pat td, table.ff td { padding: 1.1mm 0; border-bottom: .4pt solid var(--rule); vertical-align: baseline; }
+table.pat td.s { width: 26mm; font-weight: 700; color: var(--accent); }
+table.pat td.e { width: 14mm; font-weight: 700; }
+table.pat td.es { width: 46mm; }
+table.pat td.en, table.ff td.not { font-style: italic; color: var(--muted); font-size: 8.6pt; }
+table.ff td.es { width: 26mm; font-weight: 700; }
+table.ff td:nth-child(2) { width: 32mm; }
+table.ff td.not b { font-style: normal; color: var(--ink); font-weight: 400; }
+
+/* pronunciation and culture */
+.tips { display: flex; flex-wrap: wrap; gap: 4mm 7mm; }
+.tips > div { width: 62mm; }
+.tips h4 { font: 700 9.8pt/1.25 "Charis"; margin: 0 0 .8mm; }
+.tips p { margin: 0; font-size: 9.2pt; }

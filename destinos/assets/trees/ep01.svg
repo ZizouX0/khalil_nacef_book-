@@ -1,32 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 128" width="500" height="128">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 132" width="500" height="132">
   <g fill="none" stroke="#6d665c" stroke-width="0.9">
-    <!-- brothers: a bracket above don Fernando and Pedro -->
-    <path d="M215 13 V6 H455 V13"/>
     <!-- first marriage, in Spain: the line the whole story is about -->
-    <path d="M104 26 H164" stroke-dasharray="3 3"/>
-    <!-- second marriage, in Mexico -->
-    <path d="M266 26 H313"/>
+    <path d="M118 26 H182" stroke-dasharray="3 3"/>
+    <!-- marriage to Carmen, in Mexico -->
+    <path d="M290 26 H356"/>
     <!-- their children -->
-    <path d="M289 26 V84 M140 84 H440 M140 84 V94 M240 84 V94 M340 84 V94 M440 84 V94"/>
+    <path d="M323 26 V80 M150 80 H450 M150 80 V90 M250 80 V90 M350 80 V90 M450 80 V90"/>
   </g>
   <g font-family="Charis" font-size="13" font-weight="700" fill="#1d1b18" text-anchor="middle">
-    <text x="70" y="30">Rosario</text>
-    <text x="215" y="30" fill="#a63d2a">don Fernando</text>
-    <text x="345" y="30">Carmen</text>
-    <text x="455" y="30">Pedro</text>
-    <text x="140" y="110" font-weight="400">Ramón</text>
-    <text x="240" y="110" font-weight="400">Carlos</text>
-    <text x="340" y="110" font-weight="400">Juan</text>
-    <text x="440" y="110" font-weight="400">Mercedes</text>
+    <text x="80" y="30">Rosario</text>
+    <text x="236" y="30" fill="#a63d2a">don Fernando</text>
+    <text x="395" y="30">Carmen</text>
+    <text x="150" y="106" font-weight="400">Ramón</text>
+    <text x="250" y="106" font-weight="400">Carlos</text>
+    <text x="350" y="106" font-weight="400">Juan</text>
+    <text x="450" y="106" font-weight="400">Mercedes</text>
   </g>
   <g font-family="Plex" font-size="7.2" font-weight="500" fill="#6d665c" text-anchor="middle" letter-spacing="0.9">
-    <text x="70" y="43">PRIMERA ESPOSA</text>
-    <text x="70" y="53">EN ESPAÑA</text>
-    <text x="215" y="43">CASTILLO SAAVEDRA</text>
-    <text x="215" y="53">LA GAVIA, MÉXICO</text>
-    <text x="345" y="43">SEGUNDA ESPOSA</text>
-    <text x="455" y="43">SU HERMANO</text>
-    <text x="134" y="20" font-family="Charis" font-size="10" font-weight="700" fill="#a63d2a" letter-spacing="0">¿?</text>
-    <text x="296" y="66" text-anchor="start">SUS HIJOS</text>
+    <text x="80" y="43">PRIMERA ESPOSA</text>
+    <text x="80" y="53">MUY MISTERIOSA</text>
+    <text x="236" y="43">EL PATRIARCA</text>
+    <text x="236" y="53">DE ESPAÑA · LA GAVIA</text>
+    <text x="395" y="43">SU ESPOSA</text>
+    <text x="395" y="53">YA ESTÁ MUERTA</text>
+    <text x="350" y="119">PROFESOR DE LITERATURA</text>
+    <text x="450" y="119">LA HIJA</text>
+    <text x="150" y="40" font-family="Charis" font-size="10" font-weight="700" fill="#a63d2a" letter-spacing="0" dy="-20">¿?</text>
+    <text x="331" y="62" text-anchor="start">SUS HIJOS</text>
   </g>
 </svg>
