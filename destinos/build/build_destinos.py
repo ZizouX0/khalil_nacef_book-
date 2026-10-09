@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Build the Destinos study notes from episodes/ep*.yaml.
+"""Build the Destinos notebook from episodes/ep*.yaml.
 
     python3 destinos/build/build_destinos.py [out.pdf]
 
@@ -16,7 +16,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 EPISODES = os.path.join(ROOT, "episodes")
 TREES = os.path.join(ROOT, "assets", "trees")
-OUT = os.path.join(ROOT, "Destinos_Study_Notes.pdf")
+OUT = os.path.join(ROOT, "Destinos_Cuaderno.pdf")
 
 INK, MUTED, FAINT, RULE, ACCENT = "#1d1b18", "#6d665c", "#9a9286", "#cfc6b8", "#a63d2a"
 
@@ -111,54 +111,27 @@ def route_svg(stop, width=500, big=False):
 def cover(first, last):
     return f'''
 <div class="cover">
-  <div class="top"><span>Study notes</span><span>Episodes {first}–{last}</span></div>
+  <div class="top"><span>Cuaderno</span><span>Episodios {first}–{last}</span></div>
   <h1>Destinos</h1>
-  <div class="sub">The series, the textbook and the workbook, one episode at a time: what to learn, what to say, and what to check before you move on.</div>
+  <div class="sub">What each episode teaches, written down once and kept: the words, the verbs, the grammar and the phrases worth remembering.</div>
   <div class="map">{route_svg("", width=560, big=True)}</div>
   <div class="owner">
-    <div><span class="k">These notes belong to</span><span class="v"></span></div>
-    <div><span class="k">Started on</span><span class="v"></span></div>
+    <div><span class="k">Este cuaderno es de</span><span class="v"></span></div>
+    <div><span class="k">Empezado el</span><span class="v"></span></div>
   </div>
 </div>'''
 
 
-# (when, step, what to do, the same step as a line on the episode's checklist)
-PLAN = [
-    ("Day 1", "Before you watch", "Read the episode's <b>Antes de ver</b> and the words in the textbook. Guess what will happen.",
-     "Antes de ver, and the new words in the textbook"),
-    ("Day 1", "Watch once", "No pausing, no subtitles. Follow the story; half of the words is enough.",
-     "No pausing, no subtitles"),
-    ("Day 1", "From memory", "Do the workbook's comprehension questions straight away, without rewatching.",
-     "Workbook comprehension questions, without rewatching"),
-    ("Day 1", "Watch again", "This time pause. Copy five to ten sentences you could use yourself, then say each one out loud with the actor.",
-     "Pause, copy 5–10 sentences, say them with the actor"),
-    ("Day 2", "Grammar", "Read <b>Gramática</b> here and in the textbook, then find the same grammar in the episode.",
-     "Gramática here and in the textbook"),
-    ("Day 2", "Workbook", "Do the exercises with the book <b>closed</b>. Correct them with the key and redo every mistake the next day.",
-     "Exercises with the book closed, then the key"),
-    ("Day 2", "Say it", "Retell the episode out loud for a minute, record it, then write it down in <b>Cuéntalo</b>.",
-     "One minute out loud, recorded, then Cuéntalo"),
-    ("Every day", "Flashcards", "Your copied sentences go into Anki, Spanish on the front. Ten minutes a day keeps them.",
-     "This episode's sentences are in Anki"),
-]
-
-
-def how_to():
-    rows = "".join(f'<tr><td class="n">{i}</td><td class="when">{esc(w)}</td>'
-                   f'<td><b>{esc(t)}.</b> {d}</td></tr>'
-                   for i, (w, t, d, _) in enumerate(PLAN, 1))
+def index(eps):
+    """The contents page. Page numbers come from the layout itself, so the index
+    stays right as episodes are added."""
+    rows = "".join(f'<li><a href="#ep{int(e["episode"])}"><span class="n">{int(e["episode"])}</span>'
+                   f'{esc(e["title"])} <i>{esc(e["title_en"])}</i></a></li>' for e in eps)
     return f'''
 <div class="intro newpage">
   <div class="headmark" data-l="" data-r=""></div>
-  <h2>How to use these notes</h2>
-  <p class="lede">Each episode gets its own few pages: the story in easy Spanish, the words and verbs that matter,
-  the grammar of the lesson, phrases you can use straight away, and a short test with the answers printed upside down.
-  Nothing here is about later episodes, so you can read ahead of the video but never ahead of the story.</p>
-  {sec("El método", "Two sittings per episode",
-       f'<table class="plan">{rows}</table>')}
-  {sec("El ritmo", "How fast",
-       "<p>Three or four episodes a week takes you through all fifty-two in about four months. "
-       "Every fifth episode, rewatch an old one without subtitles: you will hear how much more you understand.</p>")}
+  <h2>Índice</h2>
+  <ol class="toc">{rows}</ol>
 </div>'''
 
 
@@ -170,7 +143,7 @@ def episode(ep):
 
     # opener
     o.append(f'''
-<div class="opener">
+<div class="opener" id="ep{n}">
   <div class="headmark" data-l="" data-r=""></div>
   <div class="num"><span class="lbl">Episodio</span><span class="n">{n}</span><span class="w">{spell(n)}</span></div>
   <div class="title">
@@ -179,15 +152,12 @@ def episode(ep):
     <div class="where">Where <b>{esc(ep["setting"])}</b></div>
   </div>
 </div>
-<div class="headmark" data-l="Destinos · study notes" data-r="{esc(head_r)}"></div>
+<div class="headmark" data-l="Destinos · cuaderno" data-r="{esc(head_r)}"></div>
 <div class="route">{route_svg(ep.get("stop", ""))}</div>''')
-
-    o.append(sec("Antes de ver", "Before you watch",
-                 '<ol class="before">' + "".join(f'<li>{md(q)}</li>' for q in ep["before"]) + '</ol>', "keep"))
 
     rows = "".join(f'<tr><td class="es">{md(s["es"])}</td><td class="en">{md(s["en"])}</td></tr>'
                    for s in ep["story"])
-    o.append(sec("La historia", "The story so far", f'<table class="story">{rows}</table>', "keep"))
+    o.append(sec("La historia", "What happens", f'<table class="story">{rows}</table>', "keep"))
 
     who = ""
     if ep.get("tree"):
@@ -206,7 +176,7 @@ def episode(ep):
         + "".join(f'<tr><td class="es">{with_articles(es)}</td><td class="en">{esc(en)}</td></tr>'
                   for es, en in g["words"])
         + '</table></div>' for g in ep["vocab"])
-    o.append(sec("Vocabulario", "Words to keep", f'<div class="vocab">{groups}</div>', "newpage"))
+    o.append(sec("Vocabulario", "Words to keep", f'<div class="vocab">{groups}</div>'))
 
     v = ep["verbs"]
     t = v["table"]
@@ -232,31 +202,18 @@ def episode(ep):
     o.append(sec("Gramática", "Grammar", g))
 
     ph = "".join(f'<tr><td class="es">{md(a)}</td><td class="en">{md(b)}</td></tr>' for a, b in ep["phrases"])
-    o.append(sec("Frases útiles", "Say them out loud", f'<table class="phr">{ph}</table>', "keep"))
+    o.append(sec("Frases útiles", "Ready to use", f'<table class="phr">{ph}</table>', "keep"))
 
     s, c = ep["sound"], ep["culture"]
-    o.append(sec("Pronunciación", "and culture", f'''
+    o.append(sec("Bueno saber", "Good to know", f'''
 <div class="pair">
   <div><span class="lbl">Pronunciación</span><h4>{md(s["title"])}</h4><p>{md(s["body"])}</p></div>
   <div><span class="lbl">Cultura</span><h4>{md(c["title"])}</h4><p>{md(c["body"])}</p></div>
 </div>''', "keep"))
 
-    # practice page
-    tests = "".join(f'<li>{md(q["q"])}<div class="line"></div></li>' for q in ep["test"])
-    o.append(sec("Ponte a prueba", "Test yourself", f'<ol class="test">{tests}</ol>', "keep"))
-
-    r = ep["retell"]
-    kw = "".join(f'<span>{esc(k)}</span>' for k in r["keywords"])
-    lines = '<div class="l"></div>' * int(r.get("lines", 8))
-    o.append(sec("Cuéntalo", "Retell it in Spanish",
-                 f'<div class="kw">{kw}</div><div class="lines">{lines}</div>', "keep"))
-
-    done = "".join(f'<tr><td class="box"><span></span></td><td><b>{esc(t)}.</b> {esc(c)}</td>'
-                   f'<td class="date">DATE ______</td></tr>' for _, t, _, c in PLAN)
-    o.append(sec("Hecho", "Done", f'<table class="done">{done}</table>', "keep"))
-
-    key = "".join(f'<span class="a"><b>{i}</b>{md(q["a"])}</span>' for i, q in enumerate(ep["test"], 1))
-    o.append(f'<div class="key"><span class="lbl">Answers</span>{key}</div>')
+    # a few ruled lines for whatever else the episode taught you
+    lines = '<div class="l"></div>' * int(ep.get("note_lines", 6))
+    o.append(sec("Mis notas", "Your own", f'<div class="lines">{lines}</div>', "keep"))
     return "".join(o)
 
 
@@ -268,9 +225,9 @@ def build(out=OUT):
     eps.sort(key=lambda e: int(e["episode"]))
     with open(os.path.join(HERE, "destinos.css"), encoding="utf-8") as f:
         css = f.read()
-    body = cover(eps[0]["episode"], 52) + how_to() + "".join(episode(e) for e in eps)
+    body = cover(eps[0]["episode"], 52) + index(eps) + "".join(episode(e) for e in eps)
     doc = (f'<!doctype html><html lang="es"><head><meta charset="utf-8">'
-           f'<title>Destinos · Study notes</title><style>{css}</style></head><body>{body}</body></html>')
+           f'<title>Destinos · Cuaderno</title><style>{css}</style></head><body>{body}</body></html>')
     HTML(string=doc, base_url=ROOT).write_pdf(out)
     return out
 

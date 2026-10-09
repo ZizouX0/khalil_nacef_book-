@@ -90,15 +90,15 @@ s.wrong { text-decoration: line-through; text-decoration-color: var(--accent); c
 .keep { break-inside: avoid; }
 .newpage { break-before: page; }
 
-/* how-to page */
-.intro h2 { font: 400 26pt/1.1 "Charis"; margin: 0 0 6mm var(--side); }
-.intro .lede { margin-left: var(--side); font-size: 11pt; line-height: 1.5; max-width: 118mm; margin-bottom: 8mm; }
-table.plan { width: 100%; border-collapse: collapse; }
-table.plan td { padding: 2.2mm 0; border-top: .5pt solid var(--rule); vertical-align: top; }
-table.plan td.n { width: 8mm; font: 600 8pt "Plex"; color: var(--accent); padding-top: 2.6mm; }
-table.plan td.when { width: 22mm; font: 500 7pt "Plex"; letter-spacing: .1em; text-transform: uppercase;
-                     color: var(--muted); padding-top: 2.8mm; }
-table.plan b { font-weight: 700; }
+/* index */
+.intro h2 { font: 400 30pt/1.1 "Charis"; margin: 4mm 0 10mm var(--side); }
+ol.toc { list-style: none; margin: 0 0 0 var(--side); padding: 0; }
+ol.toc li { border-bottom: .4pt solid var(--rule); padding: 1.6mm 0; font-size: 10.6pt; }
+ol.toc a { color: inherit; text-decoration: none; display: block; }
+ol.toc a::after { content: leader(" ") target-counter(attr(href), page);
+                  font: 500 8.5pt "Plex"; color: var(--muted); }
+ol.toc .n { display: inline-block; width: 9mm; font: 600 8.5pt "Plex"; color: var(--accent); }
+ol.toc i { color: var(--muted); font-size: 9pt; margin-left: 1.5mm; }
 
 /* ---------------------------------------------------------------- opener */
 .opener { break-before: page; position: relative; margin-bottom: 8mm; padding-top: 2mm; }
@@ -114,12 +114,6 @@ table.plan b { font-weight: 700; }
 
 .route { margin: 9mm 0 9mm var(--side); }
 .route svg { width: 133mm; height: auto; display: block; }
-
-/* before you watch */
-ol.before { margin: 0; padding: 0; list-style: none; counter-reset: b; }
-ol.before li { counter-increment: b; position: relative; padding-left: 6mm; margin-bottom: 1.6mm; }
-ol.before li::before { content: counter(b); position: absolute; left: 0; top: .1em;
-                       font: 600 7.5pt "Plex"; color: var(--accent); }
 
 /* the story: Spanish and English side by side, sentence by sentence */
 table.story { width: 100%; border-collapse: collapse; }
@@ -184,26 +178,4 @@ table.phr td.en { font-style: italic; color: var(--muted); font-size: 8.6pt; }
 .pair h4 { font: 700 10.2pt/1.25 "Charis"; margin: 0 0 1.2mm; }
 .pair .lbl { display: block; margin-bottom: 1.5mm; }
 
-/* ---------------------------------------------------------------- practice */
-ol.test { margin: 0; padding: 0; list-style: none; counter-reset: t; }
-ol.test li { counter-increment: t; position: relative; padding-left: 7mm; margin-bottom: 1.2mm; }
-ol.test li::before { content: counter(t); position: absolute; left: 0; top: .15em;
-                     font: 600 7.8pt "Plex"; color: var(--accent); }
-ol.test li .line { height: 6.2mm; border-bottom: .5pt dotted var(--faint); }
-
-.kw { background: var(--tint); padding: 2.5mm 3.5mm; margin-bottom: 2mm; font-size: 9.6pt; line-height: 1.6; }
-.kw span + span::before { content: "  ·  "; color: var(--faint); white-space: pre; }
 .lines .l { height: 7.4mm; border-bottom: .5pt solid var(--rule); }
-
-table.done { width: 100%; border-collapse: collapse; }
-table.done td { padding: 1.15mm 0; border-bottom: .4pt solid var(--rule); vertical-align: middle; }
-table.done td.box { width: 7mm; }
-table.done td.box span { display: inline-block; width: 3.2mm; height: 3.2mm; border: .7pt solid var(--ink); }
-table.done td.date { width: 24mm; font: 400 7pt "Plex"; color: var(--faint); text-align: right; letter-spacing: .08em; }
-
-/* answers: printed upside down so you don't read them by accident */
-.key { margin: 6mm 0 0 var(--side); transform: rotate(180deg); border-top: .5pt solid var(--rule);
-       padding-top: 2mm; font-size: 7.8pt; line-height: 1.5; color: var(--muted); break-inside: avoid; }
-.key .lbl { margin-right: 2mm; }
-.key b { color: var(--accent); font: 600 7pt "Plex"; margin-right: .8mm; }
-.key span.a { margin-right: 3.2mm; }

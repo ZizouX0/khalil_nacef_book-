@@ -7,10 +7,6 @@ title_en: The letter
 setting: La Gavia, México
 stop: mexico
 
-before:
-  - "The title is *La carta*. A letter arrives at a family's house. Who might send a letter that changes everything?"
-  - "Old secrets: what kind of secret could a man keep for fifty years?"
-  - "Listen for one word every time it comes back: **carta**. Count how many times you hear it."
 
 story:
   - es: "Raquel Rodríguez es abogada. Vive y trabaja en Los Ángeles."
@@ -141,28 +137,3 @@ culture:
     ~~don Castillo~~. And Spanish speakers carry two surnames, father's first and mother's second:
     *Fernando **Castillo Saavedra***. After the Civil War (1936–1939), Mexico took in thousands of refugees from Spain.
 
-test:
-  - q: "¿Quién es Raquel Rodríguez?"
-    a: "Es abogada. Vive en Los Ángeles."
-  - q: "¿Dónde vive don Fernando?"
-    a: "En La Gavia, una hacienda en México."
-  - q: "¿Quién escribe la carta? ¿De dónde es?"
-    a: "Teresa Suárez. Es de España."
-  - q: "¿Quién es Rosario?"
-    a: "La primera esposa de don Fernando."
-  - q: "Fill in: Raquel ____ abogada. Ramón y Carlos ____ hermanos."
-    a: "es · son"
-  - q: "Correct the mistake: *Raquel es una abogada.*"
-    a: "Raquel es abogada."
-  - q: "*el* or *la*?  ___ carta · ___ secreto · ___ verdad · ___ viaje"
-    a: "la · el · la · el"
-  - q: "Translate: *Pedro is don Fernando's brother.*"
-    a: "Pedro es el hermano de don Fernando."
-  - q: "Write the question: ¿________ es Teresa?  —  Es de España."
-    a: "¿De dónde es Teresa?"
-  - q: "Does *los hijos de don Fernando* include Mercedes?"
-    a: "Yes. The masculine plural covers a mixed group."
-
-retell:
-  keywords: [don Fernando, viejo y enfermo, La Gavia, una carta, Teresa Suárez, Rosario, la Guerra Civil, Raquel, investigar, Sevilla]
-  lines: 9
