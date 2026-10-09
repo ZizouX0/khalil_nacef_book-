@@ -18,6 +18,12 @@ ROOT = os.path.dirname(HERE)
 EPISODES = os.path.join(ROOT, "episodes")
 OUT = os.path.join(ROOT, "Destinos_Cuaderno.pdf")
 
+# The sheets print only what matters most for revision. The episode files keep
+# everything (extra words, culture, more examples…); --full prints all of it.
+ESSENTIAL = True
+MAX_EXAMPLES = 2     # per grammar point
+MAX_PHRASES = 6
+
 INK, MUTED, FAINT, RULE, ACCENT = "#1d1b18", "#6d665c", "#9a9286", "#cfc6b8", "#a63d2a"
 
 # Raquel's journey. The story leaves from La Gavia and comes back to it, so the
@@ -181,7 +187,7 @@ def verbs_section(ep):
         body += f'<div class="note"><span class="lbl">Remember</span>{md(t["hook"])}</div>'
     for nt in v.get("notes", []):
         body += f'<div class="note"><span class="lbl">{md(nt["label"])}</span>{md(nt["text"])}</div>'
-    if met:
+    if met and not ESSENTIAL:
         body += f'<div class="met"><span class="lbl">Other verbs in this lesson</span>{met}</div>'
     # the card itself stays in one piece; its notes and the list may run on
     return sec("El verbo", t["verb"] + " · " + t["meaning"], body)
@@ -240,7 +246,7 @@ def episode(ep):
                 f'<div><span class="tag">{md(u["label"])}</span><p>{md(u["text"])}</p>{pairs(u["examples"], "ex")}</div>'
                 for u in p["uses"]) + '</div>'
         if p.get("examples"):
-            g += pairs(p["examples"], "ex")
+            g += pairs(p["examples"][:MAX_EXAMPLES] if ESSENTIAL else p["examples"], "ex")
         if p.get("trap"):
             g += f'<div class="note"><span class="lbl">Watch out</span>{md(p["trap"])}</div>'
         g += '</div>'
@@ -265,17 +271,17 @@ def episode(ep):
                 body += ('<p class="elsewhere"><span class="lbl">Also on the list</span>'
                          + " · ".join(f'<b>{esc(g["group"])}</b>: see {esc(g["see"])} above' for g in elsewhere)
                          + '</p>')
-        if v.get("extra"):
+        if v.get("extra") and not ESSENTIAL:
             body += ('<div class="tier"><b>Recognise these.</b> Also met in the episode, the textbook and the workbook.</div>'
                      f'<div class="vocab">{word_groups(v["extra"])}</div>')
-        if v.get("course"):
+        if v.get("course") and not ESSENTIAL:
             body += ('<div class="tier"><b>The book\'s own words.</b> Headings and instructions you will see in every lesson.</div>'
                      '<p class="course">' + "".join(f'<span><b>{esc(a)}</b> {esc(b)}</span>' for a, b in v["course"]) + '</p>')
         o.append(sec("Vocabulario", "Words", body))
 
-    if ep.get("cognates"):
-        c = ep["cognates"]
-        body = f'<p>{md(c["rule"])}</p>'
+    c = ep.get("cognates") or {}
+    if c and (not ESSENTIAL or c.get("patterns") or c.get("false_friends")):
+        body = "" if ESSENTIAL else f'<p>{md(c["rule"])}</p>'
         if c.get("patterns"):
             body += ('<div class="lbl sub">Spot the pattern</div><table class="pat">'
                      '<thead><tr><th>Spanish</th><th>English</th><th>Examples</th><th></th></tr></thead>'
@@ -288,12 +294,12 @@ def episode(ep):
                                f'<td class="not">not {esc(c2)}, which is <b>{with_articles(d)}</b></td></tr>'
                                for a, b, c2, d in c["false_friends"])
                      + '</table>')
-        if c.get("harder"):
+        if c.get("harder") and not ESSENTIAL:
             body += ('<div class="lbl sub">Harder to spot, still guessable</div><table class="pairs harder">'
                      + "".join(f'<tr><td class="es">{with_articles(a)}</td><td><b>{esc(b)}</b></td>'
                                f'<td class="en">{md(h)}</td></tr>' for a, b, h in c["harder"])
                      + '</table>')
-        if c.get("borrowed"):
+        if c.get("borrowed") and not ESSENTIAL:
             body += f'<p class="aside">{md(c["borrowed"])}</p>'
         o.append(sec("Cognados", "Words you already know", body, "keep"))
 
@@ -309,9 +315,10 @@ def episode(ep):
         o.append(sec("Pronunciación", "How it sounds", body, "keep"))
 
     if ep.get("phrases"):
-        o.append(sec("Frases útiles", "Ready to use", pairs(ep["phrases"], "phr"), "keep"))
+        ph = ep["phrases"][:MAX_PHRASES] if ESSENTIAL else ep["phrases"]
+        o.append(sec("Frases útiles", "Ready to use", pairs(ph, "phr"), "keep"))
 
-    if ep.get("culture"):
+    if ep.get("culture") and not ESSENTIAL:
         body = '<div class="tips">' + "".join(
             f'<div class="{"wide" if s.get("rows") else ""}"><h4>{md(s["title"])}</h4><p>{md(s["body"])}</p>'
             + (pairs(s["rows"], "dates") if s.get("rows") else "") + '</div>' for s in ep["culture"]) + '</div>'
@@ -352,7 +359,11 @@ if __name__ == "__main__":
     # build_destinos.py [out.pdf]                    the whole notebook
     # build_destinos.py --episodes 3 [out.pdf]       one episode on its own
     # build_destinos.py --episodes 3,4 [out.pdf]     several
+    # add --full to print everything, not just the essentials
     args, only = sys.argv[1:], None
+    if "--full" in args:              # everything in the episode files
+        args.remove("--full")
+        ESSENTIAL = False
     if args[:1] == ["--episodes"]:
         only = {int(x) for x in args[1].split(",")}
         args = args[2:]
