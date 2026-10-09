@@ -1,0 +1,246 @@
+# Episodio 4 · Perdido
+# Sources: Textbook Lección 4 (pp. 38–50) only. The Workbook/Study Guide Lección 4 is not
+# included yet: add its Vocabulario, pronunciation and cognate sections when it arrives.
+# Words in vocab.core are the textbook's own Vocabulario list.
+
+episode: 4
+title: Perdido
+title_en: Lost
+pages: "Textbook pp. 38–50"
+
+essentials:
+  - "**Adjectives agree** with their noun, like the articles: *Osito es pequeño y negro*, *los perros son inteligentes y fieles*. Plural: vowel + **s** (*inteligentes*), consonant + **es** (*fieles*)."
+  - "**Introducing people**: *Éste es…* (a man), *Ésta es…* (a woman), *Éstos son…* (men, or a mixed group), *Éstas son…* (women only)."
+  - "**School subjects** are mostly cognates: *la biología, la filosofía, la literatura*. Some need a second look: *la química* = chemistry, *el comercio* = business. And *el colegio* is a school, not a college."
+  - "**Le gusta** + verb = he / she likes to… (*No le gusta estudiar*). **Me gustaría** + verb = I would like to…"
+
+grammar:
+  - title: "Describing: adjectives agree"
+    rule: "An adjective matches its noun in gender and number, just like *el · la · los · las*. Adjectives in **-o** have four forms; those in **-e** or a consonant have one form for both genders and only add the plural. Describing adjectives usually come **after** the noun: *un perro inteligente*."
+    table:
+      head: ["", "masc. · one", "masc. · more", "fem. · one", "fem. · more"]
+      rows:
+        - ["-o", "pequeñ**o**", "pequeñ**os**", "pequeñ**a**", "pequeñ**as**"]
+        - ["-e", "inteligent**e**", "inteligent**es**", "inteligent**e**", "inteligent**es**"]
+        - ["consonant", "fiel", "fiel**es**", "fiel", "fiel**es**"]
+    examples:
+      - ["Osito es pequeño y negro.", "Osito is small and black."]
+      - ["Es muy inteligente y cariñoso.", "He's very intelligent and affectionate."]
+      - ["Los perros son animales muy inteligentes. También son muy fieles.", "Dogs are very intelligent animals. They are also very loyal."]
+      - ["Algunas personas creen que los gatos son más listos.", "Some people think cats are brighter."]
+    trap: "*Hablador* ends in a consonant but adds **-a** for a woman: *habladora*. *Egoísta* ends in -a but is the same for both: *un perro egoísta, una persona egoísta*."
+
+  - title: "Introducing people: éste es…"
+    rule: "Choose the form that matches the person or people you are introducing."
+    table:
+      head: ["", "one person", "more than one"]
+      rows:
+        - ["male", "**Éste** es…", "**Éstos** son…"]
+        - ["female", "**Ésta** es…", "**Éstas** son…"]
+    examples:
+      - ["Éste es mi padre.", "This is my father."]
+      - ["Ésta es mi profesora de español.", "This is my Spanish teacher."]
+      - ["Éstos son mis hijos.", "These are my children."]
+      - ["Éstas son mis hijas.", "These are my daughters."]
+    trap: "A mixed group takes **éstos**, like *los hijos*. Before a noun, no accent: *este semestre*. Newer spelling rules drop it in *éste es* too."
+
+  - title: "Likes: le gusta, me gustaría"
+    rule: "Likes and dislikes use the verb **gustar**. The book teaches it later; for now, learn these set phrases."
+    examples:
+      - ["Le gusta estudiar.", "He / she likes to study."]
+      - ["No le gusta estudiar.", "He / she doesn't like to study."]
+      - ["A Jaime no le gusta la escuela.", "Jaime doesn't like school."]
+      - ["Me gustaría visitar la Catedral y la Giralda.", "I would like to visit the Cathedral and the Giralda."]
+    trap: "To name the person who likes, put **a** in front: *a Jaime le gusta…*"
+
+rules:
+  - ["**-ar** verbs: **-o** I · **-a** he, she · **-an** they", "Yo tomo inglés. Mi amigo toma arte. Otros amigos toman química."]
+  - ["**tomar** = to take (a course), to have (a drink)", "Toma inglés. · Toma un fino."]
+  - ["**bueno · primero** lose the -o before a masculine singular noun.", "Es buen estudiante. · el primer año"]
+  - ["**in- · im-** make opposites (**im-** before p and b).", "dependiente · independiente, paciente · impaciente"]
+  - ["**-z** plural: z becomes **c** + es, same sound.", "el pez · los peces"]
+  - ["**no** … **nada** = nothing: two negatives are normal.", "Miguel no sabe nada."]
+  - ["**donde** = where, in a statement · **¿dónde?** with an accent, in a question", "Donde yo vivo, los chicos estudian inglés."]
+
+verbs:
+  met:
+    - ["estudia · estudian", "estudiar", "he / she studies · they study"]
+    - ["tomo · toma · toman", "tomar", "I take · he / she takes · they take"]
+    - ["compra", "comprar", "he / she buys"]
+    - ["llama", "llamar", "he / she calls"]
+    - ["lleva", "llevar", "he / she takes (someone somewhere)"]
+    - ["caminan", "caminar", "they walk"]
+    - ["decide", "decidir", "he / she decides"]
+    - ["acepta", "aceptar", "he / she accepts"]
+    - ["sabe · no sabe", "saber", "he / she knows · doesn't know"]
+    - ["hablé · habló", "hablar", "I spoke · he / she spoke"]
+    - ["se pierde", "perderse", "he / she gets lost"]
+    - ["vaya", "ir", "go"]
+    - ["me gustaría", "gustar", "I would like"]
+
+vocab:
+  core:
+    - group: Los verbos
+      words:
+        - ["aceptar", "to accept"]
+        - ["caminar", "to walk"]
+        - ["comprar", "to buy"]
+        - ["decidir", "to decide"]
+        - ["estudiar", "to study"]
+        - ["llamar", "to call"]
+        - ["llevar", "to take (something somewhere)"]
+        - ["sabe (algo)", "he / she knows (something)"]
+        - ["no sabe nada", "he / she doesn't know anything"]
+    - group: Los animales domésticos
+      words:
+        - ["el gato", "cat"]
+        - ["el pájaro", "bird"]
+        - ["el perro", "dog"]
+        - ["el pez · los peces", "fish (one · more)"]
+    - group: Los lugares
+      words:
+        - ["la casa", "house, home"]
+        - ["el colegio", "grade school, high school"]
+    - group: Las materias
+      words:
+        - ["la asignatura", "subject"]
+        - ["el curso", "course; class"]
+        - ["la historia (repaso)", "history"]
+        - ["las matemáticas", "mathematics"]
+        - ["las ciencias naturales · sociales", "natural · social science"]
+        - ["la religión", "religion"]
+        - ["el español", "Spanish"]
+        - ["el inglés", "English"]
+        - ["la educación física", "physical education"]
+    - group: Más materias
+      words:
+        - ["el arte · las artes", "art · the arts"]
+        - ["la biología", "biology"]
+        - ["el cálculo", "calculus"]
+        - ["el comercio", "business"]
+        - ["la comunicación", "communications"]
+        - ["la contabilidad", "accounting"]
+        - ["los estudios agrícolas", "agriculture"]
+        - ["la filosofía", "philosophy"]
+        - ["la informática", "data processing"]
+        - ["la lengua (extranjera)", "(foreign) language"]
+        - ["la literatura", "literature"]
+        - ["la psicología", "psychology"]
+        - ["la química", "chemistry"]
+        - ["la sociología", "sociology"]
+    - group: Los adjetivos
+      words:
+        - ["bueno · buenos", "good"]
+        - ["cariñoso · cariñosos", "affectionate"]
+        - ["negro · negros", "black"]
+        - ["perdido · perdidos", "lost"]
+        - ["primero · primeros", "first"]
+    - group: Las presentaciones
+      words:
+        - ["éste es…", "this is… (one male)"]
+        - ["ésta es…", "this is… (one female)"]
+        - ["éstos son…", "these are… (males, or a mixed group)"]
+        - ["éstas son…", "these are… (females)"]
+    - group: Palabras adicionales
+      words:
+        - ["al día siguiente", "the next day"]
+        - ["donde yo vivo", "where I live"]
+        - ["por teléfono", "by telephone"]
+        - ["porque", "because"]
+        - ["todavía", "still, yet"]
+        - ["(a Jaime) le gusta + inf.", "(Jaime) likes (to do something)"]
+        - ["no le gusta + inf.", "he / she doesn't like (to do something)"]
+  extra:
+    - group: Para describir
+      words:
+        - ["inteligente · tonto", "intelligent · dumb"]
+        - ["cariñoso · indiferente", "affectionate · indifferent"]
+        - ["bonito · feo", "pretty · ugly"]
+        - ["pequeño · grande", "small · large"]
+        - ["lento · rápido", "slow · fast"]
+        - ["listo", "bright, clever"]
+        - ["fiel", "faithful, loyal"]
+        - ["perezoso", "lazy"]
+        - ["hablador", "talkative"]
+        - ["furtivo", "sneaky"]
+        - ["egoísta", "selfish"]
+    - group: Más animales
+      words:
+        - ["el caballo", "horse"]
+        - ["el canario", "canary"]
+        - ["el hámster", "hamster"]
+        - ["el loro", "parrot"]
+        - ["el lagarto", "lizard"]
+        - ["la serpiente", "snake"]
+        - ["la tortuga", "turtle, tortoise"]
+        - ["el mercadillo de animales", "animal market"]
+    - group: Los estudios
+      words:
+        - ["la materia", "subject, course"]
+        - ["la escuela", "school"]
+        - ["el grado", "grade"]
+        - ["el bachillerato", "high-school diploma"]
+        - ["el semestre · el trimestre", "semester · quarter"]
+        - ["el campo", "field (of study)"]
+        - ["la residencia", "dorm"]
+        - ["el estudiante de primer año", "freshman"]
+        - ["las artes liberales", "liberal arts"]
+        - ["las letras · las humanidades", "liberal arts (other names)"]
+    - group: Otras
+      words:
+        - ["algo · nada", "something · nothing"]
+        - ["sobre", "about"]
+        - ["por la noche", "in the evening"]
+        - ["el mercado", "market"]
+        - ["la pastelería", "pastry shop"]
+        - ["el personaje", "character"]
+        - ["escrito por", "written by"]
+        - ["el fino", "sherry"]
+        - ["estar de acuerdo", "to agree"]
+        - ["visitar · entrar (en)", "to visit · to go in"]
+        - ["la iglesia", "church"]
+        - ["el jardín", "garden"]
+        - ["estrecho · estrecha", "narrow"]
+  course:
+    - ["el repaso", "review: words from earlier lessons"]
+    - ["el modelo", "model, example"]
+    - ["Vocabulario del tema", "topic vocabulary"]
+    - ["Verbos útiles", "useful verbs"]
+    - ["Más sobre…", "more about…"]
+
+cognates:
+  rule: "Most of the new subject names are cognates: swap the ending and you have the English word. The book itself asks you to find *business, foreign languages, accounting* and *chemistry* in the list. It also spells psychology two ways, *psicología* and *sicología*: both are correct."
+  patterns:
+    - ["-ía", "-y", "biología, filosofía, sociología", "biology, philosophy, sociology"]
+    - ["-ión", "-ion", "religión, comunicación", "religion, communication"]
+    - ["-ura", "-ure", "literatura, arquitectura", "literature, architecture"]
+  harder:
+    - ["el comercio", "business", "think *commerce*"]
+    - ["la contabilidad", "accounting", "think *count*"]
+    - ["la química", "chemistry", "think *chemical*"]
+    - ["la lengua extranjera", "foreign language", "think *linguist*, *stranger*"]
+  false_friends:
+    - ["el colegio", "school", "college", "la universidad"]
+
+phrases:
+  - ["Yo tomo ___, ___ y ___.", "I'm taking ___, ___ and ___."]
+  - ["Mi amiga toma ___.", "My friend is taking ___."]
+  - ["¿Cuál es su materia favorita?", "What's his / her favourite subject?"]
+  - ["Donde yo vivo, los chicos estudian ___.", "Where I live, children study ___."]
+  - ["No sabe todavía cuál es su campo.", "He / she doesn't know yet what his / her field is."]
+  - ["Tengo un perro. Se llama ___.", "I have a dog. Its name is ___."]
+  - ["No tengo ningún animal.", "I don't have any animals."]
+  - ["En general, los perros son ___. Pero los gatos son ___.", "In general, dogs are ___. But cats are ___."]
+  - ["No está de acuerdo.", "He / she doesn't agree."]
+  - ["Desea hablar con Raquel por teléfono.", "She wants to speak to Raquel on the phone."]
+  - ["Ya hablé con ella.", "I've already spoken to her."]
+
+culture:
+  - title: "El colegio"
+    body: "In Spain a *colegio* is a grade school or high school, not a college. Many, like the Colegio de San Francisco de Paula in the episode, are linked to a religious order, and *religión* is a school subject. A subject is *la asignatura* in Spain; *la materia* is used all over the Spanish-speaking world."
+  - title: "University in Hispanic countries"
+    body: "After the **bachillerato** (the high-school diploma), students choose their major as soon as they enter university and follow a set programme with few electives. Courses usually last a full year and end with a compulsory exam."
+  - title: "Pets"
+    body: "In the US pets are often treated like members of the family. Some Hispanics find that unusual, because in many Hispanic settings animals are given less importance."
+  - title: "Sevilla"
+    body: "In this city of Andalucía, Jewish, Arab and Christian cultures lived side by side for centuries, and all three still show. It is famous for its **Semana Santa** (Holy Week): brotherhoods (*cofradías*) carry huge floats (*pasos*) with scenes from the life of Christ through the streets."
