@@ -3,6 +3,7 @@
 """Build the Destinos notebook from episodes/ep*.yaml.
 
     python3 destinos/build/build_destinos.py [out.pdf]
+    python3 destinos/build/build_destinos.py --episodes 3 [out.pdf]
 
 One YAML file per episode holds the content; this script only lays it out, so
 adding episode 7 never means touching the layout, and fixing the layout never
@@ -313,20 +314,38 @@ def episode(ep):
     return "".join(o)
 
 
-def build(out=OUT):
+def build(out=OUT, only=None):
+    """The whole notebook, or with `only` a set of episode numbers: just those
+    episodes, without the cover and index, as a sheet of their own."""
+    paths = sorted(glob.glob(os.path.join(EPISODES, "ep*.yaml")))
+    if only:
+        paths = [p for p in paths
+                 if int(re.search(r"ep(\d+)", os.path.basename(p)).group(1)) in only]
     eps = []
-    for path in sorted(glob.glob(os.path.join(EPISODES, "ep*.yaml"))):
+    for path in paths:
         with open(path, encoding="utf-8") as f:
             eps.append(yaml.safe_load(f))
     eps.sort(key=lambda e: int(e["episode"]))
     with open(os.path.join(HERE, "destinos.css"), encoding="utf-8") as f:
         css = f.read()
-    body = cover(eps[0]["episode"], 52) + index(eps) + "".join(episode(e) for e in eps)
+    front = "" if only else cover(eps[0]["episode"], 52) + index(eps)
+    body = front + "".join(episode(e) for e in eps)
+    title = ("Destinos · " + " · ".join(f'Episodio {e["episode"]}' for e in eps)) if only else "Destinos · Cuaderno"
     doc = (f'<!doctype html><html lang="es"><head><meta charset="utf-8">'
-           f'<title>Destinos · Cuaderno</title><style>{css}</style></head><body>{body}</body></html>')
+           f'<title>{esc(title)}</title><style>{css}</style></head><body>{body}</body></html>')
     HTML(string=doc, base_url=ROOT).write_pdf(out)
     return out
 
 
 if __name__ == "__main__":
-    print(build(sys.argv[1] if len(sys.argv) > 1 else OUT))
+    # build_destinos.py [out.pdf]                    the whole notebook
+    # build_destinos.py --episodes 3 [out.pdf]       one episode on its own
+    # build_destinos.py --episodes 3,4 [out.pdf]     several
+    args, only = sys.argv[1:], None
+    if args[:1] == ["--episodes"]:
+        only = {int(x) for x in args[1].split(",")}
+        args = args[2:]
+        default = os.path.join(ROOT, "Destinos_Ep" + "-".join(f"{n:02d}" for n in sorted(only)) + ".pdf")
+    else:
+        default = OUT
+    print(build(args[0] if args else default, only))
