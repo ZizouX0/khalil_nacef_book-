@@ -219,7 +219,9 @@ def episode(ep):
     if ep.get("greetings"):
         rows = "".join(f'<tr><td class="es">{md(a)}</td><td class="en">{md(b)}</td><td class="when">{md(c)}</td></tr>'
                        for a, b, c in ep["greetings"])
-        o.append(sec("Saludos", "Greetings", f'<table class="greet">{rows}</table>', "keep"))
+        # the same table serves greetings, good-byes and thanks; the heading follows suit
+        gt_es, gt_en = ep.get("greetings_title", ["Saludos", "Greetings"])
+        o.append(sec(gt_es, gt_en, f'<table class="greet">{rows}</table>', "keep"))
 
     verbs = verbs_section(ep)
     if verbs and ep["verbs"].get("table"):
@@ -280,7 +282,7 @@ def episode(ep):
                                for a, b, c2, d in c["false_friends"])
                      + '</table>')
         if c.get("harder"):
-            body += ('<div class="lbl sub">Harder to spot, still guessable</div><table class="pairs">'
+            body += ('<div class="lbl sub">Harder to spot, still guessable</div><table class="pairs harder">'
                      + "".join(f'<tr><td class="es">{with_articles(a)}</td><td><b>{esc(b)}</b></td>'
                                f'<td class="en">{md(h)}</td></tr>' for a, b, h in c["harder"])
                      + '</table>')

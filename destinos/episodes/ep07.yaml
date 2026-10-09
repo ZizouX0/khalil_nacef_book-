@@ -266,14 +266,14 @@ vocab:
 cognates:
   rule: "No ¡Aumenta tu vocabulario! this time, but the book's trick still works: if **dejar** = to leave, *dejar un mensaje* = to leave a **message**. The new verbs have English relatives too: link them and they stick."
   harder:
-    - ["los pantalones", "trousers\u00a0\u00a0\u00a0", "*pants* is short for *pantaloons*"]
-    - ["el botones", "bellhop\u00a0\u00a0\u00a0", "named after the buttons on the uniform"]
-    - ["conocer", "to\u00a0know\u00a0\u00a0\u00a0", "think *recognise*"]
-    - ["traer", "to\u00a0bring\u00a0\u00a0\u00a0", "think *tractor*, *attract*"]
-    - ["decir", "to\u00a0say\u00a0\u00a0\u00a0", "think *dictate*"]
-    - ["oír", "to\u00a0hear\u00a0\u00a0\u00a0", "think *audio*"]
-    - ["dar", "to\u00a0give\u00a0\u00a0\u00a0", "think *data*: things given"]
-    - ["hacer", "to\u00a0make\u00a0\u00a0\u00a0", "think *factory*: Latin *f* often became *h*"]
+    - ["los pantalones", "trousers", "*pants* is short for *pantaloons*"]
+    - ["el botones", "bellhop", "named after the buttons on the uniform"]
+    - ["conocer", "to know", "think *recognise*"]
+    - ["traer", "to bring", "think *tractor*, *attract*"]
+    - ["decir", "to say", "think *dictate*"]
+    - ["oír", "to hear", "think *audio*"]
+    - ["dar", "to give", "think *data*: things given"]
+    - ["hacer", "to make", "think *factory*: Latin *f* often became *h*"]
   false_friends:
     - ["la ropa", "clothes", "rope", "la cuerda"]
     - ["actual", "current", "actual", "real, verdadero"]

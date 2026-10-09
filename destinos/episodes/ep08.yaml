@@ -1,0 +1,294 @@
+# Episodio 8 · El encuentro
+# Sources: Textbook Lección 8 (pp. 82–93) and Workbook/Study Guide Lección 8 (pp. 71–81).
+# Words in vocab.core are the two books' own Vocabulario lists, merged under their own headings.
+# The verb card is querer; the three stem-change groups (workbook Gramática 21), the se verbs
+# (Gramática 22) and asking questions (Gramática 20) are grammar points with tables.
+# Thanks (Conversaciones: Los agradecimientos) use the greetings table, headed "Gracias". Neither book has ¡Aumenta tu
+# vocabulario! for this lesson: the false friends and the "boot" hook are added.
+
+episode: 8
+title: El encuentro
+title_en: The encounter
+pages: "Textbook pp. 82–93 · Workbook pp. 71–81"
+
+essentials:
+  - "**Stem-changing verbs**: when the stem is stressed, its vowel changes. **e** becomes **ie**: *quiere, empieza, piensa*. **e** becomes **i**: *pide, sigue*. **o** becomes **ue**: *puede, encuentra, vuelve*. *Nosotros* and *vosotros* keep the infinitive's vowel: *queremos, podemos*."
+  - "**Verbs with se**: *se llama, se sienta, se siente*, *se casa* **con**, *se acuerda* **de**, *se olvida* **de**. **No** goes before *se*: *no se olvida*. And *se va* = goes away, *se fue* = went away."
+  - "**Asking questions**: the little word goes first: *¿adónde?, ¿de dónde?, ¿a quién?, ¿de quién?* (whose?), *¿para quién?* With no question word, let your voice rise at the end, and forget *do / does*: *¿Sabes la dirección?*"
+  - "**Thanks**: *(Muchas) gracias* · **Gracias por** + what for: *Gracias por su carta*. The answer: *De nada* or *No hay de qué*."
+
+greetings_title: ["Gracias", "Saying thanks"]
+greetings:
+  - ["(Muchas) gracias.", "(Many) thanks.", "To thank anyone."]
+  - ["Gracias por ___.", "Thanks for ___.", "Say what for with **por**: *Gracias por su carta, su invitación a cenar, su amabilidad* to someone you call *usted*; *tu carta* to a friend."]
+  - ["De nada.", "You're welcome.", "The usual answer to *gracias*."]
+  - ["No hay de qué.", "Don't mention it.", "Another answer; the textbook marks it as more formal."]
+
+verbs:
+  table:
+    verb: querer
+    meaning: to want; to love
+    forms:
+      - ["qu**ie**ro", "I want"]
+      - ["qu**ie**res", "you want"]
+      - ["qu**ie**re", "he, she wants · you want"]
+      - ["queremos", "we want"]
+      - ["queréis", "you want"]
+      - ["qu**ie**ren", "they want · you want"]
+    hook: "Shade the four **ie** forms (the whole singular and *quieren*): they draw a boot. Only a stressed stem changes: *quiero* has the stress on the stem, *queremos* and *queréis* on the ending. Every stem-changing verb makes the same boot."
+  notes:
+    - label: Two meanings
+      text: "**querer** + a thing or an infinitive = to want, like *desear*: *Fernando quiere tener noticias de Rosario*. **querer a** + a person = to love: *Teresa quiere a sus hijos*."
+  met:
+    - ["se casó con", "casarse", "he / she married"]
+    - ["murió", "morir", "he / she died"]
+    - ["nació · naciste", "nacer", "he / she was born · you were born"]
+    - ["tuvo", "tener", "he / she had"]
+    - ["me pidió", "pedir", "he / she asked me (to)"]
+    - ["no se preocupe", "preocuparse", "don't worry (to *usted*)"]
+
+grammar:
+  - title: "Stem-changing verbs: quiere, pide, puede"
+    rule: "The last vowel of the stem changes whenever it is stressed, in three groups. Below are the *he, she* forms; for *they*, add **-n**: *quieren, piden, pueden*. Word lists flag the change: **empezar (ie), pedir (i), poder (ue)**."
+    table:
+      head: ["", "infinitive", "he, she", "infinitive", "he, she"]
+      rows:
+        - ["e becomes ie", "empezar", "emp**ie**za", "pensar", "p**ie**nsa"]
+        - ["", "perder", "p**ie**rde", "querer", "qu**ie**re"]
+        - ["e becomes i", "pedir", "p**i**de", "seguir", "s**i**gue"]
+        - ["o becomes ue", "contar", "c**ue**nta", "encontrar", "enc**ue**ntra"]
+        - ["", "morir", "m**ue**re", "poder", "p**ue**de"]
+        - ["", "recordar", "rec**ue**rda", "volver", "v**ue**lve"]
+    examples:
+      - ["Raquel sigue con la investigación.", "Raquel carries on with the investigation."]
+    trap: "*Nosotros* and *vosotros* never change: emp**e**zamos, p**e**dimos, p**o**demos. Episode 7's *tener, venir, decir* change the same way: t**ie**ne, v**ie**ne, d**i**ce."
+
+  - title: "Verbs with se: se llama, se sienta"
+    rule: "Some verbs always come with a pronoun that matches the subject: **me** llamo, **te** llamas, **se** llama, **nos** llamamos, **os** llamáis, **se** llaman. A word list shows it as **-se** on the infinitive. This lesson uses only **se**, for *he, she, they* and *usted, ustedes*. Three of these verbs need a little word before a person or thing, where English has none: **con** or **de**."
+    table:
+      head: ["", "Spanish", "English"]
+      rows:
+        - ["casarse (con)", "Se casó **con** Rosario.", "He married Rosario."]
+        - ["acordarse (ue) (de)", "Se acuerda **de** Rosario.", "She remembers Rosario."]
+        - ["olvidarse (de)", "No se olvida **de** Rosario.", "He doesn't forget Rosario."]
+        - ["llamarse", "Su hijo se llama Ángel.", "Her son is called Ángel."]
+        - ["sentarse (ie)", "Se sientan para hablar.", "They sit down to talk."]
+        - ["sentirse (ie)", "No se siente bien.", "He doesn't feel well."]
+        - ["irse", "Se va a la Argentina.", "She goes away to Argentina."]
+    trap: "**no** goes before *se* (*no se olvida*), and after another verb *se* is joined to the infinitive: *No quiere olvidarse de Rosario*. **me siento** is both *I sit down* (sentarse) and *I feel* (sentirse). And *se* can shift a meaning: *va* = goes · **se va** = goes away, *fue* = went · **se fue** = went away."
+
+  - title: "Question words with a, de, para"
+    rule: "Question words carry an accent and the question opens with **¿** (Episode 6). A little word like *a, de, para* goes **in front of** the question word. **¿quién?** and **¿cuál?** add **-es** for more than one; **¿cuánto?** agrees with its noun."
+    table:
+      head: ["", "Spanish", "English"]
+      rows:
+        - ["¿adónde?", "¿**Adónde** va Raquel ahora?", "Where is Raquel going now?"]
+        - ["¿de dónde?", "¿**De dónde** es Raquel?", "Where is Raquel from?"]
+        - ["¿a quién?", "¿**A quién** habla Raquel?", "Who is Raquel talking to?"]
+        - ["¿de quién?", "¿**De quién** es la cartera?", "Whose is the wallet?"]
+        - ["", "¿**De quién** hablan?", "Who are they talking about?"]
+        - ["¿para quién?", "¿**Para quién** es el mensaje?", "Who is the message for?"]
+    examples:
+      - ["¿Quiénes son Miguel y Jaime?", "Who are Miguel and Jaime?"]
+      - ["¿Cuántas maletas tiene Raquel?", "How many suitcases does Raquel have?"]
+    trap: "English ends with the little word, Spanish starts with it: *Who is it for?* = **¿Para quién es?**, never ~~¿Quién es para?~~"
+
+  - title: "¿Qué?, ¿cuál? or ¿cómo?"
+    rule: "Episode 6 gave the main rule (*What is your…?* is **¿Cuál es…?**). The full picture:"
+    table:
+      head: ["", "Spanish", "English"]
+      rows:
+        - ["qué · a definition", "¿**Qué** es un certificado?", "What is a certificate?"]
+        - ["qué · an explanation", "¿**Qué** necesitas?", "What do you need?"]
+        - ["qué + noun", "¿**Qué** tren vas a tomar?", "Which train are you going to take?"]
+        - ["cuál · the rest", "¿**Cuál** es tu número de teléfono?", "What is your phone number?"]
+        - ["cómo · pardon?", "¿**Cómo**? No comprendo.", "What? I don't understand."]
+    trap: "Think of **¿cuál?** as *which one?*: out of all the numbers, which is yours? To ask someone to repeat, say **¿Cómo?**"
+
+  - title: "Questions without a question word"
+    rule: "Spanish has no *do · does*. To turn a statement into a yes/no question, let your voice rise at the end, or put the verb before the subject. In writing, the **¿** shows where the question starts."
+    examples:
+      - ["Teresa Suárez conoce a Rosario.", "Teresa Suárez knows Rosario."]
+      - ["¿Teresa Suárez conoce a Rosario?", "Does Teresa Suárez know Rosario? (the voice rises)"]
+      - ["¿Conoce Teresa Suárez a Rosario?", "The same question, verb first."]
+      - ["¿Sabes la dirección?", "Do you know the address?"]
+    trap: "Word order is free, so when you listen, the rise at the end is often the only sign of a question. A question with a question word **falls** instead (see Pronunciación)."
+
+rules:
+  - ["**pensar** + inf. = to plan to, intend to", "Raquel piensa ir a la Argentina."]
+  - ["**pensar en** = to think about · **pensar que** = to think that", "Don Fernando piensa mucho en Rosario. Piensa que murió en Guernica."]
+  - ["**empezar a** + inf. = to begin to", "La Sra. Suárez empieza a contar la historia."]
+  - ["**recordar** = **acordarse de** = to remember: both change o to ue", "Recuerda con nostalgia otra época de su vida. · Se acuerda de Rosario."]
+  - ["**pedir** = to ask for (something) · **hacer preguntas** = to ask questions", "Raquel le pide a Teresa la dirección de Rosario. · Hace varias preguntas."]
+  - ["**¿cuánto?** agrees with its noun · **¿cuánto tiempo?** = how long?", "¿Cuántos hijos? · ¿Cuántas maletas? · ¿Cuánto tiempo vas a estar aquí?"]
+  - ["**ninguno · ninguna** after **no** = any", "No pierde ninguna oportunidad."]
+  - ["**hace** + time = … ago", "la persona con quien se casó hace muchos años"]
+
+vocab:
+  core:
+    - group: Los verbos
+      words:
+        - ["acordarse (ue) (de)", "to remember"]
+        - ["casarse (con) · se casó con", "to marry · he / she married"]
+        - ["contar (ue) · cuenta", "to tell · he / she tells"]
+        - ["empezar (ie)", "to begin"]
+        - ["encontrar (ue)", "to find"]
+        - ["llamarse", "to be called, named"]
+        - ["morir (ue)", "to die"]
+        - ["olvidarse (de)", "to forget"]
+        - ["pedir (i)", "to ask for"]
+        - ["pensar (ie)", "to think"]
+        - ["perder (ie)", "to lose"]
+        - ["poder (ue)", "to be able (to), can"]
+        - ["querer (ie) · quiere", "to wish, want; to love · he / she wants"]
+        - ["recordar (ue)", "to remember"]
+        - ["seguir (i)", "to follow; to continue"]
+        - ["sentarse (ie)", "to sit down"]
+        - ["sentirse (ie)", "to feel"]
+        - ["volver (ue)", "to return"]
+        - ["se fue", "he / she went away"]
+    - group: Las personas
+      words:
+        - ["nadie", "no one"]
+    - group: Los conceptos
+      words:
+        - ["la dirección", "address"]
+        - ["el encuentro", "meeting"]
+        - ["la guerra", "war"]
+        - ["la vida", "life"]
+    - group: Las palabras interrogativas
+      words:
+        - ["¿cuándo?", "when?"]
+        - ["¿cuánto? · ¿cuánta?", "how much?"]
+        - ["¿cuántos? · ¿cuántas?", "how many?"]
+        - ["¿adónde?", "where (to)?"]
+        - ["¿de dónde?", "where from?"]
+        - ["¿cómo? · ¿dónde? (repaso)", "how? · where?"]
+        - ["¿cuál? · ¿cuáles? (repaso)", "which? what?"]
+        - ["¿qué? · ¿por qué? (repaso)", "what? · why?"]
+        - ["¿quién? · ¿quiénes? (repaso)", "who?"]
+    - group: Los adjetivos
+      words:
+        - ["segundo · segunda", "second"]
+    - group: Los agradecimientos
+      words:
+        - ["(Muchas) gracias.", "(Many) thanks."]
+        - ["De nada.", "You're welcome."]
+        - ["No hay de qué.", "You're welcome. (formal)"]
+    - group: Las palabras adicionales
+      words:
+        - ["allí", "there"]
+        - ["de nuevo", "again"]
+        - ["hacer preguntas", "to ask questions"]
+        - ["empezar a (+ inf.)", "to begin to (do something)"]
+        - ["pensar (+ inf.)", "to intend to (do something)"]
+        - ["pensar en", "to think about"]
+        - ["pensar que", "to think that"]
+  extra:
+    - group: Gracias y cortesía
+      words:
+        - ["agradecido · agradecida", "grateful"]
+        - ["amable · la amabilidad", "kind · kindness"]
+        - ["invitar (a)", "to invite (to)"]
+        - ["tomar algo", "to have a drink"]
+        - ["la molestia", "bother, nuisance"]
+    - group: La familia y la vida
+      words:
+        - ["el pariente · la pariente", "relative"]
+        - ["el vecino · la vecina", "neighbour"]
+        - ["nacer", "to be born"]
+        - ["embarazada", "pregnant"]
+        - ["el cumpleaños", "birthday"]
+        - ["la fecha", "date"]
+    - group: Cosas
+      words:
+        - ["el periódico", "newspaper"]
+        - ["las noticias", "news"]
+        - ["la cita", "appointment"]
+    - group: Verbos útiles
+      words:
+        - ["regresar", "to return, go back"]
+        - ["conseguir (i)", "to get, obtain"]
+        - ["preocuparse", "to worry"]
+        - ["irse", "to go away, leave"]
+        - ["meterse (en)", "to meddle (in)"]
+    - group: Para describir
+      words:
+        - ["cercano · cercana", "close (friend)"]
+        - ["corriente", "common, ordinary"]
+        - ["entrometido · entrometida", "nosey"]
+        - ["aburrido · aburrida", "boring"]
+        - ["seguro · segura", "sure"]
+        - ["antiguo · antigua", "old, ancient"]
+    - group: El paisaje
+      words:
+        - ["la montaña · la playa", "mountain · beach"]
+        - ["la granja", "farm"]
+        - ["el molino de viento", "windmill"]
+    - group: Otras
+      words:
+        - ["cerca de · al lado de", "close to · next to"]
+        - ["tampoco", "neither, not either"]
+        - ["dos veces", "twice"]
+        - ["todos los días", "every day"]
+        - ["los demás", "the others"]
+  course:
+    - ["¿Quién lo hizo?", "who did it?"]
+    - ["¿Quién lo va a hacer?", "who is going to do it?"]
+    - ["¿Qué más sabes ahora?", "what more do you know now?"]
+    - ["¿Qué oyes?", "what do you hear?"]
+    - ["Una entrevista", "an interview"]
+    - ["Datos personales", "personal information"]
+    - ["Una cuestión de lógica", "a matter of logic"]
+    - ["¿A quién conoces que…?", "who do you know who…?"]
+    - ["la respuesta correcta", "the right answer"]
+
+cognates:
+  rule: "Neither book has a cognate section in this lesson, but its texts hide three classic traps for English speakers, and a few words you can work out from ones you know."
+  false_friends:
+    - ["embarazada", "pregnant", "embarrassed", "avergonzada"]
+    - ["el pariente", "relative", "parent", "el padre · la madre"]
+    - ["molestar", "to bother", "to molest", "abusar de"]
+  harder:
+    - ["el nacimiento", "birth", "*nacer* = to be born: think *natal*"]
+    - ["agradecido", "grateful", "think *gracias*"]
+    - ["la amabilidad", "kindness", "*amable* = kind: think *amiable*"]
+    - ["desesperadamente", "desperately", "-mente = -ly (Episode 3)"]
+
+sounds:
+  - title: "b and v: one sound"
+    body: "In most of the Spanish-speaking world **b** and **v** sound exactly the same, so *Barcelona* and *Valencia* start alike. Never use the English *v*, with the teeth on the lip."
+  - title: "Hard b: at the start, or after m, n"
+    body: "At the start of a phrase, or after m or n, the lips close, as in English *b*: **b**arrio, **v**iajar, **V**alencia, hom**b**re, miem**b**ro, Alham**b**ra, in**v**estigar."
+  - title: "Soft b: everywhere else"
+    body: "The lips almost touch and let air through; English has no such sound: ha**b**lar, tra**b**ajar, toda**v**ía, sá**b**ado, ha**b**itación, re**v**ela, Se**v**illa."
+  - title: "One word, two sounds"
+    body: "What comes before decides: **b**ueno · es **b**ueno, **v**iaje · el **v**iaje, **v**a · se **v**a, **b**ien · muy **b**ien, en **V**enezuela · de **V**enezuela. The first of each pair is hard, the second soft."
+  - title: "Questions: falling or rising"
+    body: "With a question word, the voice **falls** at the end: *¿Dónde vive Rosario?* With no question word, it **rises**: *¿Sabes la dirección?*"
+
+phrases:
+  - ["¿Es Ud. pariente de Fernando?", "Are you a relative of Fernando's?"]
+  - ["Conozco bien a Pedro, el hermano de don Fernando.", "I know Pedro, don Fernando's brother, well."]
+  - ["Eso era casi imposible cuando yo tenía su edad.", "That was almost impossible when I was your age."]
+  - ["Mi madre está muy agradecida y quiere invitarla a cenar.", "My mother is very grateful and wants to invite you to dinner."]
+  - ["No quiere ser una molestia.", "She doesn't want to be a bother."]
+  - ["¿Cuándo naciste? · ¿Dónde naciste?", "When were you born? · Where were you born?"]
+  - ["¿Cuánto tiempo vas a estar aquí?", "How long are you going to be here?"]
+  - ["¿Cuántas lenguas hablas? · ¿Por qué estudias español?", "How many languages do you speak? · Why are you studying Spanish?"]
+  - ["Siempre se olvida de su cartera.", "He / she always forgets his / her wallet."]
+
+culture:
+  - title: "Nos podemos tutear"
+    body: "Raquel says *usted* to people she doesn't know well. When someone offers to **tutearse** or **tratarse de tú** (say *tú* to each other), switch to the *tú* forms: *trabaja* becomes *trabajas*. The welcome changes too: *Está en su casa* becomes **Estás en tu casa**, make yourself at home."
+  - title: "Las tapas"
+    body: "Small snacks: **las aceitunas** (olives), **la tortilla española** (potato omelette), **el jamón serrano** (cured ham), **los calamares fritos** (fried squid rings). A snack and a drink in the late afternoon is a popular Hispanic custom. Raise a *fino* with **¡Salud!** (To your health!). Bars have no bad image: children may go with their parents."
+  - title: "Las diferencias regionales"
+    body: "Spain has 17 *comunidades autónomas* (Episode 3), each with its own landscape and culture."
+    rows:
+      - ["Cataluña", "prosperous, industrial; *catalán*; Barcelona, Spain's second city"]
+      - ["las dos Castillas", "the centre: La Mancha's windmills, Salamanca, Segovia's aqueduct"]
+      - ["Andalucía", "the south: home of Picasso, Velázquez, Falla and García Lorca"]
+      - ["el País Vasco", "industrial and rich; a language of unknown origin"]
+      - ["Extremadura", "home of the explorers Cortés, Pizarro and Balboa"]
+      - ["Asturias · Canarias", "*la Suiza española* · the Hawaii of the Atlantic, with el Teide"]
