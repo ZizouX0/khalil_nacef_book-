@@ -1,0 +1,168 @@
+# Episode 1 — written before the textbook pages arrived.
+# Check vocabulary and grammar against Lección 1 when the books are in.
+
+episode: 1
+title: La carta
+title_en: The letter
+setting: La Gavia, México
+stop: mexico
+
+before:
+  - "The title is *La carta*. A letter arrives at a family's house. Who might send a letter that changes everything?"
+  - "Old secrets: what kind of secret could a man keep for fifty years?"
+  - "Listen for one word every time it comes back: **carta**. Count how many times you hear it."
+
+story:
+  - es: "Raquel Rodríguez es abogada. Vive y trabaja en Los Ángeles."
+    en: "Raquel Rodríguez is a lawyer. She lives and works in Los Angeles."
+  - es: "Don Fernando Castillo es un señor muy viejo y está enfermo. Vive en La Gavia, una hacienda en México."
+    en: "Don Fernando Castillo is a very old man and he is ill. He lives at La Gavia, an estate in Mexico."
+  - es: "Una señora de España, Teresa Suárez, le escribe una carta."
+    en: "A woman from Spain, Teresa Suárez, writes him a letter."
+  - es: "La carta habla de Rosario, la primera esposa de don Fernando. Él cree que Rosario murió en la Guerra Civil española."
+    en: "The letter talks about Rosario, don Fernando's first wife. He believes Rosario died in the Spanish Civil War."
+  - es: "Don Fernando quiere saber la verdad. Raquel va a investigar el caso, y su viaje empieza en Sevilla."
+    en: "Don Fernando wants to know the truth. Raquel is going to investigate the case, and her journey starts in Seville."
+
+# who's who: drawn as a family tree, see assets/trees/
+tree: ep01.svg
+cast:
+  - ["Raquel Rodríguez", "abogada, de Los Ángeles", "the lawyer who tells the story"]
+  - ["Teresa Suárez", "una señora de Sevilla, España", "writes the letter"]
+
+vocab:
+  - group: La familia
+    words:
+      - ["el padre", "father"]
+      - ["la madre", "mother"]
+      - ["el hijo · la hija", "son · daughter"]
+      - ["los hijos", "children (sons and daughters)"]
+      - ["el hermano · la hermana", "brother · sister"]
+      - ["el nieto · la nieta", "grandson · granddaughter"]
+      - ["el esposo · la esposa", "husband · wife"]
+      - ["la familia", "family"]
+  - group: Personas
+    words:
+      - ["el abogado · la abogada", "lawyer"]
+      - ["el señor · la señora", "man · woman (polite)"]
+      - ["don · doña", "title of respect + first name"]
+  - group: El caso
+    words:
+      - ["la carta", "letter"]
+      - ["el secreto", "secret"]
+      - ["la verdad", "truth"]
+      - ["la guerra", "war"]
+      - ["el caso", "case"]
+      - ["el viaje", "journey; trip"]
+  - group: Describir
+    words:
+      - ["viejo · vieja", "old"]
+      - ["enfermo · enferma", "ill; sick"]
+      - ["primero · primera", "first"]
+      - ["muy", "very"]
+      - ["también", "also; too"]
+
+verbs:
+  table:
+    verb: ser
+    meaning: to be (who or what someone is)
+    forms: [soy, eres, es, somos, sois, son]
+    irregular: true
+  met:
+    - ["llamarse", "me llamo · se llama", "to be called"]
+    - ["vivir", "vive", "to live"]
+    - ["trabajar", "trabaja", "to work"]
+    - ["escribir", "escribe", "to write"]
+    - ["creer", "cree", "to believe"]
+    - ["querer", "quiere", "to want; e becomes ie"]
+    - ["saber", "no sé · sabe", "to know (a fact)"]
+    - ["ir a + verb", "va a investigar", "is going to …"]
+
+grammar:
+  - title: "Ser: saying who someone is"
+    rule: >-
+      Use **ser** to say who someone is, what they do and where they come from.
+      Spanish usually drops the subject: *Soy Raquel* is more natural than *Yo soy Raquel*,
+      because the ending already tells you who.
+      Did you notice *está enfermo*? For how someone **is right now** (ill, tired, happy),
+      Spanish switches to **estar**. That contrast comes back in later episodes.
+    examples:
+      - ["Raquel es abogada.", "Raquel is a lawyer."]
+      - ["Teresa Suárez es de España.", "Teresa Suárez is from Spain."]
+      - ["Ramón y Carlos son hermanos.", "Ramón and Carlos are brothers."]
+    trap: >-
+      No *un/una* before a job: **Raquel es abogada**, not ~~Raquel es una abogada~~.
+      The article comes back only when you add an adjective: *Es una abogada muy buena.*
+
+  - title: "El or la: every noun has a gender"
+    rule: >-
+      Learn every noun with its article. Most nouns in **-o** are masculine, most in **-a**
+      are feminine, but the article is what you can trust: *el viaje*, *la verdad*.
+      A masculine plural covers a mixed group, so *los hijos de don Fernando* includes his daughter Mercedes.
+    examples:
+      - ["el hijo · los hijos", "the son · the children"]
+      - ["la carta · las cartas", "the letter · the letters"]
+      - ["el abogado · la abogada", "the lawyer (man · woman)"]
+    trap: >-
+      *Los padres* means **parents**, not only fathers. *Mis padres* = my mother and my father.
+
+  - title: "Asking: ¿Quién? ¿Dónde? ¿De dónde?"
+    rule: >-
+      The narrator keeps asking you questions, and you can answer them out loud.
+      Question words carry an accent, and a question opens with **¿**.
+    examples:
+      - ["¿Quién es Rosario?", "Who is Rosario?"]
+      - ["¿Dónde vive don Fernando?", "Where does don Fernando live?"]
+      - ["¿De dónde es Teresa?", "Where is Teresa from?"]
+    trap: >-
+      No *'s* in Spanish. Possession goes with **de**: *la carta de Teresa*, *el hermano de don Fernando*.
+
+phrases:
+  - ["Me llamo Raquel.", "My name is Raquel."]
+  - ["¿Cómo se llama?", "What is his / her / your name?"]
+  - ["Es de Los Ángeles.", "She's from Los Angeles."]
+  - ["Vive en México.", "He lives in Mexico."]
+  - ["Es el hermano de don Fernando.", "He is don Fernando's brother."]
+  - ["¿Quién es?", "Who is it? / Who is he / she?"]
+  - ["No sé.", "I don't know."]
+  - ["Quiere saber la verdad.", "He wants to know the truth."]
+
+sound:
+  title: "R at the start of a word"
+  body: >-
+    An **r** at the start of a word is rolled, just like **rr**. Every name in this episode
+    is practice: **R**aquel, **R**odríguez, **R**osario, and *gue**rr**a*. Between vowels a single **r** is
+    one quick tap: *Te**r**esa*, *prime**r**a*. Say *pero* (but) and *perro* (dog) until they sound different.
+
+culture:
+  title: "Don, doña, and two surnames"
+  body: >-
+    *Don* and *doña* go before a **first name** to show respect to an older person: *don Fernando*, never
+    ~~don Castillo~~. And Spanish speakers carry two surnames, father's first and mother's second:
+    *Fernando **Castillo Saavedra***. After the Civil War (1936–1939), Mexico took in thousands of refugees from Spain.
+
+test:
+  - q: "¿Quién es Raquel Rodríguez?"
+    a: "Es abogada. Vive en Los Ángeles."
+  - q: "¿Dónde vive don Fernando?"
+    a: "En La Gavia, una hacienda en México."
+  - q: "¿Quién escribe la carta? ¿De dónde es?"
+    a: "Teresa Suárez. Es de España."
+  - q: "¿Quién es Rosario?"
+    a: "La primera esposa de don Fernando."
+  - q: "Fill in: Raquel ____ abogada. Ramón y Carlos ____ hermanos."
+    a: "es · son"
+  - q: "Correct the mistake: *Raquel es una abogada.*"
+    a: "Raquel es abogada."
+  - q: "*el* or *la*?  ___ carta · ___ secreto · ___ verdad · ___ viaje"
+    a: "la · el · la · el"
+  - q: "Translate: *Pedro is don Fernando's brother.*"
+    a: "Pedro es el hermano de don Fernando."
+  - q: "Write the question: ¿________ es Teresa?  —  Es de España."
+    a: "¿De dónde es Teresa?"
+  - q: "Does *los hijos de don Fernando* include Mercedes?"
+    a: "Yes. The masculine plural covers a mixed group."
+
+retell:
+  keywords: [don Fernando, viejo y enfermo, La Gavia, una carta, Teresa Suárez, Rosario, la Guerra Civil, Raquel, investigar, Sevilla]
+  lines: 9

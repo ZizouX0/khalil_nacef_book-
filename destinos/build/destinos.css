@@ -1,0 +1,209 @@
+/* Destinos · study notes
+   One serif for reading (Charis SIL), one condensed sans for labels (IBM Plex
+   Sans Condensed), one accent colour. Section names hang in a left column so
+   the text column stays at a comfortable reading width. */
+
+@font-face { font-family: "Charis"; font-weight: 400; font-style: normal;
+  src: url("assets/fonts/charis-sil-latin-400-normal.woff"); }
+@font-face { font-family: "Charis"; font-weight: 400; font-style: italic;
+  src: url("assets/fonts/charis-sil-latin-400-italic.woff"); }
+@font-face { font-family: "Charis"; font-weight: 700; font-style: normal;
+  src: url("assets/fonts/charis-sil-latin-700-normal.woff"); }
+@font-face { font-family: "Charis"; font-weight: 700; font-style: italic;
+  src: url("assets/fonts/charis-sil-latin-700-italic.woff"); }
+@font-face { font-family: "Plex"; font-weight: 400;
+  src: url("assets/fonts/ibm-plex-sans-condensed-latin-400-normal.woff"); }
+@font-face { font-family: "Plex"; font-weight: 500;
+  src: url("assets/fonts/ibm-plex-sans-condensed-latin-500-normal.woff"); }
+@font-face { font-family: "Plex"; font-weight: 600;
+  src: url("assets/fonts/ibm-plex-sans-condensed-latin-600-normal.woff"); }
+
+:root {
+  --ink:    #1d1b18;
+  --muted:  #6d665c;
+  --faint:  #9a9286;
+  --rule:   #cfc6b8;
+  --tint:   #f2ece2;
+  --accent: #a63d2a;
+  --side:   38mm;   /* the hanging column for section names */
+}
+
+@page {
+  size: A4;
+  margin: 21mm 19mm 22mm 19mm;
+  @top-left {
+    content: string(headl);
+    font: 500 7pt "Plex"; letter-spacing: .14em; text-transform: uppercase;
+    color: var(--faint); vertical-align: bottom; padding-bottom: 4mm;
+  }
+  @top-right {
+    content: string(headr);
+    font: 400 8.5pt "Charis"; font-style: italic;
+    color: var(--muted); vertical-align: bottom; padding-bottom: 4mm;
+  }
+  @bottom-right {
+    content: counter(page);
+    font: 500 8pt "Plex"; color: var(--muted); vertical-align: top; padding-top: 5mm;
+  }
+}
+@page cover { margin: 0; @bottom-right { content: none; } }
+
+html { font-family: "Charis"; font-size: 9.6pt; line-height: 1.45; color: var(--ink);
+       hyphens: manual; }
+body { margin: 0; }
+p { margin: 0 0 .55em; }
+b, strong { font-weight: 700; }
+em, i { font-style: italic; }
+s.wrong { text-decoration: line-through; text-decoration-color: var(--accent); color: var(--muted); }
+
+.lbl { font-family: "Plex"; font-weight: 500; font-size: 7pt; letter-spacing: .14em;
+       text-transform: uppercase; color: var(--accent); }
+.art { color: var(--faint); }
+.nw { white-space: nowrap; }
+
+.headmark { string-set: headl attr(data-l), headr attr(data-r); height: 0; }
+
+/* ---------------------------------------------------------------- cover */
+.cover { page: cover; height: 297mm; position: relative; background: var(--tint); }
+.cover .top { position: absolute; left: 24mm; top: 26mm; right: 24mm;
+              border-top: 1.2pt solid var(--ink); padding-top: 3mm;
+              display: flex; justify-content: space-between; }
+.cover .top span { font: 500 7.5pt "Plex"; letter-spacing: .16em; text-transform: uppercase; }
+.cover h1 { position: absolute; left: 22mm; top: 62mm; margin: 0;
+            font: 400 92pt/0.9 "Charis"; letter-spacing: -.02em; }
+.cover .sub { position: absolute; left: 24mm; top: 100mm; width: 112mm;
+              font: italic 400 15pt/1.35 "Charis"; color: var(--muted); }
+.cover .map { position: absolute; left: 24mm; right: 24mm; top: 150mm; }
+.cover .map svg { width: 162mm; height: auto; }
+.cover .owner { position: absolute; left: 24mm; right: 24mm; bottom: 30mm; }
+.cover .owner div { display: flex; align-items: flex-end; margin-top: 7mm; }
+.cover .owner .k { font: 500 7.5pt "Plex"; letter-spacing: .14em; text-transform: uppercase;
+                   width: 50mm; color: var(--muted); }
+.cover .owner .v { flex: 1; border-bottom: .6pt solid var(--ink); height: 6mm; }
+
+/* ---------------------------------------------------------------- sections */
+.sec { position: relative; margin: 0 0 7mm var(--side); }
+.sec > .sh { position: absolute; left: calc(-1 * var(--side)); top: .15em; width: calc(var(--side) - 7mm); }
+.sh .es { display: block; font: 600 7.4pt/1.3 "Plex"; letter-spacing: .13em;
+          text-transform: uppercase; color: var(--accent); }
+.sh .en { display: block; font: italic 400 8.6pt/1.3 "Charis"; color: var(--muted); margin-top: .5mm; }
+.keep { break-inside: avoid; }
+.newpage { break-before: page; }
+
+/* how-to page */
+.intro h2 { font: 400 26pt/1.1 "Charis"; margin: 0 0 6mm var(--side); }
+.intro .lede { margin-left: var(--side); font-size: 11pt; line-height: 1.5; max-width: 118mm; margin-bottom: 8mm; }
+table.plan { width: 100%; border-collapse: collapse; }
+table.plan td { padding: 2.2mm 0; border-top: .5pt solid var(--rule); vertical-align: top; }
+table.plan td.n { width: 8mm; font: 600 8pt "Plex"; color: var(--accent); padding-top: 2.6mm; }
+table.plan td.when { width: 22mm; font: 500 7pt "Plex"; letter-spacing: .1em; text-transform: uppercase;
+                     color: var(--muted); padding-top: 2.8mm; }
+table.plan b { font-weight: 700; }
+
+/* ---------------------------------------------------------------- opener */
+.opener { break-before: page; position: relative; margin-bottom: 8mm; padding-top: 2mm; }
+.opener .num { position: absolute; left: 0; top: 0; width: var(--side); }
+.opener .num .lbl { display: block; color: var(--muted); }
+.opener .num .n { display: block; font: 700 76pt/0.95 "Charis"; color: var(--accent); margin-top: 1mm; }
+.opener .num .w { display: block; font: italic 9pt "Charis"; color: var(--muted); margin-top: 1mm; }
+.opener .title { margin-left: var(--side); padding-top: 5.5mm; }
+.opener h1 { font: 400 38pt/1 "Charis"; margin: 0; letter-spacing: -.01em; }
+.opener .en { font: italic 13pt "Charis"; color: var(--muted); margin-top: 1.5mm; }
+.opener .where { margin-top: 4mm; font: 500 7.5pt "Plex"; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.opener .where b { color: var(--ink); font-weight: 600; }
+
+.route { margin: 9mm 0 9mm var(--side); }
+.route svg { width: 133mm; height: auto; display: block; }
+
+/* before you watch */
+ol.before { margin: 0; padding: 0; list-style: none; counter-reset: b; }
+ol.before li { counter-increment: b; position: relative; padding-left: 6mm; margin-bottom: 1.6mm; }
+ol.before li::before { content: counter(b); position: absolute; left: 0; top: .1em;
+                       font: 600 7.5pt "Plex"; color: var(--accent); }
+
+/* the story: Spanish and English side by side, sentence by sentence */
+table.story { width: 100%; border-collapse: collapse; }
+table.story td { vertical-align: top; padding: 1.3mm 0 1.3mm; }
+table.story td.es { width: 57%; padding-right: 5mm; font-size: 10.4pt; line-height: 1.42; }
+table.story td.en { font-style: italic; color: var(--muted); font-size: 8.7pt; line-height: 1.45;
+                    border-left: .5pt solid var(--rule); padding-left: 4mm; padding-top: 1.7mm; }
+
+/* who's who */
+.tree svg { width: 133mm; height: auto; display: block; margin: 1mm 0 3mm; }
+table.cast { border-collapse: collapse; width: 100%; }
+table.cast td { padding: 1mm 0; vertical-align: baseline; }
+table.cast td.who { width: 36mm; font-weight: 700; }
+table.cast td.en { font-style: italic; color: var(--muted); font-size: 8.7pt; }
+
+/* ---------------------------------------------------------------- words */
+.vocab { columns: 2; column-gap: 8mm; }
+.vgroup { break-inside: avoid; margin-bottom: 4.5mm; }
+.vgroup .lbl { display: block; color: var(--ink); border-bottom: .8pt solid var(--ink);
+               padding-bottom: 1mm; margin-bottom: 1mm; }
+table.words { width: 100%; border-collapse: collapse; }
+table.words td { padding: .9mm 0; border-bottom: .4pt solid var(--rule); vertical-align: baseline; }
+table.words td.es { width: 60%; padding-right: 2mm; }
+table.words td.en { font-style: italic; color: var(--muted); font-size: 8.6pt; }
+
+.verbs { display: flex; gap: 7mm; align-items: flex-start; }
+.conj { width: 46mm; flex: none; }
+.conj .head { font-size: 15pt; line-height: 1; }
+.conj .head .lbl { margin-left: 2mm; color: var(--muted); }
+.conj .mean { font-style: italic; color: var(--muted); font-size: 8.6pt; margin: 1mm 0 2mm; }
+table.cj { border-collapse: collapse; width: 100%; border-top: .8pt solid var(--ink); border-bottom: .8pt solid var(--ink); }
+table.cj td { padding: 1.1mm 0; }
+table.cj td.p { font: 400 7.4pt "Plex"; color: var(--muted); width: 26mm; }
+table.cj td.f { font-weight: 700; font-size: 10.4pt; }
+table.cj tr + tr td { border-top: .4pt solid var(--rule); }
+.met { flex: 1; }
+.met .lbl { display: block; color: var(--ink); border-bottom: .8pt solid var(--ink); padding-bottom: 1mm; margin-bottom: 1mm; }
+table.met { width: 100%; border-collapse: collapse; }
+table.met td { padding: .9mm 0; border-bottom: .4pt solid var(--rule); vertical-align: baseline; }
+table.met td.inf { width: 21mm; }
+table.met td.form { width: 32mm; font-weight: 700; white-space: nowrap; }
+table.met td.en { font-style: italic; color: var(--muted); font-size: 8.6pt; }
+
+/* grammar */
+.gpoint { break-inside: avoid; margin-bottom: 6mm; }
+.gpoint h3 { font: 700 11.5pt/1.25 "Charis"; margin: 0 0 1.5mm; }
+.gpoint h3 .k { font: 600 8pt "Plex"; color: var(--accent); margin-right: 2mm; }
+table.ex { border-collapse: collapse; margin: 1.5mm 0 2.5mm; width: 100%; }
+table.ex td { padding: .7mm 0; vertical-align: baseline; }
+table.ex td.es { width: 50%; padding-left: 4mm; font-size: 10.2pt; }
+table.ex td.en { font-style: italic; color: var(--muted); font-size: 8.6pt; }
+.trap { position: relative; padding-left: 20mm; }
+.trap .lbl { position: absolute; left: 0; top: .25em; }
+
+table.phr { width: 100%; border-collapse: collapse; }
+table.phr td { padding: 1.2mm 0; border-bottom: .4pt solid var(--rule); vertical-align: baseline; }
+table.phr td.es { width: 52%; font-size: 10.2pt; }
+table.phr td.en { font-style: italic; color: var(--muted); font-size: 8.6pt; }
+
+.pair { display: flex; gap: 8mm; }
+.pair > div { flex: 1; }
+.pair h4 { font: 700 10.2pt/1.25 "Charis"; margin: 0 0 1.2mm; }
+.pair .lbl { display: block; margin-bottom: 1.5mm; }
+
+/* ---------------------------------------------------------------- practice */
+ol.test { margin: 0; padding: 0; list-style: none; counter-reset: t; }
+ol.test li { counter-increment: t; position: relative; padding-left: 7mm; margin-bottom: 1.2mm; }
+ol.test li::before { content: counter(t); position: absolute; left: 0; top: .15em;
+                     font: 600 7.8pt "Plex"; color: var(--accent); }
+ol.test li .line { height: 6.2mm; border-bottom: .5pt dotted var(--faint); }
+
+.kw { background: var(--tint); padding: 2.5mm 3.5mm; margin-bottom: 2mm; font-size: 9.6pt; line-height: 1.6; }
+.kw span + span::before { content: "  ·  "; color: var(--faint); white-space: pre; }
+.lines .l { height: 7.4mm; border-bottom: .5pt solid var(--rule); }
+
+table.done { width: 100%; border-collapse: collapse; }
+table.done td { padding: 1.15mm 0; border-bottom: .4pt solid var(--rule); vertical-align: middle; }
+table.done td.box { width: 7mm; }
+table.done td.box span { display: inline-block; width: 3.2mm; height: 3.2mm; border: .7pt solid var(--ink); }
+table.done td.date { width: 24mm; font: 400 7pt "Plex"; color: var(--faint); text-align: right; letter-spacing: .08em; }
+
+/* answers: printed upside down so you don't read them by accident */
+.key { margin: 6mm 0 0 var(--side); transform: rotate(180deg); border-top: .5pt solid var(--rule);
+       padding-top: 2mm; font-size: 7.8pt; line-height: 1.5; color: var(--muted); break-inside: avoid; }
+.key .lbl { margin-right: 2mm; }
+.key b { color: var(--accent); font: 600 7pt "Plex"; margin-right: .8mm; }
+.key span.a { margin-right: 3.2mm; }
