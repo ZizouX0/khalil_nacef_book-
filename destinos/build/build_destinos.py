@@ -15,7 +15,6 @@ from weasyprint import HTML
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 EPISODES = os.path.join(ROOT, "episodes")
-TREES = os.path.join(ROOT, "assets", "trees")
 OUT = os.path.join(ROOT, "Destinos_Cuaderno.pdf")
 
 INK, MUTED, FAINT, RULE, ACCENT = "#1d1b18", "#6d665c", "#9a9286", "#cfc6b8", "#a63d2a"
@@ -157,7 +156,7 @@ def episode(ep):
     n = int(ep["episode"])
     head_r = f'Episodio {n} · {ep["title"]}'
     o = []
-    pages = f' <span class="pp">{esc(ep["pages"])}</span>' if ep.get("pages") else ""
+    pages = esc(ep.get("pages", ""))
 
     o.append(f'''
 <div class="opener" id="ep{n}">
@@ -166,7 +165,7 @@ def episode(ep):
   <div class="title">
     <h1>{esc(ep["title"])}</h1>
     <div class="en">{esc(ep["title_en"])}</div>
-    <div class="where">Where <b>{esc(ep["setting"])}</b>{pages}</div>
+    <div class="where">{pages}</div>
   </div>
 </div>
 <div class="headmark" data-l="Destinos · cuaderno" data-r="{esc(head_r)}"></div>''')
@@ -175,32 +174,6 @@ def episode(ep):
     if ep.get("essentials"):
         items = "".join(f'<li>{md(x)}</li>' for x in ep["essentials"])
         o.append(sec("Lo esencial", "In one minute", f'<ol class="ess">{items}</ol>', "keep"))
-
-    if ep.get("story"):
-        o.append(sec("La historia", "What happens",
-                     pairs([(s["es"], s["en"]) for s in ep["story"]], "story"), "keep"))
-
-    who = ""
-    if ep.get("tree"):
-        with open(os.path.join(TREES, ep["tree"]), encoding="utf-8") as f:
-            who += f'<div class="tree">{f.read()}</div>'
-    if ep.get("cast"):
-        who += '<table class="cast">' + "".join(
-            f'<tr><td class="who">{esc(a)}</td><td>{md(b)}</td><td class="en">{md(c)}</td></tr>'
-            for a, b, c in ep["cast"]) + '</table>'
-    if who:
-        o.append(sec("Quién es quién", "Who's who", who, "keep"))
-
-    if ep.get("place"):
-        p = ep["place"]
-        body = pairs(p["facts"], "facts")
-        if p.get("timeline"):
-            body += '<div class="timeline">' + "".join(
-                f'<div><span class="c">{esc(c)}</span><span class="es">{md(es)}</span>'
-                f'<span class="en">{md(en)}</span></div>' for c, es, en in p["timeline"]) + '</div>'
-        if p.get("note"):
-            body += f'<p class="aside">{md(p["note"])}</p>'
-        o.append(sec("El lugar", p["name"], body, "keep"))
 
     # the verb of the lesson, as a table to picture
     if ep.get("verbs"):

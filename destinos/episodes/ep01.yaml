@@ -5,51 +5,12 @@
 episode: 1
 title: La carta
 title_en: The letter
-setting: La Gavia, México
-stop: mexico
 pages: "Textbook pp. 4–10 · Workbook pp. 3–8"
 
 essentials:
   - "**Ser** means *to be*: soy, eres, es, somos, sois, son. Use it to say **who** someone is (*Raquel es abogada*) and **where they are from** (*Don Fernando es de España*)."
   - "**Cognates**: a Spanish word that looks like an English word usually means the same thing (*historia, importante, misterioso*). Watch for false friends: *librería* = bookstore, *colegio* = high school."
-  - "**The story**: Raquel, a lawyer in Los Angeles, takes a special case for don Fernando, the head of a family in Mexico. His letter from Spain hides a secret."
-  - "**How to watch**: follow the narrator and Raquel's summary at the end. Get the gist, guess from context, and skip the words you don't know."
-
-story:
-  - es: "Raquel Rodríguez es abogada. Es mexicoamericana y vive en Los Ángeles."
-    en: "Raquel Rodríguez is a lawyer. She is Mexican-American and lives in Los Angeles."
-  - es: "Don Fernando Castillo Saavedra es el patriarca de la familia Castillo. Es de España, pero vive en México, en La Gavia."
-    en: "Don Fernando Castillo Saavedra is the head of the Castillo family. He is from Spain, but he lives in Mexico, at La Gavia."
-  - es: "Don Fernando necesita un doctor. Es paciente de Julio, el médico."
-    en: "Don Fernando needs a doctor. He is the patient of Julio, the doctor."
-  - es: "Don Fernando tiene una carta muy importante. Es de una señora de Sevilla, España: Teresa Suárez."
-    en: "Don Fernando has a very important letter. It is from a woman in Seville, Spain: Teresa Suárez."
-  - es: "En la carta hay un secreto. Es sobre Rosario, la primera esposa de don Fernando, una persona muy misteriosa."
-    en: "There is a secret in the letter. It is about Rosario, don Fernando's first wife, a very mysterious person."
-  - es: "Don Fernando es el cliente de Raquel en un caso especial."
-    en: "Don Fernando is Raquel's client in a special case."
-
-tree: ep01.svg
-cast:
-  - ["Raquel Rodríguez", "abogada, mexicoamericana, de Los Ángeles", "tells the story; don Fernando is her client"]
-  - ["Julio", "el médico de don Fernando", "the doctor"]
-  - ["Teresa Suárez", "una señora de Sevilla, España", "writes the letter"]
-
-place:
-  name: La Gavia
-  facts:
-    - ["Es una hacienda de la época colonial.", "A colonial-era estate."]
-    - ["Está al suroeste de la Ciudad de México, cerca de Toluca.", "Southwest of Mexico City, near Toluca."]
-    - ["Es la residencia principal de don Fernando.", "Don Fernando's main home."]
-    - ["Don Fernando compró La Gavia en ruinas, para restaurarla.", "He bought it in ruins, to restore it."]
-    - ["Tiene una entrada majestuosa, una capilla muy bonita, un patio muy agradable y una biblioteca impresionante.", "A grand entrance, a pretty chapel, a pleasant courtyard and an impressive library."]
-  timeline:
-    - ["XVI", "construcción", "built"]
-    - ["XVII", "gran esplendor", "its golden age"]
-    - ["XVIII", "los jesuitas", "the Jesuits move in"]
-    - ["XIX", "la Independencia", "a centre of the independence movement"]
-    - ["XX", "la Revolución de 1910", "partly destroyed"]
-  note: "*Siglo* means **century**, and Spanish writes centuries in Roman numerals: *el siglo XVI* = the 16th century."
+  - "**Small words, big rules**: *hay* = there is / there are, *un / una* = a / an, and no *un / una* before a job: *Raquel es abogada*."
 
 verbs:
   table:
@@ -140,7 +101,7 @@ vocab:
         - ["el miembro", "member"]
         - ["el estudiante", "student"]
         - ["la persona", "person"]
-    - group: En La Gavia
+    - group: Lugares
       words:
         - ["la capilla", "chapel"]
         - ["la biblioteca", "library"]
@@ -228,3 +189,5 @@ culture:
     body: "*Fernando **Castillo Saavedra***: Hispanic names have two family names. Lección 3 explains how they work."
   - title: "The envelope"
     body: "**Sra.** = señora · **Calle** = street · **México, D.F.** = Mexico City (*Distrito Federal*) · **Por avión** = air mail."
+  - title: "Centuries in Roman numerals"
+    body: "*El siglo XVI* = the 16th century. Spanish writes centuries in Roman numerals and reads them as numbers: *el siglo dieciséis*."
