@@ -1,0 +1,301 @@
+# Episodio 3 · El comienzo
+# Sources: Textbook Lección 3 (pp. 28–37) and Workbook/Study Guide Lección 3 (pp. 19–31).
+# Words in vocab.core are the two books' own Vocabulario lists (verbs given as infinitives).
+# The numbers 0–21 (Vocabulario del tema) and the forms of estar are grammar points with tables.
+# "Spanish in Spain" (a workbook Nota cultural about pronunciation) is a culture note.
+
+episode: 3
+title: El comienzo
+title_en: The beginning
+pages: "Textbook pp. 28–37 · Workbook pp. 19–31"
+
+essentials:
+  - "**Numbers 0–21**: 11 to 15 end in **-ce** (*once, doce*), 16 to 19 are **dieci-** + number (*dieciséis*), 21 is *veintiuno*. Before a noun, *uno* becomes **un / una**: *veintiún clientes, veintiuna oficinas*."
+  - "**Talking about someone else**: the verb ends in **-a** (-ar verbs) or **-e** (-er, -ir verbs): *habla, cree, vive*. Add **-n** for two or more: *hablan, creen, viven*. After *debe, desea, necesita*, the next verb stays in the infinitive: *Necesita hablar con Elena*."
+  - "**Estar** (to be) says how someone is and where: *¿Cómo está usted?* (formal) · *¿Cómo estás?* (informal) · *Raquel está en Sevilla*. **Hay** = there is / there are, and never changes."
+  - "**Meeting someone**: *Me llamo… / Soy…* · *Mucho gusto.* · *Igualmente.*"
+
+greetings:
+  - ["Mucho gusto.", "Pleased to meet you.", "When you meet someone for the first time."]
+  - ["Igualmente.", "Likewise.", "The reply to *Mucho gusto*."]
+  - ["Me llamo ___.", "My name is ___.", "Saying who you are. *Soy ___*, or just your name, also works."]
+  - ["¿Cómo está usted?", "How are you?", "Formal: someone you don't know well, or to show respect."]
+  - ["¿Cómo estás?", "How are you?", "Informal: family and friends."]
+  - ["Bien. · Muy bien. · Mal.", "Fine. · Very well. · Not well.", "The answers."]
+  - ["Mucho tiempo sin verte.", "Long time no see.", "To a friend or relative you haven't seen for a while."]
+
+grammar:
+  - title: "Two jobs for estar"
+    rule: "*Ser* says who or what someone is. **Estar** says how they are and where they are."
+    uses:
+      - label: "how?"
+        text: "How someone **is** or feels."
+        examples:
+          - ["¿Cómo está usted?", "How are you? (formal)"]
+          - ["Yo, bien, pero papá está muy mal.", "I'm fine, but Dad is very unwell."]
+      - label: "where?"
+        text: "Where someone or something **is**."
+        examples:
+          - ["África está al sur de España.", "Africa is to the south of Spain."]
+          - ["¿Dónde están Carlitos y Juanita?", "Where are Carlitos and Juanita?"]
+    trap: "**usted** or **tú**? *¿Cómo está usted?* to someone you don't know well or want to show respect to; *¿Cómo estás?* to family and friends. When in doubt, use *usted*."
+
+  - title: "Numbers 0–21"
+    rule: "Learn 0 to 15 by heart (they are in the word list below). From 16 on, the numbers are built: **dieci-** is *diez y* (ten and), **veinti-** is *veinte y* (twenty and)."
+    table:
+      head: ["", "pattern", "numbers"]
+      rows:
+        - ["11–15", "**-ce**", "on**ce**, do**ce**, tre**ce**, cator**ce**, quin**ce**"]
+        - ["16–19", "**dieci-**", "**dieci**séis, **dieci**siete, **dieci**ocho, **dieci**nueve"]
+        - ["20–21", "**veinti-**", "veinte, **veinti**uno"]
+        - ["uno + noun", "**un** · **una**", "**un** hijo, **una** carta · **veintiún** clientes, **veintiuna** oficinas"]
+    trap: "16 to 19 and 21 can also be written as three words: *diez y seis, veinte y uno*. Watch the accents: dieci**séis**, veinti**ún**."
+
+  - title: "hay: there is, there are"
+    rule: "**Hay** means both *there is* and *there are*, and it never changes form. **No hay** = there isn't, there aren't. **¿Hay…?** = is there…? are there…?"
+    examples:
+      - ["En Sevilla hay muchos mercados y tiendas.", "In Seville there are many markets and shops."]
+      - ["Pero no hay muchas fábricas.", "But there aren't many factories."]
+      - ["¿Qué hay en tu ciudad?", "What is there in your city?"]
+    trap: "*Hay* says that something exists; *está / están* says where a known thing is: *Hay un mercado en Triana.* · *El mercado está en Triana.*"
+
+  - title: "Talking about others: habla, cree, vive"
+    rule: "To say what someone else does, drop **-ar, -er, -ir** from the infinitive and add **-a** (-ar verbs) or **-e** (-er and -ir verbs). For two or more people, add **-n**."
+    table:
+      head: ["", "hablar", "creer", "vivir"]
+      rows:
+        - ["stem", "habl-", "cre-", "viv-"]
+        - ["él · ella · usted", "habl**a**", "cre**e**", "viv**e**"]
+        - ["ellos · ellas · ustedes", "habl**an**", "cre**en**", "viv**en**"]
+    examples:
+      - ["Raquel vive en Los Ángeles. Viaja a España.", "Raquel lives in Los Angeles. She is travelling to Spain."]
+      - ["Raquel y el taxista hablan en la plaza.", "Raquel and the taxi driver talk in the square."]
+    trap: "**ellos** = they (men, or men and women together) · **ellas** = they (women only)."
+
+  - title: "Verb + infinitive: debe, desea, necesita"
+    rule: "The infinitive is the *to* form, and it always ends in **-ar, -er** or **-ir**. After **debe** (should, must), **desea** (wants) and **necesita** (needs), the second verb stays in the infinitive."
+    examples:
+      - ["Raquel debe hablar con Miguel Ruiz.", "Raquel should speak with Miguel Ruiz."]
+      - ["Desea encontrar a Rosario.", "She wants to find Rosario."]
+      - ["Necesita saber dónde vive la Sra. Suárez.", "She needs to know where Mrs. Suárez lives."]
+    trap: "Only the first verb changes: *Miguel y Jaime necesit**an** buscar a su madre*, never ~~necesitan buscan~~."
+
+rules:
+  - ["**ser**: who, what, where from · **estar**: how and where", "Es abogada. Es de España. · Está bien. Está en Sevilla."]
+  - ["**No** goes right before the verb.", "Raquel no explica el misterio. · No hay muchas fábricas."]
+  - ["No *he, she, they* needed once we know who it is.", "Elena Ruiz vive en Sevilla. No trabaja en una oficina."]
+  - ["One Spanish form, two English ones.", "Explica la historia. = She explains / is explaining the story."]
+  - ["**a** before a specific person: no English equivalent.", "Busca a Rosario. · Visita a su abuela."]
+  - ["**a + el = al** · **de + el = del**. No other article contracts.", "para ir al barrio · el nombre del hijo · a la iglesia · de los abuelos"]
+  - ["**le gusta** + verb = he / she likes (to)…", "Le gusta ser el centro de atención."]
+
+verbs:
+  table:
+    verb: estar
+    meaning: to be (how, where)
+    irregular: true
+    forms:
+      - ["estoy", "I am"]
+      - ["estás", "you are"]
+      - ["está", "he, she is · you are"]
+      - ["estamos", "we are"]
+      - ["estáis", "you are"]
+      - ["están", "they are · you are"]
+    hook: "*Estoy* ends in **-oy**, like *soy*. Every other form leans on the **a**: est**á**s, est**á**, est**a**mos, est**á**is, est**á**n."
+  notes:
+    - label: In this lesson
+      text: "You mostly need **está** (one person or thing) and **están** (two or more)."
+  met:
+    - ["sabe · no sabe nada", "saber", "knows · doesn't know anything"]
+    - ["va a viajar · para ir", "ir", "is going to travel · (in order) to go"]
+    - ["conoce", "conocer", "meets"]
+    - ["desea encontrar", "encontrar", "wants to find"]
+    - ["le gusta", "gustar", "he / she likes"]
+    - ["estudia", "estudiar", "studies"]
+    - ["se llevan bien", "llevarse", "they get along well"]
+    - ["escribió", "escribir", "wrote"]
+
+vocab:
+  core:
+    - group: Los verbos
+      words:
+        - ["buscar", "to look for"]
+        - ["creer", "to think, believe"]
+        - ["deber (+ inf.)", "should, must (do something)"]
+        - ["desear (+ inf.)", "to wish, want (to do something)"]
+        - ["entrar (en)", "to enter"]
+        - ["escribir", "to write"]
+        - ["explicar", "to explain"]
+        - ["hablar", "to speak; to talk"]
+        - ["investigar", "to investigate"]
+        - ["llegar", "to arrive"]
+        - ["necesitar (+ inf.)", "to need (to do something)"]
+        - ["preguntar", "to ask (a question)"]
+        - ["revelar", "to reveal"]
+        - ["tomar", "to take (transport); to drink"]
+        - ["trabajar", "to work"]
+        - ["viajar", "to travel"]
+        - ["visitar", "to visit"]
+        - ["vivir", "to live"]
+        - ["tiene", "he / she has"]
+        - ["estar · está · están", "to be · is · are"]
+        - ["hay", "there is, there are"]
+    - group: Las personas
+      words:
+        - ["los abuelos", "grandparents"]
+        - ["el abuelo · la abuela", "grandfather · grandmother"]
+        - ["el amigo · la amiga", "friend"]
+        - ["el chico · la chica", "boy · girl, young kid"]
+        - ["el señor (Sr.)", "gentleman, man; Mr."]
+        - ["la señora (Sra.)", "lady, woman; Mrs."]
+        - ["la señorita (Srta.)", "young(er) lady, single woman; Miss"]
+    - group: Los lugares
+      words:
+        - ["el barrio", "neighbourhood, district"]
+        - ["la calle", "street"]
+        - ["la iglesia", "church"]
+        - ["el mercado", "market"]
+    - group: Los conceptos
+      words:
+        - ["el apellido", "last name"]
+        - ["el comienzo", "beginning"]
+        - ["el nombre", "(first) name"]
+    - group: Los números
+      words:
+        - ["cero · uno · dos", "0 · 1 · 2"]
+        - ["tres · cuatro · cinco", "3 · 4 · 5"]
+        - ["seis · siete · ocho", "6 · 7 · 8"]
+        - ["nueve · diez · once", "9 · 10 · 11"]
+        - ["doce · trece · catorce", "12 · 13 · 14"]
+        - ["quince · dieciséis", "15 · 16"]
+        - ["diecisiete · dieciocho", "17 · 18"]
+        - ["diecinueve · veinte", "19 · 20"]
+        - ["veintiuno", "21"]
+    - group: Más saludos
+      words:
+        - ["me llamo…", "my name is…"]
+        - ["mucho gusto", "pleased to meet you"]
+        - ["igualmente", "so am I, likewise"]
+        - ["¿Cómo está usted?", "How are you? (formal)"]
+        - ["¿Cómo estás?", "How are you? (informal)"]
+    - group: Las palabras adicionales
+      words:
+        - ["ahora", "now"]
+        - ["con", "with"]
+        - ["a · al", "to · to the (a + el)"]
+        - ["del", "of the (de + el)"]
+        - ["él · ella", "he · she"]
+        - ["ellos · ellas", "they (masc. · fem.)"]
+        - ["bien · mal", "well · badly, not well"]
+        - ["con frecuencia", "frequently"]
+        - ["¿dónde? · ¿qué?", "where? · what?"]
+        - ["mucho", "a lot"]
+        - ["muchos · muchas", "many"]
+        - ["poco", "little, not much"]
+        - ["pocos · pocas", "few"]
+  extra:
+    - group: Las personas
+      words:
+        - ["el / la taxista", "taxi driver"]
+        - ["el maestro · la maestra", "teacher"]
+        - ["la suegra", "mother-in-law"]
+        - ["el personaje", "character (in a story)"]
+    - group: Lugares y cosas
+      words:
+        - ["el viaje", "trip"]
+        - ["la tienda", "shop, store"]
+        - ["la plaza", "square"]
+        - ["la fábrica", "factory"]
+        - ["la habitación", "room"]
+        - ["el país", "country"]
+        - ["el trabajo", "work"]
+    - group: Para describir
+      words:
+        - ["joven · jóvenes", "young"]
+        - ["mayor · menor", "older · younger"]
+        - ["orgulloso · orgullosa", "proud"]
+        - ["estudioso · estudiosa", "studious"]
+    - group: ¿Dónde?
+      words:
+        - ["aquí", "here"]
+        - ["lejos", "far away"]
+        - ["en casa", "at home"]
+        - ["el norte · el sur", "north · south"]
+        - ["el este · el oeste", "east · west"]
+        - ["al sur de…", "south of…"]
+    - group: Otras
+      words:
+        - ["más · menos", "more · less"]
+        - ["nada", "nothing"]
+        - ["a veces", "sometimes"]
+        - ["en cambio", "on the other hand"]
+        - ["este año", "this year"]
+        - ["los lunes", "on Mondays"]
+  course:
+    - ["el primer encuentro", "the first meeting"]
+    - ["los nuevos personajes", "the new characters"]
+    - ["¿De quién se habla?", "who is being talked about?"]
+    - ["¿Cuánto sabes?", "how much do you know?"]
+    - ["Vocabulario del tema", "topic vocabulary"]
+    - ["Datos importantes", "important facts"]
+    - ["Obligaciones y deseos", "obligations and wishes"]
+    - ["Probable · Dudosa", "probable · doubtful"]
+    - ["las vocales", "the vowels"]
+    - ["Nota cultural", "culture note"]
+    - ["(+ inf.)", "followed by an infinitive"]
+
+cognates:
+  rule: "Lección 2 gave you **-ción, -sión, -dad**. Here are three more endings, and **es-** + consonant again. Nouns in **-ía** are almost all feminine, with the stress on the **í**: *la teoría*."
+  patterns:
+    - ["-oso · -osa", "-ous", "famoso, riguroso, maravilloso", "famous, rigorous, marvellous"]
+    - ["-ía", "-y", "filosofía, teoría, biología", "philosophy, theory, biology"]
+    - ["-mente", "-ly", "frecuentemente, rápidamente", "frequently, rapidly"]
+    - ["es-", "s-", "escuela, estatua, estudiante", "school, statue, student"]
+  harder:
+    - ["la cortesía", "courtesy", "-ía = -y"]
+    - ["la profecía", "prophecy", "-ía = -y, and *f* for *ph*"]
+    - ["estudioso", "studious", "two patterns: es- = s-, -oso = -ous"]
+
+sounds:
+  - title: "Short, tense, always the same"
+    body: "Spanish vowels are always pronounced and almost always sound the same. No glide at the end: *lo* is not English *low*, *de* is not *day*."
+  - title: "a · e"
+    body: "**a** like *father*, but short: *padre, carta, gata*. **e** like *they*, without the y: *Pepe, trece, bebé*."
+  - title: "i · o · u"
+    body: "**i** like *machine*, but short: *Mimi, Trini, Pili*. **o** like *home*, without the w: *como, poco, somos*. **u** like *rule*, but short: *Lulú, tutú, gurú*."
+  - title: "No *uh* sound"
+    body: "English blurs unstressed vowels into *uh*. Spanish never does: say every vowel clearly in *canal, motor, Ana*."
+  - title: "Silent u"
+    body: "The exception: in **que** and **qui** the u is silent: Ra**que**l, ¿**qué**?, **qui**nce."
+  - title: "The accent mark shows the stress"
+    body: "*bebé, número, rápidamente, dieciséis*: lean on the vowel with the mark."
+
+phrases:
+  - ["¿Dónde está la calle Pureza?", "Where is Pureza Street?"]
+  - ["¿Está lejos? · Está un poco lejos.", "Is it far? · It's a bit far."]
+  - ["¿Cuántos turistas hay en el grupo?", "How many tourists are there in the group?"]
+  - ["Toman un taxi para ir al barrio de Triana.", "They take a taxi to go to the Triana district."]
+  - ["Busca a la señora Teresa Suárez.", "He / she is looking for Mrs. Teresa Suárez."]
+  - ["¿Con quién viven tus amigos?", "Who do your friends live with?"]
+  - ["¿Dónde trabaja tu padre?", "Where does your father work?"]
+
+culture:
+  - title: "Sr. · Sra. · Srta."
+    body: "**señor** = Mr. · **señora** = Mrs. (any married woman, often any middle-aged woman) · **señorita** = Miss (young or single). No *Ms.* in Spanish. Capital only when abbreviated: *el señor · el Sr.*"
+  - title: "Spanish in Spain"
+    body: "Sevillanos speak fast and run words together. In most of Spain, **z** and **c** before e or i sound like English *th*: *cero, cinco, doce, diez*. Elsewhere, and on the course tape, they sound like *s*."
+  - title: "Two last names: los apellidos"
+    body: "Most Hispanics have two surnames: the **father's** first, then the **mother's**. Use both, or the first alone, never the second alone. A married woman may add **de** + her husband's surname; in Spain most women simply keep their own."
+    rows:
+      - ["Castillo Saavedra", "*la familia Castillo* or *la familia Castillo Saavedra*: both correct"]
+      - ["Ruiz Ramírez", "**Ruiz** (father) + **Ramírez** (mother): *Miguel Ruiz*, never ~~Miguel Ramírez~~"]
+      - ["Ramírez de Ruiz", "a married name: *Elena Ramírez de Ruiz*, or in Spain just *Elena Ramírez*"]
+  - title: "España, un país de contrastes"
+    body: "**North**: mountains, forests, industry. **South** (Andalucía): drier, less industry, Arab influence."
+    rows:
+      - ["la capital", "Madrid"]
+      - ["el gobierno", "monarquía constitucional · el rey Felipe VI (in the book, Juan Carlos I)"]
+      - ["la organización", "17 comunidades autónomas (self-governing regions)"]
+      - ["el idioma oficial", "el español, also called el castellano"]
+      - ["otros idiomas", "el catalán (Cataluña) · el gallego (Galicia) · el vascuence, today el euskera (el País Vasco)"]
+      - ["la población", "39.000.000 in the book, about 48.000.000 today: Spain writes dots where English writes commas"]
