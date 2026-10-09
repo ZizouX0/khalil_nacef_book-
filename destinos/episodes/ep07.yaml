@@ -1,0 +1,314 @@
+# Episodio 7 · La cartera
+# Sources: Textbook Lección 7 (pp. 70–81) and Workbook/Study Guide Lección 7 (pp. 62–70).
+# Words in vocab.core are the two books' own Vocabulario lists, under their own headings; where both
+# books use the same heading (Los verbos, La cortesía, Las palabras adicionales) the lists are merged.
+# The lesson conjugates twelve verbs: tener is the verb card; saber · conocer (workbook Gramática 17)
+# and the other irregular verbs (Gramática 18, 19) are grammar points with tables. The numbers 21–99
+# (textbook Vocabulario del tema) and polite requests (Conversaciones: Algo sobre la cortesía) are
+# grammar points with tables; the requests also feed the phrases. Neither book has ¡Aumenta tu
+# vocabulario! here: the cognate notes (English relatives of the new verbs) are added as memory hooks.
+
+episode: 7
+title: La cartera
+title_en: The wallet
+pages: "Textbook pp. 70–81 · Workbook pp. 62–70"
+
+essentials:
+  - "**Saber or conocer?** Both mean *to know*. **Saber** = facts, and + infinitive = know how to (*No sé dónde vive.* · *Sabe usar una computadora.*). **Conocer** = people and places, and to meet (*Conozco a Raquel.* · *Conozco Madrid.*). The *yo* forms are odd: **sé**, **conozco**."
+  - "**Odd yo forms**: *hago, pongo, salgo, traigo, doy, veo*; the other forms are regular. **Tener, venir, decir, oír** also change the stem: *tengo, tienes · vengo, vienes · digo, dices · oigo, oyes*. **Tener que** + inf. = to have to: *Tengo que ir a Madrid.*"
+  - "**Numbers 21–99**: *veintiuno … veintinueve* in one word; from 31, three words joined by **y**: *treinta y uno, noventa y nueve*. Don't mix up **sesenta** (60, *s* as in *seis*) and **setenta** (70, *t* as in *siete*)."
+  - "**Clothes and courtesy**: *¿Qué llevas?* (**llevar** = to wear) · *Llevo pantalones y una camisa.* To ask politely, use **¿Podría…?, Quisiera…, Me gustaría…** + infinitive, or **¿Me permite…?** + a thing."
+
+verbs:
+  table:
+    verb: tener
+    meaning: to have
+    irregular: true
+    forms:
+      - ["tengo", "I have"]
+      - ["tienes", "you have"]
+      - ["tiene", "he, she has · you have"]
+      - ["tenemos", "we have"]
+      - ["tenéis", "you have"]
+      - ["tienen", "they have · you have"]
+    hook: "Only *yo* ends in **-go**. The **ie** is in t**ie**nes, t**ie**ne, t**ie**nen, not in *tenemos, tenéis*. **Venir** (to come) works the same way: *vengo, vienes…*"
+  notes:
+    - label: tener que + inf.
+      text: "= to have to: *Tengo que ir a Madrid.* = I have to go to Madrid."
+    - label: tener … años
+      text: "= to be … years old: *Mi padre tiene cincuenta años.*"
+  met:
+    - ["deje", "dejar", "please leave (*usted*)"]
+    - ["se aloja", "alojarse", "he / she is staying (at a hotel)"]
+    - ["sigue", "seguir", "he / she follows"]
+    - ["ganó", "ganar", "he / she won"]
+
+grammar:
+  - title: "Two verbs for to know: saber · conocer"
+    rule: "They don't swap. Only *yo* is irregular; the rest are regular -er forms (Episode 5)."
+    table:
+      head: ["", "saber", "conocer"]
+      rows:
+        - ["use for", "facts, information · + inf. = know **how to**", "people, places, things · **to meet**"]
+        - ["yo", "**sé**", "**conozco**"]
+        - ["tú", "sabes", "conoces"]
+        - ["él · ella · usted", "sabe", "conoce"]
+        - ["nosotros/as", "sabemos", "conocemos"]
+        - ["vosotros/as", "sabéis", "conocéis"]
+        - ["ellos · ellas · ustedes", "saben", "conocen"]
+    examples:
+      - ["Raquel no **sabe** dónde vive Rosario.", "Raquel doesn't know where Rosario lives."]
+      - ["Raquel **sabe** usar una computadora.", "Raquel knows how to use a computer."]
+      - ["Sólo Teresa Suárez **conoce** a Rosario.", "Only Teresa Suárez knows Rosario."]
+      - ["Teresa va a **conocer** a Raquel pronto.", "Teresa is going to meet Raquel soon."]
+      - ["Raquel ahora **conoce** Madrid.", "Raquel now knows Madrid."]
+    trap: "Quick test: a question word or *que* next (*dónde, quién, que…*) means **saber**; a person next means **conocer a** (Episode 3). **Sé** = I know; *se* without an accent is another word."
+
+  - title: "Odd only in the yo form: hacer, poner, salir, traer, dar, ver"
+    rule: "The other forms take the regular endings (Episode 5). Four *yo* forms end in **-go**, like *tengo* (*salgo* was in Episode 6). **Doy** rhymes with *soy, estoy, voy*; **veo** keeps the *e* of *ver*."
+    table:
+      head: ["", "yo", "the other forms"]
+      rows:
+        - ["hacer · to make, do", "**hago**", "haces, hace, hacemos, hacéis, hacen"]
+        - ["poner · to put", "**pongo**", "pones, pone, ponemos, ponéis, ponen"]
+        - ["salir · to leave", "**salgo**", "sales, sale, salimos, salís, salen"]
+        - ["traer · to bring", "**traigo**", "traes, trae, traemos, traéis, traen"]
+        - ["dar · to give", "**doy**", "das, da, damos, dais, dan"]
+        - ["ver · to see", "**veo**", "ves, ve, vemos, veis, ven"]
+    examples:
+      - ["El reportero sale del hotel.", "The reporter leaves the hotel."]
+      - ["Pongo toda la ropa en la cama.", "I put all my clothes on the bed."]
+      - ["Ayudo a los clientes con las maletas y ellos me dan una propina.", "I help the guests with their bags and they give me a tip."]
+    trap: "**traer** = to bring (here) · **llevar** = to take (there): *¿Traes tu libro a la universidad?* · *¿Llevas muchas maletas?* And *ver* + a person takes the personal **a**: *No veo **a** Alfredo.*"
+
+  - title: "-go and a stem change: decir, oír, venir"
+    rule: "A **-go** *yo* form **and** a change in the stem: **e** becomes **i** in *decir*, **ie** in *venir* (like *tener*, the verb card), and *oír* adds a **y**. *Nosotros* and *vosotros* stay regular. Lección 8 covers these stem-changing verbs."
+    table:
+      head: ["", "decir · to say, tell", "oír · to hear", "venir · to come"]
+      rows:
+        - ["yo", "**digo**", "**oigo**", "**vengo**"]
+        - ["tú", "d**i**ces", "o**y**es", "v**ie**nes"]
+        - ["él · ella · usted", "d**i**ce", "o**y**e", "v**ie**ne"]
+        - ["nosotros/as", "decimos", "oímos", "venimos"]
+        - ["vosotros/as", "decís", "oís", "venís"]
+        - ["ellos · ellas · ustedes", "d**i**cen", "o**y**en", "v**ie**nen"]
+    examples:
+      - ["Vengo al hotel en busca de una abogada norteamericana.", "I'm coming to the hotel in search of an American lawyer."]
+      - ["¿Qué me va a decir la Sra. Suárez? ¿Me va a dar algo para don Fernando?", "What is Mrs. Suárez going to tell me? Is she going to give me something for don Fernando?"]
+    trap: "**Decir** and **dar** usually come with **me, le**…: the person you tell or give to. *¿Qué le voy a decir a la abogada?* = What am I going to say to the lawyer? More on these little words in later lessons."
+
+  - title: "Numbers 21–99"
+    rule: "0–21 are in **Episode 3**. As there, *uno* becomes **un · una** before a noun: *treinta y un años, cuarenta y una personas*."
+    table:
+      rows:
+        - ["21–29: one word", "veintiuno, veinti**dós**, veinti**trés**, veinticuatro, veinticinco, veinti**séis**, veintisiete, veintiocho, veintinueve"]
+        - ["30–90: all **-nta**", "treinta, cuarenta, cincuenta, sesenta, setenta, ochenta, noventa"]
+        - ["31–99: three words", "treinta **y** uno · cuarenta **y** cinco · noventa **y** nueve"]
+        - ["years", "1993 = **mil novecientos** noventa y tres"]
+    examples:
+      - ["Mi padre tiene cuarenta y ocho años.", "My father is forty-eight."]
+      - ["Mi número de teléfono es el 7-36-21-90.", "My phone number is 736 2190: say it in pairs, *siete, treinta y seis, veintiuno, noventa*."]
+    trap: "A year is one number, not two pairs as in English: never ~~diecinueve noventa y tres~~. Today's years start with **dos mil**: 2026 = *dos mil veintiséis*. The book also allows *veinte y uno* in three words; one word is the norm today."
+
+  - title: "Asking politely: ¿podría…?, quisiera…"
+    rule: "*Deseo…* and *Necesito…* can sound blunt. These four are politer. Three of them take an infinitive: *Me gustaría **pagar** con tarjeta de crédito.*"
+    table:
+      head: ["", "Spanish", "English"]
+      rows:
+        - ["ask to do something", "**¿Podría** + inf.?", "Could I please…? Is it possible for me to…?"]
+        - ["say what you'd like", "**Quisiera** + inf.", "I would really like to…"]
+        - ["say what you'd like", "**Me gustaría** + inf.", "I would really like to… (Episode 4)"]
+        - ["ask for a thing", "**¿Me permite…?**", "May I please have…?"]
+    examples:
+      - ["¿Podría pagar con tarjeta de crédito?", "Could I pay by credit card?"]
+      - ["Quisiera hablar con Raquel.", "I would really like to talk to Raquel."]
+      - ["¿Me permite su tarjeta de crédito?", "May I have your credit card?"]
+    trap: "*¿Podría…?* also asks someone else (*usted*) to do something. Raquel's note: *¿Me podría llamar esta noche?* = Could **you** call me tonight?"
+
+rules:
+  - ["**llevar** = to wear (new) · to take somewhere (Episode 4)", "¿Qué llevas? · Llevo una falda y una blusa."]
+  - ["**esperar** = to wait **for**: the *for* is built in, as in *buscar*. Personal **a** before a person.", "Raquel espera el tren. · Raquel espera a Jaime."]
+  - ["**hacer un viaje** = to take a trip · **hacer las maletas** = to pack", "Antes de hacer un viaje, hago las maletas."]
+  - ["**antes de** = before · **después de** = after, + noun or infinitive", "dos días después de su muerte"]
+  - ["**unos · unas** = a few · **un par de** = a pair of", "unos calcetines · unas medias · un par de zapatos"]
+  - ["**acerca de** = about", "Raquel busca información acerca de Rosario."]
+  - ["**no** … **en ninguna parte** = not … anywhere", "No veo a Alfredo en ninguna parte."]
+
+vocab:
+  core:
+    - group: Los verbos
+      words:
+        - ["conocer (conozco)", "to know (people, places); to meet"]
+        - ["dar (doy)", "to give"]
+        - ["decir (digo)", "to say; to tell"]
+        - ["dejar", "to leave (behind)"]
+        - ["esperar", "to wait (for)"]
+        - ["hacer (hago)", "to make; to do"]
+        - ["llevar", "to wear"]
+        - ["oír (oigo)", "to hear"]
+        - ["poner (pongo)", "to put, place"]
+        - ["saber (sé)", "to know (facts)"]
+        - ["saber + inf.", "to know how to"]
+        - ["salir (salgo) (de)", "to leave (a place)"]
+        - ["tener (tengo)", "to have"]
+        - ["traer (traigo)", "to bring"]
+        - ["venir (vengo)", "to come"]
+        - ["ver (veo)", "to see (review)"]
+        - ["pierde", "he / she loses"]
+        - ["puede", "he / she can"]
+    - group: La ropa
+      words:
+        - ["la blusa", "blouse"]
+        - ["la bufanda", "scarf"]
+        - ["los calcetines", "socks"]
+        - ["la camisa", "shirt"]
+        - ["la camiseta", "T-shirt"]
+        - ["la cartera", "wallet"]
+        - ["la corbata", "necktie"]
+        - ["la chaqueta", "jacket"]
+        - ["la falda", "skirt"]
+        - ["el jersey (Spain)", "sweater, jumper"]
+        - ["las medias", "stockings"]
+        - ["los pantalones", "trousers, pants"]
+        - ["el suéter", "sweater, jumper"]
+        - ["el vestido", "dress; suit"]
+        - ["el zapato", "shoe"]
+        - ["un par de…", "a pair of…"]
+        - ["unos calcetines", "a few pairs of socks"]
+        - ["unas medias", "a few pairs of stockings"]
+    - group: Las personas
+      words:
+        - ["el botones", "bellhop"]
+        - ["el / la recepcionista", "receptionist"]
+    - group: Las cosas
+      words:
+        - ["el mensaje", "message"]
+    - group: Los números
+      words:
+        - ["treinta · cuarenta", "30 · 40"]
+        - ["cincuenta · sesenta", "50 · 60"]
+        - ["setenta · ochenta", "70 · 80"]
+        - ["noventa", "90"]
+        - ["mil novecientos…", "nineteen hundred…"]
+    - group: La cortesía
+      words:
+        - ["me gustaría + inf.", "I would really like to…"]
+        - ["¿me permite…?", "may I please have…?"]
+        - ["¿podría + inf.?", "could I please…?"]
+        - ["quisiera + inf.", "I would really like to…"]
+    - group: Las palabras adicionales
+      words:
+        - ["acerca de", "about"]
+        - ["después de", "after"]
+        - ["¿por qué?", "why?"]
+        - ["hacer un viaje", "to take a trip"]
+        - ["tener que (+ inf.)", "to have to"]
+        - ["aquí", "here"]
+        - ["esta noche", "tonight"]
+        - ["pronto", "soon"]
+        - ["sólo", "only (today: solo)"]
+  extra:
+    - group: Más ropa
+      words:
+        - ["la ropa", "clothes, clothing"]
+        - ["las botas", "boots"]
+        - ["la sudadera", "sweatshirt"]
+        - ["los pantalones cortos", "shorts"]
+        - ["los zapatos de tenis", "trainers, sneakers"]
+        - ["los calzoncillos", "(men's) underpants"]
+        - ["el pañuelo", "handkerchief"]
+        - ["la maleta", "suitcase"]
+        - ["ordenado · ordenada", "neat, tidy"]
+    - group: En el hotel
+      words:
+        - ["la recepción", "reception (desk)"]
+        - ["la reserva", "reservation, booking"]
+        - ["reservado · reservada", "booked"]
+        - ["alojarse", "to stay (at a hotel)"]
+        - ["la propina", "tip"]
+        - ["la tarjeta de crédito", "credit card"]
+        - ["pagar", "to pay"]
+        - ["la cama", "bed"]
+    - group: El trabajo de Alfredo
+      words:
+        - ["el periodismo", "journalism"]
+        - ["el reportaje", "report, news story"]
+        - ["la revista", "magazine"]
+        - ["la entrevista", "interview"]
+        - ["el jefe", "boss"]
+        - ["el ascenso", "promotion"]
+        - ["la carrera", "career"]
+        - ["madrileño · madrileña", "from Madrid"]
+    - group: El gobierno
+      words:
+        - ["la dictadura", "dictatorship"]
+        - ["la democracia", "democracy"]
+        - ["el rey · la reina", "king · queen"]
+        - ["el presidente del gobierno", "prime minister"]
+        - ["las elecciones", "elections"]
+        - ["el poder", "power"]
+        - ["la muerte", "death"]
+    - group: Otras
+      words:
+        - ["la edad", "age"]
+        - ["la verdad", "truth"]
+        - ["en busca de", "in search of"]
+        - ["según", "according to"]
+        - ["además", "besides"]
+        - ["de prisa", "quickly, in a hurry"]
+        - ["la telenovela", "soap opera"]
+  course:
+    - ["Algo sobre…", "something about…"]
+    - ["Palabras útiles", "useful words"]
+    - ["¿Quién lo dice?", "who says it?"]
+    - ["Probable · Improbable", "likely · unlikely"]
+
+cognates:
+  rule: "No ¡Aumenta tu vocabulario! this time, but the book's trick still works: if **dejar** = to leave, *dejar un mensaje* = to leave a **message**. The new verbs have English relatives too: link them and they stick."
+  harder:
+    - ["los pantalones", "trousers\u00a0\u00a0\u00a0", "*pants* is short for *pantaloons*"]
+    - ["el botones", "bellhop\u00a0\u00a0\u00a0", "named after the buttons on the uniform"]
+    - ["conocer", "to\u00a0know\u00a0\u00a0\u00a0", "think *recognise*"]
+    - ["traer", "to\u00a0bring\u00a0\u00a0\u00a0", "think *tractor*, *attract*"]
+    - ["decir", "to\u00a0say\u00a0\u00a0\u00a0", "think *dictate*"]
+    - ["oír", "to\u00a0hear\u00a0\u00a0\u00a0", "think *audio*"]
+    - ["dar", "to\u00a0give\u00a0\u00a0\u00a0", "think *data*: things given"]
+    - ["hacer", "to\u00a0make\u00a0\u00a0\u00a0", "think *factory*: Latin *f* often became *h*"]
+  false_friends:
+    - ["la ropa", "clothes", "rope", "la cuerda"]
+    - ["actual", "current", "actual", "real, verdadero"]
+  borrowed: "**el suéter** and **el jersey** both come from English; *jersey* is used mainly in Spain."
+
+sounds:
+  - title: "Hard d, as in *dog*"
+    body: "At the **start** of a phrase or sentence, and after **n** or **l**: **d**iez, **d**os, ¿**d**ónde?, ven**d**en, el **d**ía, el **d**octor."
+  - title: "Soft d, like *th* in *another*"
+    body: "**Everywhere else**: a**d**iós, uste**d**, ¿a**d**ónde?, to**d**o, buenos **d**ías, la **d**octora."
+  - title: "The word before decides"
+    body: "*el doctor* is hard (after l), *la doctora* soft (after a). *¿Dónde?* is hard, *¿adónde?* soft. After **s** it is soft too: *buenos días, más diez*."
+  - title: "Say it: bold d = hard"
+    body: "**D**on Julio es el **d**octor de don Fernan**d**o. · **D**os más diez son **d**oce. · ¿**D**ón**d**e está la ciudad de Madrid?"
+
+phrases:
+  - ["¡Qué pena lo de la cartera! · Ojalá la encuentre pronto.", "What a shame about the wallet! · I hope you find it soon."]
+  - ["¿Me puede hacer el favor de dejar un mensaje?", "Could you do me the favour of leaving a message?"]
+  - ["Por favor, deje mi cartera en la recepción.", "Please leave my wallet at reception."]
+  - ["¿Me podría llamar esta noche?", "Could you call me tonight?"]
+  - ["Tengo una habitación reservada.", "I have a room booked."]
+  - ["La reserva está a nombre de ___.", "The booking is in the name of ___."]
+  - ["Lo siento, no tengo mi cartera.", "I'm sorry, I don't have my wallet."]
+  - ["Perdón, no oigo bien. ¿Puede repetir, por favor?", "Sorry, I can't hear well. Could you repeat that, please?"]
+  - ["Me gustaría conocer a ___.", "I'd like to meet ___."]
+
+culture:
+  - title: "En el hotel"
+    body: "**El botones** carries the bags and gets the tip, *la propina*; the receptionist doesn't. **Ptas.** on the hotel's laundry list = *pesetas*, Spain's money until the **euro** (2002)."
+  - title: "De la dictadura a la democracia"
+    body: "From 1939 to 1975 Spain was ruled by the dictator **Francisco Franco** (Episode 2). After his death came a peaceful **transición** to democracy. Spain is now a **monarquía constitucional**: as in Britain, the king has little political power. He is a symbol of the country and represents it at home and abroad. The head of government is **el presidente del gobierno**."
+    rows:
+      - ["22 noviembre 1975", "Two days after Franco's death, **Juan Carlos I**, the successor Franco had chosen, is proclaimed king, with **doña Sofía** as queen"]
+      - ["1977", "The first democratic elections since 1936"]
+      - ["diciembre 1978", "The people vote for a new Constitution. **Adolfo Suárez** becomes the first *presidente del gobierno* under it"]
+      - ["1982", "A socialist government under **Felipe González**, re-elected in 1986 and 1989"]
+      - ["1986", "Spain joins the European Economic Community, today's EU"]
+      - ["today", "Juan Carlos I abdicated in 2014; his son **Felipe VI** is king"]
