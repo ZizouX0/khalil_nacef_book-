@@ -1,0 +1,263 @@
+# Episodio 2 · El secreto
+# Sources: Textbook Lección 2 (pp. 14–25) and Workbook/Study Guide Lección 2 (pp. 10–18).
+# Words in vocab.core are the two books' own Vocabulario lists.
+# Letter names in the alphabet are the standard Spanish ones; the books give the example names.
+
+episode: 2
+title: El secreto
+title_en: The secret
+pages: "Textbook pp. 14–25 · Workbook pp. 10–18"
+
+essentials:
+  - "**Family words**: the masculine plural covers the whole group. *Los padres* = parents, *los hijos* = children, *los hermanos* = brothers and sisters, *los tíos* = uncles and aunts."
+  - "**Greetings**: *Hola* (any time), *Buenos días* (morning), *Buenas tardes* (afternoon), *Buenas noches* (evening)."
+  - "**Every noun is masculine or feminine**, so learn it with its article: *el · los · un · unos* for masculine, *la · las · una · unas* for feminine."
+  - "**Possession**: *de* + name (*la esposa de Ramón* = Ramón's wife), or *mi, tu, su, nuestro, vuestro*, which agree with the thing owned (*mis hijos*)."
+
+greetings:
+  - ["Hola.", "Hello.", "Almost any situation, but not usually to answer the phone."]
+  - ["Buenos días.", "Good morning.", "In the morning."]
+  - ["Buenas tardes.", "Good afternoon.", "In the afternoon."]
+  - ["Buenas noches.", "Good evening.", "In the evening, and to say good night."]
+
+grammar:
+  - title: "The and a: el, la, un, una"
+    rule: "Spanish articles change with the noun: masculine or feminine, one or more. *Unos / unas* means **some**."
+    table:
+      head: ["", "masc. · one", "masc. · more", "fem. · one", "fem. · more"]
+      rows:
+        - ["the", "**el** secreto", "**los** secretos", "**la** carta", "**las** cartas"]
+        - ["a, an · some", "**un** secreto", "**unos** secretos", "**una** carta", "**unas** cartas"]
+
+  - title: "Masculine or feminine?"
+    uses:
+      - label: "el"
+        text: "Male people, and most nouns in **-o**."
+        examples:
+          - ["el hombre", "man"]
+          - ["el hermano", "brother"]
+          - ["el concepto", "concept"]
+      - label: "la"
+        text: "Female people, and nouns in **-a, -ión, -d**."
+        examples:
+          - ["la mujer", "woman"]
+          - ["la compañía", "company"]
+          - ["la relación", "relationship"]
+          - ["la universidad", "university"]
+    trap: "Other endings have no rule, so learn the article with the word: *el español, la serie*. And two words in **-a** are masculine: *el patriarca, el idioma*."
+
+  - title: "One person, two forms"
+    table:
+      head: ["", "masculine", "feminine"]
+      rows:
+        - ["-o becomes -a", "el hij**o** · el espos**o**", "la hij**a** · la espos**a**"]
+        - ["consonant + a", "el profesor · el director", "la profesor**a** · la director**a**"]
+        - ["one form only", "**el** estudiante", "**la** estudiante"]
+
+  - title: "Plurals"
+    table:
+      head: ["", "one", "more than one"]
+      rows:
+        - ["vowel + s", "hijo · carta", "hijo**s** · carta**s**"]
+        - ["consonant + es", "profesor · ciudad", "profesor**es** · ciudad**es**"]
+        - ["-ión drops its accent", "lección · relación", "lecci**ones** · relaci**ones**"]
+    trap: "The masculine plural covers a mixed group: *los hijos de don Fernando* includes Mercedes."
+
+  - title: "Possession: de, mi, su…"
+    rule: "There is no *'s* in Spanish. Use **de** + name: *la familia **de** Fernando* = Fernando's family. Or use a possessive, which agrees with the thing owned, not with the owner: *mis hijos* = my sons."
+    table:
+      head: ["", "one thing", "several things"]
+      rows:
+        - ["my", "**mi** hijo · **mi** hija", "**mis** hijos · **mis** hijas"]
+        - ["your (tú)", "**tu** hijo", "**tus** hijos"]
+        - ["his, her, its · your (usted)", "**su** hijo", "**sus** hijos"]
+        - ["our", "**nuestro** hijo · **nuestra** hija", "**nuestros** hijos · **nuestras** hijas"]
+        - ["your (vosotros)", "**vuestro** hijo · **vuestra** hija", "**vuestros** hijos · **vuestras** hijas"]
+        - ["their · your (ustedes)", "**su** hijo", "**sus** hijos"]
+    trap: "*Su* can mean his, her, its, their or your: the sentence tells you which. *Ramón vive con su esposa* = his wife. And **tu** (your) has no accent; **tú** (you) does."
+
+rules:
+  - ["**¿Quién?** for one person, **¿Quiénes?** for more.", "¿Quiénes fueron sus hijos?"]
+  - ["**fue · fueron** = was · were: the past of *es · son*.", "Su padre fue Pablo Picasso."]
+  - ["**ya** = already · **ya no** = no longer", "Su madre ya no vive."]
+  - ["**está muerto / muerta** = is dead · **ya murió** = already died", "Mi esposa Carmen ya murió; está muerta."]
+  - ["**otro / otra** = another, with no *un* in front.", "Don Fernando tiene otro hijo."]
+  - ["**Tengo** = I have · **No tengo…** = I don't have…", "Tengo tres hermanos. No tengo hijos."]
+
+verbs:
+  met:
+    - ["tengo · tiene · tienen", "tener", "I have · he / she has · they have"]
+    - ["se llama · se llaman", "llamarse", "he / she is called · they are called"]
+    - ["vive · viven", "vivir", "he / she lives · they live"]
+    - ["trabajan", "trabajar", "they work"]
+    - ["fue · fueron", "ser", "was · were"]
+    - ["murió", "morir", "died"]
+    - ["sé · no sé", "saber", "I know · I don't know"]
+    - ["creo", "creer", "I believe, I think"]
+    - ["llama · va a llamar", "llamar", "call! · is going to call"]
+    - ["dice", "decir", "says"]
+    - ["¿puedes…?", "poder", "can you…?"]
+
+vocab:
+  core:
+    - group: La familia
+      words:
+        - ["los padres", "parents"]
+        - ["el padre · la madre", "father · mother"]
+        - ["los hijos", "children"]
+        - ["el hijo · la hija", "son · daughter"]
+        - ["los hermanos", "brothers and sisters"]
+        - ["el hermano · la hermana", "brother · sister"]
+        - ["los tíos", "uncles and aunts"]
+        - ["el tío · la tía", "uncle · aunt"]
+        - ["los esposos", "husband and wife"]
+        - ["el esposo · la esposa", "husband · wife"]
+    - group: Las personas
+      words:
+        - ["el director", "head, leader; director"]
+        - ["el estudiante", "student"]
+        - ["el profesor", "professor"]
+    - group: Los lugares
+      words:
+        - ["la ciudad", "city"]
+        - ["el mundo", "world"]
+        - ["la oficina", "office"]
+        - ["la universidad", "university"]
+    - group: Los conceptos
+      words:
+        - ["la compañía", "company (business)"]
+        - ["el matrimonio", "marriage"]
+        - ["el secreto", "secret"]
+    - group: Los verbos
+      words:
+        - ["se llama", "he / she is called"]
+        - ["tengo", "I have"]
+    - group: Palabras pequeñas
+      words:
+        - ["¿cuál?", "which? what?"]
+        - ["otro · otra", "other, another"]
+        - ["pero", "but"]
+        - ["que", "that"]
+        - ["mi · mis", "my"]
+        - ["su · sus", "his, her, their"]
+        - ["ya", "already"]
+        - ["ya no", "no longer"]
+        - ["está muerto · muerta", "is dead"]
+        - ["ya murió", "already died"]
+  extra:
+    - group: Profesiones
+      words:
+        - ["el administrador · la administradora", "manager"]
+        - ["la secretaria", "secretary"]
+        - ["la cocinera", "cook"]
+        - ["el pintor", "painter"]
+        - ["el actor · la actriz", "actor · actress"]
+        - ["el / la cantante", "singer"]
+    - group: Lugares y cosas
+      words:
+        - ["el barrio", "neighbourhood"]
+        - ["el apartamento", "apartment"]
+        - ["el derecho", "law"]
+        - ["el teatro", "theatre"]
+        - ["la obra", "work; play"]
+        - ["la relación", "relationship"]
+        - ["el futuro", "future"]
+    - group: Para describir
+      words:
+        - ["casado · casada", "married"]
+        - ["fácil · difícil", "easy · difficult"]
+        - ["segundo · segunda", "second"]
+        - ["favorito · favorita", "favourite"]
+        - ["ambicioso · ambiciosa", "ambitious"]
+        - ["estable · inestable", "stable · unstable"]
+    - group: Otras
+      words:
+        - ["hoy", "today"]
+        - ["con", "with"]
+        - ["entre", "between"]
+        - ["los dos", "both"]
+        - ["en este momento", "right now"]
+        - ["la parte", "part"]
+    - group: Los números
+      words:
+        - ["uno · dos · tres", "1 · 2 · 3"]
+        - ["cuatro · cinco", "4 · 5"]
+        - ["seis · siete", "6 · 7"]
+  course:
+    - ["la conversación", "conversation"]
+    - ["el paso", "step"]
+    - ["el parentesco", "family relationship"]
+    - ["¿Masculino o femenino?", "masculine or feminine?"]
+    - ["Sé · Creo que es cierto.", "I know · I think it's true."]
+
+cognates:
+  rule: "From this lesson on, the books teach cognate **endings**: learn one and you can read hundreds of words. Every noun with these three endings is **feminine**, and the stress falls at the end."
+  patterns:
+    - ["-ción", "-tion", "la nación, la conversación, la solución", "nation, conversation, solution"]
+    - ["-sión", "-sion", "la tensión, la expresión, la televisión", "tension, expression, television"]
+    - ["-dad", "-ty", "la ciudad, la comunidad, la rivalidad", "city, community, rivalry"]
+
+alphabet:
+  - ["a", "a", "Antonio"]
+  - ["b", "be", "Blanca"]
+  - ["c", "ce", "Cecilia"]
+  - ["ch", "che", "Chile"]
+  - ["d", "de", "Dolores"]
+  - ["e", "e", "Elena"]
+  - ["f", "efe", "Felipe"]
+  - ["g", "ge", "Gloria"]
+  - ["h", "hache", "Héctor"]
+  - ["i", "i", "Inés"]
+  - ["j", "jota", "José"]
+  - ["k", "ka", "Kati"]
+  - ["l", "ele", "Luis"]
+  - ["ll", "elle", "Guillermina"]
+  - ["m", "eme", "Manuel"]
+  - ["n", "ene", "Nicaragua"]
+  - ["ñ", "eñe", "España", new]
+  - ["o", "o", "Olivia"]
+  - ["p", "pe", "Pablo"]
+  - ["q", "cu", "Raquel"]
+  - ["r", "ere", "Clara"]
+  - ["rr", "erre", "Monterrey", new]
+  - ["s", "ese", "Sara"]
+  - ["t", "te", "Tomás"]
+  - ["u", "u", "Agustín"]
+  - ["v", "uve", "Víctor"]
+  - ["w", "uve doble", "Oswaldo"]
+  - ["x", "equis", "Félix"]
+  - ["y", "i griega", "Yucatán"]
+  - ["z", "zeta", "Zaragoza"]
+
+sounds:
+  - title: "Two letters English doesn't have"
+    body: "**ñ** (*España*) and **rr** (*Monterrey*), shaded above. Words starting with ñ have their own section in the dictionary, after n."
+  - title: "Ch and ll"
+    body: "They were separate letters until 1994. In an older dictionary, *coche* comes after *coco*, in its own ch section."
+
+phrases:
+  - ["Tengo una familia muy grande.", "I have a very big family."]
+  - ["Tengo dos hermanos. · No tengo hijos.", "I have two brothers. · I don't have children."]
+  - ["Mi madre se llama ___. Vive en ___.", "My mother's name is ___. She lives in ___."]
+  - ["Mis padres son ___ y ___.", "My parents are ___ and ___."]
+  - ["Es la esposa de Ramón.", "She is Ramón's wife."]
+  - ["¿Quién es su padre?", "Who is his / her father?"]
+  - ["Sé que es cierto. · Creo que es falso.", "I know it's true. · I think it's false."]
+  - ["No sé.", "I don't know."]
+  - ["Llama a tus hermanos.", "Call your brothers and sisters."]
+  - ["Hoy vino el médico.", "The doctor came today."]
+  - ["Tiene que ver con…", "It has to do with…"]
+
+culture:
+  - title: "Hispanic families"
+    body: "The extended family often lives under one roof: widowed grandparents, unmarried aunts and uncles, and grown children, sometimes even married ones, like Ramón. It is changing in cities, but families stay close."
+  - title: "Abbreviations"
+    body: "**Q.E.P.D.** = *Que en paz descanse* (rest in peace) · **S.A.** = *Sociedad Anónima*, the Spanish *Inc.*"
+  - title: "La Guerra Civil española (1936–1939)"
+    body: "The **republicanos**, most of them democrats, against the **nacionales**, allied with Hitler and Mussolini and led by General **Francisco Franco**, who became dictator of Spain in 1939. Picasso painted *Guernica* about the bombing; it now hangs in the Museo Reina Sofía, Madrid."
+    rows:
+      - ["1931–1936", "La Segunda República"]
+      - ["18 julio 1936", "Franco's rebellion starts the war"]
+      - ["1936", "The poet Federico García Lorca is killed in Granada"]
+      - ["1937", "The bombing of Guernica"]
+      - ["1 abril 1939", "The war ends"]

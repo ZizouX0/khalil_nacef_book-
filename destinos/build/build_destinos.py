@@ -152,6 +152,46 @@ def word_groups(groups):
         + '</table></div>' for g in groups)
 
 
+def verbs_section(ep):
+    """The lesson's verb as a singular/plural table when it conjugates one;
+    otherwise only the verb forms the lesson used."""
+    if not ep.get("verbs"):
+        return ""
+    v, t = ep["verbs"], ep["verbs"].get("table")
+    met = ""
+    if v.get("met"):
+        met = ('<table class="met">'
+               + "".join(f'<tr><td class="form">{esc(a)}</td><td class="inf">{esc(b)}</td>'
+                         f'<td class="en">{md(c)}</td></tr>' for a, b, c in v["met"])
+               + '</table>')
+    if not t:
+        return sec("Verbos", "Verb forms in this lesson", met, "keep")
+    half = lambda rows, prons: "".join(
+        f'<tr><td class="p">{p}</td><td class="f">{md(f)}</td><td class="m">{md(m)}</td></tr>'
+        for p, (f, m) in zip(prons, rows))
+    irr = '<span class="lbl">irregular</span>' if t.get("irregular") else ""
+    body = (f'<div class="vhead"><span class="v">{esc(t["verb"])}</span>'
+            f'<span class="mean">{esc(t["meaning"])}</span>{irr}</div>'
+            f'<div class="conj2"><table class="cj"><thead><tr><th colspan="3">singular</th></tr></thead>'
+            f'{half(t["forms"][:3], PRON[:3])}</table>'
+            f'<table class="cj"><thead><tr><th colspan="3">plural</th></tr></thead>'
+            f'{half(t["forms"][3:], PRON[3:])}</table></div>')
+    if t.get("hook"):
+        body += f'<div class="note"><span class="lbl">Remember</span>{md(t["hook"])}</div>'
+    for nt in v.get("notes", []):
+        body += f'<div class="note"><span class="lbl">{md(nt["label"])}</span>{md(nt["text"])}</div>'
+    if met:
+        body += f'<div class="met"><span class="lbl">Other verbs in this lesson</span>{met}</div>'
+    return sec("El verbo", t["verb"] + " · " + t["meaning"], body, "keep")
+
+
+def grid(t):
+    """A small reference table: first column is the row's label."""
+    head = "".join(f'<th>{md(h)}</th>' for h in t.get("head", []))
+    rows = "".join('<tr>' + "".join(f'<td>{md(c)}</td>' for c in r) + '</tr>' for r in t["rows"])
+    return f'<table class="grid">{"<thead><tr>" + head + "</tr></thead>" if head else ""}<tbody>{rows}</tbody></table>'
+
+
 def episode(ep):
     n = int(ep["episode"])
     head_r = f'Episodio {n} · {ep["title"]}'
@@ -175,35 +215,22 @@ def episode(ep):
         items = "".join(f'<li>{md(x)}</li>' for x in ep["essentials"])
         o.append(sec("Lo esencial", "In one minute", f'<ol class="ess">{items}</ol>', "keep"))
 
-    # the verb of the lesson, as a table to picture
-    if ep.get("verbs"):
-        v, t = ep["verbs"], ep["verbs"]["table"]
-        half = lambda rows, prons: "".join(
-            f'<tr><td class="p">{p}</td><td class="f">{md(f)}</td><td class="m">{md(m)}</td></tr>'
-            for p, (f, m) in zip(prons, rows))
-        irr = '<span class="lbl">irregular</span>' if t.get("irregular") else ""
-        body = (f'<div class="vhead"><span class="v">{esc(t["verb"])}</span>'
-                f'<span class="mean">{esc(t["meaning"])}</span>{irr}</div>'
-                f'<div class="conj2"><table class="cj"><thead><tr><th colspan="3">singular</th></tr></thead>'
-                f'{half(t["forms"][:3], PRON[:3])}</table>'
-                f'<table class="cj"><thead><tr><th colspan="3">plural</th></tr></thead>'
-                f'{half(t["forms"][3:], PRON[3:])}</table></div>')
-        if t.get("hook"):
-            body += f'<div class="note"><span class="lbl">Remember</span>{md(t["hook"])}</div>'
-        for nt in v.get("notes", []):
-            body += f'<div class="note"><span class="lbl">{md(nt["label"])}</span>{md(nt["text"])}</div>'
-        if v.get("met"):
-            body += ('<div class="met"><span class="lbl">Other verbs in this lesson</span><table class="met">'
-                     + "".join(f'<tr><td class="form">{esc(a)}</td><td class="inf">{esc(b)}</td>'
-                               f'<td class="en">{esc(c)}</td></tr>' for a, b, c in v["met"])
-                     + '</table></div>')
-        o.append(sec("El verbo", t["verb"] + " · " + t["meaning"], body, "keep"))
+    if ep.get("greetings"):
+        rows = "".join(f'<tr><td class="es">{md(a)}</td><td class="en">{md(b)}</td><td class="when">{md(c)}</td></tr>'
+                       for a, b, c in ep["greetings"])
+        o.append(sec("Saludos", "Greetings", f'<table class="greet">{rows}</table>', "keep"))
+
+    verbs = verbs_section(ep)
+    if verbs and ep["verbs"].get("table"):
+        o.append(verbs)
 
     g = ""
     for p in ep.get("grammar", []):
         g += f'<div class="gpoint"><h3>{md(p["title"])}</h3>'
         if p.get("rule"):
             g += f'<p>{md(p["rule"])}</p>'
+        if p.get("table"):
+            g += grid(p["table"])
         if p.get("uses"):
             g += '<div class="uses">' + "".join(
                 f'<div><span class="tag">{md(u["label"])}</span><p>{md(u["text"])}</p>{pairs(u["examples"], "ex")}</div>'
@@ -219,6 +246,8 @@ def episode(ep):
               + '</table></div>')
     if g:
         o.append(sec("Gramática", "How it works", g))
+    if verbs and not ep["verbs"].get("table"):
+        o.append(verbs)
 
     if ep.get("vocab"):
         v = ep["vocab"]
@@ -258,9 +287,15 @@ def episode(ep):
             body += f'<p class="aside">{md(c["borrowed"])}</p>'
         o.append(sec("Cognados", "Words you already know", body, "keep"))
 
-    if ep.get("sounds"):
-        body = '<div class="tips">' + "".join(
-            f'<div><h4>{md(s["title"])}</h4><p>{md(s["body"])}</p></div>' for s in ep["sounds"]) + '</div>'
+    if ep.get("sounds") or ep.get("alphabet"):
+        body = ""
+        if ep.get("alphabet"):
+            body += '<div class="abc">' + "".join(
+                f'<div class="{"new" if new else ""}"><span class="l">{esc(l)}</span><span class="n">{esc(n)}</span>'
+                f'<span class="x">{esc(x)}</span></div>' for l, n, x, *new in ep["alphabet"]) + '</div>'
+        if ep.get("sounds"):
+            body += '<div class="tips">' + "".join(
+                f'<div><h4>{md(s["title"])}</h4><p>{md(s["body"])}</p></div>' for s in ep["sounds"]) + '</div>'
         o.append(sec("Pronunciación", "How it sounds", body, "keep"))
 
     if ep.get("phrases"):
@@ -268,7 +303,8 @@ def episode(ep):
 
     if ep.get("culture"):
         body = '<div class="tips">' + "".join(
-            f'<div><h4>{md(s["title"])}</h4><p>{md(s["body"])}</p></div>' for s in ep["culture"]) + '</div>'
+            f'<div class="{"wide" if s.get("rows") else ""}"><h4>{md(s["title"])}</h4><p>{md(s["body"])}</p>'
+            + (pairs(s["rows"], "dates") if s.get("rows") else "") + '</div>' for s in ep["culture"]) + '</div>'
         o.append(sec("Cultura", "Good to know", body, "keep"))
 
     # a few ruled lines for whatever else the episode taught you

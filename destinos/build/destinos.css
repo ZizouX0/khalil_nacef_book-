@@ -175,8 +175,8 @@ div.met { margin-top: 3.5mm; }
 div.met > .lbl { display: block; color: var(--ink); border-bottom: .8pt solid var(--ink); padding-bottom: 1mm; margin-bottom: .5mm; }
 table.met { width: 100%; border-collapse: collapse; }
 table.met td { padding: .9mm 0; border-bottom: .4pt solid var(--rule); vertical-align: baseline; }
-table.met td.form { width: 30mm; font-weight: 700; }
-table.met td.inf { width: 30mm; color: var(--muted); }
+table.met td.form { width: 40mm; font-weight: 700; padding-right: 2mm; }
+table.met td.inf { width: 22mm; color: var(--muted); }
 table.met td.en { font-style: italic; color: var(--muted); font-size: 8.6pt; }
 
 /* grammar */
@@ -218,3 +218,35 @@ table.ff td.not b { font-style: normal; color: var(--ink); font-weight: 400; }
 .tips > div { width: 62mm; }
 .tips h4 { font: 700 9.8pt/1.25 "Charis"; margin: 0 0 .8mm; }
 .tips p { margin: 0; font-size: 9.2pt; }
+
+/* reference tables inside a grammar point */
+table.grid { width: 100%; border-collapse: collapse; margin: 1.5mm 0 2.5mm;
+             border-top: .8pt solid var(--ink); border-bottom: .8pt solid var(--ink); }
+table.grid th { font: 500 6.8pt "Plex"; letter-spacing: .12em; text-transform: uppercase; color: var(--faint);
+                text-align: left; padding: 1.2mm 2mm .8mm 0; }
+table.grid td { padding: 1.2mm 2mm 1.2mm 0; border-top: .4pt solid var(--rule); vertical-align: baseline; }
+table.grid td:first-child { font: 500 7.4pt "Plex"; color: var(--muted); width: 28mm; }
+table.grid td b { color: var(--accent); }
+
+/* greetings */
+table.greet { width: 100%; border-collapse: collapse; }
+table.greet td { padding: 1.4mm 0; border-bottom: .4pt solid var(--rule); vertical-align: baseline; }
+table.greet td.es { width: 38mm; font-weight: 700; font-size: 11pt; }
+table.greet td.en { width: 34mm; font-style: italic; color: var(--muted); }
+table.greet td.when { font-size: 8.8pt; color: var(--muted); }
+
+/* the alphabet */
+.abc { display: flex; flex-wrap: wrap; gap: 1.6mm; margin-bottom: 5mm; }
+.abc > div { width: 20.4mm; border: .5pt solid var(--rule); padding: 1.2mm 1.5mm 1.4mm; }
+.abc > div.new { border-color: var(--accent); background: var(--tint); }
+.abc .l { display: block; font: 700 13pt/1 "Charis"; }
+.abc .new .l { color: var(--accent); }
+.abc .n { display: block; font: italic 8.6pt/1.3 "Charis"; color: var(--ink); margin-top: .6mm; }
+.abc .x { display: block; font: 400 6.8pt/1.3 "Plex"; color: var(--muted); letter-spacing: .03em; }
+
+/* a culture note with dates spans the full width */
+.tips > div.wide { width: 100%; }
+table.dates { width: 100%; border-collapse: collapse; margin-top: 1.5mm; }
+table.dates td { padding: .8mm 0; border-bottom: .4pt solid var(--rule); vertical-align: baseline; font-size: 9pt; }
+table.dates td.es { width: 30mm; font: 600 8pt "Plex"; color: var(--accent); }
+table.dates td.en { font-style: normal; color: var(--ink); }
