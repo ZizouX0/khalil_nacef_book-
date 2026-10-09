@@ -1,0 +1,207 @@
+# Episodio 6 · ¿Maestra?
+# Sources: Textbook Lección 6 (pp. 64–68) and Workbook/Study Guide Lección 6 (pp. 56–61).
+# A review lesson. Words in vocab.core are the textbook's own Vocabulario list; the workbook has none.
+# The workbook's Resumen de gramática (Lecciones 1–5) is a pointer table; the present tense and
+# telling the time are grammar points with tables. Neither book has Pronunciación, ¡Aumenta tu
+# vocabulario! or a Nota cultural for this lesson: the culture note on the ONCE is added.
+
+episode: 6
+title: "¿Maestra?"
+title_en: Teacher?
+pages: "Textbook pp. 64–68 · Workbook pp. 56–61"
+
+essentials:
+  - "**The present tense, all six forms**: drop **-ar, -er, -ir** and add the endings: *hablo, hablas, habla, hablamos, habláis, hablan*. **-er** and **-ir** verbs differ only in *nosotros* and *vosotros*: *comemos · vivimos*."
+  - "**Ir** (to go) is irregular: *voy, vas, va, vamos, vais, van*. **Ir a** + infinitive = going to: *Vamos a visitar a mi abuela*."
+  - "**Question words** always carry an accent: *¿dónde?, ¿cómo?, ¿cuál?, ¿qué?, ¿quién?*, and *¿a qué hora?* for the time."
+  - "**At what time?** *a la una* (1:00), *a las ocho* (8:00) · *y cuarto* = quarter past · *y media* = half past · *menos cuarto* = quarter to."
+
+verbs:
+  table:
+    verb: ir
+    meaning: to go
+    irregular: true
+    forms:
+      - ["voy", "I go"]
+      - ["vas", "you go"]
+      - ["va", "he, she goes · you go"]
+      - ["vamos", "we go"]
+      - ["vais", "you go"]
+      - ["van", "they go · you go"]
+    hook: "**Voy** ends in **-oy**, like *soy* and *estoy*. The rest is just **v-** plus the *-ar* endings: v**as**, v**a**, v**amos**, v**ais**, v**an**."
+  notes:
+    - label: Two uses of *ir a*
+      text: "**ir a** + place: *Mañana voy a la casa de mis padres* (Tomorrow I'm going to my parents' house). **ir a** + infinitive = going to: *Vamos a visitar a mi abuela* (We're going to visit my grandmother)."
+    - label: Odd *yo* forms
+      text: "*soy, estoy, voy* end in **-oy**, and two more in this lesson end in **-go**: *tengo* (I have), *salgo* (I leave). Learn them as you meet them."
+  met:
+    - ["salgo · sale", "salir", "I leave · he / she leaves"]
+    - ["tengo", "tener", "I have"]
+    - ["encuentra", "encontrar", "he / she finds"]
+    - ["quieren", "querer", "they want"]
+    - ["¿qué pasa?", "pasar", "what happens? what's going on?"]
+
+grammar:
+  - title: "The present tense: the whole pattern"
+    rule: "Drop **-ar, -er, -ir** and add the ending for the person. Episode 3 gave you the *he / she* and *they* forms; here are all six. The ending already says who, so *yo, tú, nosotros…* are usually left out. **-er** and **-ir** verbs share every ending except *nosotros* and *vosotros*."
+    table:
+      head: ["", "hablar · to speak", "comer · to eat", "vivir · to live"]
+      rows:
+        - ["yo", "habl**o**", "com**o**", "viv**o**"]
+        - ["tú", "habl**as**", "com**es**", "viv**es**"]
+        - ["él · ella · Ud.", "habl**a**", "com**e**", "viv**e**"]
+        - ["nosotros/as", "habl**amos**", "com**emos**", "viv**imos**"]
+        - ["vosotros/as", "habl**áis**", "com**éis**", "viv**ís**"]
+        - ["ellos · ellas · Uds.", "habl**an**", "com**en**", "viv**en**"]
+    examples:
+      - ["Tú escribes mucho en la clase de inglés.", "You write a lot in English class."]
+      - ["A veces yo estudio en la cafetería.", "Sometimes I study in the cafeteria."]
+      - ["Los fines de semana nosotras trabajamos en un restaurante.", "On weekends we (women) work in a restaurant."]
+      - ["Vosotros debéis comprar dos libros para la clase de historia.", "You (all) must buy two books for history class."]
+    trap: "**Ud. · Uds.** (*usted · ustedes*) take the same form as *él · ellos*: *Uds. los profesores explic**an** bien las lecciones*. And **nosotras, vosotras** are for groups of women only."
+
+  - title: "Question words"
+    rule: "Every question word carries an accent, and the question opens with **¿**. A little word like *con* or *a* goes in front: *¿con quién?, ¿a qué hora?*"
+    examples:
+      - ["**¿Dónde** vives?", "Where do you live?"]
+      - ["**¿Cuál** es tu clase favorita?", "What is your favourite class?"]
+      - ["**¿Qué** estudias ahora mismo?", "What are you studying right now?"]
+      - ["**¿Quién** estudia contigo?", "Who studies with you?"]
+      - ["**¿Cómo** pasas los sábados?", "How do you spend Saturdays?"]
+      - ["**¿Con quién** cenas, generalmente?", "Who do you usually have dinner with?"]
+    trap: "*What is your…?* is **¿Cuál es…?**, not ~~¿Qué es tu clase favorita?~~ (*¿Qué es…?* asks for a definition). And a name is asked with **¿Cómo?** (*how*): *¿Cómo se llama?*"
+
+  - title: "At what time? a las…"
+    rule: "**¿A qué hora…?** = at what time…? Answer with **a la** + *una* (one o'clock is singular) or **a las** + any other hour. Add minutes with **y**, take them away with **menos**. **de… a…** = from… to…"
+    table:
+      head: ["", "Spanish", "English"]
+      rows:
+        - ["1:00", "**a la** una", "at one o'clock"]
+        - ["8:00", "**a las** ocho", "at eight o'clock"]
+        - ["6:15", "a las seis **y cuarto**", "at quarter past six"]
+        - ["7:30", "a las siete **y media**", "at half past seven"]
+        - ["10:45", "a las once **menos cuarto**", "at quarter to eleven"]
+    examples:
+      - ["¿A qué hora es tu primera clase?", "What time is your first class?"]
+      - ["Tengo clase de química a las ocho.", "I have chemistry class at eight."]
+      - ["Trabajo de las tres y media a las seis y cuarto.", "I work from half past three to quarter past six."]
+    trap: "**a la, a las** = *at*. To say what time it **is**, use *es · son*: *¿Qué hora es? Es la una. Son las ocho.* The *la · las* stand for *la hora · las horas*."
+
+  - title: "Review: already in your notebook"
+    rule: "The workbook opens with a summary of Lecciones 1–5. Nothing in it is new: if a line feels shaky, go back to that episode."
+    table:
+      head: ["", "in one line", "see"]
+      rows:
+        - ["ser", "who or what someone is, where from: *Mi padre es abogado. Yo soy de California.*", "Ep.\u00a01"]
+        - ["articles", "*los, unos* for men or a mixed group; *las, unas* for women only", "Ep.\u00a02"]
+        - ["mi, tu, su…", "agree with the thing owned: *mi hijo, su carta · mis guitarras, sus padres*", "Ep.\u00a02"]
+        - ["hay · no hay", "there is, there are · there isn't, there aren't", "Ep.\u00a03"]
+        - ["estar", "where and how: *Mi hermana está en Europa. Ella está muy contenta.*", "Ep.\u00a03"]
+        - ["a + person", "*El profesor busca a la estudiante.*", "Ep.\u00a03"]
+        - ["adjectives", "agree with the noun: *unos perros negros, las casas pequeñas, unos amigos fieles*", "Ep.\u00a04"]
+
+rules:
+  - ["**el · los** + day = on…, and days take no capital.", "El domingo Raquel acompaña a la familia. · Los sábados trabajo por la tarde."]
+  - ["**a casa** = (to) home · **en casa** = at home: no article.", "¿A qué hora vas a casa? · ¿Dónde comes? En casa."]
+  - ["**en** + transport = by", "Va en tren, no en avión. · Sale en taxi."]
+  - ["**salir de** … **para** … = to leave … for …", "Raquel sale de Sevilla para Madrid."]
+  - ["**conmigo** = with me · **contigo** = with you (*tú*)", "¿Quién estudia contigo?"]
+  - ["**maestro · maestra** teach grade school; a **profesor · profesora** usually teaches older students.", "Es maestra de primaria."]
+
+vocab:
+  core:
+    - group: Las personas
+      words:
+        - ["el ganador · la ganadora", "winner"]
+        - ["el maestro · la maestra", "grade-school teacher"]
+        - ["el reportero · la reportera", "reporter, journalist"]
+    - group: Las cosas
+      words:
+        - ["el premio", "prize"]
+  extra:
+    - group: Los días de la semana
+      words:
+        - ["el lunes · el martes", "Monday · Tuesday"]
+        - ["el miércoles · el jueves", "Wednesday · Thursday"]
+        - ["el viernes", "Friday"]
+        - ["el sábado · el domingo", "Saturday · Sunday"]
+        - ["el fin de semana", "weekend"]
+        - ["los fines de semana", "on weekends"]
+    - group: La vida de estudiante
+      words:
+        - ["el compañero · la compañera de cuarto", "roommate"]
+        - ["la clase de inglés", "English class"]
+        - ["la tarea", "homework"]
+        - ["el trabajo", "work; a (school) paper"]
+        - ["sacar (buenas) notas", "to get (good) grades"]
+        - ["la primaria", "grade school"]
+    - group: Los verbos
+      words:
+        - ["comer", "to eat; to have lunch"]
+        - ["cenar", "to have dinner"]
+        - ["comprender", "to understand"]
+        - ["conversar", "to talk, chat"]
+        - ["pasar (los sábados)", "to spend (Saturdays)"]
+        - ["salir (de)", "to leave (a place)"]
+        - ["correr", "to run"]
+        - ["vender", "to sell"]
+        - ["encontrar", "to find"]
+        - ["rechazar", "to reject, turn down"]
+    - group: De viaje · la lotería
+      words:
+        - ["el tren · el avión", "train · plane"]
+        - ["el rápido", "express train"]
+        - ["la estación (del tren)", "(train) station"]
+        - ["el sobre", "envelope"]
+        - ["el cupón · los cupones", "lottery ticket(s)"]
+        - ["la suerte", "luck"]
+        - ["ciego · ciega", "blind"]
+    - group: Para describir
+      words:
+        - ["contento · contenta", "happy"]
+        - ["solo · sola", "alone"]
+        - ["viejo · vieja", "old"]
+        - ["gravemente enfermo", "seriously ill"]
+    - group: Otras
+      words:
+        - ["siempre", "always"]
+        - ["luego", "then, later"]
+        - ["mañana", "tomorrow"]
+        - ["temprano", "early"]
+        - ["ahora mismo", "right now"]
+        - ["allí", "there"]
+        - ["por fin", "at last, finally"]
+        - ["por la tarde", "in the afternoon"]
+        - ["¡Qué bien!", "How great!"]
+  course:
+    - ["el resumen", "summary"]
+    - ["Un poco de todo", "a bit of everything"]
+    - ["la oración", "sentence"]
+    - ["la pregunta", "question"]
+    - ["el pronombre", "pronoun"]
+    - ["significa", "means"]
+
+cognates:
+  rule: "The textbook's tip for this lesson: when a word is new, **guess from the context**. Once you know *su buena suerte* = *your good luck*, *la ganadora del premio* can only be *the winner of the prize*. Many of the other new words follow patterns you already know."
+  harder:
+    - ["entrevistar", "to interview", "*entre* = inter-, *vista* = view"]
+    - ["el compartimiento", "compartment", "-miento = -ment"]
+    - ["acompañar", "to accompany", "think *compañero*, companion"]
+    - ["la lotería", "lottery", "-ía = -y, as in Episode 3"]
+    - ["generalmente · finalmente", "generally · finally", "-mente = -ly, as in Episode 3"]
+
+phrases:
+  - ["Perdone, pero no sé de qué habla.", "Excuse me, but I don't know what you're talking about."]
+  - ["Ud. estará muy contenta de su buena suerte.", "You must be very happy about your good luck."]
+  - ["Vivo en la residencia. · No tengo compañera de cuarto.", "I live in the dorm. · I don't have a roommate."]
+  - ["Estudio para la clase de inglés.", "I'm studying for English class."]
+  - ["Es muy temprano, pero tengo clase.", "It's very early, but I have class."]
+  - ["Conversamos de muchas cosas.", "We talk about lots of things."]
+  - ["Ceno con mi compañero de cuarto.", "I have dinner with my roommate."]
+  - ["Mi clase de ___ es a las ___.", "My ___ class is at ___."]
+  - ["Debo escribir muchos trabajos.", "I have to write a lot of papers."]
+  - ["Deseo hablar por teléfono con ___.", "I want to talk on the phone with ___."]
+
+culture:
+  - title: "El cupón de la ONCE"
+    body: "The *Organización Nacional de Ciegos* in the lesson is Spain's national organisation for the blind, the **ONCE** (*Organización Nacional de Ciegos Españoles*). It runs its own lottery: the tickets, **los cupones**, are sold in the street by blind sellers and other people with disabilities, which gives them work."
