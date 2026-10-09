@@ -277,7 +277,9 @@ def episode(ep):
         if v.get("course") and not ESSENTIAL:
             body += ('<div class="tier"><b>The book\'s own words.</b> Headings and instructions you will see in every lesson.</div>'
                      '<p class="course">' + "".join(f'<span><b>{esc(a)}</b> {esc(b)}</span>' for a, b in v["course"]) + '</p>')
-        o.append(sec("Vocabulario", "Words", body))
+        # the word list is read as one block: if it doesn't fit in what is left
+        # of the page, it starts on the next one instead of being cut in two
+        o.append(sec("Vocabulario", "Words", body, "keep"))
 
     c = ep.get("cognates") or {}
     if c and (not ESSENTIAL or c.get("patterns") or c.get("false_friends")):
