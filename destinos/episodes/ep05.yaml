@@ -1,0 +1,292 @@
+# Episodio 5 · La despedida
+# Sources: Textbook Lección 5 (pp. 51–63) and Workbook/Study Guide Lección 5 (pp. 43–55).
+# Words in vocab.core are the two books' own Vocabulario lists, under their own headings.
+# Telling time (the textbook's "¿Qué hora es?" box) and the days of the week are grammar points with tables.
+# Farewells (Conversaciones: Las despedidas) are in greetings. The verb card is ir (workbook Gramática 14).
+# The note on where the day names come from is not in the books: it is added as a memory hook.
+
+episode: 5
+title: La despedida
+title_en: The farewell
+pages: "Textbook pp. 51–63 · Workbook pp. 43–55"
+
+essentials:
+  - "**Telling time**: *¿Qué hora es?* · **Es la una** (only one o'clock is singular) · **Son las** dos, tres… Add minutes with **y** up to the half hour (*y cuarto, y media*), take them off the next hour with **menos** after it (*las cinco menos cuarto*). *¿A qué hora?* · *A las ocho de la mañana.*"
+  - "**Days and good-byes**: the days take no capital and the week starts on *lunes*. *El lunes* = on Monday, *los lunes* = on Mondays. Leaving: *Adiós* · *Hasta luego* · *Hasta mañana*."
+  - "**Ir** (to go): *voy, vas, va, vamos, vais, van*. **Ir a** + place = to go to (*Voy a Madrid*); **ir a** + infinitive = to be going to do (*Voy a buscar a la Sra. Suárez*)."
+  - "**We** ends in **-amos, -emos, -imos**: *hablamos, creemos, vivimos*. **You all** is *ustedes* (*hablan*) for any group, but in Spain friends and family get *vosotros* (*habláis*)."
+
+greetings:
+  - ["Adiós.", "Good-bye.", "The general good-bye; the one to use if you may not see the person again."]
+  - ["Hasta luego.", "See you later.", "Someone you expect or hope to see again, even a person you have just met."]
+  - ["Hasta mañana.", "See you tomorrow.", "Someone you will see tomorrow, like a friend or a classmate."]
+
+verbs:
+  table:
+    verb: ir
+    meaning: to go
+    irregular: true
+    forms:
+      - ["voy", "I go"]
+      - ["vas", "you go"]
+      - ["va", "he, she goes · you go"]
+      - ["vamos", "we go"]
+      - ["vais", "you go"]
+      - ["van", "they go · you go"]
+    hook: "Put **v-** in front of the -ar endings: v**as**, v**a**, v**amos**, v**ais**, v**an**. Only *voy* is odd, and it rhymes with *soy* and *estoy*."
+  notes:
+    - label: Four ways to say *you go*
+      text: "**vas** to a friend (*tú*), **va** politely (*usted*), **vais** to friends in Spain (*vosotros*), **van** to any group (*ustedes*). *Vais* has no accent: it is one syllable."
+  met:
+    - ["encontramos", "encontrar", "we find"]
+    - ["nos encontramos", "encontrarse", "we meet"]
+    - ["cenamos · cenan", "cenar", "we have dinner · they have dinner"]
+    - ["no comprendo", "comprender", "I don't understand"]
+    - ["corre", "correr", "he / she runs"]
+    - ["vende", "vender", "he / she sells"]
+    - ["comienza", "comenzar", "he / she begins"]
+    - ["se escapa", "escaparse", "he / she runs away"]
+    - ["asisto a", "asistir", "I attend"]
+    - ["hemos pasado", "pasar", "we have spent (a day)"]
+    - ["veo", "ver", "I see: irregular, taught in Lección 6"]
+
+grammar:
+  - title: "Telling time: ¿Qué hora es?"
+    rule: "One o'clock is singular, **es la una**; every other hour is plural, **son las dos, son las tres**: the *la · las* stands for *la hora*. Up to the half hour, add the minutes with **y**. After it, take them off the next hour with **menos**."
+    table:
+      head: ["", "Spanish", "time"]
+      rows:
+        - ["one o'clock", "**Es la** una.", "1:00"]
+        - ["other hours", "**Son las** dos. · **Son las** seis.", "2:00 · 6:00"]
+        - ["minutes past", "Son las dos **y** veinte. · Son las nueve **y** diez.", "2:20 · 9:10"]
+        - ["quarter, half", "Son las ocho **y cuarto**. · Son las diez **y media**.", "8:15 · 10:30"]
+        - ["minutes to", "Es la una **menos** diez. · Son las cinco **menos cuarto**.", "12:50 · 4:45"]
+    trap: "Still singular with minutes: *Es la una y media.* And the **¿Qué horas son?** you heard in the episode is the Mexican way of asking, also used by people of Mexican descent in the US."
+
+  - title: "At what time: a las…, de la mañana"
+    rule: "To say **at** a time, use **a la** or **a las**: *¿A qué hora…?* · *a la una* · *a las once y media*. To be precise, add the part of the day."
+    table:
+      head: ["", "Spanish", "English"]
+      rows:
+        - ["a.m.", "… **de la mañana**", "in the morning"]
+        - ["p.m., until dinner", "… **de la tarde**", "in the afternoon, early evening"]
+        - ["p.m., later", "… **de la noche**", "in the evening, at night"]
+    examples:
+      - ["Son las ocho y media de la mañana.", "It's eight thirty in the morning."]
+      - ["Son las tres menos cuarto de la tarde.", "It's a quarter to three in the afternoon."]
+      - ["Raquel y Jaime llegan tarde a la Giralda, a las doce.", "Raquel and Jaime get to the Giralda late, at 12:00."]
+    trap: "**tarde** alone means *late*; **la tarde** is the afternoon. In the same way, **mañana** = tomorrow and **la mañana** = the morning."
+
+  - title: "Days of the week: el lunes, los lunes"
+    rule: "The days take **no capital**, and the week starts on **lunes**, as calendars show. Use **el** for *on* and **los** for *every*."
+    table:
+      head: ["", "on one day", "every week"]
+      rows:
+        - ["lunes to viernes", "**el** lunes · **el** viernes", "**los** lunes · **los** viernes"]
+        - ["sábado, domingo", "**el** sábado · **el** domingo", "**los** sábado**s** · **los** domingo**s**"]
+    examples:
+      - ["Muchas personas van a la iglesia el domingo.", "Many people go to church on Sunday."]
+      - ["Los lunes, a las ocho de la mañana, asisto a mi clase de geografía.", "On Mondays, at eight in the morning, I attend my geography class."]
+    trap: "The article alone means *on*: never ~~en el lunes~~. *Lunes* to *viernes* already end in -s, so their plural doesn't change."
+
+  - title: "Two jobs for ir"
+    rule: "*Ir* (verb card above) is almost always followed by **a**."
+    uses:
+      - label: "ir a + place"
+        text: "Where someone is **going**."
+        examples:
+          - ["Voy a Madrid en tren.", "I'm going to Madrid by train."]
+          - ["¿Por qué no vamos al Alcázar?", "Why don't we go to the Alcázar?"]
+      - label: "ir a + inf."
+        text: "What someone is **going to do**: the near future."
+        examples:
+          - ["Voy a buscar a la Sra. Suárez.", "I'm going to look for Mrs. Suárez."]
+          - ["Tu papá y yo vamos a llevarla a la estación.", "Your dad and I are going to take her to the station."]
+    trap: "Keep the **a**: *Voy a estudiar*, never ~~Voy estudiar~~. And **a + el = al** (Episode 3): *vamos al mercado*."
+
+  - title: "The whole present tense: hablar, creer, vivir"
+    rule: "This lesson completes the present tense of regular verbs. New are **we** (*nosotros*) and **you all** in Spain (*vosotros*). Drop -ar, -er, -ir and add the ending."
+    table:
+      head: ["", "hablar", "creer", "vivir"]
+      rows:
+        - ["yo", "habl**o**", "cre**o**", "viv**o**"]
+        - ["tú", "habl**as**", "cre**es**", "viv**es**"]
+        - ["él · ella · usted", "habl**a**", "cre**e**", "viv**e**"]
+        - ["nosotros/as · new", "habl**amos**", "cre**emos**", "viv**imos**"]
+        - ["vosotros/as · new", "habl**áis**", "cre**éis**", "viv**ís**"]
+        - ["ellos · ellas · ustedes", "habl**an**", "cre**en**", "viv**en**"]
+    examples:
+      - ["Jaime y yo vivimos en el Barrio de Triana. Estudiamos en la escuela San Francisco de Paula.", "Jaime and I live in the Triana district. We study at St. Francis of Paula school."]
+      - ["Mamá dice que debemos estudiar más… y yo no comprendo.", "Mom says that we should study more… and I don't understand."]
+    trap: "Every *we* form ends in **-mos** (*somos, estamos, vamos*), so *nosotros* is usually left out. And -er and -ir verbs differ only here: cre**emos** · viv**imos**, cre**éis** · viv**ís**."
+
+  - title: "You all: vosotros or ustedes?"
+    rule: "Most Spanish speakers, Raquel included, say **ustedes** (Uds.) to any group, friends or strangers. In Spain, **vosotros/as** is for friends and family and **ustedes** is formal. The books use *Uds.*"
+    table:
+      head: ["", "one person", "a group in Spain", "a group elsewhere"]
+      rows:
+        - ["informal", "**tú**", "**vosotros/as**", "**ustedes**"]
+        - ["formal", "**usted** (Ud.)", "**ustedes** (Uds.)", "**ustedes**"]
+    examples:
+      - ["Elena: ¿Dónde deseáis cenar hoy?", "Where do you want to have dinner today? (*vosotros*)"]
+      - ["Raquel: ¿Dónde desean cenar hoy?", "The same question, with *ustedes*."]
+      - ["¿Qué creen Uds.?", "What do you all think?"]
+    trap: "**Ustedes** takes the *they* form (*desean, creen, viven*), so speakers often keep the word *ustedes* to make clear they mean *you*."
+
+rules:
+  - ["Personal **a** (Episode 3) also goes before a pet, but not before a place or a thing.", "Jaime busca a Osito. · Raquel visita España. Va a visitar a Teresa Suárez."]
+  - ["**¿Adónde?** = where to? (with *ir*) · **¿Dónde?** = where?", "¿Adónde van? · ¿Dónde vive esa persona?"]
+  - ["**salir de** = to leave (a place) · **salir para** = to leave for", "Raquel sale de México para Sevilla."]
+  - ["**en** + transport = by", "Voy a Madrid en tren."]
+  - ["**por la mañana · por la tarde · por la noche** when no clock time is given", "Trabaja por la noche. · El sábado por la noche…"]
+  - ["**más que** = more than", "Jaime necesita estudiar mucho más que yo."]
+  - ["**¿por qué?** = why? · **por eso** = that's why · **porque** = because", "¿Por qué no vamos? · Por eso Raquel debe ir a Madrid."]
+
+vocab:
+  core:
+    - group: Los verbos
+      words:
+        - ["cenar", "to have dinner"]
+        - ["comprender", "to understand"]
+        - ["correr", "to run"]
+        - ["vender", "to sell"]
+        - ["ver", "to see (yo: veo)"]
+        - ["ir (voy, vas, va…)", "to go"]
+        - ["dice · dicen", "he / she says · they say"]
+        - ["encuentra · encuentran", "he / she finds · they find"]
+        - ["se pierde", "he / she gets lost"]
+        - ["sale · salen", "he / she leaves · they leave"]
+    - group: Las personas
+      words:
+        - ["el ciego", "blind man"]
+        - ["el niño · la niña", "young boy · young girl"]
+    - group: ¿Qué hora es?
+      words:
+        - ["¿Qué hora es?", "What time is it?"]
+        - ["Es la una.", "It's one o'clock."]
+        - ["Son las dos (tres…).", "It's two (three…) o'clock."]
+        - ["… y cuarto", "… fifteen, quarter past"]
+        - ["… y media", "… thirty, half past"]
+        - ["… de la mañana", "a.m., in the morning"]
+        - ["… de la tarde", "p.m., in the afternoon"]
+        - ["… de la noche", "p.m., in the evening, at night"]
+        - ["¿A qué hora…?", "At what time…?"]
+        - ["a la… · a las…", "at…"]
+    - group: Los días de la semana
+      words:
+        - ["lunes", "Monday"]
+        - ["martes", "Tuesday"]
+        - ["miércoles", "Wednesday"]
+        - ["jueves", "Thursday"]
+        - ["viernes", "Friday"]
+        - ["sábado", "Saturday"]
+        - ["domingo", "Sunday"]
+    - group: Las despedidas
+      words:
+        - ["Adiós.", "Good-bye."]
+        - ["Hasta luego.", "See you later. Until later."]
+        - ["Hasta mañana.", "See you tomorrow."]
+    - group: Las palabras adicionales
+      words:
+        - ["hoy", "today"]
+        - ["más", "most; more"]
+        - ["nosotros · nosotras", "we"]
+        - ["vosotros · vosotras", "you, plural (informal, Spain)"]
+        - ["ustedes (Uds.)", "you, plural (formal)"]
+        - ["ir a (+ inf.)", "to be going to (do something)"]
+  extra:
+    - group: La hora y los días
+      words:
+        - ["la hora", "hour; time"]
+        - ["el día · la semana", "day · week"]
+        - ["un día libre", "a day off"]
+        - ["hasta", "until"]
+        - ["siempre", "always"]
+    - group: Lugares y cosas
+      words:
+        - ["la estación (del tren)", "(train) station"]
+        - ["el tren · el billete", "train · ticket"]
+        - ["el restaurante", "restaurant"]
+        - ["la cafetería", "cafeteria, café"]
+        - ["la mezquita · la sinagoga", "mosque · synagogue"]
+        - ["el cupón de la lotería", "lottery ticket"]
+        - ["los caramelos", "sweets, candy"]
+        - ["la fiesta", "party"]
+        - ["el partido", "game, match"]
+        - ["la película", "film, movie"]
+    - group: Verbos útiles
+      words:
+        - ["comer", "to eat"]
+        - ["salir (de)", "to leave"]
+        - ["quedarse", "to stay"]
+        - ["acompañar", "to accompany"]
+        - ["sacar buenas notas", "to get good grades"]
+        - ["usar", "to use"]
+    - group: Otras
+      words:
+        - ["juntos · juntas", "together"]
+        - ["a solas", "alone"]
+        - ["por todas partes", "everywhere"]
+        - ["por fin", "at last"]
+        - ["otra vez", "again"]
+        - ["claro", "of course"]
+        - ["cerrado · cerrada", "closed"]
+        - ["el rey · los reyes", "king · kings"]
+  course:
+    - ["Preguntas · Respuestas", "questions · answers"]
+    - ["Frases útiles", "useful phrases"]
+    - ["¿Quiénes hablan?", "who is speaking? (more than one)"]
+    - ["¿Qué haces? · ¿Qué hacemos?", "what do you do? · what do we do?"]
+    - ["¿Qué deseas saber?", "what do you want to know?"]
+
+cognates:
+  rule: "One new ending, **-ante · -ente**, and **-ura** again from Episode 4. Adjectives with the new ending have one form for men and women: *un restaurante elegante, una persona inteligente*."
+  patterns:
+    - ["-ante", "-ant", "elegante, tolerante", "elegant, tolerant"]
+    - ["-ente", "-ent", "inteligente, excelente", "intelligent, excellent"]
+    - ["-ante · -ente", "-ing", "interesante, fascinante", "interesting, fascinating"]
+    - ["-ura", "-ure", "cultura, escultura", "culture, sculpture"]
+  harder:
+    - ["la pintura", "painting", "think *paint*: here -ura is not -ure"]
+    - ["desgraciadamente", "unfortunately", "think *disgrace*, and -mente = -ly"]
+    - ["la convivencia", "living together", "*con* + *vivir*"]
+    - ["el horario", "schedule, timetable", "think *hour*"]
+  false_friends:
+    - ["el fútbol", "football, soccer", "American football", "el fútbol americano"]
+
+sounds:
+  - title: "Rule 1: vowel, -n or -s"
+    body: "Stress the next-to-last syllable: **hi**jo, Fer**nan**do, fasci**nan**te, **ce**nan, e**xa**men, a**bue**los."
+  - title: "Rule 2: any other consonant"
+    body: "Stress the last syllable: pregun**tar**, universi**dad**, direc**tor**, Ra**quel**, espa**ñol**, cultu**ral**."
+  - title: "Rule 3: exceptions get an accent"
+    body: "A word that breaks Rules 1 and 2 marks its stress: **sá**bado, in**glés**, reli**gión**, Ra**món**, **Suá**rez, tam**bién**, **miér**coles, **mú**sica."
+  - title: "Why lección loses its accent"
+    body: "In *lecciones* the stress falls where Rule 1 puts it, so no mark is needed (Episode 2). An accent can also change the word: *esta* = this, *está* = is."
+  - title: "An accent on i or u splits the vowels"
+    body: "The marked **í** or **ú** becomes a syllable of its own: psicolo**gí**a, sociolo**gí**a, Andalu**cí**a, desa**fí**o."
+  - title: "a, e, o never blend"
+    body: "Two of them side by side are two syllables: a·e·ro·puer·to, re·or·ga·ni·zar, ca·os, pa·e·lla."
+
+phrases:
+  - ["¿Qué hora es? · Son las diez y media.", "What time is it? · It's half past ten."]
+  - ["¿A qué hora…? · A la una. · A las once y media.", "At what time…? · At one. · At half past eleven."]
+  - ["¿Dónde nos encontramos?", "Where shall we meet?"]
+  - ["Llego a la universidad a las ocho de la mañana.", "I get to the university at eight in the morning."]
+  - ["Trabaja hasta muy tarde.", "She works until very late."]
+  - ["El sábado mis amigos y yo vamos a un partido de fútbol americano.", "On Saturday my friends and I are going to a football game."]
+  - ["El domingo mi padre no va a salir de casa.", "On Sunday my father isn't going to leave the house."]
+  - ["salir de casa · ver una película · ir a una fiesta · ir a la casa de ___", "leave home · see a film · go to a party · go to ___'s house"]
+  - ["¡Qué día hemos pasado!", "What a day we've had!"]
+  - ["Vamos a ver…", "We'll see… · Let's see…"]
+
+culture:
+  - title: "Hablando de la hora"
+    body: "Lunch is around 2:00, dinner at 10:00 or later, so **la tarde** lasts until dinner: *las ocho de la tarde* is 8 in the **evening**. Timetables and TV use the **24-hour clock**: **15:00** = 3 p.m."
+  - title: "Memory hook: the names of the days"
+    body: "Most come from the Moon and the planets, like *Monday*: **lunes** la Luna, **martes** Marte (Mars), **miércoles** Mercurio, **jueves** Júpiter, **viernes** Venus. **Sábado** is the Sabbath; **domingo**, the Lord's day."
+  - title: "La España árabe (711–1492)"
+    body: "Arab influence is strongest in **Andalucía**. Arab art never shows the human figure: it uses curved lines and geometric designs. For long periods Christians, Arabs and Jews lived and worked side by side: *la convivencia*. Three great monuments: **la Mezquita de Córdoba**, a mosque that is today a cathedral; **la Alhambra de Granada**, palace of the Moorish kings; **el Alcázar de Sevilla**, in *mudéjar* style (Arab decoration on Christian architecture)."
+    rows:
+      - ["711", "The Arabs invade the Iberian Peninsula; within seven years they rule it all except the Basque Country and part of Asturias."]
+      - ["1492", "The Catholic Monarchs, Isabel de Castilla and Fernando de Aragón, take Granada, the last Moorish kingdom. Jews who will not convert must leave Spain. Columbus sails to the New World."]
