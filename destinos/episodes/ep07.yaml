@@ -184,6 +184,7 @@ vocab:
       words:
         - ["el mensaje", "message"]
     - group: Los números
+      see: "Gramática, Numbers 21–99"
       words:
         - ["treinta · cuarenta", "30 · 40"]
         - ["cincuenta · sesenta", "50 · 60"]
@@ -191,6 +192,7 @@ vocab:
         - ["noventa", "90"]
         - ["mil novecientos…", "nineteen hundred…"]
     - group: La cortesía
+      see: "Gramática, Asking politely"
       words:
         - ["me gustaría + inf.", "I would really like to…"]
         - ["¿me permite…?", "may I please have…?"]

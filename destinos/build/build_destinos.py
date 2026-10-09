@@ -257,8 +257,14 @@ def episode(ep):
         v = ep["vocab"]
         body = ""
         if v.get("core"):
+            shown = [g for g in v["core"] if not g.get("see")]
+            elsewhere = [g for g in v["core"] if g.get("see")]
             body += ('<div class="tier"><b>Learn these first.</b> The lesson\'s own word list.</div>'
-                     f'<div class="vocab">{word_groups(v["core"])}</div>')
+                     f'<div class="vocab">{word_groups(shown)}</div>')
+            if elsewhere:
+                body += ('<p class="elsewhere"><span class="lbl">Also on the list</span>'
+                         + " · ".join(f'<b>{esc(g["group"])}</b>: see {esc(g["see"])} above' for g in elsewhere)
+                         + '</p>')
         if v.get("extra"):
             body += ('<div class="tier"><b>Recognise these.</b> Also met in the episode, the textbook and the workbook.</div>'
                      f'<div class="vocab">{word_groups(v["extra"])}</div>')
@@ -312,8 +318,10 @@ def episode(ep):
         o.append(sec("Cultura", "Good to know", body, "keep"))
 
     # a few ruled lines for whatever else the episode taught you
-    lines = '<div class="l"></div>' * int(ep.get("note_lines", 6))
-    o.append(sec("Mis notas", "Your own", f'<div class="lines">{lines}</div>', "keep"))
+    # off by default: on most episodes the lines ended up alone on a page
+    if ep.get("note_lines"):
+        lines = '<div class="l"></div>' * int(ep["note_lines"])
+        o.append(sec("Mis notas", "Your own", f'<div class="lines">{lines}</div>', "keep"))
     return "".join(o)
 
 

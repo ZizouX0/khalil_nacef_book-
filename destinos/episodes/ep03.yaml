@@ -172,6 +172,7 @@ vocab:
         - ["diecinueve · veinte", "19 · 20"]
         - ["veintiuno", "21"]
     - group: Más saludos
+      see: "Saludos"
       words:
         - ["me llamo…", "my name is…"]
         - ["mucho gusto", "pleased to meet you"]

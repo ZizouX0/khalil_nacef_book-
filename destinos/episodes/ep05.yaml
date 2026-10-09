@@ -162,6 +162,7 @@ vocab:
         - ["el ciego", "blind man"]
         - ["el niño · la niña", "young boy · young girl"]
     - group: ¿Qué hora es?
+      see: "Gramática, Telling time"
       words:
         - ["¿Qué hora es?", "What time is it?"]
         - ["Es la una.", "It's one o'clock."]
@@ -183,6 +184,7 @@ vocab:
         - ["sábado", "Saturday"]
         - ["domingo", "Sunday"]
     - group: Las despedidas
+      see: "Despedidas"
       words:
         - ["Adiós.", "Good-bye."]
         - ["Hasta luego.", "See you later. Until later."]

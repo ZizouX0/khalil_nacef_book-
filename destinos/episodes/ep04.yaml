@@ -136,6 +136,7 @@ vocab:
         - ["perdido · perdidos", "lost"]
         - ["primero · primeros", "first"]
     - group: Las presentaciones
+      see: "Gramática, Introducing people"
       words:
         - ["éste es…", "this is… (one male)"]
         - ["ésta es…", "this is… (one female)"]

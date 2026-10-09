@@ -32,7 +32,7 @@
 
 @page {
   size: A4;
-  margin: 20mm 19mm 21mm 19mm;
+  margin: 17mm 17mm 18mm 17mm;
   @top-left {
     content: string(headl);
     font: 500 8pt "Plex"; letter-spacing: .12em; text-transform: uppercase;
@@ -50,7 +50,7 @@
 }
 @page cover { margin: 0; @bottom-right { content: none; } }
 
-html { font-family: "Charis"; font-size: 10.8pt; line-height: 1.45; color: var(--ink);
+html { font-family: "Charis"; font-size: 10.8pt; line-height: 1.38; color: var(--ink);
        hyphens: manual; }
 body { margin: 0; }
 p { margin: 0 0 .55em; }
@@ -85,8 +85,8 @@ s.wrong { text-decoration: line-through; text-decoration-color: var(--accent); c
 
 /* ---------------------------------------------------------------- sections */
 /* the name of a section sits above it, underlined in the accent colour */
-.sec { margin: 0 0 8mm; }
-.sec > .sh { display: block; margin: 0 0 3mm; padding-bottom: 1.4mm;
+.sec { margin: 0 0 5.5mm; }
+.sec > .sh { display: block; margin: 0 0 2.2mm; padding-bottom: 1mm;
              border-bottom: 1pt solid var(--accent); break-after: avoid; }
 .sh .es { font: 600 9.5pt/1.2 "Plex"; letter-spacing: .12em; text-transform: uppercase;
           color: var(--accent); }
@@ -105,123 +105,125 @@ ol.toc .n { display: inline-block; width: 10mm; font: 600 9.5pt "Plex"; color: v
 ol.toc i { color: var(--muted); font-size: 10pt; margin-left: 1.5mm; }
 
 /* ---------------------------------------------------------------- opener */
-.opener { break-before: page; position: relative; margin-bottom: 8mm; padding-top: 2mm; }
+.opener { break-before: page; position: relative; margin-bottom: 5mm; padding-top: 0; }
 .opener .num { position: absolute; left: 0; top: 0; width: var(--side); }
 .opener .num .lbl { display: block; color: var(--muted); }
-.opener .num .n { display: block; font: 700 76pt/0.95 "Charis"; color: var(--accent); margin-top: 1mm; }
+.opener .num .n { display: block; font: 700 58pt/0.95 "Charis"; color: var(--accent); margin-top: 1mm; }
 .opener .num .w { display: block; font: italic 10pt "Charis"; color: var(--muted); margin-top: 1mm; }
-.opener .title { margin-left: var(--side); padding-top: 5.5mm; }
-.opener h1 { font: 400 40pt/1 "Charis"; margin: 0; letter-spacing: -.01em; }
+.opener .title { margin-left: var(--side); padding-top: 3.5mm; }
+.opener h1 { font: 400 34pt/1 "Charis"; margin: 0; letter-spacing: -.01em; }
 .opener .en { font: italic 14pt "Charis"; color: var(--muted); margin-top: 1.5mm; }
-.opener .where { margin-top: 4mm; font: 500 8.5pt "Plex"; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.opener .where { margin-top: 2.5mm; font: 500 8.5pt "Plex"; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
 
 .route { margin: 9mm 0 9mm var(--side); }
 .route svg { width: 133mm; height: auto; display: block; }
 
 /* the minute-long version of the lesson */
-ol.ess { list-style: none; margin: 0; padding: 4mm 5mm 2mm; background: var(--tint); counter-reset: e; }
-ol.ess li { counter-increment: e; position: relative; padding-left: 8mm; margin-bottom: 2.4mm; line-height: 1.45; }
+ol.ess { list-style: none; margin: 0; padding: 3mm 5mm 1mm; background: var(--tint); counter-reset: e; }
+ol.ess li { counter-increment: e; position: relative; padding-left: 8mm; margin-bottom: 2mm; line-height: 1.4; }
 ol.ess li::before { content: counter(e); position: absolute; left: 0; top: -.05em;
                     font: 700 14pt/1 "Charis"; color: var(--accent); }
 
 /* ---------------------------------------------------------------- Spanish | English */
 /* Spanish on the left, English on the right: cover a column to revise */
 table.pairs { width: 100%; border-collapse: collapse; }
-table.pairs td { padding: 1.2mm 0; border-bottom: .4pt solid var(--rule); vertical-align: baseline; }
+table.pairs td { padding: .75mm 0; border-bottom: .4pt solid var(--rule); vertical-align: baseline; }
 table.pairs td.es { width: 50%; padding-right: 5mm; }
 table.pairs td.en { font-style: italic; color: var(--muted); font-size: 9.8pt; }
 p.aside { margin-top: 2.5mm; font-size: 10pt; color: var(--muted); }
 p.aside b { color: var(--ink); }
 
-table.ex { border-collapse: collapse; margin: 1.5mm 0 2.5mm; width: 100%; }
-table.ex td { padding: .9mm 0; vertical-align: baseline; }
+table.ex { border-collapse: collapse; margin: 1mm 0 1.6mm; width: 100%; }
+table.ex td { padding: .45mm 0; vertical-align: baseline; }
 table.ex td.es { width: 50%; padding-left: 4mm; padding-right: 4mm; font-size: 11pt; }
 table.ex td.en { font-style: italic; color: var(--muted); font-size: 9.8pt; }
 
 table.phr { width: 100%; border-collapse: collapse; }
-table.phr td { padding: 1.4mm 0; border-bottom: .4pt solid var(--rule); vertical-align: baseline; }
+table.phr td { padding: .8mm 0; border-bottom: .4pt solid var(--rule); vertical-align: baseline; }
 table.phr td.es { width: 52%; padding-right: 5mm; font-size: 11pt; }
 table.phr td.en { font-style: italic; color: var(--muted); font-size: 9.8pt; }
 
 .lines .l { height: 8.5mm; border-bottom: .5pt solid var(--rule); }
 
 /* ---------------------------------------------------------------- the verb */
-.vhead { margin-bottom: 2.5mm; break-after: avoid; }
+.vhead { margin-bottom: 1.6mm; break-after: avoid; }
 .conj2 { break-inside: avoid; }
 .note { break-inside: avoid; }
 .vhead .v { font: 700 26pt/1 "Charis"; color: var(--accent); margin-right: 3mm; }
 .vhead .mean { font: italic 12.5pt "Charis"; color: var(--muted); margin-right: 3mm; }
 .vhead .lbl { color: var(--muted); }
-.conj2 { display: flex; gap: 8mm; margin-bottom: 3.5mm; }
+.conj2 { display: flex; gap: 8mm; margin-bottom: 2.4mm; }
 .conj2 table.cj { flex: none; width: calc(50% - 4mm); }
 table.cj { border-collapse: collapse; border-top: 1pt solid var(--ink); border-bottom: 1pt solid var(--ink); }
 table.cj th { font: 500 8pt "Plex"; letter-spacing: .12em; text-transform: uppercase; color: var(--faint);
-              text-align: left; padding: 1.4mm 0 .8mm; }
-table.cj td { padding: 1.5mm 0; border-top: .4pt solid var(--rule); vertical-align: baseline; }
+              text-align: left; padding: 1mm 0 .5mm; }
+table.cj td { padding: 1mm 0; border-top: .4pt solid var(--rule); vertical-align: baseline; }
 table.cj td.p { font: 400 8.4pt/1.25 "Plex"; color: var(--muted); width: 25mm; padding-right: 2mm; }
 table.cj td.f { font-weight: 700; font-size: 14pt; width: 1%; white-space: nowrap; padding-right: 4mm; }
 table.cj td.f b { color: var(--accent); }
 table.cj td.m { font-style: italic; color: var(--muted); font-size: 9.8pt; }
-.note { position: relative; padding-left: 36mm; margin: 2mm 0; }
+.note { position: relative; padding-left: 36mm; margin: 1.3mm 0; }
 .note > .lbl:first-child { position: absolute; left: 0; top: .2em; width: 33mm; line-height: 1.3; }
 .note > .lbl i { font-style: normal; text-transform: none; letter-spacing: .02em; }
-div.met { margin-top: 4mm; }
+div.met { margin-top: 2.6mm; }
 div.met > .lbl { display: block; color: var(--ink); border-bottom: .8pt solid var(--ink); padding-bottom: 1mm; margin-bottom: .5mm; break-after: avoid; }
 table.met tr, table.rules tr, table.phr tr, table.pairs tr { break-inside: avoid; }
 table.met { width: 100%; border-collapse: collapse; }
-table.met td { padding: 1.1mm 0; border-bottom: .4pt solid var(--rule); vertical-align: baseline; }
+table.met td { padding: .7mm 0; border-bottom: .4pt solid var(--rule); vertical-align: baseline; }
 table.met td.form { width: 50mm; font-weight: 700; padding-right: 3mm; }
 table.met td.inf { width: 30mm; color: var(--muted); }
 table.met td.en { font-style: italic; color: var(--muted); font-size: 9.8pt; }
 
 /* ---------------------------------------------------------------- grammar */
-.gpoint { break-inside: avoid; margin-bottom: 7mm; }
-.gpoint h3 { font: 700 13pt/1.25 "Charis"; margin: 0 0 1.8mm; }
-.uses { display: flex; gap: 8mm; margin: 1mm 0 2mm; }
+.gpoint { margin-bottom: 4.5mm; }
+.gpoint h3 { break-after: avoid; }
+.gpoint p { orphans: 2; widows: 2; }
+.gpoint h3 { font: 700 13pt/1.25 "Charis"; margin: 0 0 1.2mm; }
+.uses { display: flex; gap: 8mm; margin: .6mm 0 1.2mm; break-inside: avoid; }
 .uses > div { flex: 1; }
 .uses .tag { display: inline-block; font: 600 9.5pt "Plex"; color: #fff; background: var(--accent);
              padding: .6mm 2.2mm; margin-bottom: 1.4mm; letter-spacing: .04em; }
 .uses p { margin-bottom: 1mm; }
 .uses table.ex td.es { width: 54%; padding-left: 0; }
 table.rules { width: 100%; border-collapse: collapse; }
-table.rules td { padding: 1.5mm 0; border-bottom: .4pt solid var(--rule); vertical-align: baseline; }
+table.rules td { padding: .85mm 0; border-bottom: .4pt solid var(--rule); vertical-align: baseline; }
 table.rules td.r { width: 50%; padding-right: 5mm; }
 table.rules td.x { font-style: italic; font-size: 10.4pt; }
 
 /* reference tables inside a grammar point */
-table.grid { width: 100%; border-collapse: collapse; margin: 1.5mm 0 2.5mm;
+table.grid { width: 100%; border-collapse: collapse; margin: 1mm 0 1.6mm; break-inside: avoid;
              border-top: 1pt solid var(--ink); border-bottom: 1pt solid var(--ink); }
 table.grid th { font: 500 8pt "Plex"; letter-spacing: .1em; text-transform: uppercase; color: var(--faint);
-                text-align: left; padding: 1.4mm 3mm .8mm 0; }
-table.grid td { padding: 1.4mm 3mm 1.4mm 0; border-top: .4pt solid var(--rule); vertical-align: baseline; }
+                text-align: left; padding: 1mm 3mm .5mm 0; }
+table.grid td { padding: .85mm 3mm .85mm 0; border-top: .4pt solid var(--rule); vertical-align: baseline; }
 table.grid td:first-child { font: 500 8.6pt "Plex"; color: var(--muted); width: 34mm; }
 table.grid td b { color: var(--accent); }
 
 /* ---------------------------------------------------------------- words */
-.tier { font-size: 10pt; color: var(--muted); margin: 0 0 2.5mm; break-after: avoid; }
+.tier { font-size: 10pt; color: var(--muted); margin: 0 0 1.6mm; break-after: avoid; }
 .tier b { color: var(--ink); }
 .vocab + .tier { margin-top: 1mm; }
 .vocab { columns: 2; column-gap: 10mm; }
-.vgroup { margin-bottom: 5mm; }
+.vgroup { margin-bottom: 3.2mm; }
 /* a long group may run on to the next column, but never leaves its heading behind */
 .vgroup .lbl { break-after: avoid; }
 table.words tr { break-inside: avoid; }
 .vgroup .lbl { display: block; color: var(--ink); border-bottom: .8pt solid var(--ink);
                padding-bottom: 1mm; margin-bottom: 1mm; }
 table.words { width: 100%; border-collapse: collapse; }
-table.words td { padding: 1.1mm 0; border-bottom: .4pt solid var(--rule); vertical-align: baseline; }
+table.words td { padding: .6mm 0; border-bottom: .4pt solid var(--rule); vertical-align: baseline; }
 table.words td.es { width: 56%; padding-right: 3mm; }
 table.words td.en { font-style: italic; color: var(--muted); font-size: 9.8pt; }
-p.course { font-size: 10pt; line-height: 1.75; color: var(--muted); }
+p.course { font-size: 10pt; line-height: 1.6; color: var(--muted); }
 p.course span { display: inline-block; margin-right: 5mm; }
 p.course b { color: var(--ink); font-weight: 400; }
 
 /* ---------------------------------------------------------------- cognates */
-.lbl.sub { display: block; margin: 4mm 0 1.4mm; }
+.lbl.sub { display: block; margin: 2.8mm 0 1mm; }
 table.pat, table.ff { width: 100%; border-collapse: collapse; }
 table.pat th { font: 500 8pt "Plex"; letter-spacing: .1em; text-transform: uppercase; color: var(--faint);
                text-align: left; padding: 0 0 .8mm; border-bottom: .8pt solid var(--ink); }
-table.pat td, table.ff td { padding: 1.3mm 0; border-bottom: .4pt solid var(--rule); vertical-align: baseline; }
+table.pat td, table.ff td { padding: .75mm 0; border-bottom: .4pt solid var(--rule); vertical-align: baseline; }
 table.pat td.s { width: 32mm; font-weight: 700; color: var(--accent); padding-right: 2mm; }
 table.pat td.e { width: 18mm; font-weight: 700; }
 table.pat td.es { width: 62mm; padding-right: 3mm; }
@@ -232,28 +234,33 @@ table.ff td.not b { font-style: normal; color: var(--ink); font-weight: 400; }
 table.harder td:nth-child(2) { white-space: nowrap; padding-right: 5mm; }
 
 /* ---------------------------------------------------------------- pronunciation, culture */
-.tips { display: flex; flex-wrap: wrap; gap: 5mm 8mm; }
+.tips { display: flex; flex-wrap: wrap; gap: 3.2mm 8mm; }
 .tips > div { width: calc(50% - 4mm); }
 .tips > div.wide { width: 100%; }
-.tips h4 { font: 700 11pt/1.25 "Charis"; margin: 0 0 1mm; }
+.tips h4 { font: 700 11pt/1.25 "Charis"; margin: 0 0 .6mm; }
 .tips p { margin: 0; font-size: 10.2pt; }
 table.dates { width: 100%; border-collapse: collapse; margin-top: 2mm; }
-table.dates td { padding: 1mm 0; border-bottom: .4pt solid var(--rule); vertical-align: baseline; font-size: 10pt; }
+table.dates td { padding: .55mm 0; border-bottom: .4pt solid var(--rule); vertical-align: baseline; font-size: 10pt; }
 table.dates td.es { width: 38mm; font: 600 9pt "Plex"; color: var(--accent); }
 table.dates td.en { font-style: normal; color: var(--ink); }
 
 /* greetings */
 table.greet { width: 100%; border-collapse: collapse; }
-table.greet td { padding: 1.6mm 0; border-bottom: .4pt solid var(--rule); vertical-align: baseline; }
+table.greet td { padding: .9mm 0; border-bottom: .4pt solid var(--rule); vertical-align: baseline; }
 table.greet td.es { width: 56mm; font-weight: 700; font-size: 12pt; padding-right: 3mm; }
 table.greet td.en { width: 46mm; font-style: italic; color: var(--muted); padding-right: 3mm; }
 table.greet td.when { font-size: 10pt; color: var(--muted); }
 
 /* the alphabet */
-.abc { display: flex; flex-wrap: wrap; gap: 1.4mm; margin-bottom: 5mm; }
-.abc > div { width: 24mm; border: .5pt solid var(--rule); padding: 1.4mm 1.5mm 1.6mm; }
+.abc { display: flex; flex-wrap: wrap; gap: 1.4mm; margin-bottom: 3.5mm; }
+.abc > div { width: 24.6mm; border: .5pt solid var(--rule); padding: 1mm 1.5mm 1.1mm; }
 .abc > div.new { border-color: var(--accent); background: var(--tint); }
 .abc .l { display: block; font: 700 15pt/1 "Charis"; }
 .abc .new .l { color: var(--accent); }
 .abc .n { display: block; font: italic 10pt/1.3 "Charis"; color: var(--ink); margin-top: .8mm; }
 .abc .x { display: block; font: 400 8pt/1.3 "Plex"; color: var(--muted); letter-spacing: .03em; }
+
+/* word-list groups already printed in their own section */
+p.elsewhere { font-size: 10pt; color: var(--muted); margin: -.5mm 0 3mm; }
+p.elsewhere .lbl { margin-right: 2.5mm; }
+p.elsewhere b { color: var(--ink); font-weight: 700; }

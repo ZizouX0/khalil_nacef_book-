@@ -171,6 +171,7 @@ vocab:
       words:
         - ["segundo · segunda", "second"]
     - group: Los agradecimientos
+      see: "Gracias"
       words:
         - ["(Muchas) gracias.", "(Many) thanks."]
         - ["De nada.", "You're welcome."]
