@@ -1,0 +1,62 @@
+/* Destinos · exercises. Loaded after destinos.css: same fonts, sizes and
+   colours, plus what a page you write on needs — lines, gaps and numbers. */
+
+/* the opener is smaller than the notebook's: the page is for writing */
+.opener.exop { margin-bottom: 4mm; }
+.opener.exop .num .n { font-size: 44pt; }
+.opener.exop h1 { font-size: 28pt; }
+.opener.exop .title { padding-top: 2.5mm; }
+
+.exset { margin-bottom: 5mm; }
+.exset p.instr { break-after: avoid; }
+.exset .wlines, .exset p.prompt { break-inside: avoid; }
+.exset .sh .es { display: inline; }
+.setl { display: inline-block; min-width: 5.5mm; font: 700 10pt "Plex"; color: #fff;
+        background: var(--accent); text-align: center; margin-right: 2.2mm; padding: 0 1mm; }
+p.instr { margin: 0 0 1.6mm; font-size: 10.2pt; color: var(--muted); font-style: italic; }
+p.prompt { margin: 0 0 1mm; }
+
+ol.items { list-style: none; margin: 0; padding: 0; counter-reset: it; }
+ol.items > li { counter-increment: it; position: relative; padding-left: 7mm; margin: 0 0 2.1mm;
+                line-height: 1.55; break-inside: avoid; }
+ol.items > li::before { content: counter(it); position: absolute; left: 0; top: .1em;
+                        font: 600 9pt "Plex"; color: var(--accent); }
+
+/* a gap to fill in the sentence, a line under a sentence to rewrite or translate */
+.gap { display: inline-block; width: 26mm; border-bottom: .7pt solid var(--ink); height: .9em; vertical-align: -.1em; }
+.cue { font-style: italic; color: var(--muted); font-size: 9.8pt; }
+.cue::before { content: "("; } .cue::after { content: ")"; }
+.aline { height: 7mm; border-bottom: .6pt solid var(--rule); margin-right: 2mm; }
+
+/* choices */
+.opts { font: 500 9.6pt "Plex"; color: var(--muted); white-space: nowrap; margin-left: 1.5mm; }
+.opt { border: .6pt solid var(--rule); padding: 0 1.6mm; }
+.or { margin: 0 1.2mm; color: var(--faint); }
+
+/* one-word recall, in two columns */
+ol.items.words { columns: 2; column-gap: 10mm; break-inside: avoid; }
+ol.items.words > li { display: flex; align-items: flex-end; gap: 3mm; margin-bottom: 2.6mm; }
+ol.items.words .q { flex: none; max-width: 45mm; }
+ol.items.words .blank { flex: 1; border-bottom: .6pt solid var(--rule); height: 1.1em; }
+
+/* free writing */
+.wlines .wline { height: 8.5mm; border-bottom: .5pt solid var(--rule); }
+
+/* front page: the index and how to use the book */
+.howto { margin: 9mm 0 0 var(--side); }
+.howto .lbl { display: block; margin-bottom: 2mm; }
+.howto ol { margin: 0; padding-left: 5mm; }
+.howto li { margin-bottom: 1.6mm; }
+
+/* answers */
+.keypart h2.keyh { font: 400 26pt/1.1 "Charis"; margin: 0 0 5mm; }
+.keyep { break-inside: avoid; margin-bottom: 4.5mm; }
+.keyep h3 { font: 700 11pt "Charis"; margin: 0 0 1.4mm; padding-bottom: .8mm;
+            border-bottom: 1pt solid var(--accent); }
+p.kset { margin: 0 0 1.4mm; font-size: 9.8pt; line-height: 1.5; }
+p.kset .setl { font-size: 8.6pt; min-width: 4.6mm; margin-right: 1.6mm; }
+.k { margin-right: 2.6mm; }
+.k .kn { font: 600 8.6pt "Plex"; color: var(--accent); margin-right: 1mm; }
+.k b { font-weight: 700; }
+.k .src { font: 500 8pt "Plex"; color: var(--faint); }
+.k.model { display: block; margin-top: .3mm; }
