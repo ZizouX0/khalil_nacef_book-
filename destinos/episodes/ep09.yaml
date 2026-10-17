@@ -1,0 +1,389 @@
+# Episodio 9 · Estaciones
+# Sources: Textbook Lección 9 (pp. 94–103) and Workbook/Study Guide Lección 9 (pp. 82–94).
+# Words in vocab.core are the two books' own Vocabulario lists, under their own headings; where both
+# books use the same heading (Los verbos, Para decir que sí) the lists are merged.
+# The verb card is acordarse (workbook Gramática 24): it shows both new points at once, the yo and tú
+# forms of stem-changing verbs (Gramática 23) and the pronouns me, te, se… (Gramática 24 and the
+# textbook's Un poco de gramática). The daily routine, possession with de (Gramática 25) and the
+# demonstratives (Gramática 26) are grammar points with tables; so are the months, seasons and colours
+# (textbook Vocabulario del tema). Saying yes (Conversaciones: Para decir que sí) uses the greetings
+# table. Neither book has ¡Aumenta tu vocabulario! here: the false friends and the English links are
+# added. The note on the tuna, dormir vs dormirse and the dates with el primero are added too.
+
+episode: 9
+title: Estaciones
+title_en: Seasons
+pages: "Textbook pp. 94–103 · Workbook pp. 82–94"
+
+essentials:
+  - "**Stem-changing verbs, all six forms**: the boot from Episode 8 now gets its *yo* and *tú* forms: emp**ie**zo, emp**ie**zas · p**i**do, p**i**des · c**ue**nto, c**ue**ntas. Only *nosotros* and *vosotros* keep the infinitive's vowel. And *seguir* gives **sigo**."
+  - "**Me, te, se…**: a verb with *se* takes the pronoun of its subject: **me** llamo, **te** llamas, **se** llama, **nos** llamamos, **os** llamáis, **se** llaman. Your day: *me despierto, me levanto, me visto, me acuesto, me duermo*. With an infinitive the pronoun goes on the end: *Quiero sentar**me**.*"
+  - "**This, that, that over there**: **este** suéter (near me) · **ese** vestido (near you) · **aquel** zapato (far from us both). To make *su* clear, use **de**: *el hijo **de él** · **de ella** · **de Ud.***"
+  - "**Months, seasons, colours, yes**: *enero … diciembre* and *la primavera, el verano, el otoño, el invierno* take no capital. A date: **el** 22 **de** febrero. Colours agree: *una blusa blanca, zapatos negros*. To say yes: *Claro · De acuerdo · Vale* (Spain)."
+
+greetings_title: ["Para decir que sí", "Saying yes"]
+greetings:
+  - ["Claro. · Sí, claro.", "Of course. · Yes, of course.", "Agreeing to a request or a suggestion."]
+  - ["De acuerdo.", "OK, I agree.", "Agreeing to a plan."]
+  - ["Vale. · Sí, vale.", "OK. · Yes, OK.", "Typical of **Spain**; understood everywhere."]
+  - ["Lo siento, pero no puedo.", "I'm sorry, but I can't.", "Turning a suggestion down politely."]
+  - ["Bueno…", "Well… · Right…", "Not a yes: it moves on to a new topic."]
+
+verbs:
+  table:
+    verb: acordarse
+    meaning: to remember
+    forms:
+      - ["me ac**ue**rdo", "I remember"]
+      - ["te ac**ue**rdas", "you remember"]
+      - ["se ac**ue**rda", "he, she remembers · you remember"]
+      - ["nos acordamos", "we remember"]
+      - ["os acordáis", "you remember"]
+      - ["se ac**ue**rdan", "they · you remember"]
+    hook: "Two patterns in one verb: the pronoun matches the person (**me, te, se, nos, os, se**), and the **ue** draws the boot of Episode 8. Always **de** before what you remember: *Me acuerdo muy bien **de** Rosario.*"
+  notes:
+    - label: Look-alikes
+      text: "**acordarse** (ue) = to remember · **acostarse** (ue) = to go to bed: *me acuerdo* · *me acuesto*. Hook: a**cor**darse hides *cor*, Latin for heart: think *by heart*."
+  met:
+    - ["desayuno", "desayunar", "I have breakfast"]
+    - ["aprende", "aprender", "he / she learns"]
+    - ["escucha", "escuchar", "he / she listens to"]
+    - ["recibe", "recibir", "he / she gets, receives"]
+    - ["llevaba", "llevar", "he / she was wearing"]
+    - ["se hicieron amigas", "hacerse", "they became friends"]
+    - ["cuidó a", "cuidar", "she looked after"]
+    - ["se trasladaron", "trasladarse", "they moved (house)"]
+    - ["no se lleva bien con", "llevarse bien", "she doesn't get on with"]
+    - ["ha cambiado", "cambiar", "it has changed"]
+    - ["dejársela", "dejar", "to leave it for her"]
+    - ["¿me permite verlas?", "permitir", "may I see them?"]
+
+grammar:
+  - title: "Stem-changing verbs: all six forms"
+    rule: "Episode 8 gave the *he, she, they* forms. The **yo** and **tú** forms change the same way, and *usted* takes the *he, she* form. Only **nosotros** and **vosotros** keep the infinitive's vowel."
+    table:
+      head: ["", "empezar (ie)", "pedir (i)", "contar (ue)"]
+      rows:
+        - ["yo", "emp**ie**zo", "p**i**do", "c**ue**nto"]
+        - ["tú", "emp**ie**zas", "p**i**des", "c**ue**ntas"]
+        - ["él · ella · usted", "emp**ie**za", "p**i**de", "c**ue**nta"]
+        - ["nosotros/as", "empezamos", "pedimos", "contamos"]
+        - ["vosotros/as", "empezáis", "pedís", "contáis"]
+        - ["ellos · ellas · ustedes", "emp**ie**zan", "p**i**den", "c**ue**ntan"]
+        - ["also", "pensar, perder, querer", "seguir", "encontrar, morir, poder, recordar, volver"]
+    examples:
+      - ["**Empiezo** a sentir más curiosidad.", "I'm beginning to feel more curious."]
+      - ["**Sigo** la misma rutina todos los días.", "I follow the same routine every day."]
+      - ["Si no **encuentro** a la maestra, **puedo** escribir una historia para la televisión.", "If I don't find the teacher, I can write a story for television."]
+      - ["Siempre **pienso** en los detalles del caso.", "I'm always thinking about the details of the case."]
+      - ["**Pierdo** la paciencia a veces.", "I lose my patience sometimes."]
+    trap: "**seguir** loses its *u* in the *yo* form: **sigo**, but *sigues, sigue*. The *u* is only there to keep the *g* hard before *e* or *i* (see Pronunciación)."
+
+  - title: "Me, te, se…: verbs with a pronoun"
+    rule: "Episode 8 used only **se**. Each person has its own pronoun: **me** when you talk about yourself, **te** to a friend, **se** for *usted*, as for *he, she*. Stem-changing verbs change as usual: *me s**ie**nto*."
+    table:
+      head: ["", "llamarse · to be called", "sentarse (ie) · to sit down"]
+      rows:
+        - ["yo", "**me** llamo", "**me** s**ie**nto"]
+        - ["tú", "**te** llamas", "**te** s**ie**ntas"]
+        - ["él · ella · usted", "**se** llama", "**se** s**ie**nta"]
+        - ["nosotros/as", "**nos** llamamos", "**nos** sentamos"]
+        - ["vosotros/as", "**os** llamáis", "**os** sentáis"]
+        - ["ellos · ellas · ustedes", "**se** llaman", "**se** s**ie**ntan"]
+    examples:
+      - ["¿Cómo **te llamas**? · **Me llamo** Jaime.", "What's your name? · My name is Jaime."]
+      - ["Quiero **sentarme** a hablar con Teresa Suárez.", "I want to sit down and talk with Teresa Suárez."]
+      - ["Nunca **me olvido** de mi cliente en México.", "I never forget my client in Mexico."]
+      - ["Papá, **te sientes** muy triste cuando piensas en Rosario, ¿verdad?", "Dad, you feel very sad when you think about Rosario, don't you?"]
+      - ["Juan y yo **nos casamos** después de la Guerra Civil.", "Juan and I got married after the Civil War."]
+    trap: "The pronoun goes **before** a conjugated verb (*no me olvido*) but is **joined to the end** of an infinitive, and still matches the person: *Quiero sentar**me**.* · *¿Quieres sentar**te**?*"
+
+  - title: "Your day: la rutina diaria"
+    table:
+      head: ["", "Spanish", "English"]
+      rows:
+        - ["despertarse (ie)", "**Me despierto** a las ocho.", "I wake up at eight."]
+        - ["levantarse", "**Me levanto** a las ocho y cuarto.", "I get up at a quarter past eight."]
+        - ["desayunar", "**Desayuno** a las ocho y media.", "I have breakfast at half past eight."]
+        - ["vestirse (i)", "**Me visto** después de desayunar.", "I get dressed after breakfast."]
+        - ["acostarse (ue)", "**Me acuesto** temprano, a las diez.", "I go to bed early, at ten."]
+        - ["dormirse (ue)", "**Me duermo** inmediatamente.", "I fall asleep right away."]
+    examples:
+      - ["¿A qué hora **te levantas**, generalmente?", "What time do you usually get up?"]
+      - ["¿**Te duermes** inmediatamente?", "Do you fall asleep right away?"]
+      - ["Todos los días **me levanto**, **me visto** y voy al taller.", "Every day I get up, get dressed and go to the workshop."]
+    trap: "No pronoun with *desayunar*: **desayuno**. The pronoun can shift the meaning (like *va · se va*, Episode 8): **dormir** (ue) = to sleep · **dormirse** = to fall asleep."
+
+  - title: "This, that, that over there: este, ese, aquel"
+    rule: "Episode 4's *éste es…* has two relatives. All three agree with the noun; choose by distance:"
+    table:
+      head: ["", "near me", "near you", "over there"]
+      rows:
+        - ["masc. · one", "**este** suéter", "**ese** vestido", "**aquel** zapato"]
+        - ["masc. · more", "**estos** suéteres", "**esos** vestidos", "**aquellos** zapatos"]
+        - ["fem. · one", "**esta** camisa", "**esa** bufanda", "**aquella** falda"]
+        - ["fem. · more", "**estas** camisas", "**esas** bufandas", "**aquellas** faldas"]
+        - ["English", "this · these", "that · those", "that · those (over there)"]
+    examples:
+      - ["Quiero ver **este** suéter, **esa** blusa y **aquellos** pantalones.", "I'd like to see this sweater, that blouse and those trousers over there."]
+      - ["**Éstas** de aquí me gustan más.", "I like these ones here better."]
+      - ["¿Desea ver **aquellas** blusas que están en el escaparate?", "Would you like to see those blouses in the shop window?"]
+      - ["Creo que **esos** azules van mejor con la ropa que tengo.", "I think those blue ones go better with the clothes I have."]
+    trap: "*This · these* have a **t** (es**t**e, es**t**os); *that · those* don't (ese, esos). The masculine singular has no -o: **este, ese, aquel**, never ~~esto suéter~~."
+
+  - title: "Whose? Making su clear with de"
+    rule: "The full set is in **Episode 2**; **nuestro** and **vuestro** have four forms, like any -o adjective. **Su** can mean *his, her, their* or *your*: to be clear, say **de** + the person."
+    table:
+      head: ["", "clearer", "English"]
+      rows:
+        - ["su hijo", "el hijo **de él** · el hijo **de ella**", "his son · her son"]
+        - ["", "el hijo **de ellos** (de Miguel y Elena)", "their son"]
+        - ["", "el hijo **de Ud.** · el hijo **de Uds.**", "your son (*usted · ustedes*)"]
+    examples:
+      - ["Los pantalones **de Federico** son pardos.", "Federico's trousers are brown."]
+      - ["**Nuestro** perro se llama Osito.", "Our dog is called Osito."]
+      - ["**Nuestra** abuela vive en Madrid.", "Our grandmother lives in Madrid."]
+      - ["Y vosotros, Jaime y Miguel, ¿cómo es **vuestra** familia?", "And you two, Jaime and Miguel, what is your family like?"]
+      - ["Y Ud., don Fernando, ¿cómo es **su** familia?", "And you, don Fernando, what is your family like?"]
+    trap: "**de + él** never becomes *del*: *el hijo de él* (only the article *el* does, Episode 3). **Vuestro**, like *vosotros*, is used mainly in Spain; Latin America says *su*."
+
+  - title: "Months, seasons and dates"
+    rule: "Months and seasons take **no capital**. *In* a month is **en**: *en mayo*. A date is **el** + number + **de** + month: *el 15 de septiembre*. South of the equator the seasons are reversed."
+    table:
+      head: ["", "season", "months", "south of the equator"]
+      rows:
+        - ["winter", "**el invierno**", "diciembre, enero, febrero", "el verano"]
+        - ["spring", "**la primavera**", "marzo, abril, mayo", "el otoño"]
+        - ["summer", "**el verano**", "junio, julio, agosto", "el invierno"]
+        - ["autumn", "**el otoño**", "septiembre, octubre, noviembre", "la primavera"]
+    examples:
+      - ["Mi cumpleaños es **el 22 de febrero**.", "My birthday is on 22 February."]
+      - ["En la Argentina es **primavera** cuando en España es **otoño**.", "In Argentina it's spring when it's autumn in Spain."]
+      - ["¿En qué mes es la Navidad? · En diciembre.", "What month is Christmas in? · In December."]
+      - ["¿Cuál es tu estación favorita? ¿Por qué?", "What's your favourite season? Why?"]
+    trap: "As with the days (Episode 5), **el** alone means *on*: never ~~en el 22 de febrero~~. Many speakers write **setiembre**, without the *p*. For the 1st, say *el primero de enero* (in Spain also *el uno*)."
+
+  - title: "Colours agree"
+    rule: "Colours are adjectives: they follow the noun and agree with it, as in Episode 4."
+    table:
+      head: ["", "one", "more than one"]
+      rows:
+        - ["-o: four forms", "roj**o** · roj**a**", "roj**os** · roj**as**"]
+        - ["-e: two forms", "verd**e**", "verd**es**"]
+        - ["consonant: two forms", "azul · gris", "azul**es** · gris**es**"]
+        - ["-ón loses its accent", "marrón", "marr**ones**"]
+    examples:
+      - ["Su blusa es blanca. Sus zapatos son negros y sus medias son blancas.", "Her blouse is white. Her shoes are black and her stockings are white."]
+      - ["Quiero comprar esta blusa **de color salmón**.", "I'd like to buy this salmon-coloured blouse."]
+      - ["la Navidad: el verde, el rojo", "Christmas: green, red"]
+    trap: "On its own a colour is a masculine noun: **el** verde, **el** rojo (= *el color* verde). For any other shade, use **de color** + noun: *de color salmón*."
+
+rules:
+  - ["**escuchar** = to listen **to**: the *to* is built in, as in *buscar, esperar*", "Federico escucha música."]
+  - ["**lo que** = what, in a statement: no accent, no ¿?", "Lo que más recuerda de Rosario es su alegría."]
+  - ["**llevarse bien con** = to get on with: one more job for *llevar* (Episodes 4, 7)", "Teresa no se lleva bien con la esposa de Julio."]
+  - ["**desde entonces** = since then", "Su esposo murió hace años y desde entonces vive en Madrid."]
+  - ["**por lo menos** = at least", "Trata de apuntar por lo menos tres fechas."]
+  - ["**lo más pronto posible** = as soon as possible", "Tiene que volver a la oficina lo más pronto posible."]
+
+vocab:
+  core:
+    - group: Los verbos
+      words:
+        - ["aprender", "to learn"]
+        - ["escuchar", "to listen (to)"]
+        - ["recibir", "to get, receive"]
+        - ["acostarse (ue)", "to go to bed"]
+        - ["desayunar", "to have breakfast"]
+        - ["despertarse (ie)", "to wake up"]
+        - ["dormirse (ue)", "to fall asleep"]
+        - ["levantarse", "to get up"]
+        - ["vestirse (i)", "to get dressed"]
+    - group: Los lugares
+      words:
+        - ["el taller", "workshop, repair shop"]
+    - group: Los colores
+      words:
+        - ["amarillo · amarilla", "yellow"]
+        - ["anaranjado · anaranjada", "orange"]
+        - ["azul", "blue"]
+        - ["blanco · blanca", "white"]
+        - ["gris", "grey"]
+        - ["marrón", "brown"]
+        - ["pardo · parda", "brown"]
+        - ["morado · morada", "purple"]
+        - ["negro · negra (repaso)", "black"]
+        - ["rojo · roja", "red"]
+        - ["rosado · rosada", "pink"]
+        - ["verde", "green"]
+    - group: Los adjetivos posesivos
+      words:
+        - ["mi · mis (repaso)", "my"]
+        - ["tu · tus", "your (familiar)"]
+        - ["su · sus", "your (formal); his, her, their"]
+        - ["nuestro · nuestra · nuestros · nuestras", "our"]
+        - ["vuestro · vuestra · vuestros · vuestras", "your (familiar, plural)"]
+    - group: Las palabras adicionales
+      words:
+        - ["inmediatamente", "immediately, right away"]
+    - group: Las estaciones del año
+      see: "Gramática, Months, seasons and dates"
+      words:
+        - ["la primavera", "spring"]
+        - ["el verano", "summer"]
+        - ["el otoño", "autumn"]
+        - ["el invierno", "winter"]
+    - group: Los meses del año
+      see: "Gramática, Months, seasons and dates"
+      words:
+        - ["enero", "January"]
+        - ["febrero", "February"]
+        - ["marzo", "March"]
+        - ["abril", "April"]
+        - ["mayo", "May"]
+        - ["junio", "June"]
+        - ["julio", "July"]
+        - ["agosto", "August"]
+        - ["septiembre", "September"]
+        - ["octubre", "October"]
+        - ["noviembre", "November"]
+        - ["diciembre", "December"]
+    - group: Los adjetivos demostrativos
+      see: "Gramática, este, ese, aquel"
+      words:
+        - ["este · esta", "this (near the speaker)"]
+        - ["estos · estas", "these (near the speaker)"]
+        - ["ese · esa", "that (near the person spoken to)"]
+        - ["esos · esas", "those (near the person spoken to)"]
+        - ["aquel · aquella", "that (even farther away)"]
+        - ["aquellos · aquellas", "those (even farther away)"]
+    - group: Para decir que sí
+      see: "Para decir que sí"
+      words:
+        - ["claro", "of course"]
+        - ["de acuerdo", "OK; I agree"]
+        - ["vale", "great; OK"]
+  extra:
+    - group: La rutina diaria
+      words:
+        - ["el desayuno", "breakfast"]
+        - ["la rutina diaria", "daily routine"]
+        - ["leer", "to read"]
+        - ["ver la televisión", "to watch television"]
+        - ["la farmacia", "chemist's, pharmacy"]
+    - group: Fiestas y estaciones
+      words:
+        - ["la Navidad", "Christmas"]
+        - ["el primer día del año", "New Year's Day"]
+        - ["el Día de la Madre · del Padre", "Mother's · Father's Day"]
+        - ["el Día de San Valentín · de los Enamorados", "Valentine's Day"]
+        - ["el Día de Dar Gracias", "Thanksgiving (also Día de Acción de Gracias)"]
+        - ["el Día del Trabajo", "Labour Day"]
+        - ["las vacaciones", "holidays, vacation"]
+        - ["el frío · el calor", "cold · heat"]
+        - ["la flor · las flores", "flower · flowers"]
+    - group: Más ropa
+      words:
+        - ["el sombrero · la gorra", "hat · cap"]
+        - ["los guantes", "gloves"]
+        - ["el pijama", "pyjamas"]
+        - ["el conjunto", "outfit"]
+        - ["grueso · gruesa", "heavy, thick"]
+        - ["económico · económica", "cheap, inexpensive"]
+        - ["el escaparate", "shop window"]
+        - ["el vendedor · la vendedora", "salesperson"]
+        - ["ir mejor con", "to go better with"]
+    - group: Sentimientos
+      words:
+        - ["feliz · triste", "happy · sad"]
+        - ["enojado · enojada", "angry"]
+        - ["celoso · celosa", "jealous"]
+    - group: Música y café
+      words:
+        - ["la canción", "song"]
+        - ["el baile", "dance; ball"]
+        - ["el compositor · la compositora", "composer"]
+        - ["las palmas", "hand-clapping"]
+        - ["un café solo", "a black coffee"]
+        - ["un café con leche", "a coffee with milk"]
+        - ["la leche", "milk"]
+        - ["nada más", "nothing else, that's all"]
+    - group: Verbos y expresiones
+      words:
+        - ["cuidar (a)", "to look after"]
+        - ["trasladarse", "to move (house)"]
+        - ["hacerse amigos", "to become friends"]
+        - ["llevarse bien con", "to get on with"]
+        - ["desde entonces", "since then"]
+        - ["por lo menos", "at least"]
+        - ["lo más pronto posible", "as soon as possible"]
+    - group: Otras
+      words:
+        - ["lo que", "what (not in a question)"]
+        - ["mejor", "better"]
+        - ["el mismo · la misma", "the same"]
+        - ["la comida", "food"]
+        - ["el suelo", "floor"]
+        - ["el dolor", "pain"]
+        - ["la alegría", "happiness, cheerfulness"]
+        - ["recién casado · recién casada", "newly married"]
+        - ["el título universitario", "university degree"]
+        - ["la agencia de viajes", "travel agency"]
+        - ["el despistado · la despistada", "scatterbrain"]
+  course:
+    - ["Preparación", "before viewing"]
+    - ["no se sabe todavía", "it isn't known yet"]
+    - ["¿Quién lo hace?", "who does it?"]
+    - ["¿Qué estación asocias con…?", "what season do you associate with…?"]
+    - ["Trata de apuntar…", "try to jot down…"]
+    - ["Preguntas para un amigo", "questions for a friend"]
+
+cognates:
+  rule: "Neither book has ¡Aumenta tu vocabulario! in this lesson. The new words still have English relatives: link them and they stick. And three words look English but aren't."
+  false_friends:
+    - ["el taller", "workshop", "taller", "más alto"]
+    - ["la tuna", "student music group", "tuna", "el atún"]
+    - ["recordar", "to remember", "to record", "grabar"]
+  harder:
+    - ["desayunar", "to have breakfast", "*des-* + *ayunar* (to fast): break + fast"]
+    - ["aprender", "to learn", "think *apprentice*"]
+    - ["levantarse", "to get up", "think *elevate*, *lever*"]
+    - ["dormirse", "to fall asleep", "think *dormitory*, *dormant*"]
+    - ["vestirse", "to get dressed", "think *vest*, *vestment*, and *el vestido* (Episode 7)"]
+    - ["verde · azul", "green · blue", "think *verdant*, *azure*"]
+    - ["el baile", "dance", "think *ball*, a formal dance: *un baile de gala*"]
+
+sounds:
+  - title: "j: never the English j"
+    body: "Spanish **j** never sounds like *Jane* or *John*. In some places it is like English *h*; in others, especially Spain, it is rougher, made at the back of the mouth where you say *k*: *taco · Tajo, carro · jarro*. Say: **J**aime, **j**unio, **j**ulio, extran**j**ero, mu**j**er, hi**j**o."
+  - title: "ge, gi sound like j"
+    body: "Before **e** or **i**, **g** has the j sound: **g**eneral, inteli**g**ente, **g**eografía, reli**g**ión, psicolo**g**ía. So *Jorge* has it twice."
+  - title: "Hard g, as in *go*"
+    body: "At the start of a phrase or after **n**: **g**ato, **g**usto, **g**uerra, **g**racias, **g**ris, ten**g**o, ven**g**o."
+  - title: "Soft g everywhere else"
+    body: "The back of the tongue almost touches the roof of the mouth and lets air through; English has no such sound: a**g**osto, abo**g**ado, hasta lue**g**o, si**g**o. As with b and d (Episodes 7, 8), the word before decides: *gato · el gato, gusto · mucho gusto*."
+  - title: "gue, gui: a silent u"
+    body: "To keep g hard before e or i, Spanish writes **gu**, and the u is silent, as in *que, qui* (Episode 3): **gu**erra, **gu**itarra, si**gu**e, se**gu**ir. That is why *seguir* drops the u in **sigo**. In **gua** you do hear it: *len**gua**, i**gua**lmente*."
+  - title: "Say it"
+    body: "*Hasta luego, Gerardo.* (soft g, then j) · *El gusto es mío, doña Julia.* (soft g, j)"
+
+phrases:
+  - ["¿A qué hora te levantas? · Me levanto a las ocho y cuarto.", "What time do you get up? · I get up at a quarter past eight."]
+  - ["Me acuesto temprano y me duermo inmediatamente.", "I go to bed early and fall asleep right away."]
+  - ["¿Cuál es tu estación favorita? ¿Por qué?", "What's your favourite season? Why?"]
+  - ["Hoy llevo ___. · Me gustaría llevar ___.", "Today I'm wearing ___. · I'd like to wear ___."]
+  - ["¿Ve Ud. aquel vestido rojo? ¿No lo tiene en rosado?", "Do you see that red dress over there? Don't you have it in pink?"]
+  - ["Un café solo, por favor. · Un café con leche, por favor.", "A black coffee, please. · A coffee with milk, please."]
+  - ["Quiero comprar esta blusa de color salmón, por favor.", "I'd like to buy this salmon-coloured blouse, please."]
+  - ["No, gracias, no necesito blusas. · ¿Me permite verlas?", "No, thank you, I don't need any blouses. · May I see them?"]
+  - ["¿Qué colores prefieres?", "What colours do you prefer?"]
+  - ["Recuerdo muy bien a todos mis maestros de primaria.", "I remember all my primary-school teachers very well."]
+  - ["El gusto es mío.", "The pleasure is mine."]
+
+culture:
+  - title: "Un café, por favor"
+    body: "**Un café** (*nada más*) or **un café solo** is very strong black coffee, almost like espresso. **Un café con leche** mixes that strong coffee with warm or hot milk, *la leche*; in many places the milk comes on the side and you add it to taste."
+  - title: "La tuna"
+    body: "A group of university students who sing and play guitars, lutes and tambourines in the street, dressed in old-style black student capes. The tradition is centuries old."
+  - title: "La música española"
+    body: "Spain's variety shows in its music and dances. Its best-known folk music is probably Andalucía's, and **el flamenco** is part of it: songs and dances with deep Eastern, Arab and Romani (*gitano*) roots, with hand-clapping (*palmas*), guitars and shouts of **¡olé!** **La zarzuela** is Spain's own light opera, mixing speech, song and dance, about the customs of each region. Classical composers: **Isaac Albéniz** (*Iberia*) and **Manuel de Falla** (*El amor brujo*, *El sombrero de tres picos*). Opera singers: Montserrat Caballé, Plácido Domingo, José Carreras. Young people listen mostly to *rock* and to imported music; in pop, the book names **Julio Iglesias**, the Catalan **Joan Manuel Serrat** and the group **Mecano** (which broke up in the 1990s)."

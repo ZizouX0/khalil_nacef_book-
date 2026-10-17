@@ -178,6 +178,8 @@ table.met td.en { font-style: italic; color: var(--muted); font-size: 9.8pt; }
 .gpoint { margin-bottom: 4.5mm; }
 .gpoint h3 { break-after: avoid; }
 .gpoint p { orphans: 2; widows: 2; }
+/* the explanation stays on the same page as the table or examples it introduces */
+.gpoint > p { break-after: avoid; }
 .gpoint h3 { font: 700 13pt/1.25 "Charis"; margin: 0 0 1.2mm; }
 .uses { display: flex; gap: 8mm; margin: .6mm 0 1.2mm; break-inside: avoid; }
 .uses > div { flex: 1; }

@@ -1,0 +1,315 @@
+# Episodio 10 · Cuadros
+# Sources: Textbook Lección 10 (pp. 104–113) and Workbook/Study Guide Lección 10 (pp. 95–106).
+# Words in vocab.core are the two books' own Vocabulario lists, merged under their own headings
+# (both books have Los verbos, Los adjetivos, Más despedidas and Las palabras adicionales).
+# The verb card is sentirse, one of the six verbs workbook Gramática 29 conjugates in full (despertarse,
+# the theme verb, is too long for the card's columns and sits in the routine table). The nosotros and vosotros
+# forms of stem-changing verbs and verbs with se (textbook Un poco de gramática, Gramática 29), adjectives
+# (Gramática 27) and ser · estar (Gramática 28) are grammar points with tables. Describing people
+# (textbook Vocabulario del tema) is a grammar point with a table; the "Tiene…" phrases point to it.
+# Farewells (Conversaciones: Más despedidas) use the greetings table. Neither book has ¡Aumenta tu
+# vocabulario! here: the cognate patterns, false friends and memory hooks are added.
+
+episode: 10
+title: Cuadros
+title_en: Paintings
+pages: "Textbook pp. 104–113 · Workbook pp. 95–106"
+
+essentials:
+  - "**Describing people**: **es** + adjective (*Es alto y delgado*), **tiene** + hair, eyes, a beard (*Tiene pelo castaño y ojos oscuros*). Short is **bajo** in height, **corto** in length. Before a noun, *grande* becomes **gran** = great: *un gran pintor*."
+  - "**We and you all** (tables in Episode 9): stem-changing verbs keep the infinitive's vowel, *qu**ie**ro* but **queremos**, *p**ue**do* but **podemos**; verbs with se take **nos** and **os**, *nos levantamos, os acostáis*. After another verb the pronoun still matches: *Vamos a casar**nos**.*"
+  - "**Ser or estar?** **Ser**: who or what, what someone is like, nationality, origin and owner (*de*), who it's for (*para*), the time. **Estar**: where (*en*) and how someone feels. *Madrid es la capital de España y está en el centro.*"
+  - "**Farewells**: *Que tengas un buen viaje* to *tú*, *Que tenga un buen viaje* to *usted* = Have a good trip. Also *Que te vaya bien* (all the best) and *Que lo pases bien* (have a good time). Learn them as set phrases: the forms come later."
+
+greetings_title: ["Más despedidas", "Wishing someone well"]
+greetings:
+  - ["Que tengas un buen viaje.", "Have a good trip.", "To someone you call *tú*. The *un* is optional."]
+  - ["Que tenga un buen viaje.", "Have a good trip.", "To someone you call *usted*."]
+  - ["Que te vaya bien.", "All the best.", "Fits any farewell, not only a trip. To *usted*: **Que le vaya bien**."]
+  - ["Que lo pases bien.", "Have a good time.", "To *usted*: **Que lo pase bien**."]
+
+verbs:
+  table:
+    verb: sentirse
+    meaning: to feel
+    forms:
+      - ["me s**ie**nto", "I feel"]
+      - ["te s**ie**ntes", "you feel"]
+      - ["se s**ie**nte", "he, she feels · you feel"]
+      - ["nos sentimos", "we feel"]
+      - ["os sentís", "you feel"]
+      - ["se s**ie**nten", "they feel · you feel"]
+    hook: "The boot again (Episode 8): **ie** only where the stem is stressed; *nos sentimos, os sentís* keep the **e**. The little word matches the person: **me, te, se, nos, os, se**. *¡Nos sentimos muy felices!*"
+  met:
+    - ["que tengas · que tenga", "tener", "(may you) have: to *tú* · to *usted*"]
+    - ["que te vaya bien", "ir", "(may it) go well for you"]
+    - ["que lo pases bien", "pasar", "(may you) have a good time"]
+    - ["pintó", "pintar", "he / she painted"]
+    - ["murieron", "morir", "they died"]
+    - ["lucharon", "luchar", "they fought"]
+    - ["ha leído", "leer", "he / she has read"]
+    - ["no se pierde", "perderse", "he / she never misses (a show)"]
+
+grammar:
+  - title: "We and you all: no stem change"
+    rule: "The full six-form table is in **Episode 9**. This lesson practises the two forms that **don't** change: in **nosotros** and **vosotros** the stress falls on the ending, so the stem keeps the infinitive's vowel, like a regular verb: *queremos, podemos, pedimos, volvemos*."
+    examples:
+      - ["Pensamos ir a Los Ángeles algún día.", "We're planning to go to Los Angeles some day."]
+      - ["Queremos casarnos pronto.", "We want to get married soon."]
+      - ["Si podemos, vamos a ir. Todo depende del dinero.", "If we can, we'll go. It all depends on money."]
+      - ["Recordamos una cena muy agradable con Raquel.", "We remember a very pleasant dinner with Raquel."]
+      - ["Jaime y yo siempre le pedimos dinero a papá para ir al cine.", "Jaime and I always ask Dad for money to go to the cinema."]
+    trap: "Never carry the change into *we*: ~~quieremos~~, ~~puedemos~~. Say *queremos, podemos*."
+
+  - title: "Verbs with se: nos for we, os for you all"
+    rule: "The pronoun table and the daily-routine verbs are in **Episode 9**. Here they are used with *we* and *you all*: **nos** levantamos, **nos** acostamos, **os** casáis, keeping the infinitive's vowel as above. One new routine verb: **despedirse (i) de** = to say good-bye to: *me desp**i**do* · *nos despedimos*."
+    examples:
+      - ["Los sábados nos levantamos muy tarde.", "On Saturdays we get up very late."]
+      - ["¿Cuándo os casáis, por fin? · Nos gustaría casarnos este verano.", "When are you two getting married, at last? · We'd like to get married this summer."]
+      - ["Federico y yo vamos a casarnos este verano. ¡Nos sentimos muy felices!", "Federico and I are going to get married this summer. We feel very happy!"]
+      - ["Salimos a la calle y nos despedimos.", "We go out and say good-bye."]
+      - ["Nos acostamos tarde y al día siguiente nos despertamos tarde.", "We go to bed late and the next day we wake up late."]
+      - ["Nos dormimos inmediatamente.", "We fall asleep straight away."]
+    trap: "The pronoun goes before a conjugated verb, or is joined to an infinitive, still matching the person: *vamos a casarnos* (we), *me gustaría casarme* (I). Never ~~vamos a casarse~~."
+
+  - title: "Adjectives: -ista, nationalities, mixed groups"
+    rule: "Episode 4 had the basics. New: adjectives in **-ista** (and other singulars in -a, like *hipócrita*) have **one form** for men and women. Nationalities have **four forms**, even those ending in a consonant, and take no capital letter. A mixed group takes the **masculine** plural."
+    table:
+      head: ["", "masc. · one", "masc. · more", "fem. · one", "fem. · more"]
+      rows:
+        - ["-ista", "realist**a**", "realist**as**", "realist**a**", "realist**as**"]
+        - ["nationality in -o", "mexican**o**", "mexican**os**", "mexican**a**", "mexican**as**"]
+        - ["nationality in a consonant", "español", "español**es**", "español**a**", "español**as**"]
+        - ["-án, -és lose the accent", "inglés", "ingles**es**", "ingles**a**", "ingles**as**"]
+    examples:
+      - ["Velázquez fue un pintor realista.", "Velázquez was a realist painter."]
+      - ["Ramón y Mercedes son mexicanos.", "Ramón and Mercedes are Mexican."]
+      - ["Raquel es optimista. Miguel Ruiz y Elena Ramírez son españoles.", "Raquel is optimistic. Miguel Ruiz and Elena Ramírez are Spanish."]
+      - ["El Sr. Díaz es una persona muy reservada.", "Mr. Díaz is a very reserved person."]
+    trap: "**la persona** is feminine even for a man: *Don Fernando es una persona muy simpática.* The accent drops the same way in *alemán · alemana, francés · francesa*."
+
+  - title: "Describing people: es… · tiene…"
+    rule: "**Ser** + adjective says what someone is like; **tener** + noun gives the hair, the eyes, a beard. The adjective agrees with the person (Episode 4)."
+    table:
+      head: ["", "Spanish", "English"]
+      rows:
+        - ["height", "Es **alto** · **bajo** · de **mediana estatura**.", "tall · short · of average height"]
+        - ["build", "Es **delgado** · **gordito**.", "thin · plump"]
+        - ["looks", "Es **guapo** · **feo**. · Es **bonita**.", "handsome · ugly · (she is) pretty"]
+        - ["age", "Es **joven** · **viejo**.", "young · old"]
+        - ["hair colour", "Tiene pelo **rubio** · **castaño** · **negro** · **blanco** · **canoso**.", "blond · brown · black · white · grey hair"]
+        - ["hair length", "Tiene pelo **largo** · **corto**.", "long · short hair"]
+        - ["eyes", "Tiene ojos **claros** · **oscuros** · **expresivos**.", "light · dark · expressive eyes"]
+        - ["beard", "Tiene **barba**. · sin barba", "a beard · without a beard"]
+    examples:
+      - ["La princesa es bonita. Tiene pelo rubio.", "The princess is pretty. She has blond hair."]
+      - ["Ricardo tiene pelo castaño y corto. Carmen tiene ojos oscuros.", "Ricardo has short brown hair. Carmen has dark eyes."]
+      - ["San Andrés es viejo. Tiene pelo blanco.", "Saint Andrew is old. He has white hair."]
+      - ["¿Es alta, baja o de estatura mediana?", "Is she tall, short or of average height?"]
+    trap: "Two *shorts*: **bajo** (height), **corto** (length): *Es baja y tiene pelo corto.* After *pelo, ojos* the adjective agrees with them: *Ella es rubia* but *tiene pelo rubio*."
+
+  - title: "Ser or estar: the full picture"
+    rule: "Both mean *to be* (verb cards: **ser** in Episode 1, **estar** in Episode 3). **Ser** tells what someone or something *is*; **estar** tells *where* it is and *how* someone is feeling. *There is · there are* is **hay** (Episode 3)."
+    table:
+      head: ["", "use", "example"]
+      rows:
+        - ["ser", "who or what", "Raquel **es** abogada."]
+        - ["", "what someone is like", "Raquel **es** persistente y muy curiosa."]
+        - ["", "nationality", "**Es** mexicoamericana."]
+        - ["", "**de**: where from", "**Es de** Los Ángeles."]
+        - ["", "**de**: whose", "La carta **es de** la Sra. Suárez."]
+        - ["", "**para**: who it's for", "**Es para** Rosario."]
+        - ["", "the time", "**Son** las cinco."]
+        - ["", "**es** + adjective: general statements", "**Es** muy importante encontrar a Rosario."]
+        - ["estar", "**en**: where", "Don Fernando **está en** el hospital."]
+        - ["", "how someone is, feels", "**Está** muy mal."]
+    examples:
+      - ["Madrid es la capital y está en el centro.", "Madrid is the capital and is in the centre."]
+      - ["Hay un secreto. El secreto está en una carta.", "There is a secret. The secret is in a letter."]
+      - ["Hay un problema. Teresa Suárez ya no está en Sevilla.", "There is a problem. Teresa Suárez is no longer in Seville."]
+      - ["Madrid es la capital de España y está en el centro del país.", "Madrid is the capital of Spain and is in the centre of the country."]
+      - ["Los pintores son personas interesantes, ¿no?", "Painters are interesting people, aren't they?"]
+    trap: "Where **from** is *ser de*, where **now** is *estar en*: *Raquel es de Los Ángeles, pero está en España.*"
+
+rules:
+  - ["**gran** before a noun = great · **grande** after it = big (like *buen, primer*: Episode 4)", "El Greco es un gran pintor. · un cuadro grande"]
+  - ["**bonito** = pretty: women, things · **guapo** = good-looking: men, women", "una chica bonita · unos bailes bonitos · un hombre guapo"]
+  - ["**-ito · -ita** makes a word smaller or gentler · **un poco** softens too", "gordo (fat) · gordito (plump) · Es un poco gordita."]
+  - ["**despedirse (i) de** = to say good-bye **to**", "¿Va a despedirse de la Sra. Suárez?"]
+  - ["**nos gustaría** + inf. = we would like to (*me gustaría*: Episode 4)", "Nos gustaría casarnos este verano."]
+  - ["**el novio · la novia** = boyfriend · girlfriend; also fiancé(e), and at a wedding the groom · the bride", "Federico y su novia van a casarse este verano."]
+
+vocab:
+  core:
+    - group: Los verbos
+      words:
+        - ["despedirse (i) (de)", "to say good-bye (to)"]
+        - ["estar (estoy)", "to be (Episode 3)"]
+    - group: Los adjetivos
+      words:
+        - ["alto · alta", "tall"]
+        - ["bajo · baja", "short (in height)"]
+        - ["bonito · bonita", "pretty, attractive (of a woman)"]
+        - ["corto · corta", "short (in length)"]
+        - ["delgado · delgada", "thin, slender"]
+        - ["feo · fea", "ugly, unattractive"]
+        - ["gordito · gordita", "plump, fat"]
+        - ["grande (gran)", "big; great"]
+        - ["guapo · guapa", "pretty; handsome"]
+        - ["joven", "young"]
+        - ["largo · larga", "long"]
+        - ["nuevo · nueva", "new"]
+        - ["pequeño · pequeña", "small"]
+        - ["simpático · simpática", "nice, pleasant"]
+        - ["viejo · vieja", "old"]
+    - group: Más frases para las descripciones
+      see: "Gramática, Describing people"
+      words:
+        - ["Es de mediana estatura.", "He / she is of average height."]
+        - ["Tiene barba.", "He has a beard."]
+        - ["pelo rubio · castaño", "blond · brown hair"]
+        - ["pelo negro · blanco · canoso", "black · white · grey hair"]
+        - ["pelo largo · corto", "long · short hair"]
+        - ["ojos claros · oscuros", "light-coloured · dark eyes"]
+        - ["ojos expresivos", "expressive eyes"]
+    - group: Las personas
+      words:
+        - ["el pintor · la pintora", "painter"]
+        - ["el novio · la novia", "boyfriend · girlfriend"]
+    - group: El arte
+      words:
+        - ["el baile", "dance"]
+        - ["el cuadro", "painting"]
+        - ["el museo", "museum"]
+        - ["el retrato", "portrait"]
+    - group: Más despedidas
+      see: "Más despedidas"
+      words:
+        - ["Que tenga (un) buen viaje.", "Have a nice trip. (formal)"]
+        - ["Que tengas (un) buen viaje.", "Have a nice trip. (familiar)"]
+    - group: Las palabras adicionales
+      words:
+        - ["otra vez", "again"]
+        - ["una vez más", "one more time"]
+        - ["tarde", "late"]
+        - ["temprano", "early"]
+  extra:
+    - group: Más rutina
+      words:
+        - ["almorzar (ue)", "to have lunch"]
+        - ["ligero · ligera", "light (meal)"]
+        - ["de mal humor", "in a bad mood"]
+    - group: Para describir
+      words:
+        - ["fuerte", "strong"]
+        - ["precioso · preciosa", "lovely, gorgeous"]
+        - ["sin", "without"]
+        - ["reservado · reservada", "reserved, quiet"]
+        - ["sencillo · sencilla", "simple"]
+        - ["curioso · curiosa", "curious"]
+        - ["persistente", "persistent"]
+        - ["optimista · realista", "optimistic · realistic"]
+        - ["sensible", "sensitive"]
+        - ["mentiroso · mentirosa", "lying; liar"]
+    - group: Las nacionalidades
+      words:
+        - ["alemán · alemana", "German"]
+        - ["francés · francesa", "French"]
+        - ["inglés · inglesa", "English"]
+        - ["italiano · italiana", "Italian"]
+        - ["portugués · portuguesa", "Portuguese"]
+        - ["ruso · rusa", "Russian"]
+        - ["chino · china", "Chinese"]
+        - ["japonés · japonesa", "Japanese"]
+        - ["argentino · argentina", "Argentinian"]
+        - ["norteamericano · norteamericana", "(North) American"]
+    - group: El arte
+      words:
+        - ["la galería de arte", "art gallery"]
+        - ["la exposición", "exhibition"]
+        - ["la escuela de baile", "dance school"]
+        - ["el grabado", "etching, engraving"]
+        - ["la luz", "light"]
+        - ["real", "royal; real"]
+        - ["sombrío · sombría", "sombre, dark"]
+        - ["vivo · viva", "bright (colour)"]
+        - ["el testigo · la testigo", "witness"]
+    - group: Otras
+      words:
+        - ["el vuelo", "flight"]
+        - ["la tarjeta postal", "postcard"]
+        - ["el consejo", "(piece of) advice"]
+        - ["el corazón", "heart"]
+        - ["el dinero", "money"]
+        - ["depender de", "to depend on"]
+        - ["algún día", "some day"]
+        - ["ayer", "yesterday"]
+        - ["el estómago", "stomach"]
+        - ["¡Qué lástima!", "What a shame!"]
+        - ["demasiado", "too much"]
+        - ["el sueño", "dream"]
+        - ["nunca", "never"]
+        - ["todas las noches", "every night"]
+        - ["al principio", "at the beginning"]
+        - ["al mismo tiempo", "at the same time"]
+  course:
+    - ["Más allá del episodio", "beyond the episode"]
+    - ["¿A quién se describe?", "who is being described?"]
+    - ["¿De quién se habla?", "who is being talked about?"]
+    - ["Identifica…", "identify…"]
+    - ["Parejas conocidas", "well-known couples"]
+    - ["Cierto · Falso", "true · false"]
+    - ["Paso 1 · Paso 2", "step 1 · step 2"]
+
+cognates:
+  rule: "Neither book has ¡Aumenta tu vocabulario! in this lesson, but its adjectives follow two easy patterns, three of its words are classic traps, and the new describing words have English relatives."
+  patterns:
+    - ["-ista", "-ist(ic)", "realista, optimista, idealista", "realistic, optimistic, idealistic"]
+    - ["-ivo · -iva", "-ive", "expresivo, agresivo, imaginativo", "expressive, aggressive, imaginative"]
+  false_friends:
+    - ["largo", "long", "large", "grande"]
+    - ["simpático", "nice, pleasant", "sympathetic", "comprensivo"]
+    - ["sensible", "sensitive", "sensible", "sensato"]
+  harder:
+    - ["la barba", "beard", "think *barber*"]
+    - ["joven", "young", "think *juvenile*"]
+    - ["alto", "tall; high", "think *altitude*"]
+    - ["corto", "short", "think *curt*, *curtail*"]
+    - ["oscuro", "dark", "think *obscure*"]
+    - ["delgado", "thin", "from Latin *delicatus*: think *delicate*"]
+    - ["castaño", "brown (hair)", "*la castaña* is a chestnut"]
+    - ["real", "royal (also real)", "*la familia real* = the royal family"]
+
+sounds:
+  - title: "Spanish k: no puff of air"
+    body: "Say *k* as in *s**k**it, s**c**an, s**c**old*, not as in *kit, can, cold*: English adds a puff of air after the *k*, Spanish doesn't. Hold your hand in front of your mouth: you shouldn't feel a breath."
+  - title: "c or qu?"
+    body: "Before **e** and **i** the k sound is written **qu**, and the *u* is silent: ¿**qu**é?, ¿**qu**ién?, a**qu**í, por**qu**e, **qu**iero, **qu**isiera. Everywhere else, **c**: **c**asa, **c**orto, **c**astaño, **c**urioso, os**c**uro, bus**c**a, do**c**tor."
+  - title: "k only in borrowed words"
+    body: "**k**ilo, **k**ilogramo, **k**ilómetro, **k**erosén, **k**arate. And **c** before **e** or **i** is not a k sound at all (*cena, cinco*): that is why *que, qui* need the u."
+  - title: "Say it: bold = k"
+    body: "¿**Qu**ién **qu**iere correr en el par**qu**e? · ¿De **qu**é **c**olor es tu **c**orbata? · Ri**c**ardo tiene pelo **c**astaño y **c**orto. · **C**armen tiene ojos os**c**uros."
+
+phrases:
+  - ["¿Cómo es? · Es alto y delgado, y tiene pelo castaño.", "What is he like? · He's tall and thin, and he has brown hair."]
+  - ["¿Tiene pelo largo o corto? ¿De qué color?", "Does she have long or short hair? What colour?"]
+  - ["¿Estás mal? ¿Qué tienes?", "Are you unwell? What's wrong?"]
+  - ["¡Qué lástima!", "What a shame!"]
+  - ["¿A qué hora se acuestan Uds.? · Nos acostamos a las once.", "What time do you go to bed? · We go to bed at eleven."]
+  - ["¿Vamos a la galería? Hay una exposición de arte moderno.", "Shall we go to the gallery? There's a modern art exhibition."]
+  - ["Es una buena idea, pero no puedo ir.", "It's a good idea, but I can't go."]
+  - ["Estoy un poco enferma del estómago.", "My stomach is a bit upset."]
+  - ["Seguro que voy a estar mejor mañana.", "I'm sure I'll be better tomorrow."]
+  - ["Todo depende del dinero.", "It all depends on money."]
+  - ["Mis pintores favoritos son Goya y Velázquez.", "My favourite painters are Goya and Velázquez."]
+
+culture:
+  - title: "Dos besos"
+    body: "In Spain people often say hello and good-bye with **two kisses**: cheeks touch lightly, first on one side, then the other, with a soft kissing sound. Women do it with women and men with women, depending on how close they are; men don't usually kiss each other. In other parts of the Hispanic world **one kiss** is more common. Whether to hug as well is up to how comfortable you feel with the person."
+  - title: "Los grandes maestros de la pintura española"
+    body: "**Goya and Picasso** have a lot in common: a huge, varied body of work; both denounced the political and social abuses of their time, witnessed the cruelty of war, painted reality in an expressionist, not realist, way, made etchings (**grabados**) as well as paintings, and died in France. El Greco, Velázquez and Goya hang in **el Museo del Prado**, Madrid."
+    rows:
+      - ["El Greco · 1541–1614", "Doménikos Theotokópoulos, *the Greek*, born in Crete, died in Toledo. Religious subjects, sombre, dark colours, long, stretched figures: *San Andrés y San Francisco*."]
+      - ["Velázquez · 1599–1660", "Born in Seville, died in Madrid. Light and perspective, bright colours, real life, portraits of the royal family: *Las Meninas* (the ladies-in-waiting)."]
+      - ["Goya · 1746–1828", "Born in the province of Zaragoza, died in France. First, royal portraits with a critical eye; in his *período negro* (dark period), grotesque forms. A forerunner of modern painting."]
+      - ["Picasso · 1881–1973", "Born in Málaga, died in France. First realist paintings, from his blue and rose periods; then the father of **cubism**, which shows several sides of a subject at once. A huge influence on modern art. *Guernica*: Episode 2."]
