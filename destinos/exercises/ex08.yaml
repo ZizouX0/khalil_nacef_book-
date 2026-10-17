@@ -1,0 +1,113 @@
+# Ejercicios · Episodio 8 · El encuentro
+# Practice for the sheet in episodes/ep08.yaml. New items, written for this book.
+# Repaso draws on Episodes 7, 5 and 3.
+
+episode: 8
+title: El encuentro
+title_en: The encounter
+
+sets:
+  - type: words
+    title: Los verbos
+    en: Verbs
+    instr: Write the infinitive and its stem change, **(ie)**, **(i)** or **(ue)**.
+    items:
+      - ["to begin", "empezar (ie)"]
+      - ["to think", "pensar (ie)"]
+      - ["to lose", "perder (ie)"]
+      - ["to ask for", "pedir (i)"]
+      - ["to follow; to continue", "seguir (i)"]
+      - ["to find", "encontrar (ue)"]
+      - ["to return", "volver (ue)"]
+      - ["to remember", "recordar (ue) · acordarse (ue) de"]
+
+  - type: fill
+    title: Quiere, pide, puede
+    en: Stem-changing verbs
+    instr: Write the present tense of the verb in the hint.
+    items:
+      - ["La clase ___ a las nueve. [empezar]", "empieza"]
+      - ["Elena y Miguel ___ visitar Madrid. [pensar]", "piensan (*pensar* + infinitive = to plan to)"]
+      - ["Raquel ___ la dirección de Rosario. [pedir]", "pide"]
+      - ["El perro ___ a Jaime por la calle. [seguir]", "sigue"]
+      - ["¿___ ustedes venir mañana? [poder]", "Pueden"]
+      - ["Mis padres ___ a casa a las diez. [volver]", "vuelven"]
+      - ["Alfredo no ___ la cartera. [encontrar]", "encuentra"]
+
+  - type: fill
+    title: Verbos con se
+    en: Verbs with se
+    instr: Write the verb with **se**. Add **con** or **de** where it is needed.
+    items:
+      - ["Mi hermana ___ Pedro el sábado. [casarse]", "se casa con"]
+      - ["Raquel no ___ su pasaporte. [olvidarse]", "se olvida de"]
+      - ["Jaime ___ al lado de su abuela. [sentarse]", "se sienta"]
+      - ["Mi padre no ___ bien hoy. [sentirse]", "se siente"]
+      - ["Los chicos ___ a casa a las seis. [irse]", "se van"]
+      - ["Miguel y Elena no ___ la fecha. [acordarse]", "se acuerdan de"]
+
+  - type: fill
+    title: Preguntas
+    en: Question words
+    instr: Write the question word (with **a, de** or **para** if needed) for the answer in *italics*.
+    items:
+      - ["¿___ va Raquel mañana? — *A la Argentina.*", "Adónde"]
+      - ["¿___ es Alfredo? — *De Madrid.*", "De dónde"]
+      - ["¿___ busca Raquel? — *A Rosario.*", "A quién"]
+      - ["¿___ es la maleta? — *Es de Jaime.*", "De quién"]
+      - ["¿___ es el mensaje? — *Para Raquel.*", "Para quién"]
+      - ["¿___ maletas tiene Raquel? — *Dos.*", "Cuántas"]
+      - ["¿___ estudias español? — *Porque quiero viajar.*", "Por qué"]
+
+  - type: choose
+    title: Elige
+    en: Choose
+    instr: Circle the right word.
+    items:
+      - ["¿___ es tu dirección?", ["Qué", "Cuál"], "Cuál"]
+      - ["¿___ es una telenovela?", ["Qué", "Cuál"], "Qué (it asks for a definition)"]
+      - ["¿___ son tus apellidos?", ["Cuál", "Cuáles"], "Cuáles (more than one)"]
+      - ["¿___? No comprendo. ¿Puede repetir, por favor?", ["Cómo", "Cuál"], "Cómo"]
+      - ["Nosotros ___ ir a Sevilla.", ["queremos", "quieremos"], "queremos (*nosotros* keeps the *e*)"]
+      - ["Teresa piensa mucho ___ su amiga.", ["en", "de"], "en (*pensar en* = to think about)"]
+      - ["En el bar, Raquel ___ un fino.", ["pide", "pregunta"], "pide (*pedir* = to ask for something)"]
+      - ["Gracias ___ tu carta.", ["por", "para"], "por"]
+
+  - type: error
+    title: Un solo error
+    en: One mistake
+    instr: Each sentence has **one** mistake. Write it correctly.
+    items:
+      - ["Mi abuelo se acuerda la guerra.", "Mi abuelo se acuerda **de** la guerra."]
+      - ["¿Quién es la carta para?", "¿**Para quién** es la carta?"]
+      - ["Don Fernando se no siente bien.", "Don Fernando **no se** siente bien."]
+      - ["Mi hermano siempre pide muchas preguntas.", "Mi hermano siempre **hace** muchas preguntas."]
+
+  - type: translate
+    title: Traduce
+    en: Into Spanish
+    instr: Write it in Spanish.
+    items:
+      - ["Who are you thinking about? (to a friend)", "¿En quién piensas?"]
+      - ["Does Teresa remember Rosario?", "¿Teresa se acuerda de Rosario? · ¿Se acuerda Teresa de Rosario? · ¿Teresa recuerda a Rosario?"]
+      - ["Jaime loves his dog.", "Jaime quiere a su perro."]
+      - ["Thanks for your invitation! (to a friend) — You're welcome.", "¡Gracias por tu invitación! — De nada. · No hay de qué."]
+
+  - type: fill
+    title: Repaso
+    en: From earlier episodes
+    instr: Fill in the gap.
+    items:
+      - ["Yo no ___ a los padres de Raquel. [conocer]", "conozco", 7]
+      - ["Son las cinco ___ cuarto. [4:45]", "menos", 5]
+      - ["Mi abuelo tiene ___ años. [73]", "setenta y tres", 7]
+      - ["Vamos ___ mercado. [to the]", "al (*a* + *el*)", 3]
+      - ["___ lunes tengo clase de química. [on Mondays]", "Los", 5]
+
+  - type: write
+    title: Tú
+    en: About you
+    instr: Say it out loud first, then write it.
+    prompt: "Four sentences about a friend or relative: *Se llama…*, *Quiere…*, *Piensa* + infinitive, *Siempre se olvida de…* or *Se acuerda de…*"
+    lines: 4
+    model: "Mi hermana se llama Laura. Quiere ser abogada y piensa estudiar en Madrid. Siempre se olvida de su cartera, pero se acuerda de todos los cumpleaños de la familia."

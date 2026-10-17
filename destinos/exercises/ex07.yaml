@@ -1,0 +1,114 @@
+# Ejercicios · Episodio 7 · La cartera
+# Practice for the sheet in episodes/ep07.yaml. New items, written for this book.
+# Repaso draws on Episodes 6, 4 and 2.
+
+episode: 7
+title: La cartera
+title_en: The wallet
+
+sets:
+  - type: words
+    title: La ropa
+    en: Clothes
+    instr: Write the Spanish word with **el, la, los** or **las**.
+    items:
+      - ["shirt", "la camisa"]
+      - ["T-shirt", "la camiseta"]
+      - ["skirt", "la falda"]
+      - ["dress", "el vestido"]
+      - ["tie", "la corbata"]
+      - ["jacket", "la chaqueta"]
+      - ["socks", "los calcetines"]
+      - ["sweater", "el suéter · el jersey (Spain)"]
+
+  - type: words
+    title: Los números
+    en: Numbers 21–99
+    instr: Write the numbers in words.
+    items:
+      - ["22", "veintidós"]
+      - ["26", "veintiséis"]
+      - ["31", "treinta y uno"]
+      - ["53", "cincuenta y tres"]
+      - ["67", "sesenta y siete"]
+      - ["76", "setenta y seis"]
+      - ["84", "ochenta y cuatro"]
+      - ["1992 (a year)", "mil novecientos noventa y dos"]
+
+  - type: fill
+    title: "¿Saber o conocer?"
+    en: To know
+    instr: Write the right form of **saber** or **conocer**.
+    items:
+      - ["Raquel no ___ dónde está la cartera.", "sabe"]
+      - ["Yo no ___ a Teresa Suárez.", "conozco"]
+      - ["Yo ___ que la carta es importante.", "sé (with an accent)"]
+      - ["¿___ usar una computadora? [tú]", "Sabes"]
+      - ["Raquel va a ___ a Federico esta noche. [to meet]", "conocer"]
+
+  - type: fill
+    title: Verbos irregulares
+    en: Odd forms
+    instr: Write the present tense of the verb in the hint.
+    items:
+      - ["Yo ___ la tarea por la noche. [hacer]", "hago"]
+      - ["Yo siempre ___ mi libro de español a clase. [traer]", "traigo"]
+      - ["Yo le ___ una propina al botones. [dar]", "doy"]
+      - ["No ___ a Jaime en ninguna parte. [ver, yo]", "veo"]
+      - ["¿De dónde ___ tú? [venir]", "vienes"]
+      - ["Miguel y Jaime siempre ___ la verdad. [decir]", "dicen"]
+      - ["Los estudiantes no ___ bien al profesor. [oír]", "oyen"]
+      - ["Mi abuela ___ noventa y dos años. [tener]", "tiene"]
+
+  - type: choose
+    title: Elige
+    en: Choose
+    instr: Circle the right word. **—** means nothing goes in the gap.
+    items:
+      - ["¿___ a mi hermana Ana?", ["Sabes", "Conoces"], "Conoces (a person)"]
+      - ["Raquel espera ___ su amigo en la estación.", ["a", "por", "—"], "a (*esperar* = to wait for; personal *a* before a person)"]
+      - ["Mañana voy a Madrid y ___ dos maletas.", ["traigo", "llevo"], "llevo (*llevar* = to take there)"]
+      - ["El reportero sale ___ hotel a las diez.", ["del", "el"], "del (*salir de* + a place)"]
+      - ["Tengo ___ estudiar esta noche.", ["que", "—"], "que (*tener que* + infinitive)"]
+      - ["En el tren hay ___ personas.", ["cuarenta y un", "cuarenta y una"], "cuarenta y una (*personas* is feminine)"]
+      - ["¿___ su pasaporte, por favor?", ["Podría", "Me permite"], "Me permite (+ a thing; *¿Podría…?* + an infinitive)"]
+
+  - type: error
+    title: Un solo error
+    en: One mistake
+    instr: Each sentence has **one** mistake. Write it correctly.
+    items:
+      - ["Yo no conozco dónde vive Elena.", "Yo no **sé** dónde vive Elena."]
+      - ["Yo poneo la ropa en la maleta.", "Yo **pongo** la ropa en la maleta."]
+      - ["Tengo ir a la oficina mañana.", "Tengo **que** ir a la oficina mañana."]
+      - ["Mi padre tiene sesenta y uno años.", "Mi padre tiene sesenta y **un** años."]
+      - ["Elena y Miguel venen al hotel esta noche.", "Elena y Miguel **vienen** al hotel esta noche."]
+
+  - type: translate
+    title: Traduce
+    en: Into Spanish
+    instr: Write it in Spanish.
+    items:
+      - ["Could I leave my suitcase here?", "¿Podría dejar mi maleta aquí?"]
+      - ["Could you wait here, please? (polite)", "¿Podría esperar aquí, por favor?"]
+      - ["I'd really like to meet your parents. (to a friend)", "Quisiera conocer a tus padres. · Me gustaría conocer a tus padres."]
+      - ["What are you wearing today? — Trousers and a T-shirt.", "¿Qué llevas hoy? — (Llevo) pantalones y una camiseta."]
+
+  - type: fill
+    title: Repaso
+    en: From earlier episodes
+    instr: Fill in the gap.
+    items:
+      - ["¿___ es el apellido de Raquel?", "Cuál", 6]
+      - ["Raquel lleva una chaqueta y unos pantalones ___. [negro]", "negros", 4]
+      - ["Los sábados trabajo ___ las diez ___ las dos.", "de … a", 6]
+      - ["___ son mis amigos, Jaime y Elena. [these]", "Éstos · Estos (a mixed group)", 4]
+      - ["Ramón y Consuelo viven con ___ hija. [their]", "su", 2]
+
+  - type: write
+    title: Tú
+    en: About you
+    instr: Say it out loud first, then write it.
+    prompt: "Four sentences about someone you know well: *Conozco muy bien a…*, *Tiene … años*, *Sabe* + infinitive, *Normalmente lleva…*"
+    lines: 4
+    model: "Conozco muy bien a mi amiga Sara. Tiene treinta y cuatro años y sabe hablar tres lenguas. Normalmente lleva pantalones y una camiseta. Me gustaría conocer a su familia."
