@@ -1,0 +1,113 @@
+# Ejercicios · Episodio 3 · El comienzo
+# Practice for the sheet in episodes/ep03.yaml. New items, written for this book.
+
+episode: 3
+title: El comienzo
+title_en: The beginning
+
+sets:
+  - type: words
+    title: Palabras
+    en: Words
+    instr: Write the Spanish word, with **el, la** or **los** for the nouns.
+    items:
+      - ["grandparents", "los abuelos"]
+      - ["street", "la calle"]
+      - ["church", "la iglesia"]
+      - ["neighbourhood", "el barrio"]
+      - ["last name", "el apellido"]
+      - ["to look for", "buscar"]
+      - ["to arrive", "llegar"]
+      - ["to ask (a question)", "preguntar"]
+
+  - type: words
+    title: Los números
+    en: Numbers 0–21
+    instr: "Do the sum and write the answer in words. **y** = plus, **menos** = minus."
+    items:
+      - ["ocho y siete", "quince"]
+      - ["doce y cuatro", "dieciséis"]
+      - ["nueve y nueve", "dieciocho"]
+      - ["siete y siete", "catorce"]
+      - ["once y dos", "trece"]
+      - ["veinte menos uno", "diecinueve"]
+      - ["quince y seis", "veintiuno · veinte y uno"]
+      - ["seis menos seis", "cero"]
+
+  - type: fill
+    title: El verbo estar
+    en: Verb forms
+    instr: Write the right form of **estar**.
+    items:
+      - ["Hola, Jaime. ¿Cómo ___?", "estás"]
+      - ["Buenos días, don Fernando. ¿Cómo ___ usted?", "está"]
+      - ["Yo ___ bien, pero mi padre está mal.", "estoy"]
+      - ["¿Dónde ___ Miguel y Jaime?", "están"]
+      - ["Mi hermana y yo ___ en casa.", "estamos"]
+      - ["Vosotros ___ en el mercado, ¿verdad?", "estáis"]
+
+  - type: fill
+    title: ¿Habla o hablar?
+    en: Talking about others
+    instr: "Write the verb in the right form. After **debe, desea, necesita**, the second verb stays in the infinitive."
+    items:
+      - ["Raquel ___ a España. [viajar]", "viaja"]
+      - ["Elena y su esposo ___ en Sevilla. [vivir]", "viven"]
+      - ["El señor Ruiz necesita ___ con su madre. [hablar]", "hablar (after *necesita*)"]
+      - ["El taxista ___ que la calle está lejos. [creer]", "cree"]
+      - ["Los chicos ___ en la iglesia. [entrar]", "entran"]
+      - ["Raquel desea ___ a Rosario. [encontrar]", "encontrar (after *desea*)"]
+      - ["Miguel y Jaime ___ estudiar más. [deber]", "deben"]
+      - ["Teresa Suárez ___ una carta. [escribir]", "escribe"]
+
+  - type: choose
+    title: Elige
+    en: Choose
+    instr: Circle the right word.
+    items:
+      - ["En Sevilla ___ muchas iglesias.", ["hay", "están"], "hay"]
+      - ["La iglesia ___ en la calle Pureza.", ["hay", "está"], "está (we know which church: *la* iglesia)"]
+      - ["Elena ___ de Sevilla.", ["es", "está"], "es (where she is from: *ser de*)"]
+      - ["Los chicos llegan ___ mercado.", ["a el", "al"], "al"]
+      - ["¿Cuál es el apellido ___ taxista?", ["de el", "del"], "del"]
+      - ["En mi calle hay ___ tiendas.", ["veintiún", "veintiuna"], "veintiuna (*tiendas* is feminine)"]
+      - ["Miguel Ruiz Ramírez: el apellido de su padre es ___.", ["Ruiz", "Ramírez"], "Ruiz (the father's surname comes first)"]
+
+  - type: error
+    title: Un solo error
+    en: One mistake
+    instr: Each sentence has **one** mistake. Write it correctly.
+    items:
+      - ["Elena es en el mercado.", "Elena **está** en el mercado."]
+      - ["En la oficina hay veintiuno clientes.", "En la oficina hay **veintiún** clientes."]
+      - ["Raquel busca Teresa Suárez.", "Raquel busca **a** Teresa Suárez."]
+      - ["¿Dónde hay el mercado?", "¿Dónde **está** el mercado? · ¿Dónde hay **un** mercado?"]
+
+  - type: translate
+    title: Traduce
+    en: Into Spanish
+    instr: Write it in Spanish.
+    items:
+      - ["Pleased to meet you, Mrs. Suárez. — Likewise.", "Mucho gusto, señora Suárez. — Igualmente."]
+      - ["There are many shops on my street, but there are no churches.", "En mi calle hay muchas tiendas, pero no hay iglesias. · Hay muchas tiendas en mi calle, pero no hay iglesias."]
+      - ["Where are the boys? — They're at the market.", "¿Dónde están los chicos? — Están en el mercado."]
+      - ["Raquel needs to talk to Elena.", "Raquel necesita hablar con Elena."]
+
+  - type: fill
+    title: Repaso
+    en: From earlier episodes
+    instr: Fill in the gap.
+    items:
+      - ["Elena tiene dos hijos. ___ hijos se llaman Miguel y Jaime. [her]", "Sus", 2]
+      - ["¿Tú ___ de Sevilla? [ser]", "eres", 1]
+      - ["Raquel tiene ___ cliente en Madrid. [another]", "otro", 2]
+      - ["Hoy tengo dos ___. [la lección]", "lecciones (no accent)", 2]
+      - ["Mi hermana y yo ___ estudiantes. [ser]", "somos", 1]
+
+  - type: write
+    title: Tú
+    en: About you
+    instr: Say it out loud first, then write it.
+    prompt: "Four sentences about your town or neighbourhood: what there is and isn't (*hay, no hay*), where it is (*está*), and what someone who lives there does (*vive, trabaja…*)."
+    lines: 4
+    model: "Mi barrio está en el sur de la ciudad. Hay muchas tiendas y dos iglesias, pero no hay mercado. Mi amiga Carmen vive en mi calle. Trabaja en una oficina y viaja con frecuencia."
