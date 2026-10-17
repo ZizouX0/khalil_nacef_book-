@@ -3,6 +3,7 @@
 """Build the Destinos exercise book from exercises/ex*.yaml.
 
     python3 destinos/build/build_ejercicios.py [out.pdf]
+    python3 destinos/build/build_ejercicios.py --episodes 3,4 [out.pdf]
 
 One practice set per episode, written for this book (the textbook's and the
 workbook's own activities often need the audio, and their keys are already in
@@ -162,9 +163,14 @@ def episode(ep):
     return "".join(o)
 
 
-def build(out=OUT):
+def build(out=OUT, only=None):
+    """The whole book, or with `only` a set of episode numbers: just those."""
     eps = []
-    for path in sorted(glob.glob(os.path.join(EXERCISES, "ex*.yaml"))):
+    paths = sorted(glob.glob(os.path.join(EXERCISES, "ex*.yaml")))
+    if only:
+        paths = [p for p in paths
+                 if int(re.search(r"ex(\d+)", os.path.basename(p)).group(1)) in only]
+    for path in paths:
         with open(path, encoding="utf-8") as f:
             eps.append(yaml.safe_load(f))
     eps.sort(key=lambda e: int(e["episode"]))
@@ -183,4 +189,10 @@ def build(out=OUT):
 
 
 if __name__ == "__main__":
-    print(build(sys.argv[1] if len(sys.argv) > 1 else OUT))
+    # build_ejercicios.py [out.pdf]                  the whole book
+    # build_ejercicios.py --episodes 3,4 [out.pdf]   just those episodes
+    args, only = sys.argv[1:], None
+    if args[:1] == ["--episodes"]:
+        only = {int(x) for x in args[1].split(",")}
+        args = args[2:]
+    print(build(args[0] if args else OUT, only))
