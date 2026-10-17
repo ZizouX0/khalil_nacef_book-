@@ -1,0 +1,115 @@
+# Ejercicios · Episodio 9 · Estaciones
+# Practice for the sheet in episodes/ep09.yaml. New items, written for this book.
+
+episode: 9
+title: Estaciones
+title_en: Seasons
+
+sets:
+  - type: words
+    title: Palabras
+    en: Words
+    instr: "Write the Spanish word. Colours in the masculine form."
+    items:
+      - ["purple", "morado"]
+      - ["pink", "rosado · rosa"]
+      - ["orange (the colour)", "anaranjado · naranja"]
+      - ["grey", "gris"]
+      - ["brown", "marrón · pardo"]
+      - ["to learn", "aprender"]
+      - ["to listen to", "escuchar (the *to* is built in)"]
+      - ["workshop", "el taller (false friend: English *taller* is *más alto*)"]
+
+  - type: words
+    title: Meses y estaciones
+    en: Months and seasons
+    instr: "1–4: write the month. 5–8: write the season in Spain, with **el** or **la**."
+    items:
+      - ["after March", "abril"]
+      - ["before October", "septiembre · setiembre"]
+      - ["Christmas", "diciembre"]
+      - ["Valentine's Day", "febrero"]
+      - ["abril", "la primavera"]
+      - ["agosto", "el verano"]
+      - ["noviembre", "el otoño"]
+      - ["julio, in Argentina", "el invierno (south of the equator the seasons are reversed)"]
+
+  - type: fill
+    title: Verbos con cambio
+    en: Stem-changing verbs
+    instr: "Write the verb in the present. The hint gives the infinitive."
+    items:
+      - ["Yo ___ con mis clases de español. [seguir]", "sigo"]
+      - ["¿A qué hora ___ a casa los viernes? [tú · volver]", "vuelves"]
+      - ["No ___ mi cartera. ¿Dónde está? [yo · encontrar]", "encuentro"]
+      - ["Y tú, ¿qué ___, un café solo o un café con leche? [pedir]", "pides"]
+      - ["Los lunes ___ a trabajar a las ocho. [yo · empezar]", "empiezo"]
+      - ["Ud. ___ mucho en su familia, ¿verdad? [pensar]", "piensa (*usted* takes the *he, she* form)"]
+      - ["¿___ venir a la fiesta el sábado? [tú · poder]", "Puedes"]
+
+  - type: fill
+    title: Me, te, se…
+    en: Your day
+    instr: "Write the verb with **me, te, se, nos** or **os**. The hint gives its meaning."
+    items:
+      - ["Yo ___ a las siete. [wake up]", "me despierto"]
+      - ["¿A qué hora ___ tú los domingos? [get up]", "te levantas"]
+      - ["Mi padre ___ muy rápido. [get dressed]", "se viste"]
+      - ["Nosotros ___ tarde los sábados. [go to bed]", "nos acostamos"]
+      - ["Cuando leo en la cama, ___ inmediatamente. [I · fall asleep]", "me duermo"]
+      - ["Y vosotros, ¿___ de vuestro primer día de clase? [remember]", "os acordáis"]
+      - ["¿Puedo ___ aquí, con vosotros? [sit down]", "sentarme (joined to the infinitive)"]
+
+  - type: choose
+    title: Elige
+    en: Choose
+    instr: "Circle the right word."
+    items:
+      - ["___ zapatos de aquí son muy económicos.", ["Estos", "Esos", "Aquellos"], "Estos (near me: *aquí*)"]
+      - ["Raquel, ___ bufanda que llevas es muy elegante.", ["esta", "esa", "aquella"], "esa (near the person you speak to)"]
+      - ["¿Ves ___ casa blanca? [over there]", ["esa", "aquella"], "aquella"]
+      - ["No me gusta ___ sombrero.", ["esto", "este"], "este (never *esto* before a noun)"]
+      - ["Mi cumpleaños es ___ 22 de abril.", ["el", "en el"], "el (*el* alone means *on*)"]
+      - ["Federico tiene un taller. El taller ___ está en Madrid.", ["del", "de él"], "de él (*de + él* never becomes *del*)"]
+      - ["Generalmente ___ a las ocho.", ["desayuno", "me desayuno"], "desayuno (no pronoun with *desayunar*)"]
+      - ["¿Cenamos el sábado? — ___, ¿a qué hora?", ["De acuerdo", "Lo siento, pero no puedo"], "De acuerdo"]
+
+  - type: error
+    title: Un solo error
+    en: One mistake
+    instr: "Each sentence has **one** mistake. Write it correctly."
+    items:
+      - ["Siempre seguo la misma rutina.", "Siempre **sigo** la misma rutina."]
+      - ["¿A qué hora se levantas tú?", "¿A qué hora **te** levantas tú?"]
+      - ["Mañana yo quiero levantarse temprano.", "Mañana yo quiero **levantarme** temprano."]
+      - ["Las clases empiezan en Septiembre.", "Las clases empiezan en **septiembre**."]
+      - ["Tengo dos camisas azul.", "Tengo dos camisas **azules**."]
+
+  - type: translate
+    title: Traduce
+    en: Into Spanish
+    instr: "Write it in Spanish."
+    items:
+      - ["What time do you get up on Saturdays? (to a friend)", "¿A qué hora te levantas los sábados?"]
+      - ["I go to bed at eleven, but I don't fall asleep right away.", "Me acuesto a las once, pero no me duermo inmediatamente."]
+      - ["I don't remember his address.", "No me acuerdo de su dirección. · No recuerdo su dirección. (Clearer: *la dirección de él*.)"]
+      - ["I'd like to see those brown trousers over there.", "Quisiera ver aquellos pantalones marrones. · Me gustaría ver aquellos pantalones pardos. (Either verb, either colour.)"]
+
+  - type: fill
+    title: Repaso
+    en: From earlier episodes
+    instr: "Fill in the gap."
+    items:
+      - ["Gracias ___ tu carta. — De nada.", "por", 8]
+      - ["¿___ es tu clase favorita?", "Cuál", 6]
+      - ["Jaime es un ___ estudiante. [bueno]", "buen", 4]
+      - ["¿___ quién es este mensaje? — Es para don Fernando.", "Para", 8]
+      - ["Esta noche no salgo: ceno ___ casa.", "en", 6]
+
+  - type: write
+    title: Tú
+    en: About you
+    instr: "Say it out loud first, then write it."
+    prompt: "Your weekday in four or five sentences: when you wake up, get up, have breakfast and go to bed. Then: *¿Cuál es tu estación favorita? ¿Por qué?*"
+    lines: 4
+    model: "Los lunes me despierto a las siete, pero me levanto a las siete y cuarto. Me visto y desayuno a las ocho menos cuarto. Empiezo a trabajar a las nueve y vuelvo a casa a las seis. Me acuesto a las once y me duermo inmediatamente. Mi estación favorita es la primavera, porque hay muchas flores."
