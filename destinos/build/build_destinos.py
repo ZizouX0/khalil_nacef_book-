@@ -279,7 +279,10 @@ def episode(ep):
                      '<p class="course">' + "".join(f'<span><b>{esc(a)}</b> {esc(b)}</span>' for a, b in v["course"]) + '</p>')
         # the word list is read as one block: if it doesn't fit in what is left
         # of the page, it starts on the next one instead of being cut in two
-        o.append(sec("Vocabulario", "Words", body, "keep"))
+        vocab_sec = sec("Vocabulario", "Words", body, "keep")
+        # a long list can go last, so the shorter sections fill the page it would leave empty
+        if not ep.get("vocab_last"):
+            o.append(vocab_sec)
 
     c = ep.get("cognates") or {}
     if c and (not ESSENTIAL or c.get("patterns") or c.get("false_friends")):
@@ -319,6 +322,9 @@ def episode(ep):
     if ep.get("phrases"):
         ph = ep["phrases"][:MAX_PHRASES] if ESSENTIAL else ep["phrases"]
         o.append(sec("Frases útiles", "Ready to use", pairs(ph, "phr"), "keep"))
+
+    if ep.get("vocab") and ep.get("vocab_last"):
+        o.append(vocab_sec)
 
     if ep.get("culture") and not ESSENTIAL:
         body = '<div class="tips">' + "".join(

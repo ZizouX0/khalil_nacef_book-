@@ -25,8 +25,9 @@ English subtitle, an instruction and its items:
     text       a paragraph with numbered gaps {1}, {2}…; items are the answers in order
     match      items [left, answer]; `options` is the right-hand column, lettered a, b, c…
 
-Any set may also have a `bank` (a list of words to choose from) and a `source`
-(where it is in the book: "Workbook p. 13 · Actividad A").
+Any set may also have a `bank` (a list of words to choose from), a `source`
+(where it is in the book: "Workbook p. 13 · Actividad A") and a `key_note`, printed
+before its answers when they do not come from the book's key.
 
 An episode file may also have a `listening` list: the books' audio exercises,
 which are not copied but pointed to, each with a `name`, `where` it is, the
@@ -142,6 +143,8 @@ def key_for(ep):
                 tag = f' <span class="src">Ep.&#160;{src}</span>' if src else ""
                 parts.append(f'<span class="k"><span class="kn">{n}</span>{md(a)}{tag}</span>')
             ans = " ".join(parts)
+            if s.get("key_note"):     # where the answers come from, when it isn't the book's key
+                ans = f'<span class="k"><i>{md(s["key_note"])}</i></span> ' + ans
         out.append(f'<p class="kset"><span class="setl">{letter}</span>{ans}</p>')
     return (f'<div class="keyep"><h3>Episodio {ep["episode"]} · {esc(ep["title"])}</h3>'
             + "".join(out) + '</div>')

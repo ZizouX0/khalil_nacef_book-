@@ -8,7 +8,7 @@
 .opener.exop .title { padding-top: 2.5mm; }
 
 .exset { margin-bottom: 5mm; }
-.exset p.instr { break-after: avoid; }
+.exset p.instr, .exset p.source, .exset p.bank { break-after: avoid; }
 .exset .wlines, .exset p.prompt { break-inside: avoid; }
 .exset .sh .es { display: inline; }
 .setl { display: inline-block; min-width: 5.5mm; font: 700 10pt "Plex"; color: #fff;

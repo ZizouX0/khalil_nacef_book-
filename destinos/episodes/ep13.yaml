@@ -1,0 +1,207 @@
+# Episodio 13 · La búsqueda
+# Sources: Textbook Lección 13 (pp. 129–139) and Workbook/Study Guide Lección 13 (pp. 128–139, 307–308).
+# Words in vocab.core are the two books' own Vocabulario lists. The buscar verb card and the
+# -qué / -gué / -cé table follow the workbook's Gramática 37; me, te, nos, os its 38; verbs with
+# and without se, and each other, its 39. The shop phrases are the Conversaciones: En una tienda.
+# Added: today's spelling deme (the books write déme), and the cooking words from the workbook's
+# Vocabulario del tema, Actividad B, as a rule.
+
+episode: 13
+title: La búsqueda
+title_en: The search
+pages: "Textbook pp. 129–139 · Workbook pp. 128–139"
+# the word list is long: it goes last, so the rules, sounds and phrases fill page 3
+vocab_last: true
+
+essentials:
+  - "**The past for I and you**: *-ar* **-é, -aste**, *-er* and *-ir* **-í, -iste**: *llegué, llegaste · decidí, decidiste*. The *yo* form changes its spelling: bus**qué**, lle**gué**, almor**cé**. And *ver* has no accents: **vi, vio**."
+  - "**me, te, nos, os** = me, you, us, you all: *Arturo **me** invitó. · ¡José! **Te** buscan.* To *usted*: **lo** to a man, **la** to a woman: *¿En qué puedo servir**la**?*"
+  - "**In a shop**: **Deme…** = give me, **Cóbreme** = ring it up: *Deme medio kilo de calamares, por favor.* **me gustan** + plural: *Me gustan los mariscos.*"
+  - "**se** in the plural can mean *each other*: *Nos llamamos* = we call each other · *se comprenden* = they understand each other."
+
+greetings_title: ["En una tienda", "In a shop"]
+greetings:
+  - ["Deme un kilo de calamares, por favor.", "Give me a kilo of squid, please.", "Direct, and normal in a shop. *por favor* makes it softer. The books write **déme**; today's spelling is **deme**."]
+  - ["Deme medio kilo de manteca.", "Let me have half a kilo of butter.", "**un kilo · medio kilo**: the metric system. *manteca* is butter in Argentina; elsewhere **mantequilla** (*manteca* = lard)."]
+  - ["Cóbreme esto, por favor.", "Ring this up for me, please.", "From *cobrar* = to charge."]
+  - ["¿Necesitan algo más?", "Do you need anything else?", "What the clerk asks."]
+
+verbs:
+  table:
+    verb: buscar
+    meaning: looked for · the past
+    forms:
+      - ["bus**qué**", "I looked for"]
+      - ["busc**aste**", "you looked for"]
+      - ["busc**ó**", "he, she looked for · you looked for"]
+      - ["busc**amos**", "we looked for"]
+      - ["busc**asteis**", "you looked for"]
+      - ["busc**aron**", "they looked for · you looked for"]
+    hook: "Only the *yo* form changes its spelling: **qu** before *é* keeps the *k* sound, as in *que* (Episode 3). No *for* after *buscar*: *Busqué la dirección* = I looked for the address."
+  met:
+    - ["llegué · tomé", "llegar · tomar", "I arrived · I took"]
+    - ["resolví · subí", "resolver · subir", "I solved · I went up"]
+    - ["descansé · salí", "descansar · salir", "I rested · I left"]
+    - ["volví · volviste", "volver", "I went back · you went back"]
+    - ["llamé · hablé", "llamar · hablar", "I called · I spoke"]
+    - ["vi · vio", "ver", "I saw · he / she saw"]
+    - ["probaste", "probar (ue)", "you tried, tasted"]
+
+grammar:
+  - title: "The past for yo: -qué, -gué, -cé"
+    rule: "The full table of endings is in **Episode 12**. To keep the stem's sound before **-é**, three groups of *-ar* verbs change their spelling, in the *yo* form only:"
+    table:
+      head: ["", "infinitive", "yo", "the others"]
+      rows:
+        - ["-car: **-qué**", "buscar", "bus**qué**", "buscaste, buscó…"]
+        - ["-gar: **-gué**", "llegar", "lle**gué**", "llegaste, llegó…"]
+        - ["-zar: **-cé**", "almorzar", "almor**cé**", "almorzaste, almorzó…"]
+    examples:
+      - ["**Llegué** a Buenos Aires y **tomé** un taxi a mi hotel.", "I arrived in Buenos Aires and took a taxi to my hotel."]
+      - ["Yo **volví** al hotel y tú **volviste** a casa. Luego **llamé** a México.", "I went back to the hotel and you went home. Then I called Mexico."]
+      - ["**Empecé** la búsqueda de Ángel con Arturo.", "I started the search for Ángel with Arturo."]
+      - ["¿**Encontraste** a Héctor?", "Did you find Héctor?"]
+    trap: "The others you know: **-car** *dedicarse, explicar, sacar* · **-gar** *investigar* · **-zar** *comenzar, empezar* (empe**cé**). And **ver** has no accents: *vi, viste, vio*. *yo* and *él* differ only in the last vowel: lle**gué** (I) · lle**gó** (he)."
+
+  - title: "me, te, nos, os: me, you, us"
+    rule: "The full set of words for *me, you, him, her, it, us, them*. *lo, la, los, las* are in **Episode 12**; **me, te, nos, os** only ever mean people, so they have no masculine or feminine."
+    table:
+      head: ["", "one", "more than one"]
+      rows:
+        - ["I · we", "**me** = me", "**nos** = us"]
+        - ["you, familiar", "**te** = you (*tú*)", "**os** = you (*vosotros*)"]
+        - ["you, formal · he, she, they", "**lo · la** = you (*Ud.*), him, her, it", "**los · las** = you (*Uds.*), them"]
+    examples:
+      - ["Arturo **me** ha invitado a cenar.", "Arturo has invited me to dinner."]
+      - ["¡José! **Te** buscan.", "José! Someone's looking for you."]
+      - ["¿No **me** invitas a pasar?", "Aren't you going to invite me in?"]
+      - ["**Te** invito a probar una parrillada en mi casa.", "Come and try a mixed grill at my house."]
+    trap: "To **usted**, choose by the person: *¿En qué puedo servir**la**, señora?* · *¿En qué puedo servir**lo**, señor?* Same place as always: before the verb, or joined to an infinitive."
+
+  - title: "With or without se"
+    rule: "Many verbs with *se* (Episode 9) also work without it. Without *se*, you do the action **to someone else**:"
+    table:
+      head: ["", "to someone else", "to yourself"]
+      rows:
+        - ["despertar(se)", "El teléfono **despertó** a Raquel.", "Raquel **se despertó** a las seis."]
+        - ["vestir(se)", "Elena **vistió** a Jaime…", "…y después **se vistió** también."]
+        - ["a new meaning", "**dormir** = to sleep · **ir** = to go", "**dormirse** = to fall asleep · **irse** = to go away (Episodes 8–9)"]
+    examples:
+      - ["**Nos llamamos** por teléfono con frecuencia.", "We call each other often."]
+      - ["¿Crees que Raquel y Arturo **se comprenden**?", "Do you think Raquel and Arturo understand each other?"]
+    trap: "In the plural, **nos, os, se** can also mean **each other**: *Mis padres y yo nos visitamos con frecuencia.* Learn to recognise it."
+
+rules:
+  - ["**me gustan** + a plural noun; **no me gusta nada** = I don't like it at all (Episode 4)", "Me gustan mucho los calamares. · No me gusta nada el atún."]
+  - ["**Entre** … **y** …, **prefiero** … = of … and …, I prefer …", "Entre el salmón y el atún, prefiero el salmón."]
+  - ["Cooking: **a la plancha** (grilled), **al horno** (baked), **frito** (fried), **asado** (roast), **al ajillo** (in garlic and oil)", "¿Cómo te gusta el pescado? —A la plancha."]
+  - ["**la primera vez · la última vez** = the first time · the last time", "La última vez que vi a mi hermano fue aquí."]
+  - ["**la Argentina, el Brasil, el Uruguay, el Paraguay** take *el, la*; **Chile, Bolivia, Colombia** don't. Not every speaker keeps this.", "Raquel está en la Argentina."]
+
+vocab:
+  core:
+    - group: Los verbos
+      words:
+        - ["almorzar (ue)", "to have lunch"]
+        - ["comenzar (ie)", "to begin"]
+        - ["comer", "to eat"]
+        - ["contar (ue)", "to count"]
+        - ["dormir (ue)", "to sleep"]
+        - ["invitar", "to invite"]
+        - ["irse", "to go away; to leave (for a place)"]
+        - ["preferir (ie)", "to prefer"]
+        - ["probar (ue)", "to try, taste (food)"]
+        - ["reconocer (reconozco)", "to recognize"]
+    - group: Las personas
+      words:
+        - ["el · la dependiente", "clerk"]
+        - ["el marinero", "sailor"]
+        - ["todo el mundo", "everybody"]
+    - group: Los lugares · las cosas
+      words:
+        - ["el barco", "boat"]
+        - ["el negocio", "business; shop"]
+        - ["la tienda", "store"]
+        - ["el dinero", "money"]
+    - group: Los conceptos
+      words:
+        - ["la búsqueda", "search"]
+        - ["la (primera · última) vez", "(first · last) time"]
+    - group: Los mariscos
+      words:
+        - ["los calamares", "squid"]
+        - ["el cangrejo", "crab"]
+        - ["la langosta", "lobster"]
+        - ["el langostino", "prawn"]
+        - ["el mejillón", "mussel"]
+        - ["la ostra", "oyster"]
+    - group: El pescado
+      words:
+        - ["el atún", "tuna"]
+        - ["el lenguado", "sole"]
+        - ["la merluza", "hake"]
+        - ["el salmón", "salmon"]
+    - group: Otros comestibles
+      words:
+        - ["el aceite", "oil"]
+        - ["el arroz", "rice"]
+        - ["la ensalada", "salad"]
+        - ["la manteca (Arg.) · la mantequilla", "butter"]
+        - ["el pan", "bread"]
+    - group: En una tienda
+      see: "En una tienda"
+      words:
+        - ["cóbreme…", "charge me for…, ring… up for me"]
+        - ["deme…", "give me…, let me have…"]
+    - group: Las palabras adicionales
+      words:
+        - ["me gusta(n) (mucho)…", "I like… (a lot)"]
+        - ["no me gusta(n) (nada)…", "I don't like… (at all)"]
+        - ["en seguida", "immediately"]
+        - ["hace… (años, horas…)", "… (years, hours…) ago"]
+        - ["luego", "then, next; later"]
+        - ["anoche · ayer", "last night · yesterday"]
+        - ["fácilmente", "easily"]
+        - ["nunca", "never"]
+  extra:
+    - group: Más comida
+      words:
+        - ["la gamba (Esp.) · el camarón (Méx.)", "shrimp"]
+        - ["la parrillada", "mixed grill"]
+        - ["las brochetas", "kebabs"]
+        - ["la tienda de comestibles", "grocery store"]
+        - ["el vendedor de pescado", "fishmonger"]
+        - ["guisado", "stewed"]
+    - group: Otras
+      words:
+        - ["Disculpe la molestia.", "Sorry to bother you."]
+        - ["acá", "here (Argentina, Latin America)"]
+        - ["el negocio de al lado", "the shop next door"]
+        - ["la tienda de antigüedades", "antique shop"]
+        - ["el pasatiempo", "hobby"]
+        - ["el retrato · el dibujo", "portrait · drawing"]
+        - ["aburrirse de", "to get bored with"]
+        - ["el cumpleaños", "birthday"]
+        - ["en punto", "sharp (time)"]
+
+sounds:
+  - title: "s, z, ci, ce: one sound in Latin America"
+    body: "**s**, **z**, and **c** before *e, i* all sound like English *s*: *ciudad, cenar, azul, arroz, conozco, mariscos*. Keep it a hiss: *casa, presidente*, never the *z* of English *rose*."
+  - title: "z, ci, ce in Spain: th"
+    body: "In most of Spain **z** and **c** before *e, i* sound like *th* in *think*, while **s** stays *s*: *Santa Susana* · *el ciego, la voz, dicen, merluza*. Both are correct: choose one and keep to it."
+  - title: "s at the end of a syllable"
+    body: "In relaxed speech in Argentina, the Caribbean and southern Spain an **s** before a consonant or at the end of a word turns into a soft *h* or drops: *lo(h) mejillone(h)*. Learn to hear it; say the full *s* yourself."
+
+phrases:
+  - ["Disculpe la molestia.", "Sorry to bother you."]
+  - ["La última vez que vi a mi hermano fue aquí.", "The last time I saw my brother was here."]
+  - ["Llegué a Buenos Aires y tomé un taxi a mi hotel.", "I arrived in Buenos Aires and took a taxi to my hotel."]
+  - ["Arturo me ha invitado a cenar.", "Arturo has invited me to dinner."]
+  - ["Estudié y también vi la televisión anoche.", "I studied and also watched television last night."]
+  - ["¿Ya probaste la parrillada?", "Have you tried the mixed grill yet?"]
+  - ["Conoce a todo el mundo.", "He knows everybody."]
+  - ["Perdimos contacto hace muchos años.", "We lost touch many years ago."]
+
+culture:
+  - title: "La Argentina, país de contrastes"
+    body: "From the tropical north (the **cataratas del Iguazú**, 275 waterfalls on the border with Brazil) to **Ushuaia** in Tierra del Fuego, the southernmost city in the world: the **Pampa**, the vineyards of **Mendoza**, the **Andes** with the **Aconcagua** (6,959 m, the highest peak in the Americas), ski resorts such as **Bariloche**, and the glaciers and lakes of **Patagonia**."
