@@ -76,9 +76,9 @@ p.bank span { display: inline-block; margin-right: 5mm; }
 
 /* the books' listening exercises: where they are, with a box to tick */
 ol.listen { list-style: none; margin: 0; padding: 0; border-top: .8pt solid var(--ink); }
-ol.listen > li { display: flex; gap: 3.5mm; padding: 2mm 0 1.8mm; border-bottom: .5pt solid var(--rule); break-inside: avoid; }
-ol.listen .tick { display: block; flex: none; box-sizing: border-box; width: 3.8mm; height: 3.8mm;
-                 border: .7pt solid var(--ink); margin-top: .9mm; }
+ol.listen > li { position: relative; padding: 2mm 0 1.8mm 7.5mm; border-bottom: .5pt solid var(--rule); break-inside: avoid; }
+ol.listen .tick { position: absolute; left: 0; top: 2.9mm; width: 3.8mm; height: 3.8mm; box-sizing: border-box;
+                  border: .7pt solid var(--ink); }
 ol.listen .lname { font-weight: 700; }
 ol.listen p.source { margin: .4mm 0 .6mm; }
 ol.listen p.learn { margin: 0; }

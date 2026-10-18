@@ -213,7 +213,7 @@ def listening(ep):
         f'<p class="learn">{md(x["learn"])}</p></div></li>' for x in ep["listening"])
     intro = ('<p class="instr">Do these in the book itself, with the audio. '
              'Tick each one when it is done.</p>')
-    return B.sec("Para escuchar", "Listening, in your books", intro + f'<ol class="listen">{li}</ol>', "listenpart keep")
+    return B.sec("Para escuchar", "Listening, in your books", intro + f'<ol class="listen">{li}</ol>', "listenpart")
 
 
 def build(out=OUT, only=None):
