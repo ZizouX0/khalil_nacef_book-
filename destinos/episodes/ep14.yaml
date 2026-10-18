@@ -1,0 +1,172 @@
+# Episodio 14 · En el extranjero
+# Sources: Textbook Lección 14 (pp. 140–149) and Workbook/Study Guide Lección 14 (pp. 140–150, 309–310).
+# Words in vocab.core are the two books' own Vocabulario lists. The nosotros / vosotros table follows
+# the workbook's Gramática 40; nos and os its 41 (as a rule: the table is in Episode 13); the
+# prepositions its 42. The phone phrases are the Conversaciones: Cuando la conversación es difícil,
+# and the toast is the textbook's Nota cultural: Los brindis. The textbook's key says
+# "colgar = to bang up": a typo for to hang up.
+
+episode: 14
+title: En el extranjero
+title_en: Abroad
+pages: "Textbook pp. 140–149 · Workbook pp. 140–150"
+# the word list is long: it goes last, so the rules, sounds and phrases fill page 2
+vocab_last: true
+
+essentials:
+  - "**We and you all in the past**: **-amos, -imos** (*invitamos, salimos*) are the same as the present; only the context tells. *-er* verbs differ: *comemos* (now) · **comimos** (then). *vosotros* = the *tú* form + **-is**: *invitaste*, **invitasteis**."
+  - "**After a preposition, the infinitive**, never *-ing*: *antes de cenar* = before having dinner, *sin levantarse* = without getting up. And *yo, tú* become **mí, ti**: *Es muy importante para mí.*"
+  - "**No extra word** after **buscar, escuchar, mirar, esperar**: *Miran la foto* = they look **at** the photo · *Esperan a Héctor* = they wait **for** Héctor."
+  - "**Managing a conversation**: *No te preocupes* (don't worry), *No exageres* (don't exaggerate), *Tengo que colgar* (I have to hang up)."
+
+greetings_title: ["Cuando la conversación es difícil", "Managing a conversation"]
+greetings:
+  - ["No te preocupes.", "Don't worry.", "To *tú*. To *usted*: **No se preocupe**."]
+  - ["No exageres, mamá.", "Don't exaggerate, Mum.", "When someone makes too much of a situation. To *tú*."]
+  - ["Bueno, tengo que colgar.", "Well, I have to hang up.", "To end a phone call: **colgar (ue)** = to hang up."]
+  - ["Te echamos de menos.", "We miss you.", "**echar de menos** = to miss someone."]
+  - ["Está bien, pero cuídate.", "OK, but take care of yourself.", "*cuídate* to *tú*."]
+  - ["¡Salud, dinero y amor! Y tiempo para disfrutarlos.", "Health, money and love! And time to enjoy them.", "A toast. The short one, even with water, is **¡Salud!**"]
+
+grammar:
+  - title: "The past: nosotros and vosotros"
+    rule: "The other four forms are in **Episodes 12–13**. Here are the last two, with the present below them:"
+    table:
+      head: ["", "-ar · invitar", "-er · aprender", "-ir · salir"]
+      rows:
+        - ["nosotros/as", "invit**amos**", "aprend**imos**", "sal**imos**"]
+        - ["vosotros/as", "invit**asteis**", "aprend**isteis**", "sal**isteis**"]
+        - ["the present: we", "invit**amos**", "aprend**emos**", "sal**imos**"]
+    examples:
+      - ["Anoche **encontramos** a Héctor en el Piccolo Navio. Cuando lo **vimos**, se levantó para bailar.", "Last night we found Héctor at the Piccolo Navio. When we saw him, he got up to dance."]
+      - ["Arturo y yo **comimos** en su casa anoche.", "Arturo and I ate at his house last night."]
+      - ["Ángel y yo **viajamos** mucho juntos.", "Ángel and I travelled a lot together."]
+      - ["Teresa, ¿**vivisteis** tú y tu hijo en Sevilla antes?", "Teresa, did you and your son live in Sevilla before?"]
+    trap: "*vosotros* is for Spain (Episode 5). In Latin America **ustedes** is the plural of both *tú* and *usted*: *¿Comieron ustedes?*"
+
+  - title: "Prepositions"
+    rule: "Small words for place, time and more. **de** and **a** join *el*: *cerca **del** puerto, **al** lado de su tienda*."
+    table:
+      head: ["", "Spanish", "English"]
+      rows:
+        - ["place", "**cerca de** · **lejos de** · **al lado de** · **junto a** · **entre**", "near · far from · beside · next to · between, among"]
+        - ["time", "**antes de** · **durante** · **después de** · **hasta**", "before · during · after · until"]
+        - ["more", "**sin** · **sobre** · **para** · **con**", "without · about · for · with"]
+    examples:
+      - ["**Después de** vestir**se**, Raquel fue **a la** casa **de** Arturo.", "After getting dressed, Raquel went to Arturo's house."]
+      - ["**Antes de** servir**las**, probaron unos quesos deliciosos.", "Before serving them, they tried some delicious cheeses."]
+      - ["—Tome. —No, no, no. Es **para** Ud. Es **de** su hermano.", "—Here. —No, no, no. It's for you. It's your brother's."]
+      - ["Es muy importante **para mí**.", "It's very important to me."]
+    trap: "After a preposition comes the **infinitive**, never *-ing*: *sin levantarse, antes de cenar*. For *me, you* say **mí, ti**: *para mí, para ti*; with *con*: **conmigo, contigo** (Episode 6). **mí** (me) has an accent, **mi** (my) doesn't."
+
+rules:
+  - ["**buscar** = look for · **escuchar** = listen to · **mirar** = look at · **esperar** = wait for, hope: no extra word", "Todos miran la foto de Ángel. · Esperan a Héctor en el Piccolo Navio."]
+  - ["**nos** = us · **os** = you all (Spain); in Latin America *you all* is **los, las** (Episode 13)", "José nos buscó en el restaurante. · Vamos, los llevo a la cantina."]
+  - ["**llevarse bien · mal** = to get along well · badly", "Nos llevamos muy bien."]
+  - ["**se** + verb = *it is …-ed*: **se prepara** = it is prepared", "Pollo a la inglesa: se prepara con limón y mayonesa."]
+  - ["**pasar** = to spend (time); to happen · **en el extranjero** = abroad", "¿Qué pasó? · ¿Se quedó a vivir en el extranjero?"]
+
+vocab:
+  core:
+    - group: Los verbos
+      words:
+        - ["esperar", "to wait (for); to hope; to expect"]
+        - ["llevarse (bien · mal)", "to get along (well · badly)"]
+        - ["mirar", "to look (at)"]
+        - ["pasar", "to pass, spend (time); to happen"]
+        - ["preparar", "to prepare"]
+    - group: Las carnes
+      words:
+        - ["el bistec", "steak"]
+        - ["la carne de cerdo", "pork"]
+        - ["la carne de vaca", "beef"]
+        - ["el cordero", "lamb"]
+        - ["el chorizo", "sausage"]
+        - ["la chuleta (de cerdo · de cordero)", "chop (pork · lamb)"]
+        - ["la hamburguesa", "hamburger"]
+        - ["el jamón", "ham"]
+        - ["la panceta · el tocino", "bacon"]
+        - ["el pavo", "turkey"]
+        - ["el pollo", "chicken"]
+        - ["los riñones", "kidneys"]
+        - ["la ternera", "veal"]
+    - group: Otros comestibles
+      words:
+        - ["la cebolla", "onion"]
+        - ["el pimiento (morrón)", "(red) pepper"]
+        - ["el queso", "cheese"]
+        - ["el tomate", "tomato"]
+        - ["el vino (blanco · tinto)", "(white · red) wine"]
+    - group: Los adjetivos
+      words:
+        - ["divorciado · divorciada", "divorced"]
+        - ["juntos · juntas", "together"]
+        - ["solo · sola", "alone"]
+    - group: Las preposiciones
+      see: "Gramática, Prepositions"
+      words:
+        - ["al lado de · junto a", "beside, next to"]
+        - ["antes de · durante · hasta", "before · during · until"]
+        - ["cerca de · lejos de", "near (to) · far from"]
+        - ["entre · sin · sobre", "between, among · without · about"]
+    - group: Los pronombres preposicionales
+      words:
+        - ["mí · conmigo", "me · with me"]
+        - ["ti · contigo", "you · with you"]
+    - group: Más sobre la cortesía
+      see: "Cuando la conversación es difícil"
+      words:
+        - ["No exageres.", "Don't exaggerate."]
+        - ["No te preocupes.", "Don't worry."]
+        - ["Tengo que colgar.", "I have to hang up."]
+    - group: Las palabras adicionales
+      words:
+        - ["en el extranjero", "abroad"]
+  extra:
+    - group: Otros nombres
+      words:
+        - ["la carne de res (Méx.)", "beef"]
+        - ["la salchicha (Lat. Am.)", "sausage"]
+        - ["el guajolote (Méx.)", "turkey"]
+    - group: En la mesa
+      words:
+        - ["el arroz con pollo", "chicken and rice"]
+        - ["la sopa de cebolla · de tomate", "onion · tomato soup"]
+        - ["la ciruela", "plum"]
+        - ["la receta", "recipe"]
+        - ["rico · rica", "delicious"]
+        - ["la pescadería", "fish market"]
+    - group: Otras
+      words:
+        - ["quedarse", "to stay"]
+        - ["un par de días", "a couple of days"]
+        - ["el ruido", "noise"]
+        - ["afuera", "outside"]
+        - ["la boda", "wedding"]
+        - ["la luna de miel", "honeymoon"]
+        - ["extrañar", "to miss (someone)"]
+        - ["prometer", "to promise"]
+        - ["al principio", "at first"]
+
+sounds:
+  - title: "r: one tap"
+    body: "A single **r** inside a word is one quick tap of the tongue, like *tt* in American *Betty* or *dd* in *ladder*: **pero, Sara, para, gracias, tarde, vivir**."
+  - title: "rr: a trill"
+    body: "**rr**, and **r** at the start of a word or after *n, l*, is trilled, several fast taps: **perro, barrio, correr, rojo, Rosario, Enrique**. It changes the word: *pero* (but) · *perro* (dog), *caro* (expensive) · *carro* (car)."
+  - title: "Say it"
+    body: "*R con R, guitarra; R con R, barril. Mira qué rápido corren los carros del ferrocarril.*"
+
+phrases:
+  - ["Se lo agradezco muchísimo. —No hay de qué.", "I'm very grateful to you. —Don't mention it."]
+  - ["No recuerdo bien qué país era. No estoy seguro.", "I don't remember which country it was. I'm not sure."]
+  - ["Necesito un par de días para buscar la carta.", "I need a couple of days to look for the letter."]
+  - ["Ud. sabe dónde encontrarme.", "You know where to find me."]
+  - ["¿Podemos hablar afuera? Con este ruido…", "Can we talk outside? With this noise…"]
+  - ["Sí, estoy divorciado. Me organizo bastante bien solo.", "Yes, I'm divorced. I manage quite well on my own."]
+  - ["Me preocupo porque estás sola.", "I worry because you're alone."]
+
+culture:
+  - title: "José de San Martín"
+    body: "Argentina's national hero (1778–1850), the general who led the independence of **Argentina, Chile and Peru**: he crossed the Andes in 1817 with 5,200 men. In the north, **Simón Bolívar** freed Venezuela, Colombia and Ecuador. *Americano* here means *from the Americas*, not *from the United States*."
+  - title: "Los brindis"
+    body: "*¡Salud, dinero y amor! Y tiempo para disfrutarlos* (or *para gozarlos*). The short toast **¡Salud!** is fine even with water."
