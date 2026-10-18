@@ -28,6 +28,11 @@ English subtitle, an instruction and its items:
 Any set may also have a `bank` (a list of words to choose from) and a `source`
 (where it is in the book: "Workbook p. 13 · Actividad A").
 
+An episode file may also have a `listening` list: the books' audio exercises,
+which are not copied but pointed to, each with a `name`, `where` it is, the
+`paso` that uses the audio and what it will help you `learn`. They are printed
+after the episode's sets, with a box to tick.
+
 Any item may end with an episode number: it is then a review item from that
 episode. The number is printed in the key only, never next to the item, so the
 item still tests the rule and not the memory of where it came from.
@@ -164,6 +169,7 @@ HOWTO = [
     ("Check at the back", "Mark your answers with the key at the back. Write the correct form next to every mistake."),
     ("Redo in two days", "Two days later, redo only the items you got wrong. Then once more a week later."),
     ("Say it out loud", "Read your corrected sentences aloud. Each exercise shows its page in the book, if you want the full context."),
+    ("Then listen", "Each episode ends with the books' best listening exercises: where to find them, which Paso, and what they train. Do them in the book, with the audio."),
 ]
 
 
@@ -193,7 +199,21 @@ def episode(ep):
 <div class="headmark" data-l="Destinos · ejercicios" data-r="Episodio {n} · {esc(ep["title"])}"></div>''']
     for i, s in enumerate(ep["sets"]):
         o.append(render_set(LETTERS[i], s))
+    o.append(listening(ep))
     return "".join(o)
+
+
+def listening(ep):
+    """The books' listening exercises: not copied, only where to find them."""
+    if not ep.get("listening"):
+        return ""
+    li = "".join(
+        f'<li><span class="tick"></span><div><span class="lname">{md(x["name"])}</span>'
+        f'<p class="source">{esc(x["where"])}{" · " + esc(x["paso"]) if x.get("paso") else ""}</p>'
+        f'<p class="learn">{md(x["learn"])}</p></div></li>' for x in ep["listening"])
+    intro = ('<p class="instr">Do these in the book itself, with the audio. '
+             'Tick each one when it is done.</p>')
+    return B.sec("Para escuchar", "Listening, in your books", intro + f'<ol class="listen">{li}</ol>', "listenpart keep")
 
 
 def build(out=OUT, only=None):

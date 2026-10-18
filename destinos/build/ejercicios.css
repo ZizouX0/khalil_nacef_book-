@@ -74,6 +74,16 @@ p.bank span { display: inline-block; margin-right: 5mm; }
 .gap.ngap { width: 30mm; position: relative; }
 .gap.ngap .gn { position: absolute; left: 0; top: -1.1em; font: 600 7.5pt "Plex"; color: var(--accent); }
 
+/* the books' listening exercises: where they are, with a box to tick */
+ol.listen { list-style: none; margin: 0; padding: 0; border-top: .8pt solid var(--ink); }
+ol.listen > li { display: flex; gap: 3.5mm; padding: 2mm 0 1.8mm; border-bottom: .5pt solid var(--rule); break-inside: avoid; }
+ol.listen .tick { display: block; flex: none; box-sizing: border-box; width: 3.8mm; height: 3.8mm;
+                 border: .7pt solid var(--ink); margin-top: .9mm; }
+ol.listen .lname { font-weight: 700; }
+ol.listen p.source { margin: .4mm 0 .6mm; }
+ol.listen p.learn { margin: 0; }
+.listenpart .sh, .listenpart p.instr { break-after: avoid; }
+
 /* matching: a numbered column with a blank for the letter, a lettered column */
 .match { display: flex; gap: 8mm; break-inside: avoid; }
 .match .mleft { flex: 1.1; }
