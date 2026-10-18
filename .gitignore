@@ -7,3 +7,6 @@ spanish/build/_book.html
 spanish/build/__pycache__/
 spanish/build/_workbook.html
 spanish/build/_game.html
+
+# The books' own exercises, copied for personal study: never published (the repo is public)
+destinos/private/

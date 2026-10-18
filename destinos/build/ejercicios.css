@@ -60,3 +60,24 @@ p.kset .setl { font-size: 8.6pt; min-width: 4.6mm; margin-right: 1.6mm; }
 .k b { font-weight: 700; }
 .k .src { font: 500 8pt "Plex"; color: var(--faint); }
 .k.model { display: block; margin-top: .3mm; }
+
+/* where the exercise is in the book */
+p.source { margin: -.6mm 0 1mm; font: 500 8pt "Plex"; letter-spacing: .06em; color: var(--faint); text-transform: uppercase; }
+
+/* a list of words to choose from */
+p.bank { margin: 0 0 2.4mm; padding: 1.6mm 2.5mm; border: .6pt solid var(--rule); background: var(--tint);
+         line-height: 1.7; break-inside: avoid; }
+p.bank span { display: inline-block; margin-right: 5mm; }
+
+/* a paragraph with numbered gaps */
+.ctext p { margin: 0 0 2mm; line-height: 1.9; }
+.gap.ngap { width: 30mm; position: relative; }
+.gap.ngap .gn { position: absolute; left: 0; top: -1.1em; font: 600 7.5pt "Plex"; color: var(--accent); }
+
+/* matching: a numbered column with a blank for the letter, a lettered column */
+.match { display: flex; gap: 8mm; break-inside: avoid; }
+.match .mleft { flex: 1.1; }
+.match .mright { flex: 1; list-style: none; margin: 0; padding: 0; }
+.match .mright li { margin: 0 0 2.1mm; line-height: 1.55; }
+.match .ml { display: inline-block; width: 5mm; font: 600 9pt "Plex"; color: var(--accent); }
+.match .mblank { display: inline-block; width: 9mm; border-bottom: .6pt solid var(--ink); margin-left: 2mm; height: .9em; }
