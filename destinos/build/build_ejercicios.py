@@ -19,7 +19,9 @@ English subtitle, an instruction and its items:
     choose     [sentence with ___ , [options], answer]
     error      [sentence with one mistake, corrected sentence]
     translate  [English sentence, Spanish sentence]
+    complete   [the start of a sentence or its cues, the whole sentence]   a line to write it on
     write      a prompt, a number of lines and, optionally, a model answer
+               (or a `key`: what the book's key says, printed as it is)
     text       a paragraph with numbered gaps {1}, {2}…; items are the answers in order
     match      items [left, answer]; `options` is the right-hand column, lettered a, b, c…
 
@@ -90,9 +92,9 @@ def render_set(letter, s):
                        f'<div class="match"><ol class="items mleft">{left}</ol><ul class="mright">{right}</ul></div>')
     if kind == "write":
         lines = '<div class="wline"></div>' * int(s.get("lines", 5))
-        body = (instr + f'<div class="keep"><p class="prompt">{md(s["prompt"])}</p>'
-                f'<div class="wlines">{lines}</div></div>')
-        return sec_raw(head, s.get("en", ""), body)
+        body = instr + f'<p class="prompt">{md(s["prompt"])}</p><div class="wlines">{lines}</div>'
+        # the instructions and the lines to write on stay on one page
+        return sec_raw(head, s.get("en", ""), body, "keep")
 
     li = []
     for it in s["items"]:
@@ -104,15 +106,15 @@ def render_set(letter, s):
         elif kind == "choose":
             o = '<span class="or">/</span>'.join(f'<span class="opt">{esc(x)}</span>' for x in opts)
             li.append(f'<li>{gapped(q)} <span class="opts">{o}</span></li>')
-        else:  # error, translate: the sentence, then a line to write the answer on
+        else:  # error, translate, complete: the sentence, then a line to write the answer on
             li.append(f'<li>{gapped(q)}<div class="aline"></div></li>')
     cls = "items words" if kind == "words" else "items"
     return sec_raw(head, s.get("en", ""), instr + f'<ol class="{cls}">{"".join(li)}</ol>')
 
 
-def sec_raw(head_html, en, body):
+def sec_raw(head_html, en, body, cls=""):
     """Like B.sec, but the Spanish title may carry the set's letter."""
-    return (f'<div class="sec exset"><div class="sh"><span class="es">{head_html}</span>'
+    return (f'<div class="sec exset {cls}"><div class="sh"><span class="es">{head_html}</span>'
             f'<span class="en">{esc(en)}</span></div>{body}</div>')
 
 
@@ -122,8 +124,12 @@ def key_for(ep):
     for i, s in enumerate(ep["sets"]):
         letter = LETTERS[i]
         if s["type"] == "write":
-            ans = (f'<span class="k model"><i>Model answer:</i> {md(s["model"])}</span>' if s.get("model")
-                   else '<span class="k model"><i>Your own answer.</i></span>')
+            if s.get("key"):
+                ans = f'<span class="k model">{md(s["key"])}</span>'
+            elif s.get("model"):
+                ans = f'<span class="k model"><i>Model answer:</i> {md(s["model"])}</span>'
+            else:
+                ans = '<span class="k model"><i>Your own answer.</i></span>'
         else:
             parts = []
             for n, it in enumerate(s["items"], 1):

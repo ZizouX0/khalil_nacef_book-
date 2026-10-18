@@ -1,0 +1,123 @@
+# Episodio 11 · La demora
+# Sources: Textbook Lección 11 (pp. 114–118) and Workbook/Study Guide Lección 11 (pp. 107–115).
+# A review lesson. Words in vocab.core are the textbook's own Vocabulario list; the workbook has none.
+# The workbook's Resumen de gramática (Lecciones 7–10) is a pointer table: every line is already in
+# Episodes 7–10. New here are the linking words of its Para escribir and the words glossed in the
+# lesson's activities. Neither book has Pronunciación or a Nota cultural for this lesson: the note on
+# the fiestas comes from the guide's list in Un poco de todo, Actividad C.
+
+episode: 11
+title: La demora
+title_en: The delay
+pages: "Textbook pp. 114–118 · Workbook pp. 107–115"
+
+essentials:
+  - "**A review lesson.** The workbook's summary of Lecciones 7–10 is all in your notebook already: the table below says where. If a form doesn't come instantly (*conozco, salgo, pido, cuento*), go back to that episode."
+  - "**New this time**: words that put your day in order, **primero, luego, después, por fin** (Gramática). **estar listo** = to be ready, but *ser listo* = to be clever. **tener razón** = to be right: *Mi compañero tiene razón.*"
+
+verbs:
+  met:
+    - ["sube a", "subir (a)", "he / she goes up (to)"]
+    - ["sueña con", "soñar (ue) con", "he / she dreams about"]
+    - ["se entera de", "enterarse de", "he / she finds out"]
+    - ["trata de", "tratar de", "he / she tries to"]
+    - ["suena", "sonar (ue)", "it rings"]
+    - ["nos reunimos", "reunirse", "we meet, get together"]
+
+grammar:
+  - title: "Review: already in your notebook"
+    rule: "The workbook's summary of Lecciones 7–10. If a line feels shaky, go back to that episode."
+    table:
+      head: ["", "in one line", "see"]
+      rows:
+        - ["saber · conocer", "*saber* facts and how to: *Sé tocar la guitarra.* · *conocer* people, places", "Ep.\u00a07"]
+        - ["odd *yo* forms", "*hago, doy, traigo, salgo, pongo, veo* · *digo, tengo, oigo, vengo*", "Ep.\u00a07"]
+        - ["question words", "*¿adónde?, ¿de dónde?, ¿a quién?, ¿de quién?, ¿para quién?*", "Ep.\u00a08"]
+        - ["stem changes", "**ie** *empiezo* · **i** *pido* · **ue** *cuento*, but *empezamos, pedimos*", "Ep.\u00a09"]
+        - ["verbs with se", "*me llamo, te llamas, se llama…* · *Quiero sentarme.*", "Ep.\u00a09"]
+        - ["possession", "*nuestro, nuestra…* agree · *el perro de mi hermano*", "Ep.\u00a09"]
+        - ["este, ese, aquel", "*este cuadro* (here), *ese cuadro* (near you), *aquel cuadro* (over there)", "Ep.\u00a09"]
+        - ["-ista", "one form for men and women: *realista, optimistas*", "Ep.\u00a010"]
+        - ["ser · estar", "*ser* who, what like, from, for whom, the time · *estar* where, how", "Ep.\u00a010"]
+    trap: "Two slips in the workbook's summary. **contar** means *to tell, to count*, not *to ask for*. And **sentirse** changes **e** to **ie** like *sentarse*: *me s**ie**nto, te s**ie**ntes* (Episode 10), not to **i** like *pedir*."
+
+  - title: "Telling your day in order"
+    rule: "Put the steps of your day in order and join them, so it reads like a story, not a list:"
+    table:
+      head: ["", "Spanish", "English"]
+      rows:
+        - ["in order", "**primero** · **luego** · **después** · **por fin**", "first · then · afterwards · finally"]
+        - ["joining", "**y** · **también** · **pero** · **por eso**", "and · also · but · that's why, so"]
+        - ["time of day", "**por la mañana · tarde · noche**", "in the morning · afternoon · evening"]
+    examples:
+      - ["Generalmente **me despierto** a las seis y media, **pero** no **me levanto** hasta las siete.", "I usually wake up at half past six, but I don't get up until seven."]
+      - ["Conversamos tanto que me olvido de la clase. **Por eso** tenemos que despedirnos rápidamente.", "We talk so much that I forget about class. That's why we have to say good-bye quickly."]
+      - ["**Después de** clases, vuelvo a casa.", "After classes, I go back home."]
+
+rules:
+  - ["**me gusta · tengo que · quisiera · es mi costumbre** + infinitive, pronoun joined on", "Los sábados me gusta levantarme tarde."]
+  - ["**ser listo** = clever · **estar listo** = ready", "Yo casi siempre estoy listo para salir."]
+  - ["**tener razón** = to be right: *tener*, never *ser*.", "Mi compañero de cuarto tiene razón."]
+
+vocab:
+  core:
+    - group: Los verbos
+      words:
+        - ["subir (a)", "to go up (to a place)"]
+    - group: Los sustantivos
+      words:
+        - ["la demora", "delay"]
+        - ["el vuelo", "flight"]
+    - group: Las palabras adicionales
+      words:
+        - ["por fin", "finally"]
+  extra:
+    - group: De viaje
+      words:
+        - ["el billete", "ticket"]
+        - ["la reservación", "reservation"]
+        - ["confirmar", "to confirm"]
+        - ["el mensaje", "message"]
+        - ["la tarjeta (postal)", "postcard"]
+    - group: Verbos y expresiones
+      words:
+        - ["soñar (ue) con", "to dream about"]
+        - ["enterarse de", "to find out"]
+        - ["tratar de + inf.", "to try to"]
+        - ["sonar (ue)", "to ring"]
+        - ["descansar", "to rest"]
+        - ["reunirse", "to meet, get together"]
+        - ["tener razón", "to be right"]
+        - ["pasarlo bien", "to have a good time"]
+    - group: Para describir
+      words:
+        - ["cansado · cansada", "tired"]
+        - ["listo · lista (estar)", "ready"]
+        - ["equivocado · equivocada", "mistaken, wrong"]
+        - ["hermoso · hermosa", "beautiful"]
+    - group: Otras
+      words:
+        - ["mientras", "while"]
+        - ["debajo de", "under, underneath"]
+        - ["el árbol", "tree"]
+        - ["la bandera", "flag"]
+        - ["es mi costumbre", "it's my habit"]
+        - ["¡Hay tanto que ver!", "there's so much to see!"]
+  course:
+    - ["el repaso", "review"]
+    - ["la tarjeta", "card; postcard"]
+    - ["la redacción · la narración", "composition · narrative"]
+
+phrases:
+  - ["¿A qué hora te levantas durante la semana? · Me levanto a las siete menos cuarto.", "What time do you get up during the week? · I get up at a quarter to seven."]
+  - ["¿A qué hora sales de casa para ir a la universidad?", "What time do you leave home to go to the university?"]
+  - ["¿Conoces a muchos estudiantes aquí?", "Do you know many students here?"]
+  - ["Los sábados me gusta levantarme tarde.", "On Saturdays I like to get up late."]
+  - ["Queremos pasarlo bien.", "We want to have a good time."]
+  - ["¿Te sientes cansado cuando vuelves de la universidad?", "Do you feel tired when you get back from the university?"]
+  - ["Me gustaría pasar unos días más en Madrid. ¡Hay tanto que ver!", "I'd like to spend a few more days in Madrid. There's so much to see!"]
+  - ["La agencia no puede confirmar su reservación.", "The agency can't confirm her reservation."]
+
+culture:
+  - title: "Las fiestas de España"
+    body: "The guide's list: **el Día del Año Nuevo** (1 January), **el Día de los Reyes Magos** (6 January, the day Spanish children traditionally get their presents), **la Semana Santa** (Holy Week, in spring), **la Feria de Sevilla** (April), **la noche de San Juan** (the night of 23 June), **la fiesta de San Fermín** (July, in Pamplona) and **la Navidad** (December)."
