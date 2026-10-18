@@ -1,0 +1,199 @@
+# Episodio 12 · Revelaciones
+# Sources: Textbook Lección 12 (pp. 120–128) and Workbook/Study Guide Lección 12 (pp. 116–127, 305–306).
+# Words in vocab.core are the two books' own Vocabulario lists. The preterite verb card and the
+# perder / vivir table follow the workbook's Gramática 34; the direct object pronouns are its
+# Gramática 35 and the shortened adjectives its 36. The vos forms are the textbook's Nota cultural:
+# the books say they are only to be recognised. The note on the Spanish t (tongue on the teeth) is added.
+
+episode: 12
+title: Revelaciones
+title_en: Revelations
+pages: "Textbook pp. 120–128 · Workbook pp. 116–127"
+
+essentials:
+  - "**The past (preterite)**: *he / she* ends in **-ó** (*-ar*) or **-ió** (*-er, -ir*), *they* in **-aron** or **-ieron**: *contestó, perdió, vivió · contestaron, perdieron, vivieron*. The accent matters: *contesto* = I answer, **contestó** = he answered."
+  - "**lo, la, los, las** = it, him, her, them. They agree with the noun they replace and go before the verb: *¿La reserva? No **la** tiene.* **No lo sé** = I don't know."
+  - "**100 to 1000**: *cien, doscientos… **quinientos, setecientos, novecientos**, mil*. They agree with a feminine noun: *doscient**as** casas*."
+  - "**vos**: in Argentina *vos* replaces *tú*, with the stress on the ending: *¿Qué **querés**?* (= *quieres*) · *¿**Vivís** aquí?* (= *vives*)."
+
+verbs:
+  table:
+    verb: contestar
+    meaning: answered · the past
+    forms:
+      - ["contest**é**", "I answered"]
+      - ["contest**aste**", "you answered"]
+      - ["contest**ó**", "he, she answered · you answered"]
+      - ["contest**amos**", "we answered"]
+      - ["contest**asteis**", "you answered"]
+      - ["contest**aron**", "they answered · you answered"]
+    hook: "The stress is always on the ending, and the accent shows it: **contesto** = I answer, **contestó** = he answered. *-amos* is the same in the present and the past: *contestamos* = we answer or we answered."
+  met:
+    - ["se mudó", "mudarse", "he / she moved (house, city)"]
+    - ["se casó", "casarse", "he / she got married"]
+    - ["abandonó · se dedicó", "abandonar · dedicarse", "he gave up · he devoted himself"]
+    - ["se embarcó", "embarcarse", "he set sail"]
+    - ["discutió", "discutir", "he / she argued"]
+    - ["supieron", "saber", "they found out"]
+    - ["se enteró", "enterarse", "he / she found out"]
+    - ["perdonó", "perdonar", "he / she forgave"]
+
+grammar:
+  - title: "The past: -er and -ir verbs"
+    rule: "*-er* and *-ir* verbs share one set of endings. This lesson practises the *he / she* and *they* forms:"
+    table:
+      head: ["", "perder · to lose", "vivir · to live"]
+      rows:
+        - ["yo", "perd**í**", "viv**í**"]
+        - ["tú", "perd**iste**", "viv**iste**"]
+        - ["él · ella · usted", "perd**ió**", "viv**ió**"]
+        - ["nosotros/as", "perd**imos**", "viv**imos**"]
+        - ["vosotros/as", "perd**isteis**", "viv**isteis**"]
+        - ["ellos · ellas · ustedes", "perd**ieron**", "viv**ieron**"]
+    examples:
+      - ["Rosario **vivió** en la estancia unos diez años. Luego **se mudó** a Buenos Aires.", "Rosario lived on the ranch for about ten years. Then she moved to Buenos Aires."]
+      - ["Ángel **abandonó** sus estudios y **empezó** a pintar.", "Ángel gave up his studies and started to paint."]
+      - ["Arturo **perdió** contacto con su hermano Ángel.", "Arturo lost touch with his brother Ángel."]
+    trap: "No stem change in the past for *-ar* and *-er* verbs: *p**ie**nsa* but **pensó**, *v**ue**lve* but **volvió**. And *creer, oír* write a **y**: **creyó, creyeron · oyó, oyeron**."
+
+  - title: "it, him, her, them: lo, la, los, las"
+    rule: "They replace a noun already mentioned and agree with it, things too: *it* is **lo** or **la**. They go in the same place as *me, te, se* (Episode 9): before the verb, after *no*, or joined to an infinitive."
+    table:
+      head: ["", "one", "more than one"]
+      rows:
+        - ["masculine", "**lo** = him, it · you (*Ud.*)", "**los** = them · you (*Uds.*)"]
+        - ["feminine", "**la** = her, it · you (*Ud.*)", "**las** = them · you (*Uds.*)"]
+    examples:
+      - ["¿Tiene el recepcionista la reserva? —No, no **la** tiene.", "Does the receptionist have the booking? —No, he doesn't have it."]
+      - ["¿Sus estudios? Ángel **los** abandonó.", "His studies? Ángel gave them up."]
+      - ["¿A qué hora regresa el doctor? —No **lo** sé.", "When will the doctor be back? —I don't know."]
+      - ["¿En qué **la** puedo servir? · ¿En qué puedo servir**la**?", "How may I help you? (to a woman, *usted*)"]
+    trap: "**lo** also stands for a whole idea, with no English *it*: *No lo sé.* In Spain you'll often hear **le** for a man: *Le veo* = *Lo veo* (I see him)."
+
+  - title: "Numbers 100 to 1000"
+    rule: "Years are read as one number (Episode 7): *1492* = *mil cuatrocientos noventa y dos*."
+    table:
+      head: ["", "Spanish", "note"]
+      rows:
+        - ["100", "**cien** · **ciento**", "*cien* alone or before a noun (*cien años*), *ciento* + more: *ciento uno, ciento setenta y nueve*"]
+        - ["200–900", "doscientos, trescientos, cuatrocientos, seiscientos, ochocientos", "regular: two + *cientos*"]
+        - ["the odd ones", "**quinientos** · **setecientos** · **novecientos**", "500 · 700 · 900"]
+        - ["1000", "**mil**", "never ~~un mil~~, and no plural: *mil años, dos mil*"]
+    examples:
+      - ["**doscientas** casas · **trescientas** calles · **quinientas** pesetas", "200 houses · 300 streets · 500 pesetas"]
+      - ["Viajó a América en **mil cuatrocientos noventa y dos**.", "He sailed to America in 1492."]
+    trap: "**y** only joins tens and units: *ciento setenta **y** nueve*, never ~~ciento y setenta~~. Spain writes a dot for thousands: *1.000* = 1,000."
+
+  - title: "vos: you in Argentina"
+    rule: "In Argentina, Uruguay and most of Central America **vos** replaces *tú*. Most forms are the *tú* ones, but in the present the stress moves to the ending and the stem doesn't change. Learn to recognise them; the books don't practise them."
+    table:
+      head: ["", "tú", "vos"]
+      rows:
+        - ["hablar", "hablas", "habl**ás**"]
+        - ["comer", "comes", "com**és**"]
+        - ["vivir", "vives", "viv**ís**"]
+        - ["poder · querer", "puedes · quieres", "pod**és** · quer**és**"]
+    examples:
+      - ["Y vos, ¿qué **querés** hacer esta tarde?", "And you, what do you want to do this afternoon?"]
+      - ["Estoy seguro de que **podés** rehacer tu vida en la Argentina.", "I'm sure you can make a new life in Argentina."]
+
+rules:
+  - ["**buen, mal, primer, tercer** before a masculine noun; **gran** before any singular noun = great (Episodes 4, 10).", "un mal resultado · el tercer país · una gran ciudad"]
+  - ["Adjectives agree (*buenos, muchas, pocas*); adverbs never change: **bien, mal, mucho, poco**.", "Son buenos estudiantes y estudian mucho."]
+  - ["**una vez** = once · **otra vez** = again", "Una vez mi madre compró algo muy caro."]
+  - ["**tutearse · tratarse de tú** = to say *tú* to each other (Episode 8)", "¿Podemos tutearnos? —De acuerdo."]
+
+vocab:
+  core:
+    - group: Los verbos
+      words:
+        - ["abandonar", "to abandon"]
+        - ["ayudar", "to help"]
+        - ["contestar", "to answer"]
+        - ["dedicarse (a)", "to dedicate oneself (to)"]
+        - ["mudarse", "to move (house or city)"]
+    - group: Las personas
+      words:
+        - ["el medio hermano", "half-brother"]
+        - ["el padrastro", "stepfather"]
+    - group: Los lugares
+      words:
+        - ["la estancia", "ranch"]
+        - ["la habitación", "room"]
+        - ["el país", "country"]
+    - group: Las cosas · los conceptos
+      words:
+        - ["la puerta", "door"]
+        - ["la revelación", "revelation, unveiling"]
+    - group: Los adjetivos
+      words:
+        - ["desconocido · desconocida", "unknown"]
+        - ["mal(o) · mala", "bad"]
+        - ["tercer(o) · tercera", "third"]
+    - group: Los números
+      see: "Gramática, Numbers 100 to 1000"
+      words:
+        - ["cien · ciento", "100"]
+        - ["quinientos", "500"]
+        - ["setecientos", "700"]
+        - ["novecientos", "900"]
+        - ["mil", "1000"]
+    - group: El tuteo · palabras adicionales
+      words:
+        - ["vos", "you (familiar, in Argentina and some other areas)"]
+        - ["una vez", "once"]
+  extra:
+    - group: La familia y la vida
+      words:
+        - ["el dueño · la dueña", "owner"]
+        - ["enamorarse de", "to fall in love with"]
+        - ["el vecino · la vecina", "neighbour"]
+        - ["el novio · la novia", "boyfriend · girlfriend"]
+        - ["la búsqueda", "search"]
+        - ["el pasado", "past"]
+        - ["las lágrimas", "tears"]
+        - ["llorar de alegría", "to cry for joy"]
+    - group: Verbos útiles
+      words:
+        - ["discutir", "to argue"]
+        - ["perdonar", "to forgive"]
+        - ["sufrir", "to suffer"]
+        - ["embarcarse", "to set sail"]
+        - ["tocar a la puerta", "to knock on the door"]
+        - ["contestar la puerta", "to answer the door"]
+    - group: En el hotel y en la calle
+      words:
+        - ["disponible", "available"]
+        - ["el chofer", "driver"]
+        - ["el maletín", "briefcase"]
+        - ["el cementerio · la tumba", "cemetery · grave"]
+        - ["el marinero", "sailor"]
+    - group: Otras
+      words:
+        - ["seguro · segura", "sure"]
+        - ["dentro de poco", "very soon"]
+        - ["Oye…", "Hey…"]
+        - ["¡Vámonos!", "Let's go!"]
+        - ["Encantado · Encantada", "Pleased to meet you"]
+
+sounds:
+  - title: "p and t: no puff of air"
+    body: "Like Spanish *k* (Episode 10): say *p* and *t* as in English *spin, stan*, not *pin, tan*. **p**adre, **p**rofesor, es**p**erar · **t**arde, **t**em**p**rano, his**t**oria."
+  - title: "t: tongue on the teeth"
+    body: "For Spanish **t** the tip of the tongue touches the back of the upper front teeth, not the ridge above them: *tarde, tú, también, actividad*."
+  - title: "Say it"
+    body: "*Su primer esposo es pintor. · ¿Tienes que trabajar en el taller? · También investigan teorías matemáticas.*"
+
+phrases:
+  - ["¿Hay una habitación disponible?", "Is there a room available?"]
+  - ["Tengo una suite. —Está bien. La tomo.", "I have a suite. —All right. I'll take it."]
+  - ["Mi nombre es Raquel Rodríguez. —Encantado. ¿En qué la puedo servir?", "My name is Raquel Rodríguez. —Pleased to meet you. How may I help you?"]
+  - ["Para mí es un gusto conocerla.", "It's a pleasure for me to meet you."]
+  - ["¿Podemos tutearnos? —De acuerdo.", "Can we say tú to each other? —All right."]
+  - ["Es mi medio hermano. Lleva el apellido de su padre.", "He's my half-brother. He has his father's surname."]
+  - ["Raquel toca a la puerta y un joven desconocido contesta.", "Raquel knocks on the door and a young man she doesn't know answers."]
+  - ["No conozco a nadie.", "I don't know anyone."]
+
+culture:
+  - title: "La Pampa y los gauchos"
+    body: "**La Pampa** is the great plain in the middle of Argentina, cattle country. Its **estancias** are huge ranches, and the **gaucho**, the horseman who herded the cattle, is Argentina's folk hero, like the American cowboy. His national poem is *Martín Fierro* (1872), by José Hernández."
