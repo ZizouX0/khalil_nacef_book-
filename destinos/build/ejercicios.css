@@ -9,6 +9,7 @@
 
 .exset { margin-bottom: 5mm; }
 .exset p.instr, .exset p.source, .exset p.bank { break-after: avoid; }
+.exset p.instr { break-inside: avoid; }
 .exset .wlines, .exset p.prompt { break-inside: avoid; }
 .exset .sh .es { display: inline; }
 .setl { display: inline-block; min-width: 5.5mm; font: 700 10pt "Plex"; color: #fff;

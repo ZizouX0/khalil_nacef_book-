@@ -1,0 +1,204 @@
+# Episodio 15 · Culpable
+# Sources: Textbook Lección 15 (pp. 150–160) and Workbook/Study Guide Lección 15 (pp. 152–162, 311–312).
+# Words in vocab.core are the two books' own Vocabulario lists. The tener card and the table of
+# irregular stems follow the workbook's Gramática 43; le / les its 44; gustar, encantar and molestar
+# its 45. The phrases to encourage are the Conversaciones: Para animar; también / tampoco come from
+# the textbook's Vocabulario del tema, Actividad C. Added: n sounding like m before b, v, p.
+
+episode: 15
+title: Culpable
+title_en: Guilty
+pages: "Textbook pp. 150–160 · Workbook pp. 152–162"
+# the word list is long: it goes last, so the shorter sections fill the pages before it
+vocab_last: true
+
+essentials:
+  - "**The irregular past**: a new stem and one set of endings: **tuve, estuve, anduve** (-uv-), **dije, traje** (-j-). The *yo* and *él* endings are not stressed, so no accent: *tuve, tuvo*. After *j*: **dijeron, trajeron**. *dar*: **di, dio**. *hubo* = there was."
+  - "**le, les** = to, for him, her, you (*Ud.*), them: *Arturo **le** regaló una campera.* No masculine or feminine; add **a** + the person to be clear: *…a Raquel*."
+  - "**gustar**: the thing liked is the subject: *me **gusta** el parque · me **gustan** las manzanas · me **gusta** bailar*. **encantar** (to love things) and **molestar** (to bother) work the same way."
+  - "**To encourage**: *¿Vamos? · ¡Anda, vamos! · Debe ser divertido.* **To agree**: *A mí también* (me too) · *A mí tampoco* (me neither)."
+
+greetings_title: ["Para animar", "Encouraging someone"]
+greetings:
+  - ["¿Vamos?", "Shall we go?", "A suggestion."]
+  - ["¡Anda, vamos!", "Come on, let's go!", "When the other person isn't keen."]
+  - ["Debe ser divertido.", "It's probably fun.", "**debe ser** = it must be, it's probably."]
+  - ["¿En serio? —¡En serio!", "Really? —Really!", ""]
+  - ["¿Qué te pasa? · Dime.", "What's the matter? · Tell me.", "To someone who looks worried. *dime* = tell me, to *tú*."]
+  - ["¡Te da vergüenza!", "You're embarrassed!", "*Mira lo rojo que estás* = look how red you are."]
+
+verbs:
+  table:
+    verb: tener
+    meaning: had · the past
+    irregular: true
+    forms:
+      - ["tuve", "I had"]
+      - ["tuviste", "you had"]
+      - ["tuvo", "he, she had · you had"]
+      - ["tuvimos", "we had"]
+      - ["tuvisteis", "you had"]
+      - ["tuvieron", "they had · you had"]
+    hook: "**estar** and **andar** follow it exactly: *estuve, estuvo… · anduve, anduvo…*. No accents: the stress stays on the stem, **tu**ve, **tu**vo."
+  met:
+    - ["dije · dijo", "decir", "I said · he / she said"]
+    - ["traje · trajo", "traer", "I brought · he / she brought"]
+    - ["estuve · estuvo", "estar", "I was · he / she was"]
+    - ["anduve · anduvimos", "andar", "I walked, rode · we rode"]
+    - ["di · dio", "dar", "I gave · he / she gave"]
+    - ["hubo", "haber", "there was · there were"]
+    - ["regaló · mandó", "regalar · mandar", "he / she gave (as a gift) · sent"]
+
+grammar:
+  - title: "The irregular past: -uv-, -j-, dar"
+    rule: "A few very common verbs take a new stem in the past and the same endings whatever their infinitive: **-e, -iste, -o, -imos, -isteis, -ieron**."
+    table:
+      head: ["", "stem", "yo · él", "ellos"]
+      rows:
+        - ["tener", "**tuv-**", "tuv**e** · tuv**o**", "tuv**ieron**"]
+        - ["estar", "**estuv-**", "estuv**e** · estuv**o**", "estuv**ieron**"]
+        - ["andar", "**anduv-**", "anduv**e** · anduv**o**", "anduv**ieron**"]
+        - ["decir", "**dij-**", "dij**e** · dij**o**", "dij**eron**"]
+        - ["traer", "**traj-**", "traj**e** · traj**o**", "traj**eron**"]
+        - ["dar", "**d-**", "di · dio", "dieron"]
+    examples:
+      - ["No **traje** mucha ropa en este viaje. Por eso **tuve** que ir de compras varias veces.", "I didn't bring many clothes on this trip. That's why I had to go shopping several times."]
+      - ["Le **dije** a mi madre que conocí a un hombre muy simpático en Buenos Aires.", "I told my mother I had met a very nice man in Buenos Aires."]
+      - ["**Estuve** en Buenos Aires sólo unos días.", "I was in Buenos Aires only a few days."]
+      - ["**Tuve** un *picnic* con Arturo en el Rosedal y **anduve** en mateo.", "I had a picnic with Arturo in the Rosedal and went on a carriage ride."]
+    trap: "After **j** the *they* ending loses its *i*: **dijeron, trajeron**, never ~~dijieron~~. **dar** takes the *-er, -ir* endings with no accents, like *ver* (Episode 13): *di, diste, dio*. The past of *hay* is **hubo**."
+
+  - title: "to him, for her: le, les"
+    rule: "The person something is given, said or done **to** or **for**. Only **le** and **les** are new: the rest are the same as *me, te, nos, os* in Episodes 13–14, and none of them has a masculine or feminine."
+    table:
+      head: ["", "one", "more than one"]
+      rows:
+        - ["I · we", "**me** = to, for me", "**nos** = to, for us"]
+        - ["you, familiar", "**te** = to, for you", "**os** = to, for you all"]
+        - ["you, formal · he, she", "**le** = to, for you (*Ud.*), him, her", "**les** = to, for you (*Uds.*), them"]
+    examples:
+      - ["Arturo **le** regaló una campera.", "Arturo gave her a jacket (as a present)."]
+      - ["Héctor **les** dijo que encontró la carta.", "Héctor told them he had found the letter."]
+      - ["Héctor va a dar**les** la dirección, pero no **les** puede hablar hasta mañana.", "Héctor is going to give them the address, but he can't talk to them until tomorrow."]
+      - ["Héctor **les** buscó la carta.", "Héctor looked for the letter for them."]
+    trap: "*le* can mean him, her or you: add **a** + the person, and keep the *le* as well: *Arturo **le** regaló una campera **a Raquel**.* For a present you can also say *Esta campera es **para ti***: *para* + *mí, ti* (Episode 14)."
+
+  - title: "gustar: the thing you like is the subject"
+    rule: "Episode 4's *le gusta*, in full. Spanish says *the park is pleasing to me*: **gusta** for one thing or an infinitive, **gustan** for more than one, and the person is *me, te, le, nos, os, les*."
+    table:
+      head: ["", "one thing · doing", "more than one"]
+      rows:
+        - ["(a mí) me", "me **gusta** el parque", "me **gustan** las manzanas"]
+        - ["(a ti) te", "te **gusta** bailar", "te **gustan** las uvas"]
+        - ["(a Raquel) le", "le **gusta** estar al aire libre", "le **gustan** las fiestas"]
+        - ["(a ellos) les", "les **gusta** la fruta", "les **gustan** los restaurantes"]
+    examples:
+      - ["A Héctor le gusta bailar, pero le gusta **más** cantar.", "Héctor likes dancing, but he likes singing more."]
+      - ["¿Le gustan las uvas rojas? —Claro. Le **encantan**.", "Does he like red grapes? —Of course. He loves them."]
+      - ["A Raquel le **molesta** no poder concluir la investigación.", "Not being able to finish the investigation bothers Raquel."]
+    trap: "**encantar** is for things and activities; to love a person is **querer** or **amar**. To agree: *Me gusta la sandía.* —**A mí también.** · *No me gustan los duraznos.* —**A mí tampoco.** To disagree: *A mí no. · A mí sí.*"
+
+rules:
+  - ["**estar aburrido** = to be bored · **ser aburrido** = to be boring", "Arturo está aburrido. · La fiesta es aburrida."]
+  - ["**tener vergüenza** = to be embarrassed · **tener ganas de** + infinitive = to feel like", "Ahora tengo ganas de comer una ensalada de fruta."]
+  - ["**ir de compras** = to go shopping · **andar en mateo** = to take a carriage ride", "Raquel fue de compras a la calle Florida."]
+  - ["**regalar** = to give as a present · **dar** = to give", "Arturo le regaló una campera de cuero."]
+
+vocab:
+  core:
+    - group: Los verbos
+      words:
+        - ["andar", "to walk"]
+        - ["encantar", "to love, like something very much"]
+        - ["gustar", "to like; to be pleasing to"]
+        - ["mandar", "to send"]
+        - ["molestar", "to bother, disturb"]
+        - ["pasarlo bien · mal", "to have a good · bad time"]
+        - ["regalar", "to give (as a gift)"]
+        - ["hubo", "there was · there were"]
+    - group: Las frutas
+      words:
+        - ["la banana · el plátano", "banana"]
+        - ["la cereza", "cherry"]
+        - ["la ciruela", "plum"]
+        - ["el durazno · el melocotón", "peach"]
+        - ["la fresa · la frutilla (Arg.)", "strawberry"]
+        - ["el limón", "lemon"]
+        - ["la manzana", "apple"]
+        - ["el melón", "melon"]
+        - ["la naranja", "orange"]
+        - ["la pera", "pear"]
+        - ["la piña", "pineapple"]
+        - ["la sandía", "watermelon"]
+        - ["la toronja", "grapefruit"]
+        - ["la uva", "grape"]
+    - group: Los adjetivos
+      words:
+        - ["aburrido · aburrida", "bored; boring"]
+        - ["culpable", "guilty"]
+        - ["divertido · divertida", "fun"]
+    - group: Las cosas
+      words:
+        - ["la bolsa", "purse, handbag"]
+        - ["la canasta", "basket"]
+        - ["el recuerdo", "memento"]
+        - ["el regalo", "present"]
+    - group: Los conceptos
+      words:
+        - ["el presentimiento", "premonition"]
+        - ["la sorpresa", "surprise"]
+    - group: Para animar
+      see: "Para animar"
+      words:
+        - ["¡anda!", "come on!"]
+        - ["debe ser divertido…", "it's probably fun…"]
+        - ["¿vamos? · ¡vamos!", "shall we go? · let's go!"]
+    - group: Las palabras adicionales
+      words:
+        - ["andar en mateo", "to take a carriage ride"]
+        - ["ir de compras", "to go shopping"]
+        - ["tener… años", "to be… years old"]
+        - ["tener vergüenza", "to be embarrassed, ashamed"]
+        - ["estar al aire libre", "to be outdoors"]
+        - ["le gusta(n) más…", "he, she likes… more (better)"]
+        - ["más tarde", "later"]
+  extra:
+    - group: En la Argentina
+      words:
+        - ["la campera (Arg.) · la chamarra (Méx.)", "jacket"]
+        - ["el pomelo (Arg.)", "grapefruit (= la toronja)"]
+        - ["el ananás (Arg.)", "pineapple (= la piña)"]
+        - ["el porteño · la porteña", "person from Buenos Aires"]
+        - ["el centro comercial", "shopping centre"]
+    - group: Otras
+      words:
+        - ["el cuero", "leather"]
+        - ["pensativo · pensativa", "thoughtful"]
+        - ["triste", "sad"]
+        - ["el bote", "(rowing) boat"]
+        - ["aunque", "although"]
+        - ["mientras tanto", "meanwhile"]
+        - ["tonto · tonta", "silly"]
+        - ["la playa", "beach"]
+        - ["el dolor de cabeza", "headache"]
+
+sounds:
+  - title: "ñ: like ny in canyon"
+    body: "**ñ** is its own letter, after *n* in the dictionary. Say it like *ny* in *canyon*, which comes from Spanish *cañón*: a**ñ**o, se**ñ**ora, ma**ñ**ana, espa**ñ**ol, peque**ñ**o."
+  - title: "n or ñ changes the word"
+    body: "*cana* (grey hair) · *caña* (cane) · *sonar* (to ring) · *soñar* (to dream) · *pena* (sorrow) · *peña* (rock). **n** itself is as in English; before *b, v, p, m* it closes into an *m*: *u**n** beso, e**n** Perú*."
+  - title: "Say it"
+    body: "*La compañía del señor Muñoz está en España. · Los niños pequeños hablan español. · La señorita Ordóñez tiene veinte años.*"
+
+phrases:
+  - ["¿En qué piensas?", "What are you thinking about?"]
+  - ["¿Te sientes bien? ¿Qué te pasa?", "Do you feel all right? What's the matter?"]
+  - ["Tengo un mal presentimiento.", "I have a bad feeling about this."]
+  - ["Ahora tengo ganas de comer una ensalada de fruta.", "Now I feel like eating a fruit salad."]
+  - ["Todos nos están mirando.", "Everyone is looking at us."]
+  - ["Lo pasaron muy bien.", "They had a very good time."]
+  - ["Esta campera es para ti.", "This jacket is for you."]
+
+culture:
+  - title: "Buenos Aires"
+    body: "Often called the most European city in Latin America: wide avenues, cafés and bookshops, and the **Teatro Colón**, one of the great opera houses. Most Argentines descend from European immigrants, above all Italians and Spaniards, who came from the mid-19th century on. Its people are the **porteños**, people of the port. The tango singer Carlos Gardel sang: *Buenos Aires… antes morir que olvidarte.*"
