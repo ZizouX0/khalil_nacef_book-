@@ -1,0 +1,85 @@
+/* ============================================================================
+   Vocabulario elemental A1–A2 — study sheets
+   ----------------------------------------------------------------------------
+   Borrows the course book's face and its vocabulary colours (style_es.css,
+   layer 1 --c-voc and layer 3 --c-el / --c-la) so the sheets read as part of
+   the same set. Two-column tables only: Spanish left and bold, English right.
+   ============================================================================ */
+
+@font-face{font-family:'Atkinson Hyperlegible'; font-weight:400; font-style:normal;
+  src:url('../assets/fonts/AtkinsonHyperlegible-Regular.ttf') format('truetype')}
+@font-face{font-family:'Atkinson Hyperlegible'; font-weight:700; font-style:normal;
+  src:url('../assets/fonts/AtkinsonHyperlegible-Bold.ttf') format('truetype')}
+@font-face{font-family:'Atkinson Hyperlegible'; font-weight:400; font-style:italic;
+  src:url('../assets/fonts/AtkinsonHyperlegible-Italic.ttf') format('truetype')}
+@font-face{font-family:'Atkinson Hyperlegible'; font-weight:700; font-style:italic;
+  src:url('../assets/fonts/AtkinsonHyperlegible-BoldItalic.ttf') format('truetype')}
+
+:root{
+  --ink:#1A1A1E; --ink-2:#3F3F3F; --ref:#6B6259; --hair:#DED8CE;
+  --voc:#125C82; --voc-tint:#E7EFF2; --voc-rule:#B8CEDA; --zebra:#F5F8FA;
+  --el:#125C82; --la:#A62466;
+}
+
+@page{
+  size:A4; margin:18mm 16mm 17mm 16mm;
+  @top-right   { content:string(unit); font-family:'Atkinson Hyperlegible',sans-serif;
+                 font-size:7.8pt; color:#6B6259 }
+  @bottom-left { content:"Vocabulario elemental A1–A2"; font-family:'Atkinson Hyperlegible',sans-serif;
+                 font-size:8pt; color:#6B6259 }
+  @bottom-center{ content:"Aziz Dardouri"; font-family:'Atkinson Hyperlegible',sans-serif;
+                 font-size:8.5pt; color:#8E1220; font-weight:bold }
+  @bottom-right{ content:counter(page) " / " counter(pages); font-family:'Atkinson Hyperlegible',sans-serif;
+                 font-size:8pt; color:#6B6259 }
+}
+@page :first{ @top-right{content:none} }
+
+*{box-sizing:border-box}
+html{font-family:'Atkinson Hyperlegible','DejaVu Sans',sans-serif; font-size:10.4pt;
+     line-height:1.42; color:var(--ink)}
+body{margin:0}
+p{margin:0 0 2.5mm}
+
+/* ---------- front page ---------- */
+.front .eyebrow{margin:6mm 0 1mm; font-size:9pt; font-weight:700; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--voc)}
+.front h1{margin:0; font-size:27pt; line-height:1.1; color:var(--ink)}
+.front .lede{margin:2mm 0 7mm; font-size:11.5pt; color:var(--ink-2)}
+.front .intro{padding:4mm 5mm 1.5mm; background:var(--voc-tint);
+  border-left:1.6mm solid var(--voc); font-size:9.8pt}
+.front .intro code{font-size:8.8pt}
+.front .legend{margin:4mm 0 0; font-size:9.6pt; color:var(--ink-2)}
+.toc-head{margin:9mm 0 2mm; font-size:13pt; color:var(--voc);
+  border-bottom:.8pt solid var(--voc-rule); padding-bottom:1mm}
+.toc{list-style:none; margin:0; padding:0}
+.toc li{margin:0; padding:1.6mm 0; border-bottom:.4pt solid var(--hair)}
+.toc a{color:var(--ink); text-decoration:none}
+.toc a::after{content:leader('.') target-counter(attr(href), page); color:var(--ref)}
+.toc .n{display:inline-block; width:21mm; font-weight:700; color:var(--voc)}
+
+/* ---------- a lesson ---------- */
+.unit{break-before:page}
+.unit-head{string-set:unit attr(data-run); display:flex; align-items:center; gap:4.5mm;
+  margin:0 0 5mm; padding:0 0 3mm; border-bottom:1.2pt solid var(--voc)}
+.unit-head .num{flex:none; width:15mm; height:15mm; line-height:15mm; text-align:center;
+  background:var(--voc); color:#fff; font-size:21pt; font-weight:700; border-radius:1.5mm}
+.unit-head h2{margin:0; font-size:18pt; line-height:1.15}
+.unit-head .sub p{margin:.8mm 0 0; font-size:10pt; color:var(--ink-2)}
+
+h3{margin:4.2mm 0 1.6mm; font-size:11.4pt; color:var(--voc); break-after:avoid}
+
+table{width:100%; border-collapse:collapse; margin:0 0 3mm; font-size:10pt}
+thead th{background:var(--voc); color:#fff; text-align:left; font-size:8.6pt;
+  letter-spacing:.06em; text-transform:uppercase; padding:1.4mm 2.6mm}
+th:first-child, td:first-child{width:53%}
+td{padding:1.05mm 2.6mm; border-bottom:.4pt solid var(--hair); vertical-align:top}
+td:first-child{font-weight:700}
+td:last-child{color:var(--ink-2)}
+tbody tr:nth-child(even) td{background:var(--zebra)}
+tr{break-inside:avoid}
+
+.g-el{color:var(--el)}
+.g-la{color:var(--la)}
+.legend .g-el, .legend .g-la{font-weight:700}
+
+hr{display:none}
