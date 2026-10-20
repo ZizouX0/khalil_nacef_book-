@@ -14,6 +14,7 @@ A revision guide to *Vocabulario. Nivel elemental A1–A2* (Marta Baralo, Marta 
 
 - [Unidad 8 · ¿Qué tiempo hace hoy? — Fenómenos atmosféricos](#unidad-8--qué-tiempo-hace-hoy) (pp. 38–41)
 - [Unidad 9 · ¿Cuál es tu estación favorita? — Las estaciones](#unidad-9--cuál-es-tu-estación-favorita) (pp. 42–45)
+- [Unidad 10 · ¿Te gustan los animales? — Animales y plantas](#unidad-10--te-gustan-los-animales) (pp. 46–49)
 
 **PDF:** `Vocabulario_Elemental_A1-A2.pdf` is rebuilt from this file after every lesson with `python3 build/build_vocab_es.py`. The block syntax (`::: cards`, `::: clave`…) is described in `VOCAB_SPEC_ES.md`.
 
@@ -445,4 +446,228 @@ Ask with **¿Qué tiempo hace?** and answer with any of the four.
 - say which season I like best: *Me encanta el verano.*
 - explain why it's winter in Chile in July
 - talk about the Sun, the Moon and the Earth
+:::
+
+---
+
+## Unidad 10 · ¿Te gustan los animales?
+
+*Animales y plantas — Animals and plants* · pp. 46–49
+
+::: aprender 🎯 En este capítulo — In this chapter you learn to…
+- name the animals of the farm and the house
+- talk about plants, trees and flowers
+- say which animals you like, prefer or are scared of
+- use five Spanish sayings about animals
+:::
+
+::: cards ⭐ Lo esencial — Los animales · Animals
+- 🐶 el perro | the dog
+- 🐱 el gato | the cat
+- 🐴 el caballo | the horse
+- 🐮 la vaca | the cow
+- 🐷 el cerdo | the pig
+- 🐔 la gallina | the hen
+- 🐓 el gallo | the rooster
+- 🐑 la oveja | the sheep
+- 🐦 el pájaro | the bird
+- 🦜 el loro | the parrot
+- 🐟 el pez | the fish
+- 🪰 la mosca | the fly
+- 🦟 el mosquito | the mosquito
+- 🕷️ la araña | the spider
+- 🚜 la granja | the farm
+- 🐾 las patas | the legs, the paws
+:::
+
+::: cards 🌳 Las plantas — Plants, trees and flowers
+- 🪴 la planta | the plant
+- 🌳 el árbol | the tree
+- 🍃 la hoja | the leaf
+- 🌸 la flor | the flower
+- 🌹 la rosa | the rose
+- 🌼 la margarita | the daisy
+- 🌲 el pino | the pine tree
+- 🫒 el olivo | the olive tree
+:::
+
+::: clave 💡 La clave — Talking about animals
+- GUSTAR | gusta + one, gustan + several | Me gusta el caballo. = I like the horse. ; Me gustan los gatos. = I like cats. ; ¿Te gustan los animales? = Do you like animals?
+- PREFERIR … A … | one over the other | Prefiero los perros a los gatos. = I prefer dogs to cats. ; Prefiero las rosas a las margaritas. = I prefer roses to daisies.
+- TENER PÁNICO A | what scares you | Jorge tiene pánico a las arañas. = Jorge is terrified of spiders. ; Tengo pánico a los mosquitos. = I'm terrified of mosquitoes.
+- What they do | animal verbs | El pez nada. = Fish swim. ; Los pájaros vuelan. = Birds fly. ; Las vacas dan leche. = Cows give milk. ; Las flores huelen bien. = Flowers smell nice.
+
+And for the plants: **Hay que regar las plantas.** = The plants need watering.
+:::
+
+::: caja 📜 Refranes — Five sayings with animals
+| Refrán | Word for word | What it means |
+|---|---|---|
+| Perro ladrador, poco mordedor. | A barking dog is not much of a biter. | Barking dogs seldom bite. |
+| A caballo regalado, no le mires el diente. | Don't look at the teeth of a horse you are given. | Don't look a gift horse in the mouth. |
+| Cada oveja con su pareja. | Each sheep with its partner. | Birds of a feather flock together. |
+| Aquí hay gato encerrado. | There's a cat locked up in here. | Something fishy is going on. |
+| Por San Blas, las cigüeñas verás. | By St Blaise's day you'll see the storks. | The storks come back in February. |
+:::
+
+::: ojo ⚠️ ¡Ojo! — Watch out
+- **el pez** is a live fish; on your plate it's **el pescado**. One **pez**, two **peces** (z → c).
+- **gustar** works backwards: the animals do the pleasing, so the verb agrees with them. *Me gust**a** el perro*, *me gust**an** los perros.*
+- Two words for one bird: **el gallo** is the rooster, **la gallina** the hen.
+- **Ser un cerdo** = to be a pig, someone dirty or rude: *¡Tú sí que eres un cerdo!*
+- **saber** + infinitive = to know how to: *No sé montar a caballo.* = I can't ride a horse.
+- Three verbs change their stem: volar → los pájaros **vuelan**, oler → las flores **huelen**, morder → el perro **muerde**.
+:::
+
+::: dialogo 💬 Diálogo — ¿Tienes animales?
+- Lucía: ¿Te gustan los animales? | Do you like animals?
+- Pablo: Sí, mucho. Tengo un perro y dos gatos. ¿Y tú? | Yes, a lot. I've got a dog and two cats. And you?
+- Lucía: Yo tengo un loro. ¡Es muy hablador! | I've got a parrot. It's very talkative!
+- Pablo: Yo prefiero los perros a los pájaros. Son más fieles. | I prefer dogs to birds. They're more loyal.
+- Lucía: A mí me encantan los caballos, pero no sé montar a caballo. | I love horses, but I can't ride.
+- Pablo: ¿Y las arañas? | And spiders?
+- Lucía: ¡Uf! Tengo pánico a las arañas. | Ugh! I'm terrified of spiders.
+:::
+
+::: parte 📚 Todo el vocabulario — All the words
+:::
+
+### 1. Los animales — Animals
+
+| Español | English |
+|---|---|
+| la granja | the farm |
+| el perro | the dog |
+| el gato | the cat |
+| el caballo | the horse |
+| la vaca | the cow |
+| el cerdo | the pig |
+| la gallina | the hen |
+| el gallo | the rooster |
+| la oveja | the sheep |
+| el pájaro | the bird |
+| el loro | the parrot |
+| el pez → los peces | the fish (alive) |
+| la mosca | the fly |
+| el mosquito | the mosquito |
+| la araña | the spider |
+| la cigüeña | the stork |
+| las aves migratorias | migratory birds |
+| las patas | the legs (of an animal) |
+
+### 2. Las plantas — Plants
+
+| Español | English |
+|---|---|
+| la planta | the plant |
+| el árbol | the tree |
+| la hoja | the leaf |
+| la flor | the flower |
+| la rosa | the rose |
+| la margarita | the daisy |
+| el pino | the pine tree |
+| el olivo | the olive tree |
+| el bosque | the forest, the woods |
+
+### 3. Frases útiles — Useful phrases
+
+| Español | English |
+|---|---|
+| Prefiero los perros a los gatos. | I prefer dogs to cats. |
+| Hay que regar las plantas. | The plants need watering. |
+| Jorge tiene pánico a las arañas. | Jorge is terrified of spiders. |
+| A mí me gusta mucho tener flores en casa. | I really like having flowers at home. |
+| No sé montar a caballo. | I can't ride a horse. |
+| En verano hay muchos mosquitos. | In summer there are lots of mosquitoes. |
+
+### 4. Lo que hacen — What animals and plants do
+
+| Español | English |
+|---|---|
+| nadar → El pez nada. | to swim → The fish swims. |
+| volar → Los pájaros vuelan. | to fly → Birds fly. |
+| dar leche → Las vacas dan leche. | to give milk → Cows give milk. |
+| tener cuatro patas | to have four legs |
+| oler → Las flores huelen muy bien. | to smell → Flowers smell very nice. |
+| morder → El perro muerde. | to bite → The dog bites. |
+| ladrar | to bark |
+| hacer pis | to pee |
+| regar → hay que regar | to water → (they) need watering |
+| montar a caballo | to ride a horse |
+
+### 5. ¿Cómo son? — Describing animals
+
+| Español | English |
+|---|---|
+| fiel | faithful, loyal |
+| rápido / rápida | fast |
+| multicolor | multicoloured |
+| hablador / habladora | talkative |
+| solitario / solitaria | solitary, a loner |
+| pequeño / pequeña | small |
+| sucio / sucia | dirty |
+| venenoso / venenosa | poisonous |
+| deprimido / deprimida | depressed |
+
+### 6. La discusión — From the flatmates' row (p. 47)
+
+| Español | English |
+|---|---|
+| los compañeros de piso | flatmates |
+| ¡Estoy harto! / ¡Estoy harta! | I'm fed up! |
+| ¿Y qué me dices de…? | And what about…? |
+| Está todo el día haciendo… | He spends all day doing… |
+| No para de hablar. | It never stops talking. |
+| contar malas noticias | to tell bad news |
+| por eso | that's why |
+| comportarse → se comporta así | to behave → he behaves like that |
+| igual que tú | just like you |
+| ¡Fíjate en…! | Look at…! |
+| cientos de arañas | hundreds of spiders |
+| las cortinas | the curtains |
+| ¡Tú sí que eres un cerdo! | You're the real pig! |
+| el frigorífico | the fridge |
+| La cocina está llena de moscas. | The kitchen is full of flies. |
+| ¿Sabes qué? | You know what? |
+| un par de | a couple of |
+| ¡Cuidado! | Watch out! |
+
+::: quiz ✏️ Pruébate — Test yourself
+**A. Which animal is it?**
+
+1. Da leche.
+2. Habla mucho.
+3. Nada.
+4. Tiene ocho patas.
+5. Es el amigo más fiel.
+6. Es muy rápido y puedes montar en él.
+7. Es muy pequeño y en verano hay muchos.
+8. Canta por la mañana en la granja.
+
+**B. Gusta or gustan?**
+
+1. Me ___ los gatos.
+2. ¿Te ___ el caballo?
+3. A Jorge no le ___ las arañas.
+4. Me ___ mucho tener flores en casa.
+
+**C. Finish the saying.**
+
+1. Perro ladrador, ___
+2. Cada oveja ___
+3. A caballo regalado, ___
+4. Aquí hay gato ___
+---
+**A.** 1 la vaca · 2 el loro · 3 el pez · 4 la araña · 5 el perro · 6 el caballo · 7 el mosquito · 8 el gallo
+
+**B.** 1 gustan · 2 gusta · 3 gustan · 4 gusta
+
+**C.** 1 poco mordedor · 2 con su pareja · 3 no le mires el diente · 4 encerrado
+:::
+
+::: yase ✅ Ya sé… — Now I can…
+- name fifteen animals of the farm and the house
+- talk about plants, trees and flowers
+- say which animals I like, prefer or am scared of
+- use five Spanish sayings about animals
 :::
