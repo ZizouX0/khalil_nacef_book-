@@ -1,21 +1,92 @@
 # Vocabulario elemental A1–A2 — what to learn, lesson by lesson
 
-Study notes for *Vocabulario. Nivel elemental A1–A2* (Marta Baralo, Marta Genís, María Eugenia Santana).
+A revision guide to *Vocabulario. Nivel elemental A1–A2* (Marta Baralo, Marta Genís, María Eugenia Santana), one chapter per lesson.
 
-**Format, for every lesson:** everything worth learning goes in tables with two columns — **Español** on the left, **English** on the right. Nouns carry their article (*el / la*), adjectives show both genders where they change, and irregular verbs show the infinitive and the form the lesson uses.
+**How to revise a chapter**
+
+1. **⭐ Lo esencial** first: say every card out loud, then cover the English and say it again.
+2. **💡 La clave** gives you the pattern behind the words. Learn the pattern, not the list.
+3. **💬 Read the dialogue aloud**, both parts. Then read only the English and say the Spanish.
+4. **📚 Todo el vocabulario** is the full list: cover the right-hand column and test yourself.
+5. Finish with **✏️ Pruébate**. The answers are upside down, so turn the page to check.
 
 ## Lessons
 
 - [Unidad 8 · ¿Qué tiempo hace hoy? — Fenómenos atmosféricos](#unidad-8--qué-tiempo-hace-hoy) (pp. 38–41)
 - [Unidad 9 · ¿Cuál es tu estación favorita? — Las estaciones](#unidad-9--cuál-es-tu-estación-favorita) (pp. 42–45)
 
-**PDF:** after every lesson the printable version, `Vocabulario_Elemental_A1-A2.pdf`, is rebuilt from this file with `python3 build/build_vocab_es.py`.
+**PDF:** `Vocabulario_Elemental_A1-A2.pdf` is rebuilt from this file after every lesson with `python3 build/build_vocab_es.py`. The block syntax (`::: cards`, `::: clave`…) is described in `VOCAB_SPEC_ES.md`.
 
 ---
 
 ## Unidad 8 · ¿Qué tiempo hace hoy?
 
 *Fenómenos atmosféricos — Weather* · pp. 38–41
+
+::: aprender 🎯 En este capítulo — In this chapter you learn to…
+- say what the weather is like today
+- talk about hot and cold, and give the temperature
+- understand a simple weather forecast
+- name the colours of the rainbow
+:::
+
+::: cards ⭐ Lo esencial — The 16 must-knows
+- ☀️ Hace sol. | It's sunny.
+- 😎 Hace buen tiempo. | The weather is nice.
+- ☔ Hace mal tiempo. | The weather is bad.
+- ☁️ Está nublado. | It's cloudy.
+- 🌧️ Llueve. | It's raining.
+- ❄️ Nieva. | It's snowing.
+- ⛈️ Hay tormenta. | There's a storm.
+- ⚡ Hay relámpagos. | There's lightning.
+- 💨 Hace viento. | It's windy.
+- 🌫️ Hay niebla. | It's foggy.
+- 🧊 Está helando. | It's freezing.
+- 🌦️ Llueve y sale el sol. | Rain and sunshine.
+- 🌈 el arco iris | the rainbow
+- 🥵 Hace calor. | It's hot.
+- 🥶 Hace frío. | It's cold.
+- 🌡️ ¿Qué temperatura hace? | What's the temperature?
+:::
+
+::: clave 💡 La clave — Four ways to say the weather
+- HACE + noun | sun, heat, cold, wind | Hace sol. = It's sunny. ; Hace calor. = It's hot. ; Hace viento. = It's windy. ; Hace buen tiempo. = It's nice.
+- HAY + noun | things you can see | Hay nubes. = There are clouds. ; Hay niebla. = It's foggy. ; Hay tormenta. = There's a storm. ; Hay hielo. = There's ice.
+- ESTÁ + adjective | how the sky is now | Está nublado. = It's cloudy. ; Está despejado. = It's clear. ; Está lloviendo. = It's raining. ; Está helando. = It's freezing.
+- The verb alone | no subject at all | Llueve. = It rains. ; Nieva. = It snows. ; Hiela. = It freezes.
+
+Ask with **¿Qué tiempo hace?** and answer with any of the four.
+:::
+
+::: termometro 🌡️ ¿Frío o calor? — From hot to freezing
+- 🥵 Hace mucho calor. | It's very hot. | más de 35 °C
+- ☀️ Hace calor. | It's hot. | unos 30 °C
+- 🙂 Está templado. | It's mild. | unos 20 °C
+- 🧣 Hace un poco de frío. | It's a bit cold. | menos de 15 °C
+- 🥶 Hace mucho frío. | It's very cold. | unos 5 °C
+- 🧊 Está helando. | It's freezing. | menos de 0 °C
+:::
+
+::: ojo ⚠️ ¡Ojo! — Watch out
+- **Hace frío** is the weather, **tengo frío** is you, **el café está frío** is a thing: *it's cold / I'm cold / the coffee is cold.*
+- **mucho** goes with a noun and **muy** with an adjective: *Hace **mucho** calor* but *Hace **muy** buen tiempo.*
+- Three weather verbs change their stem: llover → **llueve**, nevar → **nieva**, helar → **hiela**.
+- **el tiempo** means both *the weather* and *time*. *¿Qué tiempo hace?* is always about the weather.
+- For the temperature, use **estar a**: *Estamos a 10 °C.* = It's 10 °C.
+:::
+
+::: dialogo 💬 Diálogo — Bilbao calls Sevilla
+- Marta: ¡Hola, Pablo! ¿Qué tiempo hace en Sevilla? | Hi Pablo! What's the weather like in Seville?
+- Pablo: ¡Hace mucho calor! Estamos a 38 °C y el cielo está despejado. ¿Y en Bilbao? | It's really hot! It's 38 °C and the sky is clear. And in Bilbao?
+- Marta: Aquí hace mal tiempo. Está nublado y llueve desde esta mañana. | The weather's bad here. It's cloudy and it's been raining since this morning.
+- Pablo: ¿Y mañana? | And tomorrow?
+- Marta: El pronóstico dice que va a haber tormenta. | The forecast says there's going to be a storm.
+- Pablo: Pues ven a Sevilla. ¡Aquí hace sol todos los días! | Then come to Seville. It's sunny here every day!
+- Marta: ¡Uf, no! Prefiero un poco de frío. | Ugh, no! I'd rather have a bit of cold.
+:::
+
+::: parte 📚 Todo el vocabulario — All the words
+:::
 
 ### 1. ¡Fíjese! — Saying what the weather is like
 
@@ -133,11 +204,107 @@ Study notes for *Vocabulario. Nivel elemental A1–A2* (Marta Baralo, Marta Gen�
 | la flor | the flower |
 | la luz | the light |
 
+::: quiz ✏️ Pruébate — Test yourself
+**A. Hace, hay or está?**
+
+1. ___ sol.
+2. ___ niebla.
+3. ___ nublado.
+4. ___ mucho frío.
+5. ___ relámpagos.
+6. ___ lloviendo.
+7. ___ viento.
+8. ___ hielo en la calle.
+
+**B. Say it in Spanish.**
+
+1. What's the weather like today?
+2. It's snowing.
+3. The sky is clear.
+4. It's a bit cold.
+5. It's 10 °C.
+6. The sky is blue.
+---
+**A.** 1 Hace · 2 Hay · 3 Está · 4 Hace · 5 Hay · 6 Está · 7 Hace · 8 Hay
+
+**B.** 1 ¿Qué tiempo hace hoy? · 2 Nieva. / Está nevando. · 3 El cielo está despejado. · 4 Hace un poco de frío. · 5 Estamos a 10 °C. · 6 El cielo es azul.
+:::
+
+::: yase ✅ Ya sé… — Now I can…
+- say what the weather is like: *hace sol, llueve, está nublado*
+- say how hot or cold it is: *Estamos a 10 °C.*
+- understand a simple weather forecast
+- name the colours of the rainbow
+:::
+
 ---
 
 ## Unidad 9 · ¿Cuál es tu estación favorita?
 
 *Las estaciones — The seasons* · pp. 42–45
+
+::: aprender 🎯 En este capítulo — In this chapter you learn to…
+- name the four seasons and the twelve months
+- say which season you like best, and why
+- explain why it's summer in Chile at Christmas
+- talk about the Sun, the Moon and the Earth
+:::
+
+::: estaciones ⭐ Lo esencial — The four seasons (in Spain)
+- 🌸 la primavera | spring | marzo · abril · mayo | Hay muchas flores y los campos están verdes. | There are lots of flowers and the fields are green.
+- 🏖️ el verano | summer | junio · julio · agosto | Hace calor y la gente se va a la playa. | It's hot and people go to the beach.
+- 🍂 el otoño | autumn | septiembre · octubre · noviembre | Las hojas se ponen amarillas y caen. | The leaves turn yellow and fall.
+- ⛄ el invierno | winter | diciembre · enero · febrero | Hace frío, nieva y las noches son largas. | It's cold, it snows and the nights are long.
+:::
+
+::: cards 🌍 El cielo y el espacio — Sky and space
+- 🌞 el Sol | the Sun
+- 🌙 la Luna | the Moon
+- 🌕 la luna llena | the full moon
+- 🌍 la Tierra | the Earth
+- 🪐 el planeta | the planet
+- ⭐ la estrella | the star
+- 🛰️ el satélite | the satellite
+- 🌐 el Ecuador | the equator
+:::
+
+::: clave 💡 La clave — Seasons in a sentence
+- Your favourite | which one you like | Mi estación favorita es el verano. = My favourite season is summer. ; Me gusta la primavera. = I like spring. ; Me encanta el invierno. = I love winter. ; Prefiero el otoño. = I prefer autumn.
+- en + season | in … (no article) | En verano hace calor. = In summer it's hot. ; En otoño caen las hojas. = In autumn the leaves fall. ; En enero nieva. = It snows in January.
+- Right now | which season it is | Estamos en verano. = It's summer now. ; Es invierno. = It's winter. ; Por fin ha llegado la primavera. = Spring is here at last.
+- Dates | when it starts | el 21 de marzo = on 21 March ; a finales de verano = at the end of summer ; en septiembre = in September
+:::
+
+::: caja 🌐 Norte y Sur — The seasons swap over
+| Empieza · Starts | Hemisferio Norte · España | Hemisferio Sur · Chile |
+|---|---|---|
+| 20–21 de marzo | 🌸 la primavera | 🍂 el otoño |
+| 21–22 de junio | 🏖️ el verano | ⛄ el invierno |
+| 23–24 de septiembre | 🍂 el otoño | 🌸 la primavera |
+| 21–22 de diciembre | ⛄ el invierno | 🏖️ el verano |
+
+**Cuando es verano en el Hemisferio Norte, es invierno en el Hemisferio Sur.** When it's summer in the north, it's winter in the south, so in Chile Christmas comes in summer.
+:::
+
+::: ojo ⚠️ ¡Ojo! — Watch out
+- **el planeta** and **el día** are masculine, even though they end in -a.
+- **la gente** takes a singular verb: *La gente **está** contenta.* = People are happy.
+- **en verano** = in summer, with no article. But: ***El** verano es mi estación favorita.*
+- Seasons and months take a small letter in Spanish: *enero, marzo, el otoño.*
+- **ponerse** + colour = to turn: *Las hojas se ponen amarillas.* = The leaves turn yellow.
+:::
+
+::: dialogo 💬 Diálogo — Madrid calls Santiago de Chile, in December
+- Ana: ¡Hola, Diego! Aquí estamos en invierno y hace mucho frío. ¿Y en Santiago? | Hi Diego! It's winter here and it's very cold. And in Santiago?
+- Diego: ¡Aquí es verano! Hace sol y estamos a 30 grados. | It's summer here! It's sunny and it's 30 degrees.
+- Ana: ¡Qué suerte! ¿Cuál es tu estación favorita? | Lucky you! What's your favourite season?
+- Diego: El verano, claro. Me encanta ir a la playa. ¿Y la tuya? | Summer, of course. I love going to the beach. And yours?
+- Ana: Prefiero la primavera: hay muchas flores y la temperatura es muy agradable. | I prefer spring: there are lots of flowers and the temperature is very pleasant.
+- Diego: Pues ven en septiembre. ¡Aquí empieza la primavera! | Then come in September. That's when spring starts here!
+:::
+
+::: parte 📚 Todo el vocabulario — All the words
+:::
 
 ### 1. Las estaciones — The four seasons
 
@@ -240,3 +407,42 @@ Study notes for *Vocabulario. Nivel elemental A1–A2* (Marta Baralo, Marta Gen�
 | realizar actividades | to do activities |
 | estar contento / contenta | to be happy |
 | La temperatura es muy agradable. | The temperature is very pleasant. |
+
+::: quiz ✏️ Pruébate — Test yourself
+**A. Which season is it in Spain?**
+
+1. Las hojas se ponen amarillas y caen.
+2. Hay muchas flores.
+3. Hace mucho calor y vamos a la playa.
+4. Nieva y hay hielo en las calles.
+
+**B. Fill in the missing month.**
+
+1. diciembre, ___, febrero
+2. marzo, abril, ___
+3. junio, ___, agosto
+4. septiembre, ___, noviembre
+
+**C. Find the odd one out.**
+
+1. verano · otoño · planeta · invierno
+2. Sol · estrella · Tierra
+3. Luna · satélite · primavera
+
+**D. In Chile, which season is it in July?**
+---
+**A.** 1 el otoño · 2 la primavera · 3 el verano · 4 el invierno
+
+**B.** 1 enero · 2 mayo · 3 julio · 4 octubre
+
+**C.** 1 planeta · 2 Tierra (a planet; the Sun is a star) · 3 primavera
+
+**D.** el invierno
+:::
+
+::: yase ✅ Ya sé… — Now I can…
+- name the four seasons and the twelve months
+- say which season I like best: *Me encanta el verano.*
+- explain why it's winter in Chile in July
+- talk about the Sun, the Moon and the Earth
+:::

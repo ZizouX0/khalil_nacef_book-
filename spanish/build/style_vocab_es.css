@@ -1,9 +1,16 @@
 /* ============================================================================
-   Vocabulario elemental A1–A2 — study sheets
+   Vocabulario elemental A1–A2 — revision guide
    ----------------------------------------------------------------------------
-   Borrows the course book's face and its vocabulary colours (style_es.css,
-   layer 1 --c-voc and layer 3 --c-el / --c-la) so the sheets read as part of
-   the same set. Two-column tables only: Spanish left and bold, English right.
+   Borrows the course book's face and palette (style_es.css) so the guide reads
+   as part of the same set, and gives each revision block the colour the course
+   book already uses for that kind of work:
+     vocabulary blue   cards, the full word lists, the chapter band
+     grammar ochre     La clave — the pattern behind the words
+     dialogue green    the dialogue and the can-do checklist
+     ojo wine          the traps
+     test red          Pruébate
+     slate             reference boxes (caja)
+   Tints sit at L* 93–96, as in the course book; every ink clears 4.5:1 on its tint.
    ============================================================================ */
 
 @font-face{font-family:'Atkinson Hyperlegible'; font-weight:400; font-style:normal;
@@ -16,13 +23,18 @@
   src:url('../assets/fonts/AtkinsonHyperlegible-BoldItalic.ttf') format('truetype')}
 
 :root{
-  --ink:#1A1A1E; --ink-2:#3F3F3F; --ref:#6B6259; --hair:#DED8CE;
-  --voc:#125C82; --voc-tint:#E7EFF2; --voc-rule:#B8CEDA; --zebra:#F5F8FA;
+  --ink:#1A1A1E; --ink-2:#3F3F3F; --ink-3:#57534E; --ref:#6B6259; --hair:#DED8CE;
+  --voc:#125C82;  --voc-tint:#E7EFF2;  --voc-rule:#B8CEDA; --zebra:#F5F8FA;
+  --gram:#966007; --gram-tint:#F4EEE4; --gram-rule:#DFCDB0;
+  --conv:#1F7A68; --conv-tint:#E9F2F0; --conv-rule:#BCD7D2;
+  --ojo:#822B37;  --ojo-tint:#F2EAEB;  --ojo-rule:#DABFC3;
+  --test:#A0182A; --test-tint:#F6EAEC; --test-rule:#E4BEC3;
+  --slate:#3F4A6B; --slate-tint:#EDEFF5; --slate-rule:#C6CCDD;
   --el:#125C82; --la:#A62466;
 }
 
 @page{
-  size:A4; margin:18mm 16mm 17mm 16mm;
+  size:A4; margin:17mm 15mm 16mm 15mm;
   @top-right   { content:string(unit); font-family:'Atkinson Hyperlegible',sans-serif;
                  font-size:7.8pt; color:#6B6259 }
   @bottom-left { content:"Vocabulario elemental A1–A2"; font-family:'Atkinson Hyperlegible',sans-serif;
@@ -35,38 +47,157 @@
 @page :first{ @top-right{content:none} }
 
 *{box-sizing:border-box}
-html{font-family:'Atkinson Hyperlegible','DejaVu Sans',sans-serif; font-size:10.4pt;
-     line-height:1.42; color:var(--ink)}
+html{font-family:'Atkinson Hyperlegible','DejaVu Sans',sans-serif; font-size:10.3pt;
+     line-height:1.4; color:var(--ink)}
 body{margin:0}
-p{margin:0 0 2.5mm}
+p{margin:0 0 2mm}
+ul, ol{margin:0 0 2mm; padding-left:5mm}
+li{margin:0 0 1mm}
+img.emo{height:1.15em; width:auto; vertical-align:-.2em}
+.en{color:var(--ink-3); font-weight:400}
 
 /* ---------- front page ---------- */
-.front .eyebrow{margin:6mm 0 1mm; font-size:9pt; font-weight:700; letter-spacing:.14em;
+.front .eyebrow{margin:4mm 0 1mm; font-size:9pt; font-weight:700; letter-spacing:.14em;
   text-transform:uppercase; color:var(--voc)}
-.front h1{margin:0; font-size:27pt; line-height:1.1; color:var(--ink)}
-.front .lede{margin:2mm 0 7mm; font-size:11.5pt; color:var(--ink-2)}
-.front .intro{padding:4mm 5mm 1.5mm; background:var(--voc-tint);
-  border-left:1.6mm solid var(--voc); font-size:9.8pt}
-.front .intro code{font-size:8.8pt}
+.front h1{margin:0; font-size:28pt; line-height:1.1}
+.front .lede{margin:2mm 0 6mm; font-size:11.5pt; color:var(--ink-2)}
+.front .intro{padding:4mm 5mm 2mm; background:var(--voc-tint);
+  border-left:1.6mm solid var(--voc); border-radius:0 2mm 2mm 0; font-size:10pt}
+.front .intro ol{padding-left:6mm}
+.front .intro li{margin-bottom:1.6mm}
 .front .legend{margin:4mm 0 0; font-size:9.6pt; color:var(--ink-2)}
 .toc-head{margin:9mm 0 2mm; font-size:13pt; color:var(--voc);
   border-bottom:.8pt solid var(--voc-rule); padding-bottom:1mm}
 .toc{list-style:none; margin:0; padding:0}
-.toc li{margin:0; padding:1.6mm 0; border-bottom:.4pt solid var(--hair)}
+.toc li{margin:0; padding:1.8mm 0; border-bottom:.4pt solid var(--hair)}
 .toc a{color:var(--ink); text-decoration:none}
 .toc a::after{content:leader('.') target-counter(attr(href), page); color:var(--ref)}
 .toc .n{display:inline-block; width:21mm; font-weight:700; color:var(--voc)}
+.credit{margin-top:8mm; font-size:7.6pt; color:var(--ref)}
 
-/* ---------- a lesson ---------- */
+/* ---------- chapter band ---------- */
 .unit{break-before:page}
 .unit-head{string-set:unit attr(data-run); display:flex; align-items:center; gap:4.5mm;
-  margin:0 0 5mm; padding:0 0 3mm; border-bottom:1.2pt solid var(--voc)}
-.unit-head .num{flex:none; width:15mm; height:15mm; line-height:15mm; text-align:center;
-  background:var(--voc); color:#fff; font-size:21pt; font-weight:700; border-radius:1.5mm}
-.unit-head h2{margin:0; font-size:18pt; line-height:1.15}
+  margin:0 0 5mm; padding:3.5mm 4.5mm; background:var(--voc-tint); border-radius:3mm;
+  border-bottom:1.4mm solid var(--voc)}
+.unit-head .num{flex:none; width:17mm; height:17mm; line-height:17mm; text-align:center;
+  background:var(--voc); color:#fff; font-size:24pt; font-weight:700; border-radius:2mm}
+.unit-head .t{flex:1}
+.unit-head .eyebrow{margin:0; font-size:8pt; font-weight:700; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--voc)}
+.unit-head h2{margin:.3mm 0 0; font-size:19pt; line-height:1.12}
 .unit-head .sub p{margin:.8mm 0 0; font-size:10pt; color:var(--ink-2)}
+.unit-head .badges{flex:none; white-space:nowrap}
+.unit-head .badges img.emo{height:8.5mm; margin-left:1.2mm; vertical-align:middle}
+
+/* ---------- blocks ---------- */
+.blk{margin:0 0 4.5mm; break-inside:avoid}
+.blk-h{margin:0 0 2.4mm; font-size:12.4pt; line-height:1.2; color:var(--voc)}
+.blk-h .en{font-size:10.2pt; margin-left:1mm}
+
+.aprender, .clave, .termometro, .ojo, .caja, .dialogo, .quiz, .yase{
+  padding:3.5mm 4.5mm 2.5mm; border-radius:2.5mm; border-left:1.6mm solid var(--c)}
+.aprender  {--c:var(--voc);   background:var(--voc-tint)}
+.clave     {--c:var(--gram);  background:var(--gram-tint)}
+.termometro{--c:var(--voc);   background:var(--voc-tint)}
+.ojo       {--c:var(--ojo);   background:var(--ojo-tint)}
+.caja      {--c:var(--slate); background:var(--slate-tint)}
+.dialogo   {--c:var(--conv);  background:var(--conv-tint)}
+.quiz      {--c:var(--test);  background:var(--test-tint)}
+.yase      {--c:var(--conv);  background:var(--conv-tint)}
+.clave .blk-h{color:var(--gram)}  .ojo .blk-h{color:var(--ojo)}
+.caja .blk-h{color:var(--slate)}  .dialogo .blk-h, .yase .blk-h{color:var(--conv)}
+.quiz .blk-h{color:var(--test)}
+
+/* can-do: two columns of arrows */
+.aprender ul{columns:2; column-gap:8mm; list-style:none; padding:0}
+.aprender li::before{content:"→ "; color:var(--voc); font-weight:700}
+
+/* ⭐ cards */
+.cardgrid{display:grid; grid-template-columns:repeat(4, 1fr); gap:2.4mm}
+.card{padding:2.6mm 2mm 2.2mm; text-align:center; background:#fff; break-inside:avoid;
+  border:.7pt solid var(--voc-rule); border-radius:2.2mm}
+.card .ic{display:block; margin-bottom:1.2mm}
+.card .ic img.emo{height:10mm}
+.card b{display:block; font-size:10.4pt; line-height:1.2}
+.card .en{display:block; margin-top:.7mm; font-size:8.7pt; line-height:1.2}
+
+/* the four seasons */
+.seasons{display:grid; grid-template-columns:1fr 1fr; gap:3mm}
+.season{padding:3.2mm 4mm 2.4mm; border-radius:2.6mm; break-inside:avoid; border:.7pt solid var(--r)}
+.season.s1{--k:#A62466; --r:#E8C3D3; background:#FBEDF3}
+.season.s2{--k:#7A5200; --r:#E9D49A; background:#FFF5D9}
+.season.s3{--k:#9C4317; --r:#ECC7AE; background:#FCEBDD}
+.season.s4{--k:#125C82; --r:#B8CEDA; background:#E7EFF2}
+.season .top{display:flex; align-items:center; gap:3mm}
+.season .ic img.emo{height:13mm}
+.season .top b{display:block; font-size:16pt; line-height:1.1; color:var(--k)}
+.season .top b .g-el, .season .top b .g-la{color:var(--k)}
+.season .top .en{display:block; font-size:10pt}
+.season .months{margin:2.2mm 0 1.4mm; font-weight:700; color:var(--ink)}
+.season .line{margin:0; font-size:9.6pt; line-height:1.3}
+.season .line .en{display:block; font-size:8.8pt}
+
+/* 💡 la clave: one column per pattern */
+.cols{display:grid; grid-template-columns:repeat(4, 1fr); gap:2.4mm; margin-bottom:2.4mm}
+.col{padding:2.4mm 2.6mm 1mm; background:#fff; border-radius:1.8mm; border-top:1.4mm solid var(--gram)}
+.col-h{margin:0; font-weight:700; color:var(--gram); font-size:10.2pt; line-height:1.2}
+.col .hint{margin:.4mm 0 1.8mm; font-size:8.2pt; color:var(--ink-3); line-height:1.2}
+.col ul{list-style:none; padding:0; margin:0}
+.col li{margin:0 0 1.6mm; font-size:9.6pt; line-height:1.22}
+.col li .en{display:block; font-size:8.2pt}
+.clave > p{font-size:9.8pt}
+
+/* 🌡️ hot to freezing */
+.bar{display:flex; justify-content:space-between; height:5.2mm; line-height:5.2mm; padding:0 3mm;
+  border-radius:2.6mm; color:#fff; font-size:7.6pt; font-weight:700; letter-spacing:.04em;
+  background:linear-gradient(to right, #B03A2E, #E67E22, #F4D03F, #A9CCE3, #3B8ED0, #1B4F72)}
+.steps{display:grid; grid-template-columns:repeat(6, 1fr); gap:2mm; margin:2.4mm 0 1.2mm}
+.step{text-align:center}
+.step .ic img.emo{height:8.5mm}
+.step b{display:block; margin-top:.8mm; font-size:9.2pt; line-height:1.2}
+.step .en{display:block; font-size:8.2pt; line-height:1.2}
+.step .deg{display:inline-block; margin-top:1.2mm; padding:.2mm 1.8mm; font-size:8pt; font-weight:700;
+  background:#fff; border:.6pt solid var(--voc-rule); border-radius:2mm}
+
+/* ⚠️ traps */
+.ojo ul{padding-left:4.5mm}
+.ojo li::marker{color:var(--ojo)}
+.ojo li{margin-bottom:1.5mm}
+
+/* 💬 dialogue */
+table.dlg{width:100%; border-collapse:separate; border-spacing:0 1.3mm; margin:0 0 1mm; font-size:9.8pt}
+table.dlg td{border:none; background:#fff; padding:1.6mm 2.6mm; vertical-align:top; width:auto}
+table.dlg td.who{width:15mm; color:#fff; font-weight:700; font-size:8.6pt; text-align:center;
+  border-radius:2mm 0 0 2mm}
+table.dlg tr.p1 td.who{background:var(--conv)}
+table.dlg tr.p2 td.who{background:var(--voc)}
+table.dlg td.es{font-weight:700}
+table.dlg td.en{width:42%; color:var(--ink-2); font-size:9pt; border-radius:0 2mm 2mm 0}
+
+/* ✏️ test yourself, answers upside down */
+.quiz .q p{margin:1.4mm 0 1mm; font-size:10pt}
+.quiz .q ol{columns:2; column-gap:8mm; padding-left:6mm; margin-bottom:1.6mm}
+.quiz .q li{margin-bottom:1.3mm; break-inside:avoid}
+.quiz .sol{transform:rotate(180deg); margin-top:2.4mm; padding-top:2mm;
+  border-top:.7pt dashed var(--test-rule); font-size:8.6pt; color:var(--ink-2)}
+.quiz .sol p{margin:0 0 .8mm}
+.quiz .sol-h{font-weight:700; color:var(--test)}
+
+/* ✅ can-do checklist */
+.yase ul{list-style:none; padding:0; columns:2; column-gap:8mm}
+.yase li{padding-left:6mm; text-indent:-6mm; break-inside:avoid}
+.yase li::before{content:""; display:inline-block; width:3.4mm; height:3.4mm; margin-right:2.6mm;
+  vertical-align:-.5mm; border:1pt solid var(--conv); border-radius:.8mm; background:#fff}
+
+/* 📚 the full lists */
+.parte{margin:6mm 0 3mm; padding:2.6mm 4.5mm; background:var(--voc); border-radius:2.2mm;
+  break-after:avoid}
+.parte .blk-h{margin:0; color:#fff}
+.parte .blk-h .en{color:#DCE8EF}
 
 h3{margin:4.2mm 0 1.6mm; font-size:11.4pt; color:var(--voc); break-after:avoid}
+h3 .en{font-size:10pt; margin-left:.6mm}
 
 table{width:100%; border-collapse:collapse; margin:0 0 3mm; font-size:10pt}
 thead th{background:var(--voc); color:#fff; text-align:left; font-size:8.6pt;
@@ -77,6 +208,15 @@ td:first-child{font-weight:700}
 td:last-child{color:var(--ink-2)}
 tbody tr:nth-child(even) td{background:var(--zebra)}
 tr{break-inside:avoid}
+
+/* a three-column table inside a box: no column outweighs the others */
+.caja table{background:#fff; margin-bottom:2.4mm}
+.caja thead th{background:var(--slate)}
+.caja th, .caja td{width:auto}
+.caja th:first-child, .caja td:first-child{width:30%}
+.caja td:last-child{color:var(--ink)}
+.caja tbody tr:nth-child(even) td{background:#F7F8FB}
+.caja > p{font-size:9.8pt}
 
 .g-el{color:var(--el)}
 .g-la{color:var(--la)}
