@@ -1,0 +1,170 @@
+# Episodio 16 · Caras
+# Sources: Textbook Lección 16 (pp. 161–172) and Workbook/Study Guide Lección 16 (pp. 163–174, 313–314).
+# Words in vocab.core are the two books' own Vocabulario lists. The ser · ir card and the table of
+# -i- and -u- stems follow the workbook's Gramática 46; a mí, a ti its 47 (as a rule: the table is in
+# Episode 15); two pronouns together its 48. The apologies are the Conversaciones: Perdone Ud.
+# Added: perdona, disculpa to tú; hace … que + present, from the textbook's Preparación B.
+
+episode: 16
+title: Caras
+title_en: Faces
+pages: "Textbook pp. 161–172 · Workbook pp. 163–174"
+# the word list is long: it goes last, so the shorter sections fill the pages before it
+vocab_last: true
+
+essentials:
+  - "**More irregular past**: **-i-** in *quise, hice, vine* · **-u-** in *puse, pude, supe*, with the endings of Episode 15. *hacer* writes **hizo**. **ser** and **ir** share one past: **fui, fue, fueron** = I went or I was."
+  - "**Two pronouns together**: the person first, then the thing: ***Me la** dio Héctor* (he gave it to me). *le, les* become **se**: *Héctor **se la** dio a Arturo*, never ~~le la~~."
+  - "**Excuse me**: **Con permiso** to get past people · **Perdone, Disculpe** to get attention or apologise: *Perdone, ¿tiene Ud. la hora?*"
+  - "**Hace** + time + **que** + present = have been … for: *Hace unos pocos días que te conozco* = I've known you for a few days."
+
+greetings_title: ["Perdone Ud.", "Excuse me, sorry"]
+greetings:
+  - ["Con permiso.", "Excuse me, may I get by?", "To pass people, or to leave a room. Just **Permiso** works too."]
+  - ["Perdone. · Perdón.", "Excuse me. · Sorry.", "To get attention, or to apologise: *Perdone, ¿tiene Ud. la hora?* To *tú*: **perdona**."]
+  - ["Disculpe.", "Excuse me. · I'm sorry.", "The same uses: *Disculpe, doctor, lo llaman por teléfono.* To *tú*: **disculpa**."]
+
+verbs:
+  table:
+    verb: ser · ir
+    meaning: was · went
+    irregular: true
+    forms:
+      - ["fui", "I was · I went"]
+      - ["fuiste", "you were · went"]
+      - ["fue", "he, she was · went"]
+      - ["fuimos", "we were · went"]
+      - ["fuisteis", "you were · went"]
+      - ["fueron", "they were · went"]
+    hook: "One past for two verbs, and the sentence tells which: *Fuimos al puerto* (went) · *Héctor y Ángel fueron amigos* (were) · *Fue muy divertido* (was). No accents."
+  met:
+    - ["quise · quiso", "querer", "I wanted, tried · he / she wanted, tried"]
+    - ["hice · hizo", "hacer", "I did, made · he / she did, made"]
+    - ["vine · vino", "venir", "I came · he / she came"]
+    - ["puse · se puso", "poner · ponerse", "I put · he / she became"]
+    - ["pude · no pudo", "poder", "I could · he / she couldn't"]
+    - ["supe · supimos", "saber", "I found out · we found out"]
+
+grammar:
+  - title: "More irregular past: -i- and -u-"
+    rule: "Six more verbs with a new stem. The endings are Episode 15's: **-e, -iste, -o, -imos, -isteis, -ieron**, with no accent on *-e, -o*."
+    table:
+      head: ["", "stem", "yo · él", "ellos"]
+      rows:
+        - ["querer", "**quis-**", "quis**e** · quis**o**", "quis**ieron**"]
+        - ["hacer", "**hic-**", "hic**e** · **hiz**o", "hic**ieron**"]
+        - ["venir", "**vin-**", "vin**e** · vin**o**", "vin**ieron**"]
+        - ["poner", "**pus-**", "pus**e** · pus**o**", "pus**ieron**"]
+        - ["poder", "**pud-**", "pud**e** · pud**o**", "pud**ieron**"]
+        - ["saber", "**sup-**", "sup**e** · sup**o**", "sup**ieron**"]
+    examples:
+      - ["Cuando Raquel **vino** a mi casa, **quise** tomar una foto de nosotros dos pero no lo **hice** bien.", "When Raquel came to my house, I tried to take a photo of the two of us but didn't do it well."]
+      - ["Raquel **puso** las verduras de forma que imitaban nuestras dos caras. ¡No lo **pude** creer!", "Raquel arranged the vegetables to look like our two faces. I couldn't believe it!"]
+      - ["¡Por fin **supimos** algo de Ángel!", "At last we found out something about Ángel!"]
+    trap: "**hizo** with *z*, to keep the *s* sound before *o* (like *-cé* in Episode 13). Three verbs shift meaning in the past: **quiso** = wanted, tried to · **no pudo** = couldn't, failed to · **supo** = found out. The workbook comes back to this in Lección 24."
+
+  - title: "Two pronouns together: me lo, se la"
+    rule: "When a sentence has both, the person (*me, te, le, nos, les*, Episode 15) comes **first**, then the thing (*lo, la, los, las*, Episodes 12–13)."
+    table:
+      head: ["", "+ lo · la · los · las", "example"]
+      rows:
+        - ["me", "**me lo · me la**", "¿La carta? **Me la** dio Héctor."]
+        - ["te", "**te lo · te las**", "¿Las fotos? **Te las** traigo mañana."]
+        - ["le, les become **se**", "**se lo · se la**", "¿La dirección? Héctor **se la** dio a Arturo."]
+    examples:
+      - ["¿Las fotos? Arturo **se las** reveló a Raquel.", "The photos? Arturo developed them for Raquel."]
+      - ["**Se los** van a mandar a Ud.", "They are going to send them to you."]
+      - ["Va a traér**selos** a él.", "He's going to bring them to him."]
+      - ["Este cuadro **me lo** dio Ángel.", "Ángel gave me this painting."]
+    trap: "Never ~~le lo~~: *le, les* turn into **se** before *lo, la, los, las*. *se* can mean him, her, you, them, so add **a él, a Ud., a ellas**. Joined to an infinitive, the two go on the end as one word, with an accent to keep the stress: *traérselos, dárselo*."
+
+rules:
+  - ["**a mí, a ti** for emphasis; *le* often needs **a él, a ella, a Ud.**", "A mí me dio un regalo, no a ti. · Le voy a dar el cuadro a Ud."]
+  - ["**ponerse** = to put on · **ponerse** + adjective = to get, become", "Me puse la campera. · Arturo se puso muy enfadado."]
+  - ["**sacar una foto** = to take a photo · **la foto** is feminine, short for *la fotografía*", "Arturo quiso sacar una foto."]
+  - ["**extrañar** = to miss someone", "Te voy a extrañar. —Yo también a ti."]
+  - ["**tal vez** = perhaps · **últimamente** = lately", "Tal vez yo podría ir a Puerto Rico."]
+
+vocab:
+  core:
+    - group: Los verbos
+      words:
+        - ["extrañar", "to miss, long for"]
+        - ["mostrar (ue)", "to show"]
+        - ["tratar de (+ inf.)", "to try to (do something)"]
+        - ["ponerse", "to put on (clothing)"]
+        - ["ponerse + adj.", "to get, become"]
+    - group: Las legumbres y las verduras
+      words:
+        - ["la aceituna", "olive"]
+        - ["el apio", "celery"]
+        - ["el brécol · el brocolí", "broccoli"]
+        - ["la calabaza", "squash"]
+        - ["la coliflor", "cauliflower"]
+        - ["el champiñón", "mushroom"]
+        - ["los guisantes · los chícharos (Méx.)", "peas"]
+        - ["el chile", "chili pepper"]
+        - ["las judías verdes · los ejotes (Méx.)", "string beans"]
+        - ["las espinacas", "spinach"]
+        - ["los frijoles", "beans"]
+        - ["la lechuga", "lettuce"]
+        - ["el maíz", "corn"]
+        - ["la papa (Lat. Am.) · la patata (Esp.)", "potato"]
+        - ["la zanahoria", "carrot"]
+    - group: Los lugares · las cosas
+      words:
+        - ["el puerto", "port"]
+        - ["la foto", "photo"]
+        - ["la cara", "face"]
+    - group: Los adjetivos
+      words:
+        - ["pensativo · pensativa", "thoughtful, pensive"]
+        - ["enfadado · enfadada", "angry"]
+    - group: Perdone Ud.
+      see: "Perdone Ud."
+      words:
+        - ["con permiso", "may I pass by?"]
+        - ["disculpe", "pardon me, excuse me"]
+        - ["perdón, perdone", "pardon me, excuse me"]
+    - group: Las palabras adicionales
+      words:
+        - ["tal vez", "perhaps"]
+        - ["últimamente", "lately"]
+  extra:
+    - group: Otros nombres
+      words:
+        - ["las arvejas (Arg.)", "peas"]
+        - ["los ajíes (Arg.)", "chili peppers"]
+    - group: En la mesa
+      words:
+        - ["cocido · crudo", "cooked · raw"]
+        - ["la mostaza", "mustard"]
+        - ["la salsa · la salsa de tomate", "dressing · ketchup"]
+        - ["el puré de papas", "mashed potatoes"]
+        - ["la merienda", "afternoon snack"]
+    - group: Otras
+      words:
+        - ["el pariente", "relative"]
+        - ["la señal", "sign"]
+        - ["la película · el horario", "film · timetable"]
+        - ["la nota", "grade, mark"]
+        - ["revelar (fotos)", "to develop (photos)"]
+        - ["¡No te hagas el tonto!", "Don't play dumb!"]
+
+sounds:
+  - title: "ch: as in church"
+    body: "**ch** sounds like English *ch* in *church*: mu**ch**o, **ch**ampiñones, le**ch**uga, **ch**ocolate, **ch**ico, ano**ch**e, **ch**orizo. It used to be a letter of its own (Episode 2)."
+  - title: "Say it"
+    body: "*Los muchachos escuchan a Charo. · Chela es una chica chilena.*"
+
+phrases:
+  - ["Hace unos pocos días que te conozco… y parece como si hiciera muchos años.", "I've known you for a few days… and it's as if it had been many years."]
+  - ["Te voy a extrañar. —Yo también a ti.", "I'm going to miss you. —I'll miss you too."]
+  - ["Ángel es el único pariente que tengo.", "Ángel is the only relative I have."]
+  - ["Debería tomar el primer vuelo. No puedo tardarme mucho.", "I should take the first flight. I can't take long."]
+  - ["Salgo mal en las fotos.", "I don't come out well in photos."]
+  - ["Yo también tengo una sorpresa para ti.", "I have a surprise for you too."]
+
+culture:
+  - title: "Otras ciudades argentinas"
+    body: "**Córdoba**, in the centre, founded in 1573, with the country's oldest university · **Rosario**, a busy port on the Paraná river · **Mendoza**, at the foot of the Andes, famous for its wine · **Mar del Plata**, on the Atlantic, the great beach resort: summer there is December to February."
