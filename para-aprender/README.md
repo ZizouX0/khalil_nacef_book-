@@ -1,0 +1,19 @@
+# Hojas «PARA APRENDER» — Aula Internacional Plus 2
+
+Hojas de referencia de **una sola página A4**, pensadas para imprimir y repasar
+antes del examen. Cada hoja resume todo lo esencial de una unidad: gramática,
+léxico, las frases más usadas, las reglas de oro y los errores más frecuentes.
+
+| Hoja | Unidad | Contenido |
+|---|---|---|
+| [`00-sentimientos-y-adjetivos.pdf`](00-sentimientos-y-adjetivos.pdf) | Unidad 1 | Las 7 estructuras de los sentimientos · adjetivos de 4 formas y de 2 formas · los adverbios invariables · las expresiones con **me da** · los verbos reflexivos de emoción · **costar** |
+| [`unidad2-preterito-indefinido.pdf`](unidad2-preterito-indefinido.pdf) | Unidad 2 · *Una vida de película* | Los regulares · los cambios de ortografía **-qué / -gué / -cé** · los **-IR** que cambian la raíz · los pretéritos fuertes · **ser = ir**, **dar**, **ver** · marcadores de tiempo · verbos + preposición |
+| [`unidad3-yo-soy-asi.pdf`](unidad3-yo-soy-asi.pdf) | Unidad 3 · *Yo soy así* | **ser / tener / llevar** · el físico y el carácter · **parecer** vs **parecerse a** · **mismo** vs **parecido** · **caer bien** vs **llevarse bien** · **el/la/los/las + que / de** · **este / ese / aquel** · presentes **c > zc** · la familia |
+| [`unidad4-hogar-dulce-hogar.pdf`](unidad4-hogar-dulce-hogar.pdf) | Unidad 4 · *Hogar, dulce hogar* | **ser / estar / tener / dar a** · **hay** vs **está** · los comparativos (adjetivos, nombres y verbos) · tipos de vivienda y partes de la casa · muebles y electrodomésticos · materiales y estilos · posesivos tónicos · preposiciones de lugar · gustos y coincidencia |
+
+## Cómo usarlas
+
+- **Imprime en A4** sin ajustar la escala (al 100 %).
+- Lo marcado con **⭐** es lo que más cae en el examen.
+- El bloque rojo del final, **«los errores más frecuentes»**, es el último repaso
+  antes de entregar: son los fallos que más se cometen.
