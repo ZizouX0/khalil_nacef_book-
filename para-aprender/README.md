@@ -10,6 +10,7 @@ léxico, las frases más usadas, las reglas de oro y los errores más frecuentes
 | [`unidad2-preterito-indefinido.pdf`](unidad2-preterito-indefinido.pdf) | Unidad 2 · *Una vida de película* | Los regulares · los cambios de ortografía **-qué / -gué / -cé** · los **-IR** que cambian la raíz · los pretéritos fuertes · **ser = ir**, **dar**, **ver** · marcadores de tiempo · verbos + preposición |
 | [`unidad3-yo-soy-asi.pdf`](unidad3-yo-soy-asi.pdf) | Unidad 3 · *Yo soy así* | **ser / tener / llevar** · el físico y el carácter · **parecer** vs **parecerse a** · **mismo** vs **parecido** · **caer bien** vs **llevarse bien** · **el/la/los/las + que / de** · **este / ese / aquel** · presentes **c > zc** · la familia |
 | [`unidad4-hogar-dulce-hogar.pdf`](unidad4-hogar-dulce-hogar.pdf) | Unidad 4 · *Hogar, dulce hogar* | **ser / estar / tener / dar a** · **hay** vs **está** · los comparativos (adjetivos, nombres y verbos) · tipos de vivienda y partes de la casa · muebles y electrodomésticos · materiales y estilos · posesivos tónicos · preposiciones de lugar · gustos y coincidencia |
+| [`unidad5-como-va-todo.pdf`](unidad5-como-va-todo.pdf) | Unidad 5 · *¿Cómo va todo?* | El **gerundio** y **estar + gerundio** · pedir un **favor** vs pedir **permiso** · el **condicional de cortesía** · **tú** vs **usted** · **dar / prestar / pasar / traer / poner / tener** · **es que…** y las excusas · saludos y despedidas · conceder, rechazar y negociar |
 
 ## Cómo usarlas
 
