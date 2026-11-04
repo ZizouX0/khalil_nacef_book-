@@ -260,7 +260,7 @@ def render_block(name, arg, items):
     if name == "checklist":
         return f'<div class="checklist"><div class="clh">☑️ {t or "Checklist"}</div><div class="checks">{render_items(items)}</div></div>'
     if name == "flashcards":
-        cards = "".join(f'<div class="fc"><div class="front">{cell(c, 0)}</div><div class="back">{cell(c, 1)}</div></div>'
+        cards = "".join(f'<div class="fc"><div class="front"><span>{cell(c, 0)}</span></div><div class="back"><span>{cell(c, 1)}</span></div></div>'
                         for c in rows(items))
         return (f'<div class="fcwrap"><div class="fch">✂️ {t or "Flashcards"} '
                 f'<span>· cut out, fold on the dotted line, test yourself</span></div><div class="fcgrid">{cards}</div></div>')
