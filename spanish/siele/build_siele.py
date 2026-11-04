@@ -29,7 +29,7 @@ BOOKS = {
         kick="Book 2 of 3 · practice", title="SIELE", sub="practice",
         blurb="Original exam-style tasks for reading, listening (with audio tracks 01–06) and speaking, "
               "with every answer explained at the end of each chapter.",
-        chapters=[("p0_intro.md", "ch-intro"), ("p1_CL.md", "ch-CL"), ("p2_CA.md", "ch-CA"),
+        chapters=[("p0_intro.md", "ch-intro"), ("p1_CL.md", "ch-CL"), ("p1b_CL_T45.md", "ch-CL"), ("p2_CA.md", "ch-CA"),
                   ("p4_EIO.md", "ch-EIO")]),
     "writing": dict(
         src="src_writing", out="SIELE_3_Writing_Workbook.pdf", footer="SIELE in 7 days · 3 Writing workbook",
