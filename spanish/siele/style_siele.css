@@ -335,3 +335,21 @@ blockquote{margin:3mm 0; padding:2mm 4mm; border-left:4px solid var(--c-mid); ba
 .photopair .ph-opt{position:absolute; top:2mm; left:2mm; background:rgba(15,23,42,.8); color:#fff; font-family:var(--head);
   font-weight:900; font-size:9pt; padding:.5mm 2.5mm; border-radius:3mm}
 .photopair figcaption{font-size:7.6pt; color:var(--ink3); margin-top:.8mm}
+
+/* Book 5: verb cards */
+.ch-words{--c:#0e7490; --c-bg:#ecfeff; --c-mid:#a5f3fc}
+.verb{border:1.5px solid var(--c-mid); border-radius:3mm; margin:3mm 0; overflow:hidden; break-inside:avoid}
+.vh{display:flex; flex-wrap:wrap; align-items:baseline; gap:2.5mm; background:var(--c-bg); padding:1.6mm 3mm; border-bottom:1.5px solid var(--c-mid)}
+.vi{font-family:var(--head); font-weight:900; font-size:14pt; color:var(--c)}
+.vm{font-size:8.6pt; color:var(--ink2)}
+.vt{font-family:var(--head); font-weight:800; font-size:7.4pt; border-radius:3mm; padding:0 2mm; color:#fff}
+.vt.regular{background:#10b981}.vt.irregular{background:#e11d48}
+.vg{margin-left:auto; font-size:8pt; color:var(--ink2)}
+.vtab{width:100%; border:none; border-radius:0; margin:0; font-size:7.9pt; table-layout:fixed}
+.vtab th{background:#fff; color:var(--c); font-size:7.6pt; padding:1mm 1.2mm; border-bottom:1px solid var(--c-mid)}
+.vtab thead th small{display:block; font-family:var(--body); font-weight:400; color:var(--ink3); font-size:6.3pt; line-height:1.2}
+.vtab tbody th{text-align:left; color:var(--ink2); font-weight:700; width:18mm}
+.vtab td{padding:.8mm 1.2mm; border-top:1px solid #f1f5f9; background:#fff !important}
+.vtab td.irr{color:#e11d48; font-weight:700}
+.vimp{font-size:8.2pt; padding:1.2mm 3mm; background:#f8fafc; border-top:1px solid #f1f5f9}
+.cv-books{flex-wrap:wrap; gap:2mm} .cv-books span{font-size:8.4pt; padding:1.2mm 3mm}
