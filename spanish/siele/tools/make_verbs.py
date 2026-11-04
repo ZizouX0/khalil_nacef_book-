@@ -36,14 +36,12 @@ GROUPS = [
                             ("seguir", "to follow, to continue"), ("elegir", "to choose")]),
     ("Spelling changes and other useful verbs", [("llegar", "to arrive"), ("buscar", "to look for"), ("conocer", "to know (people, places)"),
                             ("conducir", "to drive"), ("traer", "to bring"), ("oír", "to hear"), ("leer", "to read"),
-                            ("quedar", "to meet up, to remain"), ("llevar", "to carry, to wear"), ("viajar", "to travel")]),
+                            ]),
 ]
 
 
 NIGHT = {}
-for n, vs in {1: "ser estar tener ir hacer", 2: "hablar comer vivir querer poder", 3: "ver poner decir venir salir",
-              4: "saber dar pedir dormir jugar empezar", 5: "pensar volver preferir sentir encontrar",
-              6: "seguir elegir conocer conducir traer oír"}.items():
+for n, vs in {}.items():   # night tags disabled: the bank is organised by task
     for v in vs.split():
         NIGHT[v] = n
 
@@ -131,7 +129,7 @@ def card(inf, meaning):
 def main():
     parts = ["# 🔤 Verbos · The verbs you need, conjugated", "",
              "Red forms are **irregular**: they don't follow the pattern of *hablar / comer / vivir*. Memorise the red ones; the rest you can build yourself.", "",
-             "Each card shows its **🌙 night**. Tonight, open only tonight's cards and read the red forms aloud.", "",
+             "**Fully regular verbs** (*viajar, llevar, quedar, trabajar, estudiar…*) work exactly like *hablar / comer / vivir*.", "",
              ":::tip How to read a card",
              "**usted** uses the *él* form and **ustedes** the *ellos* form. **Pret. perfecto** = *haber* + participle (*he comido*). Column hints tell you **when** to use each tense (HE · FUI · ERA, WAIT).",
              ":::", ""]
@@ -142,11 +140,11 @@ def main():
             print(inf, file=sys.stderr)
     # special cards written by hand (impersonal / pronoun patterns)
     parts += ["## Special patterns", "",
-              '<div class="verb"><div class="vh"><span class="vi">haber → hay</span><span class="vm">there is / there are (one form for singular and plural)</span><span class="vt irregular">irregular</span><span class="vn">🌙 Noche 1</span></div>'
+              '<div class="verb"><div class="vh"><span class="vi">haber → hay</span><span class="vm">there is / there are (one form for singular and plural)</span><span class="vt irregular">irregular</span></div>'
               '<table class="vtab"><thead><tr><th></th><th>Presente</th><th>Pret. perfecto</th><th>Indefinido</th><th>Imperfecto</th><th>Futuro</th><th>Condicional</th><th>Subjuntivo</th></tr></thead>'
               '<tbody><tr><th>there is/are</th><td class="irr">hay</td><td>ha habido</td><td class="irr">hubo</td><td>había</td><td class="irr">habrá</td><td class="irr">habría</td><td class="irr">haya</td></tr></tbody></table>'
               '<div class="vimp">En mi barrio <b>hay</b> dos parques · Ayer <b>hubo</b> un concierto · Antes <b>había</b> un cine · Espero que <b>haya</b> sitio.</div></div>', "",
-              '<div class="verb"><div class="vh"><span class="vi">gustar</span><span class="vm">to like: the thing liked is the subject</span><span class="vt regular">pattern</span><span class="vn">🌙 Noche 3</span></div>'
+              '<div class="verb"><div class="vh"><span class="vi">gustar</span><span class="vm">to like: the thing liked is the subject</span><span class="vt regular">pattern</span></div>'
               '<table class="vtab"><thead><tr><th></th><th>one thing / verb</th><th>several things</th><th>past (indefinido)</th><th>past (imperfecto)</th><th>wish (condicional)</th></tr></thead><tbody>'
               '<tr><th>(a mí) me</th><td>me gusta el cine</td><td>me gustan los libros</td><td>me gustó</td><td>me gustaba</td><td>me gustaría</td></tr>'
               '<tr><th>(a ti) te</th><td>te gusta viajar</td><td>te gustan las playas</td><td>te gustó</td><td>te gustaba</td><td>te gustaría</td></tr>'
