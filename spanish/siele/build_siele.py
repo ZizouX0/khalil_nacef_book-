@@ -30,6 +30,12 @@ def normalize(t):
     """Blank line before lists/tables (python-markdown needs one)."""
     out = []
     for l in t.split("\n"):
+        # python-markdown needs 4-space nesting; agents write 2 or 3 (CommonMark style)
+        m = re.match(r"^( +)(?=([-*+]|\d+[.)])\s)", l)
+        if m and len(m.group(1)) % 4:
+            l = " " * (4 * -(-len(m.group(1)) // 4)) + l[len(m.group(1)):]
+        # CommonMark hard break "text\" -> python-markdown's two trailing spaces
+        l = re.sub(r"\\$", "  ", l)
         prev = out[-1] if out else ""
         is_li = bool(_LI.match(l))
         is_tb = l.lstrip().startswith("|")

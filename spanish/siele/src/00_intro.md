@@ -28,6 +28,4 @@ The page numbers are the **PDF page numbers** your viewer shows, not the numbers
 
 1. **Never leave an answer blank** in Reading and Listening. Wrong answers do not lose points.
 2. **In Writing Task 1 and in Speaking, answer every point** in the instructions. "Task completion" is graded separately, and a missing point costs you more than a small grammar mistake.
-3. **Keep going when it gets hard.** The exam goes from A1 to C1, so the later tasks are supposed to feel difficult. Do your best on the early tasks and attempt everything else.
-
-¡Mucho ánimo! 💪
+3. **Keep going when it gets hard.** The exam goes from A1 to C1, so the later tasks are supposed to feel difficult. Do your best on the early tasks and attempt everything else. ¡Mucho ánimo! 💪
