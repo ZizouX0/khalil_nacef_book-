@@ -39,11 +39,10 @@ BOOKS = {
         chapters=[("w1_workbook.md", "ch-EIE workbook")]),
     "words": dict(
         src="src_words", out="SIELE_5_Word_Verb_Bank.pdf", footer="SIELE in 7 days · 5 Word & verb bank",
-        kick="Book 5 of 5 · word & verb bank", title="SIELE", sub="words & verbs",
-        blurb="The link words that raise your marks, a phrase bank for every writing and speaking task, "
-              "grammar helpers, and the verbs you need, fully conjugated, with the irregular forms in red.",
-        chapters=[("w1_connectors_writing.md", "ch-words"), ("w2_speaking_grammar.md", "ch-words"),
-                  ("w3_verbs.md", "ch-words")]),
+        kick="Book 5 of 5 · bedtime word bank", title="SIELE", sub="7 nights of words",
+        blurb="Ten calm minutes a night: the link words, writing phrases and speaking phrases that score, "
+              "night by night, plus the verbs you need with the irregular forms in red.",
+        chapters=[("n1_nights.md", "ch-words nights"), ("w3_verbs.md", "ch-words")]),
     "card": dict(
         src="src_card", out="SIELE_Survival_Card.pdf", footer="SIELE · survival card", plain=True,
         kick="", title="", sub="", blurb="", chapters=[("card1.md", "ch-card"), ("card2.md", "ch-card")]),
