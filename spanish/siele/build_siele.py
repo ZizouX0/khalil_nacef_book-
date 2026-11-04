@@ -18,7 +18,7 @@ HTML_OUT = os.path.join(HERE, "_siele.html")
 BOOKS = {
     "guide": dict(
         src="src", out="SIELE_1_Guide.pdf", footer="SIELE in 7 days · 1 Guide",
-        kick="Book 1 of 3 · the guide", title="SIELE", sub="in 7 days",
+        kick="Book 1 of 4 · the guide", title="SIELE", sub="in 7 days",
         blurb="What you need to know and remember for the four tests: how each task works, the traps, "
               "the tricks, and a plan for every day until the exam.",
         chapters=[("00_intro.md", "ch-intro"), ("01_general.md", "ch-general"), ("02_CL.md", "ch-CL"),
@@ -26,17 +26,24 @@ BOOKS = {
                   ("06_memory.md", "ch-memory")]),
     "practice": dict(
         src="src_practice", out="SIELE_2_Practice.pdf", footer="SIELE in 7 days · 2 Practice",
-        kick="Book 2 of 3 · practice", title="SIELE", sub="practice",
+        kick="Book 2 of 4 · practice", title="SIELE", sub="practice",
         blurb="Original exam-style tasks for reading, listening (with audio tracks 01–06) and speaking, "
               "with every answer explained at the end of each chapter.",
         chapters=[("p0_intro.md", "ch-intro"), ("p1_CL.md", "ch-CL"), ("p1b_CL_T45.md", "ch-CL"), ("p2_CA.md", "ch-CA"),
                   ("p4_EIO.md", "ch-EIO")]),
     "writing": dict(
         src="src_writing", out="SIELE_3_Writing_Workbook.pdf", footer="SIELE in 7 days · 3 Writing workbook",
-        kick="Book 3 of 3 · writing workbook", title="SIELE", sub="writing, day by day",
+        kick="Book 3 of 4 · writing workbook", title="SIELE", sub="writing, day by day",
         blurb="Six days, one full writing exam a day (Tarea 1 + Tarea 2). Lots of help on the first days, "
               "less each day, exam conditions at the end, and a model answer for every task.",
         chapters=[("w1_workbook.md", "ch-EIE workbook")]),
+    "speaking": dict(
+        src="src_speaking", out="SIELE_4_Speaking_Book.pdf", footer="SIELE in 7 days · 4 Speaking book",
+        kick="Book 4 of 4 · speaking book", title="SIELE", sub="speaking, task by task",
+        blurb="Many exam-style speaking tasks for all five tareas, each followed by a model that shows "
+              "how to answer: what to say, in which order, and how long to speak.",
+        chapters=[("s0_intro.md", "ch-intro"), ("s1_T1.md", "ch-EIO"), ("s2_T2.md", "ch-EIO"),
+                  ("s3_T3.md", "ch-EIO"), ("s4_T45.md", "ch-EIO")]),
 }
 BOOK = BOOKS["guide"]
 SRC = os.path.join(HERE, BOOK["src"])
@@ -376,13 +383,14 @@ def build_html(page_map=None):
     </div>
     <div class="cv-goal"><div class="ring"><b>B1</b><span>goal</span></div><div class="ring safe"><b>A2</b><span>safety net</span></div>
       <div class="exam-date"><span>Exam day</span><b>11 November 2026</b></div></div>
-    <div class="cv-books"><span class="{b1}">1 · Guide</span><span class="{b2}">2 · Practice</span><span class="{b3}">3 · Writing workbook</span></div>
+    <div class="cv-books"><span class="{b1}">1 · Guide</span><span class="{b2}">2 · Practice</span><span class="{b3}">3 · Writing workbook</span><span class="{b4}">4 · Speaking book</span></div>
     <div class="cv-src">Built from the <i>Manual oficial para la preparación del SIELE</i> (2022), the <i>Guía oficial para
     preparadores del SIELE</i> (2019) and extracts from Edelsa <i>Preparación al SIELE</i> (2021).
     Grey tags like <span class="ref">Manual p.52</span> are PDF page numbers in your copies.</div>
   </div>
 </div>""".format(cls=BOOK.get("key", ""), b1="on" if BOOK.get("key") == "guide" else "",
            b2="on" if BOOK.get("key") == "practice" else "", b3="on" if BOOK.get("key") == "writing" else "",
+           b4="on" if BOOK.get("key") == "speaking" else "",
            **{k: BOOK[k] for k in ("kick", "title", "sub", "blurb")})
     toc_html = f'<div class="toc"><h2 class="toch">What\'s inside</h2><div class="tcgrid">{cards}</div></div>'
     doc = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><title>{BOOK["footer"]}</title>
