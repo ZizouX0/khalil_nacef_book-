@@ -7,3 +7,8 @@ spanish/build/_book.html
 spanish/build/__pycache__/
 spanish/build/_workbook.html
 spanish/build/_game.html
+
+# SIELE booklet build intermediates
+spanish/siele/_siele.html
+spanish/siele/_render.js
+spanish/siele/_pass1.pdf

@@ -1,0 +1,95 @@
+/* SIELE A2–B1 revision booklet — print stylesheet (A4, rendered by Chromium). */
+@font-face{font-family:"Atkinson";src:url("../assets/fonts/AtkinsonHyperlegible-Regular.ttf");font-weight:400;font-style:normal}
+@font-face{font-family:"Atkinson";src:url("../assets/fonts/AtkinsonHyperlegible-Bold.ttf");font-weight:700;font-style:normal}
+@font-face{font-family:"Atkinson";src:url("../assets/fonts/AtkinsonHyperlegible-Italic.ttf");font-weight:400;font-style:italic}
+@font-face{font-family:"Atkinson";src:url("../assets/fonts/AtkinsonHyperlegible-BoldItalic.ttf");font-weight:700;font-style:italic}
+
+:root{
+  --ink:#1f2328; --ink-2:#4b5563; --ink-3:#6b7280; --rule:#d0d7de; --paper:#ffffff;
+  --tip:#0f766e; --trap:#b42318; --rem:#7a5af8;
+  --sec:#334155;
+}
+@page{size:A4; margin:15mm 15mm 17mm 18mm}
+@page cover{margin:0}
+html{font-family:"Atkinson","Noto Color Emoji",sans-serif; color:var(--ink); background:var(--paper);
+  font-size:10.2pt; line-height:1.42; -webkit-print-color-adjust:exact; print-color-adjust:exact}
+body{margin:0}
+
+/* ---- chapter colours ---- */
+.ch-general{--sec:#334155; --tint:#f1f5f9}
+.ch-CL{--sec:#1d4ed8; --tint:#eff4ff}
+.ch-CA{--sec:#7c3aed; --tint:#f5f0ff}
+.ch-EIE{--sec:#047857; --tint:#ecfdf3}
+.ch-EIO{--sec:#c2410c; --tint:#fff4ed}
+.ch-intro{--sec:#334155; --tint:#f1f5f9}
+
+/* ---- cover ---- */
+.cover{page:cover; height:297mm; box-sizing:border-box; padding:38mm 22mm 20mm; display:flex; flex-direction:column;
+  background:linear-gradient(160deg,#0f172a 0%,#1e3a8a 55%,#7c3aed 100%); color:#fff; break-after:page}
+.cover .kick{font-size:12pt; letter-spacing:.18em; text-transform:uppercase; opacity:.85}
+.cover h1{font-size:44pt; line-height:1.05; margin:6mm 0 4mm; color:#fff; border:none; padding:0; background:none}
+.cover .sub{font-size:15pt; max-width:150mm; opacity:.95}
+.cover .bands{display:flex; gap:3mm; margin:16mm 0 0}
+.cover .bands span{flex:1; padding:4mm 3mm; border-radius:3mm; font-weight:700; font-size:11pt; text-align:center; color:#fff}
+.cover .b1{background:#1d4ed8}.cover .b2{background:#7c3aed}.cover .b3{background:#047857}.cover .b4{background:#c2410c}
+.cover .meta{margin-top:auto; font-size:10pt; opacity:.9; line-height:1.6}
+.cover .meta strong{font-size:13pt}
+
+/* ---- contents ---- */
+.toc{break-after:page}
+.toc h1{font-size:22pt; color:#0f172a; border-bottom:3px solid #0f172a; padding-bottom:2mm; margin:0 0 5mm}
+.toc ol{list-style:none; padding:0; margin:0}
+.toc li.c{margin:3.2mm 0 1mm; font-weight:700; font-size:12pt}
+.toc li.s{margin:.6mm 0 .6mm 7mm; font-size:10pt; color:var(--ink-2)}
+.toc a{color:inherit; text-decoration:none; display:flex; gap:2mm}
+.toc a .t{flex:0 1 auto}
+.toc a .dots{flex:1 1 auto; border-bottom:1px dotted #9aa4b2; margin-bottom:1.2mm}
+.toc a .p{flex:0 0 auto; font-variant-numeric:tabular-nums}
+
+/* ---- chapter heads ---- */
+section.chapter{break-before:page}
+section.chapter > h1:first-child{margin-top:0}
+h1{font-size:21pt; line-height:1.15; color:#fff; background:var(--sec); padding:6mm 6mm 5mm; margin:0 0 5mm;
+  border-radius:2.5mm; break-after:avoid}
+h2{font-size:14.5pt; color:var(--sec); border-bottom:2.2px solid var(--sec); padding-bottom:1mm; margin:7mm 0 3mm; break-after:avoid}
+h3{font-size:12pt; color:var(--sec); margin:5mm 0 2mm; break-after:avoid;
+  background:var(--tint); padding:1.6mm 3mm; border-left:4px solid var(--sec); border-radius:0 1.5mm 1.5mm 0}
+h4{font-size:10.8pt; color:var(--ink); margin:4mm 0 1.5mm; break-after:avoid}
+h5,h6{font-size:10.2pt; margin:3mm 0 1mm; break-after:avoid}
+p{margin:1.6mm 0 2.2mm; orphans:3; widows:3}
+ul,ol{margin:1.2mm 0 2.4mm; padding-left:6mm}
+li{margin:.5mm 0}
+li > p{margin:.6mm 0}
+strong{color:#111}
+em{color:#24292f}
+a{color:var(--sec)}
+hr{border:none; border-top:1px solid var(--rule); margin:5mm 0}
+code{font-family:"DejaVu Sans Mono",monospace; font-size:.9em; background:#f3f4f6; padding:0 .8mm; border-radius:1mm}
+pre{white-space:pre-wrap; background:#f6f8fa; border:1px solid var(--rule); padding:3mm; border-radius:1.5mm; font-size:9pt}
+
+/* ---- tables ---- */
+table{border-collapse:collapse; width:100%; margin:2mm 0 3.5mm; font-size:9.3pt; break-inside:auto}
+thead{display:table-header-group}
+tr{break-inside:avoid}
+th{background:var(--sec); color:#fff; text-align:left; padding:1.5mm 2mm; font-weight:700; vertical-align:bottom}
+td{border-bottom:1px solid var(--rule); padding:1.3mm 2mm; vertical-align:top}
+tbody tr:nth-child(even) td{background:var(--tint)}
+
+/* ---- callouts (from "> **Tip:**" etc.) ---- */
+blockquote{margin:3mm 0; padding:2.2mm 3.5mm; border-left:4px solid var(--sec); background:var(--tint);
+  border-radius:0 2mm 2mm 0; break-inside:avoid}
+blockquote p{margin:.8mm 0}
+blockquote.tip{border-color:var(--tip); background:#effaf8}
+blockquote.trap{border-color:var(--trap); background:#fef3f2}
+blockquote.rem{border-color:var(--rem); background:#f4f3ff}
+blockquote.tip strong:first-child{color:var(--tip)}
+blockquote.trap strong:first-child{color:var(--trap)}
+blockquote.rem strong:first-child{color:var(--rem)}
+
+/* ---- checklists / blanks ---- */
+.blank{display:inline-block; border-bottom:1px solid #6b7280; height:.9em; vertical-align:baseline}
+li.todo{list-style:none; margin-left:-5mm}
+li.todo::before{content:"☐"; display:inline-block; width:5mm; color:var(--sec); font-weight:700}
+
+/* keep small blocks together */
+h2 + p, h3 + p, h3 + ul, h4 + ul, h4 + p{break-before:avoid}
