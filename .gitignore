@@ -13,3 +13,7 @@ spanish/siele/_siele.html
 spanish/siele/_render.js
 spanish/siele/_pass1.pdf
 verbecc.log
+
+# Edelsa-based speaking answers quote the Edelsa exam questions: kept local, not published
+spanish/siele/src_pack/k4_edelsa_speaking.md
+spanish/SIELE_Edelsa_Speaking_Answers.pdf
