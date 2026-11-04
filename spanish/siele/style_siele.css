@@ -366,3 +366,11 @@ blockquote{margin:3mm 0; padding:2mm 4mm; border-left:4px solid var(--c-mid); ba
 .nights h2{break-before:page; margin-top:0} .nights .opener ~ p + h2:first-of-type, .nights .flow + h2{break-before:auto}
 .vn{font-family:var(--head); font-weight:800; font-size:7.4pt; color:#4338ca; background:#e0e7ff; border-radius:3mm; padding:0 2mm}
 .phrasesheet .pgrid{grid-template-columns:1fr 1fr} .phrasesheet h2{font-size:11.5pt; margin:3mm 0 1mm} .phrasesheet .pc{padding:1.2mm 2.4mm 1mm} .phrasesheet .pc .es{font-size:9.4pt} .phrasesheet .pc .en{font-size:7.8pt} .phrasesheet .pc .tag{font-size:7pt}
+
+/* tasks pack: one task (h3) per page; one solution (h2) per page */
+.taskspack h3{break-before:page; margin-top:0}
+.taskspack h2{break-before:page; margin-top:0}
+.taskspack h2 + h3, .taskspack h2 + p + h3, .taskspack h2 + p + p + h3,
+.taskspack h2 + blockquote + h3, .taskspack h2 + div + h3{break-before:avoid; margin-top:3mm}
+.taskspack .opener + h2, .taskspack .opener + p + h2, .taskspack .opener + p + p + h2{break-before:avoid}
+.taskspack .opener:not(:first-child){break-before:page}

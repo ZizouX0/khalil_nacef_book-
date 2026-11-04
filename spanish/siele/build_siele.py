@@ -48,7 +48,8 @@ BOOKS = {
         kick="", title="", sub="", blurb="", chapters=[("k2_phrases.md", "ch-card phrasesheet")]),
     "tasks": dict(
         src="src_pack", out="SIELE_6_New_Tasks.pdf", footer="SIELE · new writing & speaking tasks", plain=True,
-        kick="", title="", sub="", blurb="", chapters=[("k1_tasks.md", "ch-EIE")]),
+        kick="", title="", sub="", blurb="", chapters=[("k1_tasks.md", "ch-EIE taskspack"),
+                                                       ("k3_solutions.md", "ch-EIO taskspack")]),
     "card": dict(
         src="src_card", out="SIELE_Survival_Card.pdf", footer="SIELE · survival card", plain=True,
         kick="", title="", sub="", blurb="", chapters=[("card1.md", "ch-card"), ("card2.md", "ch-card")]),
