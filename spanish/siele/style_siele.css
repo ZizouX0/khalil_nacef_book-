@@ -90,13 +90,13 @@ del{color:var(--red)}
 /* ---------------------------------------------------------------- contents */
 .toc{break-after:page}
 .toch{font-family:var(--head); font-weight:900; font-size:24pt; color:#1e1b4b; margin:0 0 5mm; border:none}
-.tcgrid{display:grid; grid-template-columns:1fr 1fr; gap:4mm}
-.tc{border:2px solid var(--c-mid); border-radius:4mm; padding:3mm 4mm 2mm; break-inside:avoid; background:#fff}
+.tcgrid{display:grid; grid-template-columns:1fr 1fr 1fr; gap:3mm}
+.tc{border:2px solid var(--c-mid); border-radius:4mm; padding:2.4mm 3mm 1.6mm; break-inside:avoid; background:#fff}
 .tct{display:flex; justify-content:space-between; align-items:baseline; font-family:var(--head); font-weight:900;
-  font-size:12.5pt; color:var(--c); border-bottom:2px solid var(--c-mid); padding-bottom:1.5mm; margin-bottom:1.5mm}
+  font-size:11pt; color:var(--c); border-bottom:2px solid var(--c-mid); padding-bottom:1.2mm; margin-bottom:1.2mm; line-height:1.2}
 .tct small{display:block; font-weight:700; font-size:8.5pt; color:var(--ink2)}
 .tc ul{list-style:none; padding:0; margin:0}
-.tc li{margin:.3mm 0; font-size:8.6pt}
+.tc li{margin:.15mm 0; font-size:7.9pt; line-height:1.35}
 .tc li a{display:flex; justify-content:space-between; gap:2mm; color:var(--ink2)}
 .tc li b{color:var(--c); font-family:var(--head)}
 

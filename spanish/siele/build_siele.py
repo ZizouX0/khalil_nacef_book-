@@ -335,8 +335,9 @@ def build_html(page_map=None):
     for (title, sid, secs), cls in zip(toc, classes):
         em = ""
         es, _, en = title.partition(" · ")
-        lis = "".join(f'<li><a href="#{s}"><span>{html.escape(re.sub(r" ·.*$", "", t) if t.startswith("Tarea") else t)}</span>'
-                      f'<b>{pm.get(s, "")}</b></a></li>' for t, s in secs)
+        lis = "".join(f'<li><a href="#{s}"><span>{html.escape(re.sub(r" ·.*$", "", t) if "Tarea" in t else t)}</span>'
+                      f'<b>{pm.get(s, "")}</b></a></li>' for t, s in secs
+                      if not re.match(r"(?i)\W*answers?\b", t))
         cards += (f'<div class="tc {cls}"><a class="tct" href="#{sid}"><span>{html.escape(es)}'
                   f'{f"<small>{html.escape(en)}</small>" if en else ""}</span><b>{pm.get(sid, "")}</b></a>'
                   f'<ul>{lis}</ul></div>')
