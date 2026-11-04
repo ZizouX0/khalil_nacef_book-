@@ -1,11 +1,5 @@
 # 🚀 Start here · How to use this guide
 
-:::stats
-7 days | until 11 November
-B1 | your goal
-A2 | your safety net
-:::
-
 ## Your 3 books
 
 :::icons
