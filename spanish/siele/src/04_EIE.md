@@ -542,7 +542,7 @@ Usted ha recibido un correo del dueño del apartamento donde pasó sus vacacione
 - **Guía p.175:** write the Modelo 0 Tarea 1 *blind*, timed · 30 min
 - **Guía p.87–95:** the 4 scales, applied to that prompt · 25 min
 - **Guía p.101–104:** graded answers: p.103–104 = B1. Grade your own · 25 min
-- **Manual p.71–78:** the activities in order, p.78 timed (p.77 solutions: Extensión digital pp.11–12) · 85 min
+- **Manual p.71–78:** the activities in order, p.78 timed. The Manual's answer key is only in its *Extensión digital*, so grade yourself with this chapter's checklist · 85 min
 - **This chapter:** Ejercicio 1, then 2A–2D, one a day · 25 min a day
 :::
 
@@ -553,7 +553,7 @@ Guía p.101–104 prints "250 y 300" for Tarea 1: a misprint. It is 100–150.
 - **Guía p.105–107:** the plain letter that got Cumplimiento 4 + the genre mistake · 15 min
 - **Manual p.84–85:** correct one text, grade another · 15 min
 - **Ejercicio 3** (or Manual p.86–87): one option, survival mode · 16 min
-- **Manual p.89–90:** "Dé el salto" + the full test (Extensión digital) · 60 min
+- **Dress rehearsal:** Ejercicio 2D + Ejercicio 3 from this chapter, both tasks in 50 min, on a computer · 60 min
 - **Manual p.131–133:** grade yourself · 10 min
 :::
 

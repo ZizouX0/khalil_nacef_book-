@@ -569,11 +569,11 @@ Model answers: change the [brackets] to fit your life. 15 s ≈ 2 short sentence
 - **Day 3 · Tarea 3:** both parts, Opción 1 + one situation from Manual p.112. Check: 6 bullets? *Tú / usted* kept?
 - **Day 4 · Tareas 4–5:** one Tarea 4 set + one Tarea 5 statement. Check: 3 answers? 4 points?
 - **Day 5 · Mock:** Guía Modelo 0 (p.177–181). Score it with Manual p.134–136.
-- **Day 6 · Mock:** Manual *Dé el salto* (p.125) + Serie B. Re-record your weakest task.
+- **Day 6 · Mock:** **audio track 06** (Tarea 1, Serie B) + this chapter's Tareas 2–5 prompts, timed. Re-record your weakest task.
 - **Day 7 · Light:** Tarea 1 questions, one photo, one message; reread the templates. Then rest.
 :::
 
-Page numbers are **PDF** pages: the printed Manual number is one lower (PDF p.95 = printed p.94). Manual audios are in its *Extensión digital*.
+Page numbers are **PDF** pages: the printed Manual number is one lower (PDF p.95 = printed p.94). You don't need the Manual's *Extensión digital*: **audio track 06** asks you the Tarea 1 questions and times your answers with beeps (15 / 15 / 30 / 30 s). For Modelo 0 and the Edelsa questions (Pistas 7–9), have someone read them to you.
 
 :::checklist Your book plan
 - Manual p.93–94: overview, the screen, timing quiz – 10 min
@@ -582,7 +582,8 @@ Page numbers are **PDF** pages: the printed Manual number is one lower (PDF p.95
 - Manual p.108–112 + Guía p.131, 137: Tarea 3 – 45 min
 - Manual p.114–118, 120–123 + Edelsa Pistas 8–9: Tareas 4–5 – 30 min
 - Guía p.177–181: Modelo 0 as a timed mock – 25 min
-- Manual p.125–126: *Dé el salto* mock + self-check – 30 min
+- Audio track 06: Tarea 1, Series A and B, answering at the beep – 15 min
+- Manual p.126: the after-mock self-check (use it after Day 6) – 10 min
 - Manual p.134–136: self-assessment tables – 15 min
 - Guía p.141–144: reread "Información clave y consejos" the day before – 10 min
 :::

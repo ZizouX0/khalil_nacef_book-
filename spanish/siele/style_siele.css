@@ -314,3 +314,4 @@ blockquote{margin:3mm 0; padding:2mm 4mm; border-left:4px solid var(--c-mid); ba
 .ch-memory .model .mb{font-size:9.5pt; line-height:1.5; padding:1.8mm 4mm .5mm}
 .ch-memory .card.remember{padding:2mm 4mm 1.4mm}
 .ch-memory .card.remember .ch{font-size:15pt}
+.ie{font-family:var(--head); font-weight:900; color:var(--c)}

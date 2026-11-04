@@ -299,7 +299,7 @@ You have the **transcripts only**, not the sentences to match. So train your ear
 - Read this chapter, tick the checklists — 20'
 - CL Tasks 1–3, timed — 40'
 - 🎧 Tarea 3 explained and solved, Manual p.52–54 — 15'
-- 🎧 Manual p.55 (audio: Extensión digital): listen, then check the transcript — 20'
+- 🎧 **Audio track 01** with Listening Ejercicio 1: listen, answer, then check the transcript — 20'
 - Connectors 1–10 — 10'
 - Record your 4 EIO Task 1 answers — 15'
 :::
@@ -308,14 +308,14 @@ You have the **transcripts only**, not the sentences to match. So train your ear
 - One EIE Task 1 email: write 30', revise 10' (Guía p.113) — 40'
 - Grade it with Manual p.131–133 — 15'
 - 🎧 One CA Task 1 + one Task 2 — 15'
-- 🎧 Tarea 3 practice set 1 (Listening chapter) — 10'
+- 🎧 **Audio track 03** (Tarea 3 · Set A) with Listening Ejercicio 3 — 10'
 - 🎧 Edelsa Transcripciones, Examen 1, Tarea 3: five-word routine — 15'
 - Grammar points 1–5 — 20'
 :::
 
 :::day Sat 7 Nov | Speaking + Listening
 - EIO Tasks 2–3: a photo + two role-plays, recorded; check with Manual p.134–136 — 40'
-- 🎧 Tarea 3 practice set 2 (Listening chapter) — 10'
+- 🎧 **Audio track 04** (Tarea 3 · Set B) with Listening Ejercicio 4 — 10'
 - 🎧 Edelsa Transcripciones, Exámenes 2–3, Tarea 3: five-word routine — 20'
 - 🎧 Tasks 4–6 drill: an answer for every item before it moves on — 15'
 - Grammar points 6–10 + connectors 11–20 — 20'
