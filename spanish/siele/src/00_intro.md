@@ -7,7 +7,7 @@
 🏋️ | **2 · Practice.** Exercises with answers, the Tareas 4–5 rescue kit, audio tracks 01–06.
 ✍️ | **3 · Writing workbook.** One full writing exam a day, with help that fades.
 🗣️ | **4 · Speaking book.** All 5 tareas with "how to answer" models, audio tracks 07–08.
-🔤 | **5 · Word & verb bank.** Phrases for every task, link words, 40 verbs conjugated.
+🔤 | **5 · Word & verb bank.** Phrases for every task, link words, 37 verbs conjugated.
 🗺️ | **0 · Start here.** One page: which material, when, and how.
 🧭 | **Lost?** Open the 7-day plan in "El SIELE" (the next chapter).
 :::

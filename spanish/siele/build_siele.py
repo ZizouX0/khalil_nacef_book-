@@ -42,7 +42,7 @@ BOOKS = {
         kick="Book 5 of 5 · word & verb bank", title="SIELE", sub="words & verbs",
         blurb="The link words that raise your marks, the phrases for every writing and speaking task, "
               "grammar on one page, and the verbs you need, conjugated, with the irregular forms in red.",
-        chapters=[("n1_nights.md", "ch-words"), ("w3_verbs.md", "ch-words")]),
+        chapters=[("w1_bank.md", "ch-words"), ("w3_verbs.md", "ch-words")]),
     "card": dict(
         src="src_card", out="SIELE_Survival_Card.pdf", footer="SIELE · survival card", plain=True,
         kick="", title="", sub="", blurb="", chapters=[("card1.md", "ch-card"), ("card2.md", "ch-card")]),
