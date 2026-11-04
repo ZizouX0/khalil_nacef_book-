@@ -300,3 +300,12 @@ blockquote{margin:3mm 0; padding:2mm 4mm; border-left:4px solid var(--c-mid); ba
 
 /* generic */
 .box{border:1.5px solid var(--line); border-radius:3mm; padding:2.5mm 4mm; margin:3mm 0}
+
+/* Memory kit: each "on one page" sheet and each later section starts a fresh page,
+   and the sheets are set a little tighter so one test fits one page. */
+.ch-memory{font-size:9.7pt}
+.ch-memory h2{break-before:page; margin-top:0}
+.ch-memory .opener + p + p + h2, .ch-memory .opener + p + h2{break-before:auto; margin-top:5mm}
+.ch-memory .card{padding:2mm 3.5mm 1mm}
+.ch-memory .golden ol>li{margin:1mm 0 1.4mm}
+.ch-memory .stat .n{font-size:18pt}
