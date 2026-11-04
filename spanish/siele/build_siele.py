@@ -43,6 +43,12 @@ BOOKS = {
         blurb="The link words that raise your marks, the phrases for every writing and speaking task, "
               "grammar on one page, and the verbs you need, conjugated, with the irregular forms in red.",
         chapters=[("w1_bank.md", "ch-words"), ("w3_verbs.md", "ch-words")]),
+    "phrases": dict(
+        src="src_pack", out="SIELE_Phrases_Always_Used.pdf", footer="SIELE · expressions that always get used", plain=True,
+        kick="", title="", sub="", blurb="", chapters=[("k2_phrases.md", "ch-card phrasesheet")]),
+    "tasks": dict(
+        src="src_pack", out="SIELE_6_New_Tasks.pdf", footer="SIELE · new writing & speaking tasks", plain=True,
+        kick="", title="", sub="", blurb="", chapters=[("k1_tasks.md", "ch-EIE")]),
     "card": dict(
         src="src_card", out="SIELE_Survival_Card.pdf", footer="SIELE · survival card", plain=True,
         kick="", title="", sub="", blurb="", chapters=[("card1.md", "ch-card"), ("card2.md", "ch-card")]),
