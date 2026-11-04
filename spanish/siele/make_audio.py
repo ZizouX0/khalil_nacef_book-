@@ -21,7 +21,15 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(HERE, "src", "03_CA.md")
 OUT = os.path.join(HERE, "audio")
 SR = 22050
-SLOW = 1.08  # A1-B1 tasks are read slowly and clearly
+# Speed calibrated on the 7 Edelsa exam recordings (Pistas 1-3), measured with an
+# energy VAD against the printed transcripts:
+#   Tarea 1 conversation  ~128 words/min, ~3.7 syllables/s, ~0.8-1 s between turns
+#   Tarea 3 monologues    ~151 words/min, ~4.6 syllables/s, ~25 s per person
+# Piper's default pace is ~170+ wpm, so every task is slowed to match.
+RATE = {"t1": 1.25, "t2": 1.20, "t3": 1.24, "num": 1.10, "q": 1.05, "narrator": 1.05}
+SENT_PAUSE = 0.45   # between sentences of one speaker
+TURN_PAUSE = 0.85   # between speakers in a conversation
+SLOW = RATE["narrator"]
 
 VOICES_DIR = sys.argv[1] if len(sys.argv) > 1 else os.environ.get("PIPER_VOICES", "voices")
 _cache = {}
@@ -34,11 +42,13 @@ def voice(name):
 
 
 # who speaks: (model, speaker id)
-NARRATOR = ("es_ES-sharvard-medium", 0)
+# The exam narrator is a woman (f0 ~185-205 Hz in all 7 Edelsa exams).
+NARRATOR = ("es_ES-sharvard-medium", 1)
 MEN = [("es_ES-davefx-medium", None), ("es_MX-ald-medium", None), ("es_ES-sharvard-medium", 0)]
-WOMEN = [("es_ES-sharvard-medium", 1), ("es_AR-daniela-high", None), ("es_MX-claude-high", None)]
-ADS = [WOMEN[2], MEN[1], WOMEN[1], MEN[0], WOMEN[0]]
+WOMEN = [("es_MX-claude-high", None), ("es_AR-daniela-high", None), ("es_ES-sharvard-medium", 1)]
+ADS = [WOMEN[0], MEN[1], WOMEN[1], MEN[0], MEN[2]]
 CAST = {"ANDRÉS": MEN[0], "MARTA": WOMEN[0]}
+END = "La tarea ha terminado. Ahora va a pasar a la siguiente tarea."
 
 
 def clean(t):
@@ -49,11 +59,14 @@ def clean(t):
     return re.sub(r"\s+", " ", t).strip()
 
 
-def say(text, who=NARRATOR, scale=SLOW):
+def say(text, who=NARRATOR, scale=SLOW, pause=SENT_PAUSE):
+    """Speak text; Piper yields one chunk per sentence, so pause between them."""
     model, spk = who
     cfg = SynthesisConfig(speaker_id=spk, length_scale=scale)
-    chunks = [c.audio_int16_array for c in voice(model).synthesize(clean(text), cfg)]
-    return np.concatenate(chunks + [silence(0.25)])
+    out = []
+    for c in voice(model).synthesize(clean(text), cfg):
+        out += [c.audio_int16_array, silence(pause)]
+    return np.concatenate(out[:-1] + [silence(0.25)])
 
 
 def silence(sec):
@@ -93,9 +106,11 @@ def instruction(exam_body):
     return clean(exam_body.strip().split("\n")[0])
 
 
-def twice(parts, label, who, gap_between=5, after=10, answer_prompt=None):
+def twice(parts, label, who, scale, gap_between=5, after=10, answer_prompt=None):
+    # In the exam the screen shows "Persona 1"; here the narrator says it, since
+    # you are practising from paper.
     seg = [silence(0.4), say(label), silence(0.6)]
-    body = say(parts, who)
+    body = say(parts, who, scale)
     seg += [body, silence(gap_between), body]
     if answer_prompt:
         seg += [silence(0.5), say(answer_prompt)]
@@ -108,21 +123,22 @@ def track_dialogue(instr, transcript):
     convo = []
     for l in lines:
         name, text = l.split(":", 1)
-        convo += [say(text, CAST.get(name.strip(), MEN[0])), silence(0.35)]
+        convo += [say(text, CAST.get(name.strip(), MEN[0]), RATE["t1"]), silence(TURN_PAUSE)]
     convo = np.concatenate(convo)
-    return [say(instr), beep(), silence(30), beep(), silence(0.6), convo, silence(10),
-            say("Ahora va a escuchar la conversación otra vez."), silence(0.6), convo, silence(30), say("Fin de la tarea.")]
+    # real exam: no announcement before the second play, just 10 s of silence
+    return [say("Prueba de comprensión auditiva. Tarea uno."), silence(0.8), say(instr), silence(30),
+            convo, silence(10), convo, silence(30), say(END)]
 
 
-def track_items(instr, transcript, pattern, label_word, voices_for):
+def track_items(instr, transcript, pattern, label_word, voices_for, task, scale):
     items = re.findall(pattern, transcript, flags=re.S)
-    seg = [say(instr), beep(), silence(30), beep(), silence(0.6)]
+    seg = [say(f"Prueba de comprensión auditiva. Tarea {task}."), silence(0.8), say(instr), silence(30)]
     for i, it in enumerate(items, 1):
         n, extra, text = it
         who = voices_for(i, extra)
         prompt = f"Conteste a la pregunta número {NUM[i] if i <= 10 else i}." if label_word == "Anuncio" else None
-        seg += twice(text, f"{label_word} {NUM[int(n)]}.", who, answer_prompt=prompt)
-    seg += [silence(20), say("Fin de la tarea.")]
+        seg += twice(text, f"{label_word} {NUM[int(n)]}.", who, scale, answer_prompt=prompt)
+    seg += [silence(20), say(END)]
     return seg
 
 
@@ -132,27 +148,28 @@ def track_numbers(instr, transcript):
     pool = MEN + WOMEN
     for i, (n, s) in enumerate(sents):
         who = pool[i % len(pool)]
-        body = say(s, who, 1.0)
+        body = say(s, who, RATE["num"])
         seg += [silence(0.4), say(f"Número {NUM[int(n)]}."), silence(0.5), body, silence(3), body, silence(8)]
     seg += [say("Fin del ejercicio.")]
     return seg
 
 
 def track_speaking_t1(eio_md):
-    """Speaking Tarea 1 simulator: each question twice, then a timed answer window between beeps."""
+    """Speaking Tarea 1 simulator, official rhythm: question once, 10 s to think,
+    then 15 s (Q1-2) or 30 s (Q3-4) to answer between beeps, then 5 s."""
     body = next(v for k, v in blocks(eio_md, "exam").items() if k.startswith("Tarea 1"))
     series = re.findall(r"\*\*(Serie \w)\*\*\s*\n((?:\s*\d+\..+\n?)+)", body)
     asker = WOMEN[0]  # standard Spain voice: T1 questions use standard Spanish
     seg = [say("Prueba de expresión e interacción orales. Tarea uno. Va a escuchar cuatro preguntas de carácter "
-               "personal. Escuche cada pregunta dos veces. Cuando oiga la señal, grabe su respuesta. "
-               "En las preguntas uno y dos tiene quince segundos. En las preguntas tres y cuatro, treinta segundos."),
-           silence(2)]
+               "personal. Después de cada pregunta tiene diez segundos para pensar. Cuando oiga la señal, "
+               "conteste. En las preguntas uno y dos tiene quince segundos. En las preguntas tres y cuatro, "
+               "treinta segundos."), silence(2)]
     for name, qs in series:
         seg += [say(name.replace("Serie", "Serie").replace(" A", " A.").replace(" B", " B.")), silence(1.5)]
         for i, q in enumerate(re.findall(r"^\s*\d+\.\s+(.+)$", qs, flags=re.M), 1):
-            qa = say(q.replace("pequeño/a", "pequeño"), asker, 1.0)
-            seg += [say(f"Pregunta {NUM[i]}."), silence(0.4), qa, silence(1.5), qa, silence(0.6),
-                    beep(), silence(15 if i <= 2 else 30), beep(), silence(2)]
+            qa = say(q.replace("pequeño/a", "pequeño"), asker, RATE["q"])
+            seg += [say(f"Pregunta {NUM[i]}."), silence(0.4), qa, silence(10),
+                    beep(), silence(15 if i <= 2 else 30), beep(), silence(5)]
         seg += [silence(2)]
     seg += [say("Fin de la tarea.")]
     return seg
@@ -181,12 +198,12 @@ def main():
               "01_Tarea1_conversacion")
     write_mp3(track_items(instruction(find(ex, "Ejercicio 2")), find(tr, "Ejercicio 2"),
                           r"\*\*Anuncio (\d+)\.\*\*()\s*(.+?)(?=\n\s*\n|\Z)", "Anuncio",
-                          lambda i, e: ADS[(i - 1) % len(ADS)]), "02_Tarea2_anuncios")
+                          lambda i, e: ADS[(i - 1) % len(ADS)], 2, RATE["t2"]), "02_Tarea2_anuncios")
     write_mp3(track_items(instruction(find(ex, "Ejercicio 3")), find(tr, "Ejercicio 3"),
-                          r"\*\*Persona (\d+) \((\w+)\):\*\*\s*(.+?)(?=\n\s*\n|\Z)", "Persona", gender),
+                          r"\*\*Persona (\d+) \((\w+)\):\*\*\s*(.+?)(?=\n\s*\n|\Z)", "Persona", gender, 3, RATE["t3"]),
               "03_Tarea3_setA_un_viaje")
     write_mp3(track_items(instruction(find(ex, "Ejercicio 4")), find(tr, "Ejercicio 4"),
-                          r"\*\*Persona (\d+) \((\w+)\):\*\*\s*(.+?)(?=\n\s*\n|\Z)", "Persona", gender),
+                          r"\*\*Persona (\d+) \((\w+)\):\*\*\s*(.+?)(?=\n\s*\n|\Z)", "Persona", gender, 3, RATE["t3"]),
               "04_Tarea3_setB_primer_dia")
     write_mp3(track_numbers(instruction(find(ex, "Ejercicio 5")), find(tr, "Ejercicio 5")),
               "05_numeros_horas_precios")

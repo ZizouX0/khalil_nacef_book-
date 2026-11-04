@@ -573,7 +573,7 @@ Model answers: change the [brackets] to fit your life. 15 s ≈ 2 short sentence
 - **Day 7 · Light:** Tarea 1 questions, one photo, one message; reread the templates. Then rest.
 :::
 
-Page numbers are **PDF** pages: the printed Manual number is one lower (PDF p.95 = printed p.94). You don't need the Manual's *Extensión digital*: **audio track 06** asks you the Tarea 1 questions and times your answers with beeps (15 / 15 / 30 / 30 s). For Modelo 0 and the Edelsa questions (Pistas 7–9), have someone read them to you.
+Page numbers are **PDF** pages: the printed Manual number is one lower (PDF p.95 = printed p.94). You don't need the Manual's *Extensión digital*: **audio track 06** asks you the Tarea 1 questions the way the exam does: each question **once**, then **10 s** to think, then your answer time between two beeps (15 / 15 / 30 / 30 s). In the recorded Edelsa exams each question is also heard once, followed by 30 s (Q1–2) or 45 s (Q3–4) of silence. For Modelo 0 and the Edelsa questions (Pistas 7–9), have someone read them to you.
 
 :::checklist Your book plan
 - Manual p.93–94: overview, the screen, timing quiz – 10 min
