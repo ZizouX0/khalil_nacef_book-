@@ -161,7 +161,10 @@ def find_pages(pdf, toc):
     for lvl, text, sid in toc:
         key = norm(html.unescape(text))[:40]
         for i in range(cur, n):
-            if key and key in pages[i]:
+            # a chapter title starts its page; elsewhere the same words may be
+            # quoted (the intro lists every chapter by name)
+            hay = pages[i][:200] if lvl == "1" else pages[i]
+            if key and key in hay:
                 pm[sid] = i + 1; cur = i; break
     return pm
 

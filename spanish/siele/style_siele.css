@@ -64,7 +64,10 @@ strong{color:#111}
 em{color:#24292f}
 a{color:var(--sec)}
 hr{border:none; border-top:1px solid var(--rule); margin:5mm 0}
-code{font-family:"DejaVu Sans Mono",monospace; font-size:.9em; background:#f3f4f6; padding:0 .8mm; border-radius:1mm}
+/* chapters use `inline code` for fill-in skeletons: show them as a tinted
+   template line in the body font rather than as monospace */
+code{font-family:inherit; font-size:1em; color:#1f2328; background:var(--tint); padding:.2mm 1mm; border-radius:1mm;
+  -webkit-box-decoration-break:clone; box-decoration-break:clone; line-height:1.6}
 pre{white-space:pre-wrap; background:#f6f8fa; border:1px solid var(--rule); padding:3mm; border-radius:1.5mm; font-size:9pt}
 
 /* ---- tables ---- */
