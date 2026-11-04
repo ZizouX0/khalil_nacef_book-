@@ -1,424 +1,377 @@
-# 🧭 The SIELE at a glance
+# 🧭 El SIELE · The exam at a glance
 
-> **Remember:** Page numbers are PDF pages. **Manual** = *Manual oficial para la preparación del SIELE* (2022, the most up to date), **Guía** = *Guía oficial para preparadores del SIELE* (2019), **Edelsa** = *Preparación al SIELE A1–C1* (2021). "Teacher's note" = my advice, not an official rule.
+:::stats
+4 × 250 | four tests, each scored on its own
+≈ 3 h | the SIELE Global, without breaks
+18 / 38 | correct = B1 in Reading and Listening
+0 | points lost for a wrong answer
+5 years | your result stays valid (it arrives within 3 weeks)
+:::
 
-## In 30 seconds
+:::golden The 5 rules that matter most
+1. **Answer every item.** A wrong answer costs nothing; a blank always scores 0. (Manual p.129)
+2. **Siguiente is a one-way door.** No going back to a task, except in Writing. (Manual p.129)
+3. **Mouse only.** The keyboard can change your answers. (Manual p.130)
+4. **Try every task, even B2–C1.** Guesses and short answers there add real points. (Manual p.12)
+5. **Bring the ID you registered with.** No ID, no exam. (Manual p.14)
+:::
 
-- There are four separate tests, each scored **0–250**: Reading (CL) 60 min, Listening (CA) 55 min, Writing (EIE) 50 min, Speaking (EIO) 15–20 min. The SIELE Global includes all four: about **3 hours**, 0–1000 points (Manual p.11).
-- The exam is **multilevel**. Tasks go from A1 up to C1, and you get a level **for each test**. Nobody passes or fails (Manual p.12; Guía p.146).
-- **Your target numbers** (Manual p.41, p.69, p.88, p.124):
-  - Reading and Listening: **10/38 correct = A2** and **18/38 = B1**.
-  - Speaking: **76 points = A2** and **125 = B1**.
-  - Writing: Task 1 at **band 2 = A2** and **band 3 = B1**.
-- **Wrong answers don't cost you points.** Answer everything and attempt every task (Manual p.129).
-- **You can't go back to a previous task**, except in Writing (Manual p.129).
-- Use the **mouse** to move around (Manual p.130). Use the on-screen **Teclado español** to type á, ñ and ¿ (Manual p.71).
-- Bring the **ID you registered with** and your exam email and password (Manual p.14).
-- Arrive 15 minutes early (Manual p.14), or 20 minutes according to Edelsa (Edelsa p.143).
-- You get your results within **3 weeks**, and they are valid for **5 years** (Manual p.14).
+:::big
+Ten for A2. Eighteen for B1.
+Guess the rest.
+:::
 
-## The exam in one table
+*Teacher's note* = my advice, not an official rule.
 
-| Test | Tasks (levels) | Items | Time | How graded | Max |
-|---|---|---|---|---|---|
-| Comprensión de lectura (CL) | 5: A1 · A2 · B1 · B2 · C1 | 38 | 60 min; you divide it | Automatic, 1 point per correct item, no penalty | 250 |
-| Comprensión auditiva (CA) | 6: A1 · A2 · B1 · B2 · B2–C1 · C1 | 38 | 55 min; the platform times each task | Automatic, same rules | 250 |
-| Expresión e interacción escritas (EIE) | 2: T1 A1–B1 · T2 B2–C1 | 2 texts (T1: 100–150 words; T2: you choose 1 of 2 options) | 50 min; you divide it | A SIELE rater marks Cohesión 22 %, Corrección 22 %, Alcance 22 %, Cumplimiento de la tarea 34 % | 250 (125 per task) |
-| Expresión e interacción orales (EIO) | 5: T1 A1–A2 · T2 A2 · T3 B1 · T4 B2 · T5 C1 | 5 recorded answers | 15–20 min; each task timed | A SIELE rater marks Uso de la lengua 66 % and Cumplimiento 34 %; all tasks count equally | 250 (50 per task) |
+## The 4 tests
 
-(Guía p.15, p.36, p.72, p.98, p.140, p.148–150; Manual p.12, p.19, p.43, p.71, p.79, p.93)
+| Test | Tasks | Items | Time | How it is graded |
+|---|---|---|---|---|
+| **Reading** · CL | 5 · A1 → C1 | 38 | 60 min, you split it | Computer: 1 point per correct item |
+| **Listening** · CA | 6 · A1 → C1 | 38 | 55 min, each task timed | Computer: same rules |
+| **Writing** · EIE | 2 · T1 A1–B1, T2 B2–C1 | T1: 100–150 words · T2: 1 of 2 options | 50 min, you split it | A rater: Cumplimiento 34 %; Cohesión, Corrección, Alcance 22 % each |
+| **Speaking** · EIO | 5 · A1 → C1 | 5 recorded answers | 15–20 min, each task timed | A rater: Uso de la lengua 66 %, Cumplimiento 34 % |
 
-The books disagree on the length of EIE Task 2:
-- 250–300 words in the Guía (p.150) and Edelsa (p.140).
-- 200–250 words in the summary tables of the Manual (p.71) and the Guía (p.80).
+(Guía p.148–150)
 
-| Modality | Tests | Duration | You receive |
-|---|---|---|---|
-| **SIELE Global** | CL + CA + EIE + EIO | ≈ 3 h, not counting breaks | **Certificado**: points and level for each test, plus a total out of 1000 |
-| S1 | CL + CA | 60 + 55 min | **Informe**: points and level for each test |
-| S2 | CL + EIE | 60 + 50 min | Informe |
-| S3 | CA + EIO | 55 + 15–20 min | Informe |
-| S4 | EIO | 15–20 min | Informe |
-| S5 | EIE + EIO | 50 + 15–20 min | Informe |
+:::remember
+The clock counts down: **60 → 55 → 50 → 20**.
+Read → listen → write → speak: the official order (1 CL, 2 CA, 3 EIE, 4 EIO). Ask your centre for the order on the day.
+:::
 
-(Manual p.11–12, p.14; Guía p.15–16, p.145)
+## Your target
 
-> **Remember:** The Manual 2022 and Edelsa (p.6) list **six** modalities. The Guía 2019 lists only five, with no S5 (p.15, p.153), even though its own table on p.16 already shows EIE + EIO. Go with the Manual. The **remote** exam, taken on your own computer, appears only in the Manual (p.11, p.13).
+Every test gives its own level. Learn your B1 code:
 
-## Scores → levels
+:::mnemonic 18 · 18 · 3 · 125
+📖 | Reading | 18 correct = B1 · 10 = A2
+🎧 | Listening | 18 correct = B1 · 10 = A2
+✍️ | Writing | Task 1 at band 3 = B1 · band 2 = A2
+🗣️ | Speaking | 125 points (half of 250) = B1 · 76 = A2
+:::
 
-The Guía 2019, Manual 2022 and Edelsa 2021 all give **the same cut-offs**. The only difference is that the Manual describes Writing in bands instead of points.
+:::scale Reading (CL) · out of 38
+A1 | 5–9 correct · 33+ points
+A2 | 10–17 correct · 66+ points | safe
+B1 | 18–26 correct · 118+ points | target
+B2 | 27–32 correct · 178+ points
+C1 | 33–38 correct · 217+ points
+:::
 
-**Comprensión de lectura** (Manual p.41; Guía p.36, p.146; Edelsa p.138)
+:::scale Listening (CA) · out of 38
+A1 | 5–9 correct · 33+ points
+A2 | 10–17 correct · 66+ points | safe
+B1 | 18–26 correct · 112+ points | target
+B2 | 27–32 correct · 164+ points
+C1 | 33–38 correct · 211+ points
+:::
 
-| Level | Correct /38 | Points /250 |
+:::remember
+Your Listening mock: **18/38**, exactly on the B1 line.
+Tasks 1–3 hold 18 items (5 + 5 + 8). Two or three more from **Tarea 3** make B1 safe (teacher's note).
+:::
+
+:::scale Writing (EIE) · out of 250
+A1 | 34+ points · Task 1 at band 1
+A2 | 69+ points · Task 1 at band 2 | safe
+B1 | 104+ points · Task 1 at band 3+ | target
+B2 | 167+ points · plus Task 2 at band 4
+C1 | 215+ points · plus Task 2 at band 5
+:::
+
+:::scale Speaking (EIO) · out of 250
+A1 | 40+ points
+A2 | 76+ points | safe
+B1 | 125+ points | target
+B2 | 176+ points
+C1 | 215+ points
+:::
+
+Below A1 = "Inferior a A1". All three books agree.
+
+:::flow Six modalities
+Global | all 4 tests · ≈ 3 h · **Certificado**: level per test + total /1000
+S1 | CL + CA · **Informe** with points and level per test
+S2 | CL + EIE
+S3 | CA + EIO
+S4 | EIO only
+S5 | EIE + EIO
+:::
+
+The Guía 2019 has no S5: go with the Manual. A **remote** exam at home is also possible (Manual p.13).
+
+## How the exam works
+
+:::flow The ladder · one step per level
+A1 | CL T1 · CA T1 · EIO T1 · Writing Task 1 starts here
+A2 | CL T2 · CA T2 · EIO T2
+B1 | CL T3 · CA T3 · EIO T3 · Writing Task 1 ends here ← your target
+B2 | CL T4 · CA T4 · EIO T4 · Writing Task 2 (B2–C1)
+C1 | CL T5 · CA T5–T6 · EIO T5
+:::
+
+Each step is harder. Too hard? Move on: the next task may suit you better (Guía p.38).
+Nobody fails: you can get B1 in Reading and A2 in Speaking (Guía p.145).
+
+:::big
+Blank = 0. Guess = a free chance.
+:::
+
+:::tip Why the top steps pay
+- **Reading & Listening:** pure guessing gives ≈ 5–6 correct in CL T4–5 and 7–8 in CA T4–6. Almost the gap from 10 to 18 (teacher's note).
+- **Speaking:** each task = 50 points. Band 2 in Task 4 or 5 = 20 points. Never stay silent (Guía p.140).
+- **Writing:** band 3 in Task 1 ≈ 104.5; B1 starts at 104, so one weak category = A2. Cover every *pauta* (≈ +10), then add a short Task 2 (≈ +12–29) (Guía p.99).
+:::
+
+## Exam day
+
+:::icons Rules & logistics
+🪪 | The ID you registered with (Manual p.14)
+📧 | Your registration email + password
+⏰ | Arrive 15–20 min early
+😴 | Sleep 8 hours, eat before you go
+💧 | Water: the Global lasts ≈ 3 h
+📝 | 2 sheets + a pen. Notes are not marked
+⌨️ | Type straight on the computer, no paper draft
+🚫 | No dictionary, no help
+🖱️ | Mouse only
+🎧 | Sound check (CA), mic check (EIO). Problem? Click No
+⏱️ | The clock never stops inside a test. Pause between tests
+⏭️ | Siguiente skips a task. Blank item? You must confirm
+:::
+
+| Test | Go back? | Watch out |
 |---|---|---|
-| < A1 | 0–4 | 0–32.99 |
-| A1 | 5–9 | 33–65.99 |
-| **A2** | **10–17** | **66–117.99** |
-| **B1** | **18–26** | **118–177.99** |
-| B2 | 27–32 | 178–216.99 |
-| C1 | 33–38 | 217–250 |
+| CL | **No** | Tasks 1 and 4: one screen per text. Clock top right |
+| CA | **No** | Each audio plays twice by itself. It moves on 30 s after the second play |
+| EIE | **Yes** | Move freely for 50 min. Word counter. Task 2: choose within 1 min |
+| EIO | **No** | Tasks 1 and 4: play each question up to twice. Recording starts by itself |
 
-**Comprensión auditiva** (Manual p.69; Guía p.72, p.146; Edelsa p.139)
+(Manual p.19, p.43, p.71, p.93)
 
-| Level | Correct /38 | Points /250 |
-|---|---|---|
-| < A1 | 0–4 | 0–32.99 |
-| A1 | 5–9 | 33–65.99 |
-| **A2** | **10–17** | **66–111.99** |
-| **B1** | **18–26** | **112–163.99** |
-| B2 | 27–32 | 164–210.99 |
-| C1 | 33–38 | 211–250 |
+:::tip Taking it remotely?
+Camera, internet, a quiet room, your phone, the *Navegador SIELE*. **48 h before:** equipment check + face and ID photos. **30 min before:** room photos + WhatsApp video call (Manual p.13–14).
+:::
 
-> **Tip:** Remember **10** and **18**. In both tests, Tasks 1–3 contain exactly 18 items (5 + 5 + 8). So for B1 you either get all your-level tasks right, or you make up for a few mistakes with points from Tasks 4–6. Your practice score in Listening was 18/38, which is exactly on the B1 line. Two or three more points from Tarea 3 would make your B1 safe (teacher's note).
+## What topics come up at A2–B1
 
-**Expresión e interacción escritas** (points: Guía p.99, p.147; Edelsa p.140 · bands: Manual p.88)
+A1–B1 tasks come from **personal** and **public** life (Guía p.148–150).
 
-| Level | Points /250 | What you need |
-|---|---|---|
-| < A1 | 0–33.99 | — |
-| A1 | 34–68.99 | Task 1 at band 1 |
-| **A2** | **69–103.99** | **Task 1 at band 2** |
-| **B1** | **104–166.99** | **Task 1 at band 3 or higher** |
-| B2 | 167–214.99 | Task 1 band 3+ and Task 2 band 4 |
-| C1 | 215–250 | Task 1 band 3+ and Task 2 band 5 |
+:::checklist A2 · can you handle these?
+- Short messages, ads, notices, programmes (CL T1)
+- A personal email: bookings, times, payment (CL T2)
+- An informal chat (CA T1), radio ads and news (CA T2)
+- Personal questions, a photo to describe (EIO T1–T2)
+- Daily life, family, home, shopping, leisure, travel, services
+- Prices, times and dates, the town, transport, food, jobs
+- Present tense, *hay*, *gustar*, *ir a* + infinitive, the three past tenses
+:::
 
-**Expresión e interacción orales** (Manual p.124; Guía p.140, p.147; Edelsa p.141–142)
+:::checklist B1 · can you handle these?
+- Three people, same kind of experience (CL T3)
+- Eight short anecdotes on one topic (CA T3) ← your priority
+- A 100–150-word reply: inform, describe, narrate (EIE T1)
+- Two role-plays, one personal, one public (EIO T3)
+- Experiences, relationships, housing, society, travel, work
+- All past tenses (also *pluscuamperfecto*), pronouns, relatives, *aunque*
+- Ask politely (*¿Podría…?*), opinion + reason (*Creo que… porque…*), advice (*Te recomiendo…*), a problem (*El problema es que…*)
+:::
 
-| Level | < A1 | A1 | **A2** | **B1** | B2 | C1 |
-|---|---|---|---|---|---|---|
-| Points | 0–39.99 | 40–75.99 | **76–124.99** | **125–175.99** | 176–214.99 | 215–250 |
+:::tip Story · likes · plan
+The CL Task 2 email always tells an experience, a like and a plan (Guía p.39). Master all three for reading **and** writing.
+:::
 
-Each category is marked in bands from 0 to 5; the full scales are in Manual p.139–143. The books show two different ways to reach B1 in Speaking:
-- **Manual:** very strong Tasks 1–3 alone add up to 126.6 points (p.124).
-- **Guía:** weaker Tasks 1–3 plus band 2 in Tasks 4 and 5 add up to 127 points. Here 40 of the points come from Tasks 4–5 (p.141).
+## Your toolkit
 
-## How the multilevel design works
+### The 20 connectors
 
-| Test | Your zone (A1–B1) | Bonus zone (B2–C1) |
-|---|---|---|
-| CL | T1 · T2 · T3 | T4 · T5 |
-| CA | T1 · T2 · T3 | T4 · T5 · T6 |
-| EIE | T1 (A1–B1) | T2 |
-| EIO | T1 (A1–A2) · T2 (A2) · T3 (B1) | T4 · T5 |
+The writing scale counts them: *y, pero, porque, por eso* = band 2 (A2); *primero, luego, además, aunque, así que…* = band 3 (B1) (Manual p.139).
 
-(Manual p.12; Guía p.150)
+:::mnemonic PLATA
+P | Primero | start your story
+L | Luego | then (or *después*)
+A | Además | add one more idea
+T | También | also
+A | Aunque · Así que | contrast · result
+:::
 
-Each task is harder than the one before. To reach a level, you have to handle all the tasks up to that level. The Manual also recommends attempting higher-level tasks (Manual p.12).
+Connectors are *plata* (money): each one earns points.
 
-**Why you never "fail"**
-- Your points place you between A1 and C1, or "Inferior a A1", **in each test separately** (Guía p.146–147). A single certificate can show B1 for Reading and A2 for Speaking (Guía p.145).
-- Tasks at A1–B1 use neutral "español internacional". In Writing and Speaking, any variety of Spanish is accepted (Guía p.14).
+:::phrases Add · contrast · cause · result
+también | also | B1
+además | in addition | B1
+no solo… sino también | not only… but also | B2
+pero | but | A2
+aunque | although | B1
+sin embargo | however | B1
+a pesar de | despite | B2
+porque | because | A2
+como | since | start of sentence
+por eso | that's why | A2
+así que | so | B1
+por lo tanto | therefore | B2
+:::
 
-**Why you should attempt everything and guess**
-- Wrong answers don't remove points (Guía p.36, p.72). As Edelsa puts it: *"Si no sabes la respuesta, selecciona una al azar"* (Edelsa p.139).
-- If a task is too hard, move on. The next one may suit you better (Guía p.38).
-- **Teacher's maths:** pure guessing gets you about 5–6 correct answers in CL Tasks 4–5 and about 7–8 in CA Tasks 4–6. That is nearly the whole gap between 10 and 18. See "Score boosters" for how to guess without running out of time.
-- **Speaking:** every task is worth 50 points (Guía p.140). Band 2 in the B2 or C1 task gives you **20 points** for that task (Guía p.140–141). Never stay silent.
-- **Writing:** Task 1 at band 3 in all four categories gives about **104.5 points**, and B1 starts at **104** (my calculation from Guía p.98). If one category slips to band 2, you drop to A2. Protect your B1 in two ways:
-  1. Cover **every** point in the instructions. This raises Cumplimiento to band 4, worth about +10 points (Guía p.98).
-  2. Add a short Task 2 on the right topic. At band 2–3 it gives about 12–29 extra points (Guía p.99).
+:::phrases Order · organise · finish
+primero | first | B1
+para empezar | to begin with | B2
+luego | then | B1
+después | afterwards | B1
+por otra parte | on the other hand | B2
+en cuanto a | as for | B2
+finalmente | finally | B2
+en resumen | in short | to finish
+:::
 
-  Still, Edelsa advises A1–B1 candidates to give Task 1 all the time it needs (Edelsa p.140). Finish and revise it first.
+:::levelup Same trip, two levels
+*Visitamos la catedral y paseamos por el río. Hacía calor, pero fue genial. Comimos mucho porque la comida era muy buena.*
+---
+*==Primero== visitamos la catedral y ==luego== paseamos por el río. ==Aunque== hacía calor, fue genial. ==Además==, la comida era buenísima, ==así que== comimos muchísimo.*
+:::
 
-## Exam day: rules & logistics
+:::remember
+*a pesar **del** frío* (+ noun) · *a pesar de que llovía* (+ sentence).
+*Como* ("since") goes first: *Como no tenía coche, fui en tren.*
+:::
 
-**Before you go**
-- Bring the **official ID you registered with**; without it you cannot take the exam (Manual p.14). Also bring your registration email and password.
-- Sleep 8 hours and eat before you go (Manual p.14).
-- Bring water: the Global lasts 3 hours, not counting breaks (Manual p.14).
-- **If you take it remotely** (Manual p.13–14):
-  - You need a computer with a camera and internet, a quiet room, and your phone nearby.
-  - Install the *Navegador SIELE*.
-  - **48 hours before:** do the equipment check and send your face and ID photos.
-  - **30 minutes before:** send room photos and join a WhatsApp video call with the centre.
+### Ten grammar points that decide A2 vs B1
 
-**In the room**
-- You get **two sheets of paper and a pen**. What you write there is not marked (Edelsa p.143; Manual p.72).
-- Type your texts directly on the computer; don't write them on paper first (Manual p.75).
-- **No dictionary** or other help is allowed (Edelsa p.143).
-- **Use only the mouse**: the keyboard can change your answers (Manual p.130).
-- There is a sound check before CA and a sound + recording check before EIO (Manual p.43, p.94). If anything is wrong, click **No** and the staff will help (Guía p.78).
-- Once a test starts, the clock can't be stopped. You can take a pause **between** tests (Manual p.130).
-- In the official specs the tests are numbered 1 CL, 2 CA, 3 EIE, 4 EIO (Guía p.148–150). Ask your centre for the order on the day (teacher's note).
-- To finish a test you must go through every task. Press **Siguiente** to skip one (Manual p.130).
-- In CL and CA, if you leave an item blank, the system asks you to confirm before moving on (Guía p.38, p.73).
+:::phrases The 10 points (Manual p.139)
+Mi piso es pequeño, pero está en el centro y hay un súper. | 1 · ser / estar / hay | describe
+Hoy he comido con Ana. Ayer fui al cine. De pequeño vivía en el campo. | 2 · the three past tenses | tell the past
+Este verano voy a viajar a Perú. Mañana lloverá. | 3 · ir a + infinitive / futuro | plans
+Me encantan las series. —A mí también. | 4 · gustar-type verbs | likes
+El tren es más cómodo que el autobús. | 5 · comparatives | compare
+Ven el sábado y trae la guitarra. No llegues tarde. | 6 · imperative | advise, invite
+Espero que estés bien. Cuando llegues, llámame. | 7 · subjunctive in set phrases | B1 bonus
+Gracias por tu correo. Te escribo para invitarte. | 8 · por / para | thank, purpose
+¿El libro? Te lo devuelvo mañana. | 9 · object pronouns | don't repeat
+Tengo que trabajar. Acabo de llegar. | 10 · verb + infinitive | must, just did
+:::
 
-**Buttons and time, test by test**
+### Keyboard & accents
 
-| Test | Can you go back to a previous task? | Inside a task | When time runs out |
-|---|---|---|---|
-| CL | **No.** *Siguiente* is final | Tasks 1 and 4 have one screen per text, with *Anterior/Siguiente* between them. Answer in any order. The 60-min clock is at the top right | The test ends; blank items score 0 |
-| CA | **No** | Each audio plays twice automatically. You can skip the second play. Unused time is lost | It moves on 30 s after the second play |
-| EIE | **Yes.** *Anterior/Siguiente* work for all 50 min, and your text is saved | Word counter and *Teclado español*. In Task 2, choose an option within 1 min or the system chooses for you | The test ends, so finish Task 1 early (teacher's note) |
-| EIO | **No.** *Siguiente* is final | In Tasks 1 and 4 you can play each question up to twice. Recording starts automatically; *Terminar grabación* stops it | Recording stops, and you can't listen back |
-
-(Manual p.19, p.43, p.71, p.93; Guía p.37, p.73, p.78, p.80, p.115, p.126; Edelsa p.138–141)
-
-## What topics and functions to expect at A2 and B1
-
-A1–B1 tasks come mainly from the **personal** and **public** *ámbitos*. Some work topics appear at B1 (CA T3). Educational and professional texts are mostly B2 and above (Guía p.148–150).
-
-### A2 checklist
-
-**Text types** (Guía p.75, p.148–150)
-- [ ] Short messages, emails, ads, notices and activity programmes (CL T1).
-- [ ] A personal email about bookings, timetables, deadlines or payment (CL T2).
-- [ ] An informal conversation (CA T1).
-- [ ] Radio ads and news about shops, travel, courses, renting, tours (CA T2).
-- [ ] Answering personal questions and describing a photo (EIO T1–T2).
-
-**Topics** (Manual p.20, p.24, p.44, p.48, p.95, p.101)
-- [ ] daily life
-- [ ] family and friends
-- [ ] home
-- [ ] shopping
-- [ ] leisure and culture (shows, exhibitions, times of films and concerts)
-- [ ] travel and transport
-- [ ] services
-
-**Vocabulary** (Guía p.39, p.75)
-- [ ] numbers and prices
-- [ ] times, days, months
-- [ ] rooms of the house
-- [ ] places in town
-- [ ] transport
-- [ ] shops
-- [ ] food and restaurants
-- [ ] jobs
-- [ ] family
-
-**Grammar to recognise** (Guía p.39, p.75)
-- [ ] present tense, regular and irregular
-- [ ] *hay*, *gustar*
-- [ ] *poder / querer / pensar* + infinitive
-- [ ] perfecto, indefinido, imperfecto
-- [ ] *ir a* + infinitive
-- [ ] possessives and demonstratives
-- [ ] *y, pero, porque*
-
-**Functions** (Manual p.140; Guía p.13, p.111)
-- [ ] Give personal information: *Me llamo… Vivo en… Trabajo en…*
-- [ ] Describe people and places: *Es… Está… Hay…*
-- [ ] Talk about routines and likes: *Normalmente… Me encanta… Prefiero…*
-- [ ] Tell a simple past experience: *El verano pasado fui a… Fue genial.*
-- [ ] Propose a plan, accept or refuse: *¿Quedamos el sábado? Lo siento, no puedo.*
-- [ ] Ask for information: *¿A qué hora…? ¿Cuánto cuesta…?*
-- [ ] Start and end an email: *Hola, ¿qué tal? / Un abrazo / Estimado/a… / Saludos cordiales*
-
-> **Tip:** The email in CL Task 2 always tells an experience, expresses likes and proposes a plan (Guía p.39). These three functions are worth mastering, for reading and for writing.
-
-### B1 checklist
-
-**Text types** (Guía p.40, p.148–150)
-- [ ] Three short texts by people describing the same kind of experience (travel, hobbies, pets), plus travel tips, biographies and job offers (CL T3).
-- [ ] Eight informal anecdotes on one topic (CA T3).
-- [ ] A 100–150-word reply to an email or forum post that informs, describes and narrates (EIE T1).
-- [ ] Two role-plays, one personal and one public: asking for and giving information (EIO T3).
-
-**Topics** (Manual p.28, p.52, p.73, p.107)
-- [ ] experiences
-- [ ] relationships
-- [ ] services
-- [ ] housing
-- [ ] society
-- [ ] travel and accommodation
-- [ ] work
-- [ ] leisure
-
-**Grammar to recognise** (Guía p.40, p.76)
-- [ ] all past tenses, including the pluscuamperfecto
-- [ ] pronouns
-- [ ] relative clauses
-- [ ] *aunque*
-
-**What the writing scale rewards at band 3** (Manual p.139)
-- [ ] *ser/estar*
-- [ ] the imperative
-- [ ] irregular presents
-- [ ] basic past tenses
-- [ ] common verb periphrases
-
-**Functions** (Manual p.132, p.140; Guía p.13, p.147)
-- [ ] Ask for information politely: *Me gustaría saber… ¿Podría…?*
-- [ ] Give an opinion and justify it: *Creo que… porque…*
-- [ ] Express wishes: *Me gustaría… Espero que…*
-- [ ] Give advice: *Te recomiendo…*
-- [ ] Tell an anecdote: *De repente… Al final…*
-- [ ] Explain a problem: *El problema es que…*
-- [ ] Talk about films, books and music.
-
-## Core toolkit for A2–B1
-
-### 1. The 20 connectors
-
-The writing scale lists connectors for each band (Manual p.139; Guía p.111):
-- **Band 2 (A2):** *y, pero, porque, por eso*.
-- **Band 3 (B1):** *primero, luego, después, también, entonces, porque, así que, además, aunque, sin embargo*, plus *donde, cuando* and *creo que*.
-- **Band 4:** *a pesar de, por lo tanto, no solo… sino también, para empezar, finalmente, por otra parte, en cuanto a*.
-
-Connectors marked * are teacher's notes.
-
-| Function | Connectors | Mini-example |
-|---|---|---|
-| Adding | también · además · no solo… sino también | *Además, el hotel tiene piscina.* |
-| Contrasting | pero · aunque · sin embargo · a pesar de | *Aunque llovía, salimos.* |
-| Cause | porque · como* | *Como no tenía coche, fui en tren.* |
-| Consequence | por eso · así que · por lo tanto | *Estaba cansado, así que me quedé en casa.* |
-| Sequencing | primero · para empezar · luego · después | *Primero visitamos el museo y después comimos.* |
-| Organising & concluding | por otra parte · en cuanto a · finalmente · en resumen* | *En resumen, te lo recomiendo.* |
-
-> **Remember:**
-> - Use *a pesar de* + noun (*a pesar del frío*), but *a pesar de que* + a full sentence.
-> - *Como* (meaning "since") goes at the **start** of the sentence.
-
-### 2. Ten grammar points that decide A2 vs B1
-
-1. **ser / estar / hay**: *Mi piso es pequeño, pero está en el centro y hay un súper al lado.* (Manual p.139)
-2. **perfecto / indefinido / imperfecto**: *Hoy he comido con Ana. Ayer fui al cine. De pequeño vivía en el campo.* (Guía p.39)
-3. **ir a / futuro**: *Este verano voy a viajar a Perú. Mañana lloverá.* (Guía p.39, p.112)
-4. **gustar-type verbs**: *Me encantan las series. —A mí también.* (Guía p.39)
-5. **comparatives**: *El tren es más cómodo que el autobús, pero menos rápido que el avión.* (Manual p.139)
-6. **imperative for advice**: *Ven el sábado y trae la guitarra. No llegues tarde.* (Manual p.139)
-7. **present subjunctive in set phrases**: *Espero que estés bien. Quiero que vengas. Es importante que reserves pronto. Cuando llegues, llámame.* (Manual p.139, band 4: a bonus at B1)
-8. **por / para***: *Gracias por tu correo. Te escribo para invitarte.*
-9. **object pronouns**: *¿El libro? Te lo devuelvo mañana. A Marta le encanta bailar.* (Manual p.139; Guía p.40)
-10. **verb + infinitive phrases**: *Tengo que trabajar. ¿Puedes ayudarme? Acabo de llegar.* (Guía p.39)
-
-### 3. Keyboard & accents
-
-- **In the exam:** the **Teclado español** button gives you Á á É é Í í Ó ó Ú ú Ü ü Ñ ñ ¡ ¿ (Manual p.71). Practise with the demo on siele.org (Manual p.13). Ask your centre whether the physical keyboard is Spanish (Edelsa p.141).
-- **Spanish keyboard** (teacher's note):
-  - **ñ** has its own key, to the right of L.
-  - For an accent, press **´** (to the right of Ñ), then the vowel.
-  - **¿** is Shift + the **¡** key.
-- **Most important accents** (teacher's note; spelling counts in Corrección, Manual p.139):
-  - *qué, cómo, dónde, cuándo* in questions
-  - *llegué, comí, habló* (but *fue* and *vio* have no accent)
-  - words ending in *-ción*
-  - *también, más, está*
-  - *tú/él/mí/sí*
-- Spanish questions and exclamations need opening marks: *¿…?* and *¡…!*
+:::tip Type Spanish fast
+- **In the exam:** the **Teclado español** button gives á é í ó ú ü ñ ¡ ¿ (Manual p.71). Try the demo on siele.org.
+- **Spanish keyboard:** **ñ** is right of L. Accent = **´** (right of Ñ), then the vowel. **¿** = Shift + **¡**.
+- **Accents that cost points:** *qué, cómo, dónde, cuándo* · *llegué, comí, habló* (but *fue, vio*) · *-ción* · *también, más, está* · *tú, él, mí, sí*.
+- Open every question and exclamation: *¿…?* *¡…!*
+:::
 
 ## Score boosters
 
-Twelve habits that cost little effort on the day and win a lot of points.
+2 for everything · 3 for eyes and ears · 4 for your pen · 3 for your voice.
 
-**All tests**
-1. **Guess everything.** Wrong answers cost nothing (Guía p.36, p.72; Edelsa p.139).
-   - Reading: keep the last 3 min to fill every blank before the 60 minutes end (Guía p.38).
-   - Listening: click an answer for every item before the system moves on, 30 s after the second play (Guía p.78).
-2. **Plan your time in Reading.** The official split for doing every task is 10 / 10 / 12 / 14 / 14 min (Guía p.41). Your version (teacher's note): 10 / 12 / 18 min for Tasks 1–3, 15 min for Tasks 4–5, and 5 min to check and guess.
+:::golden 12 boosters
+1. **Guess everything.** Reading: keep 3 min at the end to fill blanks. Listening: click before it moves on (Guía p.38).
+2. **Split your 60 Reading minutes.** Yours: 10 / 12 / 18 for T1–3, 15 for T4–5, 5 to check and guess (Guía p.41).
+3. **Read the questions before the audio.** CA T1: find the 3 options that fit each gap. CA T3: read all 11 sentences (Manual p.43).
+4. **Always listen twice.** Unused time is lost anyway (Guía p.78).
+5. **Choose by meaning, not by matching words.** Distractors reuse words from the text (Manual p.129).
+6. **Never skip a *pauta*.** Cumplimiento = 34 %. Number them on paper and tick each one (Guía p.111).
+7. **Reuse openings and closings.** *Hola, Marta: … Un abrazo* · *Estimado/a señor/a: … Saludos cordiales* · *Te escribo para…*
+8. **Plant 4 B1 connectors on purpose.** Four different ones per text (Manual p.139).
+9. **Revise in a fixed order.** *Pautas* → connectors → grammar → vocabulary → accents ñ ¿ ¡ (Guía p.113).
+10. **Record yourself and listen back.** Time every answer (Edelsa p.143).
+11. **Understand the question before you record.** A replay after you start eats your time. Develop your answers (Guía p.143).
+12. **Pick your topic fast.** In EIE T2 and EIO T2–5 the system picks when the timer ends (Manual p.71).
+:::
 
-**Reading & Listening**
+## Your 7-day plan
 
-3. **Read before you listen.** Use the reading time to study the questions and options and predict the audio (Manual p.43).
-   - CA Task 1: for each gap, find the 3 options that could fit (Guía p.75).
-   - CA Task 3: read all 11 sentences in the 30 s you get (Guía p.76, p.164).
-4. **Always listen twice.** Unused time is lost anyway (Guía p.78), so use the second listening to check (Edelsa p.139).
-5. **Choose by meaning, not by matching words.** Distractors reuse words from the text (Manual p.129). Questions follow the order of the text, except in CL Task 3 (Manual p.28, p.129).
+About 2 hours a day. **Listening every day**, extra Tarea 3.
 
-**Writing**
+:::steps Tarea 3 in 4 steps
+1. **Read** the 11 sentences in the 30 s; catch one key word in each. Three match nobody (Guía p.164).
+2. **Decide** while that person speaks. Later speakers won't help.
+3. **Listen for** past tenses, *pero / porque / aunque* and pronouns.
+4. **Confirm** on the second play. Still unsure? Guess.
+:::
 
-6. **Never skip a *pauta*.** Cumplimiento is 34 % of the mark (Manual p.72), and every point and sub-point is checked (Guía p.111). Number the *pautas* on your paper and tick each one off as you cover it (teacher's note).
-7. **Reuse ready-made openings and closings** (Guía p.111):
-   - informal: *Hola, Marta: … Un abrazo.*
-   - formal: *Estimado/a señor/a: … Saludos cordiales.*
-   - a first line for any message: *Te escribo para…* (teacher's note)
-8. **Put B1 connectors in on purpose:** at least four different band-3 connectors per text (Manual p.139; the number is a teacher's note).
-9. **Revise in a fixed order** (Guía p.113): points covered → connectors → grammar and spelling → vocabulary. Finish with one last check only for accents, ñ, ¿ and ¡, using *Teclado español* (Manual p.71). The word count is only a guide (Manual p.72), but don't be too short or too long (Edelsa p.141).
+:::tip How to use Edelsa Transcripciones
+You have the **transcripts only**, not the sentences to match. So train your ear; don't look for a score.
+1. A text-to-speech app or a friend reads it. Don't look.
+2. After each speaker, write their **main point in five words**.
+3. Read the transcript and check what you missed.
+:::
 
-**Speaking**
+:::day Thu 5 Nov | The exam + Reading + Listening
+- Read this chapter, tick the checklists — 20'
+- CL Tasks 1–3, timed — 40'
+- 🎧 Tarea 3 explained and solved, Manual p.52–54 — 15'
+- 🎧 Manual p.55 (audio: Extensión digital): listen, then check the transcript — 20'
+- Connectors 1–10 — 10'
+- Record your 4 EIO Task 1 answers — 15'
+:::
 
-10. **Record yourself and listen back** every time you practise (Edelsa p.143). Time your answers (Guía p.143).
-11. **Understand the question before you record.** If you replay it after you start, the replay eats your answer time (Guía p.143; Edelsa p.142). Use the Task 2 preparation time to note your points and key words (Guía p.143). Develop your answers: a fuller correct answer can score more (Manual p.96).
-12. **Pick the topic you like, and pick fast.** In EIE Task 2 and EIO Tasks 2–5, the system picks for you when the timer runs out (Guía p.143; Manual p.71).
+:::day Fri 6 Nov | Writing + Listening
+- One EIE Task 1 email: write 30', revise 10' (Guía p.113) — 40'
+- Grade it with Manual p.131–133 — 15'
+- 🎧 One CA Task 1 + one Task 2 — 15'
+- 🎧 Tarea 3 practice set 1 (Listening chapter) — 10'
+- 🎧 Edelsa Transcripciones, Examen 1, Tarea 3: five-word routine — 15'
+- Grammar points 1–5 — 20'
+:::
 
-## Last 7 days plan
+:::day Sat 7 Nov | Speaking + Listening
+- EIO Tasks 2–3: a photo + two role-plays, recorded; check with Manual p.134–136 — 40'
+- 🎧 Tarea 3 practice set 2 (Listening chapter) — 10'
+- 🎧 Edelsa Transcripciones, Exámenes 2–3, Tarea 3: five-word routine — 20'
+- 🎧 Tasks 4–6 drill: an answer for every item before it moves on — 15'
+- Grammar points 6–10 + connectors 11–20 — 20'
+- Remote exam? Do the 48-hour checks today
+:::
 
-Plan on about 2 hours a day. Sunday is a longer dress rehearsal. **Listening gets 30–45 minutes every day**, with extra Tarea 3, because your 18/38 sits exactly on the B1 line. Each test chapter's "book practice plan" gives the exact pages.
+:::day Sun 8 Nov | Full Modelo 0, timed (≈ 3 h 15 with breaks)
+- CL, Guía p.155–161 — 60'
+- CA, Guía p.162–167 — 55'
+- EIE, Guía p.175–176 — 50'
+- EIO, Guía p.177–182, recorded — 20'
+- No audio: someone reads each transcript (p.168–174) aloud twice. Keep the pauses (30 s before Tarea 3)
+- Mark CL and CA with the key on p.183; convert with the scales above
+:::
 
-> **Tip:** Tarea 3 in four steps:
-> 1. Read all 11 sentences in the 30 seconds you get, and catch the key word in each (Guía p.76, p.164). Three sentences match nobody. The speakers alternate between men and women (Manual p.52).
-> 2. Decide while that person is speaking. Later speakers won't help you (Guía p.76).
-> 3. Listen for past tenses, *pero / porque / aunque* and pronouns (Guía p.76).
-> 4. Use the second listening to confirm. Still unsure? Guess (Edelsa p.139).
+:::day Mon 9 Nov | Modelo 0 review
+- 🎧 Transcripts p.168–174, mainly Tarea 3: find the proof words and the trap words for each mistake — 30'
+- 🎧 One Tarea 3 with no transcript — 15'
+- Reading: find the line that proves each answer you missed — 20'
+- Writing + Speaking: self-check (Manual p.131–136), list your 5 top mistakes, rewrite one paragraph — 35'
+- Type a short email with all the accents — 15'
+:::
 
-**Thu 5 Nov: the exam + Reading + Listening**
-- Read this chapter and tick the checklists (20')
-- CL Tasks 1–3, timed (40')
-- **Listening (35'):**
-  - Tarea 3 explained and solved: Manual p.52–54.
-  - The practice task: Manual p.55, with audio from the Extensión digital.
-  - Listen first without the transcript (Manual p.43), then check with it.
-- Connectors 1–10 (10')
-- Record your answers to the four EIO Task 1 questions (15')
+:::day Tue 10 Nov | Light review + logistics (≈ 1 h 15)
+- Mistakes list, connectors, phrase cards — 25'
+- 🎧 A Tarea 3 you already know, no transcript — 20'
+- Say your EIO Task 1 answers + one photo aloud — 10'
+- Logistics: ID, email + password, route — 15'
+- No new material. Sleep 8 hours
+:::
 
-**Fri 6 Nov: Writing + Listening**
-- One EIE Task 1 email:
-  - write it in 30'
-  - revise it in 10' (Guía p.113)
-  - grade yourself with Manual p.131–133 (15')
-- **Listening (40'):**
-  - one CA Task 1 and one Task 2
-  - Tarea 3 practice set 1 from the Listening chapter of this booklet
-  - ear training with **Edelsa Transcripciones, Examen 1, Tarea 3**. Play it with a text-to-speech app or have someone read it, without looking. After each speaker, write their **main point in five words**. Then read the transcript and check what you missed. You have the transcripts only, not the sentences to match, so this trains your ear rather than giving you a score.
-- Grammar points 1–5 (20')
+:::day Wed 11 Nov | Exam day
+- Breakfast
+- Warm-up: 5 min of Spanish audio, then your 4 personal answers aloud — 10'
+- Leave early
+- Between tests: water, and let the last test go
+:::
 
-**Sat 7 Nov: Speaking + Listening**
-- EIO Tasks 2 and 3: one photo and two role-plays, timed and recorded. Listen back and check against Manual p.134–136 (40').
-- **Listening (45'):**
-  - Tarea 3 practice set 2 from the Listening chapter, then **Edelsa Transcripciones, Exámenes 2–3, Tarea 3** with the same five-word routine
-  - a Tasks 4–6 routine: listen and click an answer for every item before the system moves on (Guía p.78)
-- Grammar points 6–10 and connectors 11–20 (20')
-- **Remote candidates:** do the 48-hour checks today (Manual p.13).
+## The night before
 
-**Sun 8 Nov: full Modelo 0, timed (about 3 h 15 with breaks)**
-- Do the tests in exam order, with short breaks:
-  - CL p.155–161 (60')
-  - CA p.162–167 (55')
-  - EIE p.175–176 (50')
-  - EIO p.177–182 (about 20', recorded)
-- The Guía prints the Listening transcripts (p.168–174) but no audio. If you don't have the Modelo 0 audio, ask someone to read each transcript aloud twice at a normal pace. Keep the reading pauses, e.g. 30 s before Tarea 3 (Guía p.164; teacher's note).
-- Mark CL and CA with the answer key on p.183 and convert your scores with the tables above. Save the detailed review for Monday.
+:::checklist In your bag
+- The ID you registered with
+- Email + password written down (+ *clave de examen* if remote)
+- Route to arrive 20 min early (remote: room, camera, mic, internet ready)
+- Water and a snack. Alarm set
+:::
 
-**Mon 9 Nov: Modelo 0 review**
-- **Listening transcripts (45'),** p.168–174, mainly Tarea 3 (p.170–171):
-  - For every wrong answer, find the words that prove the right option and the words that tempted you.
-  - Then do one Tarea 3 without any transcript.
-- **Reading (20'):** for each mistake, find the line in the text that proves the answer.
-- **Writing and Speaking (35'):**
-  - self-assess with Manual p.131–136
-  - list your five most frequent mistakes
-  - rewrite one paragraph
-- Accents and keyboard: type a short email (15')
+:::checklist In the exam room
+- Sound and mic checks. Something wrong? Click **No**
+- Mouse only
+- CL and CA: an answer for every item before *Siguiente*
+- EIE: Task 1 first, every *pauta* ticked, accent check, then a short Task 2
+- EIO: talk until the time is almost up. Do Tasks 4 and 5 too
+:::
 
-**Tue 10 Nov: light review + logistics (about 1 h 15)**
-- Your mistakes list, the connectors and each chapter's phrase tables (25')
-- **Listening (20'):** a Tarea 3 you've already done, without the transcript, for confidence
-- Say your EIO Task 1 answers and one photo description aloud (10')
-- Logistics (15'): ID, email + password, route
-- **No new material.** Sleep 8 hours.
-
-**Wed 11 Nov: exam day**
-- Have breakfast.
-- Warm up for 10': 5 minutes of Spanish audio, then say your four personal answers aloud.
-- Leave early.
-- Between tests, drink water and let go of the last test.
-
-## Final checklist
-
-**The night before**
-- [ ] ID you registered with is in your bag.
-- [ ] Email and password are written down (plus your *clave de examen* if you take it remotely).
-- [ ] Route planned so you arrive 20 min early. For a remote exam: room, camera, microphone and internet are ready.
-- [ ] Water and a snack are packed, and the alarm is set.
-
-**In the exam room**
-- [ ] Do the sound and recording checks, and click **No** if something is wrong.
-- [ ] Use the mouse only.
-- [ ] In CL and CA, answer every item before *Siguiente*.
-- [ ] In EIE, write Task 1 first, tick every *pauta*, and finish with an accent check. Then write a short Task 2.
-- [ ] In EIO, keep talking until the time is almost up, and do Tasks 4 and 5 too.
-- [ ] Go through the twelve **Score boosters** above.
+:::remember
+You don't need perfect Spanish. You need 18 answers, band 3 and 125 points.
+¡Mucho ánimo!
+:::
