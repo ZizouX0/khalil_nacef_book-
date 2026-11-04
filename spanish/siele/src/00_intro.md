@@ -1,31 +1,70 @@
-# How to use this booklet
+# 🚀 Start here · How to use this booklet
 
-You have **7 days**. This booklet is built for that: the facts you must know, the patterns that repeat, the phrases that score, and exactly which exercises in your books are worth your time.
+:::stats
+7 days | until 11 November
+4 tests | reading, listening, writing, speaking
+B1 | your goal
+A2 | your safety net
+:::
 
-## What is inside
+:::big
+You don't need perfect Spanish.
+You need to **know the exam**, avoid the traps and **never leave anything blank**.
+:::
 
-| Chapter | Use it to… |
-|---|---|
-| 🧭 **The SIELE at a glance** | Understand the format, the scores you need for A2 and B1, the exam-day rules, and the 7-day plan. |
-| 📖 **Reading** (Comprensión de lectura) | Learn each task, the traps in the answer options, and practise with original exam-style sets. |
-| 🎧 **Listening** (Comprensión auditiva) | Learn how the audio works and the traps (numbers, changes of mind…). Practise with transcripts read aloud by a text-to-speech app or a friend. |
-| ✍️ **Writing** (Expresión e interacción escritas) | Use templates, a phrase bank, a checklist and model answers for Task 1. Get a survival plan for Task 2. |
-| 🗣️ **Speaking** (Expresión e interacción orales) | Use exact timings, a question bank, templates for the photo and the situation, and phrases to keep talking. |
+## The colour code
 
-Every test chapter has the same parts: **In 30 seconds → How the test works → Task by task → Top tips → Words & phrases → Practice → Your book practice plan → Answer key**.
+Every page uses the same colours. After a few minutes your eye will find what it needs.
 
-## How to read the page references
+:::trap The red card = a trap
+The exam tries to trick you here. Read it twice.
+:::
 
-- **Manual p.N** = *Manual oficial para la preparación del SIELE* (Universidad de Salamanca / Edinumen, 2022).
-- **Guía p.N** = *Guía oficial para preparadores del SIELE* (SIELE, 2019). It has the full official **Modelo 0** exam (pp.155–184) with transcripts and solutions.
-- **Edelsa** = the extracts from *Preparación al SIELE A1–C1* (Edelsa, 2021) that you sent.
+:::tip The green card = a tip
+A small trick that wins points.
+:::
 
-The page numbers are the **PDF page numbers** your viewer shows, not the numbers printed on the book pages. In the Manual, the printed number is one less than the PDF number.
+:::remember
+The yellow note = the ONE thing to remember from a section.
+:::
 
-> **Remember:** The practice exercises in this booklet are original and written in the format of the real tasks. For real exam material, do the book exercises listed in each chapter's *book practice plan*, especially **Modelo 0** in the Guía, which is a complete official exam.
+:::steps The blue steps = what to do, in order
+1. **Read** the steps before you practise.
+2. **Follow** them during the practice.
+3. **Repeat** until you don't need to read them any more.
+:::
 
-## The 3 rules that matter most
+:::levelup The violet box = A2 → B1
+Me gusta la playa. Es bonita.
+---
+Me encanta la playa ==porque== ==siempre hay== un ambiente tranquilo.
+:::
 
-1. **Never leave an answer blank** in Reading and Listening. Wrong answers do not lose points.
-2. **In Writing Task 1 and in Speaking, answer every point** in the instructions. "Task completion" is graded separately, and a missing point costs you more than a small grammar mistake.
-3. **Keep going when it gets hard.** The exam goes from A1 to C1, so the later tasks are supposed to feel difficult. Do your best on the early tasks and attempt everything else. ¡Mucho ánimo! 💪
+:::phrases Phrase cards = words that score
+Además | in addition | B1
+Sin embargo | however | B1
+:::
+
+## Your 3 golden rules
+
+:::golden The 3 rules for the whole exam
+1. **Never leave an answer blank.** In reading and listening, wrong answers lose you nothing.
+2. **Answer every point you are asked.** In writing and speaking, "task completion" is marked on its own. A missing point costs more than a small grammar mistake.
+3. **Keep going when it gets hard.** The tasks go from A1 to C1, so the later ones are *meant* to feel difficult.
+:::
+
+## How each test chapter works
+
+:::flow
+1 · The big picture | numbers, golden rules
+2 · Task by task | timing, steps, traps
+3 · Phrases | words that score
+4 · Practice | original exam-style tasks
+5 · Book plan | the best pages in your books
+:::
+
+At the end, the **🧠 Memory kit** gives you each test on a single page, plus flashcards to cut out.
+
+:::tip Where the real exam tasks are
+The practice in this booklet is original and written in the exam format. For real exam material, use the pages shown in each **book plan**. The best is **Modelo 0**, a complete official exam (Guía p.155–184).
+:::
