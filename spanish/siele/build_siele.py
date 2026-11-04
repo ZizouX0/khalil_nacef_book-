@@ -46,7 +46,7 @@ BOOKS = {
         blurb="Many exam-style speaking tasks for all five tareas, each followed by a model that shows "
               "how to answer: what to say, in which order, and how long to speak.",
         chapters=[("s0_intro.md", "ch-intro"), ("s1_T1.md", "ch-EIO"), ("s2_T2.md", "ch-EIO"),
-                  ("s3_T3.md", "ch-EIO"), ("s4_T45.md", "ch-EIO")]),
+                  ("s3_T3.md", "ch-EIO"), ("s4_T45.md", "ch-EIO"), ("s9_credits.md", "ch-intro")]),
 }
 BOOK = BOOKS["guide"]
 SRC = os.path.join(HERE, BOOK["src"])
