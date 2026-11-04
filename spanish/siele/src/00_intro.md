@@ -1,12 +1,14 @@
 # 🚀 Start here · How to use this guide
 
-## Your 3 books
+## Your 4 books + 8 audio tracks
 
 :::icons
 📘 | **1 · Guide (this book).** What to know and remember. Read one chapter a day.
-🏋️ | **2 · Practice.** Exam-style tasks, audio tracks 01–06 and answer keys.
+🏋️ | **2 · Practice.** Exercises with answers, the Tareas 4–5 rescue kit, audio tracks 01–06.
 ✍️ | **3 · Writing workbook.** One full writing exam a day, with help that fades.
-🧭 | **Lost?** Open the 7-day plan in "El SIELE" (the next chapter). It tells you what to do each day.
+🗣️ | **4 · Speaking book.** All 5 tareas with "how to answer" models, audio tracks 07–08.
+🗺️ | **0 · Start here.** One page: which material, when, and how.
+🧭 | **Lost?** Open the 7-day plan in "El SIELE" (the next chapter).
 :::
 
 ## Each test chapter, in the same order

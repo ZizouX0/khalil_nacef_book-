@@ -18,7 +18,7 @@ import numpy as np
 from piper import PiperVoice, SynthesisConfig
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-SRC = os.path.join(HERE, "src", "03_CA.md")
+SRC = os.path.join(HERE, "src_practice", "p2_CA.md")
 OUT = os.path.join(HERE, "audio")
 SR = 22050
 # Speed calibrated on the 7 Edelsa exam recordings (Pistas 1-3), measured with an
@@ -175,7 +175,55 @@ def track_speaking_t1(eio_md):
     return seg
 
 
+def track_speaking_book_t1(md):
+    """Speaking book, Tarea 1: all series, official rhythm (question once, 10 s, beep, 15/30 s, beep)."""
+    seg = [say("Libro de expresión oral. Tarea uno. Series uno a ocho. Después de cada pregunta tiene diez "
+               "segundos para pensar. Cuando oiga la señal, conteste."), silence(2)]
+    asker = WOMEN[0]
+    for title, body in blocks(md, "exam").items():
+        m = re.match(r"Serie (\d+)", title)
+        if not m:
+            continue
+        seg += [say(f"Serie {NUM[int(m.group(1))]}."), silence(1.5)]
+        qs = re.findall(r"^\s*\d+\.\s+\*Pregunta \(audio\):\*\s*(.+)$", body, flags=re.M)
+        for i, q in enumerate(qs, 1):
+            qa = say(re.sub(r"(\w+)o/a\b", r"\1o", q), asker, RATE["q"])
+            seg += [say(f"Pregunta {NUM[i]}."), silence(0.4), qa, silence(10),
+                    beep(), silence(15 if i <= 2 else 30), beep(), silence(5)]
+        seg += [silence(3)]
+    seg += [say("Fin de la tarea.")]
+    return seg
+
+
+def track_speaking_book_t4(md):
+    """Speaking book, Tarea 4: the 3 questions of every option, 1 minute to answer each."""
+    seg = [say("Libro de expresión oral. Tarea cuatro. Primero lea el texto de la opción en el libro. "
+               "Después escuche cada pregunta. Cuando oiga la señal, conteste durante un minuto."), silence(2)]
+    asker = MEN[0]
+    for title, body in blocks(md, "exam").items():
+        m = re.match(r"Set (\d+) · Tarea 4", title)
+        if not m:
+            continue
+        opts = re.split(r"^\*\*Opción (\d)\. ([^*]+)\*\*.*$", body, flags=re.M)
+        # opts = [pre, n1, name1, body1, n2, name2, body2]
+        for k in range(1, len(opts) - 2, 3):
+            n, name, ob = opts[k], opts[k + 1].strip(), opts[k + 2]
+            qs = re.findall(r"^\s*\d\.\s+(.+)$", ob, flags=re.M)
+            if not qs:
+                continue
+            seg += [say(f"Set {NUM[int(m.group(1))]}. Opción {NUM[int(n)]}: {name}."), silence(1.5)]
+            for i, q in enumerate(qs, 1):
+                qa = say(re.sub(r"(\w+)o o \w+a\b", r"\1o", q), asker, RATE["q"])
+                seg += [say(f"Pregunta {NUM[i]}."), silence(0.4), qa, silence(3), beep(), silence(60), beep(), silence(4)]
+            seg += [silence(3)]
+    seg += [say("Fin de la tarea.")]
+    return seg
+
+
 def write_mp3(segments, name):
+    only = os.environ.get("ONLY")
+    if only and not any(name.startswith(o) for o in only.split(",")):
+        return
     os.makedirs(OUT, exist_ok=True)
     audio = np.concatenate(segments)
     wav = os.path.join(OUT, name + ".wav")
@@ -189,26 +237,40 @@ def write_mp3(segments, name):
 
 
 def main():
+    only = os.environ.get("ONLY")
+
+    def make(builder, name):
+        if only and not any(name.startswith(o) for o in only.split(",")):
+            return
+        write_mp3(builder(), name)
+
     md = open(SRC, encoding="utf-8").read()
     ex, tr = blocks(md, "exam"), blocks(md, "transcript")
     find = lambda d, key: next(v for k, v in d.items() if key in k)
     gender = lambda i, extra: (MEN if "HOMBRE" in extra.upper() else WOMEN)[(i // 2) % 3]
 
-    write_mp3(track_dialogue(instruction(find(ex, "Ejercicio 1")), find(tr, "Ejercicio 1")),
+    make(lambda: track_dialogue(instruction(find(ex, "Ejercicio 1")), find(tr, "Ejercicio 1")),
               "01_Tarea1_conversacion")
-    write_mp3(track_items(instruction(find(ex, "Ejercicio 2")), find(tr, "Ejercicio 2"),
+    make(lambda: track_items(instruction(find(ex, "Ejercicio 2")), find(tr, "Ejercicio 2"),
                           r"\*\*Anuncio (\d+)\.\*\*()\s*(.+?)(?=\n\s*\n|\Z)", "Anuncio",
                           lambda i, e: ADS[(i - 1) % len(ADS)], 2, RATE["t2"]), "02_Tarea2_anuncios")
-    write_mp3(track_items(instruction(find(ex, "Ejercicio 3")), find(tr, "Ejercicio 3"),
+    make(lambda: track_items(instruction(find(ex, "Ejercicio 3")), find(tr, "Ejercicio 3"),
                           r"\*\*Persona (\d+) \((\w+)\):\*\*\s*(.+?)(?=\n\s*\n|\Z)", "Persona", gender, 3, RATE["t3"]),
               "03_Tarea3_setA_un_viaje")
-    write_mp3(track_items(instruction(find(ex, "Ejercicio 4")), find(tr, "Ejercicio 4"),
+    make(lambda: track_items(instruction(find(ex, "Ejercicio 4")), find(tr, "Ejercicio 4"),
                           r"\*\*Persona (\d+) \((\w+)\):\*\*\s*(.+?)(?=\n\s*\n|\Z)", "Persona", gender, 3, RATE["t3"]),
               "04_Tarea3_setB_primer_dia")
-    write_mp3(track_numbers(instruction(find(ex, "Ejercicio 5")), find(tr, "Ejercicio 5")),
+    make(lambda: track_numbers(instruction(find(ex, "Ejercicio 5")), find(tr, "Ejercicio 5")),
               "05_numeros_horas_precios")
-    eio = open(os.path.join(HERE, "src", "05_EIO.md"), encoding="utf-8").read()
-    write_mp3(track_speaking_t1(eio), "06_Oral_Tarea1_simulador")
+    eio = open(os.path.join(HERE, "src_practice", "p4_EIO.md"), encoding="utf-8").read()
+    make(lambda: track_speaking_t1(eio), "06_Oral_Tarea1_simulador")
+    sb = os.path.join(HERE, "src_speaking")
+    if os.path.exists(os.path.join(sb, "s1_T1.md")):
+        make(lambda: track_speaking_book_t1(open(os.path.join(sb, "s1_T1.md"), encoding="utf-8").read()),
+                  "07_Oral_libro_Tarea1_series1-8")
+    if os.path.exists(os.path.join(sb, "s4_T45.md")):
+        make(lambda: track_speaking_book_t4(open(os.path.join(sb, "s4_T45.md"), encoding="utf-8").read()),
+                  "08_Oral_libro_Tarea4_preguntas")
 
 
 if __name__ == "__main__":

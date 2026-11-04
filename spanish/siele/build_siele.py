@@ -37,6 +37,9 @@ BOOKS = {
         blurb="Six days, one full writing exam a day (Tarea 1 + Tarea 2). Lots of help on the first days, "
               "less each day, exam conditions at the end, and a model answer for every task.",
         chapters=[("w1_workbook.md", "ch-EIE workbook")]),
+    "start": dict(
+        src="src_start", out="SIELE_0_Start_Here.pdf", footer="SIELE in 7 days · 0 Start here", plain=True,
+        kick="", title="", sub="", blurb="", chapters=[("00_materials.md", "ch-intro")]),
     "speaking": dict(
         src="src_speaking", out="SIELE_4_Speaking_Book.pdf", footer="SIELE in 7 days · 4 Speaking book",
         kick="Book 4 of 4 · speaking book", title="SIELE", sub="speaking, task by task",
@@ -288,6 +291,14 @@ def render_block(name, arg, items):
                         for c in rows(items))
         return (f'<div class="fcwrap"><div class="fch">✂️ {t or "Flashcards"} '
                 f'<span>· cut out, fold on the dotted line, test yourself</span></div><div class="fcgrid">{cards}</div></div>')
+    if name == "photopair":
+        # one exam photo pair: lines "file | caption"; files live in photos_speaking/
+        cells = []
+        for i, c in enumerate(rows(items, 1), 1):
+            cap = cell(c, 1)
+            cells.append(f'<figure><div class="ph-opt">Opción {i}</div><img src="photos_speaking/{c[0].strip()}" alt="">'
+                         f'{f"<figcaption>{cap}</figcaption>" if cap else ""}</figure>')
+        return f'<div class="photopair">{"".join(cells)}</div>'
     if name == "lines":
         n = int(re.sub(r"\D", "", arg) or 12)
         return f'<div class="lines">{"<i></i>" * n}</div>'
@@ -393,6 +404,8 @@ def build_html(page_map=None):
            b4="on" if BOOK.get("key") == "speaking" else "",
            **{k: BOOK[k] for k in ("kick", "title", "sub", "blurb")})
     toc_html = f'<div class="toc"><h2 class="toch">What\'s inside</h2><div class="tcgrid">{cards}</div></div>'
+    if BOOK.get("plain"):
+        cover = toc_html = ""
     doc = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><title>{BOOK["footer"]}</title>
 <link rel="stylesheet" href="style_siele.css"></head><body>{cover}{toc_html}{body}</body></html>"""
     return doc, toc

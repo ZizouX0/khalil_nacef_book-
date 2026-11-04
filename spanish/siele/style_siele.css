@@ -327,3 +327,11 @@ blockquote{margin:3mm 0; padding:2mm 4mm; border-left:4px solid var(--c-mid); ba
 .cv-books span{font-family:var(--head); font-weight:800; font-size:9.5pt; padding:1.5mm 4mm; border-radius:5mm;
   background:#fff; color:#64748b; border:1.5px solid #e2e8f0}
 .cv-books span.on{background:#1e1b4b; color:#fff; border-color:#1e1b4b}
+
+/* speaking Tarea 2: the two photos to choose from */
+.photopair{display:grid; grid-template-columns:1fr 1fr; gap:3mm; margin:2mm 0 3mm; break-inside:avoid}
+.photopair figure{margin:0; position:relative}
+.photopair img{width:100%; height:58mm; object-fit:cover; border-radius:2.5mm; display:block}
+.photopair .ph-opt{position:absolute; top:2mm; left:2mm; background:rgba(15,23,42,.8); color:#fff; font-family:var(--head);
+  font-weight:900; font-size:9pt; padding:.5mm 2.5mm; border-radius:3mm}
+.photopair figcaption{font-size:7.6pt; color:var(--ink3); margin-top:.8mm}
