@@ -44,6 +44,9 @@ BOOKS = {
               "grammar helpers, and the verbs you need, fully conjugated, with the irregular forms in red.",
         chapters=[("w1_connectors_writing.md", "ch-words"), ("w2_speaking_grammar.md", "ch-words"),
                   ("w3_verbs.md", "ch-words")]),
+    "card": dict(
+        src="src_card", out="SIELE_Survival_Card.pdf", footer="SIELE · survival card", plain=True,
+        kick="", title="", sub="", blurb="", chapters=[("card1.md", "ch-card"), ("card2.md", "ch-card")]),
     "start": dict(
         src="src_start", out="SIELE_0_Start_Here.pdf", footer="SIELE in 7 days · 0 Start here", plain=True,
         kick="", title="", sub="", blurb="", chapters=[("00_materials.md", "ch-intro")]),
