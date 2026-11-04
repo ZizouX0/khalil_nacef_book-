@@ -315,3 +315,15 @@ blockquote{margin:3mm 0; padding:2mm 4mm; border-left:4px solid var(--c-mid); ba
 .ch-memory .card.remember{padding:2mm 4mm 1.4mm}
 .ch-memory .card.remember .ch{font-size:15pt}
 .ie{font-family:var(--head); font-weight:900; color:var(--c)}
+
+/* writing lines (workbook) */
+.lines{margin:2mm 0 4mm; border-top:1px solid #cbd5e1}
+.lines i{display:block; height:8.2mm; border-bottom:1px solid #cbd5e1}
+/* workbook: every day starts on a new page */
+.workbook h2{break-before:page; margin-top:0}
+.workbook .opener + * h2, .workbook .opener ~ p + h2:first-of-type{break-before:auto}
+/* cover: which of the 3 books this is */
+.cv-books{display:flex; gap:2.5mm; margin-top:9mm}
+.cv-books span{font-family:var(--head); font-weight:800; font-size:9.5pt; padding:1.5mm 4mm; border-radius:5mm;
+  background:#fff; color:#64748b; border:1.5px solid #e2e8f0}
+.cv-books span.on{background:#1e1b4b; color:#fff; border-color:#1e1b4b}

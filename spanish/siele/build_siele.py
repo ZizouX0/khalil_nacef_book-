@@ -11,19 +11,36 @@ import html, os, re, subprocess, sys, unicodedata
 import markdown
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-SRC = os.path.join(HERE, "src")
-OUT_PDF = os.path.join(os.path.dirname(HERE), "SIELE_Revision_A2-B1.pdf")
+OUT_DIR = os.path.dirname(HERE)
 HTML_OUT = os.path.join(HERE, "_siele.html")
 
-CHAPTERS = [  # (file, css class)
-    ("00_intro.md", "ch-intro"),
-    ("01_general.md", "ch-general"),
-    ("02_CL.md", "ch-CL"),
-    ("03_CA.md", "ch-CA"),
-    ("04_EIE.md", "ch-EIE"),
-    ("05_EIO.md", "ch-EIO"),
-    ("06_memory.md", "ch-memory"),
-]
+# Three books. Each: source folder, output file, chapters (file, css class), cover text.
+BOOKS = {
+    "guide": dict(
+        src="src", out="SIELE_1_Guide.pdf", footer="SIELE in 7 days · 1 Guide",
+        kick="Book 1 of 3 · the guide", title="SIELE", sub="in 7 days",
+        blurb="What you need to know and remember for the four tests: how each task works, the traps, "
+              "the tricks, and a plan for every day until the exam.",
+        chapters=[("00_intro.md", "ch-intro"), ("01_general.md", "ch-general"), ("02_CL.md", "ch-CL"),
+                  ("03_CA.md", "ch-CA"), ("04_EIE.md", "ch-EIE"), ("05_EIO.md", "ch-EIO"),
+                  ("06_memory.md", "ch-memory")]),
+    "practice": dict(
+        src="src_practice", out="SIELE_2_Practice.pdf", footer="SIELE in 7 days · 2 Practice",
+        kick="Book 2 of 3 · practice", title="SIELE", sub="practice",
+        blurb="Original exam-style tasks for reading, listening (with audio tracks 01–06) and speaking, "
+              "with every answer explained at the end of each chapter.",
+        chapters=[("p0_intro.md", "ch-intro"), ("p1_CL.md", "ch-CL"), ("p2_CA.md", "ch-CA"),
+                  ("p4_EIO.md", "ch-EIO")]),
+    "writing": dict(
+        src="src_writing", out="SIELE_3_Writing_Workbook.pdf", footer="SIELE in 7 days · 3 Writing workbook",
+        kick="Book 3 of 3 · writing workbook", title="SIELE", sub="writing, day by day",
+        blurb="Six days, one full writing exam a day (Tarea 1 + Tarea 2). Lots of help on the first days, "
+              "less each day, exam conditions at the end, and a model answer for every task.",
+        chapters=[("w1_workbook.md", "ch-EIE workbook")]),
+}
+BOOK = BOOKS["guide"]
+SRC = os.path.join(HERE, BOOK["src"])
+CHAPTERS = BOOK["chapters"]
 
 # ----------------------------------------------------------------------------
 # Markdown with the house extras
@@ -264,6 +281,9 @@ def render_block(name, arg, items):
                         for c in rows(items))
         return (f'<div class="fcwrap"><div class="fch">✂️ {t or "Flashcards"} '
                 f'<span>· cut out, fold on the dotted line, test yourself</span></div><div class="fcgrid">{cards}</div></div>')
+    if name == "lines":
+        n = int(re.sub(r"\D", "", arg) or 12)
+        return f'<div class="lines">{"<i></i>" * n}</div>'
     print(f"  ! unknown block :::{name}", file=sys.stderr)
     return f'<div class="box">{render_items(items)}</div>'
 
@@ -342,13 +362,12 @@ def build_html(page_map=None):
                   f'{f"<small>{html.escape(en)}</small>" if en else ""}</span><b>{pm.get(sid, "")}</b></a>'
                   f'<ul>{lis}</ul></div>')
     cover = """
-<div class="cover">
+<div class="cover {cls}">
   <div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div><div class="blob b4"></div>
   <div class="cv-in">
-    <div class="kick">Revision booklet · A2 → B1</div>
-    <h1 class="cvt">SIELE<br><span>in 7 days</span></h1>
-    <p class="cvs">Everything you need to remember for the four tests: how each task works, the traps,
-    the phrases that score, practice, and a plan for every day until the exam.</p>
+    <div class="kick">{kick}</div>
+    <h1 class="cvt">{title}<br><span>{sub}</span></h1>
+    <p class="cvs">{blurb}</p>
     <div class="cv-tiles">
       <div class="t t1"><i>📖</i><b>Reading</b><span>Comprensión de lectura</span></div>
       <div class="t t2"><i>🎧</i><b>Listening</b><span>Comprensión auditiva</span></div>
@@ -357,13 +376,16 @@ def build_html(page_map=None):
     </div>
     <div class="cv-goal"><div class="ring"><b>B1</b><span>goal</span></div><div class="ring safe"><b>A2</b><span>safety net</span></div>
       <div class="exam-date"><span>Exam day</span><b>11 November 2026</b></div></div>
+    <div class="cv-books"><span class="{b1}">1 · Guide</span><span class="{b2}">2 · Practice</span><span class="{b3}">3 · Writing workbook</span></div>
     <div class="cv-src">Built from the <i>Manual oficial para la preparación del SIELE</i> (2022), the <i>Guía oficial para
     preparadores del SIELE</i> (2019) and extracts from Edelsa <i>Preparación al SIELE</i> (2021).
     Grey tags like <span class="ref">Manual p.52</span> are PDF page numbers in your copies.</div>
   </div>
-</div>"""
+</div>""".format(cls=BOOK.get("key", ""), b1="on" if BOOK.get("key") == "guide" else "",
+           b2="on" if BOOK.get("key") == "practice" else "", b3="on" if BOOK.get("key") == "writing" else "",
+           **{k: BOOK[k] for k in ("kick", "title", "sub", "blurb")})
     toc_html = f'<div class="toc"><h2 class="toch">What\'s inside</h2><div class="tcgrid">{cards}</div></div>'
-    doc = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><title>SIELE in 7 days</title>
+    doc = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><title>{BOOK["footer"]}</title>
 <link rel="stylesheet" href="style_siele.css"></head><body>{cover}{toc_html}{body}</body></html>"""
     return doc, toc
 
@@ -377,7 +399,7 @@ const { chromium } = require('playwright');
   await p.evaluate(() => document.fonts.ready);
   await p.pdf({ path: out, format: 'A4', printBackground: true, preferCSSPageSize: true,
     displayHeaderFooter: true, headerTemplate: '<span></span>',
-    footerTemplate: '<div style="width:100%;font-size:8px;color:#94a3b8;padding:0 16mm;display:flex;justify-content:space-between;font-family:sans-serif"><span>SIELE in 7 days · A2 → B1</span><span class="pageNumber"></span></div>' });
+    footerTemplate: '<div style="width:100%;font-size:8px;color:#94a3b8;padding:0 16mm;display:flex;justify-content:space-between;font-family:sans-serif"><span>__FOOTER__</span><span class="pageNumber"></span></div>' });
   await b.close();
 })();
 """
@@ -386,7 +408,7 @@ const { chromium } = require('playwright');
 def render(html_doc, out):
     open(HTML_OUT, "w", encoding="utf-8").write(html_doc)
     js = os.path.join(HERE, "_render.js")
-    open(js, "w").write(NODE)
+    open(js, "w").write(NODE.replace("__FOOTER__", BOOK["footer"]))
     subprocess.run(["node", js, HTML_OUT, out], check=True)
 
 
@@ -414,11 +436,20 @@ def find_pages(pdf, toc):
     return pm
 
 
-if __name__ == "__main__":
+def build_book(key):
+    global BOOK, SRC, CHAPTERS
+    BOOK = dict(BOOKS[key], key=key)
+    SRC, CHAPTERS = os.path.join(HERE, BOOK["src"]), BOOK["chapters"]
+    out = os.path.join(OUT_DIR, BOOK["out"])
     doc, toc = build_html()
     tmp = os.path.join(HERE, "_pass1.pdf")
     render(doc, tmp)
     doc, _ = build_html(find_pages(tmp, toc))
-    render(doc, OUT_PDF)
+    render(doc, out)
     os.remove(tmp)
-    print("wrote", OUT_PDF)
+    print("wrote", out)
+
+
+if __name__ == "__main__":
+    for key in (sys.argv[1:] or list(BOOKS)):
+        build_book(key)
