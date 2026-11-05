@@ -38,12 +38,12 @@ Parecen contentos; seguramente son amigos. | Guess · They look happy; they're p
 ## Tarea 3 · SÁNDWICH voice message
 
 :::phrases tú → usted · the same message, two registers
-¡Hola, Clara! Soy … → Buenos días. Me llamo … | 🍞 Hi Clara, it's … → Good morning, my name is … | A2
+Hola, soy … → Buenos días, me llamo … | 🍞 Hi, it's … → Good morning, my name is … | A2
 Te llamo porque … → Le llamo porque … | 🍞 I'm calling you because … | A2
 ¿Puedes …? → ¿Podría …? | 🥗 Can you …? → Could you …? | B1
-¿Qué te parece si …? → ¿Le parece bien si …? | 🥗 How about …? → Is it OK with you if …? | B1
-Lo siento mucho. → Perdone las molestias. | 🥗 I'm so sorry. → Sorry for the trouble. | B1
-¡Un abrazo! → Muchas gracias. Un saludo. | 🍞 Hugs! → Many thanks. Regards. | A2
+¿Te parece bien …? → ¿Le parece bien …? | 🥗 Is … OK with you? | B1
+Lo siento. → Perdone las molestias. | 🥗 Sorry. → Sorry for the trouble. | B1
+¡Un abrazo! → Gracias. Un saludo. | 🍞 Hugs! → Thank you. Regards. | A2
 :::
 
 ## Tareas 4–5 · opinion
@@ -53,7 +53,7 @@ Pues, en mi opinión, … | Well, in my opinion, … | A2
 … porque … / … ya que … | … because … / … since … | A2
 Por ejemplo, en mi país … | For example, in my country … | A2
 En Túnez es más barato que en España. | It's cheaper in Tunisia than in Spain (compare). | B1
-Si hay más autobuses, habrá menos tráfico. | If there are more buses, there'll be less traffic (*si* + presente → futuro). | B1
+Si hay más bicis, habrá menos tráfico. | More bikes → less traffic (*si* + presente → futuro). | B1
 Estoy a favor / en contra de … porque … | I'm for / against … because … | B1
 Es verdad que …, pero … | It's true that …, but … | B1
 Por eso creo que … / En conclusión, … | That's why I think … / In conclusion, … | A2
@@ -72,9 +72,7 @@ Y otra cosa: … / Además, … | And another thing: … / What's more, … | A2
 
 ## Your 5 stories
 
-Prepare 5 mini stories. Almost every T1 question, and many T4 questions, fit one of them.
-
-:::icons One story for each question
+:::icons Prepare 5 mini stories: almost every T1 question fits one
 🏖️ | **Kelibia** (HOY): *Vivo en Kelibia, una ciudad pequeña y tranquila, cerca del mar.*
 🏄 | **Free time** (HOY): *En mi tiempo libre hago surf; me encanta porque me siento libre.*
 🧒 | **Childhood** (AYER, *era / iba*): *Cuando era pequeño/a, iba a la playa todos los días.*
@@ -84,37 +82,32 @@ Prepare 5 mini stories. Almost every T1 question, and many T4 questions, fit one
 
 ## The 16 verbs you'll say most
 
-**Bold** = irregular. No gerund with *ser, estar, tener, llevar, parecer*: in a photo say *son · están · tiene · lleva · parece*.
+**Bold** = irregular. Photo: no gerund with *ser, estar, tener, llevar, parecer* (say *son · lleva · parece*).
 
 | infinitivo | presente (yo) | indefinido (yo) | imperfecto (yo) | plans: voy a / me gustaría | photo: está + -ando / -iendo |
 |---|---|---|---|---|---|
-| ser · *be* | **soy** | **fui** | **era** | me gustaría ser | *son amigos* |
-| estar · *be* | **estoy** | **estuve** | estaba | voy a estar | *están en la playa* |
-| tener · *have* | **tengo** | **tuve** | tenía | voy a tener | *tiene 20 años* |
-| ir · *go* | **voy** | **fui** | **iba** | voy a ir | *van a la playa* |
-| hacer · *do* | **hago** | **hice** | hacía | voy a hacer | está haciendo |
-| vivir · *live* | vivo | viví | vivía | me gustaría vivir | — |
-| gustar · *like* | me gusta(n) | me gustó | me gustaba | me gustaría | — |
-| trabajar · *work* | trabajo | trabajé | trabajaba | me gustaría trabajar | está trabajando |
-| estudiar · *study* | estudio | estudié | estudiaba | voy a estudiar | están estudiando |
-| llevar · *wear* | llevo | llevé | llevaba | voy a llevar | *lleva una camiseta* |
-| parecer · *seem* | me parece | me pareció | me parecía | — | *parece cansado* |
-| sentirse · *feel* | **me siento** | me sentí | me sentía | — | *se sienten bien* |
-| comer · *eat* | como | comí | comía | voy a comer | están comiendo |
-| jugar · *play* | **juego** | **jugué** | jugaba | voy a jugar | están jugando |
-| ver · *see* | **veo** | **vi** | **veía** | voy a ver | está viendo |
-| salir · *go out* | **salgo** | salí | salía | voy a salir | está saliendo |
+| ser | **soy** | **fui** | **era** | me gustaría ser | *son amigos* |
+| estar | **estoy** | **estuve** | estaba | voy a estar | *están en la playa* |
+| tener | **tengo** | **tuve** | tenía | voy a tener | *tiene 20 años* |
+| ir | **voy** | **fui** | **iba** | voy a ir | *van a la playa* |
+| hacer | **hago** | **hice** | hacía | voy a hacer | está haciendo |
+| vivir | vivo | viví | vivía | me gustaría vivir | — |
+| gustar | me gusta(n) | me gustó | me gustaba | me gustaría | — |
+| trabajar | trabajo | trabajé | trabajaba | me gustaría trabajar | está trabajando |
+| estudiar | estudio | estudié | estudiaba | voy a estudiar | están estudiando |
+| llevar | llevo | llevé | llevaba | voy a llevar | *lleva una camiseta* |
+| parecer | me parece | me pareció | me parecía | — | *parece cansado* |
+| sentirse | **me siento** | me sentí | me sentía | — | *se sienten bien* |
+| comer | como | comí | comía | voy a comer | están comiendo |
+| jugar | **juego** | **jugué** | jugaba | voy a jugar | están jugando |
+| ver | **veo** | **vi** | **veía** | voy a ver | está viendo |
+| salir | **salgo** | salí | salía | voy a salir | está saliendo |
 
-## The 5 speaking errors, fixed
-
-:::trap Hear yourself say these right
+:::trap The 5 speaking errors, fixed · and fill the clock
 - **Past = *yo*:** ❌ *Ayer fue a la playa.* ✅ *Ayer ==fui== a la playa.* Also ==*hice · estuve · tuve*==.
 - **Gender:** ❌ *el ciudad · la idioma · mi amigos* ✅ *==la ciudad · el idioma · mis amigos==*
 - **Food is *rica*:** ❌ *La paella es bonita.* ✅ *La paella estaba muy ==rica==.*
 - **pensar + infinitive:** ❌ *Pienso de vivir en España.* ✅ *==Pienso vivir== en España.*
-- **Silence:** ❌ five seconds of nothing. ✅ ==*Pues… a ver… la verdad es que…*== and keep going until the time ends.
+- **Silence:** ❌ 5 seconds of nothing. ✅ ==*Pues… a ver… la verdad es que…*== Talk to the end.
 :::
 
-:::remember
-**Fill the clock.** A simple sentence scores; silence scores zero.
-:::

@@ -71,6 +71,8 @@ Lo pasé genial. ¡Fue inolvidable! | I had a great time. It was unforgettable! 
 :::phrases 5 👋 Recommend + goodbye
 Tienes que probar el pescado. | You have to try the fish. | A2
 Te recomiendo la playa de … | I recommend the beach at … | A2
+No te pierdas el mercado. | Don't miss the market. | B1
+¿Quedamos el sábado por la tarde? | Shall we meet on Saturday afternoon? | A2
 Si vienes, te enseño mi ciudad. | If you come, I'll show you my town. | B1
 Tengo muchas ganas de verte. | I really want to see you. | B1
 Escríbeme pronto y cuéntame qué tal. | Write soon and tell me how it goes. | A2
@@ -173,11 +175,6 @@ en conclusión · en resumen | in conclusion · in short (end) | B1
 | pasar · *lo pasé genial* | paso | pasé | pasaba | pasaré | pasaría |
 | escribir · *write* | escribo | escribí | escribía | escribiré | escribiría |
 
-:::remember
-Writing about **you**? Use the ***yo*** past: ***fui · hice · estuve · tuve · vine · pude***.
-*Fue · hizo* are for **él / ella / it**: *¡Fue genial!* = it was great.
-:::
-
 ## Subjunctive in writing · 6 ready-made sentences
 
 :::tip Don't build it: copy it into step 5
@@ -190,10 +187,8 @@ After *espero que · te recomiendo que · cuando* (+ a future idea), Spanish use
 6. *Cuando ==vengas==, te enseño mi ciudad.* · When you come, I'll show you my town.
 :::
 
-## Your 6 errors, fixed
-
-:::trap Check these before you click "Siguiente"
-- **Past = *yo*:** ❌ *El verano pasado fue a España.* ✅ *El verano pasado ==fui== a España.*
+:::trap Your 6 errors, fixed · check them before you click "Siguiente"
+- **Past = *yo*:** ❌ *El verano pasado fue a España.* ✅ *El verano pasado ==fui== a España.* (*fue* = él, ella, it: *¡Fue genial!*)
 - **Past = *yo*:** ❌ *Allí hizo surf todos los días.* ✅ *Allí ==hice== surf todos los días.*
 - **Gender and articles:** ❌ *el ciudad tranquilo · la idioma · de el cine · mi amigos* ✅ *==la ciudad tranquila · el idioma · del cine · mis amigos==*
 - **Food is *rica*:** ❌ *La paella es muy bonita.* ✅ *La paella estaba muy ==rica==.*
