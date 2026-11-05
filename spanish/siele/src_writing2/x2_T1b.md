@@ -30,7 +30,7 @@ Número de palabras: entre 100 y 150.
 **⚠️ Trap:** no goodbye, no paragraphs. Write 5 blocks with an empty line between them. Block 5 = *¡Buen viaje! Un saludo,* + your name.
 :::
 
-:::lines 14
+:::lines 28
 :::
 
 ### 8 · La visita de tu prima
@@ -61,7 +61,7 @@ Número de palabras: entre 100 y 150.
 **⚠️ Trap:** *yo **hice*** (I did) · *él **hizo*** (he did). *Yo hice fotos y mi amigo hizo un vídeo.*
 :::
 
-:::lines 14
+:::lines 28
 :::
 
 ### 9 · Un animal especial
@@ -92,7 +92,7 @@ Número de palabras: entre 100 y 150.
 **⚠️ Trap:** gender. ***El** animal* is masculine: *un animal especial*. Match the adjective: *mi perro es cariños**o*** · *mi gata es cariños**a***.
 :::
 
-:::lines 14
+:::lines 28
 :::
 
 ### 10 · Intercambio de casa
@@ -121,7 +121,7 @@ Número de palabras: entre 100 y 150.
 **⚠️ Trap:** food is never *bonita*. *La paella estaba **rica / riquísima**.*
 :::
 
-:::lines 14
+:::lines 28
 :::
 
 ### 11 · Un curso de cocina
@@ -152,7 +152,7 @@ Número de palabras: entre 100 y 150.
 **⚠️ Trap:** *pensar* + infinitive, with no *de*. *Pienso **hacer** un máster.* Not ~~pienso de hacer~~.
 :::
 
-:::lines 14
+:::lines 28
 :::
 
 ### 12 · Un festival de música
@@ -183,5 +183,5 @@ Número de palabras: entre 100 y 150.
 **⚠️ Trap:** the task says *fue*; you write ***fui***. *Yo **fui** al festival.* · *El concierto **fue** genial.*
 :::
 
-:::lines 14
+:::lines 28
 :::

@@ -375,3 +375,7 @@ blockquote{margin:3mm 0; padding:2mm 4mm; border-left:4px solid var(--c-mid); ba
 .taskspack .opener + h2, .taskspack .opener + p + h2, .taskspack .opener + p + p + h2{break-before:avoid}
 .taskspack .opener:not(:first-child){break-before:page}
 .taskspack .opener + h3, .taskspack .opener + p + h3, .taskspack .opener + p + p + h3{break-before:avoid; margin-top:3mm}
+/* writing exercise book: the lines get their own page under a small header */
+.taskspack .lines{break-before:page; border-top:none; margin-top:0}
+.taskspack .lines::before{content:"✍️ Your text · write here, then count your words and tick the guide"; display:block;
+  font-family:var(--head); font-weight:900; font-size:11pt; color:var(--c); padding-bottom:2mm; border-bottom:1px solid #cbd5e1}

@@ -30,7 +30,7 @@ Número de palabras: entre 100 y 150.
 **⚠️ Trap:** *pensar* + infinitive, with no *de*: ~~Pienso de ir.~~ → *Pienso ir.*
 :::
 
-:::lines 14
+:::lines 28
 :::
 
 ### 2 · Un domingo de lluvia
@@ -61,7 +61,7 @@ Número de palabras: entre 100 y 150.
 **⚠️ Trap:** a + el = **al** · de + el = **del** · **la** ciudad. *Voy al café del puerto. La ciudad es tranquila.*
 :::
 
-:::lines 14
+:::lines 28
 :::
 
 ### 3 · Mi mejor viaje
@@ -92,7 +92,7 @@ Número de palabras: entre 100 y 150.
 **⚠️ Trap:** yo **fui**, el viaje **fue**. *Fui en tren. El viaje fue largo, pero precioso.*
 :::
 
-:::lines 14
+:::lines 28
 :::
 
 ### 4 · Club de senderismo
@@ -123,7 +123,7 @@ Número de palabras: entre 100 y 150.
 **⚠️ Trap:** yo **hice**, él **hizo**. *Yo hice la ruta y mi primo hizo las fotos.*
 :::
 
-:::lines 14
+:::lines 28
 :::
 
 ### 5 · Su estancia en el apartamento
@@ -154,7 +154,7 @@ Número de palabras: entre 100 y 150.
 **⚠️ Trap:** one block of text and no goodbye = lost points. Leave an empty line after each step. End: *Muchas gracias por todo. Un cordial saludo,* + your name.
 :::
 
-:::lines 14
+:::lines 28
 :::
 
 ### 6 · Una boda en primavera
@@ -185,5 +185,5 @@ Número de palabras: entre 100 y 150.
 **⚠️ Trap:** food is **rica**, clothes are **bonitos**. *El vestido era bonito y los dulces estaban riquísimos.*
 :::
 
-:::lines 14
+:::lines 28
 :::
