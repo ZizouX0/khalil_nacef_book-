@@ -374,3 +374,4 @@ blockquote{margin:3mm 0; padding:2mm 4mm; border-left:4px solid var(--c-mid); ba
 .taskspack h2 + blockquote + h3, .taskspack h2 + div + h3{break-before:avoid; margin-top:3mm}
 .taskspack .opener + h2, .taskspack .opener + p + h2, .taskspack .opener + p + p + h2{break-before:avoid}
 .taskspack .opener:not(:first-child){break-before:page}
+.taskspack .opener + h3, .taskspack .opener + p + h3, .taskspack .opener + p + p + h3{break-before:avoid; margin-top:3mm}

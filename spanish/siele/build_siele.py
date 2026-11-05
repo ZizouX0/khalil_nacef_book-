@@ -43,6 +43,14 @@ BOOKS = {
         blurb="The link words that raise your marks, the phrases for every writing and speaking task, "
               "grammar on one page, and the verbs you need, conjugated, with the irregular forms in red.",
         chapters=[("w1_bank.md", "ch-words"), ("w3_verbs.md", "ch-words")]),
+    "writing2": dict(
+        src="src_writing2", out="SIELE_7_Writing_Exercises.pdf", footer="SIELE · writing exercise book",
+        kick="Writing exercise book", title="SIELE", sub="writing, 18 tasks",
+        blurb="The phrases and verbs for every writing exam, then 12 Tarea 1 and 6 Tarea 2 tasks in the real format, "
+              "each on its own page with a mini guide and lines to write on, and a model answer for every task.",
+        chapters=[("x0_toolkit.md", "ch-EIE"), ("x1_T1a.md", "ch-EIE taskspack"), ("x2_T1b.md", "ch-EIE taskspack"),
+                  ("x3_T2.md", "ch-EIE taskspack"), ("y1_sol_T1a.md", "ch-EIO taskspack"),
+                  ("y2_sol_T1b.md", "ch-EIO taskspack"), ("y3_sol_T2.md", "ch-EIO taskspack")]),
     "phrases": dict(
         src="src_pack", out="SIELE_Phrases_Always_Used.pdf", footer="SIELE · expressions that always get used", plain=True,
         kick="", title="", sub="", blurb="", chapters=[("k2_phrases.md", "ch-card phrasesheet")]),
@@ -64,7 +72,7 @@ BOOKS = {
         kick="Book 4 of 5 · speaking book", title="SIELE", sub="speaking, task by task",
         blurb="Many exam-style speaking tasks for all five tareas, each followed by a model that shows "
               "how to answer: what to say, in which order, and how long to speak.",
-        chapters=[("s0_intro.md", "ch-intro"), ("s1_T1.md", "ch-EIO"), ("s2_T2.md", "ch-EIO"),
+        chapters=[("s0_intro.md", "ch-intro"), ("s0b_toolkit.md", "ch-EIO"), ("s1_T1.md", "ch-EIO"), ("s2_T2.md", "ch-EIO"),
                   ("s3_T3.md", "ch-EIO"), ("s4_T45.md", "ch-EIO"), ("s9_credits.md", "ch-intro")]),
 }
 BOOK = BOOKS["guide"]
