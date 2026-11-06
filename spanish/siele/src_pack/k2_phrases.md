@@ -133,3 +133,40 @@ Es decir, … | That is… | S4 · S5
 :::trap Your 3 traps
 ***fui*** (I) ≠ ***fue*** (it/he) · ***hice*** ≠ *hizo* · ***el*** idioma · ***del*** cine · ***mis*** amigos · *la ciudad tranquil**a*** · food is ***rica*** (not *bonita*) · *pienso **+ inf.*** (no *de*).
 :::
+
+<div style="break-before:page"></div>
+
+## 11 · Writing Tarea 2 · your universal text
+
+Learn this text **by heart**. In the exam, only fill the blanks with the topic. The fixed part is about **140 words**; your blanks add about **110**. That gives **250 words** and covers all 4 points. **Good topic** (sport, travel…)? Write *algo muy positivo* and *lo malo es que…* instead of *el problema principal es que…*.
+
+:::model Plantilla · works for ANY topic (plastics, phones, tourism, sport, work…)
+**[Título]** ___ *(el tema)*: ¿qué podemos hacer?
+
+**1 · El tema.** Hoy en día se habla mucho de ___ *(el tema)*. Es un tema muy importante porque nos afecta a todos: a los jóvenes, a los adultos y a las familias. Según el texto, ___ *(1 idea of the text, your words)*. Por eso, mucha gente se pregunta: ¿qué podemos hacer?
+
+**2 · Mi opinión.** En mi opinión, ___ *(el tema)* es ___ *(un problema muy grave / algo muy positivo)*. Creo que ___ porque ___. Y no soy el único que piensa así.
+
+**3 · Argumentos.** Por un lado, ___. Por ejemplo, ___. Además, ___. Por otro lado, el problema principal es que ___. Por ejemplo, en mi ciudad, Kelibia, ___. Es verdad que ___, pero ___.
+
+**4 · Soluciones.** La solución no es fácil, pero hay cosas que podemos hacer. Primero, las escuelas deberían hablar de este tema con los jóvenes. Además, habría que informar más a la gente. El gobierno también debería ___. Personalmente, yo intento ___ cada día. Si no hacemos nada, la situación será peor.
+
+**5 · Conclusión.** En conclusión, creo que ___ *(your opinion again)*. Es importante que todos hagamos algo. Si cada persona hace un pequeño cambio, el futuro será mejor.
+:::
+
+:::model Example · «Los plásticos en el mar» (yellow = the only parts you change)
+**==Los plásticos en el mar==: ¿qué podemos hacer?**
+
+Hoy en día se habla mucho de ==los plásticos en el mar==. Es un tema muy importante porque nos afecta a todos: a los jóvenes, a los adultos y a las familias. Según el texto, ==la basura que tiramos al agua es un peligro para los peces y para nuestra salud==. Por eso, mucha gente se pregunta: ¿qué podemos hacer?
+
+En mi opinión, ==los plásticos en el mar son un problema muy grave==. Creo que ==la culpa es de todos== porque ==usamos demasiado plástico cada día==. Y no soy el único que piensa así.
+
+Por un lado, ==el plástico es útil y barato==. Por ejemplo, ==las botellas y las bolsas son muy prácticas==. Además, ==es fácil de usar y no pesa mucho==. Por otro lado, el problema principal es que ==el plástico no desaparece: se queda en el mar muchos años==. Por ejemplo, en mi ciudad, Kelibia, ==en verano la playa está llena de botellas y bolsas==. Es verdad que ==las empresas necesitan el plástico==, pero ==hay otros materiales==.
+
+La solución no es fácil, pero hay cosas que podemos hacer. Primero, las escuelas deberían hablar de este tema con los jóvenes. Además, habría que informar más a la gente. El gobierno también debería ==prohibir las bolsas de plástico==. Personalmente, yo intento ==usar bolsas de tela== cada día. Si no hacemos nada, la situación será peor.
+
+En conclusión, creo que ==el mar es de todos y tenemos que cuidarlo==. Es importante que todos hagamos algo. Si cada persona hace un pequeño cambio, el futuro será mejor.
+---
+- **About 255 words**, and all 4 points: *exponer · opinión · argumentos · concluir*.
+- **3 B1 boosters, already inside:** *deberían / habría que* · *Es importante que todos **hagamos*** (subjunctive) · *Si no hacemos nada, la situación **será** peor*.
+:::
