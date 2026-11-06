@@ -1,6 +1,7 @@
 # 💬 Frases que siempre se usan · Expressions that always get used
 
-These **63 expressions** work in almost every writing and speaking task. Know them, and you can start, continue and finish any task.
+These **63 expressions** work in almost every writing and speaking task. After them: **one ready-made script for every task** (writing Tareas 1–2, speaking Tareas 1–5) and **your own traps**.
+**How to learn it:** one page a day. Read each phrase aloud, cover the Spanish, say it from the English. Then say each script aloud with the timer.
 **Tags:** **W1** = Writing Tarea 1 · **W2** = Writing Tarea 2 · **S1–S5** = Speaking Tareas 1–5.
 
 ## 1 · Start: open and react
@@ -120,23 +121,25 @@ La verdad es que… | The truth is… | S1–S5
 Es decir, … | That is… | S4 · S5
 :::
 
-## ⭐ Yours: phrases that already worked for you
+## 11 · Writing Tarea 1 · your 5-step script
 
-:::icons Your corrected sentences, so reuse them
-🏖️ | *Vivo en Kelibia, una ciudad pequeña en el norte de Túnez. Es muy tranquil**a** y me encanta porque está al lado del mar.*
-🎬 | *Los fines de semana voy al cine con **mis** amigos y después cenamos en un restaurante cerca **del** cine. La comida es muy **rica**.*
-✈️ | *El verano pasado **fui** a España y **fue** estupendo. **Hice** muchas compras. **Lo que más me gustó fue** la comida. **Me encantó.***
-🎓 | *El próximo año **pienso irme a vivir a** España porque me encanta la cultura. Antes voy a terminar mi curso de español.*
-✍️ | *Tienes razón: Berlín es demasiado grande. Te propongo Kelibia, perfecta para un fin de semana.*
-:::
+:::model 100–150 words · 25 minutes · use the task's own words
+**👋** **¡Hola, ___!** *(check the name in the task!)* **¿Qué tal todo?**
 
-:::trap Your 3 traps
-***fui*** (I) ≠ ***fue*** (it/he) · ***hice*** ≠ *hizo* · ***el*** idioma · ***del*** cine · ***mis*** amigos · *la ciudad tranquil**a*** · food is ***rica*** (not *bonita*) · *pienso **+ inf.*** (no *de*).
+**📋** **Te escribo porque he visto / he leído tu mensaje y** ___.
+
+**2–4 · one paragraph per point, with the task's verb:** *proponer* → **Te propongo** ___ · *aconsejar* → **Te lo / te la recomiendo porque** ___ · *describir* → **Es** ___ **y** ___. **Lo que más me gusta es** ___ **porque** ___ · *contar una experiencia* → **El verano pasado fui a** ___. **Hacía** ___. **Al final,** ___. **¡Fue genial!**
+
+**👋** **Espero que te guste. Escríbeme pronto. Un abrazo,** Aziz
+
+*Usted (an ad, a company):* **Estimado/a señor/a:** · **Le escribo porque** ___ · **Un cordial saludo.**
+
+*Last 3 minutes:* capitals · **¡ ¿** · accents · ***me / te* before the verb**.
 :::
 
 <div style="break-before:page"></div>
 
-## 11 · Writing Tarea 2 · your universal text
+## 12 · Writing Tarea 2 · your universal text
 
 Learn this text **by heart**. In the exam, only fill the blanks with the topic. The fixed part is about **140 words**; your blanks add about **110**. That gives **250 words** and covers all 4 points. **Good topic** (sport, travel…)? Write *algo muy positivo* and *lo malo es que…* instead of *el problema principal es que…*.
 
@@ -169,4 +172,102 @@ En conclusión, creo que ==el mar es de todos y tenemos que cuidarlo==. Es impor
 ---
 - **About 255 words**, and all 4 points: *exponer · opinión · argumentos · concluir*.
 - **3 B1 boosters, already inside:** *deberían / habría que* · *Es importante que todos **hagamos*** (subjunctive) · *Si no hacemos nada, la situación **será** peor*.
+:::
+
+<div style="break-before:page"></div>
+
+## 13 · Speaking · one script per tarea
+
+:::model Tarea 1 · 4 questions · 15 · 15 · 30 · 30 s
+**Copy the question's verb → 1 detail → *porque* → a feeling.** Finish at 13 s and 28 s.
+
+*¿Qué ha comprado…?* → **He comprado** ___. **Lo he comprado en** ___. **Es** ___ **y me encanta porque** ___.
+
+*¿Cómo era…?* → **Cuando era pequeño, mi casa era** ___ **y estaba en** ___. **Había** ___. **Me encantaba** ___.
+
+*¿Qué va a hacer…?* → **Voy a** ___. **Luego voy a** ___. **Me gustaría** ___. **¡Tengo muchas ganas!**
+:::
+
+:::model Tarea 2 · the photo · PASEO · up to 2 min
+**En la foto hay** ___ **personas. Creo que son** ___ *(una familia, amigos, compañeros)*.
+
+**A la izquierda hay** un/una ___. **Es** ___ *(joven, mayor, rubio, moreno)* **y lleva** ___.
+
+**En el centro está** el/la ___. **A la derecha están** ___.
+
+**Parece que están** ___ *(paseando, hablando, riendo)*. **Están muy contentos.**
+
+**Están en** ___. **Hace sol y buen tiempo. Seguramente es verano.**
+
+**No hay muchos objetos, pero se ve(n)** ___.
+
+**Me encanta esta foto porque me recuerda a** ___.
+:::
+
+:::model Tarea 3 · a message to a friend · tú · 1:30
+**¡Hola, ___! Soy Aziz. Te llamo porque** ___.
+
+**Muchas gracias por** ___. **Es muy amable de tu parte.** · **Lo siento mucho, de verdad, pero no puedo** ___.
+
+**Te explico: es que** ___. **Pero no te preocupes:** ___.
+
+**¿Qué te parece si** ___? · **Si te interesa, llámame o escríbeme.** · **Podemos quedar en** ___.
+
+**¡Felices fiestas! · ¡Que lo pases muy bien!** **Un abrazo muy fuerte. ¡Hasta pronto!**
+:::
+
+:::model Tarea 3 · a call to a company, shop or agency · usted · 1:30
+**Buenos días. Me llamo Aziz. Le llamo porque** ___.
+
+**Quería** ___. **Nos gustaría** ___. **Preferimos** ___. **Para mí es importante** ___.
+
+**A complaint:** **Le explico lo que ha pasado:** ___. **Estoy muy molesto: no me parece normal. Es un problema muy grave para mí porque** ___. **Quiero que me devuelvan el dinero lo antes posible.**
+
+**¿Me podría decir / enviar** ___? **Si quiere, puedo enviarle** ___. **Si necesita más información, puede llamarme.**
+
+**Muchas gracias por su atención. Un saludo.**
+:::
+
+:::model Tarea 4 · 3 questions · 1 min each
+**Formula: sí / no → porque → por ejemplo → por eso.** Start with the question's own words.
+
+*¿Piensa que…?* → **Es una buena pregunta. En mi opinión, sí / no, porque** ___. **Por ejemplo, en mi caso,** ___. **Por eso creo que** ___.
+
+*¿Conoce algún caso…? ¿A qué se debe?* → **No conozco ningún caso personalmente, pero en las noticias a veces hablan de** ___. **En mi opinión, se debe a varias cosas:** ___.
+
+*¿Qué solución…?* → **La solución no es fácil, pero hay cosas que podemos hacer. Primero,** ___. **Además,** ___. **Es importante que todos hagamos algo.**
+:::
+
+:::model Tarea 5 · your opinion · 2 min to prepare · speak 2–3 min
+**La frase dice que** ___. **Yo estoy de acuerdo solo en parte.**
+
+**Por un lado, es verdad que** ___. **Además,** ___.
+
+**Por otro lado, el problema principal es que** ___.
+
+**Por ejemplo, en mi caso,** ___.
+
+**En conclusión, creo que** ___. **Es importante que todos** ___.
+
+*The same phrases as your Writing Tarea 2 text: learn them once, use them 3 times.*
+:::
+
+## ⭐ Yours: your sentences and your traps
+
+:::icons Your corrected sentences, so reuse them
+🏖️ | *Vivo en Kelibia, una ciudad pequeña en el norte de Túnez. Es muy tranquil**a** y me encanta porque está al lado del mar.*
+✈️ | *El verano pasado **fui** a España y **fue** estupendo. **Hice** muchas compras. **Lo que más me gustó fue** la comida. **Me encantó.***
+🎓 | *El próximo año **pienso irme a vivir a** España para hacer un máster. Antes voy a terminar mi curso de español.*
+🏠 | *Cuando era pequeño, mi casa **era** muy grande y **estaba en el** campo. Había un jardín grande. **Me encantaba** jugar allí.*
+🍝 | *Mi comida favorita es la lasaña. Mi madre **la** hace muy **rica**.*
+🎬 | *Se llama Lupin y estoy seguro de que **te va a gustar**. **Me encantó.** **Te la recomiendo** porque es muy emocionante.*
+💼 | *Le llamo porque he visto su oferta y estoy muy interesado. El restaurante **está** muy cerca de mi casa.*
+:::
+
+:::trap Your traps (found in your own texts and recordings)
+- **WHERE → *está*:** *el restaurante **está** cerca · **está** a la izquierda · **estaba en** el campo*. **What it's like → *es / era*:** *mi casa **era** grande*. **Hay un…** but **está el…**
+- ***me / te* BEFORE the verb:** ***te** voy a proponer · **te** va a gustar · **me** encantó*. And ***no*** before the verb: ***no es** bueno*.
+- **Agreement:** *alimentos que **son buenos** · **la** salud · **el** problema · terraza acogedor**a** · un jardín*
+- *fui* (I) ≠ *fue* (it) · *hice* · food is ***rica*** · *pienso **+ inf.*** · *trabajar como camarero* (no *un*) · ***animar a*** (not *encoger*) · ***reducir el consumo***
+- **Check the name** in the task (Sofía ≠ María). **Keep one register** to the end: *usted* → ***dígame***, not *dime*.
 :::
