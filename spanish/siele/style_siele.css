@@ -392,3 +392,9 @@ blockquote{margin:3mm 0; padding:2mm 4mm; border-left:4px solid var(--c-mid); ba
 .t3card .model .mb p{margin:.4mm 0}
 .t3card .card li,.t3card .checklist li{margin:.3mm 0}
 .t3card th strong,.t3card th b{color:#fff}
+.w1card table{font-size:8.7pt; margin:.8mm 0 1.4mm}
+.w1card td{padding:.7mm 2mm; line-height:1.27}
+.w1card h2{margin:1.6mm 0 .8mm}
+.w1card p{margin:.8mm 0}
+.w1card .card{padding-top:2mm; padding-bottom:2mm}
+.w1card table:last-of-type th:first-child,.w1card table:last-of-type td:first-child{width:50%}
