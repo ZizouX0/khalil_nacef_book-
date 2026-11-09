@@ -64,6 +64,9 @@ BOOKS = {
     "card": dict(
         src="src_card", out="SIELE_Survival_Card.pdf", footer="SIELE · survival card", plain=True,
         kick="", title="", sub="", blurb="", chapters=[("card1.md", "ch-card"), ("card2.md", "ch-card")]),
+    "t3": dict(
+        src="src_card", out="SIELE_Speaking_Tarea3_One_Page.pdf", footer="SIELE · speaking Tarea 3 on one page", plain=True,
+        kick="", title="", sub="", blurb="", chapters=[("t3_speaking.md", "ch-card ch-EIO t3card")]),
     "start": dict(
         src="src_start", out="SIELE_0_Start_Here.pdf", footer="SIELE in 7 days · 0 Start here", plain=True,
         kick="", title="", sub="", blurb="", chapters=[("00_materials.md", "ch-intro")]),

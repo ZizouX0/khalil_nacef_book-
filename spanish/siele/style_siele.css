@@ -379,3 +379,16 @@ blockquote{margin:3mm 0; padding:2mm 4mm; border-left:4px solid var(--c-mid); ba
 .taskspack .lines{break-before:page; border-top:none; margin-top:0}
 .taskspack .lines::before{content:"✍️ Your text · write here, then count your words and tick the guide"; display:block;
   font-family:var(--head); font-weight:900; font-size:11pt; color:var(--c); padding-bottom:2mm; border-bottom:1px solid #cbd5e1}
+
+/* ---------------------------------------------------------------- one-page speaking Tarea 3 card */
+.t3card{font-size:8.9pt}
+.t3card .opener{padding:2.5mm 6mm; margin-bottom:2mm}
+.t3card h2{margin:2mm 0 1mm}
+.t3card table{font-size:8.4pt; margin:1mm 0 1.5mm; table-layout:fixed}
+.t3card th{padding:1.1mm 2mm}
+.t3card td{padding:.75mm 2mm; line-height:1.3}
+.t3card th:first-child,.t3card td:first-child{width:23mm; white-space:nowrap}
+.t3card .flow,.t3card .model,.t3card .card,.t3card .checklist{margin:1.5mm 0}
+.t3card .model .mb p{margin:.4mm 0}
+.t3card .card li,.t3card .checklist li{margin:.3mm 0}
+.t3card th strong,.t3card th b{color:#fff}
