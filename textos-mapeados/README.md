@@ -15,7 +15,7 @@ hace el trabajo: copiar la lista no sirve, producir sí.
 
 | Hoja | Unidad | Texto |
 |---|---|---|
-| [`u1-act2-texto-mapeado.pdf`](u1-act2-texto-mapeado.pdf) | Unidad 1 · *Prohibido prohibir* | Actividad 2 — los **dos** textos juntos: 🇦🇷 «…en Buenos Aires» (MAP) y 🇪🇸 «…en España» (ALT MAP) |
+| [`u1-act2-texto-mapeado.pdf`](u1-act2-texto-mapeado.pdf) | Unidad 1 · *Prohibido prohibir* | Actividad 2 — **versión peninsular**: todo el léxico útil de los dos textos (MAP + ALT MAP), pasado al español de España, con un aviso de los argentinismos que aparecen en el libro |
 
 ## Cómo usarlas
 
@@ -28,3 +28,11 @@ hace el trabajo: copiar la lista no sirve, producir sí.
    preposición. Punto rojo a lo que falles.
 5. **Usa al menos 10 bloques en la tarea final de la unidad.** Ahí es donde se
    fija de verdad.
+
+## Nota sobre la variedad
+
+Estas hojas están en **español de España** (peninsular), que es la variedad del
+DELE que preparo. Cuando el texto del libro es de otra variedad, su léxico
+general —que casi siempre es español estándar— se conserva, y solo los rasgos
+realmente dialectales se pasan al peninsular y se recogen aparte en un recuadro
+rojo, para reconocerlos al leer el libro sin aprenderlos como norma.
